@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bluewater Sailboat Comparison — Patagonia to Polynesia</title>
+<style>
+:root{
+  color-scheme: light;
+  --navy:#0d2238; --navy2:#16344f; --teal:#0e7c86; --teal2:#13a3ad;
+  --sand:#f4efe6; --ink:#1d2733; --muted:#5b6b7b; --line:#dfe5ec;
+  --good:#1f8a5b; --mid:#c98a16; --warn:#c0492f; --card:#ffffff;
+  --chip:#eef3f7; --shadow:0 6px 24px rgba(13,34,56,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#eef4f8 0%, #f6f8fa 100%);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--teal)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+
+header.hero{background:linear-gradient(135deg,var(--navy) 0%, var(--navy2) 55%, var(--teal) 140%);color:#eaf3f7;padding:34px 0 26px}
+header.hero h1{margin:0 0 6px;font-size:30px;letter-spacing:.2px}
+header.hero .sub{color:#bcd3df;font-size:15px;max-width:780px}
+.mission{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.mission .m{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);padding:6px 11px;border-radius:20px;font-size:12.5px;color:#e6f1f6}
+.mission .m b{color:#fff}
+
+.controls{position:sticky;top:0;z-index:40;background:rgba(246,248,250,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 0;margin-bottom:22px}
+.controls .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.controls label{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+select,input[type=search]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink)}
+input[type=search]{min-width:190px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{cursor:pointer;border:1px solid var(--line);background:#fff;padding:6px 11px;border-radius:18px;font-size:12.5px;color:var(--muted);user-select:none}
+.chip.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.viewtoggle{margin-left:auto;display:flex;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.viewtoggle button{font:inherit;border:0;background:#fff;padding:8px 14px;cursor:pointer;color:var(--muted);font-weight:600}
+.viewtoggle button.active{background:var(--teal);color:#fff}
+.count{font-size:12.5px;color:var(--muted);margin:2px 0 14px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px;margin-bottom:40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);cursor:pointer;transition:transform .12s ease,box-shadow .12s ease;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(13,34,56,.16)}
+.card .top{padding:16px 16px 12px;color:#fff;position:relative;min-height:96px}
+.card .rank{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:50%;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+.card .name{font-size:20px;font-weight:700;margin:0;padding-right:42px}
+.card .builder{font-size:12.5px;opacity:.9;margin-top:2px}
+.svgboat{position:absolute;right:14px;bottom:8px;opacity:.22}
+.card .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:11px;flex:1}
+.fit{display:flex;align-items:center;gap:12px}
+.ring{flex:0 0 auto}
+.fit .fitlabel{font-size:12px;color:var(--muted)}
+.fit .fitval{font-size:15px;font-weight:700;color:var(--navy)}
+.cardbest{font-size:12.5px;color:var(--muted);font-style:italic;line-height:1.45}
+.specrow{display:flex;flex-wrap:wrap;gap:6px}
+.specrow .s{background:var(--chip);border-radius:7px;padding:5px 8px;font-size:12px;color:var(--ink)}
+.specrow .s b{color:var(--muted);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:11px;padding:3px 8px;border-radius:12px;background:#eaf6f3;color:#0b6b5e;border:1px solid #cfeae3}
+.tag.warnt{background:#fdeee9;color:#a33b25;border-color:#f6d3c8}
+.pricep{font-size:13px}
+.pricep b{color:var(--navy)}
+.budge{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:12px;display:inline-block}
+.b-fit{background:#e7f5ee;color:var(--good)}
+.b-tight{background:#fbf1dc;color:var(--mid)}
+.b-over{background:#fbe6e0;color:var(--warn)}
+
+.tablewrap{overflow-x:auto;margin-bottom:40px;border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:1050px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--navy);color:#fff;position:sticky;top:0;font-size:12px;text-transform:uppercase;letter-spacing:.03em;cursor:pointer}
+th:hover{background:var(--navy2)}
+tbody tr{cursor:pointer}
+tbody tr:nth-child(even){background:#f8fafc}
+tbody tr:hover{background:#eef6f5}
+td .nm{font-weight:700;color:var(--navy)}
+.mini{display:inline-block;height:8px;border-radius:4px;background:var(--teal);vertical-align:middle}
+
+.overlay{position:fixed;inset:0;background:rgba(13,34,56,.55);display:none;align-items:flex-start;justify-content:center;z-index:100;padding:30px 16px;overflow-y:auto}
+.overlay.open{display:flex}
+.modal{background:#fff;max-width:920px;width:100%;border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.modal .mhead{padding:22px 26px;color:#fff;position:relative}
+.modal .mhead h2{margin:0;font-size:25px}
+.modal .mhead .mb{font-size:13.5px;opacity:.92;margin-top:3px}
+.modal .close{position:absolute;top:16px;right:18px;background:rgba(255,255,255,.2);border:0;color:#fff;width:34px;height:34px;border-radius:50%;font-size:20px;cursor:pointer;line-height:1}
+.modal .mbody{padding:22px 26px 28px}
+.bestfor{background:linear-gradient(90deg,#eef7f5,#f6fbfa);border:1px solid #d6ebe6;border-left:4px solid var(--teal);border-radius:0 10px 10px 0;padding:11px 15px;font-size:14.5px;margin-bottom:16px}
+.bestfor b{color:var(--teal)}
+.msec{margin-bottom:22px}
+.msec h3{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--teal);margin:0 0 10px;border-bottom:2px solid #eef3f7;padding-bottom:6px}
+.spectable{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px 18px}
+.spectable .kv{font-size:13px;border-bottom:1px dotted var(--line);padding:4px 0;display:flex;justify-content:space-between;gap:10px}
+.spectable .kv span:first-child{color:var(--muted)}
+.spectable .kv span:last-child{font-weight:600;text-align:right}
+.detgrid .kv{align-items:flex-start}
+.detgrid .kv span:first-child{flex:0 0 38%}
+.detgrid .kv span:last-child{font-weight:400;text-align:left}
+.bars .bar{margin-bottom:9px}
+.bars .bl{display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:3px}
+.bars .bl span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+.track{height:9px;background:#eef3f7;border-radius:5px;overflow:hidden}
+.fillb{height:100%;border-radius:5px;background:linear-gradient(90deg,var(--teal),var(--teal2))}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.pc ul{margin:0;padding-left:18px}
+.pc li{margin-bottom:6px;font-size:13.5px}
+.pc .pros h4{color:var(--good)} .pc .cons h4{color:var(--warn)}
+.pc h4{margin:0 0 8px;font-size:13px}
+.funlist{margin:0;padding-left:18px}
+.funlist li{margin-bottom:6px;font-size:13.5px}
+.plist{margin:6px 0 0;padding-left:18px}
+.plist li{font-size:13px;margin-bottom:5px}
+.yt{display:flex;flex-direction:column;gap:8px}
+.yt a{display:flex;align-items:center;gap:10px;text-decoration:none;border:1px solid var(--line);border-radius:9px;padding:9px 12px;color:var(--ink);font-size:13.5px;transition:background .12s}
+.yt a:hover{background:#fef4f4;border-color:#f3cfcf}
+.ytic{flex:0 0 auto;width:26px;height:19px;background:#ff0000;border-radius:5px;position:relative}
+.ytic:after{content:"";position:absolute;left:9px;top:4px;border-left:8px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}
+.yt .ytmeta b{display:block}
+.yt .ytmeta small{color:var(--muted)}
+.note{font-size:13px;color:var(--muted);background:#f8fafc;border-left:3px solid var(--teal);padding:10px 14px;border-radius:0 8px 8px 0}
+
+footer{background:var(--navy);color:#bcd3df;padding:26px 0 40px;font-size:12.5px;margin-top:10px}
+footer h4{color:#fff;margin:0 0 8px;font-size:13px}
+footer a{color:#7fd0d8}
+.disclaimer{font-size:11.5px;color:#90a7b6;margin-top:14px;line-height:1.6}
+@media(max-width:680px){.pc{grid-template-columns:1fr}.controls .row{gap:8px}.viewtoggle{margin-left:0}.detgrid .kv{flex-direction:column}.detgrid .kv span:first-child{flex:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>⛵ Bluewater Cruiser Comparison</h1>
+    <div class="sub">Thirteen serious offshore monohulls weighed against one mission: a two-handed couple plus two dogs, a strongly protected cockpit, easy short-handed handling, a real workshop, long range — and a route from cold Patagonia &amp; Chile to the tropical Caribbean, BVI and French Polynesia. Budget: under <b>$1M</b> fully outfitted. Click any boat for the full profile.</div>
+    <div class="mission">
+      <span class="m"><b>Crew:</b> 2 + 2 dogs</span>
+      <span class="m"><b>Must-have:</b> protected cockpit</span>
+      <span class="m"><b>Handling:</b> easy for a smaller / less-strong crew</span>
+      <span class="m"><b>Want:</b> workshop + easy engine access</span>
+      <span class="m"><b>Range:</b> ocean-crossing tankage</span>
+      <span class="m"><b>Climate:</b> high latitude + tropics</span>
+      <span class="m"><b>Budget:</b> &lt; $1M ready-to-sail</span>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <label>Sort</label><br>
+        <select id="sort">
+          <option value="fit">Mission fit (best first)</option>
+          <option value="priceLow">Price (low → high)</option>
+          <option value="priceHigh">Price (high → low)</option>
+          <option value="draft">Shoalest draft</option>
+          <option value="protection">Most protected cockpit</option>
+          <option value="handling">Easiest to handle</option>
+          <option value="range">Most range/tankage</option>
+          <option value="name">Name (A–Z)</option>
+        </select>
+      </div>
+      <div>
+        <label>Search</label><br>
+        <input type="search" id="search" placeholder="name, builder, keyword…">
+      </div>
+      <div style="flex:1">
+        <label>Filter</label>
+        <div class="chips" id="chips">
+          <span class="chip active" data-f="all">All</span>
+          <span class="chip" data-f="alu">Aluminium hull</span>
+          <span class="chip" data-f="grp">GRP hull</span>
+          <span class="chip" data-f="lift">Lifting keel / centreboard</span>
+          <span class="chip" data-f="pilot">Pilothouse / hard shelter</span>
+          <span class="chip" data-f="budget">Fits under $1M</span>
+        </div>
+      </div>
+      <div class="viewtoggle">
+        <button id="vGrid" class="active">Cards</button>
+        <button id="vTable">Table</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="tablewrap" id="tablewrap" style="display:none">
+    <table id="table">
+      <thead><tr>
+        <th data-k="missionFit">Boat / Fit ▾</th>
+        <th data-k="material">Hull</th>
+        <th data-k="cockpit">Cockpit</th>
+        <th data-k="loaN">LOA</th>
+        <th data-k="draftMinN">Draft</th>
+        <th data-k="fuelN">Fuel</th>
+        <th data-k="waterN">Water</th>
+        <th data-k="protection">Protect</th>
+        <th data-k="handling">Easy</th>
+        <th data-k="budgetN">Budget</th>
+        <th data-k="priceText">Price (USD)</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+
+<footer>
+  <div class="wrap">
+    <h4>How the "mission fit" score works</h4>
+    Each boat is rated 1–5 on nine factors, then weighted toward what this couple emphasised most: cockpit protection (×1.5) and short-handed ease (×1.5) carry the most weight, high-latitude capability ×1.25, tropical comfort ×0.75, and dog-friendliness, workshop/engine access, storage, tankage/range and budget fit each ×1.0. The headline percentage is that weighted average out of 5.
+    <div class="disclaimer">
+      Scores are editorial judgements synthesised from builder data, magazine reviews (Yachting World, SAIL, Cruising World, Yachting Monthly, Practical Sailor), SailboatData, the Attainable Adventure Cruising archive and live brokerage listings — a starting point for your own sea-trials and surveys, not gospel. Prices are approximate USD ranges as of mid-2026 and move with the market and exchange rates; several models are sold in euros. The Kraken 44 and Ovni 490 are brand-new designs with little or no used market yet, so owner-video coverage is thin and budget fit is tight. Always confirm specs, draft options and outfitting on the specific hull you're considering. Built June 2026.
+    </div>
+  </div>
+</footer>
+
+<script>
+const WEIGHTS={protection:1.5,handling:1.5,dogs:1,workshop:1,storage:1,tankage:1,highlat:1.25,tropical:0.75,budget:1};
+const DIMS=[
+  ["protection","Cockpit protection"],["handling","Short-handed ease"],["dogs","Dog-friendliness"],
+  ["workshop","Workshop & engine access"],["storage","Storage"],["tankage","Tankage & range"],
+  ["highlat","High-latitude capability"],["tropical","Tropical comfort"],["budget","Budget fit (<$1M)"]
+];
+function fit(s){let t=0,w=0;for(const k in WEIGHTS){t+=s[k]*WEIGHTS[k];w+=WEIGHTS[k];}return Math.round((t/w)/5*100);}
+
+const BOATS=[
+{
+ id:"boreal", name:"Boréal 47.2", builder:"Boréal Yachts · France", designer:"Jean-François Delvoye (in-house)",
+ color:"#1d4e6b", years:"2020–present", material:"Aluminium",
+ loa:`47'3" (14.39 m)`, loaN:14.39, lwl:`41'9" (12.73 m)`, beam:`14'5" (4.39 m)`,
+ draftMin:`3'7" (1.08 m) board up`, draftMinN:1.08, draftMax:`8'2" (2.48 m) board down`,
+ displacement:`13,650 kg / 30,093 lb (light)`, ballast:`3,850 kg lead`, ballastRatio:`~28%`,
+ sailArea:`93.8 m² / 1,010 ft²`, sad:`~16.7`, dl:`~184`,
+ keel:`Aluminium centreboarder with a broad "keel embryo" grounding base + twin daggerboards`,
+ cockpit:"Aft cockpit (twin wheels) with a hard, full-height doghouse coachroof",
+ cockpitType:"Aft + hard doghouse",
+ bestFor:"The couple who put cold-weather shelter and proven expedition pedigree first, and want a hard doghouse without going to a full pilothouse.",
+ protectionText:"Class-leading. A hard, secure doghouse with a deep bucket seat, full-height watertight door and a roof that shelters the forward cockpit — you can keep warm watch and con the boat from inside via autopilot remote. Exactly what cold, wet Patagonia demands.",
+ rig:"Cutter-ready sloop: slightly-overlapping genoa plus a furling (or hanked) staysail on a removable inner forestay; slab main with single-line reefing led aft; powerful vang instead of a traveller; granny bars at the mast.",
+ handlingText:"Built around a powerful (electric on test) central cockpit winch reachable from the helm; single-line slab reefing led aft, and an easy genoa-to-staysail change as wind builds. Every sheet can be routed to the big electric winch — a real asset for a smaller crew. You still step into the working cockpit to reef.",
+ engineWorkshop:"Good central engine access; the starboard aft cabin can be optioned as a dedicated technical/workshop room. Not a full walk-in engine room, but sensibly engineered with everything low and central.",
+ storageText:"\"A mass of stowage everywhere\" — lockers under every bunk and settee, a cavernous forward sail locker, a massive twin-opening aft lazarette, plus a gas locker holding months of cooking fuel.",
+ systems:"Expedition norms: lithium bank, 500 W+ flexible solar on the doghouse/coachroof, watermaker, diesel heating and a below-deck protected windlass. Two 13 kg gas bottles give months of cooking autonomy.",
+ fuel:`600 L / 158 gal`, fuelN:600, water:`638 L / 168 gal`, waterN:638,
+ rangeText:"~800–1,200 nm motoring (estimate); tankage upgrades offered. Watermaker standard on expedition spec.",
+ accommodation:"Owner's cabin forward with en-suite, saloon offset to port, two configurable aft cabins (one often a workshop). Low aluminium freeboard, beachable hull and a clear transom passage between the wheels make dog landings and boarding easy.",
+ highLatText:"Best-in-class. Aluminium ice-breaking stem, watertight bulkheads, 1.08 m shoal draft to tuck into rock anchorages and dry out upright, and the hard doghouse for warmth. The concept was born from the co-owner's Patagonia and Antarctic voyages.",
+ tropicalText:"Strong — the larger 47.2 cockpit works as well in the tropics as up high, and shoal draft is welcome over reefs. Aluminium + doghouse can run warm; spec good awnings, ventilation or A/C.",
+ priceText:"$590k–$930k", priceNew:"Base ~$590k–$650k; optioned new ~$760k–$930k", priceUsed:"Thin supply; clean used/lightly-optioned new achievable under $1M", budget:"fit", budgetN:1, budgetText:"Fits — generally more headroom under $1M than the Kraken or Ovni 490.",
+ priceExamples:["New base ~€541k ex-VAT; optioned new ~€700k–€850k","2023 \"Narval\" 47.2 listed via Berthon International (since sold/under offer)","Sister Boréal 52 \"Bravo\" (2020) listed ~€885k / ~$1.02M — shows where the bigger boat sits"],
+ scores:{protection:5,handling:4,dogs:4.5,workshop:4,storage:5,tankage:4.5,highlat:5,tropical:4,budget:4.5},
+ tags:["Hard doghouse","Aluminium centreboard","Patagonia-proven","Dries out"],
+ fun:["European Yacht of the Year 2021 (Bluewater Cruiser).","The whole concept grew out of the founder's six-year family circumnavigation.","Owners of the predecessor Boréal 47 (\"Sir-Ernst\") sailed it to South Georgia and Antarctica in Shackleton's wake."],
+ notable:"Sir-Ernst (Boréal 47) — South Georgia, Antarctica, the Drake Passage, Lofoten and ocean crossings.",
+ youtube:[
+   {name:"Sir-Ernst",url:"https://www.youtube.com/@sir-ernst1843",note:"Owners of a Boréal 47 to Antarctica & the Drake (predecessor of the 47.2)"},
+   {name:"Boat tour — Boréal 47.2",url:"https://www.youtube.com/watch?v=GcWwXXkY3xE",note:"Owner walkthrough of an actual 47.2"},
+   {name:"\"Is a pilot house worth it?\"",url:"https://www.youtube.com/watch?v=uufUfXRH0cg",note:"Owner discussion of the 47.2 doghouse"}
+ ]
+},
+{
+ id:"garcia", name:"Garcia Exploration 45", builder:"Garcia Yachts · France", designer:"Berret-Racoupeau with Jimmy Cornell",
+ color:"#205e52", years:"2014–present", material:"Aluminium",
+ loa:`46'6" (14.21 m)`, loaN:14.21, lwl:`41'2" (12.57 m)`, beam:`14'6" (4.44 m)`,
+ draftMin:`3'9" (1.14 m) board up`, draftMinN:1.14, draftMax:`9'6" (2.90 m) board down`,
+ displacement:`14,612 kg / 32,214 lb`, ballast:`4,540 kg`, ballastRatio:`~32%`,
+ sailArea:`91 m² / 979 ft²`, sad:`~15.9`, dl:`~208`,
+ keel:`Integral aluminium centreboard retracting fully into the bilge; flat grounding-plate hull; twin rudders`,
+ cockpit:"Aft cockpit with a raised deck-saloon and rigid IMOCA-style hardtop \"cap\" over the twin helms",
+ cockpitType:"Aft + hardtop / deck saloon",
+ bestFor:"The high-latitude-first couple who want Jimmy Cornell's expedition recipe — aluminium, beachable, with a real workshop — and can find a used one under $1M.",
+ protectionText:"Very well protected — the hardtop cap shelters the seated helm, and the insulated, double-glazed raised saloon gives 270° visibility so you can stand watch from inside in the warmth. Excellent for cold water, though not as fully enclosing as the Amel's center cockpit.",
+ rig:"Sloop/cutter with furling genoa and a staysail; slab or in-mast main per owner spec; twin rudders for sure steering in big seas; push-button centreboard; all controls led to the protected cockpit.",
+ handlingText:"All controls led to the protected cockpit; twin rudders give light, sure steering in big seas; push-button centreboard. Pete Goss and Jimmy Cornell both call it easily handled two-handed — but spec electric winches/easy furling to make it effortless for a smaller crew.",
+ engineWorkshop:"A standout: a dedicated workshop / technical room with bench, tool and spares stowage, plus easy access to engine, generator, watermaker and pumps. Built for remote self-sufficiency.",
+ storageText:"Abundant — deep aluminium bilges (the board tucks away without stealing storage), large lockers, dedicated spares/tool stowage and watertight crash compartments.",
+ systems:"Built for autonomy: watermaker, solar, wind and/or hydro generators, lithium, diesel heating, and an insulated double-glazed deck saloon — weeks of self-sufficiency.",
+ fuel:`700 L / 185 gal`, fuelN:700, water:`500 L / 132 gal`, waterN:500,
+ rangeText:"~900–1,200 nm motoring; routinely fitted with watermaker, solar, wind and/or hydro for weeks of autonomy.",
+ accommodation:"2–3 cabins, 1–2 heads, master en-suite, dedicated sea berth, insulated/heated interior. Shoal draft and the ability to beach make dog shore-access easy; lower freeboard aids boarding. Tighter volume than the Amel.",
+ highLatText:"The purpose-built high-latitude boat. Aluminium shrugs off rock and ice, the lifting board + beachable hull let you anchor in shallow rocky coves and dry out for repairs, and the heated deck saloon is ideal for cold passages.",
+ tropicalText:"Equally capable — 1.14 m shoal draft opens up BVI/Polynesian thin water, and raw aluminium runs cool and benign in the heat.",
+ priceText:"$700k–$1.2M", priceNew:"~$1.1–1.2M new, typically equipped", priceUsed:"Used ~$700k–$1.04M", budget:"fit", budgetN:1, budgetText:"Fits — a used Exploration 45 is comfortably attainable, fully outfitted, under $1M.",
+ priceExamples:["New ~€1,095,000 (2025) typically equipped","2019 \"Wings of Desire\" — ~$875,000 (Swiftsure Yachts)","2021–2025 boats roughly $725k–$1.04M depending on spec"],
+ scores:{protection:4,handling:4,dogs:4.5,workshop:5,storage:4.5,tankage:4.5,highlat:5,tropical:4.5,budget:4},
+ tags:["Aluminium centreboard","Real workshop","Jimmy Cornell design","Dries out"],
+ fun:["Co-designed by Jimmy Cornell — founder of the ARC rally — as his ideal go-anywhere yacht.","Cornell's own Aventura IV was an Exploration 45 used to attempt the Northwest Passage.","You can deliberately beach it to scrub or inspect the hull between tides."],
+ notable:"Jimmy Cornell's Aventura IV (Northwest Passage attempt, extensive high-latitude voyaging); reviewed and sailed by Pete Goss.",
+ youtube:[
+   {name:"Garcia Yachts (official)",url:"https://www.youtube.com/c/GarciaYachts_official/videos",note:"Tours and walkthroughs"},
+   {name:"A Ticket to Rove",url:"https://www.youtube.com/playlist?list=PLV1Qq_A0WXZTYWFsIYOfbAensBM6WxIMK",note:"Owner cruising series aboard an Exploration 45"},
+   {name:"Pete Goss — full boat tour",url:"https://www.youtube.com/watch?v=5_hyr4CUSLs",note:"Complete tour with the round-the-world sailor"},
+   {name:"Yachting Monthly review (with Jimmy Cornell)",url:"https://www.youtube.com/watch?v=nxPZZd24-lk",note:"Magazine sea-trial review"}
+ ]
+},
+{
+ id:"ovni490", name:"Ovni 490", builder:"Alubat · France", designer:"Mortain·Mavrikios with CBA",
+ color:"#3a4a63", years:"2024–present", material:"Aluminium",
+ loa:`52'4" (15.95 m)`, loaN:15.95, lwl:`45'10" (13.98 m)`, beam:`15'9" (4.80 m)`,
+ draftMin:`3'3" (1.0 m) keel up`, draftMinN:1.0, draftMax:`10'2" (3.10 m) keel down`,
+ displacement:`21,000 kg / 46,300 lb (max loaded)`, ballast:`Lifting keel 480 kg + internal ballast`, ballastRatio:`form-stable hull`,
+ sailArea:`129 m² / 1,389 ft² (upwind)`, sad:`n/a`, dl:`n/a`,
+ keel:`All-aluminium lifting keel / centreboard to 1.0 m; broad beam, take-the-ground hull; watertight bulkheads`,
+ cockpit:"Integrated aluminium pilothouse / deck saloon with watertight door + inside steering, plus an aft twin-helm cockpit",
+ cockpitType:"Pilothouse + aft helm",
+ bestFor:"The couple who want the most protected, biggest-tanked, get-home-redundant aluminium expedition boat — and have the budget to buy new.",
+ protectionText:"The headline feature: a true sheltered inside steering/watch station with 360° view, sealable for foul weather, behind an open sailing cockpit. By far the most weather-protected boat here for cold, wet high-latitude watches.",
+ rig:"Solent rig (large furling headsail + self-tacking-friendly inner stay) keeps sail changes simple; lines routed aft through two channels with winches at the companionway sides; routing configurable for small crews.",
+ handlingText:"Explicitly built to \"sail with two protected in the pilothouse.\" Solent rig keeps sail changes simple, lines routed aft, line routing configurable for small crews. The weaker crew member can stand watch and trim from shelter — a big ergonomic win.",
+ engineWorkshop:"Dedicated technical space accessible from both cockpit and interior — excellent systems access and a built-in workshop/utility zone. First hull spec'd twin electric motors; twin 50 hp diesel shafts add docking control and get-home redundancy.",
+ storageText:"Abundant — three-cabin layout still fits a washing machine and freezer, a dedicated foul-weather-gear locker, plus several large on-deck stowage spaces.",
+ systems:"First hull: twin 20 kW electric motors + 50 kWh lithium + generator, with 1,600 W solar; dedicated foul-weather-gear locker. Watermaker is the expedition norm.",
+ fuel:`1,000 L / 264 gal`, fuelN:1000, water:`600 L / 158 gal`, waterN:600,
+ rangeText:"Biggest fuel here — long motoring range; first hull carried 1,600 W solar. Watermaker is the expedition norm.",
+ accommodation:"3 cabins + pilothouse living/watch space; the sealable pilothouse is somewhere dogs can shelter in cold/rough passages. Enormous protected indoor volume — arguably the most dog-and-cold-weather-friendly interior here.",
+ highLatText:"Best-in-class. All-aluminium hull AND deck, lifting keel to 1.0 m, can take the ground, sealed pilothouse for warmth, twin-engine redundancy. Ovnis are a staple of Patagonia, Greenland, Svalbard and the Northwest Passage.",
+ tropicalText:"Shoal 1.0 m draft is great over reefs and lagoons, but the big watertight aluminium pilothouse soaks heat — good ventilation/A/C needed in the tropics.",
+ priceText:"~$1.07M+ (new)", priceNew:"Base €995,000 ex-VAT; UK new-build ~€1,035,000", priceUsed:"Brand-new model — essentially no used market yet", budget:"over", budgetN:3, budgetText:"Over budget once outfitted. The cheaper path to the Ovni philosophy under $1M is a used predecessor (the Ovni 450 below).",
+ priceExamples:["New base €995,000 ex-VAT; UK new-build ~€1,035,000","Brand-new model — no used market yet","Cheaper path to the philosophy: a used Ovni 450/495"],
+ scores:{protection:5,handling:4.5,dogs:4.5,workshop:4.5,storage:5,tankage:5,highlat:5,tropical:3.5,budget:2},
+ tags:["Aluminium pilothouse","Inside steering","Biggest tankage","Twin engines"],
+ fun:["The hull, deck AND pilothouse are all welded aluminium — \"full metal jacket.\"","The first hull launched with twin electric motors and a 50 kWh lithium bank.","Five were sold off the plans before the first one even launched."],
+ notable:"As a 2025 launch, no completed expeditions on the 490 yet — but the Ovni/Alubat line is among the most expedition-proven aluminium fleets in the world.",
+ youtube:[
+   {name:"Alubat (official)",url:"https://www.youtube.com/channel/UCqfN_fkd1cdjBwIWGVamcqQ",note:"Builder channel incl. Ovni 490 design videos"},
+   {name:"First Look at the Alubat Ovni 490",url:"https://www.youtube.com/watch?v=oeTDqCqZlAA",note:"Walkthrough of the new design"},
+   {name:"Ovni 490 — Full Metal Jacket",url:"https://www.youtube.com/watch?v=iThOuYiPaGE",note:"Intro to the all-aluminium build"}
+ ]
+},
+{
+ id:"outbound", name:"Outbound 46", builder:"Outbound Yachts · USA/China", designer:"Carl Schumacher",
+ color:"#475569", years:"2002–present (44 from 1999)", material:"GRP (solid laminate)",
+ loa:`46'4" (14.1 m)`, loaN:14.1, lwl:`40'3" (12.27 m)`, beam:`13'6" (4.11 m)`,
+ draftMin:`5'6" (shoal)`, draftMinN:1.68, draftMax:`6'6" (deep)`,
+ displacement:`28,000 lb / 12,700 kg`, ballast:`10,000 lb lead (encapsulated, 3,500 lb in a bulb)`, ballastRatio:`~36%`,
+ sailArea:`1,083 ft²`, sad:`~18`, dl:`~192`,
+ keel:`Encapsulated long fin keel with bulb — no keel bolts; balanced spade rudder; collision bulkhead 7 ft aft of the bow`,
+ cockpit:"Deep, narrow, dry aft cockpit; many boats carry an extended hard dodger + bimini",
+ cockpitType:"Aft (deep) + hard dodger",
+ bestFor:"The two-handed couple who want a genuinely seaworthy, dry, easy-to-handle cruiser with a real workshop, huge tankage and dog-friendly access — Patagonia-to-Polynesia, under $1M.",
+ protectionText:"A deliberately long, narrow, deep T-cockpit prized as \"exceptionally dry and well protected\" — owners \"go out when others stay at the dock.\" A molded breakwater anchors a hard dodger (extended on boats like \"Boojum\") for near-pilothouse shelter over the companionway, with a 32-inch helm seat and high seat backs for offshore driving. No inside steering, so sustained cold relies on the dodger.",
+ rig:"Keel-stepped Selden double-spreader rig; BOC-inspired double headstay with a solent jib ~3 ft behind the furling genoa (removable wire or a second furler — roll up the genoa, unroll a heavy-air jib without going forward); North full-batten slab main (Leisurefurl in-boom optional); code zero/asym off the stem; whisker pole common.",
+ handlingText:"Built as a fast, easy couple's boat: the solent setup lets you change down without leaving the cockpit; full-batten slab main (or optional in-boom) reefs from the cockpit. Well-found boats add electric primaries and a cabin-top electric winch — \"Ubiquitous\" is wired so every line can reach a powered winch, effectively single-handable. Heavy-air storm sails reward an experienced hand.",
+ engineWorkshop:"Best-in-class. A stand-up workshop \"garage\" under a cockpit seat with a workbench, vise area, six drawers and cabinets — owners fit the genset, watermaker, freezer, even a washer-dryer and still stow spares. The companionway steps lift on gas struts and two side panels open both engine flanks, so the Yanmar is fully serviceable from inside or out.",
+ storageText:"Built for self-sufficiency — a stand-up foredeck sail locker (sized for the asym) behind a collision bulkhead, a giant cockpit lazarette, dedicated liferaft/propane/anchor lockers, and a no-liner interior that lets you store in every void. Tanks sit low over the keel for stiffness.",
+ systems:"Well-found boats: LiFePO₄ house bank + Victron 3 kW inverter/charger, twin alternators with a Balmar regulator, bimini solar + a stern wind generator, a Fischer Panda / Northern Lights / Kubota genset and a 40 gph watermaker in the workshop, Webasto diesel heat + saloon A/C, B&G electronics, dual Racor filters, and gravity-feed heads (no bilge macerators).",
+ fuel:`719 L / 190 gal`, fuelN:719, water:`757 L / 200 gal`, waterN:757,
+ rangeText:"~1,000+ nm motoring on a frugal Yanmar (owner logs 6 kt at 3.5 L/hr; 8 kt at 5 L/hr). Watermaker and genset are common fits.",
+ accommodation:"Two cabins / two heads, 6'4\"+ headroom, semi-raised salon; centerline queen forward, quarter double aft, the workshop + chart table opposite. The 7' settee and dinette make proper lee-clothed sea berths; the head doubles as a wet locker right inside the companionway. For dogs: a low 3-step companionway (no steep ladder, no high bridgedeck), a deep secure cockpit, and a wide 32\" walk-through transom step for easy boarding from dinghy or water.",
+ highLatText:"Very strong — solid hand-laid GRP, a molded keel with no keel bolts, a collision bulkhead 7 ft aft of the bow, CE Cat A and a factory Webasto diesel heat option. The deep keel claws to windward off a lee shore. \"Bright Moments\" cruised the Pacific NW and New Zealand for years.",
+ tropicalText:"Proven Pacific-crossing boat (French Polynesia and beyond), good ventilation (4 dorades, 10 opening ports, 8 hatches), shoal-keel option for thin water. Its true sweet spot is the full Patagonia-to-Polynesia span.",
+ priceText:"$339k–$895k", priceNew:"New semi-custom ~$700k–$900k+", priceUsed:"Used ~$339k–$600k; near-new 2024 \"Boojum\" listed ~$875k", budget:"fit", budgetN:1, budgetText:"Comfortable fit — clean used hulls leave room for refit; a near-new 2024 example sits right under the cap.",
+ priceExamples:["2024 \"Boojum\" hull #86 — ~$875,000 (Collection Yachts / Denison) — newest available under $1M","2012 — ~$525,000 (Forbes Horton, Annapolis) — updated starboard-nav layout","2011 \"Gadabout\" — $405,000 (Swiftsure, San Diego)","2005 — ~$359,900 (Papeete, French Polynesia)","Used 46s broadly ~$339k–$600k for 2005–2015 hulls"],
+ scores:{protection:3.5,handling:4,dogs:5,workshop:5,storage:5,tankage:4.5,highlat:4,tropical:5,budget:4.5},
+ tags:["Stand-up workshop","Dog-friendly transom","No keel bolts","Best engine access"],
+ fun:["It has a genuine walk-in workshop \"garage\" — a workbench-and-vise tool room you can stand up in, rare on a 46-footer.","It only became the \"46\" at hull #9, when one owner asked to double the swim step — and everyone else wanted it too.","Reviewer John Harries (Attainable Adventure Cruising) said that among the marina's \"big-assed marina queens\" the unpretentious Outbound caught his eye and \"after just one glance I was smitten.\"","Designed by Carl Schumacher, better known for fast Alerion daysailers."],
+ notable:"\"Georgia\" (Outbound 44, hull #10) circumnavigated in 8 years / ~37,000 nm, closing the loop in Grenada in 2022; \"Bright Moments\" (hull #33) cruised Mexico, French Polynesia, Tonga and New Zealand; \"Sequoia\" (hull #5) hit 33 countries in 2 years.",
+ youtube:[
+   {name:"Have Wind Will Travel",url:"https://www.youtube.com/c/HaveWindWillTravelcom",note:"Owners of Outbound 46 \"Ubiquitous\" — seasons of cruising/refit/passages"},
+   {name:"Nautilus tour — \"Bright Moments\"",url:"https://www.youtube.com/watch?v=1913iFwSXj8",note:"Full video tour of hull #33"},
+   {name:"\"Gadabout\" walkthrough (Swiftsure)",url:"https://www.youtube.com/watch?v=NaJe2MQVnaE",note:"Brokerage listing tour"},
+   {name:"Hull 85 walkthrough with Scott",url:"https://www.youtube.com/watch?v=XjMZu_KpT9I",note:"Deck & interior tour of a current build"},
+   {name:"Lady K Sailing — Outbound 46 review",url:"https://www.youtube.com/watch?v=-bQaZXyGCcs",note:"\"A Rival for Island Packet, Made in China\""}
+ ]
+},
+{
+ id:"ovni450", name:"Ovni 450", builder:"Alubat · France", designer:"Marc Lombard",
+ color:"#43586f", years:"2018–present", material:"Aluminium",
+ loa:`45'11" (13.98 m)`, loaN:13.98, lwl:`41'5" (12.66 m)`, beam:`14'1" (4.29 m)`,
+ draftMin:`3'4" (1.0 m) board up`, draftMinN:1.0, draftMax:`9'6" (2.90 m) board down`,
+ displacement:`11,550 kg light / ~14,550 kg max load`, ballast:`~3,725 kg cast iron`, ballastRatio:`~32%`,
+ sailArea:`95.5 m² / 1,028 ft²`, sad:`~19.0`, dl:`~159`,
+ keel:`Aluminium centreboard (lifting plate) with twin transom-hung rudders; flat double-chine hull that dries out upright`,
+ cockpit:"Aft cockpit (twin wheels) with an optional rigid aluminium hard dodger",
+ cockpitType:"Aft + optional hard dodger",
+ bestFor:"The couple who want a proven shoal-draft aluminium boat that beaches itself in Patagonia and gunkholes the tropics — for well under budget, leaving cash to outfit.",
+ protectionText:"Aft twin-wheel cockpit with deep braced benches and welded handrails; the common optional aluminium hard dodger partially encloses the cockpit for cold-water watches. Standard fit is a fabric sprayhood, so protection depends on speccing the hard top.",
+ rig:"Fractional sloop; furling genoa with an optional removable Dyneema-stay or furling staysail (effectively a cutter); slab main on a low-friction ball-bearing mast track with lazy bag and a boom brake; granny bars at the mast.",
+ handlingText:"Working winches under the dodger flank the companionway; genoa winches aft by the helm. Electric winches are a factory option (recommended here). The mast track makes hoisting/dropping the main notably lighter and the boom brake removes a dangerous job — manageable for a smaller crew if specced with electric winches and (ideally) an in-boom main.",
+ engineWorkshop:"Volvo D2-50 under gas-strut companionway steps for good frontal access, with side panels in the aft cabin and head. A dedicated aft technical room/workshop houses the watermaker, heater, freezer and steering gear with bench space.",
+ storageText:"Abundant for the size — a watertight-bulkheaded forward sail/anchor locker, a huge cockpit \"garage\" under the starboard bench (gennaker, outboard, even a bicycle), gas and helm-seat lockers, and under-sole/settee stowage throughout.",
+ systems:"Aluminium arch for solar + a wind generator; owners commonly add lithium, 300–600 W+ solar, a watermaker, a diesel cabin heater and a genset in the technical room. Hull and deck insulated as standard.",
+ fuel:`500 L / 132 gal`, fuelN:500, water:`540 L / 143 gal`, waterN:540,
+ rangeText:"~700–900 nm motoring on the 50 hp diesel — moderate; long crossings lean on sail. Many owners add jerry-can fuel/water.",
+ accommodation:"Typically 3 cabins / 2 heads (six possible layouts thanks to the bulkhead-free alloy structure). Moderate freeboard, a wide flush bathing platform, swim ladder and big stern grab rails make dog boarding easy, and the dry-out ability lets dogs ashore in tidal anchorages. Aft cabin is a touch narrow for two.",
+ highLatText:"Excellent — exactly what Ovnis are built for: welded insulated aluminium, a hard-dodger option, shoal draft to gunkhole the Chilean channels and take the ground in remote tidal coves. A fixture in Patagonia and Norway.",
+ tropicalText:"Very good — shoal draft for reefs and lagoons, insulation keeps it cool, big opening hatches; aluminium just needs disciplined anode/galvanic management in warm marinas.",
+ priceText:"$400k–$650k (used)", priceNew:"New, well-equipped, ran ~$700k–$850k+", priceUsed:"Used roughly $400k–$650k ready-to-cruise", budget:"fit", budgetN:1, budgetText:"Comfortable fit — the cheapest proven path to true aluminium expedition capability, leaving budget to outfit.",
+ priceExamples:["New well-equipped ~$700k–$850k+ (hard dodger, genset, watermaker, A/C)","\"Reverie\" (2022) with hard dodger, electric winches, genset, watermaker — via Alubat America","2019 example listed in France ~€310k (looks low — verify)"],
+ scores:{protection:4,handling:4,dogs:4.5,workshop:4.5,storage:4.5,tankage:3.5,highlat:5,tropical:4.5,budget:5},
+ tags:["Aluminium centreboard","Dries out","Cheapest expedition path","Cockpit \"garage\""],
+ fun:["\"OVNI\" literally means UFO in French — apt for a boat that sits flat on a tidal beach like no fin-keeler can.","The bulkhead-free alloy structure is so stiff Alubat offers six different interior layouts.","An optional welded aluminium toe-rail \"bumper\" rings the hull for Nordic-style pile moorings."],
+ notable:"The Ovni line has an outsized high-latitude/circumnavigation following; \"Sailing Astragale\" outfitted their 450 for cold-water cruising toward Norway.",
+ youtube:[
+   {name:"Sailing Astragale",url:"https://www.youtube.com/channel/UCut9OtfYSiiR2e6LxFT25aQ",note:"French couple cruising an Ovni 450, Med → Norway"},
+   {name:"Alubat — Ovni 450 guided tour (English)",url:"https://www.youtube.com/watch?v=NWo5GLODnAU",note:"Builder walkthrough"},
+   {name:"Tour the newest Ovni 450 Classic",url:"https://www.youtube.com/watch?v=sCvIFsLDsC0",note:"Recent model tour"}
+ ]
+},
+{
+ id:"allures519", name:"Allures 51.9", builder:"Allures Yachting · France", designer:"Berret-Racoupeau",
+ color:"#26756e", years:"2021–present", material:"Aluminium hull / composite deck",
+ loa:`54'8" (16.67 m, incl. bowsprit)`, loaN:16.67, lwl:`LOD 51'1" (15.57 m)`, beam:`15'10" (4.82 m)`,
+ draftMin:`4'5" (1.34 m) board up`, draftMinN:1.34, draftMax:`9'7" (2.92 m) board down`,
+ displacement:`18,400 kg / 40,565 lb`, ballast:`~5,900 kg`, ballastRatio:`~32%`,
+ sailArea:`118.6 m² / 1,277 ft²`, sad:`~17.4`, dl:`moderate (capsize screen 1.84)`,
+ keel:`Aluminium centreboard in an alloy case with twin rudders; round-bilge hull (softer motion than a chined Ovni); dries out`,
+ cockpit:"Aft cockpit with a windshield + mainsheet arch; standard bimini/sprayhood, optional rigid bimini/doghouse",
+ cockpitType:"Aft + windshield/arch (optional hard top)",
+ bestFor:"The couple who want the easiest-handling, most comfortable, walk-in-engine-room aluminium expedition cruiser in this size — if the budget can stretch to the top.",
+ protectionText:"A prominent windshield and mainsheet arch shelter the cockpit and give clear helm sightlines; an optional rigid bimini/doghouse fully secures the watch-keeper in all conditions. Comfortable, well-supported twin helm seats; an open transom with a drop-down platform.",
+ rig:"Cutter/triple-headsail: genoa, removable staysail (with running backstays) and a Code 0 on the integral bowsprit, all on Furlex furlers; in-mast furling main typical (slab optional); Walder boom brake; all running rigging led aft under the deck.",
+ handlingText:"Explicitly push-button from the helm — Lewmar winches and clutches right by the twin wheels, the in-mast main means no foredeck reefing, and electric winches/furling are common. Reviewers describe effortless single-couple handling — among the easiest here for a smaller crew.",
+ engineWorkshop:"A genuine walk-in engine room (a standout) housing the Volvo D3-110 (150 hp Volvo or Nanni options) with standing room to work, plus adjacent dedicated technical spaces. Bow and stern thrusters available.",
+ storageText:"Yacht-grade and generous — large under-berth stowage (the forward \"princess\" V-berth has excellent access beneath), deep cockpit lockers, a big forward sail/anchor locker and technical-room stowage.",
+ systems:"BOTY test boat: 24 V / 800 Ah lithium, 500 W solar, Mastervolt charging, a Fischer Panda 8000i genset feeding the watermaker and reverse-cycle A/C + heating. The insulated alloy hull runs notably quiet.",
+ fuel:`700 L / 185 gal`, fuelN:700, water:`600 L / 158 gal`, waterN:600,
+ rangeText:"~900–1,100+ nm motoring on the 110 hp diesel — larger tankage and longer power range than the Ovni 450; watermaker standard on flagship boats.",
+ accommodation:"Usually 3 cabins / 2 heads (full-beam aft owner's suite + forward \"princess\" V-berth). U-shaped sea-going galley, light-filled salon, grippy MarineCork decks. Tall freeboard means a bigger step aboard for dogs, but the drop-down sugar-scoop platform and open transom make boarding workable; the centreboard dries out.",
+ highLatText:"Outstanding and proven — the BOTY-winning sister sailed the \"Viking route\" (Scotland–Faroes–Iceland–Greenland–Canada). Insulated alloy hull, heating and the rigid-bimini option make it ideal for Patagonia/Chile.",
+ tropicalText:"Equally strong — shoal 1.34 m board-up draft for reefs and lagoons, A/C, a big bimini for shade, excellent ventilation, and the composite deck avoids a hot bare-alloy deck.",
+ priceText:"$770k–$1.4M", priceNew:"New base ~€707k ex-VAT (2021) → ~€978k ex-VAT (2023); flagship outfitted ~€1.2–1.4M", priceUsed:"Thin used market; well-specified late boats ~€1.0–1.38M; some from ~€550k+", budget:"tight", budgetN:2, budgetText:"Tight — a turnkey used 51.9 sits at or above $1M. The 45.9 or older Allures 51/52 are the sub-$1M ways into this design DNA.",
+ priceExamples:["New base ~€707,000 ex-VAT (2021), rising to ~€978,000 ex-VAT (2023)","Well-specified late boats ~€1.0M–€1.38M","Some offered via I. Castañer Yachts (Cádiz) from ~€550k+ depending on year/spec"],
+ scores:{protection:4,handling:5,dogs:3.5,workshop:5,storage:4.5,tankage:4.5,highlat:5,tropical:4.5,budget:2.5},
+ tags:["Walk-in engine room","Push-button sailing","CW Boat of the Year 2025","Tight on budget"],
+ fun:["2025 Cruising World Boat of the Year (Best Full-Size Cruiser over 45 ft), judged after sailing to Annapolis from Greenland.","Decks are grippy low-maintenance MarineCork, not teak — and you can watch the sea rush by through the hull windows from inside.","Same Grand Large Yachting family as Garcia and Outremer — shared aluminium-expedition pedigree."],
+ notable:"Owners Markus Tanner & Marianne Daetwyler sailed \"Castella\" the Viking route (Scotland → Greenland → Annapolis), winning Cruising World's 2025 BOTY.",
+ youtube:[
+   {name:"Yachting World — full test (Toby Hodges)",url:"https://www.youtube.com/watch?v=tRezvY2iGq8",note:"Sea-trial and tour of the 51.9"},
+   {name:"Allures 51.9 — guided tour (English)",url:"https://www.youtube.com/watch?v=J-0sRtarLtg",note:"Builder/dealer walkthrough"},
+   {name:"BoatTube — 2024 Allures 51.9 review",url:"https://www.youtube.com/watch?v=5TWOAIkSFnw",note:"Walk-around review"}
+ ]
+},
+{
+ id:"hr44", name:"Hallberg-Rassy 44", builder:"Hallberg-Rassy · Sweden", designer:"Germán Frers",
+ color:"#1f5673", years:"2017–present", material:"GRP",
+ loa:`47'5" (14.45 m, incl. bowsprit)`, loaN:14.45, lwl:`42'3" (12.88 m)`, beam:`13'9" (4.20 m)`,
+ draftMin:`5'9" (1.75 m shoal)`, draftMinN:1.75, draftMax:`6'11" (2.10 m std)`,
+ displacement:`13,300 kg / 29,200 lb`, ballast:`5,300 kg lead`, ballastRatio:`~40%`,
+ sailArea:`106.5 m² / 1,152 ft²`, sad:`~18.5`, dl:`~187`,
+ keel:`Lead fin keel on a deep bilge stub; twin rudders (a first for HR)`,
+ cockpit:"Center cockpit with the signature fixed glass windscreen + dodger",
+ cockpitType:"Center + fixed windscreen",
+ bestFor:"The couple who want the most protected GRP helm afloat (that fixed windscreen) with legendary build and resale, and will buy lightly used.",
+ protectionText:"HR's trademark fixed, framed glass windscreen wraps the cockpit front; with the dodger it fully encloses the helm. A test reviewer called the protection \"mind-blowing\" — stand watch dry and warm. About as protected as you get short of a pilothouse.",
+ rig:"Masthead/genoa sloop with a slightly-overlapping headsail (self-tacking jib optional), electric in-mast FatFurl main with full vertical battens, a Furlex under-deck jib furler and an integral bowsprit for a code zero; all lines hidden-led aft.",
+ handlingText:"Engineered for two: electric/reversible self-tailing winches (the reviewer \"giggled\" at how easy they were), self-tacking jib option, slightly-overlapping headsail, all lines hidden-led aft, and light twin-rudder steering even reefed in 24 kt. Optional bow/stern thrusters with docking function.",
+ engineWorkshop:"Classic center-cockpit advantage: a dedicated engine room aft with genuine standing/kneeling access all around the Volvo D2-75. No separate workshop cabin, but deep lockers/lazarette give tool and bench space.",
+ storageText:"Extensive — large forward anchor locker, deep aft-deck lockers, big lazarette, two hanging lockers forward, a hidden coaming line box, and the big aft cabin's own stowage.",
+ systems:"Watermaker universal on bluewater boats; diesel heating the norm; optional retractable bow/stern thrusters with docking function; lithium and solar common owner upgrades.",
+ fuel:`420 L / 110 gal`, fuelN:420, water:`745 L / 196 gal`, waterN:745,
+ rangeText:"~600–800 nm motoring; large water tankage. Watermaker universally fitted on bluewater boats.",
+ accommodation:"2–3 cabins, 2 heads, big forward owner's cabin + generous aft cabin, separate showers. High coamings keep dogs secure on deck, but high freeboard means dog boarding is via the fold-out transom platform / bow ladder.",
+ highLatText:"Outstanding cold-water watchkeeping thanks to the windscreen + dodger; heavy, stiff (40% ballast), CE Cat A, legendary build and diesel-heating norms. Caveat: GRP with a 2.10 m fixed keel limits rock-anchorage flexibility (consider the 1.75 m shoal keel).",
+ tropicalText:"Very good — large water tankage, big shaded protected cockpit and excellent ventilation.",
+ priceText:"$800k–$960k (used)", priceNew:"New base ~€758k (well over $1.1M optioned)", priceUsed:"Used 2018–2020 ~$800k–$960k", budget:"fit", budgetN:1, budgetText:"Fits — a clean, well-equipped used HR 44 sits at or just under $1M ready-to-cruise.",
+ priceExamples:["New base ~€758k (well over $1.1M optioned)","2019 examples ~$803k (Transworld) and ~$910k (Marine Lions)","2020 ~$956k (Jonacor); UK \"Shearwater\" (2019) ~£570k (Berthon)"],
+ scores:{protection:4.5,handling:4.5,dogs:3,workshop:4,storage:4.5,tankage:3.5,highlat:4.5,tropical:4.5,budget:4},
+ tags:["Fixed glass windscreen","Center cockpit","Twin rudders","Legendary resale"],
+ fun:["The fixed windscreen is the HR signature — no other production builder does it quite the same way.","The 44 is the first Hallberg-Rassy ever fitted with twin rudders.","A reviewer literally giggled at how easy the reversible electric winches made sailing."],
+ notable:"HR 43/44-class boats are common in ARC and circumnavigation fleets; the \"Sailing Breezy\" couple document long two-handed cruising aboard their HR 44.",
+ youtube:[
+   {name:"Sailing Breezy",url:"https://www.youtube.com/@SailingBreezy",note:"Couple cruising their own HR 44 (Baltic, Biscay, Med)"},
+   {name:"Yachting World — On Test: HR 44",url:"https://www.youtube.com/watch?v=2bnSeyQPBW0",note:"Pip Hare two-day sea trial"},
+   {name:"Hallberg-Rassy (official)",url:"https://www.youtube.com/@hallberg-rassy",note:"Yard channel with HR 44 content"}
+ ]
+},
+{
+ id:"allures", name:"Allures 45.9", builder:"Allures Yachting · France", designer:"Berret-Racoupeau",
+ color:"#2a6f6b", years:"2018–present", material:"Aluminium hull / GRP deck",
+ loa:`48'4" (14.75 m)`, loaN:14.75, lwl:`~45' (13.70 m)`, beam:`14'6" (4.43 m)`,
+ draftMin:`3'6" (1.06 m board up)`, draftMinN:1.06, draftMax:`9'6" (2.90 m board down)`,
+ displacement:`~12,600 kg / 27,800 lb`, ballast:`~4,780 kg lead`, ballastRatio:`~38%`,
+ sailArea:`~996 ft²`, sad:`~18`, dl:`~136`,
+ keel:`Lifting board over a weight-bearing stub keel (can take the ground); twin rudders; round-bilge alu hull`,
+ cockpit:"Aft cockpit with high coamings and inboard genoa winches; sprayhood/optional hardtop",
+ cockpitType:"Aft (canvas / optional hardtop)",
+ bestFor:"The budget-savvy couple who want aluminium expedition capability and a real workshop layout for the lowest entry price of the group.",
+ protectionText:"Higher coamings than a typical Med cruiser and inboard winches give a protected, secure aft helming zone — but weather protection is canvas (sprayhood/bimini) rather than a hard doghouse, so it's less sheltered than the Ovni or Boréal for cold watches.",
+ rig:"Double-headed sloop — furling genoa + inner staysail — with an anchor bowsprit for an asymmetric; the staysail behaves nearly self-tacking; electric winches/powered furling are common, recommended options.",
+ handlingText:"Double-headed sloop; a reviewer found \"a singlehander can tend all the controls and a crew of two will find it especially easy.\" Hydraulic push-button board. Electric winches/powered furling are common, recommended options for a smaller crew. Watch-out: few handholds forward.",
+ engineWorkshop:"The two-cabin \"owner\" layout turns the aft third cabin into a dedicated technical room / workshop with standing space and stowage — prized by long-term cruising couples.",
+ storageText:"Cavernous in the owner's layout — the unused third cabin becomes a huge hold for spare sails, food and parts, plus big cockpit line lockers and a stern arch for solar/wind.",
+ systems:"Stern arch for solar/wind/radar; lithium, watermaker and diesel heating are typical bluewater fit; the composite deck stays cooler and drier than all-aluminium.",
+ fuel:`625 L / 165 gal`, fuelN:625, water:`420 L / 111 gal`, waterN:420,
+ rangeText:"~700–900+ nm motoring; smaller tanks than the Ovni 490. Watermaker a near-universal bluewater fit.",
+ accommodation:"Usually 2 cabins / 2 heads (workshop replaces cabin three); raised saloon with great light, a real nav station and a secure sea-going galley. Flat walkable deck suits dogs; the workshop/hold doubles as dog/gear space — but handholds forward are sparse.",
+ highLatText:"Strong — aluminium hull shrugs off ice and rock, the lifting board lets you tuck into shallow rocky Patagonian coves, and the standard centreboard version can dry out. (The lighter \"45.9 S\" swing-keel variant can't dry out — choose the standard boat for high latitudes.)",
+ tropicalText:"Equally strong — 1.06 m board-up draft for reef anchorages, 63 ft air draft clears ICW bridges, and the GRP deck stays cooler and drier than an all-aluminium one.",
+ priceText:"$590k–$1.0M", priceNew:"45.9 S fully outfitted ~€1,000,000", priceUsed:"Used 2018–2019 ~€550k–€590k (~$590k–$640k)", budget:"fit", budgetN:1, budgetText:"Comfortable fit — a clean used standard 45.9, refit for cruising, sits well under $1M.",
+ priceExamples:["New base ~$462k (2018); 45.9 S fully outfitted ~€1,000,000","2019 two-cabin, Martinique — €550,000","2019 three-cabin, Bretagne Sud — €590,000; 2018, Bremerhaven — €575,000 ex-VAT"],
+ scores:{protection:3,handling:4,dogs:4,workshop:4.5,storage:4.5,tankage:3.5,highlat:4.5,tropical:4.5,budget:5},
+ tags:["Aluminium + GRP deck","Lifting board","Workshop layout","Best budget fit"],
+ fun:["Unusual hybrid build: a welded aluminium hull but a composite deck — quieter and less condensation-prone than all-metal.","\"A Capella of Belfast\" sailed one across the Pacific via the Galápagos, French Polynesia and Tonga — this couple's exact dream route.","Allures runs its own owner circumnavigation rally, the World Odyssey."],
+ notable:"\"A Capella of Belfast\" (Atlantic→Pacific two-handed); \"Loly\" on the Grand Large World Odyssey circumnavigation.",
+ youtube:[
+   {name:"SV Tonic",url:"https://www.youtube.com/c/svtonicboatwives/videos",note:"Review channel with dedicated Allures 45.9 content"},
+   {name:"Allures Yachting (official)",url:"https://www.youtube.com/@AlluresYachting",note:"Model walkthroughs incl. 45.9"},
+   {name:"Windy sailing session aboard an Allures 45.9",url:"https://www.youtube.com/watch?v=jiJBpOarQc8",note:"Real onboard sailing footage"}
+ ]
+},
+{
+ id:"amel", name:"Amel 50", builder:"Chantiers Amel · France", designer:"Berret-Racoupeau",
+ color:"#1b4f72", years:"2017–~2021", material:"GRP",
+ loa:`54'1" (16.50 m, LOD 50'9")`, loaN:16.50, lwl:`47'6" (14.50 m)`, beam:`15'7" (4.79 m)`,
+ draftMin:`7'1" (2.15 m, fixed)`, draftMinN:2.15, draftMax:`7'1" (2.15 m, fixed)`,
+ displacement:`18,750 kg light / 22,200 kg loaded`, ballast:`5,360 kg`, ballastRatio:`~29%`,
+ sailArea:`126 m² / 1,356 ft²`, sad:`~18–20`, dl:`~171`,
+ keel:`Fixed fin keel with bulb; twin rudders; watertight bulkheads`,
+ cockpit:"Center cockpit with a rigid hardtop shelter, opening sunroof and wraparound glazing",
+ cockpitType:"Center + enclosed hardtop",
+ bestFor:"The couple who prioritise effortless push-button sailing and an enclosed center cockpit above shoal-draft/aluminium expedition ability.",
+ protectionText:"Among the best-protected production cockpits afloat — the helm and crew sit deep inside an integrated hard shelter, sealed from wind, spray, sun and cold; the boat can be managed almost entirely from the deckhouse. Superb for both Patagonian cold and tropical sun.",
+ rig:"Masthead sloop (optional cutter/staysail); electric in-mast main furling, electric genoa (and optional staysail) furling, and powerful electric winches — set/reef/trim by button; bow thruster standard.",
+ handlingText:"The Amel hallmark: electric in-mast main furling, electric genoa (and optional staysail) furling, and powerful electric winches — set, reef and trim everything at the push of a button from the protected cockpit. Bow thruster standard. The easiest boat here for a smaller/less-strong crew.",
+ engineWorkshop:"Class-leading: the cockpit sole lifts to a dedicated, watertight, insulated walk-in engine room with full standing access all around the engine, genset and systems — plus room for tools and spares.",
+ storageText:"Very generous — deep cockpit lockers, large lazarette, cavernous bilge stowage and abundant interior lockers; designed for long-term liveaboard provisioning.",
+ systems:"Watermaker effectively standard; generator, A/C, heating and a big house bank — a fully integrated turnkey systems boat designed to run itself for a couple.",
+ fuel:`~660 L / 175 gal`, fuelN:660, water:`600 L / 159 gal`, waterN:600,
+ rangeText:"~800–1,000+ nm motoring (owners report ~1,000 nm in calm); watermaker effectively standard for this role.",
+ accommodation:"3 cabins / 2 heads, aft owner's suite with island berth, handrails everywhere. Big, climate-controllable interior — comfortable hot or cold. But high freeboard makes dog boarding harder; getting dogs down into the center cockpit needs a ramp/sling routine.",
+ highLatText:"Strongly all-climate for comfort — enclosed hard cockpit, watertight bulkheads and heating make it genuinely livable in the cold. But GRP and a fixed 2.15 m keel limit gunkholing and make a rock grounding more consequential than on an aluminium centreboarder.",
+ tropicalText:"Excellent — full glazing with shade, sunroof, good ventilation and easy push-button sailing in the trades.",
+ priceText:"$900k–$1.75M (used)", priceNew:"New was ~€0.9–1.2M fully outfitted", priceUsed:"Used ~$900k–$1.0M for early 2017–2019 boats, up to ~$1.3–1.75M for newer/loaded", budget:"tight", budgetN:2, budgetText:"Tight — a well-found 2017–2019 example can be found at or just under $1M, but many are above. Careful shopping required.",
+ priceExamples:["New was ~€0.9M–€1.2M fully outfitted","2019 examples advertised ~$950k … up to ~$1.75M for loaded boats","Brokerage spread roughly £718k–£1.3M"],
+ scores:{protection:5,handling:5,dogs:2.5,workshop:4.5,storage:4.5,tankage:4,highlat:3,tropical:5,budget:2.5},
+ tags:["Enclosed center cockpit","Push-button sailing","Walk-in engine room","Couple's classic"],
+ fun:["Famous for letting a couple sail a 54-footer almost entirely by button.","The cockpit sole lifts up to reveal a stand-up watertight engine room.","Heir to the legendary Amel Super Maramu, an icon among circumnavigating couples."],
+ notable:"Hugely popular with two-handed circumnavigators; \"Sailing Amazing Grace\" cruise hull #100 worldwide.",
+ youtube:[
+   {name:"Sailing Amazing Grace",url:"https://www.youtube.com/@SailingAmazingGrace",note:"Owners of Amel 50 hull #100"},
+   {name:"Amel (official)",url:"https://www.youtube.com/channel/UCYAbSsQcVxNKUHZyBOtCx2Q",note:"Builder channel with Amel 50 walkthroughs"},
+   {name:"\"The only true single-handed bluewater sailboat?\"",url:"https://www.youtube.com/watch?v=Lvb-9gvgiQM",note:"Review of the couple-friendly systems"}
+ ]
+},
+{
+ id:"wauquiez", name:"Wauquiez Pilot Saloon 48", builder:"Wauquiez · France", designer:"Berret-Racoupeau",
+ color:"#345a78", years:"2016–present", material:"GRP (balsa-cored)",
+ loa:`48'6" (14.77 m)`, loaN:14.77, lwl:`41'10" (12.75 m)`, beam:`15'1" (4.61 m)`,
+ draftMin:`5'11" (1.80 m shoal)`, draftMinN:1.80, draftMax:`7'9" (2.35 m deep)`,
+ displacement:`14,000 kg / 30,865 lb (light)`, ballast:`3,900 kg cast iron`, ballastRatio:`~27%`,
+ sailArea:`102 m² / 1,098 ft²`, sad:`~17.4`, dl:`~190`,
+ keel:`L-shaped keel with bulb (3 depth options); single spade rudder; twin wheels`,
+ cockpit:"True raised deck-saloon / pilothouse with inside steering capability + a sheltered twin-wheel cockpit",
+ cockpitType:"Pilothouse / deck saloon",
+ bestFor:"The couple who want a true heated pilothouse with inside steering and luxury joinery, and will accept thinner workshop/engine access.",
+ protectionText:"A genuine heated pilothouse with big wraparound windows, near-360° views and an inside watch/steering station — keep watch warm and dry inside on cold passages. The compact outside cockpit sits behind deep coamings and the Wauquiez windshield, ideal for a full hard dodger.",
+ rig:"Cutter-capable: genoa + optional self-tacking jib or staysail; in-mast (often electric) main furling; all lines led aft to oversized primaries at the twin wheels; bow thruster common.",
+ handlingText:"Built around couple sailing: oversized primaries reachable from the wheels, all lines led aft, electric winches, optional self-tacking jib, in-mast (often electric) furling and a bow thruster. Arguably the easiest routine solo handling here — at the cost of in-mast furling trade-offs offshore.",
+ engineWorkshop:"A real gap for this mission: no dedicated workshop, and engine access (Yanmar 110 hp under the saloon sole) is only adequate, not class-leading. Aft space goes to cabins and a tender garage instead of a workbench.",
+ storageText:"Stows \"like a 50–55-footer\" — long galley-corridor worktops and lockers, deep under-sole and settee stowage, and an aft tender garage that swallows the dinghy to keep decks clear.",
+ systems:"Watermaker normal on cruising boats; A/C, diesel heating and lithium common; aft tender garage; Oyster-grade systems integration.",
+ fuel:`650 L / 172 gal`, fuelN:650, water:`615 L / 162 gal`, waterN:615,
+ rangeText:"~700–900 nm motoring; less reserve than the Outbound/Oyster. Watermaker normal on cruising boats.",
+ accommodation:"2–4 cabins, 2 heads; Oyster-level joinery and a 5-star owner's suite, lee-cloths fitted standard. The single-level raised saloon is comfortable, but high freeboard + a tall deckhouse make boarding two dogs more of a climb — plan a ramp/passerelle.",
+ highLatText:"Excellent protection/comfort — a heated fully-glazed saloon with inside watch is purpose-made for cold, windy high latitudes. Watch-outs: a balsa-cored hull demands diligent impact/moisture care in ice-and-rock waters, and the iron keel needs corrosion management.",
+ tropicalText:"Those big windows + shoal-keel option suit the Caribbean/BVI/Polynesia, with A/C commonly fitted — but the tall deckhouse runs warm in the tropics without good shade.",
+ priceText:"$139k–$950k", priceNew:"New PS48e is price-on-application — effectively over $1M outfitted", priceUsed:"Modern used 2021–2022 ~€700k–€725k (~$760k–$790k); older Ed-Dubois-gen 48s ~$139k–$300k", budget:"fit", budgetN:1, budgetText:"Fits via the modern used market (~$760k–$790k) with room to outfit. Beware: cheap listings are often the older, different Dubois-design 48.",
+ priceExamples:["New PS48e is price-on-application — effectively >$1M outfitted","2021 modern PS48 — €723,000 (Denmark, Grabau International)","2022 — ~€700,000 (France); older Ed-Dubois-gen 48s ~$139k–$300k"],
+ scores:{protection:5,handling:4.5,dogs:3,workshop:3,storage:4.5,tankage:3.5,highlat:4,tropical:4,budget:4},
+ tags:["Heated pilothouse","Inside steering","Tender garage","Two generations exist"],
+ fun:["One of the few production boats this size with a true heated pilothouse and inside steering.","An aft \"garage\" swallows the dinghy so it's not on davits or the foredeck.","Two completely different boats share the name: the modern Berret-Racoupeau (2016+) and the older Ed Dubois (1998–2008) — don't confuse them."],
+ notable:"Reputation as a quiet circumnavigator \"seldom seen because they're off cruising\"; framed by reviewers alongside Oyster and Amel.",
+ youtube:[
+   {name:"Malta Yachting — interior walkthrough",url:"https://www.youtube.com/watch?v=amxeQdRccHY",note:"Full PS48 interior tour"},
+   {name:"BoatTube — 2017 PS48 walkaround",url:"https://www.youtube.com/watch?v=6IZbf7WFvKU",note:"Boat-show walk-around"},
+   {name:"Berthon — sister Pilot Saloon 47 tour",url:"https://www.youtube.com/watch?v=oxdg5_Pl1iA",note:"Close sister, great for handling/deck-saloon detail"}
+ ]
+},
+{
+ id:"hr43", name:"Hallberg-Rassy 43 Mk III", builder:"Hallberg-Rassy · Sweden", designer:"Germán Frers",
+ color:"#2a6285", years:"2013–2016", material:"GRP (cored)",
+ loa:`44'6" (13.57 m)`, loaN:13.57, lwl:`38'7" (11.75 m)`, beam:`13'5" (4.08 m)`,
+ draftMin:`5'7" (1.70 m shoal)`, draftMinN:1.70, draftMax:`6'7" (2.00 m std)`,
+ displacement:`12,700 kg / 28,000 lb`, ballast:`4,500 kg lead`, ballastRatio:`~35%`,
+ sailArea:`110.2 m² / 1,186 ft² (genoa)`, sad:`~17.4`, dl:`~218`,
+ keel:`Long fin lead keel on a deep bilge stub with a skeg-hung rudder — protects the rudder for high-latitude grounding/ice-edge risk`,
+ cockpit:"Center cockpit with HR's trademark fixed windscreen + hard dodger option",
+ cockpitType:"Center + fixed windscreen",
+ bestFor:"The couple who want HR's protected center-cockpit, fixed-windscreen formula at a used price well under a new 44.",
+ protectionText:"HR's signature: a fixed structural windscreen (the Mk III's was restyled with rounded tops) plus a hard dodger option — a reviewer noted standing watch behind it would be \"pleasant on a damp, breezy night.\" The wide wheel lets you sit either side for sightlines. One of the best-protected helms in its size.",
+ rig:"Masthead sloop (cutter/staysail a common factory option); roller-furling genoa; full-batten slab main OR in-mast furling (the Mk III offered FatFurl roached furling main); overlapping genoa on tracks — not self-tacking.",
+ handlingText:"Built for couples — \"no one needs leave the cockpit to sail the boat properly.\" Double-ended mainsheet winches aft of the helm, genoa winches forward; electric primaries and optional REVO reversible winches; in-mast furling main; optional bow/stern thrusters with a docking function. Very manageable for a smaller crew.",
+ engineWorkshop:"Volvo D2-75 on a shaft drive (more reliable/serviceable offshore than a saildrive); the center-cockpit layout gives excellent standing access to the engine front from the companionway and the sides/back via the aft cabin. No dedicated workshop cabin at this size.",
+ storageText:"Very good — deep cockpit lockers, a larger forward anchor locker and more watertight aft-deck lockers (Mk III improvements), plus HR's abundant high-quality interior joinery and alcoves. Low tankage frees interior volume.",
+ systems:"Factory Webasto diesel heating (HR is bred for cold northern waters) + an insulating cored hull. Solar/lithium/watermaker are common owner retrofits rather than 2013-era factory kit — favour a boat already so equipped.",
+ fuel:`395 L / 104 gal`, fuelN:395, water:`650 L / 172 gal`, waterN:650,
+ rangeText:"~430–550 nm motoring (estimate) — modest; long ocean gaps want deck jerry cans and a watermaker (rarely factory-fitted on these years).",
+ accommodation:"Two cabins / two heads — forward V-berth with en-suite + a large aft owner's cabin with en-suite stall shower; full sit-down nav station. A couple's boat. High freeboard, solid bulwarks and the aft cabin make dog boarding from a dinghy/low dock awkward (plan a ramp), but bulwarks give dogs secure footing underway.",
+ highLatText:"Excellent — center cockpit + fixed windscreen + hard dodger + standard Webasto heat + insulated cored hull + skeg-protected rudder + CE Cat A. Squarely the kind of boat that does well in the Chilean channels.",
+ tropicalText:"Strong — low-maintenance GRP with an anti-osmosis layer and a fixed lead keel; the insulation that keeps cold out tempers heat. Watch-outs: the deep 2.0 m standard keel limits thin-water gunkholing (favour the 1.70 m shoal version) and lots of teak means more UV upkeep.",
+ priceText:"$450k–$650k (used)", priceNew:"New base was just under ~$600k; well-optioned ~$800k delivered", priceUsed:"Mk III scarce, holds value: ~$450k–$650k+", budget:"fit", budgetN:1, budgetText:"Fits with margin — a used Mk III leaves budget for solar/lithium/watermaker upgrades. Hunt for a shoal-keel, well-equipped boat.",
+ priceExamples:["New base just under ~$600k; well-optioned ~$800k delivered","2016 Mk III, Lagos, Portugal — ~$510k (Båtagent)","Most cheap 43s listed are the earlier Mk I/II (~$340k–$450k) — the Mk III commands a premium"],
+ scores:{protection:4.5,handling:4,dogs:3,workshop:4,storage:4.5,tankage:3,highlat:4.5,tropical:4,budget:4.5},
+ tags:["Fixed glass windscreen","Center cockpit","Predecessor to the 44","Strong resale"],
+ fun:["The aft pulpit has built-in stainless \"rail seats\" — a reviewer's favourite downwind perch.","Mk III brought 27 documented improvements over the Mk II, including four hull windows and a retractable companionway washboard.","HR's low-profile mushroom vents have built-in ping-pong balls to stop downflooding — charming and very seaworthy."],
+ notable:"HR 43 center-cockpit boats have circumnavigated (incl. a Swedish family with two kids aboard); Leon Schulz/Reginasailing built his ocean sail-training around the HR 43/46.",
+ youtube:[
+   {name:"Leon Schulz / Reginasailing",url:"https://www.youtube.com/@reginasailing",note:"HR specialist; two years sailing an HR 43"},
+   {name:"Hallberg-Rassy (official)",url:"https://www.youtube.com/@hallberg-rassy",note:"Mk III walkthroughs & feature demos"},
+   {name:"HR 43 and 46 sailing side by side",url:"https://www.youtube.com/watch?v=IAZkL434gPw",note:"On-water comparison"}
+ ]
+},
+{
+ id:"oyster", name:"Oyster 495", builder:"Oyster Yachts · UK", designer:"Humphreys Yacht Design",
+ color:"#2d5066", years:"2021–present", material:"GRP (infused)",
+ loa:`52'10" (16.10 m, incl. bowsprit)`, loaN:16.10, lwl:`46'10" (14.27 m)`, beam:`15'8" (4.77 m)`,
+ draftMin:`6'0" (1.83 m shoal)`, draftMinN:1.83, draftMax:`7'6" (2.28 m std)`,
+ displacement:`21,000 kg / 46,297 lb`, ballast:`6,645 kg`, ballastRatio:`~32%`,
+ sailArea:`127.4 m² / 1,371 ft²`, sad:`~17`, dl:`~201`,
+ keel:`Fin keel with lead bulb; twin rudders; fixed bowsprit`,
+ cockpit:"Center cockpit (semi-raised saloon), twin helms, sturdy sprayhood",
+ cockpitType:"Center + sprayhood",
+ bestFor:"The couple who want the most refined push-button bluewater boat with the biggest fuel tank — if budget were no object (it's over $1M).",
+ protectionText:"Protection is \"perhaps Oyster's best yet relative to size\" — a big sprayhood with clear panels shelters the forward cockpit and the footwells suit standing at heel. But there's no fixed glass windscreen/doghouse; the higher helms are more exposed, so most owners autopilot and retreat under the hood on cold watches.",
+ rig:"Fractional sloop; electric (alloy rig) or hydraulic (carbon rig) in-mast furling, electric self-tailing winches by the helm, push-button furling and windlass; fixed bowsprit for downwind sails.",
+ handlingText:"Marketed as one-person sailing: electric (or hydraulic) in-mast furling, electric self-tailing winches by the helm, push-button furling and windlass — a reviewer furled both sails and anchored single-handed. Helm feel is a touch heavy via the geared twin-rudder linkage.",
+ engineWorkshop:"Superb engine access — twin doors open to the centreline Yanmar 110 hp with all-round reach, genset behind its own door. But the 495 is too small for a dedicated workshop cabin; the passageway and lazarette substitute.",
+ storageText:"Very generous — a cavernous full-beam lazarette, a forward sail locker, passageway stowage for freezer + washer, and cedar-lined wardrobes. Watch-out: no dedicated wet/foul-weather locker.",
+ systems:"Optional ~100 L/h Dessalator watermaker, 8 kW genset, a big house bank and A/C; superb acoustic insulation. No standard wet/foul-weather locker.",
+ fuel:`800 L / 211 gal`, fuelN:800, water:`600 L / 159 gal`, waterN:600,
+ rangeText:"~1,000+ nm motoring (≈6 L/h at 8.5 kt) — among the best here; optional 100 L/h watermaker.",
+ accommodation:"3 cabins / 2 heads, a standout full-beam aft owner's stateroom (best-in-class at 50 ft). Integral fold-down boarding ladders and an electric cassette platform ease boarding, but high freeboard means dogs mostly live in the cockpit/saloon.",
+ highLatText:"Capable (CE Cat A, robust infused build, forgiving hull) and Oysters do high latitudes — but cold-weather helm protection is canvas, not a windscreen, and there's no standard wet locker, so you'd add a full enclosure and heating. Deepest fixed keel here.",
+ tropicalText:"Excellent — powerful trade-wind shape, big shaded cockpit, large tankage and strong systems integration.",
+ priceText:"$1.5M–$2M", priceNew:"New base ~£1.25M ex-VAT (~$1.55–1.6M as-tested)", priceUsed:"Used ~$2M (2022 example, Palma)", budget:"over", budgetN:3, budgetText:"Over budget — new ~$1.5M+, used ~$2M. Included as a benchmark; it doesn't fit the brief financially.",
+ priceExamples:["New base ~£1.25M ex-VAT (~$1.55–1.6M as-tested)","Carbon rig alone ~£140k; thrusters ~£40k","Used ~$2.0M (2022, Palma); UK ~£1,495,000 VAT-paid"],
+ scores:{protection:4,handling:5,dogs:3.5,workshop:4.5,storage:5,tankage:5,highlat:3.5,tropical:5,budget:1},
+ tags:["European YoY 2023","Push-button sailing","Biggest fuel","Over budget"],
+ fun:["European Yacht of the Year 2023, with an aft owner's suite reviewers call best-in-class at this length.","Olympic double-gold sailor Shirley Robertson has sailed and presented it.","15 were sold before the boat even launched — but it sails well past this budget."],
+ notable:"Hull #1 \"Carpe Diem\" did a Baltic/Med debut tour; 495s enter the Oyster World Rally circumnavigation program.",
+ youtube:[
+   {name:"Oyster Yachts (official)",url:"https://www.youtube.com/@OysterYachts",note:"Builder channel"},
+   {name:"Oyster 495 — Extended Boat Tour",url:"https://www.youtube.com/watch?v=5qr2GB17ASQ",note:"Full official tour"},
+   {name:"Yachting World — On Test (200 miles)",url:"https://www.youtube.com/watch?v=3e-bld34ly4",note:"Toby Hodges 3-day sea trial"}
+ ]
+},
+{
+ id:"kraken", name:"Kraken 44", builder:"Kraken Yachts", designer:"Kevin Dibley",
+ color:"#3b4b5a", years:"2025–present (new)", material:"GRP (Kevlar-reinforced)",
+ loa:`44'3" (13.52 m)`, loaN:13.52, lwl:`40'9" (12.40 m)`, beam:`13'8" (4.20 m)`,
+ draftMin:`5'10" (1.8 m, fixed)`, draftMinN:1.8, draftMax:`5'10" (1.8 m, fixed)`,
+ displacement:`15,400 kg / 34,000 lb (full)`, ballast:`4,700 kg`, ballastRatio:`~40%`,
+ sailArea:`114 m² / 1,227 ft²`, sad:`~19`, dl:`~224`,
+ keel:`Encapsulated "Zero Keel" (no keel bolts) + full-length skeg-hung "Alpha" rudder`,
+ cockpit:"Aft cockpit with a solid windscreen + fully enclosable bimini/screens",
+ cockpitType:"Aft (enclosable bimini)",
+ bestFor:"The couple who want a brand-new, collision-engineered boat with a walk-in engine room and turnkey spec — and can sit right at the budget ceiling.",
+ protectionText:"Good for an aft-cockpit boat: a solid plexiglass/stainless windscreen plus a tubular bimini with removable panels and screens that fully enclose the cockpit. But it relies on a canvas enclosure rather than a hard doghouse — less inherently weatherproof than the Boréal or a pilothouse in sustained Patagonian cold.",
+ rig:"Solent double-headsail rig (furling jib + reaching genoa), in-mast electric Seldén furling standard (slab main offered); all halyards/furling lines led aft; electric primary winches are an upgrade.",
+ handlingText:"Designed so one person can set, furl, reef and trim from the cockpit: Solent twin-headsail rig, all lines led aft, in-mast electric furling standard. Note electric primary winches appear to be an upgrade on the 44 — budget for them to make it easy for a smaller crew.",
+ engineWorkshop:"A standout: a dedicated walk-in engine/machinery room with full standing access, a second access panel under the companionway, plus a dedicated tool cupboard and wet locker.",
+ storageText:"Extensive — a watertight-bulkheaded fore-deck sail locker, double stern lazarettes, gas-strut drawers under the master berth, a wet locker and a tool cupboard.",
+ systems:"Full world-cruising spec standard: triple fuel-polishing, a 120 L/h watermaker, lithium/solar, tropical A/C and Webasto heating throughout.",
+ fuel:`600 L / 159 gal`, fuelN:600, water:`500 L / 132 gal`, waterN:500,
+ rangeText:"~700–1,000+ nm motoring (estimate); triple fuel-polishing standard, 120 L/h watermaker in full spec.",
+ accommodation:"Sleeps 4 + 2, two heads in full spec. Side-deck boarding gates with ladders, a fold-out swim platform and high bulwarks with triple lifelines help dog boarding and on-deck safety. A/C and Webasto heating both standard in full spec.",
+ highLatText:"Strong on safety — a Kevlar-reinforced stem, two sealed forward bulkheads, a grounding-protected encapsulated keel + skeg rudder, Cat A, heating and a full enclosure. But the fixed 1.8 m GRP keel can't dry out, and GRP is more vulnerable to ice/rock abrasion than aluminium.",
+ tropicalText:"Excellent — standard tropical A/C, watermaker, full bimini/enclosure and good ventilation.",
+ priceText:"~$920k–$950k (new)", priceNew:"€850,000 incl. full world-cruising spec (~$920k–$950k)", priceUsed:"None yet — first hulls launching late 2025/2026", budget:"tight", budgetN:2, budgetText:"Tight — base spec lands right at the ceiling; once delivered, commissioned and fully kitted it can edge over $1M.",
+ priceExamples:["New €850,000 including full world-cruising spec (~$920k–$950k)","No used market yet — first hulls launching late 2025/2026","Budget to land at or modestly above $1M once delivered & commissioned"],
+ scores:{protection:3.5,handling:4,dogs:4,workshop:5,storage:4.5,tankage:4,highlat:3.5,tropical:5,budget:2.5},
+ tags:["Walk-in engine room","Zero Keel (no bolts)","Brand-new model","Full spec standard"],
+ fun:["The \"Zero Keel\" is moulded into the hull with no keel bolts — it can't be lost in a grounding.","The \"Alpha Rudder\" runs on a stainless armature from hull to a grounding shoe and can be serviced afloat.","A brand-new 2025/26 design — you'd be an early adopter with little used-market or refit history yet."],
+ notable:"Too new for owner expeditions on the 44; Kraken's larger 50/58 are in active world cruising and the brand is endorsed by offshore authors.",
+ youtube:[
+   {name:"Kraken Yachts (official)",url:"https://www.youtube.com/@KrakenYachts",note:"Yard/build content across the range"},
+   {name:"What's Kraken Sailing",url:"https://www.youtube.com/@whatskrakensailing",note:"Owner/cruising channel on a Kraken yacht"}
+ ]
+}
+];
+
+BOATS.forEach(b=>{ b.missionFit=fit(b.scores); });
+
+const grid=document.getElementById('grid');
+const tbody=document.getElementById('tbody');
+const countEl=document.getElementById('count');
+let activeFilter='all', sortKey='fit', tableSortKey='missionFit', tableSortDir=-1, query='';
+let gridView=true;
+
+function boatSVG(){return `<svg class="svgboat" width="86" height="66" viewBox="0 0 86 66"><path d="M6 50 h70 l-10 12 h-50 z" fill="#fff"/><path d="M44 6 l0 40 -26 0 z" fill="#fff"/><path d="M48 12 l18 34 -18 0 z" fill="#fff"/></svg>`;}
+function ringSVG(pct,color){const r=22,c=2*Math.PI*r,off=c*(1-pct/100);return `<svg width="58" height="58" viewBox="0 0 58 58"><circle cx="29" cy="29" r="${r}" fill="none" stroke="#eef3f7" stroke-width="6"/><circle cx="29" cy="29" r="${r}" fill="none" stroke="${color}" stroke-width="6" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${off}" transform="rotate(-90 29 29)"/><text x="29" y="33" text-anchor="middle" font-size="15" font-weight="700" fill="#0d2238">${pct}</text></svg>`;}
+function budgeClass(b){return b==='fit'?'b-fit':b==='tight'?'b-tight':'b-over';}
+function budgeLabel(b){return b==='fit'?'Fits budget':b==='tight'?'Tight':'Over budget';}
+
+function passesFilter(b){
+  if(query){const hay=(b.name+' '+b.builder+' '+b.tags.join(' ')+' '+b.cockpitType+' '+b.material+' '+b.bestFor).toLowerCase();if(!hay.includes(query))return false;}
+  switch(activeFilter){
+    case 'alu': return b.material.toLowerCase().includes('alumin');
+    case 'grp': return b.material.toLowerCase().startsWith('grp');
+    case 'lift': return /centreboard|lifting|board/i.test(b.keel);
+    case 'pilot': return /pilothouse|doghouse|deck-saloon|deck saloon|windscreen|enclosed/i.test(b.cockpit+b.cockpitType);
+    case 'budget': return b.budget==='fit';
+    default: return true;
+  }
+}
+function sorted(list){
+  const s=[...list];
+  s.sort((a,b)=>{
+    switch(sortKey){
+      case 'priceLow': return a.budgetN-b.budgetN || a.loaN-b.loaN;
+      case 'priceHigh': return b.budgetN-a.budgetN || b.loaN-a.loaN;
+      case 'draft': return a.draftMinN-b.draftMinN;
+      case 'protection': return b.scores.protection-a.scores.protection;
+      case 'handling': return b.scores.handling-a.scores.handling;
+      case 'range': return (b.fuelN+b.waterN)-(a.fuelN+a.waterN);
+      case 'name': return a.name.localeCompare(b.name);
+      default: return b.missionFit-a.missionFit;
+    }
+  });
+  return s;
+}
+
+function renderGrid(){
+  const list=sorted(BOATS.filter(passesFilter));
+  countEl.textContent=`${list.length} of ${BOATS.length} boats shown`;
+  grid.innerHTML=list.map((b,i)=>`
+    <div class="card" onclick="openModal('${b.id}')">
+      <div class="top" style="background:linear-gradient(135deg,${b.color},${shade(b.color,-18)})">
+        ${boatSVG()}
+        <div class="rank">${i+1}</div>
+        <h3 class="name">${b.name}</h3>
+        <div class="builder">${b.builder} · ${b.years}</div>
+      </div>
+      <div class="body">
+        <div class="fit">
+          <div class="ring">${ringSVG(b.missionFit,b.color)}</div>
+          <div><div class="fitlabel">Mission fit</div><div class="fitval">${b.missionFit}/100</div>
+            <span class="budge ${budgeClass(b.budget)}">${budgeLabel(b.budget)}</span></div>
+        </div>
+        <div class="cardbest">"${b.bestFor}"</div>
+        <div class="specrow">
+          <span class="s"><b>LOA</b> ${b.loa.split(' (')[0]}</span>
+          <span class="s"><b>Draft</b> ${b.draftMin.split(' (')[0]}${b.draftMax!==b.draftMin?'–'+b.draftMax.split(' (')[0]:''}</span>
+          <span class="s"><b>Hull</b> ${b.material}</span>
+          <span class="s"><b>Cockpit</b> ${b.cockpitType}</span>
+        </div>
+        <div class="tags">${b.tags.map(t=>`<span class="tag${/over budget|two generations|tight/i.test(t)?' warnt':''}">${t}</span>`).join('')}</div>
+        <div class="pricep">💵 <b>${b.priceText}</b></div>
+      </div>
+    </div>`).join('');
+}
+
+function renderTable(){
+  const list=[...BOATS.filter(passesFilter)].sort((a,b)=>{
+    let x=a[tableSortKey],y=b[tableSortKey];
+    if(tableSortKey==='protection'||tableSortKey==='handling'){x=a.scores[tableSortKey];y=b.scores[tableSortKey];}
+    if(typeof x==='string'){return tableSortDir*x.localeCompare(y);}
+    return tableSortDir*(x-y);
+  });
+  countEl.textContent=`${list.length} of ${BOATS.length} boats shown`;
+  tbody.innerHTML=list.map(b=>`
+    <tr onclick="openModal('${b.id}')">
+      <td><span class="nm">${b.name}</span><br><span class="mini" style="width:${b.missionFit*0.7}px;background:${b.color}"></span> ${b.missionFit}</td>
+      <td>${b.material}</td>
+      <td>${b.cockpitType}</td>
+      <td>${b.loa.split(' (')[0]}</td>
+      <td>${b.draftMin.split(' (')[0]}${b.draftMax!==b.draftMin?'–'+b.draftMax.split(' (')[0]:''}</td>
+      <td>${b.fuel.split(' / ')[0]}</td>
+      <td>${b.water.split(' / ')[0]}</td>
+      <td>${'●'.repeat(Math.round(b.scores.protection))}<span style="color:#cfd9e2">${'●'.repeat(5-Math.round(b.scores.protection))}</span></td>
+      <td>${'●'.repeat(Math.round(b.scores.handling))}<span style="color:#cfd9e2">${'●'.repeat(5-Math.round(b.scores.handling))}</span></td>
+      <td><span class="budge ${budgeClass(b.budget)}">${budgeLabel(b.budget)}</span></td>
+      <td>${b.priceText}</td>
+    </tr>`).join('');
+}
+
+function render(){ if(gridView){renderGrid();}else{renderTable();} }
+
+function openModal(id){
+  const b=BOATS.find(x=>x.id===id);
+  const m=document.getElementById('modal');
+  const bars=DIMS.map(([k,label])=>{const v=b.scores[k];return `<div class="bar"><div class="bl"><span>${label}</span><span>${v}/5</span></div><div class="track"><div class="fillb" style="width:${v/5*100}%"></div></div></div>`;}).join('');
+  const specs=[
+    ['Builder',b.builder],['Designer',b.designer],['Years',b.years],['Hull material',b.material],
+    ['LOA',b.loa],['LWL',b.lwl],['Beam',b.beam],['Draft (min)',b.draftMin],['Draft (max)',b.draftMax],
+    ['Displacement',b.displacement],['Ballast',b.ballast],['Ballast ratio',b.ballastRatio],
+    ['Sail area',b.sailArea],['SA/D ratio',b.sad],['D/L ratio',b.dl],['Keel / hull',b.keel],
+    ['Fuel',b.fuel],['Water',b.water]
+  ].map(([k,v])=>`<div class="kv"><span>${k}</span><span>${v}</span></div>`).join('');
+  const det=[
+    ['🛡️ Cockpit protection',b.protectionText],
+    ['🪢 Short-handed handling',b.handlingText],
+    ['⛵ Rig & sails',b.rig],
+    ['🔧 Workshop & engine',b.engineWorkshop],
+    ['🔋 Systems & power',b.systems],
+    ['📦 Storage',b.storageText],
+    ['⛽ Tankage & range',b.rangeText],
+    ['🐕 Crew & dogs',b.accommodation],
+    ['❄️ High latitude (Patagonia)',b.highLatText],
+    ['🌴 Tropics (Caribbean/Polynesia)',b.tropicalText]
+  ].map(([k,v])=>`<div class="kv"><span>${k}</span><span>${v}</span></div>`).join('');
+  m.innerHTML=`
+    <div class="mhead" style="background:linear-gradient(135deg,${b.color},${shade(b.color,-18)})">
+      <button class="close" onclick="closeModal()">×</button>
+      <h2>${b.name}</h2>
+      <div class="mb">${b.builder} · ${b.designer} · ${b.years} · Mission fit ${b.missionFit}/100 · <b>${b.priceText}</b></div>
+    </div>
+    <div class="mbody">
+      <div class="bestfor"><b>Best for:</b> ${b.bestFor}</div>
+      <div class="msec"><div class="note">${b.budgetText}</div></div>
+
+      <div class="msec"><h3>Mission-fit breakdown</h3><div class="bars">${bars}</div></div>
+
+      <div class="msec"><h3>Why it fits — and where it doesn't</h3>
+        <div class="pc">
+          <div class="pros"><h4>✓ Pros for this mission</h4><ul>${b.pros.map(p=>`<li>${p}</li>`).join('')}</ul></div>
+          <div class="cons"><h4>✕ Watch-outs</h4><ul>${b.cons.map(c=>`<li>${c}</li>`).join('')}</ul></div>
+        </div>
+      </div>
+
+      <div class="msec"><h3>The details that matter here</h3>
+        <div class="spectable detgrid" style="grid-template-columns:1fr">${det}</div>
+      </div>
+
+      <div class="msec"><h3>Full specifications</h3><div class="spectable">${specs}</div></div>
+
+      <div class="msec"><h3>💰 Price detail</h3>
+        <div class="spectable" style="grid-template-columns:1fr">
+          <div class="kv"><span>New</span><span style="font-weight:400;text-align:left;max-width:74%">${b.priceNew}</span></div>
+          <div class="kv"><span>Used / brokerage</span><span style="font-weight:400;text-align:left;max-width:74%">${b.priceUsed}</span></div>
+        </div>
+        <ul class="plist">${b.priceExamples.map(p=>`<li>${p}</li>`).join('')}</ul>
+      </div>
+
+      <div class="msec"><h3>✨ Fun details</h3><ul class="funlist">${b.fun.map(f=>`<li>${f}</li>`).join('')}</ul>
+        <div style="font-size:12.5px;color:var(--muted);margin-top:8px"><b>Notable voyages:</b> ${b.notable}</div></div>
+
+      <div class="msec"><h3>▶ YouTube — owners & reviews</h3><div class="yt">
+        ${b.youtube.map(y=>`<a href="${y.url}" target="_blank" rel="noopener"><span class="ytic"></span><span class="ytmeta"><b>${y.name}</b><small>${y.note}</small></span></a>`).join('')}
+      </div></div>
+    </div>`;
+  document.getElementById('overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+  m.parentElement.scrollTop=0;
+}
+function closeModal(){document.getElementById('overlay').classList.remove('open');document.body.style.overflow='';}
+
+const PC={
+ boreal:{pros:["Hard doghouse = unmatched all-weather shelter for cold Patagonia, yet works in the tropics too.","Aluminium + 1.08 m shoal centreboard + flat beachable base = the definitive rock-anchorage and reef platform; repairable anywhere.","Genuinely proven expedition record (Antarctic, Patagonia, circumnavigations) — a low-risk known quantity.","Enormous, well-distributed stowage and an optional dedicated workshop cabin; easy step-free deck movement for dogs."],
+ cons:["You still step out of the doghouse into the working cockpit to reef (3rd reef not led aft as standard).","Lighter, lower-ballast shoal centreboarder — not a heavy full-keel feel (though proven stable and forgiving).","Centreboard + twin daggerboards add maintenance points vs. a fixed keel.","Aluminium needs careful galvanic management and can be warm below in the tropics without good ventilation."]},
+ garcia:{pros:["Aluminium hull + lifting board + beachable plate — ideal for Patagonian rock anchorages, drying out and impact safety.","1.14 m shoal draft unlocks shallow coves the Amel can't reach and eases dog shore-access.","A real onboard workshop plus easy access to engine, watermaker and systems.","Insulated, heated, double-glazed deck saloon with 270° interior watchkeeping; well within budget used."],
+ cons:["Hardtop \"cap\" protection is excellent but not as fully enclosing as the Amel's center cockpit.","Less standard automation than the Amel — spec electric winches/easy furling for a smaller crew.","Smaller interior volume than the Amel 50 (46 ft vs 54 ft) — tighter for a couple + 2 dogs + long-term gear.","Aluminium requires electrical-isolation discipline (galvanic management, anodes)."]},
+ ovni490:{pros:["Fully protected aluminium pilothouse with inside steering — the single best feature for cold, wet watches and for sheltering crew + dogs.","The definitive high-latitude rock-anchorage platform: all-aluminium, lifting keel to 1.0 m, can take the ground.","Biggest tankage here (1,000 L fuel / 600 L water) + dedicated foul-weather locker.","Twin engines give docking precision and get-home redundancy in remote waters."],
+ cons:["Base €995k ex-VAT means a fully outfitted boat will almost certainly exceed $1M — the tightest fit (or a miss) against budget.","All-aluminium deck + big pilothouse can run hot in the tropics without good ventilation/A/C.","Heavier, higher-volume hull = less lively sailing than the lighter Allures.","Brand-new design with no long-term owner track record yet (first hulls from 2025)."]},
+ outbound:{pros:["Purpose-built two-handed couple's boat — balanced helm, solent rig, lines aft, electric-winch/furling options for a smaller crew.","Best-in-class stand-up workshop \"garage\" plus the easiest engine/systems access in this comparison.","Big keel-centred tankage + a frugal Yanmar = ~1,000+ nm real ocean-crossing range.","Short 3-step companionway, walk-through transom and swim platform — the easiest boat here for two dogs.","Solid hand-laid GRP, no keel bolts, a forward collision bulkhead and factory Webasto heat — proven Patagonia-to-Polynesia."],
+ cons:["Aft open cockpit with no inside steering — in sustained Patagonian cold the helmsman relies on a (good) hard dodger, not a heated doghouse.","Only a 2-cabin / 2-head layout — limited guest space.","China-built (excellent reputation, but survey the cored rudder for moisture and check mast-step drainage).","Truly turn-key cold + tropical kit on a cheaper used hull still needs real refit spend."]},
+ ovni450:{pros:["Centreboard + dry-out ability is uniquely valuable for Patagonia's tidal/remote anchorages and for letting two dogs ashore on a beach.","Aluminium hull forgives ice, debris and the inevitable reef bump — the cheapest path to true expedition capability.","Hard-dodger option gives a genuinely protected, partially-enclosable cockpit for cold-water watches.","All sail handling leads to the cockpit; electric winches + mast track + boom brake make it workable for a smaller crew.","Dedicated aft workshop/technical room plus a huge cockpit \"garage\" for gear; low boarding height for dogs."],
+ cons:["Tankage (500 L / 540 L) and ~700–900 nm range are only moderate for big crossings — budget for added fuel/water and a watermaker.","Engine access is \"lift-the-stairs\" rather than a walk-in room (adequate, but tighter than the Allures).","Flat-bottomed alloy hull slaps at anchor and upwind in chop, and it's not a fast boat — slower passages.","Standard 50 hp engine is modest for windward/tidal motoring; many owners prefer more power.","Aluminium demands disciplined galvanic management, especially in warm tropical marinas."]},
+ allures519:{pros:["Best-in-class shorthanded handling — push-button sailing from the helm, in-mast main, winches at the wheels — ideal for a smaller crew.","A walk-in engine room plus dedicated technical spaces directly answer the easy-engine-access + workshop requirement.","Larger fuel/water tankage (~700 L / ~600 L) and longer power range than the Ovni 450 for serious crossings.","Genuinely dual-climate: insulated alloy + heating + rigid bimini for Patagonia; shoal centreboard, A/C and shade for the tropics.","Quiet, sea-kindly round-bilge hull; centreboard dries out for shallow remote anchorages."],
+ cons:["Price: a ready-to-sail used 51.9 likely sits at or above the $1M budget — the tightest fit of the new boats.","High freeboard makes climbing aboard a bigger step for two dogs (mitigated by the drop-down platform).","In-mast furling main (typical) trades some sail shape/performance and adds a jam-risk point offshore.","More boat and more complex systems for two people to maintain far from help.","Composite deck on an alloy hull means two maintenance regimes; centreboard case + twin rudders add inspection points."]},
+ hr44:{pros:["The fixed glass windscreen + dodger is purpose-built for cold, wet high-latitude watches.","Engineered for an easy two-handed life: electric/reversible winches, self-tacking jib option, light twin-rudder helm.","Center cockpit = excellent walk-in-style engine access and a large secure aft cabin.","Legendary build quality and resale; fits comfortably under $1M used."],
+ cons:["No dedicated workshop cabin (uses lockers/lazarette) — less workshop space than the Outbound or Garcia.","2.10 m fixed deep keel + twin rudders limit shoal flexibility and add rock-grounding risk (consider the 1.75 m shoal keel).","High freeboard + transom platform — dog (and human) boarding isn't effortless.","Fuel range under power (~600–800 nm) is good but not huge for long windless legs."]},
+ allures:{pros:["Aluminium hull + lifting board = ideal for rock-strewn Patagonia and reef-strewn tropics alike; the standard boat can dry out.","Easy short-handed handling praised by reviewers; electric options suit a smaller crew.","Two-cabin owner layout delivers a real workshop + cavernous stowage.","GRP deck = cooler, drier, quieter living; best budget fit of the whole group."],
+ cons:["No hard pilothouse/doghouse — protection is canvas, materially less sheltered than the Ovni for cold watches.","Smaller fuel (625 L) and water (420 L) than the Ovni/Oyster — shorter range/autonomy.","Sparse handholds forward of the mast — a real consideration for a smaller crew and for dogs.","The lighter/faster \"S\" variant loses dry-out ability — insist on the standard centreboard boat."]},
+ amel:{pros:["Best-in-class enclosed center cockpit — a fully sheltered helm for cold Patagonia and hot tropics alike.","All-electric furling and winches mean a smaller/less-strong crew can sail it almost button-only.","Walk-in watertight engine room with superb access and space for tools/spares.","Huge stowage and a comfortable, secure liveaboard interior; proven couple's ocean boat."],
+ cons:["GRP hull + fixed 2.15 m keel: less suited to rock/ice contact and shallow gunkholing than the aluminium boats.","Fixed deep draft limits access to thin-water anchorages.","Mostly at/above budget — getting one fully outfitted under $1M is tight.","High freeboard makes dog boarding harder (needs a ramp/sling), and it leans heavily on electric systems."]},
+ wauquiez:{pros:["A heated, fully-glazed pilothouse with inside steering — the best cold-weather crew protection of any GRP boat here.","Easiest routine short-handing: self-tacking jib + in-mast furling + electric winches + bow thruster.","Superb storage volume (stows like a 50–55-footer) with Oyster-grade liveaboard comfort.","Modern used examples (~$760k–$790k) fit under budget with room to outfit; three keel depths to optimise."],
+ cons:["No workshop and only adequate engine access — a real shortfall vs. this mission's priorities.","Balsa-cored hull is a maintenance/impact concern for ice-and-rock high latitudes; iron keel needs corrosion care.","Tankage (650 L / 615 L) is smaller than the Outbound's for very long ocean legs.","High freeboard + tall deckhouse make boarding two dogs a climb; rare boat with thinner support outside Europe."]},
+ hr43:{pros:["Center cockpit + HR's fixed windscreen + hard dodger keeps the smaller crew member dry and warm on cold Patagonian watches.","Built for short-handed couples: all lines at the cockpit, electric/optional reversible winches and a furling main — push-button operation; optional thrusters with docking function.","Standard Webasto diesel heat + insulated cored hull = genuine cold-water capability while tempering tropical heat.","Generous water tankage and quality stowage, with offshore-friendly shaft-drive and excellent center-cockpit engine access.","True bluewater pedigree at a used price well under $1M — leaving margin for solar/lithium/watermaker upgrades."],
+ cons:["Standard 2.0 m draft is deep for tropical thin water — prioritise a 1.70 m shoal-keel example.","High freeboard, bulwarks and a center-cockpit aft cabin make dog boarding from a dinghy/low dock awkward (plan a ramp).","No factory self-tacking jib (overlapping genoa) and the cockpit feels tight with more than two aboard.","Modest fuel/range (~430–550 nm) needs deck jerry cans and almost certainly a watermaker for big gaps.","Heavy teak inventory is high-maintenance under tropical UV; Mk III units are rare and command a premium."]},
+ oyster:{pros:["Best push-button short-handed handling here — furl both sails, anchor and dock single-handed.","Outstanding engine access and a cavernous full-beam lazarette for world-cruising stowage.","Largest fuel tankage (800 L) → ~1,000+ nm motoring range; superb full-beam owner's stateroom.","Prestigious bluewater pedigree, Oyster World Rally network, European Yacht of the Year 2023."],
+ cons:["Price is the dealbreaker: new ~$1.5M+, used ~$2M — well above the $1M budget.","No fixed windscreen/doghouse and no standard wet locker — gaps for cold, wet high-latitude cruising.","Deepest draft here (2.28 m std) — shoal keel needed for rock/shallow anchorages.","Heavier and less sail-powered — wants breeze, more motoring in light air; helm feel is geared and heavy."]},
+ kraken:{pros:["Designed for safe short-handed ocean sailing; Solent rig + in-mast electric furling, handled from a protected cockpit.","Genuine walk-in engine room plus a dedicated tool cupboard — nails the workshop/engine-access wish.","Encapsulated keel + skeg rudder + Kevlar collision protection = exceptional grounding/impact safety.","Full world-cruising spec (heating, A/C, watermaker, lithium/solar) comes standard — close to ready-to-sail."],
+ cons:["Brand-new, unproven model with essentially no owner track record or used market yet.","Price leaves little headroom under $1M once delivered and commissioned; electric primary winches look like an upgrade.","Fixed 1.8 m GRP keel can't take the ground upright — less suited to drying rock anchorages.","Cockpit protection relies on canvas, not a hard doghouse — less shelter in sustained Patagonian cold."]}
+};
+BOATS.forEach(b=>{b.pros=PC[b.id].pros;b.cons=PC[b.id].cons;});
+
+function shade(hex,p){const n=parseInt(hex.slice(1),16);let r=(n>>16)+p,g=((n>>8)&255)+p,bl=(n&255)+p;r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));bl=Math.max(0,Math.min(255,bl));return '#'+((1<<24)+(r<<16)+(g<<8)+bl).toString(16).slice(1);}
+
+document.getElementById('sort').addEventListener('change',e=>{sortKey=e.target.value;render();});
+document.getElementById('search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();render();});
+document.getElementById('chips').addEventListener('click',e=>{if(!e.target.dataset.f)return;document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));e.target.classList.add('active');activeFilter=e.target.dataset.f;render();});
+document.getElementById('vGrid').addEventListener('click',()=>{gridView=true;document.getElementById('vGrid').classList.add('active');document.getElementById('vTable').classList.remove('active');grid.style.display='grid';document.getElementById('tablewrap').style.display='none';render();});
+document.getElementById('vTable').addEventListener('click',()=>{gridView=false;document.getElementById('vTable').classList.add('active');document.getElementById('vGrid').classList.remove('active');grid.style.display='none';document.getElementById('tablewrap').style.display='block';render();});
+document.querySelectorAll('#table th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(tableSortKey===k)tableSortDir*=-1;else{tableSortKey=k;tableSortDir=(k==='priceText'||k==='material'||k==='cockpit')?1:-1;}renderTable();}));
+document.getElementById('overlay').addEventListener('click',e=>{if(e.target.id==='overlay')closeModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+render();
+</script>
+</body>
+</html>
