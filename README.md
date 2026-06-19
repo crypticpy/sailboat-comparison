@@ -1,6 +1,6 @@
 # Bluewater Cruiser Comparison — Patagonia to Polynesia
 
-An interactive, single-page comparison of **27 serious offshore monohulls**, scored against one
+An interactive, single-page comparison of **33 serious offshore monohulls**, scored against one
 specific cruising mission:
 
 > A two-handed couple (one smaller / less-strong crew) plus two dogs, wanting a strongly
@@ -13,12 +13,12 @@ specific cruising mission:
 Open **`index.html`** in any web browser — no build step, no dependencies, fully self-contained
 (works offline). If GitHub Pages is enabled, it's also live at the Pages URL.
 
-## The boats (27)
+## The boats (33)
 
 Boréal 47.2 · Garcia Exploration 45 · Ovni 490 · Ovni 450 · Allures 45.9 · Allures 51.9 ·
 Amel 50 · Hallberg-Rassy 44 · Hallberg-Rassy 43 Mk III · Najad 460 · Discovery 55 · Hylas 48 ·
 Contest 50CS · Oyster 495 · Outbound 46 · Kraken 44 · Wauquiez Pilot Saloon 48 ·
-Tayana 48 Deck Salon · Moody Decksaloon 54 · Amel 54 · Hylas 54 · Outbound 52 · Garcia Exploration 52 · Boréal 52 · Passport Vista 545 · Tayana 58 Deck Salon · Farr 56 Pilot House.
+Tayana 48 Deck Salon · Moody Decksaloon 54 · Amel 54 · Hylas 54 · Outbound 52 · Garcia Exploration 52 · Boréal 52 · Passport Vista 545 · Tayana 58 Deck Salon · Farr 56 Pilot House · Pure 42 · Bestevaer 49ST · Enksail Orion 49 · Alliage 45 · Sirius 40 DS · Pogo 12.50.
 
 ## Features
 
