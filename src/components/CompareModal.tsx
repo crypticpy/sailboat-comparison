@@ -1,6 +1,13 @@
 import { useEffect, useState, type ReactNode } from "react";
 import type { ScoredBoat } from "../types/boat";
-import { DIMS, comfort, csf, usd, waterDays } from "../lib/metrics";
+import {
+  DIMS,
+  comfort,
+  csf,
+  stabilityIndex,
+  usd,
+  waterDays,
+} from "../lib/metrics";
 import { budgeLabel, headline } from "../lib/format";
 import { Dots } from "../lib/svg";
 import { researchOf } from "../lib/research";
@@ -116,6 +123,13 @@ export default function CompareModal({ boats: list, onClose, onClear }: Props) {
       text: (b) => csf(b).toFixed(2),
       num: (b) => csf(b),
       better: "low",
+    },
+    {
+      label: "Stability index (computed)",
+      cell: (b) => stabilityIndex(b) + "/100",
+      text: (b) => String(stabilityIndex(b)),
+      num: (b) => stabilityIndex(b),
+      better: "high",
     },
     {
       label: "Engine / drive",

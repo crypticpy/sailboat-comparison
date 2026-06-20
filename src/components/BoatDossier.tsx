@@ -20,6 +20,9 @@ import {
   mrate,
   rate5,
   specColor,
+  stabilityIndex,
+  stabilityRate,
+  stabilityWord,
   waterDays,
   type DimKey,
   type PillarWeights,
@@ -111,14 +114,42 @@ function Scorecard({ boat }: { boat: ScoredBoat }) {
   );
 }
 
-function DerivableHeavyWeather({ boat: b }: { boat: ScoredBoat }) {
+function DerivableHeavyWeather({
+  boat: b,
+  research,
+}: {
+  boat: ScoredBoat;
+  research?: BoatResearch | null;
+}) {
   const csfCls = mrate(b, "csf");
   const comfCls = mrate(b, "comfort");
   const lLb = loadedLb(b);
   const loadedCsf = lLb ? b.beamFt / Math.cbrt(lLb / 64) : null;
   const shelter = isShelter(b);
+  // Prefer a published/researched stability figure when one survived verification;
+  // otherwise fall back to the computed screening index so no boat is ever blank.
+  const ss = research?.scores.stability_score;
+  const published = !!ss && ss.confidence > 0 && ss.value > 0;
+  const si = stabilityIndex(b);
+  const stabVal = published ? Math.round(ss!.value) : si;
+  const stabCls = stabilityRate(stabVal);
   return (
     <div className="hwstrip">
+      <div className={"hwcard " + stabCls}>
+        <div className="hl">
+          <Prov kind={published ? "spec" : "computed"} /> Stability index
+        </div>
+        <div className="hv">
+          {stabVal}
+          <i>/100</i>
+        </div>
+        <div className="hr">{stabilityWord(stabVal)}</div>
+        <div className="hsub">
+          {published
+            ? "From published stability data."
+            : "Screening blend of capsize ratio, ballast & motion — not a measured AVS."}
+        </div>
+      </div>
       <div className={"hwcard " + csfCls}>
         <div className="hl">
           <Prov kind="computed" /> Capsize screen
@@ -377,7 +408,7 @@ export default function BoatDossier({
               <SecHead>
                 🌊 Heavy weather &amp; stability — read this first
               </SecHead>
-              <DerivableHeavyWeather boat={b} />
+              <DerivableHeavyWeather boat={b} research={research} />
               <div className="provkey">
                 <span>
                   <Prov kind="computed" /> computed from physics
@@ -405,27 +436,29 @@ export default function BoatDossier({
                       label="❄️ Cold-weather readiness"
                       value={research.scores.cold_score.value}
                       confidence={research.scores.cold_score.confidence}
-                      note={research.scores.cold_score.basis}
                     />
                     <ScoreBar
                       label="🌴 Tropical readiness"
                       value={research.scores.tropic_score.value}
                       confidence={research.scores.tropic_score.confidence}
-                      note={research.scores.tropic_score.basis}
-                    />
-                    <ScoreBar
-                      label="⚖️ Stability"
-                      value={research.scores.stability_score.value}
-                      confidence={research.scores.stability_score.confidence}
-                      note={research.scores.stability_score.basis}
                     />
                   </div>
-                  <div className="rationale">
-                    <b>Cold:</b> {research.scores.cold_score.rationale}
-                  </div>
-                  <div className="rationale">
-                    <b>Tropics:</b> {research.scores.tropic_score.rationale}
-                  </div>
+                  <details className="why-scores">
+                    <summary>Why these scores</summary>
+                    <p>
+                      <b>Cold-weather:</b>{" "}
+                      {research.scores.cold_score.rationale}
+                    </p>
+                    <p>
+                      <b>Tropics:</b> {research.scores.tropic_score.rationale}
+                    </p>
+                    {research.scores.stability_score.rationale && (
+                      <p>
+                        <b>Stability:</b>{" "}
+                        {research.scores.stability_score.rationale}
+                      </p>
+                    )}
+                  </details>
                 </div>
 
                 <div className="msec">
@@ -719,11 +752,11 @@ export default function BoatDossier({
                   verified facts
                 </SecHead>
                 <div className="evidnote">
-                  Each fact survived an adversarial citation check. The verifier
-                  removed <b>{research.verify.removed.length}</b>{" "}
-                  unsourced/implausible claims and flagged{" "}
-                  <b>{research.verify.fabrication_flags.length}</b> as likely
-                  fabrication — those are NOT shown here.
+                  Every fact below was checked against its cited source.{" "}
+                  <b>{research.verify.removed.length}</b> unsupported or
+                  implausible claims were set aside, and{" "}
+                  <b>{research.verify.fabrication_flags.length}</b> more were
+                  withheld as unreliable — none of those are shown here.
                 </div>
                 {factGroups.map((g) => (
                   <div className="factgroup" key={g.label}>

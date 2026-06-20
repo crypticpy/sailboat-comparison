@@ -89,6 +89,48 @@ export const comfort = (b: Boat) =>
   (0.65 * (0.7 * b.lwlFt + 0.3 * loaFt(b)) * Math.pow(b.beamFt, 1.33));
 export const hullSpeed = (b: Boat) => 1.34 * Math.sqrt(b.lwlFt);
 
+// ── Computed stability screening index ──────────────────────────────────────
+// A true Angle of Vanishing Stability needs the GZ (righting-arm) curve from
+// full hydrostatics, which builders rarely publish — so we never invent one.
+// What IS calculable from basic hull specs is a *screening* index: a 0–100
+// blend of the standard offshore-stability proxies (capsize screening formula,
+// ballast ratio, motion comfort, beam-to-waterline). It is an indicator for
+// comparison and sea-trial planning, NOT a measured AVS. Higher = stiffer /
+// more resistant to capsize. Centreboarders lean on form stability, so a low
+// published ballast ratio is not penalised when absent.
+const clamp100 = (v: number): number => Math.max(0, Math.min(100, v));
+/** Map v across [lo,hi] → [0,100], clamped. */
+const lerp100 = (v: number, lo: number, hi: number): number =>
+  clamp100(((v - lo) / (hi - lo)) * 100);
+
+export function stabilityIndex(b: Boat): number {
+  const csfC = lerp100(2.2 - csf(b), 0, 0.6); // CSF 2.2→0, 1.6→100 (lower better)
+  const comfC = lerp100(comfort(b), 18, 42); // sea-kindly motion proxy
+  const beamC = lerp100(0.4 - b.beamFt / b.lwlFt, 0, 0.13); // narrower → higher AVS
+  const parts: [number, number][] = [
+    [csfC, 0.35],
+    [comfC, 0.2],
+    [beamC, 0.15],
+  ];
+  const br = parseNum(b.ballastRatio);
+  if (br != null) parts.push([lerp100(br, 22, 45), 0.3]); // higher ballast → stiffer
+  const w = parts.reduce((s, [, k]) => s + k, 0);
+  return Math.round(parts.reduce((s, [c, k]) => s + c * k, 0) / w);
+}
+/** Rating class for the computed stability index (higher is better). */
+export const stabilityRate = (v: number | null): RateClass =>
+  tierHigh(v, 68, 54, 42);
+/** Plain word for a stability-index value. */
+export function stabilityWord(v: number): string {
+  return v >= 68
+    ? "Stiff / offshore-capable form"
+    : v >= 54
+      ? "Sound cruising stability"
+      : v >= 42
+        ? "Moderate — mind the GZ curve"
+        : "Tender — verify righting on survey";
+}
+
 export function parseNum(s: unknown): number | null {
   const m = String(s).match(/-?[\d.]+/);
   return m ? parseFloat(m[0]) : null;

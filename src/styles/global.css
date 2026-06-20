@@ -1954,6 +1954,51 @@ footer a {
 .rationale b {
   color: var(--ink);
 }
+/* Collapsible "why these scores" — keeps the reasoning available without
+   dumping a wall of text on first read. */
+.why-scores {
+  margin: 10px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  padding: 0 14px;
+}
+.why-scores > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.why-scores > summary::-webkit-details-marker {
+  display: none;
+}
+.why-scores > summary::before {
+  content: "▸";
+  font-size: 11px;
+  transition: transform 0.15s ease;
+}
+.why-scores[open] > summary::before {
+  transform: rotate(90deg);
+}
+.why-scores > summary:hover {
+  color: var(--ink);
+}
+.why-scores p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.why-scores p b {
+  color: var(--ink);
+}
 .verdict-card {
   border: 1px solid var(--line);
   border-left-width: 4px;
@@ -2350,5 +2395,453 @@ footer a {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* ═══════════ Budgeting & planning deck (/budget) ═════════════════════════ */
+.hero-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+}
+.hero-navlink {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brass-bright);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 5px 14px;
+  transition: all var(--t-fast) var(--ease);
+}
+.hero-navlink:hover {
+  color: #fff;
+  border-color: var(--brass);
+  background: rgba(184, 137, 59, 0.18);
+}
+.budget {
+  min-height: 100vh;
+  background: var(--paper);
+}
+.bprint {
+  margin-left: auto;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.bprint:hover {
+  border-color: var(--brass);
+}
+.budget-hero {
+  border-top: 4px solid var(--brass);
+  background: linear-gradient(180deg, var(--paper-2), var(--paper));
+  padding: 26px 0 22px;
+  border-bottom: 1px solid var(--line);
+}
+.budget-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brass-deep);
+}
+.budget-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.05;
+  margin: 4px 0 8px;
+  color: var(--ink);
+}
+.budget-sub {
+  max-width: 65ch;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0 0 16px;
+}
+.budget-pick {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.budget-boatfacts {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.budget-boatfacts span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--chip);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+.budget-boatfacts .research-pill {
+  color: #fff;
+  background: var(--good);
+}
+.budget-main {
+  padding: 22px 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.budget-headline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.budget-headline > div {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.bhl-lab {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
+.bhl-val {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--brass-bright);
+}
+.bhl-sub {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* tool cards */
+.btool {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.btool-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-2);
+}
+.btool-head h2 {
+  font-family: var(--font-display);
+  font-size: 19px;
+  margin: 0;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btool-n {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--brass);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font-ui);
+}
+.btool-blurb {
+  margin: 6px 0 0 36px;
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 60ch;
+  line-height: 1.45;
+}
+.btool-total {
+  text-align: right;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+.bt-lab {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.bt-val {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.btool-body {
+  padding: 16px 18px;
+}
+
+/* fields */
+.bgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+}
+.bfield {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.bflabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.bfhint {
+  font-size: 11px;
+  color: var(--brass-deep);
+}
+.bnum {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  overflow: hidden;
+}
+.bnum:focus-within {
+  border-color: var(--brass);
+}
+.bnum input {
+  font: inherit;
+  font-size: 14px;
+  border: 0;
+  background: transparent;
+  padding: 8px 8px;
+  width: 100%;
+  color: var(--ink);
+  -moz-appearance: textfield;
+}
+.bnum .bpfx,
+.bnum .bsfx {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: normal;
+  padding: 0 8px;
+  background: var(--paper-2);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.bfield select,
+.budget-pick select {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  min-width: 200px;
+}
+.bderived {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--good);
+  padding: 6px 0;
+}
+.bcheck {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: 14px;
+  cursor: pointer;
+}
+.bloan {
+  margin-top: 12px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+}
+
+/* refit table */
+.brefit {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.brefit-head,
+.brefit-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 120px 28px;
+  gap: 8px;
+  align-items: center;
+}
+.brefit-head {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding: 0 2px;
+}
+.brefit-lab {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.brefit-del {
+  border: 0;
+  background: transparent;
+  color: var(--warn);
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+.badd {
+  margin-top: 12px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brass-deep);
+  background: transparent;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.badd:hover {
+  border-color: var(--brass);
+  color: var(--ink);
+}
+
+/* upgrades */
+.bupgrades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 8px;
+}
+.bupg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  cursor: pointer;
+  font-size: 13px;
+}
+.bupg.on {
+  border-color: var(--good);
+  background: var(--foam);
+}
+.bupg-lab {
+  flex: 1;
+  color: var(--ink);
+}
+.bupg-cost {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* notes & stats */
+.bnote {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--paper-2);
+  border-left: 3px solid var(--brass);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 14px;
+}
+.bstats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.bstats > div {
+  text-align: center;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 6px;
+}
+.bstats b {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--ink);
+}
+.bstats span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.budget-foot {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 70ch;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 640px) {
+  .brefit-head,
+  .brefit-row {
+    grid-template-columns: 1fr 90px 90px 24px;
+  }
+  .budget-headline {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* print: a clean one-page plan, controls hidden */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .budget-hero,
+  .budget-headline > div {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .bhl-val,
+  .bt-val,
+  .bderived,
+  .bhl-sub,
+  .bhl-lab {
+    color: #000 !important;
+  }
+  .btool {
+    break-inside: avoid;
+    box-shadow: none;
   }
 }
