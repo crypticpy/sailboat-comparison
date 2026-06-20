@@ -5,15 +5,21 @@ import {
   PILLARS,
   RATE_WORDS,
   R5_WORDS,
+  AUTONOMY_NOTE,
+  catColor,
+  type DimKey,
   comfort,
   csf,
   hullSpeed,
+  loadedLb,
+  mrate,
   rate5,
-  shade,
   specColor,
+  waterDays,
   type PillarWeights,
 } from "../lib/metrics";
-import { Radar } from "../lib/svg";
+import { isShelter } from "../lib/format";
+import { TierBars, Prov } from "../lib/svg";
 
 /** Inline colour-coded spec value (legacy .cw span). */
 function CV({
@@ -159,15 +165,108 @@ function OwnershipSection({ boat: b }: { boat: ScoredBoat }) {
   );
 }
 
+const CSF_WORD: Record<string, string> = {
+  g: "Sea-kindly",
+  y: "Moderate",
+  o: "Lively",
+  r: "Stiff",
+  n: "—",
+};
+
+/**
+ * Heavy-weather & stability — leads the profile because on this route it decides
+ * everything. Shows ONLY what we can derive or cite honestly; the self-righting
+ * limit (AVS / CE category) is a designed "not published" state, never invented.
+ */
+function HeavyWeather({ boat: b }: { boat: ScoredBoat }) {
+  const csfCls = mrate(b, "csf");
+  const comfCls = mrate(b, "comfort");
+  const lLb = loadedLb(b);
+  const loadedCsf = lLb ? b.beamFt / Math.cbrt(lLb / 64) : null;
+  const shelter = isShelter(b);
+  return (
+    <div className="msec">
+      <h3>🌊 Heavy weather &amp; stability — read this first</h3>
+      <div className="hwstrip">
+        <div className={"hwcard " + csfCls}>
+          <div className="hl">
+            <Prov kind="computed" /> Capsize screen
+          </div>
+          <div className="hv">{csf(b).toFixed(2)}</div>
+          <div className="hr">{CSF_WORD[csfCls]}</div>
+          <div className="hsub">
+            Under 2.0 is the offshore target.{" "}
+            {loadedCsf
+              ? `Loaded ≈ ${loadedCsf.toFixed(2)}.`
+              : "Light-ship figure."}
+          </div>
+        </div>
+        <div className={"hwcard " + comfCls}>
+          <div className="hl">
+            <Prov kind="computed" /> Comfort ratio
+          </div>
+          <div className="hv">~{Math.round(comfort(b))}</div>
+          <div className="hr">{RATE_WORDS[comfCls]}</div>
+          <div className="hsub">
+            Motion comfort in a seaway — higher is gentler.
+          </div>
+        </div>
+        <div className={"hwcard " + (shelter ? "g" : "n")}>
+          <div className="hl">
+            <Prov kind="spec" /> Steer from inside
+          </div>
+          <div className="hv">{shelter ? "Yes" : "Exposed"}</div>
+          <div className="hr">
+            {shelter ? "Sheltered helm" : "Open cockpit"}
+          </div>
+          <div className="hsub">{b.cockpitType}</div>
+        </div>
+        <div className="hwcard n">
+          <div className="hl">
+            <Prov kind="not-published" /> Self-righting limit
+          </div>
+          <div className="hv">—</div>
+          <div className="hr">Not published</div>
+          <div className="hsub">
+            AVS / STIX / CE category aren&apos;t in builder specs for this hull
+            — confirm with the designer or your surveyor.
+          </div>
+        </div>
+      </div>
+      {b.own?.keelRudder && (
+        <div className="note" style={{ marginTop: 10 }}>
+          <b>Keel &amp; rudder:</b> {b.own.keelRudder}
+        </div>
+      )}
+      <div className="provkey">
+        <span>
+          <Prov kind="computed" /> computed from physics
+        </span>
+        <span>
+          <Prov kind="spec" /> published spec
+        </span>
+        <span>
+          <Prov kind="editorial" /> editorial judgement
+        </span>
+        <span>
+          <Prov kind="not-published" /> not published
+        </span>
+      </div>
+    </div>
+  );
+}
+
 interface Props {
   boat: ScoredBoat;
   pillarWeights: PillarWeights;
+  medians: Record<DimKey, number>;
   onClose: () => void;
 }
 
 export default function DetailModal({
   boat: b,
   pillarWeights: pw,
+  medians,
   onClose,
 }: Props) {
   useEffect(() => {
@@ -196,9 +295,9 @@ export default function DetailModal({
     ["Mission fit", b.missionFit + "/100"],
     ["Type", b.category],
     ["Price", b.priceText],
-    ["Comfort ratio", "~" + Math.round(comfort(b))],
-    ["Capsize screen", "~" + csf(b).toFixed(2)],
-    ["Fuel / water", b.fuel.split(" / ")[0] + " / " + b.water.split(" / ")[0]],
+    ["Hull material", b.material],
+    ["Water autonomy", `~${waterDays(b)} days`],
+    ["Motoring range", "~" + b.rangeNm + " nm"],
   ];
   const hasAwards =
     (b.awards?.length || 0) > 0 || (b.endorsements?.length || 0) > 0;
@@ -212,10 +311,11 @@ export default function DetailModal({
         <div
           className="mhead"
           style={{
-            background: `linear-gradient(135deg,${b.color},${shade(b.color, -18)})`,
+            background: "linear-gradient(135deg,var(--ink),var(--ink-2))",
+            borderTop: `3px solid ${catColor(b)}`,
           }}
         >
-          <button className="close" onClick={onClose}>
+          <button className="close" onClick={onClose} aria-label="Close">
             ×
           </button>
           <h2>{b.name}</h2>
@@ -224,9 +324,28 @@ export default function DetailModal({
           </div>
         </div>
         <div className="mbody">
-          <div className="bestfor">
-            <b>Best for:</b> {b.bestFor}
+          <div className="shiplog">
+            <div className="eyebrow">Ship&apos;s log — the verdict</div>
+            <div className="verdict">{b.bestFor}</div>
+            {(b.pros?.length > 0 || b.cons?.length > 0) && (
+              <div className="caselist">
+                {b.pros?.[0] && (
+                  <div className="for">
+                    <div className="ct">The case for</div>
+                    <div>{b.pros[0]}</div>
+                  </div>
+                )}
+                {b.cons?.[0] && (
+                  <div className="against">
+                    <div className="ct">The sharpest watch-out</div>
+                    <div>{b.cons[0]}</div>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
+
+          <HeavyWeather boat={b} />
 
           <div className="msec">
             <h3>🎯 Selection score — {b.selection}/100</h3>
@@ -258,14 +377,33 @@ export default function DetailModal({
             </div>
           </div>
 
-          <div className="mtop">
-            <div>
-              <Radar scores={b.scores} color={b.color} />
-            </div>
-            <div className="spectable" style={{ gridTemplateColumns: "1fr" }}>
-              {glance.map(([k, v]) => (
-                <KV key={k} k={k} v={v} />
-              ))}
+          <div className="msec">
+            <h3>🧭 Mission profile</h3>
+            <div className="mtop">
+              <TierBars
+                scores={b.scores}
+                medians={medians}
+                color={catColor(b)}
+              />
+              <div>
+                <div
+                  className="spectable"
+                  style={{ gridTemplateColumns: "1fr" }}
+                >
+                  {glance.map(([k, v]) => (
+                    <KV key={k} k={k} v={v} />
+                  ))}
+                </div>
+                <div
+                  style={{
+                    fontSize: 11.5,
+                    color: "var(--muted)",
+                    marginTop: 8,
+                  }}
+                >
+                  Water autonomy assumes {AUTONOMY_NOTE}.
+                </div>
+              </div>
             </div>
           </div>
 

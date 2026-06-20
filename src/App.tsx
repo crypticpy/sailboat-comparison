@@ -6,6 +6,7 @@ import {
   BASE_PILLAR_WEIGHTS,
   DIMS,
   PILLARS,
+  fleetMedians,
   scoreBoat,
   type Weights,
   type PillarWeights,
@@ -92,6 +93,9 @@ export default function App() {
     () => boats.map((b) => scoreBoat(b, weights, pillarWeights)),
     [boats, weights, pillarWeights],
   );
+
+  // Fleet-median per mission dim — the reference tick on the detail tier bars.
+  const medians = useMemo(() => fleetMedians(boats), [boats]);
 
   const setControl = useCallback(
     <K extends keyof ControlsState>(key: K, value: ControlsState[K]) => {
@@ -308,6 +312,7 @@ export default function App() {
                   key={b.id}
                   boat={b}
                   rank={i + 1}
+                  weights={weights}
                   fav={favs.has(b.id)}
                   inCompare={compareSet.has(b.id)}
                   onOpen={setModalId}
@@ -373,6 +378,7 @@ export default function App() {
         <DetailModal
           boat={modalBoat}
           pillarWeights={pillarWeights}
+          medians={medians}
           onClose={() => setModalId(null)}
         />
       )}

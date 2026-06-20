@@ -1,163 +1,167 @@
-// Inline SVG building blocks, ported from the legacy ringSVG / radarSVG / boatSVG.
+// Inline visual building blocks for the Binnacle design language: the brass
+// score gauge, the median-ticked tier bars (which retire the old radar), the
+// provenance marker, and the dot rating. Nothing here fetches or mutates data.
 import type { MissionScores } from "../types/boat";
-import { DIMS } from "./metrics";
+import {
+  DIMS,
+  selectionTier,
+  type DimKey,
+  type Provenance,
+  PROVENANCE_LABEL,
+} from "./metrics";
 
-/** Circular gauge showing a 0–100 score. */
-export function Ring({ pct, color }: { pct: number; color: string }) {
-  const r = 22;
+/**
+ * The score reborn as a ship's binnacle gauge: an ink bezel with tick marks, a
+ * brass value arc that sweeps when the weighting changes, a Fraunces tabular
+ * numeral, and an always-on tier WORD (so the reading never relies on colour).
+ */
+export function Ring({ pct }: { pct: number }) {
+  const r = 27;
   const c = 2 * Math.PI * r;
-  const off = c * (1 - pct / 100);
+  const off = c * (1 - Math.max(0, Math.min(100, pct)) / 100);
+  const tier = selectionTier(pct);
+  const ticks = Array.from({ length: 24 }, (_, i) => {
+    const a = (i * 15 * Math.PI) / 180;
+    const long = i % 6 === 0;
+    const r1 = long ? 30.5 : 31.5;
+    return (
+      <line
+        key={i}
+        x1={(36 + Math.cos(a) * r1).toFixed(1)}
+        y1={(36 + Math.sin(a) * r1).toFixed(1)}
+        x2={(36 + Math.cos(a) * 33.5).toFixed(1)}
+        y2={(36 + Math.sin(a) * 33.5).toFixed(1)}
+        stroke="#0B2030"
+        strokeOpacity={long ? 0.45 : 0.2}
+        strokeWidth={long ? 1.4 : 0.9}
+      />
+    );
+  });
   return (
-    <svg width="58" height="58" viewBox="0 0 58 58">
+    <svg
+      className="binnacle"
+      width="72"
+      height="72"
+      viewBox="0 0 72 72"
+      role="img"
+      aria-label={`Selection score ${pct} of 100 — ${tier.word}`}
+    >
+      <defs>
+        <linearGradient id="brassArc" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#9A6F2C" />
+          <stop offset="0.5" stopColor="#D6A94B" />
+          <stop offset="1" stopColor="#B8893B" />
+        </linearGradient>
+      </defs>
+      {ticks}
       <circle
-        cx="29"
-        cy="29"
+        cx="36"
+        cy="36"
         r={r}
         fill="none"
-        stroke="#eef3f7"
-        strokeWidth="6"
+        stroke="#EADFC6"
+        strokeWidth="5.5"
       />
       <circle
-        cx="29"
-        cy="29"
+        className="binnacle-arc"
+        cx="36"
+        cy="36"
         r={r}
         fill="none"
-        stroke={color}
-        strokeWidth="6"
+        stroke="url(#brassArc)"
+        strokeWidth="5.5"
         strokeLinecap="round"
-        strokeDasharray={c}
-        strokeDashoffset={off}
-        transform="rotate(-90 29 29)"
+        strokeDasharray={c.toFixed(1)}
+        strokeDashoffset={off.toFixed(1)}
+        transform="rotate(-90 36 36)"
       />
-      <text
-        x="29"
-        y="33"
-        textAnchor="middle"
-        fontSize="15"
-        fontWeight="700"
-        fill="#0d2238"
-      >
+      <text className="binnacle-num" x="36" y="43" textAnchor="middle">
         {pct}
       </text>
     </svg>
   );
 }
 
-/** Nine-axis radar of the mission scores. */
-export function Radar({
+/**
+ * The nine mission dimensions as labelled horizontal tier bars, each carrying a
+ * fleet-median tick so a reading is instantly relative ("strong on Cold, weak on
+ * Tropics"). Plain HTML for screen-reader and small-screen legibility — this
+ * replaces the faint, unlabelled radar.
+ */
+export function TierBars({
   scores,
+  medians,
   color,
 }: {
   scores: MissionScores;
+  medians: Record<DimKey, number>;
   color: string;
 }) {
-  const cx = 118;
-  const cy = 122;
-  const R = 82;
-  const rings: React.ReactNode[] = [];
-  const axes: React.ReactNode[] = [];
-  const labs: React.ReactNode[] = [];
-  let pts = "";
-
-  for (let g = 1; g <= 5; g++) {
-    const rr = (R * g) / 5;
-    let p = "";
-    for (let i = 0; i < 9; i++) {
-      const a = ((-90 + i * 40) * Math.PI) / 180;
-      p +=
-        (i ? " " : "") +
-        (cx + Math.cos(a) * rr).toFixed(1) +
-        "," +
-        (cy + Math.sin(a) * rr).toFixed(1);
-    }
-    rings.push(
-      <polygon
-        key={`ring${g}`}
-        points={p}
-        fill="none"
-        stroke="#e6ecf2"
-        strokeWidth="1"
-      />,
-    );
-  }
-  for (let i = 0; i < 9; i++) {
-    const a = ((-90 + i * 40) * Math.PI) / 180;
-    const ex = cx + Math.cos(a) * R;
-    const ey = cy + Math.sin(a) * R;
-    axes.push(
-      <line
-        key={`axis${i}`}
-        x1={cx}
-        y1={cy}
-        x2={ex.toFixed(1)}
-        y2={ey.toFixed(1)}
-        stroke="#dde4ec"
-        strokeWidth="1"
-      />,
-    );
-    const v = scores[DIMS[i][0]] / 5;
-    const px = cx + Math.cos(a) * R * v;
-    const py = cy + Math.sin(a) * R * v;
-    pts += (i ? " " : "") + px.toFixed(1) + "," + py.toFixed(1);
-    const lx = cx + Math.cos(a) * (R + 13);
-    const ly = cy + Math.sin(a) * (R + 13);
-    const anc =
-      Math.abs(Math.cos(a)) < 0.3
-        ? "middle"
-        : Math.cos(a) > 0
-          ? "start"
-          : "end";
-    labs.push(
-      <text
-        key={`lab${i}`}
-        x={lx.toFixed(1)}
-        y={(ly + 3).toFixed(1)}
-        fontSize="9"
-        fill="#5b6b7b"
-        textAnchor={anc}
-      >
-        {DIMS[i][2]}
-      </text>,
-    );
-  }
   return (
-    <svg width="236" height="244" viewBox="0 0 236 244">
-      {rings}
-      {axes}
-      <polygon
-        points={pts}
-        fill={`${color}33`}
-        stroke={color}
-        strokeWidth="2"
-      />
-      {labs}
-    </svg>
-  );
-}
-
-/** Faint decorative sailboat in the card header. */
-export function BoatDeco() {
-  return (
-    <svg
-      style={{ position: "absolute", right: 14, bottom: 8, opacity: 0.22 }}
-      width="80"
-      height="60"
-      viewBox="0 0 86 66"
+    <div
+      className="tiers"
+      role="list"
+      aria-label="Mission dimension ratings out of 5"
     >
-      <path d="M6 50 h70 l-10 12 h-50 z" fill="#fff" />
-      <path d="M44 6 l0 40 -26 0 z" fill="#fff" />
-      <path d="M48 12 l18 34 -18 0 z" fill="#fff" />
-    </svg>
+      {DIMS.map(([k, full, short]) => {
+        const v = scores[k];
+        const med = medians[k] ?? 0;
+        return (
+          <div
+            className="tier"
+            role="listitem"
+            key={k}
+            title={`${full}: ${v} of 5`}
+          >
+            <span className="tier-l">{short}</span>
+            <span className="tier-track">
+              <span
+                className="tier-fill"
+                style={{ width: `${(v / 5) * 100}%`, background: color }}
+              />
+              <span
+                className="tier-med"
+                style={{ left: `${(med / 5) * 100}%` }}
+                aria-hidden="true"
+                title={`fleet median ${med}`}
+              />
+            </span>
+            <span className="tier-v">{v}</span>
+          </div>
+        );
+      })}
+      <div className="tier-key">
+        <span className="tier-med-key" aria-hidden="true" /> fleet median ·
+        scored 0–5
+      </div>
+    </div>
   );
 }
 
-/** Filled/empty dot rating out of 5 (used in table + compare grids). */
+/** Small provenance marker — makes "honesty is the aesthetic" literal. */
+export function Prov({ kind }: { kind: Provenance }) {
+  return (
+    <span
+      className={`prov prov-${kind}`}
+      title={PROVENANCE_LABEL[kind]}
+      aria-label={PROVENANCE_LABEL[kind]}
+      role="img"
+    />
+  );
+}
+
+/** Filled/empty dot rating out of 5 (table + compare grids). */
 export function Dots({ n }: { n: number }) {
   const filled = Math.round(n);
   return (
-    <>
+    <span
+      className="dots"
+      role="img"
+      aria-label={`${filled} of 5`}
+      style={{ fontVariantNumeric: "tabular-nums" }}
+    >
       {"●".repeat(filled)}
-      <span style={{ color: "#cfd9e2" }}>{"●".repeat(5 - filled)}</span>
-    </>
+      <span style={{ color: "#cdd5d0" }}>{"●".repeat(5 - filled)}</span>
+    </span>
   );
 }

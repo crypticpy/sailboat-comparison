@@ -4,7 +4,7 @@
 //   - all 34 boat cards render, with no console/page errors
 import pw from "/opt/homebrew/lib/node_modules/playwright/index.js";
 const { chromium } = pw;
-const URL = "http://localhost:4173/sailboat-comparison/";
+const URL = process.argv[2] || "http://localhost:4173/sailboat-comparison/";
 
 const browser = await chromium.launch({ channel: "chrome" });
 const ctx = await browser.newContext({ viewport: { width: 1280, height: 1000 } });

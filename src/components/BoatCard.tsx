@@ -1,11 +1,20 @@
 import type { ScoredBoat } from "../types/boat";
-import { PILLARS, shade } from "../lib/metrics";
-import { budgeClass, budgeLabel, headline } from "../lib/format";
-import { Ring, BoatDeco } from "../lib/svg";
+import {
+  catColor,
+  csf,
+  mrate,
+  selectionTier,
+  topWeightedDims,
+  waterDays,
+  type Weights,
+} from "../lib/metrics";
+import { budgeClass, budgeLabel, headline, isShelter } from "../lib/format";
+import { Ring } from "../lib/svg";
 
 interface Props {
   boat: ScoredBoat;
   rank: number;
+  weights: Weights;
   fav: boolean;
   inCompare: boolean;
   onOpen: (id: string) => void;
@@ -13,49 +22,57 @@ interface Props {
   onToggleCompare: (id: string) => void;
 }
 
-export function PillarBars({ boat }: { boat: ScoredBoat }) {
-  return (
-    <div className="pills">
-      {PILLARS.map(([k, label, color]) => (
-        <div className="pill" key={k}>
-          <span className="pl">{label}</span>
-          <span className="pt">
-            <span
-              className="pf"
-              style={{ width: `${boat.pillars[k]}%`, background: color }}
-            />
-          </span>
-          <span className="pv">{boat.pillars[k]}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
+const CSF_WORD: Record<string, string> = {
+  g: "Sea-kindly",
+  y: "Moderate",
+  o: "Lively",
+  r: "Stiff",
+  n: "—",
+};
+const catShort = (cat: string) =>
+  cat.replace(/ (cruiser|bluewater|expedition)$/i, "");
 
 export default function BoatCard({
   boat: b,
   rank,
+  weights,
   fav,
   inCompare,
   onOpen,
   onToggleFav,
   onToggleCompare,
 }: Props) {
-  const supportRisk =
-    b.own && (b.own.scores.community <= 2 || b.own.scores.parts <= 2);
+  const hue = catColor(b);
+  const tier = selectionTier(b.selection);
+  const why = topWeightedDims(weights, b.scores, 3);
+  const csfCls = mrate(b, "csf");
+  const shelter = isShelter(b);
+
   return (
-    <div className="card" onClick={() => onOpen(b.id)}>
-      <div
-        className="top"
-        style={{
-          background: `linear-gradient(135deg,${b.color},${shade(b.color, -18)})`,
-        }}
-      >
-        <BoatDeco />
-        <div className="rank">{rank}</div>
+    <div
+      className="card"
+      tabIndex={0}
+      role="button"
+      aria-label={`${b.name} — selection score ${b.selection} of 100, ${tier.word}. Open full profile.`}
+      onClick={() => onOpen(b.id)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onOpen(b.id);
+        }
+      }}
+    >
+      <div className="top" style={{ borderTopColor: hue }}>
+        <span className="cat-tag" style={{ color: hue }}>
+          {catShort(b.category)}
+        </span>
+        <div className="rank" aria-label={`rank ${rank}`}>
+          {rank}
+        </div>
         <button
           className={"star" + (fav ? " fav" : "")}
-          title="Shortlist"
+          aria-pressed={fav}
+          aria-label={fav ? "Remove from shortlist" : "Add to shortlist"}
           onClick={(e) => {
             e.stopPropagation();
             onToggleFav(b.id);
@@ -68,74 +85,92 @@ export default function BoatCard({
           {b.builder} · {b.years}
         </div>
       </div>
+
       <div className="body">
         <div className="fit">
+          <Ring pct={b.selection} />
           <div>
-            <Ring pct={b.selection} color={b.color} />
-          </div>
-          <div>
-            <div className="fitlabel">Selection score</div>
-            <div className="fitval">{b.selection}/100</div>
+            <div className="fitlabel">Selection</div>
+            <div className="fitval">
+              {b.selection}
+              <span
+                className={"tierword cw " + tier.cls}
+                style={{ border: 0, background: "transparent", padding: 0 }}
+              >
+                {tier.word}
+              </span>
+            </div>
             <span className={"budge " + budgeClass(b.budget)}>
               {budgeLabel(b.budget)}
             </span>
           </div>
         </div>
-        <PillarBars boat={b} />
-        <div>
-          <span className="badgeCat">{b.category}</span>
-          {b.badge && <span className="badgeAward">{b.badge}</span>}
-          {supportRisk && (
-            <span
-              className="badgeAward"
-              style={{
-                background: "#fbe6e0",
-                color: "#a3331c",
-                borderColor: "#f3cabc",
-              }}
-            >
-              ⚠ support risk
+
+        <div className="whyfit">
+          {why.length ? (
+            why.map((d) => (
+              <span
+                className="whychip"
+                key={d.key}
+                title={`Strong on ${d.label} (${d.score}/5) — and you weighted it highly`}
+              >
+                {d.label}
+              </span>
+            ))
+          ) : (
+            <span className="whynone">
+              Balanced all-rounder — no standout strength for your current
+              weighting
             </span>
           )}
         </div>
-        <div className="cardbest">“{b.bestFor}”</div>
+
+        <div className="hwmini">
+          <span className="hw">
+            <span className="lab">Capsize</span>
+            <span
+              className={"val cw " + csfCls}
+              style={{ border: 0, background: "transparent", padding: 0 }}
+            >
+              {csf(b).toFixed(2)} · {CSF_WORD[csfCls]}
+            </span>
+          </span>
+          <span className="hw">
+            <span className="lab">Helm</span>
+            <span
+              className="val"
+              style={{ color: shelter ? "var(--good)" : "var(--neutral)" }}
+            >
+              {shelter ? "Inside / sheltered" : "Exposed"}
+            </span>
+          </span>
+        </div>
+
         <div className="specrow">
           <span className="s">
-            <b>LOA</b> {headline(b.loa)}
+            <b>LOA</b>
+            {headline(b.loa)}
           </span>
           <span className="s">
-            <b>Draft</b> {headline(b.draftMin)}
+            <b>Draft</b>
+            {headline(b.draftMin)}
             {b.draftMax !== b.draftMin ? "–" + headline(b.draftMax) : ""}
           </span>
           <span className="s">
-            <b>Hull</b> {b.material}
+            <b>Range</b>~{b.rangeNm} nm
           </span>
           <span className="s">
-            <b>Cockpit</b> {b.cockpitType}
-          </span>
-          <span className="s">
-            <b>Range</b> ~{b.rangeNm} nm
+            <b>Water</b>~{waterDays(b)} days
           </span>
         </div>
-        <div className="tags">
-          {b.tags.map((t) => (
-            <span
-              key={t}
-              className={
-                "tag" +
-                (/over budget|two generations|tight/i.test(t) ? " warnt" : "")
-              }
-            >
-              {t}
-            </span>
-          ))}
-        </div>
+
         <div className="cardfoot">
           <span className="pricep">
-            💵 <b>{b.priceText}</b>
+            <b>{b.priceText}</b>
           </span>
           <button
             className={"cmpadd" + (inCompare ? " in" : "")}
+            aria-pressed={inCompare}
             onClick={(e) => {
               e.stopPropagation();
               onToggleCompare(b.id);

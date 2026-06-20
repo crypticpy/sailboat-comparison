@@ -31,22 +31,29 @@ export const BASE_WEIGHTS: Weights = {
   budget: 1,
 };
 
+// Four DISTINCT category hues so the grid is scannable by boat type at a glance
+// (the legacy four were near-identical blue-grays). Tuned to read clearly on the
+// warm-paper surface while staying nautical, not candy.
 export const CAT_COLOR: Record<string, string> = {
-  "Aluminium expedition": "#1f7a6e",
-  "Centre-cockpit cruiser": "#1f5673",
-  "Deck-saloon & pilothouse": "#345a78",
-  "Aft-cockpit bluewater": "#475569",
+  "Aluminium expedition": "#5B8AA6", // weathered steel-blue
+  "Centre-cockpit cruiser": "#1F6F73", // deep teal
+  "Deck-saloon & pilothouse": "#B07D2E", // brass/amber
+  "Aft-cockpit bluewater": "#5A6B7A", // slate
 };
+
+/** Category hue for a boat, falling back to brass for any unmapped type. */
+export const catColor = (b: { category: string }): string =>
+  CAT_COLOR[b.category] ?? "#B8893B";
 
 // ── Selection pillars & default blend ───────────────────────────────────────
 export type PillarKey = "mission" | "sea" | "own" | "value";
 export type Pillars = Record<PillarKey, number>;
 
 export const PILLARS: [PillarKey, string, string][] = [
-  ["mission", "Mission fit", "#1f6f8b"],
-  ["sea", "Seaworthiness", "#1f8a5b"],
-  ["own", "Ownership", "#7a5fb0"],
-  ["value", "Value", "#c98a16"],
+  ["mission", "Mission fit", "#1F6F73"],
+  ["sea", "Seaworthiness", "#2E7D5B"],
+  ["own", "Ownership", "#A8762E"], // was an alien purple
+  ["value", "Value", "#4A6076"],
 ];
 
 export type PillarWeights = Record<PillarKey, number>;
@@ -314,4 +321,81 @@ export function scoreBoat(
   scored.pillars = pillars(scored, missionFit);
   scored.selection = selection(scored.pillars, pillarWeights);
   return scored;
+}
+
+// ── Binnacle tier words ─────────────────────────────────────────────────────
+// A non-colour-redundant word always sits beside the score (accessibility floor).
+export function selectionTier(pct: number): { word: string; cls: RateClass } {
+  if (pct >= 80) return { word: "Strong", cls: "g" };
+  if (pct >= 66) return { word: "Solid", cls: "y" };
+  if (pct >= 52) return { word: "Fair", cls: "o" };
+  return { word: "Marginal", cls: "r" };
+}
+
+// ── Autonomy-in-days ────────────────────────────────────────────────────────
+// Reframes raw litres into the only question a passage-maker asks: how long can
+// we stay out? Stated assumption (NOT a published figure): 2 crew @ 4 L/day +
+// 2 dogs @ 1.5 L/day ≈ 11 L/day of drinking + cooking water, no watermaker.
+export const CREW_WATER_LPD = 2 * 4 + 2 * 1.5; // 11 L/day, 2 crew + 2 dogs
+export const waterDays = (b: Boat): number =>
+  Math.max(0, Math.round(b.waterN / CREW_WATER_LPD));
+export const AUTONOMY_NOTE = "2 crew + 2 dogs, no watermaker (~11 L/day)";
+
+/** Honest loaded displacement (lb) ONLY when the spec string publishes one. */
+export function loadedLb(b: Boat): number | null {
+  const m = b.displacement.match(
+    /([\d,]+)\s*lb\s*loaded|loaded[^)]*?([\d,]+)\s*lb/i,
+  );
+  if (!m) return null;
+  const n = (m[1] || m[2] || "").replace(/,/g, "");
+  return n ? parseInt(n, 10) : null;
+}
+
+// ── Fleet medians (for the tier-bar reference tick) ─────────────────────────
+export function fleetMedians(boats: Boat[]): Record<DimKey, number> {
+  const med = {} as Record<DimKey, number>;
+  for (const [k] of DIMS) {
+    const vals = boats.map((b) => b.scores[k]).sort((a, z) => a - z);
+    const n = vals.length;
+    med[k] = n
+      ? n % 2
+        ? vals[(n - 1) / 2]
+        : (vals[n / 2 - 1] + vals[n / 2]) / 2
+      : 0;
+  }
+  return med;
+}
+
+/** The user's most-weighted mission dims, for the card's "why it fits YOU" chips. */
+export function topWeightedDims(
+  weights: Weights,
+  scores: MissionScores,
+  n = 3,
+): { key: DimKey; label: string; score: number }[] {
+  return [...DIMS]
+    .filter(([k]) => weights[k] > 0 && scores[k] >= 4) // only genuine strengths
+    .sort(
+      (a, z) => weights[z[0]] - weights[a[0]] || scores[z[0]] - scores[a[0]],
+    )
+    .slice(0, n)
+    .map(([k, , short]) => ({ key: k, label: short, score: scores[k] }));
+}
+
+// ── Provenance map ──────────────────────────────────────────────────────────
+// Makes "honesty is the aesthetic" literal: every surfaced figure is tagged as
+// computed-from-physics, a published spec, or an editorial opinion — and the UI
+// shows which. "not-published" is a first-class state for data we don't have.
+export type Provenance = "computed" | "spec" | "editorial" | "not-published";
+export const PROVENANCE_LABEL: Record<Provenance, string> = {
+  computed: "Computed from physics (displacement, beam, waterline, fuel)",
+  spec: "Published builder/design specification",
+  editorial: "Editorial judgement — synthesised from reviews & owner reports",
+  "not-published": "Not published — confirm with a surveyor / sea-trial",
+};
+/** Provenance for a metric/field key. Drives the small provenance marker. */
+export function provenanceOf(key: string): Provenance {
+  if (/^(comfort|csf|hull|range|autonomy|loaded)$/.test(key)) return "computed";
+  if (/^(avs|stix|ce|heater|insulation)$/.test(key)) return "not-published";
+  if (DIMS.some(([k]) => k === key)) return "editorial";
+  return "spec";
 }
