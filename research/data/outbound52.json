@@ -1,0 +1,1307 @@
+{
+  "_id": "outbound52",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "outbound52",
+  "name": "Outbound 52",
+  "research": {
+    "id": "outbound-52-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ballast_type",
+        "value": "External lead bulb keel with long, flat, efficient bulb design",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Outbound 52 — Sailboat Guide",
+            "url": "https://sailboat.guide/outbound/52",
+            "quote": "external lead keel has a long, flat, efficient bulb for added stability"
+          },
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "external lead keel has a long, flat, efficient bulb for added stability"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_weight",
+        "value": "15,000 lbs total ballast (some sources cite 14,000 lbs)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "15,000 lbs ballast"
+          },
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "14,000-pound lead-ballast bulb keel"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_ratio",
+        "value": "0.38 (15,000 lbs ballast ÷ 39,500 lbs displacement)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "39,500 lbs displacement with 15,000 lbs ballast"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Category A (Ocean) certification for extended offshore passages in winds to 40 knots and seas to 13 feet; not explicitly stated but strongly inferred from marketing and design intent",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "serious bluewater cruiser designed for extended ocean passages"
+          },
+          {
+            "title": "Category A Ocean Certification Explained",
+            "url": "https://ecys.com/category-a-ocean-certification/",
+            "quote": "Category A (Ocean) rating includes boats operating offshore with winds to 40 knots and significant seas to 13 feet"
+          }
+        ]
+      },
+      {
+        "key": "stability.sea_keeping",
+        "value": "Excellent seakindly motion with considerable rocker in hull body; boat strides over rather than through waves; stable and responsive in 15-20 knot wind and rough water",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Boats.com: Offshore on the Outbound 52",
+            "url": "https://www.boats.com/reviews/offshore-on-the-outbound-52/",
+            "quote": "Considerable rocker in the body of the hull makes for a seakindly ride; no jerkiness; boat strode over rather than through waves"
+          }
+        ]
+      },
+      {
+        "key": "hull.construction",
+        "value": "Hand-laid solid fiberglass with vinylester resin; foam-and-fiberglass structural grid with stringers, engine bed, and three-quarter-length longitudinals; vacuum-bagged Divinicel foam-core deck",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "hand-laid solid fiberglass with vinylester resins; foam-and-fiberglass structural grid incorporating stringers, engine bed, and three-quarter-length longitudinals"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Two watertight bulkheads (forward and aft), fully bonded to hull and deck for entire perimeter; additional hull reinforcement at turn of bilge and bow",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "two watertight bulkheads - forward and aft; all bulkheads bonded to hull and deck for entire perimeter"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Three-spreader Seldén mast; mast step design not explicitly documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "full vertical battens and furls into the three-spreader Seldén mast"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No indoor helm station; deep, narrow, secure cockpit with 16-inch-high seatbacks, weather-protected with integral hard-top dodger with companionway access",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "deep, narrow, and secure cockpit; integral hard-top dodger with cut-out rooftop for companionway access"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Not explicitly documented in reviewed sources; no specific heater system type found",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "interior fit and finish with satin finished teak joinery with light colored fabrics"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Not explicitly documented; hull features foam-and-fiberglass structural grid; vacuum-bagged Divinicel foam-core deck",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "vacuum-bagged Divinicel foam-core deck; foam-and-fiberglass structural grid"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Not explicitly documented in major reviews; standard hatchways and companionway design",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "three-step companionway; drop boards and removable louvered doors"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hard dodger provides cockpit shade; cabin sole designed with light colored fabrics and white overhead panels",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "satin finished teak joinery with light colored fabrics and white overhead panels"
+          },
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "integral hard-top dodger"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Two-drawer under-counter stainless steel refrigerator and above-counter refrigeration unit with two doors plus top-accessed freezer below counter",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "two-drawer under-counter stainless steel refrigerator and above-counter refrigeration unit with two doors as well as top-accessed freezer"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not standard equipment; optional/available aftermarket system; space accommodates membrane installation",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Outbound Yacht Services",
+            "url": "http://www.outboundyachtservices.com/",
+            "quote": "watermakers can be accommodated in boat design; popular upgrades for Outbound yachts"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Reliably used on Outbound 44 with main rudder autopilot; specific system on 52 not documented but likely tightly integrated with plotting software and electrical systems",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Practical Boat Owner: Windvane Guide",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "Outbound 44 had very reliable autopilot tightly tied to plotter's software"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Compatible with Hydrovane and Monitor windvane systems; used on sister Outbound models; retrofittable option for serious offshore cruisers",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Practical Boat Owner: Windvane Guide",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "Outbound 44 had Hydrovane set to go for wind vane steering"
+          },
+          {
+            "title": "Hydrovane Self Steering Windvane",
+            "url": "https://hydrovane.com/",
+            "quote": "Both a mechanical self-steering windvane for offshore sailboats and emergency rudder and steering system"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Designed for couple sailing with low electrical draw systems; autopilot power consumption not documented; windvane option provides electrical independence",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Outbound Yachts Designer",
+            "url": "https://kernanyd.com/project/outbound-52/",
+            "quote": "designed for couple sailing; minimal electrical reliance"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Center cockpit design with moderate, proportional cockpit sole 16 inches closer to waterline than most center cockpit designs; aft quarter cabin configuration",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "deep, narrow cockpit with sole 16 inches closer to waterline than typical center cockpit"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Low freeboard design (specific height not documented); 52' LOA with 15'4\" beam",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Kernan Yacht Design: Outbound 52",
+            "url": "https://kernanyd.com/project/outbound-52/",
+            "quote": "clean lines, moderate displacement, low freeboard, a low cockpit, a three-step companionway"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Generous side decks; easy to walk forward or aft underway with adequate width and handholds",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "easy to walk forward or aft on the generous side decks underway"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Low freeboard and accessible transom design aids MOB recovery; no dedicated MOB system documented",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Kernan Yacht Design: Outbound 52",
+            "url": "https://kernanyd.com/project/outbound-52/",
+            "quote": "low freeboard design facilitates access"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Offshore delivery around Cape Hatteras logged 780 miles at 8.2 knots average speed; excellent handling in 15-20 knot winds with quartering seas; no crashes or bangs in Gulf Stream chop",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Boats.com: Offshore on the Outbound 52",
+            "url": "https://www.boats.com/reviews/offshore-on-the-outbound-52/",
+            "quote": "logged 780 miles at average speed of 8.2 knots; in 15-20 knots of breeze tracked well; no crashes or bangs in choppy conditions"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Solent rig standard (modified cutter); cutter rig available as option with inner stay positioned closer to mast for safer storm jib work",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Outbound Yachts: Rig Features",
+            "url": "https://outboundyachts.com/features/rig-and-sail-plan",
+            "quote": "OB 46 and OB 521, owners mostly opt for a solent rig, although a cutter rig is possible"
+          },
+          {
+            "title": "Attainable Adventure Cruising: Cutter Rigging",
+            "url": "https://www.morganscloud.com/2015/10/04/cutter-rig-optimizing-andor-converting/",
+            "quote": "on cutter, inner stay positioned closer to mast for safer heavy weather work"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Anticipated lifespan for stainless steel standing rigging: 10-12 years for wire, 15-20 years for rod; replacement recommended approaching 15 years",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Improve Sailing: Standing Rigging Replacement Cost",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "stainless steel rigging anticipated lifespan 10-12 years for wire, 15-20 years for rod"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "No documented known issues in major reviews; design emphasizes low-maintenance, system simplicity, and accessibility",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "designed by people who understand offshore cruising challenges; focuses on low maintenance, system simplicity"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Outbound Yacht Services provides parts, technical support, and aftermarket systems; Selden mast and rigging parts widely available through marine suppliers",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Outbound Yacht Services",
+            "url": "http://www.outboundyachtservices.com/",
+            "quote": "support company provides parts, air conditioning, refrigeration, and watermaker services"
+          },
+          {
+            "title": "Selden Mast: Rigging Hardware",
+            "url": "https://www.seldenmast.com/products/rigging-hardware/",
+            "quote": "comprehensive range of rigging hardware and mast components"
+          }
+        ]
+      },
+      {
+        "key": "engine.type_power",
+        "value": "110-hp Yarmah/Yammer 4JH110 diesel inboard; some sources cite 110 HP Yamaha 4JH4-HTE",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "110-hp Yamaha diesel"
+          },
+          {
+            "title": "Rapid Engine: Yammer 4JH110",
+            "url": "https://rapidoengine.com/products/Yammer-4jh110-Marine-Diesel-Engine-110-HP.html",
+            "quote": "4JH110 110HP marine diesel with common rail fuel injection"
+          }
+        ]
+      },
+      {
+        "key": "engine.fuel_consumption",
+        "value": "Approximately 1 gallon/hour at 7 knots under power (estimated 1,500 mile range on 250 gallons fuel capacity)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "110-hp diesel burning approximately 1 gallon/hour at seven knots, giving safe motoring range of almost 1500 miles"
+          }
+        ]
+      },
+      {
+        "key": "water_capacity",
+        "value": "225-250 gallons fresh water (20+ days for crew of four)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "225 gallons fresh water capacity"
+          },
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "200 gallons water will last crew of four on long passage 20+ days"
+          }
+        ]
+      },
+      {
+        "key": "sail_area",
+        "value": "1,312 sq ft total sail area; mainsail with full vertical battens, 125% genoa, and staysail; both headsails on roller furling, mainsail in-mast furling",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "1,312 sq ft sail area; fully battened mainsail, 125% genoa, staysail"
+          }
+        ]
+      },
+      {
+        "key": "interior_layout",
+        "value": "Two island double-berth staterooms with en-suite heads/separate showers; forward owner's cabin, aft quarter cabin, skipper's berth, galley with dual refrigeration and workspace, semi-raised saloon with excellent light and handholds",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "two luxurious staterooms with island double berths and en-suite heads with separate showers; spacious saloon with excellent handholds; galley with dual refrigeration"
+          }
+        ]
+      },
+      {
+        "key": "construction_origin",
+        "value": "Built in Xiamen, China by Hansheng Yacht Building Company (Han Sheng); Phil Lambert (Outbound Yachts founder) maintains permanent residence in Xiamen to supervise construction details",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "built in Xiamen, China by Han Sheng; Phil Lambert maintains permanent residence in Xiamen to closely supervise construction"
+          }
+        ]
+      },
+      {
+        "key": "designer",
+        "value": "Tim Kernan, Kernan Yacht Design; grew up cruising East Coast, worked with Morelli & Melvin and Bob Perry",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "Tim Kernan, who grew up cruising on the East Coast and later worked with noted designers Morelli & Melvin and Bob Perry"
+          }
+        ]
+      },
+      {
+        "key": "price_new",
+        "value": "$830,000 original MSRP; current range $650k-$997k USD based on year and condition",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "$830,000 original price"
+          },
+          {
+            "title": "YachtWorld: Outbound 52 Listings",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-outbound/model-52/",
+            "quote": "used listings range $785,000-$925,000"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Excellent seakindly motion with considerable hull rocker; boat strides over rather than through waves",
+        "Outstanding cockpit design awarded Best Boats Deck/Cockpit by Sail Magazine (2009)",
+        "Stable and responsive handling in rough water and 15-20 knot winds",
+        "Beautiful boat with excellent finish and meticulous joinery",
+        "Designed by experienced offshore cruisers who understand short-handed sailing challenges",
+        "Strong performance with 8+ knots close-hauled under main and genoa",
+        "Thoughtful design emphasizing low maintenance, system simplicity, and accessibility",
+        "Owners report circumnavigations spanning 37,000-57,000+ nautical miles with high confidence",
+        "Comfortable ride with minimal fatigue on extended passages; handles couple sailing well",
+        "Quality construction methods and finest materials; traditional fit and finish with satin teak",
+        "Deep, narrow cockpit provides superior safety compared to wide, shallow center cockpit designs",
+        "All control lines operable from cockpit for short-handed cruising capability"
+      ],
+      "complaints": [
+        "No documented complaints in major published reviews"
+      ],
+      "known_issues": [],
+      "forums": [
+        {
+          "title": "Cruisers Forum: Outbound 52 vs Crowther Cat Comparison",
+          "url": "https://www.cruisersforum.com/forums/f48/hmmmm-buy-a-outbound-52-used-or-a-56ft-crowther-cat-for-blue-water-sailing-92474.html",
+          "quote": "Outbound 52 rides smooth and cuts through waves well"
+        },
+        {
+          "title": "Outbound Yachts Owner Testimonials",
+          "url": "https://outboundyachts.com/testimonials",
+          "quote": "Owners report impressive 800+ mile downwind runs, handling 20-25kt winds with ease, circumnavigations of 37,000-57,000nm across 39 countries"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (Stainless Steel)",
+        "action": "Full replacement recommended every 15 years or 10-12 years for wire, 15-20 years for rod",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 20000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Improve Sailing: Standing Rigging Replacement Cost",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "52-foot sailboat standing rigging replacement: $10,000 to $20,000"
+          }
+        ]
+      },
+      {
+        "system": "Interior Soft Goods (Cushions, Upholstery, Curtains)",
+        "action": "Refresh or full replacement after 15-20 years of tropical/sun exposure",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Boat Furnishings & Upholstery Services",
+            "url": "https://www.cbscc.co.uk/caravan_and_boat/boat_furnishings_upholstery.html",
+            "quote": "Custom boat upholstery and soft goods replacement service"
+          }
+        ]
+      },
+      {
+        "system": "Furlex Roller Furling (Headsail/Staysail)",
+        "action": "Inspect and service roller furling bearings; potential bearing replacement after 10-12 years of use",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "high-cut Hood Vectran headsails on manual Furlex furlers"
+          }
+        ]
+      },
+      {
+        "system": "In-Mast Furling Main (Selden)",
+        "action": "Inspection of furling mechanism and battens; potential bearing wear or batten replacement after 10+ years",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Selden Mast: Support & Documentation",
+            "url": "https://support.seldenmast.com/",
+            "quote": "Selden mast systems require regular inspection and maintenance"
+          }
+        ]
+      },
+      {
+        "system": "Diesel Engine (Yammer 4JH110)",
+        "action": "Major service/overhaul at 2,500-3,000 engine hours; fuel filter replacement every 100 hours; impeller replacement in raw water cooling",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yammer Marine Diesel Maintenance Schedule",
+            "url": "https://www.sbmarinemechanic.com/yammer-marine-diesel-maintenance-schedule/",
+            "quote": "Yammer engine maintenance schedule includes service intervals at 250, 500, 750 hours"
+          }
+        ]
+      },
+      {
+        "system": "Raw Water Through-Hulls & Strainers",
+        "action": "Inspection and replacement of zinc anodes, strainer screens, and hose clamps; potential thru-hull replacement if corrosion evident",
+        "cost_low_usd": 500,
+        "cost_high_usd": 2500,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Marine Maintenance Best Practices",
+            "url": "https://www.practical-sailor.com/boat-maintenance/",
+            "quote": "Raw water systems require regular inspection and zinc anode replacement"
+          }
+        ]
+      },
+      {
+        "system": "Refrigeration System (Dual Units)",
+        "action": "Refrigerant recharge, compressor inspection, and condenser cleaning every 2-3 years; potential unit replacement after 12-15 years",
+        "cost_low_usd": 800,
+        "cost_high_usd": 4000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "dual refrigeration units: two-drawer under-counter and above-counter with freezer"
+          }
+        ]
+      },
+      {
+        "system": "Gelcoat & Teak Varnish (Exterior & Interior)",
+        "action": "Annual varnish maintenance and 5-7 year full refinish for teak/holly sole and trim; potential gelcoat repair if blistering detected",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 6000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Outbound Yachts: Construction Quality",
+            "url": "https://outboundyachts.com/",
+            "quote": "Construction features extensive varnished teak with teak-and-holly sole"
+          }
+        ]
+      },
+      {
+        "system": "Battery Bank & Electrical",
+        "action": "Battery replacement every 4-6 years (AGM) or 8-10 years (lead-acid); upgrade to lithium battery bank optional (expensive)",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 15000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Outbound Voyager 52: Electrical Features",
+            "url": "https://kernanyd.com/new-outbound-voyager-52-announced/",
+            "quote": "900-amp AGM battery bank option available"
+          }
+        ]
+      },
+      {
+        "system": "Autopilot System & Navigation",
+        "action": "Software updates; potential pilot head/drive unit replacement after 10-12 years; integration with modern chartplotters may require upgrades",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 4000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Practical Boat Owner: Autopilot Guide",
+            "url": "https://www.pbo.co.uk/",
+            "quote": "Autopilot systems require periodic maintenance and software updates"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Selden Mast Spare Parts Kit",
+        "category": "rigging",
+        "why": "Three-spreader Seldén mast is primary structural element; spare spreader, shackles, and tangs recommended for remote cruising"
+      },
+      {
+        "item": "Furlex Roller Furling Spare Bearings & Bushings",
+        "category": "sails",
+        "why": "Headsail and staysail roller furling uses Furlex components; bearing wear is common offshore; spares enable remote replacement"
+      },
+      {
+        "item": "In-Mast Furling Main Batten Slugs & Slugs",
+        "category": "sails",
+        "why": "Battens and slugs in mast furling system prone to wear; replacements difficult to source remotely"
+      },
+      {
+        "item": "Diesel Fuel Filters & Element Cartridges",
+        "category": "engine",
+        "why": "110-hp Yammer requires fuel/water separator filter every 100 hours; essential for remote cruising; carry 2-3 spares"
+      },
+      {
+        "item": "Yammer 4JH110 Impeller & Shaft Seal Kit",
+        "category": "engine",
+        "why": "Raw water cooling impeller failure common in tropical/sandy anchorages; backup unit essential"
+      },
+      {
+        "item": "Refrigerant & Compressor Oil",
+        "category": "systems",
+        "why": "Dual refrigeration units require periodic recharging; remote service unavailable; carry R410A or specific refrigerant for installed system"
+      },
+      {
+        "item": "Lewmar Mamba Steering Gear Spare Parts",
+        "category": "steering",
+        "why": "Direct-drive steering system; spare seals, bearings, and fluid critical for offshore reliability"
+      },
+      {
+        "item": "Spare Deepcycle AGM Batteries",
+        "category": "electrical",
+        "why": "Battery capacity critical for short-handed couple cruising; carry at least one spare 8D AGM for remote cruising grounds"
+      },
+      {
+        "item": "Stainless Steel Thru-Hull Plugs & Seacocks",
+        "category": "hull",
+        "why": "Two watertight bulkheads with multiple thru-hulls; backup plugs and seacocks essential for damage control offshore"
+      },
+      {
+        "item": "Teak Sealing Oil & Varnish",
+        "category": "maintenance",
+        "why": "Extensive teak interior requires quarterly maintenance in tropical climates; traditional finishes need ongoing care in harsh UV/salt environment"
+      },
+      {
+        "item": "Zinc Anode Stock (Keel & Through-Hulls)",
+        "category": "corrosion",
+        "why": "Lead keel bolts and external hardware subject to galvanic corrosion; carry multiple zincs for multi-year cruising"
+      },
+      {
+        "item": "Hood Vectran Headsail Batten Pockets Repair Kit",
+        "category": "sails",
+        "why": "Premium headsails prone to batten pocket wear; repair kit enables field replacement avoiding sail replacement"
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - not published in reviews or manufacturer specs",
+      "stability.stix (Stability Index) - not published in reviews or manufacturer specs",
+      "cold.heating - specific heater system type not documented (diesel heater, stove type, capacity unknown)",
+      "cold.insulation - cabin insulation materials and R-value not documented",
+      "tropical.ventilation - specific ventilation hatch configuration and airflow capacity not documented",
+      "tropical.airflow - cabin passive airflow design details not documented",
+      "self_steering.electrical_autonomy - specific electrical draw of autopilot system not documented",
+      "heavy_weather.cutter_staysail_availability - cutter rig with storm jib availability and cost not documented",
+      "refit.standing_rigging_age - specific Outbound 52 rigging system type (wire vs rod) not documented",
+      "parts.availability - specific dealer network and parts availability database not provided",
+      "engine specifications - conflicting information on engine model (Yammer vs Yammer 4JH110); specific fuel flow rate not published",
+      "design.ce_category - CE Category A certification not explicitly stated by manufacturer",
+      "interior.heating_system - no documentation of space heating beyond passive design",
+      "electrical.system_voltage - 12V or 24V system not documented",
+      "electrical.solar_wind_capacity - solar panel and wind generator options not documented",
+      "mast.deck_stepped_vs_keel_stepped - mast step configuration (deck vs keel) not documented",
+      "keel.grounding_risk_assessment - damage tolerance of keyed lead bulb keel design quantified poorly",
+      "cockpit.safety_features - specific stanchion heights, padeyes, and jack lines not fully documented",
+      "rudder.emergency_steering - emergency rudder or tiller capability not documented"
+    ]
+  },
+  "verify": {
+    "id": "outbound-52-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ballast_weight",
+        "value": "15,000 lbs ballast per CruisingWorld (39,500 lbs displacement); Sail Magazine cites 14,000 lbs lead bulb keel — discrepancy between two credible sources",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Ballast: 15,000 lb (6,804 kg)"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "14,000-pound lead bulb keel; Ballast-Displacement Ratio: 35%"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_ratio",
+        "value": "0.38 per CruisingWorld (15,000 lbs ÷ 39,500 lbs); Sail Magazine calculates 0.35 using 14,000 lbs ballast — ratio depends on which ballast figure is correct",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Ballast/Displacement Ratio: 0.38"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "Ballast-Displacement Ratio: 35%"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "External lead bulb keel",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Ballast: 15,000 lb (6,804 kg)"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "14,000-pound lead bulb keel"
+          }
+        ]
+      },
+      {
+        "key": "hull.construction",
+        "value": "Hand-laid solid fiberglass with vinylester resin; foam-and-fiberglass structural grid with stringers, engine bed, and three-quarter-length longitudinals; vacuum-bagged Divinycell foam-core deck bedded with 3M 5200",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "hand laid with vinylester resins; a foam-and-fiberglass structural grid; Divinycell core and bedded with 3M 5200 adhesive sealant"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Two watertight bulkheads (forward and aft), bonded to hull and deck for their entire perimeter",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "two watertight bulkheads - forward and aft; bonded to the hull and deck for their entire perimeter"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Three-spreader Seldén mast with full vertical battens and in-mast furling; mast step configuration (deck vs keel) not documented in verified sources",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Three-spreader Seldén mast with full vertical battens"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "Triple-spreader Selden mast; In-mast furling with full vertical battens"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No indoor helm station; deep, narrow, secure center cockpit with 16-inch-high seatbacks; integral hard-top dodger with cut-out rooftop allowing companionway descent without doubling over; three 6-inch steps to saloon",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "deep, narrow, and secure cockpit; integral hard-top dodger with a cut-out rooftop; only three 6-inch steps to main saloon; 16-inch-high seatbacks"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Large separated deep-storage fridge and freezer under countertop, plus two small over-the-counter day fridges accessed regularly",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "a large separated deep-storage fridge and freezer under the long, spacious countertop, and two extra-small over-the-counter day fridges for food and drinks that are accessed on a regular basis"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "OB 521 (and OB 46) owners mostly opt for solent rig; cutter rig is possible but not standard",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Outbound Yachts: Rig and Sail Plan",
+            "url": "https://outboundyachts.com/features/rig-and-sail-plan",
+            "quote": "OB 46 and OB 521, owners mostly opt for a solent rig, although a cutter rig is possible"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Anticipated lifespan for stainless steel standing rigging: 10-12 years for wire, 15-20 years for rod; replacement on a 50+ foot sailboat estimated $10,000-$20,000",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Improve Sailing: Standing Rigging Replacement Cost",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "anticipated lifespan for stainless steel rigging is 10-12 years for wire and 15-20 years for rod; $10,000 to $20,000 for large sailboat replacement"
+          }
+        ]
+      },
+      {
+        "key": "engine.type_power",
+        "value": "110-hp Yanmar diesel inboard; CruisingWorld lists model as 4JH4-HTE; Sail Magazine confirms Yanmar 110hp with Aquadrive drive system",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Engine: 110-hp Yamaha 4JH4-HTE"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "Yanmar 110 hp diesel with Aquadrive drive system"
+          }
+        ]
+      },
+      {
+        "key": "engine.fuel_consumption",
+        "value": "Approximately 1 gallon/hour at 7 knots under power; approximately 1,500-mile motoring range on 250-gallon fuel capacity",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "110-hp diesel burning approximately one gallon per hour at seven knots, giving safe motoring range of nearly 1,500 miles"
+          }
+        ]
+      },
+      {
+        "key": "water_capacity",
+        "value": "225 gallons per CruisingWorld; Blue Water Sailing cites 200 gallons (sufficient for crew of four for 20+ days on passage)",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Water Capacity: 225 gallons (852 liters)"
+          },
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "200-gallon water capacity sufficient for four crew over 20+ days"
+          }
+        ]
+      },
+      {
+        "key": "sail_area",
+        "value": "1,312 sq ft total sail area (100%); three-spreader Seldén mast; Hood Vectran headsails on manual Furlex furlers; in-mast furling mainsail with full vertical battens",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Sail Area (100%): 1,312 sq ft (121.9 sq m); Hood Vectran headsails on manual Furlex furlers"
+          },
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "Triple-spreader Selden mast; Genoa and staysail on furlers"
+          }
+        ]
+      },
+      {
+        "key": "interior_layout",
+        "value": "Two staterooms with island double berths and en-suite heads with separate shower stalls; semi-raised saloon; skipper's berth to starboard behind navstation; galley with dual refrigeration",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Outbound 52 — Sail Magazine",
+            "url": "https://sailmagazine.com/boats/outbound-52/",
+            "quote": "two primary staterooms with island double berths and en-suite heads featuring separate shower stalls; semi-raised saloon; skipper's berth to starboard directly behind the navstation"
+          }
+        ]
+      },
+      {
+        "key": "construction_origin",
+        "value": "Built in Xiamen, China by Han Sheng (Hansheng Yacht Building Company); Phil Lambert (Outbound Yachts founder) maintains residence in Xiamen to supervise construction",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "built in Xiamen, China by Han Sheng; Phil Lambert maintains permanent residence in Xiamen"
+          }
+        ]
+      },
+      {
+        "key": "designer",
+        "value": "Tim Kernan, Kernan Yacht Design; grew up cruising from Old Saybrook, CT; worked at Morelli & Melvin on high-performance racing multihulls; apprenticed under Bob Perry",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "Tim Kernan, who grew up cruising on the East Coast and later worked with noted designers Morelli & Melvin and Bob Perry"
+          },
+          {
+            "title": "Kernan Yacht Design: Outbound 52",
+            "url": "https://kernanyd.com/project/outbound-52/",
+            "quote": ""
+          }
+        ]
+      },
+      {
+        "key": "price_new",
+        "value": "$830,000 original MSRP per CruisingWorld; used market pricing not independently verified (YachtWorld returned 403)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "$830,000 original price"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Low freeboard design per Kernan Yacht Design; LOA 52', beam 15'4\" (CW) / 15.25' (Kernan); displacement 39,500 lbs; D/L ratio 160-161",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Kernan Yacht Design: Outbound 52",
+            "url": "https://kernanyd.com/project/outbound-52/",
+            "quote": "clean lines, moderate displacement, low freeboard, a low cockpit, a three-step companionway"
+          },
+          {
+            "title": "Cruising World: Outbound 52",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-52-bound-open-ocean/",
+            "quote": "Beam: 15′ 4″; Displacement: 39,500 lb; Displacement/Length: 161"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Generous side decks; 30-inch stanchions (1-inch diameter); 1-inch-high bulwarks; 10 oversized stainless-steel deck cleats on caprail",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "oversized 30-inch stanchions (1-inch diameter); 1-inch-high bulwarks; ten super-sized stainless-steel deck cleats positioned atop caprail"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Offshore delivery around Cape Hatteras noted 780 miles at 8.2 knots average; seakindly motion in 15-20 knot winds with quartering seas — source (boats.com) returned HTTP 403, cannot directly verify quotes but facts align with other published accounts",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Boats.com: Offshore on the Outbound 52",
+            "url": "https://www.boats.com/reviews/offshore-on-the-outbound-52/",
+            "quote": "source inaccessible (403); claim cannot be independently verified from this URL"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Seldén mast and Furlex rigging hardware widely available through marine suppliers; Outbound Yacht Services existence could not be verified (SSL certificate expired)",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Selden Mast: Rigging Hardware",
+            "url": "https://www.seldenmast.com/products/rigging-hardware/",
+            "quote": ""
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Integral hard-top dodger provides cockpit shade; light-colored interior fabrics and white overhead panels",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Sail Magazine: 2009 Best Boats Deck/Cockpit",
+            "url": "https://www.sailmagazine.com/boats/2009-best-boats-deckcockpit-outbound-52",
+            "quote": "integral hard-top dodger"
+          },
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "teak-and-holly sole, many drawers and cabinets"
+          }
+        ]
+      },
+      {
+        "key": "stability.sea_keeping",
+        "value": "Described in multiple sources as seakindly with V-sections and moderate beam; easily driven hull; specific rocker/wave-striding quotes from boats.com could not be verified (403)",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Blue Water Sailing: Outbound 52 Review",
+            "url": "https://www.bwsailing.com/bw/the-outbound-52-is-a-modern-classic-couples-cruiser/",
+            "quote": "a boat that would be fast, stable and very seakindly; easily driven hull, with a moderate beam, and Veed sections"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.ce_category",
+        "reason": "The claim that Category A covers 'winds to 40 knots and seas to 13 feet' is factually wrong per the cited source itself: those specs describe Category B (Offshore), not Category A (Ocean). Category A covers seas to 7m (23 ft) and Beaufort Force 9 (41-47 kt). Additionally, CE Category A certification for the Outbound 52 is described as inferred, not documented — no manufacturer source confirms it. Both the data value and the supporting quote are incorrect."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "The cited source (PBO windvane guide) was fetched and confirmed it does NOT mention the Outbound 44 at all. The specific claim that the 'Outbound 44 had very reliable autopilot tightly tied to plotter's software' has no support in the cited article. The quote appears fabricated."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "The PBO windvane article (cited as source for 'Outbound 44 had Hydrovane set to go') was fetched and confirmed it does not mention the Outbound 44. The specific quote attributed to that source is fabricated. Hydrovane compatibility with Outbound models may be plausible but has no verified source in this record."
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "reason": "The Kernan Yacht Design page was fetched and does not contain the phrase 'minimal electrical reliance' or anything close to it. The attributed quote ('designed for couple sailing; minimal electrical reliance') is fabricated. The page says the boat 'can be easily handled in those conditions by a knowledgeable couple' — a much weaker and differently worded claim."
+      },
+      {
+        "key": "engine.type_power",
+        "reason": "Partially removed: the record's value of 'Yarmah/Yammer 4JH110' contains a fabricated engine brand name. The correct engine is a Yanmar (not 'Yammer' or 'Yamaha' as some sources state — the 4JH series is a Yanmar product). Additionally, the supporting source URL (rapidoengine.com/products/Yammer-4jh110...) returned HTTP 404 — dead URL for a non-existent product page. This fact is retained in cleaned_facts under the corrected engine name."
+      },
+      {
+        "key": "cold.heating",
+        "reason": "The cited source (bwsailing.com) was fetched and contains no mention of heating systems. The attributed quote about 'interior fit and finish with satin finished teak joinery' is unrelated to heating. Confidence was 0.2 and the source does not support the claim. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "The cited source (CruisingWorld) mentions foam in a structural context only — not as thermal insulation. Repurposing structural foam specs as insulation evidence is a category error. Confidence 0.35. Removed."
+      },
+      {
+        "key": "tropical.ventilation",
+        "reason": "Claimed source (bwsailing.com) was fetched and the quote about 'three-step companionway; drop boards and removable louvered doors' is from the Sail Magazine article, not BWS. The BWS source confirms companionway design but does not document ventilation hatch configuration. Confidence 0.3. Removed."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "The cited source (outboundyachtservices.com) returned an expired SSL certificate and was inaccessible. The attributed quote about watermakers being accommodated in the boat design cannot be verified. The URL also resolves to an http:// address with an expired cert, suggesting a potentially defunct business. Confidence 0.55 is unwarranted without a working source."
+      },
+      {
+        "key": "ergonomics.transom",
+        "reason": "The value claims 'cockpit sole 16 inches closer to waterline than most center cockpit designs.' The verified Sail Magazine source actually says the cockpit has '16-inch-high seatbacks' — not that the sole is 16 inches closer to waterline. This is a misread of the source that inverts the meaning. The aft quarter cabin configuration is accurate but the specific 16-inch sole claim is unsupported."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "The Kernan Yacht Design source was fetched and does not contain the quote 'low freeboard design facilitates access.' The attributed quote is not present on the page. Confidence 0.4 already reflected low certainty; source fabrication warrants removal."
+      },
+      {
+        "key": "refit.known_issues",
+        "reason": "The claim that there are 'no documented known issues' is an absence-of-evidence statement, not a supported fact. The confidence of 0.5 and the source only discussing general design philosophy make this uninformative and unverifiable. Removed as unfalsifiable."
+      },
+      {
+        "key": "price_new",
+        "reason": "Partial removal: the $830,000 MSRP is confirmed by CruisingWorld and retained. The 'current range $650k-$997k' and the YachtWorld quote ('used listings range $785,000-$925,000') cannot be verified — YachtWorld returned HTTP 403 and the prices vary too widely to be treated as a point fact. The current-market-price component is removed; $830k MSRP is retained in cleaned_facts."
+      }
+    ],
+    "fabrication_flags": [
+      "self_steering.autopilot: The quote attributed to PBO windvane guide about 'Outbound 44 had very reliable autopilot tightly tied to plotter's software' does not exist in that article. The PBO article does not mention the Outbound 44 at all.",
+      "self_steering.windvane_option: The quote attributed to PBO windvane guide about 'Outbound 44 had Hydrovane set to go for wind vane steering' does not exist in that article. Fabricated citation.",
+      "self_steering.electrical_autonomy: The Kernan Yacht Design page does not contain 'designed for couple sailing; minimal electrical reliance.' The phrase 'minimal electrical reliance' appears nowhere on the page. Fabricated quote.",
+      "engine.type_power: Source URL rapidoengine.com/products/Yammer-4jh110-Marine-Diesel-Engine-110-HP.html returns HTTP 404. The brand name 'Yammer' does not exist — the engine is a Yanmar. The URL and company appear to be invented.",
+      "refit source sbmarinemechanic.com/yammer-marine-diesel-maintenance-schedule/: Returns HTTP 404. Non-existent page cited as a source for engine maintenance intervals.",
+      "kernanyd.com/new-outbound-voyager-52-announced/: Returns HTTP 404. Cited for '900-amp AGM battery bank option' — dead URL, no content verifiable.",
+      "sailboat.guide/outbound/52: DNS resolution failure. The URL does not resolve. Cited as a primary source for ballast type with high confidence (0.95) but the source does not exist.",
+      "stability.ce_category: The value states Category A covers 'winds to 40 knots and seas to 13 feet' — the cited source (ecys.com) explicitly attributes those specs to Category B (Offshore), not Category A (Ocean). The value and quote misrepresent the cited source.",
+      "ergonomics.transom: The '16 inches closer to waterline' claim misreads the source. The Sail Magazine source says '16-inch-high seatbacks,' not that the sole is 16 inches closer to waterline. The meaning is inverted.",
+      "tropical.refrigeration: The record's description ('two-drawer under-counter stainless steel refrigerator and above-counter refrigeration unit with two doors plus top-accessed freezer below counter') does not match what Sail Magazine actually says ('large separated deep-storage fridge and freezer under countertop, and two extra-small over-the-counter day fridges'). The record description appears to be a reworded fabrication rather than an accurate paraphrase."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially credible with significant fabrication risk. The core structural facts (displacement, sail area, construction method, designer background, cockpit design, engine HP, fuel range, construction origin) are supported by two independently fetched primary sources (CruisingWorld and Sail Magazine) that returned real content with matching figures. However, the record has serious integrity problems: four source URLs are dead (404/DNS failure), one source has an expired SSL certificate, two sources returned 403 and cannot be verified, at least three attributed quotes were confirmed absent from their cited sources (PBO windvane article, Kernan Yacht Design page), and one engine brand name ('Yammer') is a non-existent fabrication of 'Yanmar.' The CE Category A specification section conflates Category A and Category B definitions. The refrigeration description misrepresents the Sail Magazine source. Several refit-item sources are generic placeholders (a UK caravan upholstery company cited for boat cushion costs; PBO cited for autopilot without Outbound content). Overall: the primary performance and construction specs are salvageable; the self-steering, certification, and several refit sections should be treated as unreliable until re-researched from live, verifiable sources. Downgrade overall confidence from 0.72 to 0.52.\""
+  },
+  "scores": {
+    "id": "outbound-52-research",
+    "cold_score": {
+      "value": 70,
+      "confidence": 0.43,
+      "rationale": "Three of seven cold-climate criteria have verified sourced data. Heating (25 pts) and insulation (15 pts) were removed from the verified record — no source confirmed either. Mast-step configuration (10 pts) and cold tankage (10 pts) are undocumented. Re-normalisation is applied over the three sourced criteria only (max 40 pts). Inside/sheltered helm (20 pts rubric weight): hard-top dodger with integral design confirmed by Sail Magazine 2009; no enclosed helm station per verified fact — awarded 10 of 20. Watertight bulkheads (10 pts): two full-perimeter bonded bulkheads confirmed by CruisingWorld — full 10 pts. Hard cockpit shelter (10 pts): integral hard-top dodger confirmed — 8 of 10 (not a full enclosure). Achieved 28 of 40 sourced points, re-normalised to 70.",
+      "basis": "Re-normalised over 3 of 7 criteria (heating, insulation, keel-stepped mast, cold tankage excluded — no verified source). Sources: CruisingWorld Outbound 52, Sail Magazine 2009 Best Boats."
+    },
+    "tropic_score": {
+      "value": 76,
+      "confidence": 0.5,
+      "rationale": "Three of six tropic criteria have verified sourced data. Ventilation/opening hatches (20 pts) removed from verified record. Watermaker (15 pts) removed — source had expired SSL, inaccessible. Passive airflow detail (15 pts) undocumented. Re-normalisation applied over three sourced criteria (max 50 pts). Shade (15 pts): integral hard-top dodger confirmed by Sail Magazine — awarded 10 of 15 (cockpit coverage confirmed; full deck awning coverage not documented). Refrigeration (15 pts): large separated fridge/freezer plus two over-the-counter day fridges confirmed by Sail Magazine — full 15 pts. Light-air SA/D (20 pts): SA 1,312 sq ft (CruisingWorld), displacement 39,500 lbs. SA/D = 1312 / (39500/64)^(2/3) = 1312 / 72.4 ≈ 18.1 — moderate-to-adequate for bluewater; not a light-air flyer. Awarded 13 of 20. Achieved 38 of 50 sourced points, re-normalised to 76.",
+      "basis": "Re-normalised over 3 of 6 criteria. SA/D computed from CruisingWorld figures. Shade and refrigeration from Sail Magazine."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "AVS (Angle of Vanishing Stability) is not published in any verified source. CE Category A certification was removed from the verified record because the manufacturer source was not confirmed and the cited source conflated Category A and Category B definitions. Per rubric: neither AVS nor confirmed CE category is available. Value is set to 0, basis is not published, confidence is 0. Note: ballast ratio of 0.35-0.38 and lead bulb keel with V-sections are suggestive of reasonable offshore stability, but no quantified stability figure exists in the verified record to score against the rubric.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 64000,
+      "total_high_usd": 183000,
+      "by_item": [
+        {
+          "system": "Standing Rigging (Selden triple-spreader, 52ft)",
+          "low": 10000,
+          "high": 25000,
+          "note": "At 14-year assumed age, approaching or at end of service life for stainless wire (10-12yr) and rod (15-20yr). Full replacement recommended. Selden triple-spreader rig on a 52ft adds labour complexity. Rubric range $8k-$30k; upper range applied given rig size."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "At 14 years, past the 8-10yr service interval. Full halyards, sheets, control lines replacement. Hood Vectran lines may carry premium. Rubric range $2k-$6k applied directly."
+        },
+        {
+          "system": "Sails (in-mast furling main + Vectran headsails on Furlex furlers)",
+          "low": 15000,
+          "high": 40000,
+          "note": "At 14 years, past the 8-12yr sail life. In-mast furling mainsail replacement is more expensive than conventional (limited batten options, must match furling drum). Hood Vectran headsail replacement at Sail Magazine-confirmed 1,312 sq ft total. Rubric range $15k-$45k; high end reduced slightly as in-mast main is smaller sail area."
+        },
+        {
+          "system": "Engine Major Service / Partial Overhaul (Yanmar 110hp, 4JH series)",
+          "low": 5000,
+          "high": 15000,
+          "note": "Yanmar 110hp confirmed by Sail Magazine. At 14 years with unknown hours, full repower threshold (25-30yr per rubric) not yet reached. Major service (injectors, heat exchanger, impellers, belts, mounts, Aquadrive inspection) budgeted. Full repower reserved for high-hour examples — apply as contingency."
+        },
+        {
+          "system": "Electronics Suite (chartplotters, AIS, VHF, radar, autopilot)",
+          "low": 8000,
+          "high": 25000,
+          "note": "At 14 years, past the 10-15yr electronics rubric interval. Chartplotter integration, AIS class B, SSB or Iridium satcom, radar, autopilot drive/head all likely due. Lower bound assumes partial upgrade; upper bound assumes full modern suite."
+        },
+        {
+          "system": "Battery Bank (AGM replacement or LiFePO4 upgrade)",
+          "low": 5000,
+          "high": 18000,
+          "note": "At 14 years, at minimum second replacement cycle for AGM (6-10yr per rubric). Lower bound: AGM bank replacement. Upper bound: LiFePO4 conversion with BMS and potential alternator upgrade. Kernan 900Ah AGM option reference removed from verified facts but size provides scale."
+        },
+        {
+          "system": "Ground Tackle (chain, windlass service, anchors)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Rubric range $3k-$10k. At 14 years, galvanised chain stretching and windlass gypsy wear likely. Modern Rocna/Mantus anchor plus 300ft of 3/8in G4 chain and windlass service."
+        },
+        {
+          "system": "Seacocks Inspection / Partial Replacement",
+          "low": 1500,
+          "high": 5000,
+          "note": "At 14 years, below the 25yr full replacement rubric threshold. Inspection and cycling service appropriate; partial replacement if any are seized. Full replacement deferred unless survey indicates otherwise. Rubric range $3k-$9k for full replacement — lower range applied for inspection/partial."
+        },
+        {
+          "system": "Liferaft / Safety Gear (recert or replace)",
+          "low": 4000,
+          "high": 12000,
+          "note": "Rubric range $4k-$12k. Liferaft recertification at 3-year intervals or replacement if expired. EPIRB, flares, jacklines, tethers, MOB gear included. ORC or ISO offshore standards for Category 1 passage."
+        },
+        {
+          "system": "Canvas / Cockpit Soft Goods (bimini, sail covers, cockpit cushions)",
+          "low": 3000,
+          "high": 9000,
+          "note": "At 14 years, past the 10-15yr canvas rubric interval. Hard-top dodger (integral, confirmed by Sail Magazine) reduces cost versus full soft dodger replacement. Bimini, sail covers, companionway cover, and cockpit cushions budgeted. Rubric $4k-$12k; lower end applied given hard-top reduces scope."
+        },
+        {
+          "system": "Watermaker (install new — absent from verified specification)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Watermaker fact removed from verified record (source had expired SSL, inaccessible). Per rubric, if absent budget $6k-$15k for installation. Vessel has 200-225 gal tankage (verified), which reduces urgency but a watermaker is essential for offshore passage-making. Budget includes unit, installation, pressure vessels, and throughput fittings."
+        },
+        {
+          "system": "Furlex Roller Furling and In-Mast Furling Mechanism Service",
+          "low": 1500,
+          "high": 5000,
+          "note": "Boat-specific item. Furlex manual furlers (confirmed Sail Magazine) require bearing inspection and potential replacement at 10-12 years. Selden in-mast furling drum and internal batten track inspection. Lower bound: service and seals. Upper bound: full bearing replacement plus batten renewal."
+        }
+      ],
+      "assumptions": "Age basis: mid-fleet Outbound 52 assumed approximately 14 years old (2012 build), consistent with the model's production run starting circa 2007-2008. Engine repower not included — Yanmar 4JH series at 14 years is below the 25-30yr rubric repower threshold; budgeted as major service only unless a surveyed example shows high hours (add $25k-$70k if >3,000 hours). Seacocks below full replacement threshold — inspection budget only. Stability score is 0 (AVS not published) so no structural refit items are triggered by stability findings. Watermaker budgeted as absent per removal of that verified fact. All figures in 2026 USD. Ranges are our estimates; actual cost depends on yard location (Caribbean vs US East Coast vs Pacific), individual boat condition, and survey findings."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Extended fuel reserve planning: 250-gallon tank at 1 gal/hr yields ~1,500nm motoring range",
+        "category": "Fuel and Range",
+        "why": "Verified by Blue Water Sailing (bwsailing.com): 110hp Yanmar burning approximately 1 gal/hr at 7 knots, 250-gal fuel capacity, 1,500-mile safe motoring range. This is a meaningful bluewater asset — provision jerry cans for contingency on passages with uncertain wind."
+      },
+      {
+        "item": "Water provisioning conservatively from tanks only: budget 200-225 gallons, ~10 gal/person/day",
+        "category": "Water and Provisioning",
+        "why": "CruisingWorld cites 225 gallons; Blue Water Sailing cites 200 gallons sufficient for four crew over 20 days. No verified watermaker onboard — confirm by survey before departure. With 200 gal and 2 crew at 3-4 gal/person/day, max 25-33 day passage range without watermaker. Longest Pacific legs (Marquesas from Mexico ~3,000nm) take 18-22 days — tight but manageable if tanks are full at departure."
+      },
+      {
+        "item": "Solent rig standard — provision storm jib or cutter staysail as a separate purchase",
+        "category": "Heavy Weather Sail Inventory",
+        "why": "Outbound Yachts confirms (outboundyachts.com) that OB 521 owners mostly opt for a solent rig rather than a cutter. Cutter rig is possible but not standard. A dedicated storm jib on its own stay (or inner forestay) should be provisioned separately and rigged before offshore passage to provide sail reduction options below the furled headsail. Budget $800-$2,500 for storm jib and inner forestay fittings if not already aboard."
+      },
+      {
+        "item": "Refrigeration provisioning: dual-system boat allows offshore provisioning for 3-4 crew over 4+ weeks",
+        "category": "Provisions Storage",
+        "why": "Sail Magazine confirms large separated deep-storage fridge/freezer plus two day fridges. This is above-average cold storage for a 52ft. Provision fresh meat and dairy for extended offshore legs without reprovisioning. Electrical budget for compressors must be confirmed against battery bank capacity before departure."
+      },
+      {
+        "item": "Deep narrow center cockpit: crew safety tethers and jacklines are essential, not optional",
+        "category": "Safety Equipment",
+        "why": "Sail Magazine and Kernan Yacht Design confirm the deep, narrow center cockpit design with 16-inch-high seatbacks and low freeboard. While the cockpit provides excellent security when seated, the low freeboard means boarding seas reach the deck faster. Full-length jacklines from bow to cockpit, tethers for all crew, and night-watch protocols are load-bearing safety items for this design."
+      },
+      {
+        "item": "Keel-stepped mast status unverified — inspect step and partners before ocean passage",
+        "category": "Pre-Departure Inspection",
+        "why": "Mast step configuration (deck vs keel) is explicitly undocumented in all verified sources. If deck-stepped, inspect partners and compression post for delamination or cracking — a known failure point on offshore passages in heavy weather. If keel-stepped, inspect the bilge area for corrosion and water ingress at the step. Do not assume configuration without a survey."
+      },
+      {
+        "item": "AVS and stability figures are not published — commission an inclining experiment or stability letter before Category 0/1 offshore entry",
+        "category": "Certification and Safety",
+        "why": "Stability score is 0 (not published per verified record). Many offshore rallies (ARC, World ARC, Bluewater Rally) and some national authorities require a documented AVS or stability letter for Category A/Category 0 entry. The Outbound 52's ballast ratio (35-38%, verified) and lead bulb keel are indicative of solid offshore stability, but without a published AVS number, entry to regulated offshore events may require a commissioned stability calculation."
+      }
+    ]
+  }
+}

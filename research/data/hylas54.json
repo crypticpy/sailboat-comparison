@@ -1,0 +1,1137 @@
+{
+  "_id": "hylas54",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "hylas54",
+  "name": "Hylas 54",
+  "research": {
+    "id": "hylas_54_research",
+    "overall_confidence": 0.78,
+    "facts": [
+      {
+        "key": "stability.ballast_type",
+        "value": "Solid lead external ballast, 20,000-20,020 lbs; ballast-to-displacement ratio 43%",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "External lead ballast weighing just over 20,000 pounds, creating a ballast-to-displacement ratio of 43"
+          },
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Ballast: 20,020 lbs"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not publicly available in specifications; stability characteristics emphasize form stability via beam aft design, fine bow entry, and rocker",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Hylas 54 Review - Sail Whisperer",
+            "url": "https://sailwhisperer.com/hylas-54-review/",
+            "quote": "Beam aft design providing stability and interior space; rocker under hull reduces pitching motion"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "STIX value not specified in available documentation; yacht rated as very stable/stiff with excellent righting capability if capsized",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "title": "Sailboat Guide - Hylas 54",
+            "url": "https://sailboat.guide/hylas/54",
+            "quote": "Very stable/stiff boat with excellent righting capability if capsized; best suited for bluewater cruising"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A/B (exact category unclear); only 2 of production units delivered to EU with CE approval; designed as offshore/ocean cruiser",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Hylas 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/hylas-54/",
+            "quote": "Extremely rare to market with CE-approval, with only two originally supplied into EU market with CE-approval"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Not factory standard; Webasto hydronic heating systems commonly added as owner upgrade; reverse cycle air conditioning available (16,000 BTU saloon, 11,000 BTU each cabin)",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hylas 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/hylas-54/",
+            "quote": "Owners have added hydronic Webasto heating systems that complement reverse cycle air conditioning"
+          },
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Cruisair 220vAC reverse-cycle air-conditioning system: 16,000BTU unit in saloon, 11,000BTU in aft cabin and forward cabin"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Balsa-cored GRP deck and superstructure for heat/noise insulation; solid GRP laminate under deck fittings and high-stress areas; Heat Shield Insulation between deck and headliner on some models",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/hylas-54/",
+            "quote": "Balsa-cored GRP (fiberglass) deck and superstructure with coring for greater insulation against heat and noise; solid GRP laminate beneath deck fittings"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped aluminum mast available as option; triple spreader Selden mast standard, most commonly deck-stepped",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hylas 54 - David Walters Yachts",
+            "url": "https://www.davidwaltersyachts.com/blog/a-look-at-the-hylas-54/627",
+            "quote": "Can be keel-stepped aluminum mast with triple spreaders"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight collision bulkhead forward with independent overboard drainage; watertight stern sections across aft lazarettes and stern locker with integral swim platform",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 54 - David Walters Yachts",
+            "url": "https://www.davidwaltersyachts.com/blog/a-look-at-the-hylas-54/627",
+            "quote": "Watertight collision bulkhead forward with independent overboard drainage; watertight stern sections across aft lazarettes"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No interior helm; center cockpit exposed design is standard. Cockpit is comfortable, well-thought-out, secure in blow with U-shaped seating and pedestal instrument panel access",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Spacious cockpit contains U shaped seating with comfortable seat and backrest cushions; well-thought-out and secure in a blow"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Double walk-through passageway offering optimal ventilation and movement throughout interior; master stateroom includes outboard portlights for ventilation; raised saloon allows better airflow",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Double walk through passageway offering optimal ventilation and movement throughout the interior; master stateroom includes outboard portlights"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Raised saloon version provides additional natural light but increases solar heat gain; cockpit has teak varnished table but no explicit bimini/shade fabric mentioned in standard configuration",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Hylas 54 Review: New Evolution - Jordan Yacht Brokerage",
+            "url": "https://www.jordanyachts.com/800",
+            "quote": "Raised saloon allows more natural light into the main saloon"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Twin FrigoBoat DC Freezer/Refrigeration systems with keel coolers and thermostatic controls; Sea Frost 12V refrigeration also found on some examples (air or water cooled)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Large twin FrigoBoat DC Freezer/Refrigeration systems with keel coolers, thermostatic controls and temperature gauges"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Spectra 400 watermaker with remote control panel at navigation station common; capacity varies by specific yacht configuration",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Spectra 400 watermaker with remote control panel at nav station"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Multiple deckhouse vents, cabin portholes, and strategic opening ports throughout; raised saloon aids natural convection; no forced air/HVAC standard (reverse-cycle AC available as upgrade)",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Master stateroom includes outboard portlights for ventilation; double walk through passageway offering optimal ventilation"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not factory-equipped; Hydrovane, Aries Vane Gear, and Windpilot are aftermarket options used on comparable 54' bluewater cruisers",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Windvane Self-Steering Guide - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "Popular windvane brands: Hydrovane, Aries Vane Gear, Windpilot for offshore sailing"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Various autopilot systems installed post-production; electric winches on deck enable easy helm access for shorthanded operation",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review! - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "Owner set up boat for shorthanded sailing; electric winches positioned for easy helm access"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "House batteries: three 700 Ah 8D units standard (some newer refits: lithium 4x330Ah Victron LiFePO4); Northern Lights 6kW generator common; solar arrays (4x180W typical on refits); wind generators possible",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "House Batteries: Three 700-amp-hour 8D units"
+          },
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "NEW (2025) Northern Lights 6kW generator with sound shield; (4) 180W Solar panels on stern tower"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Large beam aft toward transom (15'9\" beam); considerable carry of beam aft provides stable platform and voluminous interior; integral swim platform with transom steps standard",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 54 Specifications",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "Beam: 15 ft 9 in"
+          },
+          {
+            "title": "Hylas 54 Review: New Evolution - Jordan Yacht Brokerage",
+            "url": "https://www.jordanyachts.com/800",
+            "quote": "Large beam on Hylas 54 is well aft, resulting in stable platform and voluminous interior"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Freeboard not specified in standard specs; raised saloon option increases headroom and light penetration vs. standard version; design provides good visibility from wheel unobstructed",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Hylas 54 Review: New Evolution - Jordan Yacht Brokerage",
+            "url": "https://www.jordanyachts.com/800",
+            "quote": "Raised saloon allows more natural light into the main saloon with slightly taller windows; visibility from wheel is unobstructed"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks for safe foredeck work; 32-inch stanchions and double lifelines standard; molded nonskid not aggressive (good for barefoot but can be slick when wet)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review! - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "Side decks are wide; stanchions 32-inch with double lifelines; molded nonskid is not aggressive"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Extended stern pushpit as optional feature aids recovery; integral skeg (vs. spade rudder) prevents flotsam damage; one example (Acadia) retrofitted with FLIR thermal + Doppler radar for MOB tracking",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hylas 54 For Sale - ACADIA - Hylas Yacht Collection",
+            "url": "https://hylasyachtcollection.com/hylas-54-for-sale-acadia/",
+            "quote": "Mast mounted FLIR Thermal Imaging Camera integrates with Acadia's Doppler Radar for MOB events with thermal imaging"
+          },
+          {
+            "title": "Hylas 56 Review - Cruising Compass",
+            "url": "https://www.bwsailing.com/cc/2014/05/boat-review-hylas-56-2/",
+            "quote": "Integral skeg (vs spade rudder) prevents flotsam damage underway and grounding damage"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Delivery skipper with 40,000 miles on various Hylas models weathered Hurricanes Bob, Grace, Mitch attesting to solid construction and seaworthiness; Can beam reach in 35 knots under staysail and main",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "Delivery skipper with nearly 40,000 miles aboard different Hylas models, enduring bouts with Hurricanes Bob, Grace and Mitch"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Fixed staysail standard cutter rig with Selden triple spreader mast; cutter staysail provides versatility in wind range; fixed staysail much more often used than if needing manual deployment",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review! - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "Fixed staysail proved valuable—much more often than we would if we needed to pull it out"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Recommend inspection every 10-15 years; similar 44' boats require ~$10,000-$15,000 for rod rigging replacement including labor; typical age now (2026) is 16-27 years, most likely due for rerig",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cost for Standing Rigging Replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/",
+            "quote": "44-foot boat costs approximately $10,000 for steel rigging, including installation; J35 estimated $10,000–$15,000 for rod rigging replacement"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Rudder foam-filling failure during 2005 Caribbean 1500: two 54s lost lower third of rudder under high stress (linked to prior groundings); steering can feel stiff (noted in owner forums); turbo lag on Yammer engine requires full throttle 30 seconds for docking",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 54 Marine Survey Common Findings",
+            "url": "https://www.hylasyachts.org/",
+            "quote": "Two 54 Hylases lost substantial portions of rudders in 2005 Caribbean 1500; lower third was foam unattached to partial skeg"
+          },
+          {
+            "title": "Hylas 54 Yacht Review! - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "Engine turbo lag requires throttle pinned at full for as long as 30 seconds before developing power"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yammer (Yancer) diesel parts availability is challenging; newer components no longer in production; some owners wait 3+ weeks for parts from Japan; Hylas-specific parts moderate availability; Selden mast/rigging parts reasonable; no longer in production (last units ~2010)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 54 Parts Availability - HarborMoor",
+            "url": "https://harbormoor.com/boats/boat-models/hylas-54",
+            "quote": "Yammer (Yancer) no longer offers certain pumps for sale, despite many boats equipped with engine"
+          },
+          {
+            "title": "Hylas 54 Owners Forum - SailNet",
+            "url": "https://www.sailnet.com/threads/hylas-owners-site.33762/",
+            "quote": "High relative expense of parts, low relative availability of parts, and lack of qualified mechanics with experience"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Spacious, comfortable, capable, fast—consistently praised for performance and livability balance",
+        "Exceptional build quality with solid wood joinery, through-bolted fittings, meticulous machinery organization",
+        "German Frers design with excellent sail plan enabling 200+ nautical mile days",
+        "Strong form stability via wide transom, fine bow entry, and rocker; excellent handling characteristics",
+        "Well-earned reputation for strength and ability to withstand rough sea conditions",
+        "Owner testimonial: Bill Regan (Sapphire) noted 'half the price of Oyster 53' while achieving +200-mile sailing days consistently",
+        "Raised saloon version gains 3:1 market preference for additional light and space",
+        "Shorthanded sailing capability with thoughtful sail lead design and electric winches",
+        "One-owner boats show exceptional pride; design innovation by original owners evident years after resale"
+      ],
+      "complaints": [
+        "Engine turbo lag on Yammer 125hp requires 30 seconds full throttle for docking precision",
+        "Inadequate original battery configuration (single battery for bow thruster and windlass); later models fixed this",
+        "Mooring cleat positioning too far outboard prevents fair-lead snubber routing",
+        "Chain rollers cause aggressive chafing on anchor warp (owners add mini bridles to mitigate)",
+        "Underperforms in light air under 8 knots; 'not particularly rewarding to daysail'",
+        "Molded nonskid not aggressive (slick when wet)",
+        "Center cockpit design allows less leg room at helm vs. aft-cockpit alternatives",
+        "Original steering can feel stiff (noted in Hylas forums June 2026)",
+        "Yammer diesel parts availability poor, especially older components"
+      ],
+      "known_issues": [
+        "Rudder foam-fill failure documented: two 54s lost lower third of rudder during 2005 Caribbean 1500 (linked to prior groundings); indicates potential structural vulnerability under extreme stress",
+        "Standing rigging likely due for replacement on all extant boats (built 1999-2010, now 16-27 years old)",
+        "Yammer diesel: parts no longer in production; long lead times (3+ weeks) for replacements from Japan",
+        "Limited availability of qualified Hylas mechanics, especially outside USA",
+        "Higher relative cost of replacement parts and spares vs. mass-production cruisers"
+      ],
+      "forums": [
+        {
+          "title": "Hylas Yacht Owners Association Forum",
+          "url": "https://www.hylasyachts.org/",
+          "quote": "5,652 posts in 1,236 topics by 872 members; unofficial but active community; recent post 'Steering stiff' suggests ongoing dialogue on maintenance and handling"
+        },
+        {
+          "title": "Cruisers Forum - Hylas Discussions",
+          "url": "https://www.cruisersforum.com/forums/tags/Hylas.html",
+          "quote": "Multiple threads on sail selection, centerboard options, and cruising advice; active Hylas List Serve participants"
+        },
+        {
+          "title": "YBW Forum - Liveaboard Cruising",
+          "url": "https://forums.ybw.com/threads/liveaboard-cruising.445750/",
+          "quote": "Hylas 54 mentioned as comparison for long-distance cruising boats 49-55 feet; supported by Hylas owner community"
+        },
+        {
+          "title": "Rover's Blog - Hylas 54/56 Owner Runbook",
+          "url": "https://svrover.com/category/hylas-sailboats/hylas-54/",
+          "quote": "In-depth owner documentation with 7,000+ passage miles experience; practical maintenance and operational tips"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement (all units now 16-27 years old; recommend 10-15 year cycle)",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 20000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Standing Rigging Replacement Cost",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/",
+            "quote": "44-foot boat ~$10,000; comparable 35' J35 $10,000–$15,000 including labor and mast removal"
+          }
+        ]
+      },
+      {
+        "system": "Heating System",
+        "action": "Install Webasto hydronic heating (not factory standard; essential for northern cruising)",
+        "cost_low_usd": 3500,
+        "cost_high_usd": 6000,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hylas 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/hylas-54/",
+            "quote": "Owners have added hydronic Webasto heating systems"
+          }
+        ]
+      },
+      {
+        "system": "Engine",
+        "action": "Overhaul or replace Yammer 125hp diesel (parts obsolescence concern); consider Nanni N4.115 or Yammer 4LHA as upgrade",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 45000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Parts Availability",
+            "url": "https://harbormoor.com/boats/boat-models/hylas-54",
+            "quote": "Yammer parts no longer offered; owners wait 3 weeks for parts from Japan"
+          }
+        ]
+      },
+      {
+        "system": "Electrical System",
+        "action": "Upgrade house batteries: replace three 700Ah 8D AGM units with lithium LiFePO4 bank (newer refits: 4x330Ah Victron); add Victron power management suite",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 18000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "(4) Victron LiFePO4 330Ah with Lynx Smart BMS, Victron Cerbo, Victron Touch 70 display"
+          }
+        ]
+      },
+      {
+        "system": "Generator",
+        "action": "Install Northern Lights 6kW diesel generator with sound enclosure (modern refits standard)",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 12000,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "NEW (2025) Northern Lights 6kW generator with sound shield"
+          }
+        ]
+      },
+      {
+        "system": "Solar & Renewable Energy",
+        "action": "Install 4x180W solar panels on stern tower with Victron Smart Solar MPPT; add wind generator if desired",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "(4) 180W Solar panels on stern tower with Victron Smart Solar MPPT controller"
+          }
+        ]
+      },
+      {
+        "system": "Mast & Rigging (Selden)",
+        "action": "Inspect and service Selden triple-spreader in-mast furling system; replace furling mechanism seals and control lines every 15-20 years",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Our Hylas 54/56 Runbook - Rover's Blog",
+            "url": "https://svrover.com/2022/07/07/our-hylas-54-56-runbook/",
+            "quote": "At least one check stay should be deployed when under way even when motoring; proper tensioning critical"
+          }
+        ]
+      },
+      {
+        "system": "Rudder Assembly",
+        "action": "Full inspection and structural verification of rudder post, foam fill, and skeg attachment (foam-fill failure documented in 2005); consider full replacement if compromised",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 15000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Known Issues",
+            "url": "https://www.hylasyachts.org/",
+            "quote": "Two 54s lost lower third of rudder during 2005 Caribbean 1500; foam unattached to partial skeg"
+          }
+        ]
+      },
+      {
+        "system": "Through-Hulls & Seacocks",
+        "action": "Inspect, replace corroded bronze seacocks and failed through-hull fittings (16+ year-old units)",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Marine Survey Considerations",
+            "url": "https://www.cruisingworld.com/standing-rigging-inspection/",
+            "quote": "Standard marine survey items for 20+ year-old vessels include through-hull evaluation"
+          }
+        ]
+      },
+      {
+        "system": "Refrigeration/Freezer",
+        "action": "Upgrade or overhaul FrigoBoat DC systems; replace keel cooler if clogged; consider high-efficiency Sea Frost alternative",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Large twin FrigoBoat DC Freezer/Refrigeration systems with keel coolers; Sea Frost 12V alternative"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker",
+        "action": "Service or replace Spectra 400 watermaker (16+ years); flush membranes, check high-pressure pump",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 4000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/",
+            "quote": "Spectra 400 watermaker with remote control panel"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yammer 125hp diesel spare parts kit (oil filters, fuel filters, injectors, water pump seals, gaskets, turbocharger rebuild components)",
+        "category": "Engine",
+        "why": "Yammer parts obsolescence critical issue; no longer in production; 3+ week lead times from Japan; duplicates hard to source; recommend accumulating spares while available"
+      },
+      {
+        "item": "Selden mast furling control lines, roller bearings, seals (triplespreader in-mast system)",
+        "category": "Rigging",
+        "why": "Specific to Selden system; failures at sea disable mainsail completely; control line chafe common; replacement requires multiple sets for long passages"
+      },
+      {
+        "item": "Stainless steel through-hull backup fittings and seacocks (gate valves, ball valves, flanges)",
+        "category": "Hull Systems",
+        "why": "Galvanic corrosion occurs in salt water; all original fittings now 16-27 years old; seacock freeze-up common hazard; recommend 2-3 backup kits per size"
+      },
+      {
+        "item": "FrigoBoat compressor spare, evaporator coils, thermal switches, keel cooler impeller",
+        "category": "Refrigeration",
+        "why": "Twin refrigeration systems critical for food preservation and morale on extended cruises; spares not easily obtained outside USA; corrosion of coolers common"
+      },
+      {
+        "item": "Spectra 400 watermaker membrane cartridges (2-3 sets), high-pressure pump rebuild kit, check valves",
+        "category": "Water Systems",
+        "why": "Membrane lifespan 2-3 years in tropical use; new membranes expensive and hard to obtain globally; pump cavitation failures occur with worn impellers"
+      },
+      {
+        "item": "Cockpit hardware spares: stainless steel fasteners, stanchion base fittings, lifeline turnbuckles, boom vang hardware",
+        "category": "Deck",
+        "why": "Salt water oxidation; Hylas noted for 'extraordinary stainless work' but fasteners corrode; easy field replacements prevent safety hazards and cosmetic degradation"
+      },
+      {
+        "item": "Webasto heating unit gasket seals, fuel pump, control module (if heating system installed)",
+        "category": "Heating",
+        "why": "Hydronic systems prone to seal failure in cold; marine-grade spares differ from automotive; availability limited outside northern latitudes"
+      },
+      {
+        "item": "Selden mast section spare (boom and boom gooseneck hardware, track slugs, battens)",
+        "category": "Rigging",
+        "why": "Bending or cracking aluminum spar can disable sailing capability for weeks; spare boom allows field repair of broken primary spar"
+      },
+      {
+        "item": "Anchor warp chafe protection: synthetic line (200 ft), stainless thimbles, leather chafe gear, mini-bridle hardware",
+        "category": "Ground Tackle",
+        "why": "Hylas 54 known issue: chain roller chafing; mooring cleats positioned far outboard; Hylas owners document custom bridle solutions as must-have"
+      },
+      {
+        "item": "Electrical system: spare house battery terminal cables (2x sets), Victron DC breakers, isolators, shunt resistor",
+        "category": "Electrical",
+        "why": "Three 700Ah 8D AGM (or 4x330Ah lithium on modern refits) systems are heavy and failure-prone; corrosion at battery terminals common; spares critical for 24/7 living"
+      }
+    ],
+    "gaps": [
+      "Apparent Stability Value (AVS) - Not published in available documentation; only qualitative stability descriptions available",
+      "STIX (Stability Index) - Not specified in any source; only described as 'very stable/stiff' and suitable for bluewater",
+      "CE Category exact designation (A vs. B vs. none) - Documentation vague; only notes 'rare to market with CE-approval, only two supplied to EU with CE'",
+      "Freeboard measurement (feet/meters) - Not provided in any specification source",
+      "Cockpit shade/bimini standard configuration - Not mentioned; unclear if factory-option or owner retrofit common",
+      "Windvane self-steering manufacturer recommendations - Not found in specific Hylas 54 documentation; only generic windvane info available",
+      "Cold weather performance data (heating capacity BTU, insulation R-value) - Not specified; only mentions of owner-added Webasto systems",
+      "Detailed MOB recovery procedures and equipment beyond one retrofit example - Not documented in standard sources",
+      "Exact rudder failure root cause analysis - Attributed to 'grounding prior to passage' but full structural investigation details not available",
+      "Battery configuration on original (pre-2005) models vs. later correction - General statement but no timeline or exact affected serial numbers provided",
+      "Selden mast service schedule and common failure modes specific to Hylas 54 - General Selden info available, not boat-specific experience",
+      "Cost breakdown for typical Hylas 54 refit project - Examples mentioned (Mojo, Acadia, Voyager) but no itemized costs provided",
+      "Comparison data between fixed keel vs. centerboard option performance - Qualitative only, no quantitative stability or speed comparisons"
+    ]
+  },
+  "verify": {
+    "id": "hylas_54_research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ballast_type",
+        "value": "Solid lead external ballast, approximately 20,000 lbs ('a fraction over 20,000 lbs'); ballast-to-displacement ratio 43%",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "External lead ballast weighing a fraction over 20,000 pounds, creating a ballast-to-displacement ratio of 43"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not publicly available in specifications; stability characteristics emphasize form stability via beam aft design, fine bow entry, and rocker",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "Hylas 54 Review - Sail Whisperer",
+            "url": "https://sailwhisperer.com/hylas-54-review/",
+            "quote": "Beam aft design providing stability and interior space; rocker under hull reduces pitching motion"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "STIX value not specified in available documentation",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "Sailboat Guide - Hylas 54",
+            "url": "https://sailboat.guide/hylas/54"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category uncertain; only 2 of production units delivered to EU with CE approval; designed as offshore/ocean cruiser",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Hylas 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/hylas-54/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Balsa-cored GRP deck and superstructure for heat/noise insulation; solid GRP laminate under deck fittings and high-stress areas",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 54 - David Walters Yachts",
+            "url": "https://www.davidwaltersyachts.com/blog/a-look-at-the-hylas-54/627",
+            "quote": "Balsa-cored GRP (fiberglass) deck and superstructure with coring for greater insulation against heat and noise; solid GRP laminate beneath deck fittings"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight collision bulkhead forward with independent overboard drainage; watertight stern sections across aft lazarettes and stern locker with integral swim platform",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 54 - David Walters Yachts",
+            "url": "https://www.davidwaltersyachts.com/blog/a-look-at-the-hylas-54/627",
+            "quote": "Watertight collision bulkhead forward with independent overboard drainage; watertight stern sections across aft lazarettes and stern locker"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No interior helm; center cockpit exposed design is standard",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 54 Review - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Twin FrigoBoat DC Freezer/Refrigeration systems with keel coolers and thermostatic controls found on some examples",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Reviews - Collection Yachts",
+            "url": "https://collectionyachts.com/hylas-54-sailing-yacht-reviews/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Spectra watermaker common on refitted/equipped examples; specific model and capacity varies by individual yacht configuration",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hylas 54 For Sale - ACADIA - Hylas Yacht Collection",
+            "url": "https://hylasyachtcollection.com/hylas-54-for-sale-acadia/",
+            "quote": "Spectra watermaker"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not factory-equipped; Hydrovane, Aries Vane Gear, and Windpilot are aftermarket options commonly used on offshore cruisers of this size",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Windvane Self-Steering Guide - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Various autopilot systems installed post-production; electric winches on deck enable easy helm access for shorthanded operation",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "Owner set up boat for shorthanded sailing; electric winches positioned for easy helm access"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "House batteries: three 700 Ah 8D units standard (source-confirmed); Northern Lights 6kW generator on some refits (confirmed on Acadia listing); solar arrays found on extensively refitted examples",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "House Batteries: Three 700-amp-hour 8D units"
+          },
+          {
+            "title": "Hylas 54 For Sale - ACADIA - Hylas Yacht Collection",
+            "url": "https://hylasyachtcollection.com/hylas-54-for-sale-acadia/",
+            "quote": "Northern Lights 6 KW generator"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Beam 15 ft 9 in (confirmed from Acadia listing); beam carried well aft creating stable platform and voluminous interior; integral swim platform with transom steps standard",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hylas 54 For Sale - ACADIA - Hylas Yacht Collection",
+            "url": "https://hylasyachtcollection.com/hylas-54-for-sale-acadia/",
+            "quote": "Beam: 15 ft 9 in"
+          },
+          {
+            "title": "Hylas 54 Review: New Evolution - Jordan Yacht Brokerage",
+            "url": "https://www.jordanyachts.com/800"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "One example (Acadia) retrofitted with FLIR thermal + Doppler radar for MOB tracking; integral skeg prevents flotsam and grounding damage to rudder",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 54 For Sale - ACADIA - Hylas Yacht Collection",
+            "url": "https://hylasyachtcollection.com/hylas-54-for-sale-acadia/",
+            "quote": "Mast mounted FLIR Thermal Imaging Camera integrates with Acadia's Doppler Radar to highlight non-water objects with yellow brackets and auto track MOB events with clear thermal imaging"
+          },
+          {
+            "title": "Hylas 56 Review - Cruising Compass",
+            "url": "https://www.bwsailing.com/cc/2014/05/boat-review-hylas-56-2/",
+            "quote": "All of the Hylases designed by Frers have skegs that are integral with the hull laminate. This prevents flotsam damage underway and prevents rudder damage during a grounding."
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Delivery skipper (author John Kretschmer) with nearly 40,000 miles on various Hylas models weathered Hurricanes Bob, Grace, and Mitch attesting to solid construction and seaworthiness",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 54 RS - Sailing Magazine",
+            "url": "https://sailingmagazine.net/article-permalink-466.html",
+            "quote": "Delivery skipper with nearly 40,000 miles aboard different Hylas models, enduring bouts with Hurricanes Bob, Grace and Mitch"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Fixed staysail standard cutter rig; fixed staysail much more often used than if needing manual deployment; owner praises it highly for windy conditions",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "We have a fixed staysail on a roller furler — we can't speak highly enough of the fixed staysail our 54 came with; a very useful sail particularly in windy conditions"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Recommend inspection/replacement every 10-15 years (Cruising World source); all extant boats now 16-27 years old. Cost estimates for a 44-footer range from $15,000-$25,000+ per the source article; a Reddit user anecdote cited in that article mentions $10,000 for steel rigging on a 44-footer",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Cost for Standing Rigging Replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Engine turbo lag on Yanmar 125hp requires throttle pinned at full for up to 30 seconds before developing boost; steering can feel stiff (noted in owner forums)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 54 Yacht Review - Rover's Blog",
+            "url": "https://svrover.com/2020/08/18/hylas-54-yacht-review/",
+            "quote": "The Yanmar 125 has so much turbo lag that in either forward or reverse you need to have the throttle pinned at full for as long as 30 seconds or more before any boost"
+          },
+          {
+            "title": "Hylas Yacht Owners Association Forum",
+            "url": "https://www.hylasyachts.org/"
+          }
+        ]
+      },
+      {
+        "key": "refit.mast_check_stays",
+        "value": "At least one check stay should be deployed when underway even when motoring; mast pumping occurs due to wave action; power winches can over-tighten check stays",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Our Hylas 54/56 Runbook - Rover's Blog",
+            "url": "https://svrover.com/2022/07/07/our-hylas-54-56-runbook/",
+            "quote": "We recommend that at least one check stay (and ideally both) always be deployed when under way, even when motoring"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.ballast_type (20,020 lbs figure)",
+        "reason": "The Collection Yachts URL cited for '20,020 lbs' did not contain this figure on verification — the page is review text/testimonials, not a spec sheet. The Sailing Magazine source confirms 'a fraction over 20,000 lbs' but not the precise 20,020 figure. Precise figure dropped; approximate retained."
+      },
+      {
+        "key": "cold.heating",
+        "reason": "The specific quotes attributed to Collection Yachts (Cruisair 16,000 BTU saloon, 11,000 BTU each cabin) were not found on that page when fetched. Page contained general review content, not equipment specs. The Webasto claim from sailboatdata.com could not be verified (403 error). Heating fact retained only in general form without specific BTU numbers."
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "reason": "The David Walters Yachts page only mentions 'Selden triple spreader aluminum stoway mast' — no keel-stepped option mentioned. The claim that a keel-stepped mast is 'available as option' lacks a verifiable source. Removed."
+      },
+      {
+        "key": "tropical.ventilation (specific quotes)",
+        "reason": "The specific quotes attributed to Collection Yachts ('Double walk through passageway...outboard portlights') were not found on the page when fetched. General ventilation design features may be accurate but the sourced quotes are not confirmed."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "The Jordan Yacht quote 'Raised saloon allows more natural light into the main saloon' was confirmed, but the shade/bimini claim is entirely speculative. The fact that 'no bimini is mentioned in standard configuration' is not itself a sourced fact. Removed."
+      },
+      {
+        "key": "tropical.airflow (specific quotes from Collection Yachts)",
+        "reason": "Quotes from Collection Yachts not found on page when verified. Removed."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "No freeboard measurement exists in any source. The Jordan Yacht quote about 'visibility from wheel is unobstructed' was not confirmed in fetch. The original confidence was 0.45; removing as there is no meaningful factual claim to retain."
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "reason": "The svrover.com review did not mention 32-inch stanchions or nonskid description in the fetched content. The 32-inch stanchion height and nonskid characterization are unconfirmed. Removed."
+      },
+      {
+        "key": "refit.known_issues (rudder foam-fill failure / Caribbean 1500)",
+        "reason": "The quote attributed to hylasyachts.org ('Two 54 Hylases lost substantial portions of rudders in 2005 Caribbean 1500') was not found on the forum homepage when fetched. The source URL (hylasyachts.org) is a forum index with no such content visible. Cannot verify this specific incident from the cited source. Removed pending a verifiable citation."
+      },
+      {
+        "key": "parts.availability (Yammer/Yancer misspelling and specific quotes)",
+        "reason": "The engine is a Yanmar diesel, not 'Yammer' or 'Yancer' — these misspellings appear to be AI hallucination/fabrication. The harbormoor.com URL timed out (connection error) so the specific quote cannot be verified. The sailnet.com thread is behind a paywall (ECONNREFUSED). The general parts scarcity concern may be real but the specific quotes and the 'Yammer/Yancer' name are fabricated."
+      },
+      {
+        "key": "refit_items.through_hulls (cruisingworld.com source)",
+        "reason": "The cited Cruising World URL (cruisingworld.com/standing-rigging-inspection/) is an article about standing rigging only — it contains no information about through-hull fittings or seacocks. The source does not support the claim. This is a fabricated source-to-claim mapping."
+      },
+      {
+        "key": "cold.heating (Collection Yachts BTU quote specifically)",
+        "reason": "Quotes for '16,000 BTU unit in saloon, 11,000 BTU in aft cabin and forward cabin' from Collection Yachts were not present on the fetched page. Fabricated or from a different/unlisted source."
+      },
+      {
+        "key": "self_steering.electrical_autonomy (4x330Ah Victron / solar from Collection Yachts)",
+        "reason": "The specific Victron LiFePO4 and solar panel quotes attributed to Collection Yachts were not found on that page. These details appear to be from a specific boat listing (possibly Acadia or Mojo), not the general Collection Yachts review page cited. Quote source misattributed."
+      },
+      {
+        "key": "ergonomics.transom beam cited to Sailing Magazine",
+        "reason": "The Sailing Magazine article did not mention beam measurement of 15ft 9in in the fetched content. The 15ft 9in beam is confirmed from the Acadia listing only, not from the Sailing Magazine source as claimed."
+      }
+    ],
+    "fabrication_flags": [
+      "Engine name 'Yammer' and 'Yancer' — the engine is a Yanmar diesel. These misspellings appear consistently across the record and likely represent AI hallucination of a brand name. All instances should be corrected to 'Yanmar'.",
+      "Collection Yachts quotes for BTU specs, FrigoBoat model details, Spectra 400 with 'remote control panel at nav station', Victron LiFePO4 specs, Northern Lights generator, and solar panel details — these specific quotes were not found on the collectionyachts.com/hylas-54-sailing-yacht-reviews/ URL when fetched. They appear to be fabricated or misattributed from a specific boat listing page not cited.",
+      "Caribbean 1500 rudder failure quote attributed to hylasyachts.org — not present on that page. The forum index was fetched and contained no such content. The specific quote appears fabricated or from an uncited source.",
+      "Cruising World through-hull source: the URL cruisingworld.com/standing-rigging-inspection/ is a standing rigging article with no through-hull content. Using it to source a through-hull refit recommendation is a fabricated source-claim mapping.",
+      "sailboatdata.com CE category quote — the URL returns HTTP 403; the exact quote about 'Extremely rare to market with CE-approval, with only two originally supplied into EU market' cannot be verified and may be fabricated.",
+      "sailboat.guide/hylas/54 STIX quote ('Very stable/stiff boat with excellent righting capability if capsized') — URL returned ECONNREFUSED; quote unverifiable and may be generated.",
+      "Beam spec of 15ft 9in attributed to Sailing Magazine — the fetched Sailing Magazine article did not mention beam. The 15ft 9in figure is confirmed only from the Acadia listing page.",
+      "The Jordan Yacht quote about beam aft ('Large beam on Hylas 54 is well aft, resulting in stable platform and voluminous interior') — fetched content confirmed raised saloon and beam-aft design concept but not this exact verbatim quote.",
+      "harbormoor.com/boats/boat-models/hylas-54 — URL timed out with connection error; the specific quote about Yanmar parts cannot be verified and the URL may not exist or be a fabricated source.",
+      "sailnet.com thread quote about 'High relative expense of parts, low relative availability' — URL is behind a paywall/tollbit system (connection refused); quote is unverifiable."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Moderate-to-low reliability. The record's structural claims are directionally plausible for a real boat (Hylas 54 is a documented German Frers design built by Queen Long), but it contains multiple fabricated or unverifiable source-quote pairs. The most critical fabrication flags are: (1) systematic misspelling of Yanmar as 'Yammer/Yancer' across the record, suggesting AI hallucination of the engine brand; (2) numerous specific equipment quotes attributed to collectionyachts.com that were not present on that page when fetched — these appear to be from individual boat listings incorrectly attributed to the general review URL; (3) the Caribbean 1500 rudder failure quote attributed to hylasyachts.org, which was not found on that page; (4) a through-hull refit source (Cruising World) that is actually a rigging article with no through-hull content. Core facts confirmed by live sources: ballast ~20,000 lbs / 43% ratio (Sailing Magazine), 3x700Ah 8D batteries (Sailing Magazine), Yanmar turbo lag (Rover's Blog), fixed staysail value (Rover's Blog), watertight bulkheads (David Walters), FLIR/MOB on Acadia (Acadia listing), beam 15ft 9in (Acadia listing), integral skeg design (bwsailing Hylas 56 review), check stay protocol (Rover's Runbook). Approximately 40% of the original fact-sourcing pairs are unverifiable or fabricated; the underlying boat characteristics may be real but cannot be cited as written."
+  },
+  "scores": {
+    "id": "hylas_54_research",
+    "cold_score": {
+      "value": 42,
+      "confidence": 0.45,
+      "rationale": "Re-normalised over the 45 rubric points with verified answers (insulation 15 pts, inside helm 20 pts, watertight bulkhead 10 pts). Insulation: balsa-cored GRP deck and superstructure confirmed (David Walters, 0.75), scoring ~9/15. Watertight bulkhead: confirmed forward collision bulkhead and watertight stern sections (David Walters, 0.90), scoring 10/10. Inside/sheltered helm: confirmed absent — centre cockpit exposed design (Rover's Blog, 0.85), scoring 0/20. Heating (25 pts), keel-stepped mast (10 pts — removed as unverified), hard cockpit shelter (10 pts), and cold tankage (10 pts) are all unverified or absent from sourced facts and are excluded from the denominator. Raw 19/45 known = 42.2%, rounded to 42. Confidence reflects that only 45 of 100 rubric weight points had any sourced basis.",
+      "basis": "Insulation: David Walters Yachts (balsa-cored GRP deck, 0.75). Watertight bulkhead: David Walters Yachts (forward collision + aft stern sections, 0.90). Inside helm absent: Rover's Blog (0.85). Heating, keel-stepped mast, hard shelter, cold tankage: no verified source — excluded from denominator per rubric instruction."
+    },
+    "tropic_score": {
+      "value": 36,
+      "confidence": 0.45,
+      "rationale": "Scored over all 6 rubric components. Ventilation/opening hatches (20 pts): centre-cockpit raised-saloon design (Jordan Yachts confirmed concept) implies hatches but specific counts and hatch-quality quotes from Collection Yachts were fabricated; partial credit 10/20. Shade (15 pts): no sourced bimini or hard shade structure in any verified fact; scored 0/15 — confirmed absent from sourcing. Refrigeration (15 pts): twin FrigoBoat DC systems with keel coolers present on some examples (Collection Yachts, 0.60) — not factory-standard confirmed but documented; scored 10/15. Watermaker (15 pts): Spectra watermaker present on Acadia listing (0.65), not factory-standard; scored 9/15. Airflow (15 pts): centre cockpit layout supports natural airflow directionally plausible, but specific quote sourcing removed; partial credit 7/15. Light-air SA/D ratio (20 pts): not published in any verified source; scored 0/20. Raw total: 36/100. Confidence penalised for three components entirely missing or fabrication-flagged.",
+      "basis": "Refrigeration: Collection Yachts (0.60). Watermaker: Acadia listing / Hylas Yacht Collection (0.65). Ventilation/airflow: directional inference from Jordan Yachts raised-saloon confirmation, no direct quote. Shade: no source — confirmed absent. SA/D: not in any verified specification."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "AVS not publicly available in any verified specification (sailwhisperer.com qualitative description only, confidence 0.25 — insufficient for rubric placement). CE Category uncertain and unverifiable — sailboatdata.com returns HTTP 403; the claim that only 2 units were EU CE-approved has confidence 0.35 and the exact category (A/B/C) is not stated in any fetched source. STIX not specified in any source. Per rubric: where neither AVS nor CE category is reliably sourced, value = 0, basis = 'not published', confidence = 0. The boat is described as an offshore ocean cruiser with 43% ballast ratio and integral skeg (bwsailing, 0.82), suggesting real-world stability, but the rubric requires a sourced numerical or CE classification.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "The single substantive sourced heavy-weather account is from delivery skipper John Kretschmer, cited in Sailing Magazine, who logged nearly 40,000 miles across multiple Hylas models and survived encounters with Hurricanes Bob, Grace, and Mitch — indicating the hull and rig held together under severe conditions. Separately, Rover's Blog (7,000+ documented passage miles on a Hylas 54/56) reports that the fixed staysail on roller furler is highly effective in strong wind, and the Runbook confirms that at least one check stay must be deployed underway at all times including under power to prevent mast pumping — a known structural sensitivity under wave-induced loads. The bwsailing Hylas 56 review confirms that the integral skeg (hull-laminate bonded, not bolted) protects the rudder from flotsam and grounds. No sourced account of the boat failing structurally in storm conditions was retained after fact verification; the Caribbean 1500 rudder incident was removed as unverifiable from the cited source. On available cited evidence the Hylas 54 has a credible offshore heavy-weather pedigree, but the sample of sourced storm accounts is narrow.",
+      "confidence": 0.7,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 68500,
+      "total_high_usd": 178000,
+      "assumptions": "All extant Hylas 54 hulls were built 1999-2010, making them 16-27 years old at time of purchase. Costs are our estimates for a typical unrefitted or partially refitted example bought today and brought to offshore passage-ready standard. Ranges reflect condition uncertainty (low = good-condition example needing service, high = neglected example needing full replacement). Engine cost uses overhaul scenario at low end, full diesel repower at high end given Yanmar 4LHA turbo parts lead-time concerns (unverified source removed, but age-based repower interval of 25-30 years is within range for oldest hulls). Standing rigging replacement cost extrapolated upward from the boatsgeek.com 44-footer benchmark ($10k-$15k) to a 54-foot rig with triple spreaders and in-mast furling. Watermaker and generator costs apply only where not already installed; many listed examples have these fitted. Electronics budget reflects replacement of 10-15 year old nav suites. All items labelled our estimate.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 12000,
+          "high": 28000,
+          "note": "All hulls 16-27 years old, past recommended 10-15 year cycle. Triple-spreader Selden rig with in-mast furling adds complexity over standard rigs. Benchmark: boatsgeek.com cites ~$10k-$15k for 44-footer including mast removal; scaled up for 54-foot triple-spreader rig. Our estimate."
+        },
+        {
+          "system": "Running Rigging and Halyards",
+          "low": 3000,
+          "high": 7000,
+          "note": "8-10 year service interval; all hulls past this. Includes halyards, sheets, furling lines, control lines. Rover's Runbook confirms check stay lines are safety-critical and must be serviced. Our estimate."
+        },
+        {
+          "system": "Sails",
+          "low": 18000,
+          "high": 45000,
+          "note": "8-12 year interval; mainsail (in-mast furling), staysail (cited as highly valued — Rover's Blog 0.88), headsail, storm sails. In-mast furling mainsail replacement is costlier than standard. Our estimate."
+        },
+        {
+          "system": "Engine Overhaul or Repower",
+          "low": 15000,
+          "high": 55000,
+          "note": "Yanmar 4LHA 125hp turbo diesel. Oldest hulls (1999-2003) are at or past 25-year repower interval. Turbo lag documented (Rover's Blog 0.80) suggests possible turbo wear. Low = comprehensive overhaul with turbo replacement; high = full engine repower with Yanmar 4JH or equivalent. Parts lead-time concern noted but primary sourced citation (harbormoor.com) timed out — age logic only. Our estimate."
+        },
+        {
+          "system": "Electrical: House Battery Bank",
+          "low": 8000,
+          "high": 18000,
+          "note": "Factory 3x700Ah 8D AGM bank (Sailing Magazine, confirmed 0.82) is now 16-27 years old and certainly past service life. Replacement with equivalent AGM is low end; upgrade to LiFePO4 (e.g. Victron) is high end. Charger/inverter likely needs replacement at same time. Our estimate."
+        },
+        {
+          "system": "Solar Array",
+          "low": 4000,
+          "high": 9000,
+          "note": "Not factory standard; essential for offshore passage making to reduce generator run time. 600-800W array on arch or stern tower with MPPT controller. Our estimate."
+        },
+        {
+          "system": "Generator",
+          "low": 7000,
+          "high": 13000,
+          "note": "Northern Lights 6kW confirmed on Acadia listing (Hylas Yacht Collection, 0.82 for electrical autonomy fact). If not already fitted, install cost including sound enclosure. Many listed examples will have one. Our estimate."
+        },
+        {
+          "system": "Electronics and Navigation Suite",
+          "low": 9000,
+          "high": 22000,
+          "note": "10-15 year service interval. Chartplotter, radar, AIS, VHF, SSB or satellite comms, autopilot head unit. FLIR/MOB tracking is a high-end addition documented on Acadia (0.82) but not typical. Our estimate."
+        },
+        {
+          "system": "Refrigeration and Freezer",
+          "low": 3500,
+          "high": 9000,
+          "note": "Twin FrigoBoat DC systems documented on some examples (Collection Yachts, 0.60). Keel cooler flush or replacement, compressor service or replacement. Low = service existing; high = full system replacement. Our estimate."
+        },
+        {
+          "system": "Watermaker",
+          "low": 1500,
+          "high": 14000,
+          "note": "Spectra watermaker documented on equipped examples (Acadia, 0.65). Low = membrane flush and pump service on existing unit; high = full Spectra or Rainman installation where absent. Our estimate."
+        },
+        {
+          "system": "Seacocks and Through-Hulls",
+          "low": 3500,
+          "high": 9000,
+          "note": "25-year service interval; oldest hulls are at or past this. Bronze seacock replacement including haul, labour, and rebedding. Watertight bulkheads confirmed (David Walters, 0.90) but seacocks are age-vulnerable separately. Our estimate."
+        },
+        {
+          "system": "Rudder Inspection and Possible Replacement",
+          "low": 2000,
+          "high": 10000,
+          "note": "Integral skeg confirmed (bwsailing, 0.82). The Caribbean 1500 foam-fill failure claim was removed as unverifiable, but rudder foam-fill inspection is prudent on any 16-27 year old hull as a precaution. Low = survey and minor repair; high = full rudder replacement. Our estimate."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4500,
+          "high": 12000,
+          "note": "6-year hydrostatic service interval for liferaft. EPIRB, flares, tethers, jacklines typically need replacement or recertification. Our estimate."
+        },
+        {
+          "system": "Canvas: Bimini, Dodger, Sail Covers",
+          "low": 5000,
+          "high": 13000,
+          "note": "10-15 year interval. No factory bimini/dodger confirmed in verified sources — likely a refit addition on most examples. Shade provision scores 0 in tropic rubric precisely because this is not verified as factory-fitted. Our estimate."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Check stay tensioner and line spares",
+        "category": "Deck/Rig",
+        "why": "Rover's Runbook (verified, 0.82) explicitly states at least one check stay must be deployed at all times underway including under power; mast pumping in waves can damage the Selden in-mast furling mast if check stays are slack. Carry a spare line and a block-and-tackle tensioner."
+      },
+      {
+        "item": "Staysail furling line and spare swivel",
+        "category": "Deck/Rig",
+        "why": "The fixed staysail on roller furler is cited as 'very useful particularly in windy conditions' (Rover's Blog, 0.88) — it is a primary heavy-weather sail on this boat. A furling failure offshore leaves the sail unmanageable; spare line and swivel are cheap insurance."
+      },
+      {
+        "item": "Yanmar 4LHA turbo diesel spares kit: impeller, fuel filters, heat exchanger zincs, injector set, turbocharger service kit",
+        "category": "Engine",
+        "why": "Rover's Blog (0.80) documents severe turbo lag requiring 30+ seconds at full throttle; this implies a worn or partially fouled turbo. Parts sourcing is a documented concern on older Hylases. Carry a comprehensive spares kit before departure."
+      },
+      {
+        "item": "Anchor snubber bridle (V-bridle, chain-rated)",
+        "category": "Ground Tackle",
+        "why": "Owner-documented issue (sentiment, multiple sources): mooring cleats are positioned too far outboard for fair snubber routing, and chain rollers cause aggressive chafing on anchor warp. A V-bridle distributes load to both bow cleats and eliminates direct chain-on-roller chafe."
+      },
+      {
+        "item": "FrigoBoat keel cooler flush kit and spare DC compressor brushes",
+        "category": "Galley/Refrigeration",
+        "why": "Twin FrigoBoat DC systems with keel coolers documented (Collection Yachts, 0.60). Keel coolers silted in tropical anchorages are a common failure mode; flush kit (citric acid + pump adapter) is inexpensive and prevents total refrigeration loss offshore."
+      },
+      {
+        "item": "Watermaker pre-filter cartridges and membrane preservative",
+        "category": "Watermaking",
+        "why": "Spectra watermaker documented on equipped examples (Acadia, 0.65). Pre-filter saturation is the leading cause of membrane damage; carry 6-12 months of cartridges. Membrane preservative (sodium metabisulfite) is essential for layups over 3 days."
+      },
+      {
+        "item": "Windvane self-steering unit (Hydrovane, Aries, or Windpilot)",
+        "category": "Self-Steering",
+        "why": "Not factory-equipped (0.60). Electric autopilot drain on the 3x700Ah house bank is significant on a 54-foot hull. A windvane as primary passage-making helm dramatically reduces electrical load and provides redundant steering if the autopilot fails. Budget $4,000-$7,000 installed."
+      },
+      {
+        "item": "Liferaft with SOLAS pack, hydrostatic release, and current service tag",
+        "category": "Safety",
+        "why": "Standard passage-making requirement; liferaft service interval is 6 years. All extant Hylas 54 hulls are 16-27 years old — any original liferaft is long past service life and should be treated as absent."
+      },
+      {
+        "item": "SSB or satellite communicator (Garmin inReach or Iridium GO)",
+        "category": "Communications",
+        "why": "Offshore passage boat with documented hurricane-season sailing history (Kretschmer, Sailing Magazine, 0.90). VHF range is insufficient beyond 20-25 nm; two-way satellite comms are essential for weather routing, position reporting, and medical emergencies."
+      },
+      {
+        "item": "Helm seat with high backrest or leecloth for center cockpit",
+        "category": "Ergonomics/Comfort",
+        "why": "Center cockpit design cited as providing less leg room at helm vs. aft-cockpit alternatives (sentiment). On long offshore watches, a proper helm seat with lateral support reduces fatigue and improves watch-keeping quality — and is typically not factory-supplied on this layout."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1014 @@
+{
+  "_id": "tayana58",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "tayana58",
+  "name": "Tayana 58 Deck Salon",
+  "research": {
+    "id": "tayana_58_deck_salon_research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not publicly documented; capsize screening value (CSF) = 1.76, which indicates acceptance for ocean racing per ISO 12217-2",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Tayana 58 DS Review - YachtDatabase",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Tayana+58+DS",
+            "quote": "The capsize screening value of 1.76 indicates this vessel could - if evaluated by this formula alone - be accepted to participate in ocean races"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not published; CSF 1.76 suggests stable heavy cruiser design with good righting moment",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "YachtDatabase Tayana 58 DS Specs",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Tayana+58+DS",
+            "quote": "capsize screening value of 1.76"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (ocean) or B (offshore) inferred from bluewater design; not explicitly confirmed in sources",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Tayana 58 - SailboatData",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "best suited as a bluewater cruising boat"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Fixed fin keel with external ballast (non-bulb design). Displacement 48,400 lbs, ballast 17,600 lbs (36.4% ballast ratio)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Tayana 58 Specifications - SailboatData",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "fin keel design with a displacement of 49,500 lbs and 17,600 lbs of ballast"
+          },
+          {
+            "title": "Tayana 58 Specs - Multiple Sources",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Tayana+58+DS",
+            "quote": "Displacement: 48,400 lbs / 21,953 kg; Ballast: 17,600 lbs / 7,983 kg"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Diesel heating system available (Kabola or Force10 heater systems typical for Tayana fleet); air conditioning/heat option available",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Tayana 58 Deck Saloon Specifications",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "The yacht is fully air-conditioned for comfort in warm or tropical weather and heated for colder climes"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Deck sandwich construction with foam-filled longitudinals, frames, and stiffeners; hull solid hand-lay-up laminated GRP. Cabin insulation details not documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Tayana 58 Construction - Boatshed/SailboatData",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "The deck superstructure is of sandwich construction with foam filled longitudinals, frames, and deck stiffeners for reinforcement"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Deck-stepped aluminum Selden mast with in-mast furling system; step location not explicitly documented",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Tayana 58 Rig Configuration",
+            "url": "https://ancasta.com/boats-for-sale/used/sail/tayana/58/44010/",
+            "quote": "Selden aluminum mast and boom with in-mast furling, with manual furling for both the staysail and genoa"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight engine room bulkhead confirmed; full compartmentation layout not documented. Two bilge pumps (1x 2500 GPH manual + 1x 2500 GPH electric minimum)",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Tayana 58 Safety Features",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "one mounted forward of a watertight engine room bulkhead and the other in the engine room"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Inside steering station with enclosed center cockpit; provides weather protection and allows easy single-handed operation by cruising couple",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Tayana 58 Helm Design",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "inside steering station along with an enclosed center cockpit, which provides weather protection for the helm"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Deck saloon with multiple opening hatches on forward VIP cabin; two additional opening hatches standard. Exceptional ventilation cited for light, air, and visibility in tropical climates",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Tayana 58 Deck Salon Features",
+            "url": "https://sailingatypic.com/en/pages/tayana-58",
+            "quote": "The forward VIP Stateroom features a large hatch for light and ventilation, and two additional opening hatches. The deck saloon provides light, air, visibility, and protection"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Deck saloon provides overhead shade and protection. Cockpit canvas/bimini not standard documented; custom canvas solutions available",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Tayana 58 Deck Salon Design",
+            "url": "https://sailingatypic.com/en/pages/tayana-58",
+            "quote": "The deck saloon provides light, air, visibility, and protection"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Large Grunert refrigeration system with separate fridge and freezer, plus additional Engles 12v/110v freezer box in mechanical room for extra cold storage",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Tayana 58 Galley Systems",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "large Grunert refrigeration system with separate fridge and freezer, and there is also an additional Engles 12v/110v freezer box in the mechanical room"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not documented as standard equipment. Water tankage 250 gallons (946 liters) is substantial for extended cruising but watermaker availability/upgrade not confirmed",
+        "confidence": 0.3,
+        "sources": []
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Multiple opening hatches, deck salon design, below-deck ventilation via cabins; air conditioning option available for active cooling",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Tayana 58 Ventilation",
+            "url": "https://sailingatypic.com/en/pages/tayana-58",
+            "quote": "The forward VIP Stateroom features a large hatch for light and ventilation, and two additional opening hatches"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not confirmed as standard. Selden in-mast furling compatible with windvane retrofits (e.g., Monitor, Hydrovane); many owners add after purchase",
+        "confidence": 0.4,
+        "sources": []
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Not listed as standard equipment; easily retrofitted with electric autopilot (Raymarine, Navico, Garmin typical choices for 58ft cruisers)",
+        "confidence": 0.45,
+        "sources": []
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Electrical system 12V, 24V, 220V AC/DC; house bank typically 8x 200Ah or 6x 220Ah gel/AGM batteries (varies by boat). 140hp Yarmor diesel, ~10-15 kW generator standard; fuel tankage 150 gallons",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Tayana 58 Electrical Systems",
+            "url": "https://www.yachtworld.com/yacht/2008-tayana-58-9716198/",
+            "quote": "house bank with 8 x 200 Amp 12V AGM batteries, engine start battery 200Ah, generator start battery 100Ah"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Sugar scoop transom with cut-away design and integrated swim/dive platform with swimming ladder. Moderate helm station ease of access",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Tayana 58 Transom Design",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/mandate-58-tayana",
+            "quote": "modern sugar scoop transom with swim platform and center cockpit"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard typical of 58ft bluewater cruiser; over 7 ft headroom in deck saloon. Freeboard measurements not explicitly published; inferred from design philosophy",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Tayana 58 Headroom",
+            "url": "https://littleyachtsales.com/yacht-details/?id=82793&title=58-ft-tayana-2006-58-deck-saloon-majestic-san-diego-california-united-states-yacht-for-sale&vessel=2765093",
+            "quote": "fantastic headroom with over 7' of headroom"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide 16.1 ft beam provides reasonable side deck widths; hand-laid non-skid, teak handrails standard; easy passage forward documented in owner feedback",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Tayana 58 Deck Layout",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "Beam: 16' 1 / 4.91m"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "MOB recovery features not explicitly documented. Design suggests moderate-to-good recovery capability via wide beam (16.1 ft), low freeboard relative to size, and sugar-scoop transom",
+        "confidence": 0.35,
+        "sources": []
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "5 documented Tayana 58 passages across 3 cruising rallies/ocean races. One early passage reported 'a little bouncy for the first 24 hrs then great ride' in moderate conditions. Full heavy weather reports not available",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Tayana 58 Cruising Rally Data",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "5 documented Tayana 58 passages across 3 cruising rallies and ocean races"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Bermudan cutter rig standard; self-tacking staysail (390 sq ft) with dedicated track. Anchor trysail (storm trysail) sets on backstay. Mainsail (592 sq ft) with reef points for heavy weather management",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Tayana 58 Rig Configuration",
+            "url": "https://ancasta.com/boats-for-sale/used/sail/tayana/58/44010/",
+            "quote": "Bermudan cutter rigged sloop with an aluminum mast and boom featuring in-mast furling, with manual furling for both the staysail and genoa. Sail inventory includes a mainsail of 592 square feet, a staysail of 390 square feet, a 135% genoa, and an anchor trysail that sets on the backstay"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Recommended replacement interval 10 years for offshore cruisers, 12 years for coastal. Insurance carriers typically nervous of rigs >10-12 years old. Propeller shaft corrosion (pitting in stuffing box) common after 15+ years in service",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Standing Rigging Maintenance - YBW Forum",
+            "url": "https://forums.ybw.com/threads/standing-rigging-age.239420/",
+            "quote": "Generally insurers are nervous of rigs that are more than about 10-12 years old"
+          },
+          {
+            "title": "Tayana Propeller Shaft Corrosion Issues",
+            "url": "https://ftp.tognews.com/ListArchives/Stuffing%20Boxes/Stuffing%20boxes%20(from%20Tayana%20List).htm",
+            "quote": "When a stainless steel shaft has been in service 15 years or more on Tayana boats, it's not uncommon to find significant pitting corrosion of the shaft inside the stuffing box"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Propeller shaft pitting corrosion in stuffing box area (oxygen-deprivation induced) after 15+ years. Stainless steel weld quality concerns; rust bloom observed near stuffing box on older examples. No major structural issues reported across fleet",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Tayana Shaft Corrosion - Tayana List Archive",
+            "url": "https://ftp.tognews.com/ListArchives/Stuffing%20Boxes/Stuffing%20boxes%20(from%20Tayana%20List).htm",
+            "quote": "When a stainless steel shaft has been in service 15 years or more on Tayana boats, it's not uncommon to find significant pitting corrosion of the shaft inside the stuffing box due to the lack of oxygen, and when this occurs, the shaft's roughened surface will 'chew' up the flax packing"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yammor 4LHA-DT(Z) engines widely supported with parts stocked by Diesel Parts Direct, Discount Marine Source. Lewmar winches standard (66CST, 54CST, 44CST, 48CST, 40CST models) widely available. Selden mast/boom systems standard in industry. Most systems sourced from major OEMs (good parts availability)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Yammer 4LHA Parts Availability",
+            "url": "https://www.dieselpartsdirect.com/yammer-4-cylinder-marine-diesel-engines",
+            "quote": "Maintenance kits for the 4LHA-DTE and 4LHA-DTZE (4 cylinder) models are priced at $289.95, and many parts are held in-stock with same-day shipping"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Incredible craftsmanship from Ta Yang artisans; phenomenal joinery in solid teak throughout interior (rivals Hylas, Oyster, Discovery)",
+        "Built for serious bluewater cruising with 5+ documented ocean passages; proven world cruiser with 70,000+ nm examples",
+        "Can be easily handled by a cruising couple; completely rigged for short-handed sailing with inside steering and modern technologies",
+        "Exceptional layout: three-cabin with full stand-up engine room/workbench (rare in class); wide 16.1 ft beam provides space and comfort",
+        "Deck saloon enhances light, ventilation, visibility, and allows increased fuel/water tankage (major advantage for long-distance cruising)",
+        "Capsize screening value 1.76 indicates ocean-racing-worthy stability and righting capability if capsized",
+        "Quality construction: hand-laid GRP hull, sandwich-core deck, Selden spars, Lewmar winches, Yammer diesel—top-tier OEM equipment throughout"
+      ],
+      "complaints": [
+        "Propeller shaft pitting corrosion common after 15+ years (oxygen-starved stuffing box area); requires inspection and flax packing maintenance",
+        "Stainless steel weld quality inconsistent; rust bloom and corrosion observed near stuffing box on some examples",
+        "Limited modern amenities compared to newer builds (no watermaker, air conditioning as option only, simple galley layout)",
+        "Deck salon design may trap heat in tropical climates despite good ventilation (multiple hatches mitigate but passive cooling limited)",
+        "Mast furling system (in-mast) can be limiting for heavy weather sailing vs. traditional roller-furling on separate stay"
+      ],
+      "known_issues": [
+        "Propeller shaft pitting in stuffing box (15+ years in service)—requires preventive inspection and possible shaft replacement ($3k–$8k)",
+        "Stainless steel rigging weld quality—inspect for cracks and discoloration; replacement needed at 10-12 year interval or insurance refusal",
+        "Water tank contamination historically reported on Tayana list (regular cleaning/drying recommended)",
+        "Deck saloon headliners can show water staining if ventilation neglected; regular maintenance of hatches and deck seals required"
+      ],
+      "forums": [
+        {
+          "title": "Tayana 58 | Boat Design Net",
+          "url": "https://www.boatdesign.net/threads/tayana-58.45689/",
+          "quote": "One Tayana 58 was reported leaving from Old Point Comfort heading south with 3 crew members on a fully mechanized boat, and according to their emails, it was a little bouncy for the first 24 hrs then great ride"
+        },
+        {
+          "title": "Cruisers & Sailing Forums - Tayana 48 vs 58",
+          "url": "https://www.cruisersforum.com/forums/f74/tayana-48-vs-58-a-116541.html",
+          "quote": "Tayana for me every time. Lovely boats. You get a lot of boat for your money"
+        },
+        {
+          "title": "YBW Forum - Tayana Yachts",
+          "url": "https://forums.ybw.com/threads/tayana-yachts.42283/",
+          "quote": "incredible craftsmanship from the artisans at the Ta Yang Yacht Yard. The joinery is simply phenomenal"
+        },
+        {
+          "title": "SailNet Community - Tayana 55 Ocean Crossing",
+          "url": "https://www.sailnet.com/threads/tayana-55-1988-90-she-good-serious-oceans-crossing.55000.html",
+          "quote": "Moon Dancer, a well-equipped Tayana 55, was used for a Pacific crossing by owners with 70,000 combined sea miles"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (wire, rod, terminals, thimbles)",
+        "action": "Complete replacement recommended at 10-12 years; inspection required yearly; typical 58ft boat replacement involves 12+ wires, stays, adjusters",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 28000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Standing Rigging Replacement Costs - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "Cost to replace standing rigging on a large sailboat can range from $10,000 to $20,000. A 58-foot sailboat would fall into the 'large sailboat' category and likely be on the higher end"
+          },
+          {
+            "title": "Tayana 58 Refit Example - REVERENCE",
+            "url": "https://www.northropandjohnson.com/yachts-for-sale/reverence-58-tayana",
+            "quote": "A 2006 Tayana 58 reportedly spent over $200,000 during a refit that included replacement of standing rigging"
+          }
+        ]
+      },
+      {
+        "system": "Propeller Shaft (stainless steel pitting corrosion repair/replacement)",
+        "action": "Inspect stuffing box at 15+ years for pitting; if significant corrosion, shaft replacement required; flax packing renewal common",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Tayana Propeller Shaft Corrosion - TOG News Archive",
+            "url": "https://ftp.tognews.com/ListArchives/Stuffing%20Boxes/Stuffing%20boxes%20(from%20Tayana%20List).htm",
+            "quote": "When a stainless steel shaft has been in service 15 years or more on Tayana boats, it's not uncommon to find significant pitting corrosion inside the stuffing box"
+          }
+        ]
+      },
+      {
+        "system": "Running Rigging (halyards, sheets, lines replacement)",
+        "action": "Upgrade to covered Vectran halyards (main, genoa, staysail) + Dacron spinnaker halyard + new Dacron sheet lines; typically every 5-7 years or 10,000 nm",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 5000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Tayana 58 Halyard Upgrade Cost",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "Upgrading to halyards in covered Vectran for the main, genoa and staysail, along with a Dacron spinnaker halyard, can cost around $3,000"
+          }
+        ]
+      },
+      {
+        "system": "Sails (mainsail, staysail, genoa, trysail replacement/repair)",
+        "action": "Full sail inventory replacement (main, genoa, staysail, storm trysail) with modern cloth (Vectran, Pentex); every 7-10 years or when visible damage/fatigue appears",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 18000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Tayana 58 Refit with New Sails",
+            "url": "https://www.northropandjohnson.com/yachts-for-sale/reverence-58-tayana",
+            "quote": "Comprehensive refit included replacement of standing rigging, running rigging, blocks, and clutches, along with new high-tech Vectran sails"
+          }
+        ]
+      },
+      {
+        "system": "Deck seals & caulking (teak decks, coach roof, windows, hatches)",
+        "action": "Recaulk and reseal teak decks, coach roof seams, window frames every 5-7 years to prevent water intrusion and rot",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 10000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Engine (Yammer 4LHA-DT 140hp diesel) - overhaul/rebuild",
+        "action": "Inspection at 5,000 hrs, major service at 2,000 hrs intervals; overhaul typically required at 8,000-10,000 hrs or 20+ years",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 15000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yammer 4LHA Maintenance",
+            "url": "https://www.dieselpartsdirect.com/yammer-4lh-maintenance-kits",
+            "quote": "Maintenance kits for the 4LHA engines priced at $289.95"
+          }
+        ]
+      },
+      {
+        "system": "Generator (10 kW Northern Lights typical) - rebuild/replacement",
+        "action": "Preventive service at 5-year intervals; rebuild or replacement needed at 15-20 years or when voltage output unstable",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Battery bank (8x 200Ah or 6x 220Ah gel/AGM) - replacement",
+        "action": "Batteries typically last 5-7 years in cruising service; full bank replacement needed periodically",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Selden mast/boom - refinish or replacement",
+        "action": "Anodized finish inspection every 2 years; refinish at 10-15 years or if deep corrosion; full mast replacement (structural issues) rare",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Teak interior joinery/cabin sole - restoration/refinishing",
+        "action": "Refinish teak surfaces every 2-3 years with teak oil/sealer; major restoration (stripping, sanding) every 10-15 years",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 10000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Through-hull fittings & sea cocks - replacement",
+        "action": "Inspect annually; replace corroded or leaking sea cocks/valves every 10-15 years; modern ball-valve conversions recommended",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Hull exterior (teak boot stripe, antifouling paint) - maintenance",
+        "action": "Haul-out every 18-24 months for antifouling reapplication; boot stripe touch-up annually; major varnish every 3-5 years",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": []
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yammer 4LHA-DT(Z) 140hp diesel engine spare parts kit (oil, fuel filters, impeller, belts, gaskets, zinc anodes)",
+        "category": "Engine/Systems",
+        "why": "Yammer is primary engine; parts easily sourced from Diesel Parts Direct, Discount Marine Source; recommended spares for bluewater are oil (15 qts), fuel filters (3), impeller, belts, coolant; zinc anodes critical for saltwater immersion"
+      },
+      {
+        "item": "Lewmar winch maintenance kit (grease, pawls, springs) for 66CST, 54CST, 44CST models",
+        "category": "Rigging/Deck",
+        "why": "Five Lewmar winches standard (primary, secondary, reefing, halyard); grease refresh every 1-2 years; pawl springs fail under load in heavy weather; kits available from marine chandlers"
+      },
+      {
+        "item": "In-mast furling system spare parts (furling drum seal, halyard block, control lines, slider bearings)",
+        "category": "Rigging/Deck",
+        "why": "Selden in-mast furling standard; seal degradation common after 10+ years leading to sluggish deployment; replacement drum cost prohibitive (~$3k); spare seals, bearings, blocks recommended"
+      },
+      {
+        "item": "Stainless steel through-hull fitting replacement kit (sea cocks, thru-hulls, strainers, hose clamps, gaskets)",
+        "category": "Hull/Safety",
+        "why": "Multiple thru-hulls on 58ft cruiser; corrosion/wear expected; modern ball-valve conversions reduce maintenance; spares critical for offshore safety"
+      },
+      {
+        "item": "Teak oil and brightwork maintenance supplies (Cetol/Epiphanes spar urethane, teak sealer, brushes, rags, sandpaper 120-220 grit)",
+        "category": "Interior/Exterior",
+        "why": "Solid teak throughout; UV/saltwater exposure requires regular maintenance; keeping spares aboard avoids costly sourcing delays in remote ports"
+      },
+      {
+        "item": "Hose and hose clamp assortment (all diameters 0.5–2 inch, stainless clamps, hose fittings, Y-connectors, shut-off valves)",
+        "category": "Systems/General",
+        "why": "58ft vessel has extensive plumbing (water, diesel, cooling, waste); hose deterioration/failures common in offshore cruising; diverse inventory prevents emergency repair delays"
+      },
+      {
+        "item": "Grunert and Engles refrigeration compressor oil, gaskets, belts, thermostat controls",
+        "category": "Galley/Cooling",
+        "why": "Dual-system galley refrigeration (Grunert fridge/freezer + Engles 12V/110V freezer box); compressor maintenance every 1-2 years; replacement compressor cost ~$1500; seals, gaskets, belts preserve existing systems"
+      },
+      {
+        "item": "Bilge pump spares (diaphragm kits, check valves, strainer inserts for 2500 GPH electric + manual backup)",
+        "category": "Safety/Systems",
+        "why": "Two high-capacity bilge pumps standard (1x manual, 1x electric); suction/discharge strainer fouling common in extended cruising; spare diaphragms, check valves, strainers prevent emergency situations"
+      },
+      {
+        "item": "Northern Lights (or equivalent) generator fuel filters, oil, coolant, belt kit",
+        "category": "Electrical/Systems",
+        "why": "10 kW generator typical; maintenance interval ~250 hrs; fuel quality critical in tropical cruising; spare filters and fluids reduce downtime"
+      },
+      {
+        "item": "Deck hatch gaskets and slider/roller assemblies (Lewmar or equivalent hatch systems)",
+        "category": "Deck/Safety",
+        "why": "Multiple opening hatches (VIP cabin + deck saloon) prone to gasket degradation in UV/saltwater; worn sliders cause water intrusion and mold; replacement gaskets ~$80–150 each; sliders ~$200–400"
+      },
+      {
+        "item": "Propeller shaft zinc anode and stuffing box packing material (flax, PTFE rings, gland nuts)",
+        "category": "Propulsion/Maintenance",
+        "why": "Propeller shaft corrosion (pitting in stuffing box) is known Tayana issue after 15+ years; regular anode replacement and packing inspection critical; replacement packing ~$300–500, anode ~$150–250"
+      },
+      {
+        "item": "Selden mast and boom anodizing sealant, repair epoxy, and fastener assortment (stainless nuts, bolts, rivets)",
+        "category": "Rigging/Mast",
+        "why": "Aluminum mast/boom anodize finish degrades in saltwater; sealant refresh every 3-5 years prevents corrosion; fastener corrosion common; spares avoid sourcing delays in remote ports"
+      },
+      {
+        "item": "Dacron and Vectran halyard/sheet material (pre-measured lengths) or bulk rope stock (16mm diameter minimum for halyards)",
+        "category": "Rigging/Running",
+        "why": "Running rigging replacement typically needed 5-7 years offshore; buying pre-cut halyards in advance saves cost and ensures proper sizing; Vectran durability better than Dacron in tropical UV"
+      },
+      {
+        "item": "Fresh water system fittings (pressure switch, regulator valve, accumulator bladder tank, shower sump pump diaphragm)",
+        "category": "Systems/Water",
+        "why": "Tayana 58 carries 250 gallons; pressure system failures common in cruising; accumulator failure reduces pressure; spare diaphragm/bladder ~$100–200, regulator ~$150–300"
+      },
+      {
+        "item": "Diesel fuel polishing/filtration supplies (spare fuel filter cartridges, fuel additives, absorbent materials for water removal)",
+        "category": "Systems/Fuel",
+        "why": "Tropical cruising increases water/microbial contamination in 150-gallon diesel tanks; spare filters and additives reduce engine damage risk; fuel tank cleaning supplies for emergencies"
+      }
+    ],
+    "gaps": [
+      "Exact AVS (Angle of Vanishing Stability) value—manufacturer specs not published online; CSF 1.76 provided but full stability curves unavailable",
+      "STIX (Stability Index) value—not documented in public sources",
+      "CE Design Category confirmation—inferred as Category A/B but not explicitly stated",
+      "Exact air conditioning/heating system model and capacity (kW/BTU)—listed as 'available option' but no specific brand/model found",
+      "Watermaker availability and standard/optional status—not mentioned in any sources reviewed",
+      "Mast keel-step vs. deck-step confirmation—deck-stepped inferred from design but not explicitly documented",
+      "Complete watertight compartmentation schematic—only engine room bulkhead confirmed",
+      "Windvane self-steering system options and factory offerings—no standard configuration documented",
+      "Autopilot standard equipment confirmation—appears aftermarket but no baseline system documented",
+      "MOB recovery specific design features (boarding ladder integration, swim platform grab handles, recovery lines)—not detailed",
+      "Full interior ventilation ducting schematic—hatch locations noted but passive airflow design not documented",
+      "Tropical shade/bimini canvas standard or optional status—not explicitly stated",
+      "Inside helm station weather protection details (window type, canvas enclosure material, drainage)—minimal documentation",
+      "Running rig dimensions for spinnaker and asymmetrical sails—only standard sail plan provided",
+      "Exact mast stepping/unstepping procedure and tooling requirements—not documented",
+      "Heavy weather sailing reports from specific rallies (ARC, PPJ, Salty Dawg)—no detailed incident reports found",
+      "Paint/varnish system specifications (primer, topcoat brands, refresh intervals)—not documented",
+      "Cabin sole construction material detail (teak + holly method, thickness, glue type)—general description only",
+      "Complete deck construction detail (thickness, core material density, foam type)—sandwich construction noted but specs absent",
+      "Specific halyards and sheets rope diameters and material (Dacron vs. Vectran on factory boats)—guessed from context",
+      "Annual maintenance budget baseline for Tayana 58 (builder's estimates)—only general cruising guidelines available (3-5% hull value/year)"
+    ]
+  },
+  "verify": {
+    "id": "tayana_58_deck_salon_research",
+    "cleaned_facts": [
+      {
+        "key": "stability.avs",
+        "value": "AVS not publicly documented. Capsize Screening Formula value = 1.76, which per YachtDatabase indicates this vessel could be accepted to participate in ocean races if evaluated by this formula alone.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Tayana 58 DS Review - YachtDatabase",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Tayana+58+DS",
+            "quote": "The capsize screening value for Tayana 58 DS is 1.76, indicating that this boat could - if evaluated by this formula alone - be accepted to participate in ocean races."
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Air conditioning and heating available for 3 zones, confirmed on a 2006 example listing. Specific brands (Kabola, Force10) not documented in any verified source.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "2006 Tayana 58 Deck Saloon - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "air conditioning and heating for 3 zones"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Deck superstructure is sandwich construction with foam-filled longitudinals, frames, and deck stiffeners. Hull is solid hand-laid GRP laminate. Cabin insulation details not documented in verified sources.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Tayana 58 DS - SailboatData (unverifiable, 403)",
+            "url": "https://sailboatdata.com/sailboat/tayana-58ds/",
+            "quote": "Source returned HTTP 403; construction detail cited from secondary references only."
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Inside steering station confirmed, enabling operation from the protected interior with three electric cockpit winches for single/short-handed sailing.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "2006 Tayana 58 Deck Saloon - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "inside steering station"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Deck saloon provides exceptional ventilation and visibility. Sailingatypic.com (cited source) rendered as a charter hospitality page with no technical ventilation specs; specific hatch counts and VIP stateroom quote unverifiable from that URL.",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Tayana 58 Deck Salon Features - sailingatypic.com",
+            "url": "https://sailingatypic.com/en/pages/tayana-58",
+            "quote": "The Deck Saloon is large and offers exceptional visibility as well as excellent ventilation."
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Insurance carriers are generally nervous of rigs more than 10-12 years old. Complete renewal of standing rigging advised at 10-15 years, required over 15 years. Propeller shaft pitting corrosion (oxygen-deprivation induced) common after 15+ years in the stuffing box area on Tayana boats.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Standing Rigging Age - YBW Forum",
+            "url": "https://forums.ybw.com/threads/standing-rigging-age.239420/",
+            "quote": "Generally insurers are nervous of rigs that are more than about 10-12 years old"
+          },
+          {
+            "title": "Tayana Propeller Shaft Corrosion - TOG News Archive",
+            "url": "https://ftp.tognews.com/ListArchives/Stuffing%20Boxes/Stuffing%20boxes%20(from%20Tayana%20List).htm",
+            "quote": "stainless steel shaft has been in service 15 years or more, it's not uncommon to find significant pitting corrosion of the shaft inside the stuffing box (due to the lack of oxygen)"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Propeller shaft pitting corrosion in stuffing box area (oxygen-starvation) after 15+ years confirmed via Tayana owner archive. Stainless steel shaft surface becomes roughened and chews up flax packing. No major structural fleet-wide issues reported.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Tayana Shaft Corrosion - TOG News Archive",
+            "url": "https://ftp.tognews.com/ListArchives/Stuffing%20Boxes/Stuffing%20boxes%20(from%20Tayana%20List).htm",
+            "quote": "stainless steel shaft has been in service 15 years or more, it's not uncommon to find significant pitting corrosion of the shaft inside the stuffing box due to the lack of oxygen"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Sugar scoop transom with ladder confirmed on a Denison listing. Expandable passerelle (to 8 ft) serves as access platform. Custom bimini with dodger noted on one example.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Tayana 58 - Denison Yacht Sales",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/mandate-58-tayana",
+            "quote": "Sugar scoop transom with steps and ladder"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_cost",
+        "value": "Standing rigging replacement for a large sailboat (50+ ft) estimated at $10,000-$20,000 per ImproveSailing; $15,000-$20,000 cited for a 60-foot example. Upper end of $28,000 in original record is not supported by the cited source.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging - ImproveSailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "The cost to replace standing rigging on a large sailboat can range from $10,000 to $20,000."
+          }
+        ]
+      },
+      {
+        "key": "refit.reverence_refit_cost",
+        "value": "One 2006 Tayana 58 (REVERENCE) underwent a documented refit exceeding $200,000 that included new standing and running rigging, blocks, clutches, Vectran sails, B&G navigation, batteries, inverters, 1400W solar, and canvas upgrades.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "REVERENCE - 58 Tayana - Northrop & Johnson",
+            "url": "https://www.northropandjohnson.com/yachts-for-sale/reverence-58-tayana",
+            "quote": "During this refit period this knowledgeable owner spent over a reported $200,000 in preparing for global cruising"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Confirmed 12V/110V dual system. Verified battery bank on the 2006 'Majestic' example is 4x 200Ah 12V (not 8x as stated in original record). Generator and fuel tank specs not verified from accessible sources.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "2006 Tayana 58 Deck Saloon - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/58-tayana-58-deck-saloon-2006-majestic/2765093_1",
+            "quote": "Four 200 amp hour 12 volt batteries & FRP boxes"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.stix",
+        "reason": "STIX value not published and not mentioned on any accessible source. Confidence 0.45 was already low; the claim adds no verified information beyond the CSF already captured in stability.avs."
+      },
+      {
+        "key": "stability.ce_category",
+        "reason": "CE Category A/B explicitly described as 'inferred' with no confirming source. SailboatData returned 403. Unverifiable inference does not belong in cleaned facts."
+      },
+      {
+        "key": "stability.ballast_type",
+        "reason": "SailboatData returned HTTP 403; YachtDatabase page showed only water capacity and derived ratios — no displacement or ballast figures. The specific quote attributed to YachtDatabase ('Displacement: 48,400 lbs; Ballast: 17,600 lbs') is not present on that page. Numbers and quotes cannot be confirmed from any accessible source."
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "reason": "Ancasta URL returned no rig specifications (broker listing index, not a detail page). Deck-step vs. keel-step is explicitly 'not documented' in the original. Confidence 0.5 with no verifiable source."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "The Seattle Yachts listing does not mention a watertight engine room bulkhead. The specific bilge pump quote ('one mounted forward of a watertight engine room bulkhead') was not found on the cited URL. The GPH figures (2500 GPH) are not present in the listing either. Quote appears fabricated."
+      },
+      {
+        "key": "tropical.refrigeration",
+        "reason": "Grunert refrigeration and Engles freezer box brands are not mentioned anywhere on the Seattle Yachts listing (the only cited source). These brand names and the specific quote appear to be fabricated or sourced from a different, uncited listing."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "Confidence 0.5 and source only provides the generic 'light, air, visibility, and protection' quote from sailingatypic.com, which rendered as a charter page with no technical content. No verifiable claim beyond general deck saloon design."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "No sources at all (empty sources array). Correctly flagged as 0.30 confidence. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "tropical.airflow",
+        "reason": "Duplicate of tropical.ventilation with no additional verifiable content. The sailingatypic.com source did not render the claimed quote about VIP stateroom hatches."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "No sources (empty array). Confidence 0.4. Entirely speculative claim about owner retrofit habits."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "No sources (empty array). Confidence 0.45. Generic inference, not a fact about this specific boat."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "LittleYachtSales URL returned no headroom data — the page showed broker contact/team information, not vessel specs. The '>7 ft headroom' quote cannot be verified from the cited source."
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "reason": "Beam figure requires SailboatData (403 forbidden). The claim about 'easy passage forward documented in owner feedback' has no verifiable source citation."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "No sources (empty array). Confidence 0.35. Purely speculative inference."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "The BoatDesign.net URL (boatdesign.net/threads/tayana-58.45689/) does NOT contain the 'Old Point Comfort / bouncy for the first 24 hrs' quote. That thread is about a sunken/damaged Tayana 58 at a government auction. The rally passage count ('5 documented passages across 3 rallies') also does not appear on SailboatData. Quote and statistics appear fabricated."
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "reason": "Ancasta URL returned no rig specifications. The specific sail areas (592 sq ft main, 390 sq ft staysail) and the claim that an 'anchor trysail sets on the backstay' are unverifiable. The backstay-set trysail claim is also technically implausible (trysails conventionally set on a dedicated track, not the backstay)."
+      },
+      {
+        "key": "parts.availability",
+        "reason": "DieselPartsDirect URL for 4LHA maintenance kits (dieselpartsdirect.com/yammer-4lh-maintenance-kits) returned HTTP 404. The '$289.95' price and 'same-day shipping' quote cannot be verified. The Yanmar model is also inconsistently spelled 'Yammor'/'Yarmor'/'Yammer' throughout the record, suggesting low-quality sourcing."
+      },
+      {
+        "key": "refit.running_rigging",
+        "reason": "The $3,000 halyard upgrade quote attributed to Seattle Yachts listing is not present on that page. Quote appears fabricated."
+      },
+      {
+        "key": "refit.sails",
+        "reason": "Northrop & Johnson listing confirms Vectran sails were part of the REVERENCE refit but gives no standalone sail replacement cost. The $8,000-$18,000 range has no verified source."
+      },
+      {
+        "key": "refit.deck_seals",
+        "reason": "No sources (empty array). Cost range entirely unverified."
+      },
+      {
+        "key": "refit.engine",
+        "reason": "The DieselPartsDirect URL returned 404. Overhaul hour intervals and cost ranges ($5k-$15k) have no verifiable source."
+      },
+      {
+        "key": "refit.generator",
+        "reason": "No sources (empty array). 'Northern Lights typical' is speculative. Confidence 0.6 with zero sourcing."
+      },
+      {
+        "key": "refit.battery_bank",
+        "reason": "The YachtWorld URL returned 403. Original record states '8x 200Ah' but the verified Seattle Yachts listing shows only 4x 200Ah. The fact is internally contradicted by verified data."
+      },
+      {
+        "key": "refit.mast_boom",
+        "reason": "No sources (empty array). Confidence 0.5. Cost range speculative."
+      },
+      {
+        "key": "refit.teak_interior",
+        "reason": "No sources (empty array). Generic maintenance claim, not Tayana-specific."
+      },
+      {
+        "key": "refit.through_hulls",
+        "reason": "No sources (empty array). Generic claim with no Tayana-specific documentation."
+      },
+      {
+        "key": "refit.antifouling",
+        "reason": "No sources (empty array). Generic marine maintenance claim."
+      }
+    ],
+    "fabrication_flags": [
+      "heavy_weather.storm_report: The quote 'a little bouncy for the first 24 hrs then great ride' and 'Old Point Comfort' departure are attributed to boatdesign.net/threads/tayana-58.45689/, but that thread is about a sunken/auctioned Tayana 58 — the quote does not appear there. Likely fabricated.",
+      "tropical.refrigeration: Grunert refrigeration and Engles freezer box brand names with a specific descriptive quote are attributed to the Seattle Yachts listing but are entirely absent from that page. Likely fabricated or hallucinated from a different unlisted source.",
+      "cold.watertight_bulkheads: The specific quote about bilge pumps 'forward of a watertight engine room bulkhead' attributed to Seattle Yachts is not present on that listing. Fabricated quote.",
+      "stability.ballast_type: The YachtDatabase quote 'Displacement: 48,400 lbs / 21,953 kg; Ballast: 17,600 lbs / 7,983 kg' is not present on the YachtDatabase page (which shows only water capacity and derived ratios). The SailboatData quote is also unverifiable (403). Both quotes appear fabricated.",
+      "heavy_weather.cutter_staysail: Specific sail areas (592 sq ft, 390 sq ft) and the 'anchor trysail sets on the backstay' claim attributed to Ancasta — a page that returned no rig specs at all. Fabricated attribution. The backstay trysail detail is also technically implausible.",
+      "parts.availability: The '$289.95' maintenance kit price and 'same-day shipping' quote attributed to a dead URL (404). Price figure unverifiable and likely hallucinated.",
+      "refit.running_rigging: '$3,000 halyard upgrade' quote attributed to Seattle Yachts listing is not present on that page. Fabricated.",
+      "sentiment.praise 'incredible craftsmanship / phenomenal joinery' quote: Attributed to forums.ybw.com/threads/tayana-yachts.42283/ — but that thread's actual owner content is 'Great Boat. Very strong and seaworthy.' The craftsmanship/joinery language does not appear in that thread. Fabricated quote.",
+      "sentiment.forums SailNet 'Moon Dancer / 70,000 combined sea miles' quote: SailNet is behind a paywall/Tollbit redirect; connection refused on follow-through. Unverifiable and stylistically consistent with LLM-generated praise. Flagged as likely fabricated.",
+      "self_steering.electrical_autonomy: '8x 200Ah AGM' battery bank attributed to a YachtWorld listing (403 forbidden) — the only verified listing (Seattle Yachts) shows 4x 200Ah. The specific bank configuration appears fabricated."
+    ],
+    "verified_confidence": 0.38,
+    "verdict": "This record contains pervasive fabrication. Of the 27 facts and 4 sentiment/forum items checked, approximately 60% have quotes that are either absent from the cited URL, attributed to pages that returned errors (403/404), or directly contradicted by what those pages actually contain. The most serious failures: the BoatDesign.net heavy-weather quote does not exist on that page; Grunert/Engles refrigeration brands are not on the Seattle Yachts listing; the YachtDatabase ballast figures are not on that page; the YBW joinery quote is not in that thread; the sail areas and backstay-trysail claim have no accessible source; and the battery bank count is contradicted by the one listing that did load. The record was likely generated by an LLM that hallucinated specific quotes, brand names, and numbers into real-looking citations. What survives verification: CSF 1.76 (confirmed), shaft stuffing-box corrosion after 15+ years (confirmed), 10-12 year insurer rigging nervousness (confirmed), inside steering station (confirmed), sugar scoop transom (confirmed), REVERENCE $200k refit (confirmed), and 3-zone HVAC availability (confirmed). Verified confidence is recomputed at 0.38 — weighted by the fraction of facts with confirmed sourcing and penalized for the high fabrication rate in quoted material."
+  },
+  "scores": {
+    "id": "tayana_58_deck_salon_research",
+    "cold_score": {
+      "value": 59,
+      "confidence": 0.43,
+      "rationale": "Three of seven rubric categories are supported by verified facts. Heating: 3-zone AC/heat confirmed on one 2006 listing (confidence 0.62), contributing 15.5 of 25 weighted points. Inside/sheltered helm: confirmed with three electric cockpit winches for short-handed operation (confidence 0.78), contributing 15.6 of 20 points. Insulation: sandwich deck construction with foam-filled longitudinals confirmed, but hull is solid GRP and cabin insulation is undocumented; partial credit applied (15 × 0.55 × 0.5 = 4.1). Keel-stepped mast, watertight bulkhead, hard cockpit shelter, and cold tankage all had their source citations removed as unverifiable or fabricated — zero points and zero weight applied. Raw score 35.2/60 re-normalised to 59/100 over the three known categories. Confidence reflects 3 of 7 categories having any verified data.",
+      "basis": "heating.confidence_0.62 + inside_helm.confidence_0.78 + insulation.partial_0.55; keel_mast/watertight_bulkhead/cockpit_shelter/cold_tankage all removed as unverifiable — re-normalised over 60 of 100 possible rubric points"
+    },
+    "tropic_score": {
+      "value": 27,
+      "confidence": 0.17,
+      "rationale": "Only one of six tropical rubric categories has any verified data. Ventilation: the deck saloon is confirmed to provide 'exceptional ventilation' (sailingatypic.com, confidence 0.45), but specific hatch counts, opening areas, and passive airflow design are undocumented — partial credit applied (20 × 0.45 × 0.6 = 5.4 of 20 points). Shade, refrigeration, watermaker, airflow detail, and light-air SA/D ratio are all absent: refrigeration brands were flagged as fabricated, watermaker had no sources, SA/D cannot be computed without verified displacement or sail area, and the shade/airflow entries were removed as duplicative and unverifiable. Raw score 5.4/20 re-normalised to 27/100 over the single known category. Confidence reflects 1 of 6 categories with any sourced data and is therefore very low — this score should be treated as an informed lower bound only.",
+      "basis": "ventilation.partial_0.45 only; refrigeration/watermaker/shade/airflow/SA_D all removed — re-normalised over 20 of 100 possible rubric points"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "AVS is not publicly documented for the Tayana 58 DS. CE Design Category was removed from verified facts as an unverifiable inference (SailboatData returned HTTP 403, no alternative source). The CSF value of 1.76 is confirmed and indicates ocean-race participation eligibility by that formula, but CSF is not AVS and the rubric does not map CSF to a score. Per the rubric: where neither AVS nor CE Category is documented, value = 0, basis = 'not published', confidence = 0.",
+      "basis": "not published — AVS absent, CE Category unverifiable (source 403); CSF 1.76 confirmed but not a rubric input"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 70000,
+      "total_high_usd": 204000,
+      "assumptions": "Nominal build year 2006 (best-documented example), giving approximately 20 years of service. Age logic applied per stated service intervals: standing rigging at 15-20yr (replacement due); propeller shaft at 15yr+ (Tayana-specific pitting corrosion confirmed by TOG archive — inspection required, replacement likely); running rigging at 8-10yr (one full cycle past); sails at 8-12yr (past interval); engine at 20yr treated as overhaul candidate rather than full repower (repower threshold is 25-30yr); electronics at 10-15yr (past interval); batteries at 6-10yr (multiple replacement cycles expected). Seacocks/through-hulls approaching but not yet at 25yr interval — partial budget included. Watermaker included at full cost because presence is unverified and passage readiness requires one. All ranges are our estimates based on rubric intervals and the one verified market data point (ImproveSailing $10k-$20k for large sailboat standing rigging; REVERENCE $200k+ comprehensive refit as sanity ceiling). Engine cost is overhaul range only — full repower ($25k-$70k) would apply if hours are high or age reaches 25-30yr.",
+      "by_item": [
+        {
+          "system": "Standing Rigging (wire, stays, terminals)",
+          "low": 10000,
+          "high": 20000,
+          "note": "20yr boat — replacement due per 15-20yr interval. ImproveSailing verified range $10k-$20k for large sailboat; REVERENCE refit confirms standing rigging was replaced as part of $200k+ package."
+        },
+        {
+          "system": "Propeller Shaft (pitting corrosion inspection / replacement)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Tayana-specific: TOG archive confirms pitting corrosion inside stuffing box after 15+ years of service. At 20yr, shaft inspection is mandatory; replacement likely if significant pitting found. Flax packing renewal included."
+        },
+        {
+          "system": "Running Rigging (halyards, sheets, control lines)",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10yr interval; 20yr boat is at least one full cycle past due. Rubric range applied. No verified standalone cost — fabricated $3k quote from Seattle Yachts listing was removed."
+        },
+        {
+          "system": "Sails (full inventory: main, genoa, staysail, storm sails)",
+          "low": 15000,
+          "high": 45000,
+          "note": "8-12yr interval; 20yr boat past interval. REVERENCE refit included new high-tech Vectran sails but no standalone sail cost was verifiable. Rubric range $15k-$45k applied. Upper end reflects Vectran/Pentex for offshore use."
+        },
+        {
+          "system": "Engine overhaul (Yanmar 4LH-series, ~140hp diesel)",
+          "low": 8000,
+          "high": 20000,
+          "note": "20yr age approaches but does not yet reach the 25-30yr full repower threshold. Overhaul/major service range applied. Engine brand consistently referenced as Yanmar 4LH-series; exact hours unknown. If hours exceed 6,000-8,000, budget toward upper end or escalate to full repower."
+        },
+        {
+          "system": "Electronics (chart plotter, VHF, AIS, radar, instruments, autopilot)",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15yr interval; 20yr boat past interval. REVERENCE refit included B&G navigation suite (confirmed). Range reflects basic refresh ($8k) through full offshore suite replacement ($30k)."
+        },
+        {
+          "system": "Batteries and solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10yr interval; 20yr boat has gone through multiple replacement cycles. Verified bank is 4x 200Ah 12V (800Ah). REVERENCE added 1,400W solar + new inverters. Lower end covers battery replacement only; upper end includes solar array and inverter/charger."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "No specific Tayana ground tackle data verified. Rubric range $3k-$10k applied based on boat size and offshore requirement."
+        },
+        {
+          "system": "Seacocks and through-hull fittings",
+          "low": 2000,
+          "high": 6000,
+          "note": "25yr replacement threshold; 20yr boat approaching but not yet at interval. Partial budget for inspection, valve servicing, and any corroded fitting replacement. Full replacement deferred to 25yr."
+        },
+        {
+          "system": "Liferaft and offshore safety gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "Service interval 5-year re-certification or replacement. Rubric range applied. EPIRB, flares, jacklines, tethers, and raft re-certification or replacement all included."
+        },
+        {
+          "system": "Canvas (bimini, dodger, sail covers, cockpit enclosure)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15yr interval; 20yr boat past interval. Custom bimini with dodger confirmed on one example. Lower end covers basic replacement; upper end includes full cockpit enclosure."
+        },
+        {
+          "system": "Watermaker (not verified present)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Watermaker status was removed from verified facts — no sourced confirmation of presence or absence. For passage readiness a watermaker is mandatory; full installation cost included at rubric range $6k-$15k. If unit is already installed and serviceable, remove this line item."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Propeller shaft inspection protocol at every haulout",
+        "category": "Maintenance",
+        "why": "TOG archive confirms Tayana-specific pitting corrosion inside the stuffing box after 15+ years. At 20yr, this is not a generic marine recommendation — it is a documented fleet-wide failure mode for this builder. Carry spare flax packing and a stuffing box wrench."
+      },
+      {
+        "item": "Standing rigging inspection log with annual photographs of swage terminals",
+        "category": "Rigging",
+        "why": "Verified sources confirm insurers become nervous at 10-12yr. At 20yr, rigging is past most underwriter acceptance thresholds. Carry a rigging knife, spare clevis pins, and Dyneema emergency stays for passages."
+      },
+      {
+        "item": "3-zone HVAC system spare parts and filter inventory",
+        "category": "Mechanical",
+        "why": "3-zone AC/heat confirmed on 2006 example. In cold-weather operations the heating system is the primary comfort system; carry replacement filters, thermostat fuses, and condensate pump spares specific to the installed unit (brand unverified — identify at purchase)."
+      },
+      {
+        "item": "Inside helm station weather sealing maintenance",
+        "category": "Maintenance",
+        "why": "Inside steering station confirmed. Deck saloon designs are known to develop headliner staining from hatch and window seal failures (noted in original sentiment, consistent with sandwich-deck construction). Inspect and re-bed all coach roof windows and hatches on a 3-year cycle."
+      },
+      {
+        "item": "Battery bank monitoring and rotation schedule (4x 200Ah verified)",
+        "category": "Electrical",
+        "why": "Verified bank is 4x 200Ah 12V (800Ah total). At 20yr of vessel age, batteries have been replaced at least twice; however, the current bank age is unknown. Install a battery monitor (Victron BMV or similar) and log state-of-charge cycles to project next replacement. REVERENCE added 1,400W solar — budget for that upgrade if not already present."
+      },
+      {
+        "item": "Spare impellers, zincs, and raw-water pump rebuild kits for Yanmar 4LH-series engine",
+        "category": "Spares",
+        "why": "Engine is Yanmar 4LH-series (~140hp). Engine age at 20yr and hours unknown. Carry: raw-water impeller (annual replacement), full zinc set (shaft, hull, rudder), heat exchanger zincs, spare belts, oil filter, fuel filter elements, and a complete raw-water pump rebuild kit. Engine brand consistently referenced but model variant spelling inconsistent in original research — verify exact model number at purchase."
+      },
+      {
+        "item": "Sugar scoop transom boarding ladder inspection and lock mechanism",
+        "category": "Safety",
+        "why": "Sugar scoop with steps and ladder confirmed (Denison listing). Expandable passerelle to 8ft noted. Verify ladder hinge locks and folding mechanism work under load — transom hardware on a 20yr boat is a common failure point for MOB recovery."
+      }
+    ]
+  }
+}

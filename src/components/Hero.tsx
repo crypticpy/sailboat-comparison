@@ -1,6 +1,7 @@
 import type { Boat } from "../types/boat";
 import { isShelter } from "../lib/format";
 import { csf } from "../lib/metrics";
+import type { ChipFilter } from "./Controls";
 
 const numberWord = (n: number): string => {
   const words = [
@@ -45,7 +46,13 @@ const numberWord = (n: number): string => {
   return words[n] ?? String(n);
 };
 
-export default function Hero({ boats }: { boats: Boat[] }) {
+export default function Hero({
+  boats,
+  onPick,
+}: {
+  boats: Boat[];
+  onPick?: (chip: ChipFilter) => void;
+}) {
   // Mission-framed, all honestly derivable — no fabricated survival counts.
   const fitN = boats.filter((b) => b.budget === "fit").length;
   const sh = boats.filter(isShelter).length;
@@ -66,22 +73,70 @@ export default function Hero({ boats }: { boats: Boat[] }) {
           full profile.
         </div>
         <div className="statbar">
-          <Stat n={String(boats.length)} label="boats compared" />
-          <Stat n={String(fitN)} label="fit under $1M" />
-          <Stat n={String(sh)} label="steer from inside" />
-          <Stat n={String(shoal)} label="draw under 1.3 m" />
-          <Stat n={String(seaKindly)} label="capsize screen < 1.9" />
+          <Stat
+            n={String(boats.length)}
+            label="boats compared"
+            onPick={onPick}
+            chip="all"
+          />
+          <Stat
+            n={String(fitN)}
+            label="fit under $1M"
+            onPick={onPick}
+            chip="budget"
+          />
+          <Stat
+            n={String(sh)}
+            label="steer from inside"
+            onPick={onPick}
+            chip="pilot"
+          />
+          <Stat
+            n={String(shoal)}
+            label="draw under 1.3 m"
+            onPick={onPick}
+            chip="shoal"
+          />
+          <Stat
+            n={String(seaKindly)}
+            label="capsize screen < 1.9"
+            onPick={onPick}
+            chip="seakindly"
+          />
         </div>
       </div>
     </header>
   );
 }
 
-function Stat({ n, label }: { n: string; label: string }) {
+function Stat({
+  n,
+  label,
+  onPick,
+  chip,
+}: {
+  n: string;
+  label: string;
+  onPick?: (chip: ChipFilter) => void;
+  chip: ChipFilter;
+}) {
+  if (!onPick) {
+    return (
+      <div className="st">
+        <b>{n}</b>
+        <span>{label}</span>
+      </div>
+    );
+  }
   return (
-    <div className="st">
+    <button
+      type="button"
+      className="st st-click"
+      onClick={() => onPick(chip)}
+      title={`Filter the fleet — ${label}`}
+    >
       <b>{n}</b>
       <span>{label}</span>
-    </div>
+    </button>
   );
 }

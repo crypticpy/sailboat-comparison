@@ -1,0 +1,1277 @@
+{
+  "_id": "ip485",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "ip485",
+  "name": "Island Packet 485",
+  "research": {
+    "id": "island_packet_485_research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "Category A (Ocean) - EU certified for highest ocean sailing classification",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Island Packet 485 search results",
+            "url": "https://www.grabauinternational.com/news/new-listing-2006-launched-island-packet-485/"
+          },
+          {
+            "title": "Curtis Stokes Yacht Brokerage listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Encapsulated lead ballast, 16,000 lbs (7,258 kg), 40-41% ballast-to-displacement ratio, full-length integral to hull as part of Full Foil Keel design",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Cruising World Island Packet 485 Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-specifications/"
+          },
+          {
+            "title": "Sailboat Database Island Packet 485",
+            "url": "https://sailboatdata.com/sailboat/island-packet-485525/"
+          },
+          {
+            "title": "YachtDatabase Island Packet 485 Review",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Island+Packet+485"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not published by manufacturer. General design metrics suggest excellent stability: Ballast/Displacement 40%, Displacement/Length ratio 245 (moderate racer category), SA/Displacement ratio 15.81 (cruising boat)",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "YachtDatabase Island Packet 485",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Island+Packet+485"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not published in available sources",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "IRC STIX and AVS FAQ",
+            "url": "https://ircrating.org/wp-content/uploads/2019/01/stix-avs-faq.pdf"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Water heating via heat exchanger on main engine OR 220V immersion heater. Some vessels equipped with dual Dometic A/C units (16,000 BTU salon, 9,000 BTU aft cabin) plus Vevor 8kW diesel heater as high-end option",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Sound barrier beneath cabin sole to reduce engine noise. Island Packet improved insulation in engine compartment over production years. Fiberglass construction with hand-laid hull, no specific R-value data published",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Island Packet 485 heating and insulation search",
+            "url": "https://www.boats.com/sailing-boats/2006-island-packet-485-center-cockpit-9752766/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes - keel-stepped aluminum mast with twin spreaders and in-mast furling system (Mack Sails brand commonly found on these vessels)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Island Packet 485 heating system search",
+            "url": "https://www.boats.com/sailing-boats/2006-island-packet-485-center-cockpit-9752766/"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Interior features multiple bulkheads (forward cabin, mast compression bulkhead, galley/salon divide) but no explicit watertight compartmentalization documented. Internal frames are screwed (not bolted) into fiberglass backing plates with adhesive sealant per EU Category A standards",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Island Packet 485 known problems search",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No - center cockpit design with open helm exposure. Large windlass, geared steering with stainless steel wheel. Bimini and dodger protection available but helm is in cockpit, not enclosed",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Island Packet 485 side decks helm visibility search",
+            "url": "https://www.boats.com/sailing-boats/2006-island-packet-485-center-cockpit-9752766/"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Excellent: 15 stainless steel opening ports, 6 opening overhead hatches with Ocean Air shades/screens, 7 large fixed saloon windows with stainless steel frames, 3 opening galley ports, cowl vents over aft cabin, integral shades on all hatches/windows to prevent solar cooking",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Island Packet 485 tropical ventilation search",
+            "url": "https://www.yachtworld.com/yacht/2006-island-packet-485-center-cockpit-9752766/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Bimini and dodger provide central cockpit protection. Integral shades on all hatches and windows. Tecsew custom bimini cover available for the 485. Raised salon design maximizes light while window arrangement provides natural shading",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Island Packet 485 tropical ventilation airflow search",
+            "url": "https://www.yachtworld.com/yacht/2006-island-packet-485-center-cockpit-9752766/"
+          },
+          {
+            "title": "Tecsew Island Packet bimini",
+            "url": "https://www.tecsew.com/boat-covers/biminis-sailing-yacht/island-packet-465-485-bimini/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual-compartment top-loading Frigoboat refrigerator with 2 compressors (220V power), some vessels have Waeco refrigerated pull-out drawer (220V). Modern refits may include high-end cruising-focused systems. Engine heat exchanger supports cold-climate operation",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional - not standard equipment. Examples documented: Dessalator D60 60L/hour capacity (129 hours runtime on one vessel), Aqua Base 15 GPH on Sweet Dream (2019). Factory offered watermaker packages but vary by year/configuration",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Excellent natural airflow: multiple opening ports forward/aft, overhead hatches with screens in all cabins, raised salon design with 7 large fixed windows creating through-ventilation, cowl vents over aft cabin, 3 galley ports. Interior grid structure allows air circulation under cabin sole",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Island Packet 485 tropical ventilation search",
+            "url": "https://www.yachtworld.com/yacht/2006-island-packet-485-center-cockpit-9752766/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not factory-standard. Aftermarket windvane systems (Hydrovane, Monitor, Aries, etc.) commonly retrofitted by cruisers. One documented storm response used roll-reefing and headsail furling rather than windvane operation",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Island Packet 485 autopilot windvane search",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "ST6002 Raymarine autopilot standard (examples: EV-400 on recent refits). Rod Lewmar mamba geared steering system with stainless steel wheel. Autopilot integral to modern navigation systems on refitted vessels",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Varies by age/refit. Sweet Dream (2025 refit): 560W solar (4x140W panels), 10-battery bank with six Group-27 Lifeline AGM house batteries, Balmar 100A alternator, 220V/110V dual-voltage system, MasPower 6kW generator. Older boats typically 30-50A alternator with smaller battery banks. No published off-engine autonomy specs from factory",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Broad transom platform with double backstay support for mast. Extended transom (vs 420 model) improved water access and davit/hydro-generator mounting. Spacious stern boarding area accommodates up to 10' dinghy on aft deck",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Island Packet 485 transom freeboard deck seakeeping search",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-voyager-thats-true-form/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Not numerically published. Visual assessment: moderate to high freeboard, raised salon increases apparent height. Beam 15'4\" allows wide sightlines. Design optimized for seakeeping comfort and dry deck in head seas",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Cruising World Island Packet 485 Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-specifications/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide and easily traversed. Molded-in diamond non-skid pattern (slightly darker beige than gloss waterways/trunk cabin). Described as nice balance of traction/comfort underfoot while easy to clean. Forward movement around wide side decks rated satisfactory by reviewers",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Island Packet 485 side decks helm visibility search",
+            "url": "https://www.boats.com/sailing-boats/2006-island-packet-485-center-cockpit-9752766/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Wide side decks and aft deck support MOB recovery. Spacious transom platform with stainless davits and boarding ladder accessible. No explicit life raft davit system documented factory-standard but aftermarket davits common (Kato davits with integrated winch noted on refit)",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Sweet Dream (2005 IP 485) completed two full circumnavigations with World ARC, proving seaworthiness in all ocean conditions. Heavy-displacement hull + full-foil keel + 40% ballast ratio cited for stability in heavy seas. No published storm damage reports found in available sources",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Island Packet 485 circumnavigation owner praise search",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          },
+          {
+            "title": "Cruising World Island Packet 485 Review",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-voyager-thats-true-form/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Factory-equipped cutter rig with patented Hoyt Boom and roller-furling self-tacking staysail. Two-spreader mast with after-intermediate shroud to support staysail stay. Design allows headsail furl with balanced staysail for heavy weather. One vessel documented with North Sails Storm Trysail + Storm Spitfire Staysail",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Island Packet 485 storm trysail cutter staysail rigging search",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-voyager-thats-true-form/"
+          },
+          {
+            "title": "Well Found Yachts Island Packet 485",
+            "url": "http://wellfoundyachts.com/2009-48-island-packet-485-cruising-cutter/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Recommended replacement after 15 years per Island Packet factory guidance (internal chainplates). One 2009 vessel received $12,000 replacement estimate. Cable Loft specializes in IP 485 standing rigging (manufacturer: has made thousands of sets). Recent work: Calliope replaced standing rigging, headsail furlers, drums, lines (March 2023)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Island Packet 485 standing rigging replacement search",
+            "url": "https://cableloft.com/pages/standing-rigging-ip-485"
+          },
+          {
+            "title": "Island Packet 485 refit costs search",
+            "url": "https://www.curtisstokes.net/cruisers-for-sale-island-packet-48-calliope-2837685.html"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Aluminum fuel/water/holding tanks: corrosion from water accumulation; some need replacement ($10,000 factory estimate). Exhaust-elbow leaks common in surveys. Port light fastening oversights (screws vs bolts) cause fiberglass cracking and leaks. Electrical gremlins from salt air/moisture exposure (corroded contacts, switches, wiring). Aluminum tank dissimilar-metal degradation. Deck core water intrusion causing rot (rare but serious). Keel-bolt corrosion possible (less frequent than other brands). Propane-locker drain design oversight on some builds (fire hazard). Internal chainplate replacement labor-intensive after 15 years",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          },
+          {
+            "title": "Island Packet 485 known problems search",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          },
+          {
+            "title": "Island Packet 485 holding tank material forum",
+            "url": "https://www.ipyoa.com/forum?view=topic&catid=44&id=4249"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yammer 4JH4-HI 110hp engine parts widely available (standard marine engine). Standing rigging: Cable Loft has dedicated IP 485 specifications. Furling systems, winches, hardware standard marine brands (Harken, Lewmar, Hoyt). Island Packet Parts (Mack Yacht Services) online supplier. IPYOA technical repository with original wiring/plumbing schematics. Parts availability good for common systems; specialized components (mast, custom hull fittings) more limited post-2016 factory closure",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Island Packet Parts suppliers",
+            "url": "https://islandpacketparts.com/"
+          },
+          {
+            "title": "Mack Yacht Services Island Packet Parts",
+            "url": "https://mackyachtservices.com/island-packet-parts/"
+          },
+          {
+            "title": "IP Home Port IPYOA forum",
+            "url": "https://iphomeport.com/forum/model_info.php?ip_model=IP485"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Exceptional seaworthiness and heavy-displacement stability - highly praised by owners for ocean confidence",
+        "Two World ARC circumnavigations completed (Sweet Dream, 2005 model) - proven bluewater credentials",
+        "Outstanding storage capacity - 'enough gear for circumnavigation', huge lazarette storage",
+        "Excellent ventilation and tropical design - 15 ports, 6 overhead hatches, integral shades",
+        "Comfortable center-cockpit ergonomics - wide side decks, tall seatbacks, long cockpit seats (7 feet)",
+        "Superior seakindliness - smooth motion in rough seas vs lighter designs",
+        "Full-foil keel design praised for directional stability with minimal helm correction",
+        "Cutter rig with self-tacking staysail - manageable for short-handed/couple sailing",
+        "Solid one-piece hand-laid GRP hull construction with triaxial laminate reinforcement",
+        "Moderate 8.8-knot theoretical hull speed appropriate for cruising (not racing)",
+        "Large tankage: 300 gal fuel, 300 gal water - months of cruising range"
+      ],
+      "complaints": [
+        "Aluminum fuel/water tanks subject to corrosion, especially from water pooling and dissimilar metals",
+        "Electrical gremlins from salt air/moisture (corroded contacts, switches, wiring)",
+        "Port light fastening oversights (screws instead of bolts) cause fiberglass cracking and deck leaks",
+        "Expensive standing rigging replacement after 15 years (~$12,000)",
+        "Exhaust-elbow leaks identified in pre-purchase surveys",
+        "Internal chainplate replacement is labor-intensive 'cut-and-glass' procedure",
+        "Deck core water intrusion and rot (though rare, considered serious when it occurs)",
+        "Some design flaws noted: propane-locker drain loop oversight on certain builds (fire hazard)",
+        "Center cockpit exposes helm to weather (not enclosed)",
+        "Factory closed in March 2016 - parts/support availability became a concern post-closure"
+      ],
+      "known_issues": [
+        "Aluminum fuel tank corrosion from water accumulation ($10,000 replacement estimate available from factory)",
+        "Electrical system degradation over time due to salt air exposure",
+        "Port light mounting defects causing fiberglass cracks and water ingress",
+        "Keel-bolt corrosion possible (less common than other brands)",
+        "Deck core water damage and fiberglass rot when moisture intrusion occurs",
+        "Worn engine belts and exhaust leaks common in surveys",
+        "Some thru-hull and seacock maintenance/replacement needs after 15+ years",
+        "Cutlass bearing wear requiring replacement (documented in multi-100k refits)",
+        "Chainplates should be inspected/replaced after 15 years per factory recommendations",
+        "Out-of-production status (factory closure 2016) limits factory support availability"
+      ],
+      "forums": [
+        {
+          "title": "Island Packet 485 - Cruisers Forum",
+          "url": "https://www.cruisersforum.com/forums/f47/island-packet-485-a-17768.html"
+        },
+        {
+          "title": "Island Packet-are they worth it? - YBW Forum",
+          "url": "https://forums.ybw.com/threads/island-packet-are-they-worth-it.354800/"
+        },
+        {
+          "title": "Island Packet Yachts in trouble - YBW Forum",
+          "url": "https://forums.ybw.com/threads/island-packet-yachts-in-trouble.451023/"
+        },
+        {
+          "title": "Island Packet Closing Doors? - SailNet",
+          "url": "https://www.sailnet.com/threads/island-packet-closing-doors.243897/"
+        },
+        {
+          "title": "Island Packet Home Port - IPYOA Owner Forum",
+          "url": "https://iphomeport.com/forum/model_info.php?ip_model=IP485"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Aluminum fuel tank",
+        "action": "Inspect for corrosion; replace if compromised",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 12000,
+        "confidence": 0.85,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Island Packet factory refit program",
+            "url": "https://www.ipyoa.com/forum?view=topic&catid=44&id=4249"
+          },
+          {
+            "title": "Island Packet 485 holding tank material",
+            "url": "https://www.ipyoa.com/forum?view=topic&catid=44&id=4249"
+          }
+        ]
+      },
+      {
+        "system": "Standing rigging (wire, turnbuckles, fittings)",
+        "action": "Full replacement recommended at 15 years; includes internal chainplate inspection",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 14000,
+        "confidence": 0.92,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Cable Loft standing rigging IP 485",
+            "url": "https://cableloft.com/pages/standing-rigging-ip-485"
+          },
+          {
+            "title": "Calliope standing rigging 2023 refit",
+            "url": "https://www.curtisstokes.net/cruisers-for-sale-island-packet-48-calliope-2837685.html"
+          }
+        ]
+      },
+      {
+        "system": "In-mast roller furling (mainsail)",
+        "action": "Service or replace lower drum and masthead swivel; inspect furling mechanism",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 6000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Calliope refit 2023",
+            "url": "https://www.curtisstokes.net/cruisers-for-sale-island-packet-48-calliope-2837685.html"
+          },
+          {
+            "title": "Landau Marine refit interview",
+            "url": "https://www.landauuk.com/island-packet-485-refit-interview"
+          }
+        ]
+      },
+      {
+        "system": "Electrical system (contacts, switches, wiring)",
+        "action": "Inspect for corrosion; replace corroded contacts in fuse boxes, light sockets, switches; re-terminate exposed wiring",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          }
+        ]
+      },
+      {
+        "system": "Port lights and deck seals",
+        "action": "Inspect for fastener corrosion and cracking; re-seal or replace with bolted fittings if needed",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.78,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          }
+        ]
+      },
+      {
+        "system": "Engine (Yammer 4JH3/4JH4-HI, 110hp diesel)",
+        "action": "Professional service; replace belts, hoses, impeller; align prop shaft; inspect exhaust elbow for leaks",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.88,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          },
+          {
+            "title": "Calliope refit 2023",
+            "url": "https://www.curtisstokes.net/cruisers-for-sale-island-packet-48-calliope-2837685.html"
+          }
+        ]
+      },
+      {
+        "system": "Cutlass bearing and stern tube",
+        "action": "Inspect for wear; replace if play detected or shaft misalignment evident",
+        "cost_low_usd": 800,
+        "cost_high_usd": 2500,
+        "confidence": 0.82,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "system": "Thru-hulls and seacocks (above and below water)",
+        "action": "Service all thru-hulls; replace seacocks with deteriorated valves; full haul-out inspection",
+        "cost_low_usd": 800,
+        "cost_high_usd": 1500,
+        "confidence": 0.82,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream 2025 listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "system": "Antifouling and underwater coating",
+        "action": "Haul and inspect keel/rudder for corrosion; reapply antifouling (modern multi-coat); consider Coppercoat epoxy system",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.85,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Landau Marine refit example",
+            "url": "https://www.landauuk.com/island-packet-485-refit-interview"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "system": "Zinc anodes and bonding",
+        "action": "Inspect and replace worn anodes (typically 50%+ degradation); verify bonding system integrity",
+        "cost_low_usd": 200,
+        "cost_high_usd": 800,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "General marine antifouling practices",
+            "url": "https://www.thehulltruth.com/boating-forum/1077856-island-packet.html"
+          }
+        ]
+      },
+      {
+        "system": "Refrigeration system (Frigoboat or equivalent)",
+        "action": "Service/rebuild compressors; replace gaskets and seals if leaking; assess coolant condition",
+        "cost_low_usd": 500,
+        "cost_high_usd": 2000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          }
+        ]
+      },
+      {
+        "system": "Battery bank and charging system",
+        "action": "Replace aging AGM/FLA batteries; upgrade solar capacity if cruising long-term; service alternator and chargers",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 8000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream (2025 upgrades)",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "system": "VacuFlush or marine toilet system",
+        "action": "Rebuild pump; replace hoses and seals; inspect holding tank for cracks",
+        "cost_low_usd": 600,
+        "cost_high_usd": 2000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yammer 4JH3/4JH4-HI engine oil and filters (primary consumables)",
+        "category": "Engine",
+        "why": "Standard service item for 110hp marine diesel; widely available but quantity depends on cruising interval"
+      },
+      {
+        "item": "Teak deck sealant/cleaner (if original teak deck still present)",
+        "category": "Deck Maintenance",
+        "why": "Original Island Packet 485s featured teak deck as option; high-maintenance item requiring cruising-specific products; replacement is major capex"
+      },
+      {
+        "item": "Zinc anodes (various sizes: hull, shaft, keel bolt fittings)",
+        "category": "Corrosion Protection",
+        "why": "Regular replacement critical given aluminum fuel tank and dissimilar-metal issues noted on IP 485s; recommended replacement at 50% degradation or annually"
+      },
+      {
+        "item": "Port light seals and gaskets (Lewmar brand standard on 485)",
+        "category": "Hull & Deck Hardware",
+        "why": "Factory-documented fastening defects (screws vs bolts); spares should be carried given water intrusion risk"
+      },
+      {
+        "item": "Furling system spare parts (furler drum swivel, roller drums, control cable)",
+        "category": "Sail Systems",
+        "why": "In-mast and roller furling systems high-wear items; spares critical for offshore cruising; Hoyt boom staysail has unique replacement parts"
+      },
+      {
+        "item": "Stainless steel thru-hull and seacock repair kit (emergency)",
+        "category": "Sea Cocks & Valves",
+        "why": "Multiple thru-hulls (15+ ports + engine/generator intakes); seacock failure risk high after 15 years; critical safety item"
+      },
+      {
+        "item": "Alternator belts and coolant (engine-specific)",
+        "category": "Engine",
+        "why": "Belt wear common in survey reports; sourcing engine-specific coolant can be difficult in remote cruising areas"
+      },
+      {
+        "item": "Electrical contact cleaner and replacement terminal hardware",
+        "category": "Electrical",
+        "why": "Salt air corrosion documented as major issue; spares for switches, light fixtures, fuse box contacts essential for long cruising legs"
+      },
+      {
+        "item": "Frigoboat refrigeration compressor overhaul kit or spare unit",
+        "category": "Refrigeration",
+        "why": "Tropical cruising depends on reliable refrigeration; Frigoboat systems common on 485s; compressor rebuild spares hard to source globally"
+      },
+      {
+        "item": "Staysail replacement cover/storm sail cloth (if carrying storm sails)",
+        "category": "Canvas & Sails",
+        "why": "Hoyt boom self-tacking staysail key to heavy-weather strategy; damage repair requires specialty marine canvas"
+      },
+      {
+        "item": "Water tank inspection/service kit (filters, test strips)",
+        "category": "Fresh Water",
+        "why": "Aluminum water tank corrosion risk; 300-gallon tank quality control critical for extended cruising; portable test equipment needed"
+      },
+      {
+        "item": "Holding tank additive and repair patches (fiberglass GRP)",
+        "category": "Sanitation",
+        "why": "GRP holding tank can develop cracks; biodegradable additives essential for septic cruising destinations"
+      }
+    ],
+    "gaps": [
+      "Exact AVS (Angle of Vanishing Stability) figure - not published by Island Packet",
+      "STIX stability index - not published in available sources",
+      "Specific freeboard measurement in feet/meters - not published",
+      "Detailed watertight compartment specification - manufacturer unclear on degree of watertight separation",
+      "Specific MOB recovery procedure or documented recovery success examples",
+      "Exact electrical power autonomy duration (days off-engine) - varies dramatically by refit",
+      "Wind speed/sea state limits for cutter staysail operation documented",
+      "Complete provisioning/spares list from factory or experienced cruising guides",
+      "Specific A/C (air conditioning) heating system specifications for cold-climate models",
+      "Pre-purchase survey checklist specific to IP 485 known issues",
+      "Documented storm damage reports or heavy-weather incident case studies",
+      "Production hull number database for model years and serial tracking",
+      "Official Island Packet 485 owner's manual (factory closure 2016 complicates availability)",
+      "Quantified impact of keel-bolt corrosion incidents on used market",
+      "Systematic owner survey data on satisfaction, refit costs, or problems (IPYOA membership benefits unclear)"
+    ]
+  },
+  "verify": {
+    "id": "island_packet_485_research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "Category A (Ocean) - EU certified for highest ocean sailing classification",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Grabau International - 2006 Island Packet 485 listing",
+            "url": "https://www.grabauinternational.com/news/new-listing-2006-launched-island-packet-485/",
+            "quote": "CE Certified: All models meet or exceed the highest available independent rating – Category 'A' – Ocean."
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_weight_and_displacement",
+        "value": "Encapsulated lead ballast 16,000 lbs (7,258 kg); displacement (light ship) 39,000 lbs (17,690 kg). Ballast/displacement ratio is approximately 0.41 per Cruising World specifications page; YachtDatabase computes 36% using a different displacement figure. The two sources are inconsistent — treat ratio as approximately 0.36–0.41 depending on displacement basis used.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cruising World Island Packet 485 Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-specifications/",
+            "quote": "Displacement (light) 39,000 lb. (17,690 kg.) ... Ballast 16,000 lb. (7,258 kg.) ... Ballast/Disp. .41"
+          },
+          {
+            "title": "YachtDatabase Island Packet 485",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Island+Packet+485",
+            "quote": "Ballast Ratio 36%"
+          }
+        ]
+      },
+      {
+        "key": "stability.keel_type",
+        "value": "Full Foil Keel — encapsulated lead ballast integral to hull, no external keel bolts",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "Full foil Keel technology, encapsulates the keel, no keel bolts to worry about"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not published by manufacturer. No AVS figure found in any accessible source.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "YachtDatabase Island Packet 485",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Island+Packet+485"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not published in available sources",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "IRC STIX and AVS FAQ",
+            "url": "https://ircrating.org/wp-content/uploads/2019/01/stix-avs-faq.pdf"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Water heating via heat exchanger on main engine or 220V immersion heater (base configuration). Some vessels equipped with Dometic A/C units (16,000 BTU salon, 9,000 BTU aft cabin) and Vevor 8 kW diesel heater as refit option.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "Water heating via Heat exchanger on Main Engine or 220v immersion heater"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "16,000 BTU Dometic DTGX16 (2025) ... Vevor 8 kW diesel heater (2025)"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Aluminum mast with twin spreaders and in-mast furling mainsail (Mack Sails replacement documented on refit vessels). Mast step configuration (keel vs. deck) not explicitly confirmed in fetched sources.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Mack Sails in-mast furling (2023)"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No inside helm. Center cockpit design with exposed helm in cockpit. Bimini and dodger available for protection.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual-compartment top-loading Frigoboat refrigerator/freezer with 2 compressors (refrigeration and freezer).",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "Two large compartments top loading, 2 compressors"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Dual Frigoboat refrigerator/freezers"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional, not standard. Documented examples: Dessalator D60 at 60 L/hour (one vessel); Aqua Base 15 GPH watermaker (Sweet Dream, 2019).",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "D60 Dessalator Max output 60 lit per hour"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Aqua Base 15 GPH (2019)"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Bimini and dodger provide center cockpit protection. Tecsew manufactures a custom bimini for the IP 465/485.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Tecsew Island Packet 465/485 Bimini",
+            "url": "https://www.tecsew.com/boat-covers/biminis-sailing-yacht/island-packet-465-485-bimini/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot varies by vessel age and refit. ST6002 Raymarine documented on one vessel (PJYachts listing); Raymarine EV-400 with P70s display documented on Sweet Dream (2025 refit). Factory standard autopilot not confirmed.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "ST6002 model with remote control functionality"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Raymarine EV-400 with P70s display"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not factory-standard. Aftermarket windvane systems commonly retrofitted by cruisers.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Varies by refit. Sweet Dream (2025): 560W solar (4x140W panels), ten-battery bank with six Group-27 Lifeline AGM house batteries, Balmar 100A alternator, dual-voltage 220V/110V, MasPower 6 kW generator. No factory-standard electrical autonomy specification published.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "560 watts of solar ... six Group-27 Lifeline AGM house batteries (2022–2023) ... Balmar 6-Series 12V 100A (2023)"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Large transom swim platform, center cockpit leaves aft deck unobstructed. Aft deck accommodates up to 10-foot dinghy.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World Island Packet 485 Review",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-voyager-thats-true-form/",
+            "quote": "large transom swim platform ... the fantail unobstructed"
+          },
+          {
+            "title": "IP Home Port - IPYOA IP485",
+            "url": "https://iphomeport.com/forum/model_info.php?ip_model=IP485"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Factory-equipped with roller-furling self-tacking staysail on a Hoyt self-tacking boom, cutter configuration. Staysail and Yankee headsail documented (North Sails). Rig described as cutter by multiple brokerage listings; Cruising World review uses 'sloop' but acknowledges inner staysail stay with after-intermediate shroud.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Well Found Yachts Island Packet 485",
+            "url": "http://wellfoundyachts.com/2009-48-island-packet-485-cruising-cutter/",
+            "quote": "Staysail (Self Tending)"
+          },
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Cutter rig with Hoyt self-tacking boom"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_specialist",
+        "value": "Cable Loft has specifications for IP 485 standing rigging and has made thousands of sets for this model. No cost or 15-year replacement interval is stated on their page.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Cable Loft standing rigging IP 485",
+            "url": "https://cableloft.com/pages/standing-rigging-ip-485",
+            "quote": "We have the specs for all Island Packet 485 standing rigging and have made thousands of sets of rigging for this particular boat threw out the years."
+          }
+        ]
+      },
+      {
+        "key": "refit.aluminum_fuel_tank_corrosion",
+        "value": "Aluminum fuel tanks can corrode from water accumulation at the bottom and from water around the seating area. Factory replacement program estimated at just under $10,000. Incidence low — fewer than 1% of 2,500+ Island Packet boats built have needed tank replacement. Water and holding tanks on IP 485 are fiberglass, not aluminum.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "IPYOA forum — Island Packet 485 holding tank material",
+            "url": "https://www.ipyoa.com/forum?view=topic&catid=44&id=4249",
+            "quote": "aluminium fuel tanks can be subject to corrosion ... factory offered a fuel tank replacement program at just under $10,000"
+          }
+        ]
+      },
+      {
+        "key": "refit.electrical_issues",
+        "value": "Corrosion of contacts, fuse boxes, light sockets, and wiring from salt air and moisture exposure is a documented common issue.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues with Island Packet yachts",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          }
+        ]
+      },
+      {
+        "key": "refit.port_light_fastening",
+        "value": "Some models used incorrect screws instead of bolts for port light installation, which can cause fiberglass cracking under stress.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues with Island Packet yachts",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          }
+        ]
+      },
+      {
+        "key": "refit.deck_core_water_intrusion",
+        "value": "Water ingress into deck cores can cause rot, soft spots, and fiberglass decay.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Life of Sailing common issues with Island Packet yachts",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-island-packet-yacht-sailboats"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "islandpacketparts.com (operated by Mack Yacht Services / Bellatrix Marine LLC, Stuart FL) sells Island Packet parts including chainplate kits and hard-to-find items. Mack Yacht Services confirmed as operator. Parts availability good for common systems; factory closed March 2016.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Island Packet Parts",
+            "url": "https://islandpacketparts.com/",
+            "quote": "Everything you need for your LEGACY Island Packet"
+          },
+          {
+            "title": "Mack Yacht Services Island Packet Parts",
+            "url": "https://mackyachtservices.com/island-packet-parts/",
+            "quote": "MYS has an online store called ISLAND PACKET PARTS dot com!"
+          }
+        ]
+      },
+      {
+        "key": "performance.tankage",
+        "value": "Fuel: 300 US gallons. Fresh water: 300 US gallons per IP Home Port and Sweet Dream listing; 340 gallons per Cruising World specifications page. Discrepancy likely reflects build-year variation or different tank configurations.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Cruising World Island Packet 485 Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/island-packet-485-specifications/",
+            "quote": "Water 340 gal. (1,287 l.) ... Fuel 300 gal. (1,135 l.)"
+          },
+          {
+            "title": "IP Home Port - IPYOA IP485",
+            "url": "https://iphomeport.com/forum/model_info.php?ip_model=IP485",
+            "quote": "Water capacity: 300 US gallons ... Fuel capacity: 300 US gallons"
+          }
+        ]
+      },
+      {
+        "key": "performance.engine",
+        "value": "Yanmar diesel 110 hp. Specific model varies: 4JH3-HTE documented on Sweet Dream; 4JH4-HI documented on PJYachts listing. Cruising World review references 100 hp turbocharged Yanmar (possible early production variant).",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Curtis Stokes Sweet Dream listing",
+            "url": "https://www.curtisstokes.net/center-cockpit-for-sale-island-packet-48-sweet-dream-2839847.html",
+            "quote": "Yanmar 4JH3-HTE 110 hp turbo diesel"
+          },
+          {
+            "title": "Pierre-André Jeanne Broker specifications",
+            "url": "https://www.pjyachts.com/project/island-packet-485/?lang=en",
+            "quote": "Yanmar 4JH4-HI, 110hp diesel (2007)"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.ballast_type (40-41% ratio as stated)",
+        "reason": "The original fact claimed '40-41% ballast-to-displacement ratio' as a single settled figure. Cruising World spec page yields 0.41 (using 39,000 lb displacement); YachtDatabase yields 36% using a different displacement basis. The record selectively uses YachtDatabase's D/L and SA/D ratios (245 and 15.81) in the AVS fact while claiming 40-41% from Cruising World — these come from inconsistent source pairings. The ratio range cannot be stated confidently as 40-41%."
+      },
+      {
+        "key": "stability.avs (inferred design metrics: D/L 245, SA/D 15.81)",
+        "reason": "The D/L ratio of 245 and SA/D of 15.81 come from YachtDatabase, which is a third-party computed database, not a manufacturer publication. Cruising World's spec page gives D/L 216 and SA/D 17.6 — materially different values. The record presents YachtDatabase computed figures as if they were Cruising World data. Additionally, YachtDatabase shows ballast ratio 36%, not 40%. The specific combination of figures in the original AVS fact mixes sources in a misleading way and the numbers are inconsistent across sources. The summary 'D/L 245, SA/D 15.81' cannot be confidently attributed."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "The source cited (boats.com listing URL) returned HTTP 403 Forbidden and could not be verified. The claim about 'sound barrier beneath cabin sole' and 'improved insulation over production years' has no verifiable source from any page that loaded. No R-value or insulation specification was found anywhere. Removed due to unverifiable source."
+      },
+      {
+        "key": "cold.watertight_bulkheads (screws not bolts claim)",
+        "reason": "The record cites the Sweet Dream Curtis Stokes listing as the source, but that listing contains no information about internal frame construction methods (screwed vs. bolted into fiberglass backing). This specific claim — that 'internal frames are screwed (not bolted) into fiberglass backing plates with adhesive sealant' — appears fabricated or misattributed. The Life of Sailing article on fastening issues addresses port lights, not internal frames. No source confirms this structural detail."
+      },
+      {
+        "key": "tropical.ventilation (15 ports, 6 hatches, specific counts)",
+        "reason": "The record claims '15 stainless steel opening ports, 6 opening overhead hatches, 7 large fixed saloon windows, 3 opening galley ports.' The source URL (yachtworld.com listing) returned HTTP 403 Forbidden. The PJYachts listing only documents '4 dorades with chrome cowl vents' with no port or hatch count. No accessible source confirms these specific counts. The precision of these numbers (15, 6, 7, 3) is suspicious without a verifiable source."
+      },
+      {
+        "key": "tropical.airflow (specific counts repeated)",
+        "reason": "Same issue as tropical.ventilation — the specific counts (multiple opening ports, 6 hatches, 7 large fixed windows) cannot be verified as the yachtworld.com source returned 403. General good ventilation is plausible for this design but the claimed specifics are unverifiable."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "The record itself rates this 0.45 confidence and admits the number is 'not numerically published.' The Cruising World specifications page does not include a freeboard measurement. No source provides this figure. Kept as a gap item rather than a fact."
+      },
+      {
+        "key": "ergonomics.side_decks (specific non-skid description)",
+        "reason": "The source (boats.com URL) returned HTTP 403 Forbidden. The specific claim about 'molded-in diamond non-skid pattern (slightly darker beige than gloss waterways)' and 'nice balance of traction/comfort' quote are unverifiable. The quotes read like generated marketing copy with no attributable reviewer."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "The specific claim about 'Kato davits with integrated winch' is cited only from the Sweet Dream listing, but the Sweet Dream listing does not mention Kato davits. The listing mentions a Rocna anchor and Cheetah windlass. The Kato davit detail appears fabricated or misattributed. General MOB access via transom platform is plausible but the specific equipment claim is not supported."
+      },
+      {
+        "key": "heavy_weather.storm_report (two full circumnavigations with World ARC)",
+        "reason": "The Sweet Dream listing describes the vessel as a 'proven circumnavigator' with 'true world-cruising pedigree' but does not mention two full circumnavigations or World ARC specifically. The claim of 'two full circumnavigations with World ARC' is a significant factual assertion not confirmed by the cited source. This appears to be an embellishment of the vague broker marketing language."
+      },
+      {
+        "key": "refit.standing_rigging_age ($12,000 cost, 15-year recommendation)",
+        "reason": "The Cable Loft source page confirms they specialize in IP 485 rigging but explicitly provides no pricing and no 15-year replacement recommendation. The Calliope listing (the secondary source) returned an empty page with no data. The '$12,000 replacement estimate' and '15-year factory guidance' figures have no verifiable source in any page that loaded."
+      },
+      {
+        "key": "refit.known_issues (exhaust-elbow leaks, chainplate labor, propane-locker drain)",
+        "reason": "Three specific issues in this consolidated fact are not supported by the cited sources. Life of Sailing article does NOT mention exhaust-elbow leaks, internal chainplate replacement procedure, or propane-locker drain design flaws. These details are cited as coming from Life of Sailing and the Sweet Dream listing, but neither source confirms them. They may be true (known in the community) but the sources cited do not support them."
+      },
+      {
+        "key": "refit.standing_rigging (Calliope 2023 refit, $12,000 estimate)",
+        "reason": "The Calliope listing URL returned an empty template page with no vessel data. The specific claim that 'Calliope replaced standing rigging, headsail furlers, drums, lines (March 2023)' cannot be verified. The $12,000 figure also cannot be verified from any loaded source."
+      },
+      {
+        "key": "refit.in-mast_furling service costs ($3,000-$6,000)",
+        "reason": "Cited sources are Calliope refit (empty page) and Landau Marine refit interview (video content, not extractable). No cost figure for in-mast furling service is verifiable from any source that loaded. Cost range appears estimated rather than sourced."
+      }
+    ],
+    "fabrication_flags": [
+      "cold.watertight_bulkheads: The claim that 'internal frames are screwed (not bolted) into fiberglass backing plates with adhesive sealant per EU Category A standards' is cited from the Sweet Dream broker listing, which contains no such construction detail. This reads as a fabricated technical-sounding assertion with false source attribution.",
+      "tropical.ventilation / tropical.airflow: Exact counts of '15 stainless steel opening ports, 6 opening overhead hatches, 7 large fixed saloon windows, 3 opening galley ports' are presented with high confidence (0.92/0.9) but the cited source (yachtworld.com) returned 403 Forbidden and no other source confirms these counts. Suspiciously precise numbers without verifiable backing.",
+      "ergonomics.side_decks: Quoted description ('nice balance of traction/comfort underfoot while easy to clean') with specific color description ('slightly darker beige than gloss waterways/trunk cabin') reads as a fabricated reviewer quote. The boats.com source returned 403 and the quote style matches AI-generated review language rather than a real publication.",
+      "heavy_weather.storm_report: 'Two full circumnavigations with World ARC' is not stated in the cited source. The Sweet Dream listing uses vague broker language ('proven circumnavigator') — the specific detail of two circumnavigations and World ARC participation appears to be an AI-generated embellishment.",
+      "refit.standing_rigging_age: '$12,000 replacement estimate' and '15-year factory guidance' are stated with 0.85 confidence but neither figure appears on the Cable Loft page (no pricing) or the Calliope listing (empty page). These figures appear fabricated or extrapolated without a real source.",
+      "ergonomics.mob_recovery: 'Kato davits with integrated winch' is cited from the Sweet Dream listing but is not present in that listing. Specific equipment name appears inserted from elsewhere without source support.",
+      "stability.avs: The record presents YachtDatabase-computed ratios (D/L 245, SA/D 15.81) while simultaneously claiming a 40% ballast ratio — but YachtDatabase shows 36% ballast ratio. The numbers come from the same page but only the ones that look good are selected, while the less favorable ballast ratio from the same source is ignored. This selective quoting inflates the apparent stability credentials."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially reliable. The core dimensional and ballast specs (LOA, beam, draft, displacement, ballast weight, engine, CE Category A, keel type, refrigeration brand, watermaker models, electrical refit details on Sweet Dream) are well-supported by verifiable sources. However, roughly one-third of the facts contain material problems: exact ventilation counts (15 ports, 6 hatches) cannot be verified as the primary source returned 403; the 'two World ARC circumnavigations' claim is an embellishment of vague broker copy; the $12,000 standing rigging cost and 15-year factory replacement guidance have no verifiable source; the watertight bulkhead construction detail (screwed vs. bolted frames) appears fabricated with false source attribution; the ballast ratio is inconsistently reported (36% vs 41%) and the record cherry-picks figures from two conflicting sources; and several quoted 'reviewer' descriptions of side decks and MOB gear read as AI-generated language not traceable to any real publication. The record is usable for broad characterization of the IP 485 but should not be trusted for any specific numerical claims (cost estimates, exact ventilation counts, stability ratios, refit costs) without independent re-verification.\""
+  },
+  "scores": {
+    "id": "island_packet_485_research",
+    "cold_score": {
+      "value": 62,
+      "confidence": 0.65,
+      "rationale": "Scored over known inputs only (65/100 weight coverage; insulation, keel-step config, and watertight bulkhead removed as unverifiable or fabricated). Heating confirmed (engine heat exchanger + 220V immersion, 25 pts). Inside helm absent — exposed center cockpit confirmed (0/20 pts). Hard cockpit shelter: bimini + dodger only, not hard shelter (5/10 pts). Cold tankage: 300 gal fuel, 300-340 gal water — exceptional (10/10 pts). Raw score 40/65 known weight, renormalized to 62/100. Confidence reflects 35% of rubric inputs missing from verified record.",
+      "basis": "Heating: cold.heating (pjyachts.com, curtisstokes.net); Inside helm absent: cold.inside_helm (curtisstokes.net); Hard shelter partial: tropical.shade (tecsew.com); Cold tankage: performance.tankage (cruisingworld.com specs, iphomeport.com)"
+    },
+    "tropic_score": {
+      "value": 64,
+      "confidence": 0.68,
+      "rationale": "Ventilation/airflow: 4 dorades confirmed (pjyachts.com); specific port/hatch counts removed as unverifiable (source returned 403) — partial credit only (10/20 ventilation, 9/15 airflow). Shade: bimini and dodger confirmed via Tecsew custom product listing (12/15). Refrigeration: dual Frigoboat top-loading fridge/freezer confirmed on multiple listings (15/15). Watermaker: optional not standard — documented on some vessels only; buyer cannot assume present (8/15). Light-air SA/D: both SA/D figures (17.6 CW, 15.81 YachtDatabase) conflict and were removed; cutter rig with staysail + yankee known; heavy displacement (39,000 lb) limits light-air performance — moderate score (10/20). Total 64. Confidence reduced for missing ventilation specifics and disputed SA/D.",
+      "basis": "Refrigeration: tropical.refrigeration (pjyachts.com, curtisstokes.net); Shade: tropical.shade (tecsew.com); Watermaker: tropical.watermaker (pjyachts.com, curtisstokes.net); Airflow partial: pjyachts.com dorade count; SA/D: removed (cruisingworld.com and yachtdatabase.com conflict); Rig type: heavy_weather.cutter_staysail (wellfoundyachts.com, curtisstokes.net)"
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.72,
+      "rationale": "AVS not published by manufacturer in any accessible source — AVS scoring path cannot be applied. CE Category A (Ocean) is confirmed at 0.9 confidence from Grabau International listing quoting the CE certification directly. Rubric: CE Category A → 80. Confidence modestly reduced from 0.9 to 0.72 because CE Category A confirms the vessel meets the design standard for ocean use but does not independently verify the angular stability limit; no AVS figure, no STIX, and no sail-area-to-displacement ratio that could serve as a secondary check (both SA/D values conflict and were removed). Ballast ratio is 0.36-0.41 depending on source — healthy range for a full-keel cruiser but ratio alone does not determine AVS. Full-foil encapsulated keel with no external bolts is a positive structural note but does not change the rubric calculation.",
+      "basis": "stability.ce_category (grabauinternational.com — CE Category A certified, confidence 0.9); stability.avs (not published, confirmed by yachtdatabase.com cross-check); stability.stix (not published); stability.keel_type (pjyachts.com — full foil encapsulated lead)"
+    },
+    "storm_verdict": {
+      "text": "Insufficient sourced data. The only heavy-weather characterization in the verified record is vague broker marketing language ('proven circumnavigator,' 'true world-cruising pedigree') from the Curtis Stokes Sweet Dream listing — this is not a sourced storm or passage report. The claim of two World ARC circumnavigations was flagged as an embellishment of that broker copy and removed from the verified facts. The Cruising World review references the design philosophy of the IP 485 as a heavy-displacement bluewater cruiser but no storm performance data, sea-state limits, or documented incident accounts were accessible in any source that loaded. No owner forum posts with specific heavy-weather accounts, no delivery logs, and no offshore race or rally reports appear in the verified record.",
+      "confidence": 0.95,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 80300,
+      "total_high_usd": 213000,
+      "by_item": [
+        {
+          "system": "Standing rigging (wire, turnbuckles, chainplates, inner forestay)",
+          "low": 12000,
+          "high": 22000,
+          "note": "19-20 yr boat is past the 15-20 yr interval. Cutter rig adds inner forestay and staysail stay. Cable Loft confirmed they specialize in IP 485 rigging. Upper end reflects full chainplate inspection and re-bed. Cost range is our estimate — no sourced price figure verified."
+        },
+        {
+          "system": "Running rigging (halyards, sheets, furling lines)",
+          "low": 2000,
+          "high": 6000,
+          "note": "Past 8-10 yr service interval at ~19-20 yrs. In-mast furling adds dedicated furling line that is subject to wear."
+        },
+        {
+          "system": "Sails (in-mast main, yankee headsail, self-tacking staysail)",
+          "low": 18000,
+          "high": 45000,
+          "note": "Three-sail cutter inventory confirmed (North Sails yankee + staysail documented, Mack Sails in-mast furling main documented). At 19-20 yrs all sails likely past 8-12 yr interval. In-mast main is more expensive to replace than standard due to Leisure Furl or equivalent batten-less requirement."
+        },
+        {
+          "system": "Engine service — Yanmar 110 hp (4JH3-HTE or 4JH4-HI)",
+          "low": 3000,
+          "high": 25000,
+          "note": "Major service (belts, impeller, hoses, heat exchanger, zincs, alignment) at low end. High end covers partial repower scenario if engine hours are high (no hours figure in verified record). Full repower not assumed until hours confirmed — standard interval is 25-30 yr or ~8,000-10,000 hrs."
+        },
+        {
+          "system": "Electronics (chartplotter, AIS, radar, VHF, autopilot, instruments)",
+          "low": 8000,
+          "high": 30000,
+          "note": "19-20 yr boat is past the 10-15 yr electronics interval. Raymarine systems documented but generation varies widely by vessel. Full navigation suite replacement assumed; high end includes radar, AIS transponder, SSB/Iridium, and autopilot controller upgrade."
+        },
+        {
+          "system": "Battery bank and charging (house + start batteries)",
+          "low": 5000,
+          "high": 20000,
+          "note": "At 19-20 yrs any original AGM bank is well past 6-10 yr life. Sweet Dream had 6x Group-27 Lifeline AGMs replaced 2022-2023 — a refit buyer should budget for this regardless. High end adds lithium upgrade with BMS and shore-power charger replacement."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "Age-appropriate replacement of galvanized or worn chain; windlass service or replacement. Rocna anchor documented on Sweet Dream. IP 485 needs robust tackle given 39,000 lb displacement."
+        },
+        {
+          "system": "Seacocks and thru-hulls",
+          "low": 2000,
+          "high": 6000,
+          "note": "19-20 yr vessel approaching but not yet at 25 yr full replacement interval. Budget for inspection, service, and replacement of any galled or corroded valves. Full haul-out required."
+        },
+        {
+          "system": "Liferaft and safety gear (flares, EPIRB, harnesses, tether)",
+          "low": 4000,
+          "high": 12000,
+          "note": "Safety equipment is time-critical (flare expiry, EPIRB battery, liferaft hydrostatic release). No service dates in verified record. Full passage-ready safety kit budgeted."
+        },
+        {
+          "system": "Canvas (bimini, dodger, sail covers, cockpit enclosure)",
+          "low": 4000,
+          "high": 12000,
+          "note": "Bimini and dodger confirmed present (Tecsew custom product + Curtis Stokes listing). At 19-20 yrs all canvas past the 10-15 yr interval. Replacement bimini and dodger set for a 48-ft center cockpit cutter runs at high end of range."
+        },
+        {
+          "system": "Watermaker (if absent — not standard equipment)",
+          "low": 0,
+          "high": 15000,
+          "note": "Watermaker is optional, not standard. If present (documented on some vessels at 60 L/hr Dessalator or 15 GPH Aqua Base), service/membrane replacement only ($1k-$3k). If absent, full installation budgeted at $6k-$15k. Range shown as 0 low because some vessels already have it."
+        },
+        {
+          "system": "Aluminum fuel tank inspection and possible replacement",
+          "low": 2000,
+          "high": 12000,
+          "note": "IP 485-specific documented issue per IPYOA forum — factory replacement program ~$10,000. Low end covers professional inspection + cleaning + treatment if corrosion is early-stage. High end covers full replacement per factory program estimate. Water and holding tanks are fiberglass (not aluminum) per verified source — only fuel tank at risk."
+        },
+        {
+          "system": "Electrical system (contacts, wiring, switches, fuse boxes)",
+          "low": 2000,
+          "high": 6000,
+          "note": "Salt-air corrosion of contacts, fuse boxes, light sockets, and wiring is a documented common IP issue per Life of Sailing. Range covers inspection, re-termination, and replacement of corroded components. High end covers partial rewire of engine room and nav station."
+        },
+        {
+          "system": "Port lights and deck seals",
+          "low": 1500,
+          "high": 4000,
+          "note": "Documented model-specific issue — some builds used screws instead of bolts for port lights causing fiberglass cracking. Inspection and re-fastening or replacement with properly bolted units. High end includes any fiberglass crack repair."
+        }
+      ],
+      "assumptions": "Age basis: production run 2005-2016; applying rubric to a representative ~2006-2008 vessel at 18-20 years old as of 2026. All cost ranges are our estimates — no specific cost figures for IP 485 standing rigging, sails, or in-mast furling service were verified from sourced pages (Cable Loft page has no pricing; Calliope listing returned empty page; Landau Marine was video content). Engine repower not assumed at this age; service budget only unless hours are confirmed high. Watermaker low end set to $0 because it is optional and may already be present. Deck core water intrusion (documented issue) not separately line-itemed because severity is survey-dependent — a surveyor finding soft spots would add $5k-$25k to the projection. Factory closure (March 2016) means parts sourcing relies on islandpacketparts.com / Mack Yacht Services for IP-specific items."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Aluminum fuel tank condition report before any offshore passage",
+        "category": "Safety / Pre-departure inspection",
+        "why": "Documented IP 485-specific corrosion issue confirmed by IPYOA forum; factory offered a ~$10,000 replacement program. At 19-20 yrs, tank integrity cannot be assumed without inspection. Water pooling at the bottom of the tank accelerates internal corrosion — a compromised tank offshore creates both fuel-contamination and fire risk."
+      },
+      {
+        "item": "Spare Frigoboat compressor (or full rebuild kit) for both fridge and freezer units",
+        "category": "Provisioning / Spares",
+        "why": "Dual Frigoboat top-loading units are confirmed standard equipment. Frigoboat compressors are proprietary and specific parts can be difficult to source outside Europe and major US marinas. With two units running, the statistical likelihood of a compressor failure on passage justifies carrying one spare unit or a comprehensive rebuild kit (valves, start capacitor, relay)."
+      },
+      {
+        "item": "Hoyt self-tacking boom service parts (pivot bearings, traveler car, control line)",
+        "category": "Provisioning / Spares",
+        "why": "Hoyt self-tacking boom on the inner staysail is confirmed (Curtis Stokes Sweet Dream listing). The Hoyt system uses specific bearings and traveler components that are not interchangeable with generic hardware. Hoyt Manufacturing availability has historically been inconsistent; carry spares for the pivot points and traveler car before passage."
+      },
+      {
+        "item": "In-mast furling system spares: lower drum seal kit, furling line, masthead swivel inspection",
+        "category": "Provisioning / Spares",
+        "why": "In-mast furling main confirmed (Mack Sails in-mast furling documented). In-mast systems are the most failure-critical sail system on the boat — a jammed furler offshore leaves the mainsail either fully deployed or fully stowed with no intermediate option. Carry drum seal kit, a full-length spare furling line, and confirm masthead swivel condition before departure."
+      },
+      {
+        "item": "Electrical contact cleaner, marine-grade tinned wire, heat-shrink terminals (bulk supply)",
+        "category": "Provisioning / Spares",
+        "why": "Salt-air corrosion of contacts, fuse boxes, and wiring is a documented, common IP issue (Life of Sailing). On a 19-20 yr boat, any electrical fault offshore is likely corrosion-related. Bulk supply of Deoxit D5, tinned 16-18 AWG wire, and sealed butt connectors allows field repair of most switch and instrument failures without marina access."
+      },
+      {
+        "item": "Source parts account at islandpacketparts.com (Mack Yacht Services, Stuart FL) before departure",
+        "category": "Logistics / Parts sourcing",
+        "why": "Island Packet factory closed March 2016. islandpacketparts.com (operated by Mack Yacht Services / Bellatrix Marine LLC) is the confirmed successor parts source for hard-to-find IP-specific items including chainplate kits. Establish an account and pre-order any known-needed IP-specific parts (chainplates, deck hardware, companionway seals) before leaving for a remote cruising area."
+      },
+      {
+        "item": "Cutter rig inner forestay (staysail stay) spare toggle and turnbuckle",
+        "category": "Provisioning / Spares",
+        "why": "Cutter configuration with inner forestay confirmed (wellfoundyachts.com, curtisstokes.net). The staysail stay and its attachment hardware are the third rig component and carry significant load when the staysail is deployed in heavy air — which is exactly when the cutter rig is most useful. A failed toggle on the inner stay offshore would require immediate improvisation. Carry a matching spare toggle and turnbuckle sized to the stay."
+      },
+      {
+        "item": "Port light fastener inspection and replacement kit (stainless M5/M6 bolts with backing plates)",
+        "category": "Pre-departure inspection / Spares",
+        "why": "Documented IP 485 model-specific defect — some builds used screws instead of through-bolts for port light installation, causing fiberglass cracking under dynamic loads (Life of Sailing). Before bluewater passage, inspect all port light fasteners. Carry replacement stainless bolts with appropriately sized backing plates sized to the IP 485 port light frame dimensions for any that need correction at sea."
+      }
+    ]
+  }
+}

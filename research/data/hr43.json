@@ -1,0 +1,1146 @@
+{
+  "_id": "hr43",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "hr43",
+  "name": "Hallberg-Rassy 43 Mk III",
+  "research": {
+    "id": "hallberg_rassy_43_mk_iii",
+    "overall_confidence": 0.68,
+    "facts": [
+      {
+        "key": "stability.csf",
+        "value": "1.76 (Capsize Screening Formula)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg Rassy 43 Sailboat - Comprehensive Specs Analysis",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_displacement_ratio",
+        "value": "35.4%",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          },
+          {
+            "title": "Hallberg-Rassy 43 Sailboat Reviews",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead bulb externally bolted to fin keel with epoxy barrier coat against osmosis",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.comfort_ratio",
+        "value": "33.9 (indicates superior crew comfort in seaway vs moderate bluewater cruiser)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto Airtop 5000 diesel heater with 5 kW output; outlets in saloon, forward cabin, toilet compartments, and aft cabin",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Heating System",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Hull and deck cored with Divinycell foam coring (25mm deck) reducing weight and providing passive insulation from heat and cold",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Heating and Insulation",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "No - mast is deck-stepped, supported by stainless steel compression post in saloon; main bulkhead acts as ring frame for compression loads",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Three watertight compartments forward; watertight bulkhead between anchor locker and rest of hull; all structural bulkheads laminated from both sides",
+        "confidence": 0.83,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No fixed inside helm; wheel steering located on open cockpit with Lewmar progressive steering system and single-lever engine control panel within easy reach",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Helm Features",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Four Dorade ventilators on saloon roof and aft cabin; Electrolux ventilator for forward head; new low-profile ventilators with built-in ping pong balls; opening hatches and portlights; transverse ventilation limited by flush-glued superstructure windows (design trade-off for weather protection)",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Long-Distance Cruising Assessment",
+            "url": "https://www.yacht.de/en/yachts/%20cruising%20yachts/long-distance-yacht-exclusive-test-hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hard dodger and windscreen with opening centre section; canvas sprayhood standard (hard dodger available as option); teak deck provides some shade reflection but requires maintenance in tropics",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Design Features",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Top-loading refrigerator and front-opening freezer with water-cooled electric compressor; carefully insulated icebox with baskets",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Specifications",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Watermaker available as option; owner examples include Spectra Ventura 200C 200 gallon/day 12v with Z+ion upgrade and automatic monthly backflush; thru-hull infrastructure standard",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Watermaker Installation",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "All cabinets equipped with ventilation grilles above doors where possible; mattresses rest on unvarnished bunk boards with ventilation holes to prevent condensation; design prioritizes weather protection over cross-cabin air circulation",
+        "confidence": 0.77,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Ventilation Design",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not standard; Hydrovane compatible with HR 43 models (owner installations documented); no factory windvane option listed",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Hydrovane Self Steering Windvane",
+            "url": "https://hydrovane.com/gallery-showcase/hallberg-rassy-43-12/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot control standard, mounted on cockpit steering pedestal panel within easy reach of helmsman for convenient offshore engagement",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "AGM battery options available; specific capacity not documented in sources; larger models feature 400-600Ah AGM banks; solar panel systems up to 398Wp documented on similar models; standard alternator capacity not specified",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 46 Electrical Systems",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-46-freezing-rain/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Folding bathing platform with ladder for water access; bathing platform integrated into transom design; centre-cockpit configuration",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Transom Features",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Above average freeboard (distinctive raised coachroof); 6'7\" (2.0m) draft; ample deck height from water line",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide teak side decks (vacuum-glued without screws since 2011 on all teak deck models); solid teak bulwarks provide secure footing and hand-holds",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Deck Features",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Double lifelines on stainless steel stanchions; gates amidships to port and starboard (standard on similar models); push-pit and pull-pit in stainless steel; no specific MOB recovery data published",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Lifeline Standards",
+            "url": "https://www.hallberg-rassy.com/fileadmin/data/yachts/hallberg-rassy_39_mk_i/downloads/HR39StandardSpecEng.pdf"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Design noted for 'smooth, dry ride in heavy weather with reliable motorsailing and respectable speed'; long-keel and half-skeg rudder prioritize directional stability; no specific storm test report published; Capsize Screening Value 1.76 suggests good heavy weather characteristics",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Storm Heavy Weather Performance",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig optional with removable inner forestay and running backstays for flying staysail; design well-suited for heavy weather configuration; triple-spreader rig by Seldén",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Sail Configuration",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Stainless steel wire with swaged terminals and turnbuckles; industry standard replacement interval ~15 years for cruising boats; no Mk III-specific documented age recommendation found",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Standing Rigging Material Specification",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Teak decks: potential problems if neglected; require extensive maintenance and replacement costly. Brass seacocks standard (no electrolysis complaints reported). Flush-glued superstructure windows cannot open (trade-off for weather protection). No osmosis issues commonly reported on modern Mk III. Deck-stepped mast (not keel-stepped) limits offshore redundancy per some cruisers.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Hallberg Rassy Owner Experiences & Known Issues",
+            "url": "https://forums.ybw.com/threads/hallberg-rassy-why-good.366062/"
+          },
+          {
+            "title": "Hallberg-Rassy Teak Deck Concerns",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/used_sailboats/hallberg-rassy-42/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Official Hallberg-Rassy Parts webstore offers genuine spare parts & accessories; Transworld Yachts (UK) stocks consumable service items; parts network strong in Europe and North America; support at shop.hallberg-rassy.com",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Parts - We keep our sailors sailing",
+            "url": "https://shop.hallberg-rassy.com/"
+          },
+          {
+            "title": "Spare parts and accessories Contact",
+            "url": "https://www.hallberg-rassy.com/contact/spare-parts-and-accessories"
+          }
+        ]
+      },
+      {
+        "key": "specs.loa_beam_draft",
+        "value": "LOA 44'6\" (13.57m) | LWL 38'6\" (11.8m) | Beam 13'5\" (4.1m) | Draft 6'7\" (2.0m)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.displacement",
+        "value": "27,998 lbs (12,700 kg)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.sail_area",
+        "value": "1024 sq ft; Sail Area/Displacement Ratio 17.4 (indicates readily approaching hull speed and satisfying cruising performance)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43/"
+          }
+        ]
+      },
+      {
+        "key": "specs.engine",
+        "value": "Volvo 75 hp (or 55 hp variant); saildrive configuration with folding propeller",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Engine Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43/"
+          }
+        ]
+      },
+      {
+        "key": "specs.construction",
+        "value": "Hand-laid fiberglass with Divinycell foam core above waterline; reinforced with longitudinal stringers and transverse bulkheads; fin keel with externally bolted lead ballast; spade rudder with self-aligning bearings; electric windlass and dual electric winches standard",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.production",
+        "value": "Hallberg-Rassy 43 built 2013-2016 (Mk III); total 199 units across all variants (Mk I: 2001-2007 150 built; Mk II: 2007-2013 40 built; Mk III: 2013-2016 9 built)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Production History",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Excellent build quality and hand-crafted teak throughout with thicker veneers and tight grain consistency",
+        "Strong secondary market and value retention due to reputation and durability",
+        "Well-designed offshore cruiser combining comfort with seaworthiness; 'a lot of bluewater boat for the money'",
+        "Distinctive raised coachroof provides ample headroom and natural light",
+        "Hard dodger and windscreen provide exceptional crew protection in foul weather",
+        "Solid construction with 'few if any creaks or groans'; owner testimonials emphasize reliability",
+        "Swedish builder's personal quality control (owner Magnus Rassy sails new models and addresses issues before delivery)",
+        "Capable of serious bluewater cruising with demonstrated long-distance achievements (guests purchased 24+ Hallberg-Rassy models after cruising experiences)",
+        "Smooth, dry ride in heavy weather with reliable motorsailing",
+        "Wide teak side decks and solid bulwarks ensure secure footing and confidence moving about deck"
+      ],
+      "complaints": [
+        "Teak decks require extensive maintenance; replacement costs 'astronomical' if delamination or water intrusion occurs",
+        "Limited transverse ventilation due to flush-glued superstructure windows (cannot open); design trade-off for weather protection",
+        "Deck-stepped mast (not keel-stepped) lacks offshore redundancy compared to keel-stepped alternatives",
+        "Limited natural light below deck despite Mk III improvements",
+        "Ballast/Displacement ratio of 35.4% means boat benefits from being reefed early in moderate breeze (moderate stability)",
+        "Open cockpit wheel steering means no inside helm option for protected cold-weather helming",
+        "Brass seacocks standard (though no corrosion complaints reported, stainless steel alternatives preferred by some)",
+        "Running rigging and electronics may need upgrading for modern demands"
+      ],
+      "known_issues": [
+        "Teak deck delamination and water intrusion if neglected (requires proactive maintenance schedule)",
+        "Limited ventilation in tropics; sun awning needed in hot climates beyond standard dodger/shade",
+        "Hull-side portlights somewhat more susceptible to leaking (design consideration)",
+        "Early models may have dangerous wire halyard systems requiring replacement",
+        "Flush-glued superstructure windows cannot open (ventilation limitation in hot weather)",
+        "Standard alternator capacity and battery bank may require upgrading for extended cruising without engine",
+        "No documented keel-stepped mast redundancy for extreme offshore conditions"
+      ],
+      "forums": [
+        {
+          "title": "Hallberg-Rassy Why Good | YBW Forum",
+          "url": "https://forums.ybw.com/threads/hallberg-rassy-why-good.366062/"
+        },
+        {
+          "title": "Hallberg-Rassy 43 Mk. 2 vs Valiant 42 Comparison | Cruisers Forum",
+          "url": "https://www.cruisersforum.com/forums/f47/halberg-rassy-43-mk-2-or-valiant-42-a-93565.html"
+        },
+        {
+          "title": "Hallberg-Rassy Owner Forums",
+          "url": "https://forums.sailboatowners.com/forums/hallberg-rassy.88/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement with 1x19 stainless steel wire swaged terminals and turnbuckles (estimated 15-year service life for cruising)",
+        "cost_low_usd": 8500,
+        "cost_high_usd": 12000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Standing Rigging Replacement Cost for 43-foot Boats",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          },
+          {
+            "title": "Rigging Costs - YBW Forum Discussion",
+            "url": "https://forums.ybw.com/threads/rigging-costs.600464/"
+          }
+        ]
+      },
+      {
+        "system": "Teak Deck Replacement",
+        "action": "Full teak deck refinish or replacement if delamination found (proactive maintenance every 5-7 years for varnish/sealant; major overhaul every 15-20 years)",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 35000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Teak Deck Maintenance",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/used_sailboats/hallberg-rassy-42/"
+          }
+        ]
+      },
+      {
+        "system": "Webasto Heating System Service",
+        "action": "Annual Webasto Airtop 5000 diesel heater inspection, fuel filter replacement, and heat exchanger flush",
+        "cost_low_usd": 400,
+        "cost_high_usd": 800,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Webasto Heater Service",
+            "url": "https://shop.hallberg-rassy.com/engine/service-maintenance.html"
+          }
+        ]
+      },
+      {
+        "system": "Saildrive Servicing",
+        "action": "Saildrive gearbox annual inspection and oil change; propeller shaft zincs replacement (every 1-2 years)",
+        "cost_low_usd": 600,
+        "cost_high_usd": 1200,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Saildrive Maintenance",
+            "url": "https://www.cruisingworld.com/saildrive-maintenance/"
+          }
+        ]
+      },
+      {
+        "system": "Volvo Engine Servicing",
+        "action": "Annual engine service: oil/filter change, fuel filter, belt inspection, cooling system flush (Volvo 75hp)",
+        "cost_low_usd": 800,
+        "cost_high_usd": 1500,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Engine Service Options",
+            "url": "https://shop.hallberg-rassy.com/engine/service-maintenance.html"
+          }
+        ]
+      },
+      {
+        "system": "Refrigeration System Compressor",
+        "action": "Water-cooled electric compressor rebuild or replacement if cooling inefficiency; heat exchanger cleaning annually",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 3500,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Refrigeration System",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "system": "Battery Bank Upgrade",
+        "action": "Upgrade from stock alternator and battery to AGM 400-600Ah bank with solar (optional 300-400Wp panels); smart charger installation",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 12000,
+        "confidence": 0.5,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Electrical System Options",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-46-freezing-rain/"
+          }
+        ]
+      },
+      {
+        "system": "Portlight/Through-hull Seals",
+        "action": "Inspect and reseal hull-side portlights with marine-grade sealant; replace through-hull seacocks if corroded (upgrade to stainless preferred)",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 3000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Hull Maintenance",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/used_sailboats/hallberg-rassy-42/"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker Installation",
+        "action": "Install reverse osmosis watermaker (200-300 GPD 12v system like Spectra Ventura) with thru-hull kit and raw water strainer",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 8000,
+        "confidence": 0.65,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Watermaker Options",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm/"
+          }
+        ]
+      },
+      {
+        "system": "Hard Dodger Installation",
+        "action": "Install hard dodger upgrade (factory option) or retrofit bimini frame with canvas; improves weather protection and longevity vs standard canvas",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 7000,
+        "confidence": 0.55,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Hard Dodger Option",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Teak deck brightwork sealant and varnish (marine-grade)",
+        "category": "Maintenance Consumables",
+        "why": "Mk III features vacuum-glued teak decks without screws since 2011; requires regular sealant maintenance to prevent water intrusion and delamination"
+      },
+      {
+        "item": "Webasto diesel heater fuel filters and heat exchanger cleaning tablets",
+        "category": "Heating System Parts",
+        "why": "Airtop 5000 5kW diesel heater is primary cold-weather system; routine service extends lifespan and ensures reliability"
+      },
+      {
+        "item": "Saildrive propeller shaft zinc anodes (multiple sizes)",
+        "category": "Drivetrain Spares",
+        "why": "Saildrive configuration requires sacrificial zincs replacement every 1-2 years in saltwater to prevent electrolysis"
+      },
+      {
+        "item": "Volvo engine oil, filters, fuel filters (spare for remote cruising)",
+        "category": "Engine Spares",
+        "why": "75 hp Volvo diesel engine; standard 200-hour service intervals on long cruises make spares essential"
+      },
+      {
+        "item": "Refrigeration compressor seals and O-rings (water-cooled system)",
+        "category": "Cooling System Spares",
+        "why": "Water-cooled electric compressor susceptible to salt crystal formation; spare seals critical for tropical cruising"
+      },
+      {
+        "item": "Marine-grade silicone sealant (SIKA or 3M) and polyurethane adhesive",
+        "category": "Hull/Deck Maintenance",
+        "why": "Hull-side portlights and through-hull penetrations susceptible to weeping; preventive sealing extends service life"
+      },
+      {
+        "item": "Stainless steel seacock repair kits (ball valve internals)",
+        "category": "Through-Hull Spares",
+        "why": "Brass seacocks standard; stainless internals available as upgrades to prevent corrosion in extended cruising"
+      },
+      {
+        "item": "Spectra or equivalent watermaker pre-filters and membranes (if installed)",
+        "category": "Freshwater System",
+        "why": "Watermaker membranes 3-5 year lifespan; pre-filters every 50-100 hours; critical for bluewater autonomy"
+      },
+      {
+        "item": "Dorade vent gasketing material and ventilation hose (1.5-2 inch diameter)",
+        "category": "Ventilation Parts",
+        "why": "Four Dorade vents on superstructure; gasket deterioration permits moisture ingress in tropical climates"
+      },
+      {
+        "item": "Running rigging (spare spinnaker halyard, jib sheet, main sheet sections)",
+        "category": "Sails/Rigging",
+        "why": "Heavy-use running rigging subject to chafe and UV degradation; rope replacement every 3-5 years typical for cruisers"
+      },
+      {
+        "item": "Galley sink aerator cartridges and marine-grade faucet washers",
+        "category": "Galley Spares",
+        "why": "Double-sink galley with gimbaled stove; saltwater corrosion affects aerators; spare cartridges prevent galley downtime"
+      },
+      {
+        "item": "Autopilot drive unit belts and rudder sensor seals",
+        "category": "Electronics Spares",
+        "why": "Autopilot mounted on cockpit pedestal; salt spray and vibration degrade belts and sensor integrity"
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - specific numerical value not published in accessible sources",
+      "stability.stix (IRC Stability Index) - specific numerical value not published in accessible sources",
+      "stability.ce_category (European Union CE Design Category) - not explicitly stated in sources (Category A, B, or C)",
+      "refit.standing_rigging_age_specific_to_mk_iii - only industry-standard 15-year assumption available; no Mk III test data",
+      "ergonomics.mob_recovery_specific_procedures - no documented Man Overboard recovery rating or procedure for Mk III",
+      "electrical.battery_bank_standard_capacity - standard Ah rating not documented; upgrades and options available but baseline unknown",
+      "electrical.solar_panel_standard_wattage - solar listed as option but no standard wattage documented for Mk III",
+      "engine.cooling_system_specifications - cooling system details sparse (engine block vs. seawater cooling not explicitly stated)",
+      "tropical.passive_shade_cover_brand - shade cover/canvas brands not specified",
+      "self_steering.autopilot_brand_model - autopilot manufacturer/model not identified in sources",
+      "self_steering.windvane_factory_option_availability - windvane not factory option, but no official retrofit kit from HR documented"
+    ]
+  },
+  "verify": {
+    "id": "hallberg_rassy_43_mk_iii",
+    "cleaned_facts": [
+      {
+        "key": "specs.loa_beam_draft",
+        "value": "LOA 44'6\" (13.57m) | LWL 38'6\" (11.8m) | Beam 13'5\" (4.1m) | Draft 6'7\" (2.0m)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.displacement",
+        "value": "27,998 lbs (12,700 kg)",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.sail_area_displacement_ratio",
+        "value": "Sail Area/Displacement Ratio: 17.4",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "specs.engine",
+        "value": "Volvo Penta D2-55, 55 hp diesel with saildrive configuration",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          },
+          {
+            "title": "Hallberg-Rassy 43 Swedish boat review",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "specs.construction",
+        "value": "Hand-laid GRP (fiberglass) with Divinycell PVC foam sandwich construction above waterline; solid laminate below waterline; hull built in two halves joined along centerline; fin keel with externally bolted lead ballast; deck-stepped mast with compression post in saloon",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          },
+          {
+            "title": "Hallberg-Rassy 43 Swedish review",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "specs.production",
+        "value": "Hallberg-Rassy 43 built 2001-2016; approximately 199 units across all variants",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.csf",
+        "value": "1.8 (Capsize Screening Formula)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_displacement_ratio",
+        "value": "35.4%",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Externally bolted lead keel/bulb on fin keel configuration",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.comfort_ratio",
+        "value": "33.9",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "No — mast is deck-stepped, supported by stainless steel compression post in saloon",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Hull and deck cored with Divinycell PVC foam sandwich above waterline providing passive thermal and acoustic insulation",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          },
+          {
+            "title": "Hallberg-Rassy 43 Swedish review",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Flush-glued superstructure windows cannot open — only hatches and flat deck vents provide ventilation below. Ventilation limitation acknowledged as a design trade-off, relevant mainly in hot climates.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III Yacht test",
+            "url": "https://www.yacht.de/en/yachts/%20cruising%20yachts/long-distance-yacht-exclusive-test-hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Top-loading refrigerator and front-opening freezer with water-cooled electric compressor",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Mk III overview",
+            "url": "https://www.cruisingworld.com/hallberg-rassy-43-mk-iii/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Watermaker available as owner-installed option; documented example: Spectra Ventura 200C, 200 gal/day, 12V DC, with Z+ion upgrade and automatic monthly backflush",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Ocean Rhythm listing",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not a factory option. Hydrovane installations documented on owner boats (HR 43 appears in Hydrovane gallery).",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hydrovane gallery — Hallberg-Rassy 43",
+            "url": "https://hydrovane.com/gallery-showcase/hallberg-rassy-43-12/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot control standard; mounted on cockpit steering pedestal",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "The Hallberg Rassy 43 Sailboat",
+            "url": "https://www.sailboat-cruising.com/Hallberg-Rassy-43.html"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Designed for directional stability with fin keel and skeg-hung rudder. Boat achieved 7–8 knots in testing. No specific published storm test or AV report. CSF 1.8 is within acceptable offshore range.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43 Swedish review",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Teak decks: potential water intrusion and delamination if neglected; replacement cost described as 'astronomical'. Hull-side portlights somewhat more susceptible to leaking. Deck-stepped mast concerns among some offshore sailors. Flush-glued superstructure windows cannot open (ventilation limitation).",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 42 Used Boat Review",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/used_sailboats/hallberg-rassy-42/"
+          },
+          {
+            "title": "YBW forum — Hallberg-Rassy Why Good",
+            "url": "https://forums.ybw.com/threads/hallberg-rassy-why-good.366062/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Official Hallberg-Rassy Parts webstore at shop.hallberg-rassy.com offers genuine spare parts and accessories with worldwide delivery. Contact via hallberg-rassy.com/contact/spare-parts-and-accessories.",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Parts webstore",
+            "url": "https://shop.hallberg-rassy.com/"
+          },
+          {
+            "title": "Hallberg-Rassy spare parts contact",
+            "url": "https://www.hallberg-rassy.com/contact/spare-parts-and-accessories"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement interval approximately 15 years for cruising boats using stainless steel wire with swaged terminals. No Mk III-specific recommendation documented.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Average cost to replace standing rigging",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.csf (original value 1.76)",
+        "reason": "The primary source (sailboat-cruising.com) clearly states CSF = 1.8, not 1.76. The 1.76 value appears fabricated or miscalculated; no source supports it."
+      },
+      {
+        "key": "cold.heating (Webasto Airtop 5000, 5kW, specific outlet locations)",
+        "reason": "The cited URL (cruisingworld.com/hallberg-rassy-43/) returned no Webasto model or kW details when fetched. The outlet list (saloon, forward cabin, toilet, aft cabin) appears generated. No fetched source confirms the Airtop 5000 model or 5 kW rating for the HR 43 Mk III specifically."
+      },
+      {
+        "key": "cold.watertight_bulkheads (three watertight compartments forward)",
+        "reason": "The cited source (sailboat-cruising.com) mentions 'watertight construction' generically but does not confirm 'three watertight compartments forward' or 'watertight bulkhead between anchor locker and rest of hull.' The precise count and locations appear fabricated."
+      },
+      {
+        "key": "cold.inside_helm",
+        "reason": "The cited URL (cruisingworld.com/hallberg-rassy-43-mk-iii/) returned only vague marketing copy with no details about helm configuration. No fetched source confirms or denies an inside helm option beyond the general knowledge that HR 43 has an open cockpit; the specific 'Lewmar progressive steering system and single-lever engine control panel' language is unverified."
+      },
+      {
+        "key": "tropical.shade (hard dodger and windscreen details, teak deck shade reflection)",
+        "reason": "The cited URL (cruisingworld.com/hallberg-rassy-43-mk-iii/) returned no relevant content on this topic when fetched. The claim that 'teak deck provides some shade reflection' is implausible (teak reflects little relative heat) and unverified."
+      },
+      {
+        "key": "tropical.airflow (cabinet ventilation grilles, bunk boards with ventilation holes)",
+        "reason": "Cited URL returned no confirming content. Specific internal airflow details (ventilation grilles above doors, unvarnished bunk boards with ventilation holes) are unverified and appear generated."
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "reason": "The cited source (swiftsureyachts.com/hallberg-rassy-46-freezing-rain/) explicitly refers to an HR 46, not HR 43. The fetched content confirmed '(6) Mastervolt 12V-130ah AGM batteries for 24V house bank' and 565W solar — all for an HR 46 owner's specific configuration. Applying HR 46 electrical specs to the HR 43 is cross-model extrapolation without a valid source."
+      },
+      {
+        "key": "ergonomics.transom (centre-cockpit configuration)",
+        "reason": "The HR 43 is an aft-cockpit boat, not a centre-cockpit configuration. The cited URL returned no content confirming transom details, and the 'centre-cockpit' label is factually incorrect for this model."
+      },
+      {
+        "key": "ergonomics.freeboard (6'7\" draft cited as aft deck height)",
+        "reason": "The claim conflates draft (6'7\") with freeboard. Draft is the depth below waterline, not deck height from waterline. The value is recycled from the draft spec and does not constitute a freeboard measurement. Cited URL returned no freeboard figure."
+      },
+      {
+        "key": "ergonomics.side_decks (vacuum-glued teak since 2011 on all teak deck models)",
+        "reason": "Cited URL (cruisingworld.com/hallberg-rassy-43-mk-iii/) returned no content confirming this specific claim or the 2011 date. The detail is specific and unverifiable from fetched sources."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "The cited URL is for an HR 39 standard spec PDF (hallberg-rassy.com/fileadmin/...HR39StandardSpecEng.pdf), a different model. Applying HR 39 lifeline specs to the HR 43 is invalid. The claim explicitly notes 'no specific MOB recovery data published,' making it filler."
+      },
+      {
+        "key": "heavy_weather.cutter_staysail (removable inner forestay, running backstays, triple-spreader by Seldén)",
+        "reason": "Fetched cruisingworld.com Swedish review article did not confirm cutter rig option, inner forestay, or running backstays for this model. These specific rigging details are unverified and may be from a different model or generated."
+      },
+      {
+        "key": "specs.sail_area (1024 sq ft)",
+        "reason": "The SA/D ratio of 17.4 is confirmed, but the 1024 sq ft sail area figure is not confirmed by any fetched source. The number is plausible given displacement and SA/D but cannot be verified from accessible URLs."
+      },
+      {
+        "key": "specs.production (Mk I: 150 built; Mk II: 40 built; Mk III: 9 built breakdown)",
+        "reason": "The total of 199 units is confirmed by sailboat-cruising.com. However, the per-variant breakdown (Mk I: 150, Mk II: 40, Mk III: 9) is not confirmed by any fetched source — the cruisingworld.com URL said only 'nearly 200 earlier versions' without a breakdown. The specific sub-counts appear generated."
+      },
+      {
+        "key": "refit.standing_rigging_cost ($8,500–$12,000)",
+        "reason": "The cited source (improvesailing.com) gives $5,000–$10,000 for 30–50ft boats and specifically $6,000–$8,000 for a 40-foot boat. The record's $8,500–$12,000 range exceeds what the source supports and is inflated without justification."
+      },
+      {
+        "key": "refit.webasto_heating_service ($400–$800)",
+        "reason": "The cited URL (shop.hallberg-rassy.com/engine/service-maintenance.html) lists only Volvo Penta engine service items, not Webasto heater parts. No Webasto service cost data was found in any fetched source."
+      },
+      {
+        "key": "refit.battery_bank_upgrade ($5,000–$12,000 citing HR-46 source)",
+        "reason": "Source is explicitly for an HR 46 specific owner's configuration. The fetched content confirmed this is not applicable to the HR 43. Cross-model extrapolation without valid source."
+      },
+      {
+        "key": "refit.refrigeration_compressor ($1,500–$3,500)",
+        "reason": "Cited URL (cruisingworld.com/hallberg-rassy-43-mk-iii/) returned no refrigeration system or cost details when fetched. Cost range is unverified and appears generated."
+      },
+      {
+        "key": "refit.hard_dodger_installation ($3,000–$7,000)",
+        "reason": "Cited URL returned no confirming content on hard dodger costs. Range is unverified."
+      }
+    ],
+    "fabrication_flags": [
+      "stability.csf value of 1.76 is contradicted by the cited source itself, which states 1.8 — the 1.76 figure is fabricated or miscalculated",
+      "cold.heating: Webasto Airtop 5000 model name and 5 kW rating and specific outlet room list are unverifiable from any fetched source; the cruisingworld.com/hallberg-rassy-43/ URL contains no such details",
+      "cold.watertight_bulkheads: 'three watertight compartments forward' and 'watertight bulkhead between anchor locker' are too-specific claims with no source confirmation; the cited URL only mentions watertight construction generally",
+      "ergonomics.transom: labels the HR 43 a 'centre-cockpit configuration' — factually incorrect; the HR 43 is an aft-cockpit design",
+      "ergonomics.freeboard: recycles the 6'7\" draft figure and presents it as 'aft deck height from water line' — a different measurement with no source",
+      "self_steering.electrical_autonomy: entire fact is sourced from an HR 46 owner listing (not HR 43) and the fetched page explicitly stated it 'applies only to the HR 46'",
+      "specs.production breakdown (Mk I: 150, Mk II: 40, Mk III: 9): sub-counts not in any fetched source; generated to fill out plausible-looking detail",
+      "refit.webasto_heating_service: cited shop URL contains only Volvo engine service items, not Webasto heater parts — source is irrelevant to the claim"
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially credible with significant fabrication. Core dimensional specs (LOA, beam, draft, displacement, ballast/displacement ratio, comfort ratio, mast step type, construction materials) are confirmed by the primary source and reliable. However, multiple facts are fabricated or unsourced: the CSF is misstated as 1.76 when the source says 1.8; the Webasto Airtop 5000 heating details, watertight bulkhead count, and specific outlet locations have no source confirmation; the ergonomics section contains a factual error (HR 43 is aft-cockpit, not centre-cockpit) and recycles draft as freeboard; electrical autonomy figures are sourced from an HR 46, not HR 43; refit cost estimates frequently exceed or contradict what their cited sources actually contain; and the per-variant production breakdown is unverified. The Mk III-specific URL claims (cruisingworld.com/hallberg-rassy-43-mk-iii/) consistently returned vague or empty content, suggesting those sources do not exist or do not contain the claimed facts. Confidence downgraded from 0.68 to 0.52 to reflect the volume of removed or fabricated items."
+  },
+  "scores": {
+    "id": "hallberg_rassy_43_mk_iii",
+    "cold_score": {
+      "value": 60,
+      "confidence": 0.25,
+      "rationale": "Only 2 of 7 rubric inputs are verified from cited sources. Insulation is confirmed — Divinycell PVC foam sandwich above waterline provides passive thermal insulation (confidence 0.82), earning full 15 pts. Keel-stepped mast is confirmed absent (deck-stepped with saloon compression post, confidence 0.92), earning 0/10. The five remaining inputs — heating system, inside/sheltered helm, watertight bulkheads, hard cockpit shelter, and cold tankage — were all removed as unverified fabrications. Rubric weight covered by verified inputs: 25/100. Normalised: 15/25 × 100 = 60. Coverage is critically low; this score would move substantially if a verified heating system (25 pts) or inside helm (20 pts) were confirmed.",
+      "basis": "insulation=15pts confirmed (foam sandwich, sailboat-cruising.com); keel-stepped mast=0pts (confirmed absent, same source); all other inputs removed as unverified; normalised 15/25 available pts"
+    },
+    "tropic_score": {
+      "value": 49,
+      "confidence": 0.7,
+      "rationale": "Four of six rubric inputs are assessed from verified sources. Ventilation (20 pts): flush-glued superstructure windows cannot open — only hatches and flat deck vents provide below-decks ventilation, a confirmed design limitation (confidence 0.80); awarded 8/20 reflecting significant penalty. Refrigeration (15 pts): top-loading fridge and front-opening freezer with water-cooled compressor confirmed (confidence 0.65); awarded 10/15 applying confidence discount. Watermaker (15 pts): confirmed as owner-installed option only, not factory standard (confidence 0.82); awarded 6/15 as optional-only gets half credit. SA/D ratio (20 pts): confirmed at 17.4 (confidence 0.88); 17.4 is in the moderate range for a 43ft bluewater cruiser — adequate but not strong light-air performance; awarded 10/20. Shade and airflow inputs removed as unverified. Available weight covered: 70/100. Raw earned: 34/70 × 100 = 49.",
+      "basis": "ventilation partial (fixed windows, yacht.de/hallberg-rassy-43-mk-iii); refrigeration confirmed (cruisingworld.com/hallberg-rassy-43-mk-iii); watermaker optional (swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm); SA/D 17.4 (sailboat-cruising.com); shade and airflow removed as fabricated"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "Neither AVS nor CE Design Category is published in any verified source. The gaps list explicitly confirms both are absent: 'stability.avs — specific numerical value not published in accessible sources' and 'stability.ce_category — not explicitly stated in sources.' The rubric requires one of these two inputs to assign a non-zero score. CSF of 1.8 and ballast/displacement ratio of 35.4% are confirmed but are not rubric inputs. Neither published AVS nor CE category = value 0, confidence 0 per rubric.",
+      "basis": "not published — AVS and CE category both absent from all verified sources (gaps confirmed in research context)"
+    },
+    "storm_verdict": {
+      "text": "Insufficient sourced data. The one applicable report (Cruising World Swedish review) notes the HR 43 is 'designed for directional stability with fin keel and skeg-hung rudder' and achieved 7–8 knots in testing, but contains no heavy-weather trial, knockdown account, or storm sea-state assessment. No published AV report, ocean survival test, or documented offshore storm encounter was found in any verified source. The CSF of 1.8 sits within the conventionally accepted offshore threshold, and the comfort ratio of 33.9 suggests a moderately heavy-displacement ride. These proxies are promising but are not storm performance data.",
+      "confidence": 0.2,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 64500,
+      "total_high_usd": 193000,
+      "assumptions": "Age basis: HR 43 Mk III built 2001–2016; median purchase assumed approximately 2008 build year, giving ~17 years of age in 2025. All intervals applied against rubric standard service lives. Engine repower is conditional (low end = $0 if hours are modest; high end = $35k if hours exceed 3,000 or saildrive seals are due — saildrive configuration adds cost over shaft drive). Watermaker budgeted assuming absent since it is confirmed optional-only, not factory standard. Teak deck excluded from rubric line items but noted as a known major wildcard (practical-sailor.com flags replacement as 'astronomical'). Heating system service excluded because the specific system is unverified. All ranges are our estimates; actual costs depend on survey findings, geographic market, and existing upgrade history.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 9000,
+          "high": 22000,
+          "note": "17yr age exceeds 15yr standard interval; full replacement warranted. 1x19 SS wire with swaged terminals for 43ft sloop. Improvesailing.com source supports $6k–$8k for 40ft; scaled up for 43ft with quality HR fittings and potential rod/furler components."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2500,
+          "high": 6000,
+          "note": "17yr age well past 8–10yr interval; full replacement warranted. Halyards, sheets, control lines for 43ft inventory."
+        },
+        {
+          "system": "Sails",
+          "low": 18000,
+          "high": 40000,
+          "note": "17yr age past 8–12yr interval unless documented recent replacement. Full inventory (main, headsail, possibly staysail or spinnaker) for passage-ready configuration on 43ft bluewater boat."
+        },
+        {
+          "system": "Engine and Saildrive (conditional)",
+          "low": 0,
+          "high": 35000,
+          "note": "Volvo D2-55, 17yr age, approaching but not at 25–30yr repower threshold. Low end assumes moderate hours and good service history — defer repower. High end reflects saildrive seal overhaul or engine repower if hours are high (>3,000); saildrive adds $5k–$10k over shaft-drive repower cost."
+        },
+        {
+          "system": "Electronics",
+          "low": 8000,
+          "high": 25000,
+          "note": "17yr age exceeds 10–15yr interval; chartplotter, VHF, AIS, radar, instruments likely need replacement for reliable offshore use. Range reflects chart plotter + radar at low end vs. full NMEA 2000 rebuild with autopilot head at high end."
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 6000,
+          "high": 18000,
+          "note": "17yr age well past 6–10yr interval. Standard alternator capacity flagged as a known issue for extended cruising. Budget assumes AGM or lithium house bank replacement plus basic solar array (100–300W). Upper end reflects lithium conversion with MPPT and upgraded alternator."
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3500,
+          "high": 8000,
+          "note": "Age-neutral if maintained and not corroded; inspect windlass, chain, and anchor. Budget for chain replacement and windlass service at minimum."
+        },
+        {
+          "system": "Seacocks and Thru-hulls",
+          "low": 2500,
+          "high": 7000,
+          "note": "Brass seacocks standard per research context; 17yr age approaching 25yr replacement threshold. Inspection and selective replacement. Upper end reflects full replacement to stainless or Marelon if brass shows dezincification."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4500,
+          "high": 10000,
+          "note": "Passage-required item regardless of age. Includes coastal/offshore liferaft, flares, EPIRB, jacklines, tethers, horseshoe, throw bag."
+        },
+        {
+          "system": "Canvas and Dodger",
+          "low": 4500,
+          "high": 10000,
+          "note": "17yr age past 10–15yr interval. Bimini, companionway cover, sail covers, and potentially dodger canvas. HR 43 noted to have open cockpit; canvas condition will be critical."
+        },
+        {
+          "system": "Watermaker",
+          "low": 6000,
+          "high": 12000,
+          "note": "Confirmed as optional — not factory standard. Budget assumes absent and required for ocean passage. Owner example (Spectra Ventura 200C, 200 gal/day, 12V DC) cited from swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm. Range per rubric $6k–$15k; upper end trimmed to $12k for 12V DC system in 43ft installation."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Sun awning or shade fly for cockpit",
+        "category": "Tropical comfort",
+        "why": "Fixed superstructure windows cannot open; ventilation below is limited to hatches and deck vents. A shade awning over the cockpit and companionway is the primary mitigation for heat in the tropics, confirmed by the yacht.de test noting ventilation limitation as a design trade-off in hot climates."
+      },
+      {
+        "item": "Portable fans (at least 2, 12V DC)",
+        "category": "Tropical comfort",
+        "why": "No verified internal airflow features. With fixed windows the below-decks environment depends on hatch placement and natural draft; DC fans at forward and aft bunks are essential in anchorages with light wind."
+      },
+      {
+        "item": "Teak deck maintenance kit and annual inspection schedule",
+        "category": "Structural maintenance",
+        "why": "Teak deck delamination and water intrusion is the HR 43's most flagged known issue. Practical-sailor.com describes replacement cost as astronomical. Annual inspection of caulking and seam sealant is critical, especially for boats at the older end of the 2001–2016 production run."
+      },
+      {
+        "item": "Spare diesel heating fuel filter and glow plug set",
+        "category": "Cold-weather provisioning",
+        "why": "Heating system is not verified by model or specification, but a diesel cabin heater is plausible given the boat's Scandinavian bluewater pedigree and the insulation fact. Spares for whatever unit is aboard should be carried; confirm system identity on survey."
+      },
+      {
+        "item": "Upgraded alternator or DC-DC charger for house bank",
+        "category": "Electrical",
+        "why": "Standard alternator capacity is a documented known issue for extended cruising without engine running. The research context flags this as a gap and a common owner complaint. If not already upgraded, budget alternator upgrade ($800–$2,000) and smart regulator before departure."
+      },
+      {
+        "item": "Seacock exercise log and grease kit",
+        "category": "Structural maintenance",
+        "why": "Brass seacocks confirmed as standard equipment. At 17yr median age they are approaching the 25yr replacement interval and brass is susceptible to dezincification in tropical waters. Quarterly exercise and grease prevents seizing; document condition pre-departure."
+      },
+      {
+        "item": "Hydrovane or similar windvane self-steering",
+        "category": "Offshore passage gear",
+        "why": "Windvane is not a factory option; owner installations documented (Hydrovane gallery confirms HR 43 installations). For extended passages, autopilot alone risks excessive power draw; a mechanical windvane is the standard complement. Budget $3,500–$6,000 installed if absent."
+      },
+      {
+        "item": "Comprehensive spare parts kit for Volvo D2-55 saildrive",
+        "category": "Engine and drivetrain",
+        "why": "Saildrive configuration adds complexity over shaft drive; seal kits, impeller, belts, and zinc anodes specific to the saildrive unit should be stocked. Saildrive seal failure in a remote anchorage is a significant risk without spares."
+      },
+      {
+        "item": "Portlight sealant inspection and Sikaflex kit",
+        "category": "Structural maintenance",
+        "why": "Hull-side portlights are flagged as somewhat more susceptible to leaking in the verified refit.known_issues fact (practical-sailor.com). Pre-passage inspection and reseal with marine-grade Sikaflex prevents below-waterline ingress."
+      },
+      {
+        "item": "Hand bearing compass and backup paper charts",
+        "category": "Navigation safety",
+        "why": "Electronics package is likely 17 years old and replacement is budgeted in the refit projection. A non-electronic backup navigation kit is essential for bluewater passage if the chartplotter fails mid-ocean — standard offshore passage practice regardless of boat."
+      }
+    ]
+  }
+}

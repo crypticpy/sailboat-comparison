@@ -4,28 +4,20 @@ import { loadBoats } from "./lib/data";
 import {
   BASE_WEIGHTS,
   BASE_PILLAR_WEIGHTS,
-  DIMS,
-  PILLARS,
+  csf,
   fleetMedians,
   scoreBoat,
   type Weights,
   type PillarWeights,
-  type DimKey,
-  type PillarKey,
 } from "./lib/metrics";
 import { isShelter } from "./lib/format";
 import Hero from "./components/Hero";
 import Controls, {
   type ControlsState,
   type SortKey,
+  type ChipFilter,
 } from "./components/Controls";
-import Panel from "./components/Panel";
-import WeightSliders from "./components/WeightSliders";
-import ScatterPlot from "./components/ScatterPlot";
-import {
-  CaptainsPanelBody,
-  ObscurePanelBody,
-} from "./components/EditorialPanels";
+import ControlDeck from "./components/ControlDeck";
 import BoatCard from "./components/BoatCard";
 import BoatTable, { type TableSortKey } from "./components/BoatTable";
 import DetailModal from "./components/DetailModal";
@@ -140,6 +132,10 @@ export default function App() {
           return isShelter(b);
         case "budget":
           return b.budget === "fit";
+        case "shoal":
+          return b.draftMinN < 1.3;
+        case "seakindly":
+          return csf(b) < 1.9;
         default:
           return true;
       }
@@ -228,6 +224,17 @@ export default function App() {
     }));
   }, []);
 
+  // A hero KPI is a live filter: click "draw under 1.3 m" → filter the fleet to it
+  // and scroll down to the results, so the number is a verb, not just a stat.
+  const onHeroPick = useCallback((chip: ChipFilter) => {
+    setCtrl((c) => ({ ...c, chip, favOnly: false, gridView: true }));
+    requestAnimationFrame(() =>
+      document
+        .getElementById("fleet")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    );
+  }, []);
+
   const modalBoat = modalId
     ? (scored.find((b) => b.id === modalId) ?? null)
     : null;
@@ -239,65 +246,20 @@ export default function App() {
 
   return (
     <>
-      <Hero boats={boats} />
+      <Hero boats={boats} onPick={onHeroPick} />
       <Controls state={ctrl} set={setControl} onReset={resetAll} />
 
       <div className="wrap">
-        <Panel
-          title="🎯 Selection score weighting"
-          subtitle="Blend Mission fit, Seaworthiness, Ownership & Value into one score — drag to match your priorities"
-        >
-          <WeightSliders<PillarKey>
-            dims={PILLARS}
-            weights={pillarWeights}
-            onChange={(k, v) => setPillarWeights((w) => ({ ...w, [k]: v }))}
-            onReset={() => setPillarWeights({ ...BASE_PILLAR_WEIGHTS })}
-            resetLabel="Reset to recommended"
-            note="Recommended blend reflects an experienced skipper with a first-time crew aboard."
-            min={0}
-            max={2}
-            step={0.1}
-          />
-        </Panel>
+        <ControlDeck
+          pillarWeights={pillarWeights}
+          setPillarWeights={setPillarWeights}
+          weights={weights}
+          setWeights={setWeights}
+          scatterBoats={filtered}
+          onOpen={setModalId}
+        />
 
-        <Panel
-          title="⚙️ Tune your priorities"
-          subtitle="Drag to re-weight what matters — mission-fit scores and ranking update live"
-        >
-          <WeightSliders<DimKey>
-            dims={DIMS}
-            weights={weights}
-            onChange={(k, v) => setWeights((w) => ({ ...w, [k]: v }))}
-            onReset={() => setWeights({ ...BASE_WEIGHTS })}
-            resetLabel="Reset to mission defaults"
-            min={0}
-            max={3}
-            step={0.25}
-          />
-        </Panel>
-
-        <Panel
-          title="📊 Overview — price vs selection score"
-          subtitle="Each dot is a boat; the line marks the $1M budget. Tap a dot to open it."
-        >
-          <ScatterPlot boats={filtered} onOpen={setModalId} />
-        </Panel>
-
-        <Panel
-          title="🧭 The captain’s panel — what to watch"
-          subtitle="Cross-fleet review for an inexperienced second crew, mostly-calm cruising + liveaboard"
-        >
-          <CaptainsPanelBody />
-        </Panel>
-
-        <Panel
-          title="🚀 The panel debates the obscure options"
-          subtitle="Under-the-radar go-anywhere boats for Europe/Scandinavia + South America + the tropics"
-        >
-          <ObscurePanelBody />
-        </Panel>
-
-        <div className="count">
+        <div className="count" id="fleet">
           {filtered.length} of {boats.length} boats shown
           {source === "fallback" && (
             <span className="srcnote"> · offline data</span>

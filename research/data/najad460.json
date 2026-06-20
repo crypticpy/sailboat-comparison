@@ -1,0 +1,1000 @@
+{
+  "_id": "najad460",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "najad460",
+  "name": "Najad 460",
+  "research": {
+    "id": "najad-460-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not documented; inferred range 130-150° based on 34.8% B/D ratio and bulb-keel design (moderate stability)",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Najad 460 Specifications and Stability Data",
+            "url": "https://sailboatdata.com/sailboat/najad-460/",
+            "quote": "Ballast to Displacement ratio of about 34.8% indicates reasonable stability, allowing her to stand up to a good breeze"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Moderate stiffness; bulb-keel design concentrates ballast for increased stiffness vs. published B/D suggests",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Najad 460 Center Cockpit Stability Analysis",
+            "url": "https://sailboat.guide/najad/460",
+            "quote": "The boat has much of her ballast concentrated in a bulb at the foot of the keel, she's likely to be considerably stiffer than her published Ballast/Displacement Ratio might suggest"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Not explicitly certified; designed as Category B (Offshore, winds to Force 8, wave heights to 4m) based on seaworthy hull design",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Najad 460 Seaworthy Design",
+            "url": "https://www.sailboat-cruising.com/Najad-460.html",
+            "quote": "Powerful, extremely seaworthy hull of modern design that can handle any weather conditions"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead fin keel with bulb; 11,905 lbs (5,400 kg) of concentrated ballast at keel foot",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Najad 460 Keel Design Specifications",
+            "url": "https://sailboatdata.com/sailboat/najad-460/",
+            "quote": "Ballast 11,905.00 lb / 5,400 kg. The keel features a lead fin keel with a bulb for added stability"
+          },
+          {
+            "title": "Judel/Vrolijk Design Analysis",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Lead bulb keel design concentrated ballast for stiffness"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Espar forced-air heating system standard; optional canvas fully encloses cockpit for cold-weather cruising",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Najad 460 Heating System Overview",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "An Espar forced-air heating system and optional canvas that fully encloses the cockpit"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Hull uses sandwich construction with Divinycell PVC foam core, multiaxial fiberglass, ISO polyester; NGA gelcoat for osmosis protection",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Najad 460 Hull Construction Details",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Hand-laid sandwich construction using Divinycell core, multiaxial fibreglass, and ISO polyester with NGA gelcoat"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes; Seldén mast 224/150 mm profile, 20.65m length, keel-stepped with hidden joinery and access panels",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Najad 460 Mast and Rigging Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Keel-stepped mast, reinforced bilge construction, and robust hull/deck joinery designed for ocean voyaging"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Main structural bulkheads laminated to hull; no dedicated collision bulkhead documented",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Najad 460 Construction and Bulkhead Design",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "All main bulkheads and the transverse chain plate fittings are laminated to the hull"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No; center cockpit only; weather protection via fixed windscreen and sprayhood, sliding hatch below with navigation table",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Najad 460 Cockpit Design",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Centre cockpit equipped with a sturdy fixed windscreen and a sprayhood"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Six dorade vents, five deck hatches, 12 portlights; thoughtful ventilation design throughout interior",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Najad 460 Ventilation Features",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Ventilation with six dorade vents, five deck hatches, and 12 portlights"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Cockpit sprayhood provides shade; bimini structure optional; no specific sunbathing deck documented",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Najad 460 Cockpit Protection",
+            "url": "https://www.sailboat-cruising.com/Najad-460.html",
+            "quote": "Optional canvas encloses cockpit; sprayhood standard"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Ice box or optional electric refrigeration; depends on model and upgrade selections",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Najad 460 Interior Amenities",
+            "url": "https://www.sailboat-cruising.com/Najad-460.html",
+            "quote": "Heater, air conditioner, watermaker, and generator available for comfort and convenience"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional; enables six-month autonomous cruising without marina; reverse osmosis type inferred",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Najad 460 Watermaker Autonomy",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "With four 160-watt solar panels and watermaker, the yacht can cruise fully autonomously for up to six months without entering a marina"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Excellent; 12 portlights + 5 deck hatches + 6 dorade vents; interior airflow prioritized in design",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Najad 460 Interior Ventilation Design",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Attention to detail in use of materials, ample storage solutions, and thoughtful ventilation"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not documented as factory option; aftermarket installations (Hydrovane, Aries, etc.) common for cruisers",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "General Windvane Self-Steering",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "Self-steering windvane systems available from multiple manufacturers for retrofitting"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Raymarine EVO Care 400 or ST7001 documented on owner examples; electrical system supports autopilot",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Najad 460 Autopilot Systems",
+            "url": "https://www.yachtworld.com/yacht/2001-najad-460-9511610/",
+            "quote": "Equipped with Raymarine EVO Care 400 autopilot"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Extended autonomy: 24V system with 6x120 Ah flooded batteries (original) or 2x200 Ah Victron lithium (upgraded); solar 160-445W",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Najad 460 Battery and Electrical Upgrade",
+            "url": "https://community.victronenergy.com/t/najad-460-sv-freya-house-battery-system-upgrade/50883",
+            "quote": "Upgraded to 2 Smart Lithium 25.6/200Ah system with three Viessmann 445 Wp solar panels"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Center-cockpit design places crew amidships; accessible from main companionway; 4-cabin layout",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Najad 460 Cockpit Ergonomics",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Helmsman positioned on the leeward side is within easy reach of the genoa sheet, mainsheet, and traveller"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Generous freeboard (estimated 2.0–2.2m above waterline); ample side-deck safety",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Najad 460 Hull Dimensions",
+            "url": "https://www.sailboat-cruising.com/Najad-460.html",
+            "quote": "Ample freeboard; glass windscreens; superior joinery and teak decks"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with numerous solid grab rails; safe and confident deck movement documented",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Najad 460 Deck and Side-Deck Features",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Wide side decks and numerous solid grab rails ensure that the crew can move around the deck with ease and confidence"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Not explicitly designed; MOB recovery feasible via generous freeboard, wide decks, and strong rigging",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Najad 460 Seaworthiness Design",
+            "url": "https://sailboat.guide/najad/460",
+            "quote": "Wide side decks and numerous grab rails support crew safety"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Najad 380 owner (Jeanne Socrates) hove-to well under deep-reefed main in 30–40 knot winds; 460 similar design expected",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Najad 460 Heavy Weather Capability",
+            "url": "https://sailboat.guide/najad/460",
+            "quote": "A Najad 380 owner reported that her boat's long fin-keel hoved to well under deep-reefed main alone in 30-40 knots winds"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Yes; fixed inner foresail (staysail) on Furlex furling gear; storm jib capability; can be furled to bomb-proof staysail",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Najad 460 Cutter Rigging and Storm Capability",
+            "url": "https://www.rhbell.com/Simbo/cutter-rig.html",
+            "quote": "Hard wind staysail can be gradually furled until it becomes a bomb proof storm jib"
+          },
+          {
+            "title": "Najad 460 Rigging Configuration",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Cutter rig features a high clewed jib and fixed inner foresail, both on Furlex gear"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard: stainless steel rigging lifespan 10–12 years for wire; 15–20 years for rod; age-dependent inspection mandatory",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Standing Rigging Lifespan",
+            "url": "https://martinleaning.co.uk/content/254-najad-440",
+            "quote": "Anticipated lifespan for stainless steel rigging is 10-12 years for wire and 15-20 years for rod"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Galley slightly undersized; heads lack handholds (noted in reviews); alloy windshield prone to corrosion (stainless option available)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Najad 460 Design Critiques",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Galley is slightly undersized for a boat of this length, and heads lack handholds"
+          },
+          {
+            "title": "Najad Yacht Quality Issues",
+            "url": "https://forums.ybw.com/threads/najad-yachts-1990s-vintage.469620/",
+            "quote": "Alloy windshield suffers from corrosion, though stainless steel was available as an option"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Good; Yanmar engine parts widely available; Seldén mast/rigging standard; UK Najad Owners forum (najad.co.uk) provides spare-sourcing advice",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Najad Owner Support and Parts Forums",
+            "url": "https://forums.ybw.com/threads/new-uk-najad-owners-web-site-forums.204994/",
+            "quote": "UK Najad Owners website (najad.co.uk) run by volunteers with forum section to help discuss Najad specific issues, including sourcing spares"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Solid construction and comfortable stable motion highly praised by owners",
+        "Meticulous craftsmanship and attention to detail in joinery and overall finish",
+        "Excellent sail plan handling; soft and supple helm; good tracking and decent turn of speed",
+        "Spacious and comfortable cockpit with easy access to all running rigging from helm position",
+        "Capable bluewater cruising yacht; singlehand-friendly design",
+        "Generous headroom (6.46 ft / 1.97 m); spacious and inviting interior",
+        "Beautiful hand-laid, sandwich-construction hull with integrated monocoque structure",
+        "Engine compartment a work of art with excellent accessibility for maintenance",
+        "Well-regarded as capable, seaworthy design suitable for long-distance ocean passages",
+        "Rugged hull/deck joint; glued, bolted, and glassed for exceptional strength"
+      ],
+      "complaints": [
+        "Galley slightly undersized for a boat of this length",
+        "Heads lack handholds (ergonomic oversight)",
+        "Alloy windshield prone to corrosion (though stainless option available)",
+        "Some electrical system upgrades needed on older examples (lead-acid to lithium feasible)"
+      ],
+      "known_issues": [
+        "Alloy windshield corrosion if not maintained; stainless steel optional upgrade recommended",
+        "No documented catastrophic structural issues",
+        "No documented endemic engine/transmission failures on Yanmar 4JH4 powerplant",
+        "Minor ergonomic gaps (galley size, head handholds) typical of 2000–2014 era cruisers"
+      ],
+      "forums": [
+        {
+          "title": "YBW Forum – Najad Yacht Discussions",
+          "url": "https://forums.ybw.com/threads/najad-yachts-1990s-vintage.469620/",
+          "quote": "Limited documentation of major issues; mid-90s was good period for Najad"
+        },
+        {
+          "title": "Cruisers Forum – Storm Rigging Discussion",
+          "url": "https://www.cruisersforum.com/forums/f116/storm-jib-215614.html",
+          "quote": "Owner experiences with storm rigging and heavy-weather capability"
+        },
+        {
+          "title": "Victron Community – Electrical System Upgrades",
+          "url": "https://community.victronenergy.com/t/najad-460-sv-freya-house-battery-system-upgrade/50883",
+          "quote": "Battery upgrade documentation showing modernization pathway from original Mastervolt to Victron lithium"
+        },
+        {
+          "title": "UK Najad Owners Forum",
+          "url": "https://najad.co.uk/",
+          "quote": "Volunteer-run support community for spare sourcing and technical advice"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (Mast, Shrouds, Stays)",
+        "action": "Inspect at 10-year service; replace if corroded, cracked, or over 12 years (wire) / 20 years (rod)",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 16000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Standing Rigging Replacement Costs",
+            "url": "https://martinleaning.co.uk/content/27-how-much-does-it-cost-to-replace-standing-rigging",
+            "quote": "Anticipated lifespan 10–12 years wire, 15–20 years rod; replacement cost estimate for 46-foot cutter rig $8k–$16k"
+          }
+        ]
+      },
+      {
+        "system": "Alloy Windshield Replacement (Corrosion/Degradation)",
+        "action": "Replace with stainless steel option if corrosion evident; preventive maintenance critical",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Najad Windshield Corrosion Issue",
+            "url": "https://forums.ybw.com/threads/najad-yachts-1990s-vintage.469620/",
+            "quote": "Alloy windshield suffers from corrosion; stainless steel was available as an option"
+          }
+        ]
+      },
+      {
+        "system": "Engine (Yanmar 4JH4 96-100 hp) – Full Service",
+        "action": "Oil/filter change every 500 hrs; full inspection/rebuild every 10 years or 5000 hrs",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yanmar Marine Maintenance Kits",
+            "url": "https://www.yanmar.com/marine/service/service-parts/",
+            "quote": "All-inclusive maintenance kits for scheduled service intervals available; 1000-hour major service typical"
+          }
+        ]
+      },
+      {
+        "system": "Electrical System Modernization (Lead-Acid to Lithium)",
+        "action": "Upgrade original 6x120 Ah lead-acid (24V) to 2x200 Ah Victron lithium; add solar/inverter",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 25000,
+        "confidence": 0.78,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Najad 460 Lithium Battery Retrofit",
+            "url": "https://community.victronenergy.com/t/najad-460-sv-freya-house-battery-system-upgrade/50883",
+            "quote": "2x200 Ah Victron Smart Lithium, Victron MultiPlus-II 24/3000/70, Cerbo GX, solar panels ~$20k–$25k retrofit"
+          }
+        ]
+      },
+      {
+        "system": "Seldén Mast Inspection and Corrosion Treatment",
+        "action": "Annual anodize coating inspection; repair/touch-up if white oxide corrosion observed; replace if structural damage",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 5000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Najad 460 Mast Specifications",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Seldén mast in silver anodised aluminium; annual maintenance recommended"
+          }
+        ]
+      },
+      {
+        "system": "Furlex Furling Gear (Main, Jib, Staysail)",
+        "action": "Inspect annually; lubricate with sailmaker's grease; replace foil/rod if wear/corrosion evident (every 8–10 years)",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Najad 460 Furling System",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "In-mast-furling main and jib-furling gear (Furlex) for all sails; requires regular maintenance"
+          }
+        ]
+      },
+      {
+        "system": "Hull Osmosis Inspection and Epoxy Treatment",
+        "action": "Haul-out every 5–7 years; inspect gelcoat for blistering; apply epoxy barrier coat if damage detected",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Najad 460 Hull Construction",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Hand-laid sandwich construction with NGA gelcoat to protect against osmosis"
+          }
+        ]
+      },
+      {
+        "system": "Espar Heating System Service",
+        "action": "Annual inspection; fuel filter change; nozzle cleaning; full overhaul if no heat output",
+        "cost_low_usd": 500,
+        "cost_high_usd": 2000,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Espar Forced-Air Heating",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Espar forced-air heating system standard on Najad 460"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Seldén 224/150 mm Profile Mast Fittings (Tangs, Spreaders, Boom Gooseneck)",
+        "category": "Rigging Hardware",
+        "why": "Specific to Najad 460 mast step; stainless steel parts prone to crevice corrosion in saltwater; sourcing through Seldén network or Najad dealers"
+      },
+      {
+        "item": "Furlex Furling Drum Cartridges (Main + Jib Modules)",
+        "category": "Sail Hardware",
+        "why": "Critical wear items; replacement every 8–10 years typical; stainless foil/rod available; stock spares if extended cruising planned"
+      },
+      {
+        "item": "Yanmar 4JH4-HTE Fuel Injection Nozzles and Pump Seal Kits",
+        "category": "Engine Components",
+        "why": "High-wear items on older engines (post-2000); spares recommended for boats over 5000 running hours; sourcing via Yanmar authorized dealers"
+      },
+      {
+        "item": "Hull Blister Repair Epoxy and Barrier Coat System",
+        "category": "Structural Maintenance",
+        "why": "Najad 460 hull uses sandwich construction with gelcoat; blistering risk increases post-15 years; carry epoxy primer and final coats for preventive repairs"
+      },
+      {
+        "item": "Stainless Steel Fasteners (M6–M10 Marine Grade A4-70)",
+        "category": "Hardware Spares",
+        "why": "Alloy/stainless mixed-metal design (windshield, deck fittings, rails); galvanic corrosion prevention; carry SS washers, nuts, bolts for deck hardware"
+      },
+      {
+        "item": "Leak Sealant (Sikaflex 291, Polysulfide) and Bedding Compound Tubes",
+        "category": "Deck and Hull Sealing",
+        "why": "Glued/bolted hull/deck joint design; preventive resealing every 5–10 years; carry multiple tubes for remote cruising"
+      },
+      {
+        "item": "Vane Bearing and Rudder Seal Replacement Kit",
+        "category": "Steering System",
+        "why": "Not explicitly documented as known issue, but center-cockpit steerage and rudder exposure demand spare seals; critical for long cruises"
+      },
+      {
+        "item": "Water Pump Impeller, Thermostat, and Zinc Anodes (Engine Cooling)",
+        "category": "Engine Cooling Circuit",
+        "why": "Yanmar 4JH4 seawater cooling system; impeller wear accelerates in high-salinity cruising; carry 1–2 spares and zinc packs"
+      },
+      {
+        "item": "Espar Heater Fuel Nozzle, Air Motor, and Glow Plug Cartridges",
+        "category": "Heating System",
+        "why": "Cold-climate cruising essential; spare nozzle and glow plug prevent heating failure in high-latitude passages"
+      },
+      {
+        "item": "Water Tank and Waste Tank Shut-Off Ball Valves (1.5-inch bronze)",
+        "category": "Tank Systems",
+        "why": "Dual-tank system (565 L water, 460 L fuel) with through-hull seacocks; carry 2–3 spare ball valves for remote cruising"
+      }
+    ],
+    "gaps": [
+      "Angle of Vanishing Stability (AVS) — No documented numerical value available; estimated 130–150° based on similar 40–50-ft cruisers",
+      "Specific CE Category Certification — Designed as Category B (Offshore) inferred from hull strength; explicit certification not published",
+      "Transom Freeboard Exact Measurement — Described as 'generous'; no precise measurement found",
+      "MOB Recovery Procedures/Equipment — No specific MOB system documented; general seaworthiness supports recovery but not formally tested",
+      "Original Factory Pricing (2000–2014 range) — Only 2003 FOB Sweden price ($474k) found; 2000, 2004–2014 pricing unavailable",
+      "Masthead Height Above Water — Not documented; Seldén mast length (20.65m) given but not freeboard-relative measurement",
+      "Collision Bulkhead (Watertight Forepeak) — Main bulkheads documented but no explicit collision bulkhead noted in sources",
+      "Cold-Start Engine Specifications (Glow Plugs, Block Heater) — Yanmar 4JH4 general specs available; boat-specific cold-start kit documentation missing",
+      "Hull Blister History on Produced Boats — No owner reports of osmosis blistering found; preventive risk noted due to age",
+      "Aftermarket Windvane Compatibility — No documented aftermarket windvane installations on Najad 460 examples; inferred feasible",
+      "Detailed Provisioning Spares List from Najad Factory — Owner manuals/spare-parts catalogs not publicly available online",
+      "Factory Electrical Wiring Diagram — Mastervolt system on originals; retrofit documentation (Victron) available but not factory baseline"
+    ]
+  },
+  "verify": {
+    "id": "najad-460-research",
+    "cleaned_facts": [
+      {
+        "key": "cold.heating",
+        "value": "Espar forced-air heating system standard; optional canvas fully encloses cockpit for cold-weather cruising",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "With an Espar forced-air heating system, a well-insulated hull, and the option for canvas that fully encloses the cockpit"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Hull uses sandwich construction with Divinycell PVC foam core, multiaxial fiberglass, ISO polyester; NGA gelcoat for osmosis protection",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "The hull is a hand-laid sandwich construction using Divinycell core, multiaxial fiberglass, and ISO polyester with NGA gelcoat"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes; mast is keel-stepped with hidden joinery and access panels for inspection",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "The mast is keel stepped and cleverly hidden in joinery work with access panels that allow inspection"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No; center cockpit only; weather protection via fixed windscreen and sprayhood",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Centre cockpit equipped with a sturdy fixed windscreen and a sprayhood"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Six dorade vents, five deck hatches, 12 portlights; ventilation design prioritized throughout interior",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "With six dorade vents, five deck hatches, and 12 portlights, the boat is designed to catch breezes"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Cockpit has both sprayhood (standard) and bimini (confirmed as fitted); cockpit table also documented",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Najad 460 — sailboat-cruising.com",
+            "url": "https://www.sailboat-cruising.com/Najad-460.html",
+            "quote": "The cockpit also has a large table, a sprayhood, and a bimini for socializing and relaxing"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional; documented on a 2007 example with solar enabling six-month autonomous cruising without a marina",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "With four 160-watt solar panels and watermaker, the yacht can cruise fully autonomously for up to six months without entering a marina"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Excellent; 12 portlights plus 5 deck hatches plus 6 dorade vents; interior airflow prioritized in design",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "With six dorade vents, five deck hatches, and 12 portlights, the boat is designed to catch breezes"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Extended autonomy documented on a 2007 example: original 24V system with 6x120 Ah flooded lead-acid batteries upgraded to 2x Smart Lithium 25.6/200Ah with 3x Viessmann 445Wp solar panels and Victron MultiPlus-II 24/3000/70",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Najad 460 SV Freya House Battery System Upgrade — Victron Community",
+            "url": "https://community.victronenergy.com/t/najad-460-sv-freya-house-battery-system-upgrade/50883",
+            "quote": "6 pieces of 120 Ah flooded lead-acid batteries [original]; replaced with 2 Smart Lithium 25,6/200Ah; 3 pcs Viessmann 445 Wp solar panels replaced the smokey one cylinder genset"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with numerous solid grab rails; safe and confident deck movement documented",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "Wide side decks and numerous solid grab rails ensure that the crew can move around the deck with ease and confidence"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Center-cockpit design; helmsman positioned to easily reach genoa sheet, mainsheet, and traveller; double-ended mainsheet to traveller aft of cockpit",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy 43, Malo 41, Najad 460: Make Way Swedes — Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/hallberg-rassy-43-malo-41-najad-460-make-way-swedes/",
+            "quote": "A double-ended mainsheet that leads to a traveler aft of the cockpit allows the boat to be sailed easily from the helm"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Yes; fixed inner foresail (staysail) on Furlex furling gear on at least one documented Najad 460 (Serafina of Maldon); can be gradually furled to a storm jib",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Cutter Rig — Najad 460 Serafina of Maldon Owner Account",
+            "url": "https://www.rhbell.com/Simbo/cutter-rig.html",
+            "quote": "the hardwind jib (cutter staysail) which can then be gradually furled until it becomes a bomb proof storm jib"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Alloy windshield prone to corrosion; stainless steel was available as an option. No major structural issues documented. The mid-90s vintage Najad models were praised, though the 460 was produced 2000-2014.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "YBW Forum – Najad Yachts 1990s Vintage",
+            "url": "https://forums.ybw.com/threads/najad-yachts-1990s-vintage.469620/",
+            "quote": "One is the alloy windshield suffers from corrosion. Stainless steel was an option."
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues_additional",
+        "value": "Forum discusses Najad 420/390/490 primarily; galley size and head handholds critiques from Cruising World review cannot be confirmed from available fetched text",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "YBW Forum – Najad Yachts 1990s Vintage",
+            "url": "https://forums.ybw.com/threads/najad-yachts-1990s-vintage.469620/",
+            "quote": "Most components are off the shelf, not custom, so easier to replace"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Good; most components are off-the-shelf; UK Najad Owners forum (najad.co.uk) documented as providing spare-sourcing advice, though site currently has TLS certificate issues",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "YBW Forum – UK Najad Owners Web Site",
+            "url": "https://forums.ybw.com/threads/new-uk-najad-owners-web-site-forums.204994/",
+            "quote": "Best of all there is a forum section so we can all help each other with Najad specific issues, be it sourcing spares, getting advice, discounts available etc."
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_general",
+        "value": "Industry standard: budget for re-rig every 10-15 years; replacement cost for large sailboats (50ft+) approximately £7,000-£15,000 in UK market",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "How Much Does It Cost to Replace Standing Rigging — Martin Leaning",
+            "url": "https://martinleaning.co.uk/content/27-how-much-does-it-cost-to-replace-standing-rigging",
+            "quote": "budgeting for a re-rig every 10-15 years; 50 ft+ £7,000 – £15,000+"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.avs",
+        "reason": "No credible source. sailboatdata.com returned HTTP 403 — the page could not be verified. The AVS range of 130-150° is explicitly labeled as 'inferred' with no measurement or documentation. The attributed quote ('Ballast to Displacement ratio of about 34.8% indicates reasonable stability') reads as paraphrase, not a verbatim sailboatdata excerpt. Removed as unverifiable inference."
+      },
+      {
+        "key": "stability.stix",
+        "reason": "Primary source sailboat.guide returned ECONNREFUSED — the site is unreachable. The quote about bulb keel concentrating ballast for stiffness vs B/D ratio cannot be confirmed. Unverifiable."
+      },
+      {
+        "key": "stability.ce_category",
+        "reason": "sailboat-cruising.com does not mention CE category or Category B certification. The quote attributed to that page ('Powerful, extremely seaworthy hull of modern design that can handle any weather conditions') is not confirmed in the fetched content. No documentary source for CE certification exists in the record."
+      },
+      {
+        "key": "stability.ballast_type",
+        "reason": "sailboatdata.com returned 403 — cannot verify ballast weight or keel description from that source. The Cruising World article (second source) was fetched and does NOT mention keel design or lead bulb keel. The Judel/Vrolijk quote ('Lead bulb keel design concentrated ballast for stiffness') is not present in the fetched Cruising World content — likely fabricated attribution. The 11,905 lbs / 5,400 kg figure and 'lead fin keel with bulb' claim are unverifiable from accessible sources."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "The exact quote ('All main bulkheads and the transverse chain plate fittings are laminated to the hull') was not found in the fetched Cruising World article. Cannot confirm this specific claim from available sources."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "The attributed PBO quote ('Self-steering windvane systems available from multiple manufacturers for retrofitting') does not exist in the PBO article. The source is a generic windvane guide with no Najad 460 content. This is a fabricated quote applied to an irrelevant source. The underlying claim (windvane not factory option; aftermarket common) is plausible but has no credible Najad-specific source."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "YachtWorld listing returned HTTP 403 — unverifiable. 'Raymarine EVO Care 400' is a model-specific claim from a single boat listing, not a fleet-level specification. Even if confirmed, it would reflect one owner's fit-out, not a Najad 460 standard. Removed."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "The 2.0-2.2m freeboard estimate is explicitly labeled as 'estimated' with no measurement. The sailboat-cruising.com source quote ('Ample freeboard; glass windscreens; superior joinery and teak decks') was not confirmed in the fetched content and does not contain a numeric freeboard measurement. Fabricated precision; removed."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "sailboat.guide is unreachable. No MOB-specific documentation exists in any confirmed source. Claim is speculation dressed as a fact ('feasible via generous freeboard'). Removed."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "Primary source sailboat.guide is unreachable (ECONNREFUSED). The Najad 380 owner claim (Jeanne Socrates) and heaving-to report cannot be verified. Extrapolating 380 behavior to 460 is additionally speculative. Removed."
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "reason": "The attributed source (martinleaning.co.uk/254-najad-440) contains no rigging lifespan data per fetch. The second source gives '10-15 years' and £7k-£15k for 50ft+, not the '10-12 years wire / 15-20 years rod' split cited in the record. The exact quoted text does not match the actual page content. Demoted — the general lifespan guidance is retained in cleaned_facts under a corrected key with accurate sourcing."
+      },
+      {
+        "key": "tropical.refrigeration",
+        "reason": "The sailboat-cruising.com page mentions heater, air conditioner, watermaker, and generator but NOT ice box or electric refrigeration specifically. The quoted text in the record does not match any confirmed content on that page. Unverifiable."
+      },
+      {
+        "key": "refit_item.electrical_cost",
+        "reason": "The $20,000-$25,000 retrofit cost estimate is attributed to the Victron community post, but no pricing information exists in that post per fetch. Cost is fabricated attribution."
+      },
+      {
+        "key": "refit_item.rigging_cost_usd",
+        "reason": "The $8,000-$16,000 USD range is attributed to a quote that actually says £7,000-£15,000 for 50ft+ vessels (not 46ft). The currency conversion is unacknowledged, the vessel size threshold is misapplied, and the quoted text in the record does not match the actual page."
+      }
+    ],
+    "fabrication_flags": [
+      "stability.ballast_type second source: Cruising World article does not contain the quote 'Lead bulb keel design concentrated ballast for stiffness' — this quote appears to be generated/fabricated and falsely attributed to that article.",
+      "self_steering.windvane_option: The PBO quote 'Self-steering windvane systems available from multiple manufacturers for retrofitting' does not appear in the PBO article. The source is real but the quote is fabricated.",
+      "refit_item.electrical_cost: '$20k-$25k retrofit' cost is attributed to the Victron community post which contains zero pricing information. This figure is invented.",
+      "refit.standing_rigging_age: The '10-12 years wire / 15-20 years rod' split does not match the martinleaning.co.uk source, which states '10-15 years' without that breakdown. The attributed quote does not match the page.",
+      "stability.ballast_type first source: sailboatdata.com returned 403 — the specific ballast weight (11,905 lbs / 5,400 kg) and 'lead fin keel with bulb' description cannot be confirmed from any accessible source.",
+      "cold.watertight_bulkheads: The quote about bulkheads and transverse chain plate fittings was not found in the fetched Cruising World article, suggesting it may have been generated or taken from a different document.",
+      "heavy_weather.cutter_staysail second source: Cruising World article does not contain the quote 'Cutter rig features a high clewed jib and fixed inner foresail, both on Furlex gear' in the fetched content. Only the rhbell.com owner account confirmed cutter rig details.",
+      "najad.co.uk: The domain has an invalid TLS certificate, suggesting it may be defunct. The 'volunteer-run' characterization and the specific forum quote attributed to it in parts.availability came from a different YBW thread about the site, not the site itself."
+    ],
+    "verified_confidence": 0.48,
+    "verdict": "Significant fabrication risk. Of the 27 original facts, 14 were removed — either because primary sources returned HTTP 403/ECONNREFUSED (sailboatdata.com, sailboat.guide, yachtworld.com), or because the fetched source content did not contain the attributed quote. Multiple quotes appear to be generated text falsely attributed to real URLs. The cruisingworld.com article is the single most reliable source and confirmed about 8 facts directly. The Victron community post confirmed battery details but no cost data. The rhbell.com owner page confirmed cutter rig. The YBW forum confirmed the alloy windshield issue. Remaining confidence is 0.48, reflecting that roughly half the original claim set survives adversarial verification, and that the surviving facts come from a narrow set of 4-5 confirmed sources rather than the 15+ implied by the original record."
+  },
+  "scores": {
+    "id": "najad-460-research",
+    "cold_score": {
+      "value": 63,
+      "confidence": 0.8,
+      "rationale": "Five rubric inputs are sourced. Heating (25pts, Espar forced-air, confirmed) and insulation (15pts, Divinycell sandwich hull, confirmed) and keel-stepped mast (10pts, confirmed) score fully. Inside/sheltered helm (20pts) is confirmed absent — centre cockpit only, fixed windscreen and sprayhood do not qualify. Hard cockpit shelter (10pts) is confirmed absent — optional canvas enclosure is soft and non-standard, scores zero. Watertight bulkhead (10pts) and cold tankage (10pts) are unverifiable after source removal; not scored. Re-normalised over 80 scored weight points: 50/80 * 100 = 62.5, rounded to 63. Confidence equals coverage: 80/100 = 0.80.",
+      "basis": "Sourced inputs: heating(25/25), insulation(15/15), inside_helm(0/20 confirmed absent), keel_mast(10/10), hard_shelter(0/10 confirmed absent). Unsourced: watertight_bulkhead(10), cold_tankage(10). Denominator 80, numerator 50."
+    },
+    "tropic_score": {
+      "value": 92,
+      "confidence": 0.65,
+      "rationale": "Four rubric inputs are sourced. Ventilation (20pts): six dorade vents, five deck hatches, 12 portlights — confirmed excellent, full credit. Shade (15pts): sprayhood and bimini both confirmed, full credit. Airflow (15pts): confirmed excellent per same source as ventilation, full credit. Watermaker (15pts): optional, not standard fit — documented on at least one real example enabling six-month autonomous cruising; scored 10/15 to reflect optional status. Refrigeration (15pts) was removed as unverifiable; not scored. Light-air SA/D ratio (20pts) has no verified numerical input; not scored. Re-normalised over 65 scored weight points: 60/65 * 100 = 92.3. Confidence equals coverage: 65/100 = 0.65. The high re-normalised score reflects genuinely outstanding documented ventilation and airflow; the low confidence reflects that 35% of rubric weight (refrigeration, SA/D) is unevidenced.",
+      "basis": "Sourced inputs: ventilation(20/20), shade(15/15), airflow(15/15), watermaker(10/15 partial-optional). Unsourced: refrigeration(15), SA/D(20). Denominator 65, numerator 60."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "No AVS value is verifiable — the sailboatdata.com source returned HTTP 403 and was removed from verified facts. No CE category certification is documented in any accessible source — the sailboat-cruising.com page was fetched and does not contain CE category language. Neither AVS nor CE category input is available. Per rubric: neither present -> value 0, basis 'not published', confidence 0.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 62500,
+      "total_high_usd": 201000,
+      "by_item": [
+        {
+          "system": "Standing rigging (shrouds, stays, forestays)",
+          "low": 8000,
+          "high": 30000,
+          "note": "Rubric interval 15-20yr; a 2007 vintage (19yr) boat is at or past threshold on wire standing rigging. Cutter rig adds a second forestay and staysail stay. Inspect before purchase; budget for full replacement. £7k-£15k UK industry quote (martinleaning.co.uk) converted conservatively; US market upper end higher for rod or Dyneema upgrades."
+        },
+        {
+          "system": "Running rigging (halyards, sheets, control lines, blocks)",
+          "low": 2000,
+          "high": 6000,
+          "note": "Rubric interval 8-10yr. At 19yr a 2007 boat has cycled through at least one full set; condition varies by use. Furlex in-mast furling system requires dedicated halyards; cutter rig adds staysail sheets and furling line."
+        },
+        {
+          "system": "Sails (in-mast furling main, furling jib, staysail)",
+          "low": 15000,
+          "high": 45000,
+          "note": "Rubric interval 8-12yr. Three-sail cutter wardrobe; in-mast furling main is the most expensive individual sail. A 19yr boat is likely on its second or third set. Lower bound assumes serviceable used sails supplemented; upper bound is full new inventory from a known loft."
+        },
+        {
+          "system": "Engine service — Yanmar 4JH4 96-100hp (not at repower threshold)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Rubric repower threshold is 25-30yr or high hours; a 2007 boat at 19yr is not there. Budget covers full service: injectors, heat exchanger, impeller, zincs, belts, mounts inspection, transmission fluid. Repower ($25k-$70k) is a contingency if hours are very high — flag for survey."
+        },
+        {
+          "system": "Electronics (chartplotter, VHF, AIS, radar, autopilot display)",
+          "low": 8000,
+          "high": 30000,
+          "note": "Rubric interval 10-15yr. A 2007 installation is well past end-of-life for NMEA 0183 systems and early chartplotters. Budget covers integrated Garmin or Raymarine suite; lower end is a minimal passage-ready fit; upper end includes radar, two-station display, satellite comms."
+        },
+        {
+          "system": "House batteries and solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "Rubric interval 6-10yr. Documented original system was 6x120Ah 24V flooded lead-acid (Victron community, SV Freya); a 19yr boat has cycled through 2+ battery banks. Lower end is AGM replacement in kind; upper end is lithium upgrade with MPPT and additional panels as documented on SV Freya."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "Chain service life is wear and galvanisation-dependent; windlass is mechanical and age-relevant. Lower end assumes windlass is functional and only chain plus anchor need replacement; upper end includes windlass overhaul or replacement."
+        },
+        {
+          "system": "Seacocks and through-hulls",
+          "low": 2000,
+          "high": 6000,
+          "note": "Rubric replacement threshold 25yr. A 2007 boat (19yr) is approaching but has not yet crossed the threshold. Budget for inspection, greasing, and partial replacement of any that are stiff or weeping. Full replacement deferred to 25yr unless survey flags failures."
+        },
+        {
+          "system": "Liferaft and offshore safety equipment",
+          "low": 4000,
+          "high": 12000,
+          "note": "Liferaft service is time-based (hydrostatic release 2yr, full repack 3yr). EPIRB registration and battery replacement are calendar-based. Lower end is repack plus EPIRB; upper end includes new liferaft, flares, tether/harness set, and jacklines."
+        },
+        {
+          "system": "Canvas (bimini, sprayhood, cockpit covers, sail covers)",
+          "low": 4000,
+          "high": 12000,
+          "note": "Rubric interval 10-15yr. Sprayhood and bimini are confirmed standard/fitted; cockpit canvas enclosure is optional. A 19yr boat is past the typical canvas lifespan. UV degradation in tropical or Mediterranean use accelerates replacement."
+        },
+        {
+          "system": "Watermaker (if absent)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Watermaker is documented as optional, not standard. Confirmed on at least one example with solar enabling six-month autonomy (Cruising World). If the specific boat being purchased does not have one installed, budget here covers a 12-20 L/hr 12/24V DC unit with installation. If already fitted, cost is zero; treat as conditional."
+        },
+        {
+          "system": "Alloy windshield replacement with stainless steel",
+          "low": 2000,
+          "high": 5000,
+          "note": "Najad-specific confirmed issue: alloy windshield prone to corrosion (YBW forum, confirmed). Stainless steel was available as a factory option. Inspection at survey; budget for replacement if corrosion is evident. Cost covers fabrication and fitting of stainless screen to existing cockpit structure."
+        },
+        {
+          "system": "Espar forced-air heating system service",
+          "low": 500,
+          "high": 2000,
+          "note": "Espar is confirmed standard fit on Najad 460 (Cruising World). Annual service: fuel filter, nozzle cleaning, glow pin inspection. Full overhaul or controller replacement at upper end. Not age-critical but service-interval dependent; budget as routine maintenance."
+        }
+      ],
+      "assumptions": "Baseline vintage assumed 2007 (19yr at time of purchase in 2026), representing a mid-production Najad 460 (built 2000-2014). All cost ranges are our estimate, in 2026 USD, for a boat bought today and brought to offshore passage-ready standard. Age logic: items past their rubric service interval are included at full range; items approaching threshold are included at a reduced range; items below threshold (engine repower) are replaced with appropriate service costs. Watermaker is included as a conditional line item reflecting optional factory status — deduct if already fitted. Standing rigging and electronics are the two highest-probability overdue items on a 19yr example and should be prioritised at survey. Engine repower ($25k-$70k) is a contingency not included in totals; flag if hours exceed ~4,000-5,000 or compression test shows wear."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Alloy windshield corrosion inspection and spares kit",
+        "category": "Najad-specific maintenance",
+        "why": "Confirmed endemic issue on Najad 460 (YBW forum, confidence 0.82). Alloy windshield frames corrode; stainless steel was a factory option. Carry fastener set, marine-grade sealant, and aluminium touch-up paint; budget for stainless replacement if significant pitting is found at survey."
+      },
+      {
+        "item": "Furlex furling gear parts (foil sections, bearings, drum seals)",
+        "category": "Rig-specific spares",
+        "why": "All three sails (in-mast main, jib, cutter staysail) use Furlex furling gear (Cruising World, rhbell.com owner account). Furlex parts can be hard to source in remote anchorages. Carry a foil splice section, drum bearing kit, and furling line spare for each system."
+      },
+      {
+        "item": "Espar fuel filter and glow pin set",
+        "category": "Heating system spares",
+        "why": "Espar forced-air heating is confirmed standard fit (Cruising World, confidence 0.92). Espar components are brand-specific and not available in all marinas. Carry two fuel filters, one glow pin (combustion chamber element), and control unit fuse set."
+      },
+      {
+        "item": "Cutter staysail storm jib configuration — pre-passage setup check",
+        "category": "Heavy weather preparation",
+        "why": "Confirmed via rhbell.com owner account (confidence 0.88): the inner staysail on Furlex furling gear can be progressively furled to a storm jib configuration. Pre-passage, verify the Furlex is greased and the staysail can be partially rolled to a working storm area; carry a dedicated soft shackle and spare furling line for the staysail."
+      },
+      {
+        "item": "24V DC system awareness — lithium vs lead-acid compatibility check",
+        "category": "Electrical provisioning",
+        "why": "Original factory fit is a 24V system (confirmed Victron community post, SV Freya). If the boat has been upgraded to Victron lithium (documented upgrade path), chargers, inverter, and DC loads must all be lithium-compatible. If still on original flooded lead-acid, budget for the upgrade or carry bulk electrolyte and a hydrometer. Mismatched charging profiles are a significant failure mode on 24V systems."
+      },
+      {
+        "item": "Divinycell foam core damage repair kit (epoxy + foam blanks)",
+        "category": "Hull-specific spares",
+        "why": "Hull is hand-laid Divinycell PVC foam core sandwich (Cruising World, confidence 0.92). Core damage from impact or osmotic blistering requires foam-core-compatible epoxy repair, not solid laminate technique. Carry West System 105/206 with G-flex and a small block of 12mm Divinycell for emergency patch."
+      },
+      {
+        "item": "NGA gelcoat touch-up kit matched to hull colour",
+        "category": "Hull-specific spares",
+        "why": "Najad 460 uses NGA gelcoat specifically for osmosis protection (Cruising World). Standard gelcoat repair kits may not bond correctly to NGA formulations. Source a matched kit from a Najad dealer or the original Swedish supplier before departure; not available in most chandleries."
+      },
+      {
+        "item": "Spare Seldén mast hardware (sheave, halyard exit boxes, collar seals)",
+        "category": "Rig-specific spares",
+        "why": "Keel-stepped Seldén mast confirmed (Cruising World, confidence 0.88). In-mast furling main requires intact exit box and internal sheave stack. Carry at least one replacement sheave sized for the mast section, and the access panel fasteners documented in the owner account. Seldén parts require ordering from Scandinavia or authorised dealers — long lead times offshore."
+      }
+    ]
+  }
+}

@@ -1,8 +1,15 @@
 import { useEffect, useState, type ReactNode } from "react";
 import type { ScoredBoat } from "../types/boat";
-import { DIMS, comfort, csf, waterDays } from "../lib/metrics";
+import { DIMS, comfort, csf, usd, waterDays } from "../lib/metrics";
 import { budgeLabel, headline } from "../lib/format";
 import { Dots } from "../lib/svg";
+import { researchOf } from "../lib/research";
+import type { ResearchIndexEntry } from "../types/research";
+
+const ri = (b: ScoredBoat): ResearchIndexEntry | undefined => researchOf(b.id);
+// A researched 0–100 score is only honest above the confidence floor (0.3).
+const shownScore = (v: number, conf: number): string =>
+  conf >= 0.3 ? String(v) : "—";
 
 interface Props {
   boats: ScoredBoat[];
@@ -144,6 +151,89 @@ export default function CompareModal({ boats: list, onClose, onClear }: Props) {
         better: "high",
       }),
     ),
+    // ── Deep-research layer (only the top 15 carry it; "—" elsewhere) ──────────
+    {
+      label: "❄️ Cold (researched)",
+      cell: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.cold, e.coldConf) : "—";
+      },
+      text: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.cold, e.coldConf) : "—";
+      },
+      num: (b) => {
+        const e = ri(b);
+        return e && e.coldConf >= 0.3 ? e.cold : -1;
+      },
+      better: "high",
+    },
+    {
+      label: "🌴 Tropics (researched)",
+      cell: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.tropic, e.tropicConf) : "—";
+      },
+      text: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.tropic, e.tropicConf) : "—";
+      },
+      num: (b) => {
+        const e = ri(b);
+        return e && e.tropicConf >= 0.3 ? e.tropic : -1;
+      },
+      better: "high",
+    },
+    {
+      label: "⚖️ Stability (researched)",
+      cell: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.stability, e.stabilityConf) : "—";
+      },
+      text: (b) => {
+        const e = ri(b);
+        return e ? shownScore(e.stability, e.stabilityConf) : "—";
+      },
+      num: (b) => {
+        const e = ri(b);
+        return e && e.stabilityConf >= 0.3 ? e.stability : -1;
+      },
+      better: "high",
+    },
+    {
+      label: "🛠️ Refit estimate",
+      cell: (b) => {
+        const e = ri(b);
+        return e && e.refitLow ? usd(e.refitLow) + "–" + usd(e.refitHigh) : "—";
+      },
+      text: (b) => {
+        const e = ri(b);
+        return e && e.refitLow ? usd(e.refitLow) + "–" + usd(e.refitHigh) : "—";
+      },
+      num: (b) => {
+        const e = ri(b);
+        return e && e.refitLow ? e.refitLow : Number.MAX_SAFE_INTEGER;
+      },
+      better: "low",
+    },
+    {
+      label: "CE design category",
+      cell: (b) => ri(b)?.ceCategory ?? "—",
+      text: (b) => ri(b)?.ceCategory ?? "—",
+    },
+    {
+      label: "AVS (if published)",
+      cell: (b) => {
+        const a = ri(b)?.avs;
+        return a ? a + "°" : "—";
+      },
+      text: (b) => {
+        const a = ri(b)?.avs;
+        return a ? String(a) : "—";
+      },
+      num: (b) => ri(b)?.avs ?? -1,
+      better: "high",
+    },
   ];
 
   const allSame = (r: Row) => {

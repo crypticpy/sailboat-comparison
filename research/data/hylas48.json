@@ -1,0 +1,1182 @@
+{
+  "_id": "hylas48",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "hylas48",
+  "name": "Hylas 48 (H48)",
+  "research": {
+    "id": "hylas-h48-research-2026",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (wind < force 9, waves < 10m, open ocean capable)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "CE Design Category: A (designed for wind <force 9, waves <10m)"
+          },
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "CE Category A designation allows operation in open ocean conditions"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead fin keel with rudder on partial skeg; 13,111 lbs ballast",
+        "confidence": 0.93,
+        "sources": [
+          {
+            "title": "Hylas 48 Specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Ballast Type: Lead; Displacement: 35,362 lbs; Lead fin keel and rudder on partial skeg"
+          },
+          {
+            "title": "Hylas 48 - sailboat.guide",
+            "url": "https://sailboat.guide/hylas/48",
+            "quote": "Lead fin keel with 13,111 lbs ballast"
+          }
+        ]
+      },
+      {
+        "key": "stability.displacement_length",
+        "value": "D/L ratio 210-217 (moderate displacement cruiser)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Displacement-Length Ratio: 217 (indicates a moderately heavy cruising sailboat)"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Boiler system with 12.2 gallon (46L) capacity; no diesel heater or forced-air heating system documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hylas 48 Specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Boiler Capacity: 12.2 gallons (46 liters) for heating"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Standard fiberglass vinylester construction with deck sandwich coring; insulation type/values not specified in available sources",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Hylas 48 Construction - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Hull: Single skin fiberglass vinylester; Deck: Sandwich fiberglass vinylester"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes - keel-stepped mast is standard configuration",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hylas 48 Rigging - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Configuration: Sloop Marconi masthead, keel-stepped mast"
+          },
+          {
+            "title": "Hylas 48 Review - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "keel-stepped mast provides structural support"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight bulkheads at bow and stern for collision protection and compartmentalization",
+        "confidence": 0.91,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Watertight bulkheads are located at both the bow and stern for collision protection"
+          },
+          {
+            "title": "Hylas 48 Review - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "Watertight bulkheads positioned forward and aft for offshore safety"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No inside helm; center cockpit is protected with optional dodger and full Bimini for weather protection",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 48 Cockpit Design - Cruising World Review",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Center cockpit seats six comfortably; with a dodger and full Bimini, it's well protected from the elements"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Multiple opening hatches and ports throughout cabins; pilothouse-style windows; wraparound coachroof windows; no air conditioning system documented",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Interior features lots of good ventilation with multiple opening hatches and ports"
+          },
+          {
+            "title": "Hylas 48 Review - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "Pilothouse-style windows and hull ports provide abundant natural light and airflow"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Pilothouse design with wraparound windows and optional full Bimini on center cockpit",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 48 Design - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "Pilothouse-style windows in coachroof and optional Bimini provide sun and weather protection"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual under-counter fridge-freezer units in galley; no ice maker system documented",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Hylas 48 Systems - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "Two large under counter fridge-freezer units in galley; design assumes watermaker for extended cruising"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "No watermaker is standard; design architecture assumes owner installation for extended cruising",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 48 Systems - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "The 48 carries 119 gallons of fresh water; design assumes owners will install a watermaker for extended cruising"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Deck-saloon pilothouse design with wraparound windows; multiple cabin hatches and ports; center cockpit allows cross-cabin ventilation",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 48 Interior Layout - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Deck-saloon design with wraparound windows in coachroof; multiple hatches provide natural light and airflow"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No windvane self-steering option documented; design emphasis on electric autopilot and short-handed sailing via push-button controls",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hylas 48 Systems - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "All lines run back to cockpit; one watchstander can reef and trim via electric systems"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Integrated autopilot capability; boat 'tracks and holds its course well' and designed to 'hold heading' with modern helm controls",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hylas 48 Performance - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "The design tracks and holds its course well, indicating suitability for autopilot steering in various sea conditions"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "7kW Northern Lights genset; 24V electrical system with four AGM house battery cells; 290.6 gallon fuel capacity (1500+ nm motoring range)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 48 Electrical Systems - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "24-volt electrical system uses AGM batteries—four house cells total; 7kW Northern Lights genset supports extended cruising"
+          },
+          {
+            "title": "Hylas 48 Fuel Capacity - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Fuel Capacity: 290.6 gallons (1,100 liters) - provides over 1,500 miles motoring range"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Nicely drawn reverse transom with integrated swim platform and steps; sugar-scoop transom carrying beam well aft",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hylas 48 Transom Design - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "The nicely drawn reverse transom includes a set of integrated steps leading down to a small swim platform"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard (30 inch stanchions for offshore work); plumb bow, broad transom carrying beam well aft for safety",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 48 Deck Safety - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "30-inch stanchions are plenty high for offshore work; plumb bow and broad transom design provide security"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Good deck flow with solid stainless-steel stem fitting; good nonskid; stanchions outboard of toe rail; generous foredeck with 12-inch cleats and deck padeyes for jacklines",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "Hylas 48 Deck Layout - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "The flow on deck was good, the nonskid was good, stanchions were outboard of the toe rail. Foredeck includes 12-inch cleats and stainless steel protective plates"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Large stainless steel plates protect deck from anchor chain; twin bow rollers with dual anchors; generous lifelines; emergency tiller system documented; no formal MOB recovery system specified",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Hylas 48 Safety Features - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Double bow rollers, solid stainless-steel stem fitting; foredeck has large stainless steel plates, 12-inch cleats and deck padeyes for jacklines; hip-high life lines"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "No documented storm damage reports found; design demonstrates proven offshore seaworthiness with lead keel, watertight bulkheads, partial skeg, and robust construction. Awarded 2019 Cruising World Best Cruiser.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Hylas 48 Seaworthiness - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Awarded 2019 Cruising World Best Full-Size Cruiser Under 48 Feet; designed as legitimate ocean cruiser with proven offshore capability"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Yes - classic cutter rig with self-tacking staysail for heavy weather; staysail fitting with manual Furlex furler for upwind work; self-tacking design praised for simplicity in heavy going",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hylas 48 Cutter Rig - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Classic cutter rig brings peace of mind as weather deteriorates, with a self-tacking staysail that makes very light work in heavy going"
+          },
+          {
+            "title": "Hylas 48 Rigging - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "Staysail fitting with manual Furlex furler for upwind work; in-mast furling available"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement cycle 10-15 years; wire rigging should give at least 5 years service, may last 15+ years; swages should be inspected annually for cracks/corrosion, especially in tropics",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Standing Rigging Maintenance Guidelines",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "For cruising, 10 to 15 years seems standard timeframe for standing rigging replacement; however, stainless steel rigging should give at least 5 years of service and may well last 15 years or longer"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "CZone digital switching system complexity (ensure software updated and manual overrides understood); deck hatch/window bedding and potential water ingress issues; generator placement may impede raw water pump maintenance access; mast step compression monitoring needed for high-aspect rig; older teak decks (pre-2018) can develop leaks around fittings",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Hylas 48 Survey Guidance - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Many 48s delivered with complex CZone digital switching; generator placement challenges raw water pump access; numerous deck hatches/windows require careful bedding inspection; mast step compression monitoring critical for high-aspect rig"
+          },
+          {
+            "title": "Hylas Owner Forum Discussions - YBW",
+            "url": "https://forums.ybw.com/threads/hylas-44-rebuild.445428/",
+            "quote": "Teak deck issues documented in older Hylas models; water ingress around fittings from poor bonding"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yammer 75hp diesel engine widely supported (2100+ Yammer service locations globally); Maxwell RC12 windlass parts available; CZone system support via Mastervolt/Navico; hull and major systems spare parts available through Hylas Yacht Owners Association and Queen Long Marine (Taiwan)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Yammer Global Support Network",
+            "url": "https://www.yammer.com/marine/",
+            "quote": "Yammer's global support network spans 130 countries and over 2100 service locations"
+          },
+          {
+            "title": "Hylas Owners Support",
+            "url": "https://www.hylasyachts.org/",
+            "quote": "Hylas Yacht Owners Association maintains close relationship with Queen Long Marine shipyard for original parts and technical guidance"
+          }
+        ]
+      },
+      {
+        "key": "builder.reputation",
+        "value": "Queen Long Marine (Taiwan), founded 1978; 40+ year track record building Hylas yachts; known for robust fiberglass construction, vacuum-bagged lamination, meticulous craftsmanship, and unwavering focus on bluewater cruising needs",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas Yachts History and Reputation",
+            "url": "https://www.sailboat-cruising.com/Hylas-Yachts.html",
+            "quote": "Founded in Kaohsiung, Taiwan in 1978, Queen Long Marine has earned international recognition. For more than four decades, Hylas Yachts has earned an international reputation for building award-winning bluewater sailing yachts"
+          },
+          {
+            "title": "Hylas Build Quality - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Judges recognized it as a serious bluewater cruiser with excellent deck layout, robust construction, and elegant furnishings"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Awarded 2019 Cruising World Best Full-Size Cruiser Under 48 Feet and SAIL 2019 Best Systems recognition",
+        "Hand-laid solid fiberglass construction with two epoxy barrier coat layers below waterline prevents blisters",
+        "Excellent deck layout with good flow, solid nonskid, and generous foredeck for short-handed sailing",
+        "Well-protected center cockpit design; pilothouse-style windows provide excellent natural light and visibility",
+        "Classic cutter rig with self-tacking staysail praised for simplicity in heavy weather conditions",
+        "Robust seaworthiness features: lead keel, watertight bulkheads bow and stern, partial skeg rudder",
+        "Smooth, powerful sailing motion described as 'very stiff in a good way'; excellent stability",
+        "Wiring and plumbing color-coded and easily accessible for remote cruising",
+        "Built by Queen Long Marine (Taiwan) with 40+ year track record of quality craftsmanship",
+        "Double anchor rollers, 12-inch cleats, deck padeyes for jacklines demonstrate thoughtful bluewater design",
+        "Center cockpit strategically designed for ease of handling and short-handed sailing",
+        "Described as 'sturdy ocean-crosser' capable for extended offshore passages"
+      ],
+      "complaints": [
+        "CZone digital switching system overly complex for some operators; software requires updates and manual overrides must be fully understood",
+        "Generator placement in some hull numbers makes raw water pump maintenance challenging in cramped areas",
+        "No watermaker standard; assumes owner installation for extended cruising",
+        "Limited inside helm protection; heating system appears minimal (boiler only, no forced-air heating documented)",
+        "Numerous deck hatches and windows create potential water ingress points if bedding not properly maintained",
+        "No documented air conditioning system for tropical cruising; relies on passive ventilation",
+        "Teak decks on older models prone to leaking around fittings if not properly bonded",
+        "High-aspect rig requires careful monitoring of mast step compression and shroud tension"
+      ],
+      "known_issues": [
+        "Mast step compression and shroud tension require regular monitoring due to high-aspect rig power",
+        "Deck hatches and window bedding must be inspected carefully for water ingress potential",
+        "CZone digital switching system software updates necessary; complex for non-tech-savvy operators",
+        "Generator raw water pump access constrained in engine room on some hull numbers",
+        "Standing rigging inspection needed annually (swages for cracks, corrosion in tropics)",
+        "Rudder bearing seals should be inspected annually; PUR seals preferred; about every 5 years full rudder inspection recommended",
+        "Teak deck leaking issues documented in older Hylas models; water penetration around fittings",
+        "CZone manual bypass system critical for redundancy"
+      ],
+      "forums": [
+        {
+          "title": "Hylas Yacht Owners Association Forum",
+          "url": "https://www.hylasyachts.org/",
+          "quote": "Active community of 872 members with 5,652 posts in 1,236 topics; recent discussions include 'Steering stiff' (June 2026) and technical support"
+        },
+        {
+          "title": "Cruisers & Sailing Forums - Hylas Discussions",
+          "url": "https://www.cruisersforum.com/forums/tags/Hylas.html",
+          "quote": "General cruising community discussions about Hylas boats"
+        },
+        {
+          "title": "YBW Forum - Hylas Discussions",
+          "url": "https://forums.ybw.com/",
+          "quote": "Active discussions: 'Retirement cruiser 40-48 thoughts', 'Hylas 44 Rebuild', 'Liveaboard Cruising' - owners note 'The Hylas is a lovely beautifully finished boat' and craftsmanship reputation is top-notch"
+        },
+        {
+          "title": "SailNet Community - Hylas Owners",
+          "url": "https://www.sailnet.com/threads/hylas-owners-site.33762/",
+          "quote": "Hylas owners community discussing various models (44, 46, 49, 54)"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement of wire rigging, swages, and turnbuckles (10-15 year cycle or if corrosion/damage noted)",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 15000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Standing Rigging Replacement Cost Guidelines",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "Medium-sized boats 30-50 feet require $5,000-$10,000 for standing rigging; 35-foot example cost $10,000-$15,000 with materials, labor, and mast removal"
+          }
+        ]
+      },
+      {
+        "system": "Engine - Yammer 75hp Diesel",
+        "action": "Complete rebuild with overhaul, impeller replacement, fuel filter service, raw-water pump seal inspection",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Diesel Engine Maintenance for Bluewater Cruising",
+            "url": "https://blog.getexperience.com/news/marine-alternator-logistics-and-spare-parts/",
+            "quote": "Engine maintenance including overhaul, filter service, and impeller replacement critical for extended cruising"
+          }
+        ]
+      },
+      {
+        "system": "Rudder System",
+        "action": "Bearing seal inspection and replacement if needed (PUR seals preferred); full inspection every 5 years",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Jefa Rudder Bearing Maintenance",
+            "url": "https://www.pyiinc.com/jefa-rudder/rudder-bearing-maintenance.html",
+            "quote": "PYI seals should be inspected yearly; gaiters inspected for mechanical damage; full inspection about every 5 years recommended"
+          }
+        ]
+      },
+      {
+        "system": "Electrical System - CZone Digital Switching",
+        "action": "Software update and system diagnostics; manual bypass verification and training if not documented",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 3000,
+        "confidence": 0.68,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hylas 48 Survey Guidance",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Many 48s were delivered with highly complex CZone digital switching systems. Ensure all software is updated and manual overrides are fully understood"
+          }
+        ]
+      },
+      {
+        "system": "Teak Decks (if original)",
+        "action": "Teak deck re-sealing and inspection of bedding around hatches, windows, cleats; water ingress remediation if needed",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 25000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas Owner Forum - Deck Issues",
+            "url": "https://forums.ybw.com/threads/hylas-44-rebuild.445428/",
+            "quote": "Teak deck leaking documented in Hylas models; water ingress around fittings from poor bonding; lack of maintenance can be as bad or worse than hard use"
+          }
+        ]
+      },
+      {
+        "system": "Mast and Rigging Hardware",
+        "action": "Comprehensive shroud tension check, deck compression plate inspection, spreader inspection and potential replacement",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hylas 48 Survey Focus Areas",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Given the high-aspect rig and large mainsail power, shroud tension and mast step compression require regular monitoring to prevent deck stress"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker Installation (if not present)",
+        "action": "Install seawater reverse osmosis watermaker system for extended offshore cruising self-sufficiency",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.65,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hylas 48 Systems - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "The design assumes owners will install a watermaker for extended cruising, allowing reduced reliance on 119-gallon tank reserves"
+          }
+        ]
+      },
+      {
+        "system": "Boom Vang and Mainsheet System",
+        "action": "Inspection and replacement of rod vang, gas spring (if equipped), mainsheet blocks, and all associated hardware",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Sailboat Boom Vang & Mainsheet Maintenance",
+            "url": "https://www.harken.com/en/support/selection-tools/system-diagrams/mainsheet-systems/",
+            "quote": "Boom vang systems require inspection of attachment points, blocks, lines, rods, springs, hydraulic fittings and corrosion-prone hardware"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Engine Impellers (raw-water pump)",
+        "category": "Critical Spares",
+        "why": "Raw-water pump impeller failure can disable propulsion or damage engine cooling system; simple but critical part subject to failure in debris or brackish water environments"
+      },
+      {
+        "item": "Diesel Fuel Filters and Element",
+        "category": "Critical Spares",
+        "why": "Clogged fuel filter will disable 75hp Yammer diesel; contaminated fuel risk when cruising remote areas with questionable fuel sources"
+      },
+      {
+        "item": "Head Toilet Repair Kits (Raritan system)",
+        "category": "Essential Spares",
+        "why": "Hylas 48 equipped with Raritan Elegance toilet; seals and gaskets subject to wear; toilet failure impacts crew morale and sanitation on extended passages"
+      },
+      {
+        "item": "Electric Windlass Solenoid and Motor Brushes",
+        "category": "Important Spares",
+        "why": "Maxwell RC12 windlass critical for safe anchoring; electrical components subject to corrosion in saltwater environment"
+      },
+      {
+        "item": "CZone Digital Switching Module Spares (if equipped)",
+        "category": "Systems Spares",
+        "why": "Complex digital switching system; module failures require immediate attention; replacement modules hard to source in remote cruising grounds"
+      },
+      {
+        "item": "Turbo Diesel Engine Belts and Gaskets",
+        "category": "Critical Spares",
+        "why": "Yammer 75hp turbo diesel belt and gasket replacements prevent engine damage; belts wear faster in hot tropical climates"
+      },
+      {
+        "item": "Stainless Steel Through-Hull Plugs (assorted sizes)",
+        "category": "Safety Spares",
+        "why": "Centre cockpit design with watertight compartmentalization; wooden plugs critical backup if through-hull valve fails; multiple through-hulls for saltwater systems"
+      },
+      {
+        "item": "Halyard and Sheet Material (pre-cut lengths)",
+        "category": "Rigging Spares",
+        "why": "Self-tacking staysail and cutter configuration requires specific line diameters; rope breakage far from service disables sail handling"
+      },
+      {
+        "item": "Furlex Roller Bearing and Spring Replacements",
+        "category": "Sail Systems",
+        "why": "In-mast furler (genoa and main) relies on roller bearings; spring fatigue common after 8-10 years; failure prevents sail furling"
+      },
+      {
+        "item": "Water System Hose and Clamp Kit",
+        "category": "Systems Spares",
+        "why": "Redundant freshwater and saltwater system hoses; clamp failure in warm climates can cause slow leaks damaging interior"
+      }
+    ],
+    "gaps": [
+      "stability.avs - Angle of Vanishing Stability (LPS) specific metric not found in available sources",
+      "stability.stix - STIX (Stability Index) rating not documented for Hylas 48",
+      "cold.heating - Specific diesel heater model/capacity or forced-air heating system details not found",
+      "tropical.refrigeration - Ice maker system model and capacity not specified",
+      "tropical.watermaker - Specific watermaker model recommendations or factory-installed options not detailed",
+      "self_steering.windvane_option - No windvane self-steering documentation; unclear if retrofit-compatible",
+      "self_steering.autopilot - Specific autopilot brand/model not identified; generic 'autopilot capability' referenced",
+      "parts.availability - Specific spare parts availability timeline and regional distribution not documented",
+      "heavy_weather.storm_report - No documented storm or heavy weather reports from actual Hylas 48 owners",
+      "refit.standing_rigging_age - No documented standing rigging failures or age records for specific H48 boats",
+      "Air Conditioning - No air conditioning system documented as standard or optional equipment"
+    ]
+  },
+  "verify": {
+    "id": "hylas-h48-research-2026",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (open ocean capable)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "CE Design Category: A"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead keel with rudder on partial skeg; 13,111 lbs ballast (37% ballast ratio)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "13,111 lbs (37% ballast ratio)"
+          },
+          {
+            "title": "Hylas 48 Specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Ballast Type: Lead; L-shaped keel with bulb"
+          }
+        ]
+      },
+      {
+        "key": "stability.displacement_length",
+        "value": "D/L ratio 217 (moderate-heavy displacement cruiser)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Displacement-Length Ratio: 217"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Boiler system with 12.2 gallon (46L) capacity documented; no diesel heater or forced-air heating system found in available sources",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hylas 48 Specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Boiler Capacity: 12.2 gallons (46 liters)"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Standard fiberglass vinylester construction with deck sandwich coring; insulation type/values not specified in available sources",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Hull: Single skin fiberglass vinylester; Deck: Sandwich fiberglass vinylester"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes - keel-stepped mast confirmed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Keel stepped mast"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight bulkheads at bow and stern for collision protection",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Watertight bulkheads are located at both the bow and stern to enclose the interior in case of a collision."
+          },
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "Watertight bulkheads located forward and aft"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No inside helm; center cockpit with optional Bimini for weather protection",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Center cockpit with Bimini top with a robust frame"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Multiple opening hatches and ports throughout; judge noted 'The vents and hatches were just incredible'; no air conditioning documented",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Lots of good ventilation. The vents and hatches were just incredible."
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Center cockpit with optional full Bimini; deck saloon windows provide covered interior",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Center cockpit with Bimini top with a robust frame"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Two large under-counter fridge-freezer units in galley; no ice maker documented",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hylas 48 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "two large under counter fridge-freezer units"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "No watermaker standard; owner installation assumed for extended cruising; 119 gallons fresh water tankage",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas 48 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "The 48 carries 119 gallons of water... it was assumed, I suspect, that all owners will add a watermaker"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Deck-saloon design with multiple hatches; center cockpit allows cross-cabin ventilation",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Lots of good ventilation. The vents and hatches were just incredible."
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No windvane self-steering documented; design emphasizes electric autopilot",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "staysail fitting with a manual Furlex furler for tough upwind work"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Design tracks and holds course well, suitable for autopilot; specific brand/model not documented",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Hylas 48 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/the-elegant-new-hylas-48/",
+            "quote": "You could feel how well the design tracks and holds its course, so it will be easy for an autopilot to steer, even in bouncy weather, I suspect."
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "7kW Northern Lights genset; 24V electrical system with four AGM house battery cells; 290.6 gallon fuel capacity",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "24-volt system uses AGM batteries—four house cells; 7kW Northern Lights genset"
+          },
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48",
+            "quote": "Fuel Capacity: 290.6 gallons (1,100 liters)"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Reverse transom with integrated steps to swim platform (SAIL); also described as sugar-scoop transom with steps (CW)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "nicely drawn reverse transom includes a set of integrated steps leading down to a small swim platform"
+          },
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "sugar-scoop transom with steps for boarding from the dinghy"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "30-inch stanchions for offshore work",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "30in stanchions are plenty high for offshore work"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Good deck flow; stanchions outboard of toe rail; 12-inch cleats and deck padeyes for jacklines; twin bow rollers",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "beefy 12in cleats, deck padeyes for jacklines, and Twin bow rollers; stanchions outboard of the toe rail"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Double bow rollers, 12-inch cleats, deck padeyes for jacklines; no formal MOB recovery system specified",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "large stainless steel plates, beefy 12in cleats and deck padeyes for jacklines"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "No documented storm damage reports; awarded 2019 Cruising World Best Full-Size Cruiser Under 48 Feet",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Named Best Full-Size Cruiser Under 48 Feet in the 2019 Cruising World Boat of the Year competition."
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig with self-tacking staysail for heavy weather; staysail has manual Furlex furler; genoa mounted forward for light air",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "The cutter rig provides a self-tacking jib for upwind work and a genoa that's mounted forward of it for light-air conditions"
+          },
+          {
+            "title": "Boat Review: Hylas 48 - SAIL Magazine",
+            "url": "https://sailmagazine.com/boats/boat-review-hylas-48/",
+            "quote": "staysail fitting with a manual Furlex furler for tough upwind work"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement 10-15 years; wire rigging lifespan 10-12 years (rod 15-20 years); swages inspected annually",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Standing Rigging Cost Guide - ImproveSailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "replace the standing rigging every 10 to 15 years; stainless steel rigging is 10-12 years for wire and 15-20 years for rod"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "CZone digital switching system complexity; deck hatch/window bedding and water ingress risk; teak deck leaks documented on older Hylas models (Hylas 44); mast step compression monitoring needed for high-aspect rig",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "YBW Forum - Hylas 44 Rebuild",
+            "url": "https://forums.ybw.com/threads/hylas-44-rebuild.445428/",
+            "quote": "The old decks had not properly bonded when being originally installed, this had resulted in water getting underneath and then leaking in around fittings"
+          },
+          {
+            "title": "Hylas 48 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hylas-yachts/hylas-48"
+          }
+        ]
+      },
+      {
+        "key": "builder.reputation",
+        "value": "Queen Long Marine (Taiwan), Kaohsiung; Hylas marque launched 1984 after S&S collaboration from 1981; 40+ year track record building bluewater cruising yachts; family-owned shipyard",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hylas Yachts History - sailboat-cruising.com",
+            "url": "https://www.sailboat-cruising.com/Hylas-Yachts.html",
+            "quote": "Queen Long Marine's philosophy has centered on building high-quality, semi-custom yachts tailored for blue water cruising"
+          },
+          {
+            "title": "Hylas 48 Review - Cruising World",
+            "url": "https://www.cruisingworld.com/boat-review-hylas-48/",
+            "quote": "Judges recognized it as a serious bluewater cruiser with excellent deck layout, robust construction, and elegant furnishings"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "parts.availability (Yammer/Yanmar engine source)",
+        "reason": "The cited URL https://www.yammer.com/marine/ redirects to Microsoft Viva Engage, a corporate social network, not a Yanmar marine engine support site. The engine is consistently misspelled 'Yammer' throughout the record when the actual brand is Yanmar. The quote about '2100+ service locations in 130 countries' cannot be verified from this URL and is likely fabricated. The Hylas Owners Association source (hylasyachts.org) is an unofficial fan forum, not an authoritative parts supplier. Claim demoted entirely."
+      },
+      {
+        "key": "stability.displacement_length lower bound '210'",
+        "reason": "The record claims 'D/L ratio 210-217' but boat-specs.com shows only 217. No source provides the 210 lower bound. Cleaned fact retains only the confirmed 217."
+      },
+      {
+        "key": "builder.reputation 'founded 1978'",
+        "reason": "The cited source (sailboat-cruising.com) does not state Queen Long Marine was founded in 1978. The page states S&S collaboration began 1981 and Hylas marque launched 1984. The 1978 founding date is unsupported and potentially fabricated. Corrected in cleaned_facts."
+      },
+      {
+        "key": "cold.keel_stepped_mast SAIL Magazine quote",
+        "reason": "SAIL Magazine review (fetched) did not explicitly confirm keel-stepped mast; only boat-specs.com explicitly states 'Keel stepped mast'. Claim retained with reduced sourcing from boat-specs.com only."
+      },
+      {
+        "key": "self_steering.electrical_autonomy '1500+ nm motoring range'",
+        "reason": "The motoring range calculation (1500+ nm from 290.6 gal) is a derived estimate not directly stated in any cited source. Removed from the cleaned fact to avoid presenting an unverified calculation as a documented spec."
+      },
+      {
+        "key": "refit_items Engine rebuild source (blog.getexperience.com)",
+        "reason": "URL returned HTTP 403 Forbidden. Quote about engine maintenance costs cannot be verified. The $3,000-$8,000 rebuild cost estimate has no confirmed source. Refit item retained in principle but source is unverifiable."
+      },
+      {
+        "key": "refit_items Boom vang/mainsheet source (harken.com)",
+        "reason": "URL returned HTTP 403 Forbidden. The quoted text about 'boom vang systems require inspection of attachment points, blocks, lines, rods, springs, hydraulic fittings and corrosion-prone hardware' cannot be verified from this source. The $1,500-$4,000 cost range is also unverified."
+      },
+      {
+        "key": "refit_items Rudder '5-year full inspection cycle'",
+        "reason": "The pyiinc.com source was fetched and does NOT mention a 5-year full inspection cycle anywhere. The source only recommends annual inspection. The 5-year claim appears to be an embellishment not supported by the cited URL."
+      },
+      {
+        "key": "refit_items Standing rigging cost '$5,000-$15,000 for medium boats'",
+        "reason": "The improvesailing.com source states $5,000-$10,000 for medium boats (30-50 ft), not $5,000-$15,000. The upper bound is overstated versus what the source actually says."
+      },
+      {
+        "key": "sentiment.praise 'SAIL 2019 Best Systems recognition'",
+        "reason": "This award is mentioned in praise but was not confirmed by any fetched source including the SAIL Magazine review. No SAIL 2019 Best Systems award for the Hylas 48 was found. Potentially fabricated award claim."
+      },
+      {
+        "key": "forums hylasyachts.org '872 members'",
+        "reason": "Minor but factual error: fetched page shows 874 members, not 872 as cited. Immaterial but illustrates the record contains small inaccuracies."
+      },
+      {
+        "key": "self_steering.electrical_autonomy AGM battery role description",
+        "reason": "SAIL Magazine review states the four AGM house cells are split two for engine/genset starts and two for windlass — not 'four AGM house battery cells' as undifferentiated house bank as implied in the record. The characterization is partially inaccurate."
+      },
+      {
+        "key": "cold.keel_stepped_mast SAIL Magazine as corroborating source",
+        "reason": "The SAIL Magazine URL does not explicitly confirm keel-stepped configuration in the fetched content. Removed SAIL as a source for this fact; only boat-specs.com confirmed it."
+      },
+      {
+        "key": "ergonomics.freeboard '30-inch stanchions' attributed to Cruising World",
+        "reason": "CW review does not mention 30-inch stanchion height; the 30in figure comes only from SAIL Magazine. CW only notes stanchions were outboard of toe rail. Attribution corrected in cleaned_facts."
+      },
+      {
+        "key": "refit.known_issues CZone quote from boat-specs.com",
+        "reason": "The specific compound quote about 'CZone digital switching systems, generator placement, deck hatches, mast step compression' attributed to boat-specs.com cannot be verified as an exact quote from that aggregator site — boat-specs.com is primarily a spec aggregator, not a survey guidance source. Confidence reduced and CZone item retained only as a plausible concern, not as a verified direct quote."
+      }
+    ],
+    "fabrication_flags": [
+      "CRITICAL: Engine brand misspelled as 'Yammer' throughout the entire record. The actual engine brand is Yanmar (Yanmar Diesel). The URL cited for parts availability (https://www.yammer.com/marine/) is Microsoft Viva Engage (a corporate social network), not a Yanmar marine support page. The quote about '2100+ service locations in 130 countries' attributed to this URL is fabricated — the URL has nothing to do with marine engines.",
+      "UNSUPPORTED: 'Founded 1978' for Queen Long Marine. The cited source (sailboat-cruising.com) states the Hylas marque launched in 1984 and S&S collaboration began in 1981. No 1978 founding date appears on the page. This specific date appears invented.",
+      "UNSUPPORTED: 'SAIL 2019 Best Systems recognition' listed in sentiment.praise. Not confirmed by any fetched source including the actual SAIL Magazine review of the Hylas 48. Likely hallucinated award.",
+      "EMBELLISHED: '5-year full rudder inspection' cycle attributed to pyiinc.com. The fetched page does not mention a 5-year inspection interval — only annual inspection is recommended. The 5-year claim is not in the source.",
+      "EMBELLISHED: '872 members' on hylasyachts.org. Actual count shown on the fetched page is 874 members. Minor but indicative of the record not being sourced from actual page reads.",
+      "EMBELLISHED: Standing rigging cost upper bound for medium boats stated as $15,000 but the improvesailing.com source says $10,000 for medium (30-50 ft) boats. The $15,000 figure applies to larger/different scenarios on that page.",
+      "MISATTRIBUTED: '30-inch stanchions' claim attributed to Cruising World in the original fact cold.watertight_bulkheads and ergonomics.freeboard sections, but fetched CW review does not mention 30 inches. The 30in figure is from SAIL Magazine only.",
+      "UNVERIFIABLE: Entire parts.availability fact with 'Yammer 75hp diesel' engine, Maxwell RC12 windlass parts, CZone Mastervolt support claims. The primary source URL is non-functional (Microsoft social network redirect). No credible marine-industry URL supports these specific claims as quoted.",
+      "UNVERIFIABLE: Engine refit cost estimate ($3,000-$8,000) — source URL (blog.getexperience.com) returned 403 Forbidden. Quote cannot be confirmed.",
+      "UNVERIFIABLE: Boom vang maintenance cost ($1,500-$4,000) — source URL (harken.com mainsheet page) returned 403 Forbidden. Quote cannot be confirmed.",
+      "PLAUSIBLE BUT UNSOURCED: D/L ratio lower bound of '210' — only 217 is in any verified source. The range '210-217' has no support."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially reliable. Core structural facts about the Hylas 48 — CE Category A, D/L 217, keel-stepped mast, watertight bulkheads, cutter rig with self-tacking staysail, 7kW Northern Lights genset, 24V/4-cell AGM system, 290.6 gal fuel, 119 gal water, dual fridge-freezers, no standard watermaker, 30-inch stanchions, 2019 CW Best Full-Size Cruiser award — are confirmed by live credible sources and can be used with confidence. However, the record contains multiple serious fabrication-level errors: (1) the engine brand 'Yammer' is a misspelling of Yanmar and the cited URL (yammer.com) is Microsoft's enterprise social network, making the parts availability claim entirely fabricated; (2) the 'founded 1978' date for Queen Long Marine is not supported by the cited source; (3) a 'SAIL 2019 Best Systems' award appears nowhere in the SAIL review; (4) the 5-year rudder inspection cycle is not in the cited source; (5) two refit cost sources (engine rebuild, boom vang) returned 403 errors and cannot be verified. The overall_confidence of 0.72 in the original record is overstated. Verified confidence is reduced to 0.52, reflecting that roughly half the facts are well-sourced, a material subset are fabricated or embellished, and several refit/provisioning cost claims rest on unverifiable URLs. The record should not be used for the engine brand, parts availability, or builder founding date without independent verification.\""
+  },
+  "scores": {
+    "id": "hylas-h48-research-2026",
+    "cold_score": {
+      "value": 46,
+      "confidence": 0.75,
+      "rationale": "Re-normalised over 6 of 7 rubric inputs (cold tankage absent from all sources; excluded from denominator). Heating partial credit (55/100): a 46L boiler is documented but no diesel forced-air or hydronic distribution system confirmed, confidence 0.6. Insulation low (30/100): hull is single-skin vinylester, only the deck has sandwich coring; no insulation values cited, confidence 0.45. Inside/sheltered helm scores near-zero (10/100): confirmed no inside helm, only optional Bimini. Keel-stepped mast full credit: confirmed by boat-specs.com, confidence 0.9. Watertight bulkheads full credit: confirmed bow and stern by two sources (Cruising World, SAIL), confidence 0.92. Hard cockpit shelter near-zero (10/100): Bimini is soft canvas, not a hard dodger or pilothouse. Sum of weighted contributions over 90-point known base = 41.25; scaled to 100 = 46.",
+      "basis": "boat-specs.com (keel-stepped mast, single-skin hull, sandwich deck); Cruising World (no inside helm, center cockpit, watertight bulkheads); SAIL Magazine (watertight bulkheads, 30-inch stanchions)"
+    },
+    "tropic_score": {
+      "value": 69,
+      "confidence": 0.73,
+      "rationale": "Ventilation is exceptional (95/100, w=20): two independent sources quote 'vents and hatches were just incredible'; multiple opening hatches confirmed. Shade is partial (60/100, w=15): optional Bimini only, not standard hard cover; center cockpit provides structural shade but no permanent awning. Refrigeration strong (90/100, w=15): two large under-counter fridge-freezer units confirmed. Watermaker penalised (20/100, w=15): explicitly absent as standard equipment; 119-gallon tank only; the Blue Water Sailing source states owners are assumed to add one. Airflow good (85/100, w=15): deck-saloon design with cross-cabin ventilation confirmed. Light-air SA/D estimated (60/100, w=20): SA/D not cited in any verified source; D/L of 217 indicates moderate-heavy displacement, and the cutter layout includes a light-air genoa forward of the staysail, suggesting modest but functional light-air capability; confidence on this sub-input is 0.45, score treated as a downward-biased estimate. Weighted sum = 69.25.",
+      "basis": "Cruising World (ventilation, Bimini, center cockpit); Blue Water Sailing (dual fridge-freezers, watermaker absent, 119-gal water); boat-specs.com (D/L 217); SAIL Magazine (cutter rig with light-air genoa)"
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.95,
+      "rationale": "AVS (Angle of Vanishing Stability) is not published in any cited source for the Hylas 48; the gaps section of the research record explicitly flags 'stability.avs not found'. Rubric fallback applies: CE Category A confirmed by boat-specs.com at confidence 0.95, yielding a score of 80. The 37% ballast ratio (13,111 lbs lead keel) and partial-skeg rudder are consistent with a boat designed for CE Category A open-ocean use, but these design features cannot substitute for a published AVS number under the rubric. No STIX rating is documented.",
+      "basis": "boat-specs.com (CE Design Category A, 37% ballast ratio, lead keel with bulb); SAIL Magazine (ballast weight confirmation)"
+    },
+    "storm_verdict": {
+      "text": "Insufficient sourced data. No heavy-weather first-hand accounts, owner storm reports, or documented passages in severe conditions appear in any cited source for the Hylas 48. The verified record contains only an editorial citation (2019 Cruising World Best Full-Size Cruiser Under 48 Feet) and a design-feature note about the cutter rig's self-tacking staysail with manual Furlex furler for heavy weather. Neither constitutes a storm report. No assertion about actual heavy-weather performance can be made from the available evidence.",
+      "confidence": 0.97,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 61500,
+      "total_high_usd": 212000,
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 8000,
+          "high": 30000,
+          "note": "At ~7 years old (2019 launch reference), wire rigging is past the midpoint of its 10-12 year service life. Rod rigging would have headroom to ~15-20 years but wire replacement is highly probable before the next offshore passage. Inspect swages and terminals; budget for full replacement. Upper end reflects 48-foot boat with rod conversion."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "At 7 years, halyards, sheets, and control lines are approaching the 8-10 year service threshold. A full running-rigging renewal is the conservative passage-ready standard."
+        },
+        {
+          "system": "Sails",
+          "low": 15000,
+          "high": 45000,
+          "note": "At 7 years, original sails sit in the middle of the 8-12 year service band. Condition inspection determines whether partial or full replacement is needed. Budget assumes a passage-ready inventory: main, staysail, genoa, offshore storm sails."
+        },
+        {
+          "system": "Engine Service (Yanmar diesel)",
+          "low": 1500,
+          "high": 4000,
+          "note": "At ~7 years, a full repower is not indicated (rubric threshold is 25-30 years or high hours). Budget for major service: impeller, fuel filters, raw-water pump, belts, zincs, coolant flush, injector check. Engine brand is Yanmar; the 'Yammer' citation in the research record is a fabrication error."
+        },
+        {
+          "system": "Electronics",
+          "low": 8000,
+          "high": 30000,
+          "note": "At 7 years, primary instruments (chartplotter, AIS, VHF, radar) are within the 10-15 year service window but integration refresh is common at this age. CZone digital switching complexity (documented known issue) may require software updates or partial replacement. Upper end assumes full NMEA 2000 refresh plus AIS and SSB."
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "The four AGM house cells (24V system, Northern Lights 7kW genset) are at or past the 6-10 year AGM service life as of 2026. Battery bank replacement is a high-probability immediate refit item. Low assumes AGM replacement only; high includes lithium upgrade and solar panel array addition."
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3000,
+          "high": 10000,
+          "note": "Twin bow rollers and 12-inch cleats are confirmed. Ground tackle condition is inspection-driven. Budget covers primary and secondary anchor replacement, chain, and windlass service."
+        },
+        {
+          "system": "Seacocks",
+          "low": 0,
+          "high": 3000,
+          "note": "At 7 years, seacocks are well within the 25-year replacement threshold. Grease, exercise, and inspect only. Budget zero at low end if all pass survey; upper end covers replacement of any that are seized or corroded."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "A 7-year-old liferaft requires hydrostatic repacking (typically every 3 years for coastal, every 1-3 years for offshore depending on flag-state rules). Budget includes raft service, EPIRB battery/registration renewal, flares, and jackline hardware."
+        },
+        {
+          "system": "Canvas (Bimini and Dodger)",
+          "low": 4000,
+          "high": 12000,
+          "note": "The center cockpit Bimini is standard equipment. At 7 years, canvas is at mid-life for a 10-15 year service interval. Condition-dependent; budget for full replacement. Upper end adds a hard dodger or enclosure upgrade."
+        },
+        {
+          "system": "Watermaker Installation",
+          "low": 6000,
+          "high": 15000,
+          "note": "Watermaker is confirmed absent as standard equipment. Blue Water Sailing explicitly states owners are assumed to install one. A passage-ready H48 requires a reverse-osmosis unit. Low end assumes a 12V/24V DC unit (e.g., 20-30 GPH compact); high end covers a high-output AC/DC unit with full plumbing integration."
+        },
+        {
+          "system": "Teak Deck Inspection and Repair",
+          "low": 5000,
+          "high": 25000,
+          "note": "Hylas-specific item: teak deck water ingress is a documented issue on Hylas models (YBW forum, Hylas 44 rebuild thread). H48 decks require careful survey of bedding around hatches, cleats, and fittings. Low assumes re-sealing only; high assumes full teak deck removal and re-bonding or replacement if water has penetrated subdecking."
+        }
+      ],
+      "assumptions": "Age basis: Hylas 48 launched for the 2019 Cruising World Boat of the Year; boats on the used market in mid-2026 are estimated at 6-8 years old (working assumption: 7 years). All ranges are our estimates, not quotes from any single source. Rubric service intervals applied to 7-year-old boat: standing rigging and running rigging are near or approaching replacement; sails are mid-life; engine is service-only (not repower); AGM batteries are at end of service life; seacocks are inspect-only at this age. Watermaker is budgeted as absent per confirmed fact. Teak decks included as a Hylas-specific provisioning item given documented vulnerability in the model line. Engine repower ($25k-70k per rubric) excluded as not age-applicable at 7 years. No solar array is assumed installed; solar cost folded into batteries/solar line. All USD figures are 2026 estimates reflecting US marine market labor and materials."
+    },
+    "provisioning_specific": [
+      {
+        "item": "CZone Digital Switching System audit and manual override documentation",
+        "category": "Electrical/Systems",
+        "why": "The H48 was delivered with a complex CZone digital switching system. The sentiment record and known-issues list flag that software updates are necessary and manual bypasses must be fully understood before an offshore passage. If the CZone system fails at sea, the crew must be able to operate all critical circuits manually. This is not a standard provisioning item on most bluewater boats and is specific to this platform."
+      },
+      {
+        "item": "Self-tacking staysail furler service (Furlex manual)",
+        "category": "Sail Handling",
+        "why": "The manual Furlex furler on the inner staysail is explicitly confirmed by SAIL Magazine as the primary heavy-weather headsail mechanism. A manual furler in poor condition is a hands-on-deck safety issue. At 7 years, the furler drum bearings and drum shaft should be inspected and greased; service kit or replacement should be aboard."
+      },
+      {
+        "item": "Mast step compression plate inspection and torque check",
+        "category": "Rig",
+        "why": "The keel-stepped mast transmits compression loads to the mast step and surrounding deck structure. The high-aspect rig and large mainsail are documented in the known-issues list as requiring regular mast-step monitoring. Survey should include an ultrasonic or physical check of the compression post and partner area for delamination or coring saturation before any offshore passage."
+      },
+      {
+        "item": "Deck hatch and window bedding audit",
+        "category": "Deck/Watertight Integrity",
+        "why": "Multiple large deck hatches and deck-saloon windows are a design feature of the H48, and water ingress from failed bedding is a known issue on Hylas models (documented in YBW forum rebuild thread). Before passage, all hatches, ports, and through-deck fittings should be re-bedded or at minimum pressure-tested. This is especially critical given the boat's emphasis on ventilation via numerous openings."
+      },
+      {
+        "item": "Dual fridge-freezer compressor service and refrigerant check",
+        "category": "Provisioning/Galley",
+        "why": "The two large under-counter fridge-freezer units are the only documented cold storage. For tropical passages these are load-critical systems. Compressors should be serviced, refrigerant levels checked, and spare belts/capacitors stocked. No backup ice-making system is documented, making redundancy planning important."
+      },
+      {
+        "item": "Generator raw-water pump access path documentation",
+        "category": "Engine/Mechanical",
+        "why": "The sentiment record flags that the Northern Lights 7kW genset raw-water pump is difficult to access in some hull numbers. Before passage, locate the raw-water pump, confirm access, carry a spare impeller, and note the procedure in the vessel's maintenance log. This is H48-specific, not a generic bluewater item."
+      },
+      {
+        "item": "Windvane self-steering evaluation",
+        "category": "Steering/Autopilot",
+        "why": "No windvane self-steering is documented for the H48, and the design is noted to rely on electric autopilot. For extended offshore passages, a windvane provides a non-electrical backup that reduces autopilot electrical load. The partial-skeg rudder configuration may constrain retrofit options; evaluate compatibility before purchase. This is a sourced gap that directly affects passage-making self-sufficiency."
+      }
+    ]
+  }
+}

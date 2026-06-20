@@ -1,0 +1,1005 @@
+{
+  "_id": "ovni450",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "ovni450",
+  "name": "Ovni 450",
+  "research": {
+    "id": "ovni_450_research_20250620",
+    "facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not publicly available in sources; similar Ovni models with 32% ballast ratio suggest AVS in moderate range",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "OVNI 450 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not found in available sources; IRC rating certificate would be required",
+        "confidence": 0,
+        "sources": []
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A - Long autonomous voyages in the open ocean; Capsize Screening Value 1.91",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "OVNI 450 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/ovni-450/"
+          },
+          {
+            "title": "Alubat Ovni 450: Prices, Specs, Reviews and Sales Information - itBoat",
+            "url": "https://itboat.com/models/7818-alubat-ovni-450"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Internal cast iron ballast; ballast ratio 32%; displacement 11,550 kg with ballast 3,725 kg",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Specifications OVNI 450 - Boatsector",
+            "url": "https://boatsector.com/specifications-ovni-450/"
+          },
+          {
+            "title": "OVNI 450 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Ovni 445 (predecessor) equipped with 40-liter water heater with 220V supply and engine heat exchanger option; Webasto 5Kw blown air diesel heating reported on owner Ovni 435",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Ovni 445 & 450 Specifications",
+            "url": "https://www.alubat.fr/wp-content/uploads/2021/03/Ovni-445-2021-technical-description-EN.pdf"
+          },
+          {
+            "title": "Ovni 445 435 owner experience cruising cold weather heating - Morgan's Cloud",
+            "url": "https://www.morganscloud.com/2010/08/22/ovni-435/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Sprayed cork and 50mm foam above waterline standard; full hull and deck insulation above waterline available to prevent condensation on aluminum hull",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Alubat Ovni aluminum boat insulation cold weather - SailBoat Cruising",
+            "url": "https://www.sailboat-cruising.com/Ovni-sailboats.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Aluminum mast with retractable step; deck-stepped with fractional sloop rigging; 12 cables including forestay, backstays, shrouds held by turnbuckles",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Alubat Ovni rigging aluminum mast fractional sloop maintenance - Martin Leaning",
+            "url": "https://martinleaning.co.uk/content/418-alubat-ovni-ovni-450"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "No permanent watertight bulkheads due to aluminum hull rigidity; watertight bulkhead separates sail compartment from finished interior only",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Ovni 450 hard chine aluminum construction interior finishes cabin",
+            "url": "https://www.chooseyourboat.tv/post/ovni-450-a-great-lifting-keel-aluminium-yacht"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Outdoor twin helm wheels with sprayhood protection; no enclosed pilothouse on 450 (490 pilothouse model exists as newer option)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Large portholes added to interior for natural lighting; opening portlights on galley; hard-chine design aids air circulation but specific CFM not documented",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          },
+          {
+            "title": "Ovni 490 on test - YACHT Magazine",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/ovni-490-on-test-this-aluminium-yacht-is-built-for-long-journeys/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Angular metal sprayhood standard; bimini or hard-top canopy options available; wide bathing platform and twin helm stations provide some shelter",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "YACHT test: Ovni 450 French aluminium yacht for long cruises",
+            "url": "https://www.yacht.de/en/cruising-yachts/yacht-test-ovni-450-french-aluminium-yacht-for-long-cruises/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Not found in standard specifications; refrigeration system customizable as option but not detailed in available sources",
+        "confidence": 0.35,
+        "sources": []
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not found in Ovni 450 specifications; Ovni 435 documented with Dessalator 60 L/h watermaker as option",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Alubat Ovni 435 For Sale - Ancasta",
+            "url": "https://ancasta.com/boats-for-sale/used/sail/alubat/ovni-435/48242/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Hard-chine aluminum construction creates dual-chine hull design; interior layout offers six configurable options to optimize cabin flow; no documented forced air ventilation system",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Hydrovane windvane successfully installed and tested on Ovni 445 during ARC 2011 crossing; system operates independently with separate rudder; 70% downwind steering effectiveness reported",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Ovni 445 - Hydrovane",
+            "url": "https://hydrovane.com/stories/ovni-445/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "No standard autopilot included; Raymarine/B&G systems common on newer builds; some owner reports of autopilot drift at 160°+ wind angles with heavy swell",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Ovni 450 owner complaints - itBoat discussion",
+            "url": "https://itboat.com/models/7818-alubat-ovni-450"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Standard 75 HP Volvo diesel engine; 500L fuel capacity; 540L freshwater capacity; wind generator and solar panels available; no documented battery capacity specifications",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Specifications OVNI 450 - Boatsector",
+            "url": "https://boatsector.com/specifications-ovni-450/"
+          },
+          {
+            "title": "YACHT test: Ovni 450 French aluminium yacht for long cruises",
+            "url": "https://www.yacht.de/en/cruising-yachts/yacht-test-ovni-450-french-aluminium-yacht-for-long-cruises/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Significantly enlarged bathing platform vs 445 with twin helm wheels; wide aft passageway between wheels; enlarged equipment carrier with practical lowering device for large dinghies",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "Ovni 445 450 transom platform bathing recovery dinghy",
+            "url": "https://www.northseamaritime.com/alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Generous freeboard above waterline; high freeboard aft to ensure interior volume; 1.98m (6.5ft) minimum headroom documented",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Allures 40.9 vs Ovni 400: French aluminium centreboarders",
+            "url": "https://www.yachtingworld.com/boat-test/allures-40-9-vs-ovni-400-french-aluminium-centreboarders-128257"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Narrow side decks typical of hard-chine design; generous cockpit with improved cockpit design from 445; access to transom via twin helm stations",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Life raft stowed for easy access with minimal launch effort; wide transom platform aids recovery; bathing platform facilitates rescue operations; no specific MOB recovery system documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Ovni 445 450 freeboard deck layout side decks MOB - OVNI 450 chooseyourboat",
+            "url": "https://www.chooseyourboat.tv/post/ovni-450-a-great-lifting-keel-aluminium-yacht"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "No documented storm reports for Ovni 450 specifically; related Ovni 435 owner reported steering becomes challenging in worst conditions; four to six experienced helms needed for heavy weather watches",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Ovni 450 owner experience forum cruising heavy weather - YACHT de",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/ovni-430-solid-aluminium-ocean-going-yacht-for-the-worst-case-scenario/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Fractional sloop rigging with removable inner forestay for staysail or storm jib; storm jib attaches abaft anchor locker; upper spreader join with running backstays; rigging stowed by mast when not in use",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Ovni 450 staysail cutter heavy weather storm sailing - PBO/Alubat",
+            "url": "https://www.pbo.co.uk/reviews/boats/ovni-395-aluminium-all-star"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Insurance recommends replacement every 10 years; well-maintained rigging can last 20 years; stainless steel standing rigging with turnbuckles documented on similar models",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement - Martin Leaning Masts",
+            "url": "https://martinleaning.co.uk/content/27-how-much-does-it-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Aluminum corrosion requires zinc anode maintenance (replace at 60% consumption); keel inspection and nylon slide replacement periodically required; no major design defects documented; galley port-side placement noted as unconventional",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Alubat Ovni aluminum boat corrosion cathodic protection - Anode Outlet",
+            "url": "https://www.anodeoutlet.co.uk/blog/fitting-anodes-on-aluminium-hulls/"
+          },
+          {
+            "title": "Alubat Ovni keel maintenance - Alubat Services",
+            "url": "https://www.alubat.com/services/refit/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Alubat has refit workshop in France with experience in 1,600+ units built over 49 years; Volvo Penta diesel engines widely supported; custom parts through Alubat directly; no comprehensive parts distribution network documented",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Alubat keel maintenance and refit services",
+            "url": "https://www.alubat.com/services/refit/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Exceptional downwind steering with Hydrovane windvane - 70% effectiveness reported",
+        "Strong bluewater capability with CE Category A certification for ocean voyages",
+        "Practical design with six interior layout options for customization",
+        "Robust aluminum hull construction with proven track record (1,500+ Ovnis built)",
+        "Improved cockpit and bathing platform vs predecessor 445 model",
+        "Strong equipment carrier with dinghy launching system",
+        "Light oak interior with generous galley and chart table",
+        "Excellent for serious ocean cruising and expedition sailing",
+        "Hard-chine aluminum hull easier to maintain than round-chine alternatives"
+      ],
+      "complaints": [
+        "Aluminum hull requires intensive maintenance to prevent corrosion and condensation",
+        "Aluminum hull painting/epoxy costs equal or exceed fiberglass boat costs",
+        "No enclosed pilothouse - external helm exposed to elements",
+        "Narrow side decks typical of hard-chine design limits deck movement",
+        "Galley placement on starboard side unconventional (most boats port)",
+        "Aft cabin reported as 'too narrow for two' in some configurations",
+        "Autopilot can become confused in 160°+ wind angles with heavy swell",
+        "Conservative hull shape sacrifices speed for safety and comfort",
+        "Steering challenging in extreme heavy weather without experienced crew rotation"
+      ],
+      "known_issues": [
+        "Zinc anode corrosion protection requires maintenance every few years (replace at 60% consumption)",
+        "Keel mechanism needs regular inspection and nylon slide replacement",
+        "Cathodic protection system installation mistakes documented on some boats",
+        "Hull condensation risk in cold climates without full insulation package",
+        "Bolts susceptible to corrosion on European aluminum boats (non-metric US spec originally used)",
+        "Life raft stowage space shared with tender storage area on narrow transoms",
+        "No bow thruster standard - difficult in tight harbors with cross winds"
+      ],
+      "forums": [
+        {
+          "title": "Ovni Owners - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/ovni-owners-251020.html"
+        },
+        {
+          "title": "Ovni 445 - Hydrovane owner testimonial",
+          "url": "https://hydrovane.com/stories/ovni-445/"
+        },
+        {
+          "title": "Colin And Louise's OVNI 435 - Attainable Adventure Cruising",
+          "url": "https://www.morganscloud.com/2010/08/22/ovni-435/"
+        },
+        {
+          "title": "Ovni 430 heavy weather experience - YACHT Magazine",
+          "url": "https://www.yacht.de/en/yachts/cruising-yachts/ovni-430-solid-aluminium-ocean-going-yacht-for-the-worst-case-scenario/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging Replacement",
+        "action": "Full standing rigging and turnbuckles replacement per insurance 10-year recommendation",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 20000,
+        "confidence": 0.78,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement",
+            "url": "https://martinleaning.co.uk/content/27-how-much-does-it-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "system": "Hull Painting & Epoxy Barrier Coat",
+        "action": "Epoxy barrier coat application and bottom paint renewal for aluminum hull protection",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 12000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Aluminum hull maintenance painting epoxy cost",
+            "url": "https://www.morganscloud.com/2024/10/06/hull-materials-which-is-best/"
+          }
+        ]
+      },
+      {
+        "system": "Diesel Engine Major Service",
+        "action": "Engine overhaul, heat exchanger replacement, and injector service for 75 HP Volvo diesel",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Marine Diesel Engine Overhauls cost analysis",
+            "url": "https://dieselservicesofamerica.com/marine-diesel-engine-overhauls-whats-the-real-cost/"
+          }
+        ]
+      },
+      {
+        "system": "Zinc Anode Cathodic Protection",
+        "action": "Replacement of sacrificial zinc anodes when 60% consumed; annual or biennial replacement typical",
+        "cost_low_usd": 300,
+        "cost_high_usd": 800,
+        "confidence": 0.82,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Fitting Anodes On Aluminium Hulls",
+            "url": "https://www.anodeoutlet.co.uk/blog/fitting-anodes-on-aluminium-hulls/"
+          }
+        ]
+      },
+      {
+        "system": "Lifting Keel Maintenance",
+        "action": "Keel inspection, nylon slide replacement, and sensor maintenance",
+        "cost_low_usd": 800,
+        "cost_high_usd": 2500,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Alubat Refit and Maintenance Services",
+            "url": "https://www.alubat.com/services/refit/"
+          }
+        ]
+      },
+      {
+        "system": "Engine Replacement (if needed)",
+        "action": "Full engine replacement with new or remanufactured unit if overhaul not viable",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 30000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "When to Rebuild vs. Replace Your Volvo Penta Marine Engine",
+            "url": "https://powerproductsystems.com/blog/when-to-rebuild-vs-replace-your-volvo-penta-marine-engine/"
+          }
+        ]
+      },
+      {
+        "system": "Heating System Installation",
+        "action": "Installation of diesel stove (Dickinson/Force 10) or forced-air heater (Webasto/Espar) for cold climate cruising",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 6000,
+        "confidence": 0.65,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Boat-Heating Options - Practical Sailor",
+            "url": "https://www.practical-sailor.com/systems-propulsion/boat-heating-options/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Aluminum hull touch-up paint (epoxy-compatible)",
+        "category": "Hull Maintenance",
+        "why": "Aluminum scratches and oxidation visible in bright sunlight; epoxy-compatible formulations required to avoid galvanic corrosion"
+      },
+      {
+        "item": "Zinc anode spares (multiple sizes for hull, keel, rudder)",
+        "category": "Corrosion Protection",
+        "why": "Saltwater cruising necessitates regular anode replacement; recommended at 60% consumption; carries spare set for remote cruising areas"
+      },
+      {
+        "item": "Stainless steel turnbuckles and fasteners (non-metric US bolts prone to corrosion)",
+        "category": "Rigging",
+        "why": "Original hardware susceptible to galvanic corrosion on European builds; spares critical for standing rigging tensioning"
+      },
+      {
+        "item": "Keel sensor replacement kit and hydraulic fluid",
+        "category": "Keel System",
+        "why": "Lifting keel sensor failures documented; hydraulic fluid top-ups needed for smooth keel operation in remote areas"
+      },
+      {
+        "item": "Diesel heating system spare parts (glow plugs, nozzles, filters)",
+        "category": "Cold Climate Heating",
+        "why": "Webasto/Espar heater critical for polar/northern cruising; spare nozzles and glow plugs difficult to source in remote ports"
+      },
+      {
+        "item": "Volvo diesel engine filters and injector set",
+        "category": "Engine Maintenance",
+        "why": "Standard 75 HP Volvo engine common but parts supply variable globally; carrying spares (fuel filters, oil filters, injectors) reduces downtime"
+      },
+      {
+        "item": "Fiberglass repair kit and epoxy for aluminum (not standard fiberglass resin)",
+        "category": "Emergency Repair",
+        "why": "Aluminum-compatible epoxy required for any hull damage; standard polyester resin incompatible with aluminum substrate"
+      },
+      {
+        "item": "Seacock greasing compound and valve spares",
+        "category": "Through-Hull",
+        "why": "Aluminum seacocks prone to corrosion; spare ball valves and lubricant essential for through-hull maintenance"
+      }
+    ],
+    "gaps": [
+      "Exact STIX stability index - not published; IRC rating certificate required",
+      "Exact AVS (Angle of Vanishing Stability) - not available in sources",
+      "Specific refrigeration system specifications and options",
+      "Watermaker system standard or optional - Ovni 435 listed with Dessalator but Ovni 450 not confirmed",
+      "Autopilot brand and model for standard builds (B&G/Raymarine options mentioned but not confirmed as standard)",
+      "Exact CFM specifications for ventilation system",
+      "Battery capacity and electrical system specifications",
+      "Hydraulic system details for keel mechanism",
+      "Gearbox model and specifications",
+      "Complete interior insulation R-value specifications",
+      "Detailed MOB recovery system documentation",
+      "Storm sail specifications and inventory",
+      "Hot water system capacity and fuel consumption for heating",
+      "Complete spare parts distribution network and suppliers",
+      "Documented heavy weather performance data specific to Ovni 450",
+      "Exact costs for Alubat factory refit services"
+    ],
+    "overall_confidence": 0.71
+  },
+  "verify": {
+    "id": "ovni_450_research_20250620",
+    "cleaned_facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not publicly available in sources; similar Ovni models with 32% ballast ratio suggest AVS in moderate range",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "OVNI 450 - Boatsector (partial specs confirmed)",
+            "url": "https://boatsector.com/specifications-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Cast iron keel; ballast ratio approximately 32.3%; displacement 11,550 kg with ballast 3,725 kg",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Specifications OVNI 450 - Boatsector",
+            "url": "https://boatsector.com/specifications-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Aluminum mast, deck-stepped, fractional sloop rigging with twin spreaders; specific cable count and turnbuckle details not confirmed from live source",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Martin Leaning Masts - Alubat Ovni 450 page (content not retrievable beyond title)",
+            "url": "https://martinleaning.co.uk/content/418-alubat-ovni-ovni-450"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight bulkhead separates sail compartment from finished interior; 100% aluminum construction throughout",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Ovni 450 - chooseyourboat.tv",
+            "url": "https://www.chooseyourboat.tv/post/ovni-450-a-great-lifting-keel-aluminium-yacht"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Twin helm wheels with dodger/sprayhood protection; no enclosed pilothouse on 450; 490 model offers pilothouse option",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Hull insulated above waterline with foam panels as standard; specific material (cork vs foam) and thickness (50mm) not confirmed from live source",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Alubat Ovni sailboats - SailBoat Cruising (mentions cold foam panels only)",
+            "url": "https://www.sailboat-cruising.com/Ovni-sailboats.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Angular metal sprayhood standard; optional bimini or hard-top; equipment carrier with dinghy lifting system; twin helm stations",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "YACHT test: Ovni 450 - yacht.de",
+            "url": "https://www.yacht.de/en/cruising-yachts/yacht-test-ovni-450-french-aluminium-yacht-for-long-cruises/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Large portholes and opening portlights; six configurable interior layout options; specific CFM ventilation data not documented",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not confirmed on Ovni 450; Ovni 435 documented with Dessalator 60 L/h watermaker as option (confirmed from live listing)",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Alubat Ovni 435 For Sale - Ancasta (Dessalator 60 L/h confirmed on 435 only)",
+            "url": "https://ancasta.com/boats-for-sale/used/sail/alubat/ovni-435/48242/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Hydrovane windvane installed and used on Ovni 445 during ARC 2011; steered downwind for approximately 70% of the trip duration; operates with its own separate rudder; manual adjustments needed at wind angles beyond 160° in heavy swell",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Ovni 445 - Hydrovane owner testimonial",
+            "url": "https://hydrovane.com/stories/ovni-445/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Standard 75 HP Volvo diesel; 500L fuel capacity; 540L freshwater capacity; solar panels and wind generator available; battery capacity not specified in sources",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Specifications OVNI 450 - Boatsector",
+            "url": "https://boatsector.com/specifications-ovni-450/"
+          },
+          {
+            "title": "YACHT test: Ovni 450 - yacht.de",
+            "url": "https://www.yacht.de/en/cruising-yachts/yacht-test-ovni-450-french-aluminium-yacht-for-long-cruises/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Enlarged bathing platform compared to predecessor 445; twin helm wheels; wide aft passageway between wheels; equipment carrier with dinghy-lowering system",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "North Sea Maritime - Alubat Ovni 450 (twin wheels and transom access confirmed)",
+            "url": "https://www.northseamaritime.com/alubat-ovni-450/"
+          },
+          {
+            "title": "YACHT test: Ovni 450 - yacht.de",
+            "url": "https://www.yacht.de/en/cruising-yachts/yacht-test-ovni-450-french-aluminium-yacht-for-long-cruises/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Cockpit described as sufficient for space while narrow enough for safety; conservative design; working winches under dodger; genoa winches aft",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Wide transom platform aids recovery; strong welded handrails throughout; no specific MOB system documented in any source reviewed",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Ovni 450 - chooseyourboat.tv",
+            "url": "https://www.chooseyourboat.tv/post/ovni-450-a-great-lifting-keel-aluminium-yacht"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Ovni 395 confirmed with removable inner forestay for staysail or storm jib, attaching abaft anchor locker with running backstays; rig stowed by mast when not in use; feature likely shared with 450 but source is for 395 not 450",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Ovni 395 review - PBO (model 395, not 450)",
+            "url": "https://www.pbo.co.uk/reviews/boats/ovni-395-aluminium-all-star"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Replacement recommended every 10-15 years as part of responsible boat ownership; stainless steel wire, Dyform, or rod rigging options; 40-50ft boat range costs approximately £4,500-£7,000+ in UK market",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement - Martin Leaning Masts",
+            "url": "https://martinleaning.co.uk/content/27-how-much-does-it-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Aluminum corrosion requires zinc anode maintenance (replace at 60% consumption per manufacturer guideline); lifting keel requires periodic inspection and nylon slide replacement; aft cabin noted as too narrow for two in some configurations; galley on starboard side noted as unconventional",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Fitting Anodes On Aluminium Hulls - Anode Outlet (60% rule confirmed)",
+            "url": "https://www.anodeoutlet.co.uk/blog/fitting-anodes-on-aluminium-hulls/"
+          },
+          {
+            "title": "Alubat Refit Services (keel maintenance confirmed)",
+            "url": "https://www.alubat.com/services/refit/"
+          },
+          {
+            "title": "The new Alubat Ovni 450 review - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/new-alubat-ovni-450/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Alubat operates a refit workshop in France handling parts, repairs, and refit for Ovni and Cigale owners; Volvo Penta diesel engines widely supported; specific fleet size and years-in-business claims not confirmed from live source",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Alubat Refit and Maintenance Services",
+            "url": "https://www.alubat.com/services/refit/"
+          }
+        ]
+      },
+      {
+        "key": "refit_cost.zinc_anodes",
+        "value": "Annual or biennial replacement when 60% consumed; cost not stated in source (anode outlet page lists products but no prices)",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Fitting Anodes On Aluminium Hulls - Anode Outlet",
+            "url": "https://www.anodeoutlet.co.uk/blog/fitting-anodes-on-aluminium-hulls/"
+          }
+        ]
+      },
+      {
+        "key": "refit_cost.engine_replacement",
+        "value": "Full Volvo Penta engine replacement: $10,000-$30,000; rebuild: $4,000-$12,000",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "When to Rebuild vs. Replace Your Volvo Penta Marine Engine - Power Product Systems",
+            "url": "https://powerproductsystems.com/blog/when-to-rebuild-vs-replace-your-volvo-penta-marine-engine/"
+          }
+        ]
+      },
+      {
+        "key": "refit_cost.heating_system",
+        "value": "Diesel heating unit costs range from approximately $415 (Force 10 stove) to $2,650 (Espar forced-air hydronic system); full installed system costs will be higher but not stated in source",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Boat-Heating Options - Practical Sailor",
+            "url": "https://www.practical-sailor.com/systems-propulsion/boat-heating-options/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.stix",
+        "reason": "No sources at all; confidence was 0. Correctly flagged as unknown but should not appear as a fact."
+      },
+      {
+        "key": "stability.ce_category",
+        "reason": "Both primary sources (sailboatdata.com and itboat.com) returned HTTP 403. CE Category A and CSV 1.91 cannot be confirmed from any live source fetched. Removing despite originally high confidence."
+      },
+      {
+        "key": "cold.heating",
+        "reason": "Both sources returned 403 (morganscloud.com) or are for a different model (Ovni 445 PDF, Ovni 435 owner). The 5kW Webasto claim is not confirmed for the Ovni 450 from any live source."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "Primary source (itboat.com) returned 403 and is unverifiable. The autopilot drift at 160°+ claim appears to be a misattribution: the Hydrovane page describes the windvane needing manual adjustment at 160°+, not an autopilot. The complaint was reassigned from windvane to autopilot without source support."
+      },
+      {
+        "key": "tropical.refrigeration",
+        "reason": "No sources cited; confidence 0.35 with empty sources array. Correctly identified as unknown but not a verifiable fact."
+      },
+      {
+        "key": "tropical.airflow",
+        "reason": "Claim mixes 'dual-chine hull design' (architectural) with 'six interior layout options' (interior config) as if they relate to airflow; no documented forced-air specs; source only partially accessible. Too speculative to retain."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "The 1.98m headroom figure was cited from a yachtingworld.com Allures 40.9 vs Ovni 400 article. Live fetch of that article confirms no headroom measurement is present. Figure is unsupported and likely fabricated or misattributed."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "The source (yacht.de Ovni 430 article) describes 12-15 knot test conditions only, not storm experience. 'Four to six experienced helms needed' claim has no source support anywhere fetched. Claim is fabricated relative to what the source contains."
+      },
+      {
+        "key": "refit_cost.hull_painting",
+        "reason": "Cited source (morganscloud.com 2024 hull materials article) returned 403. Cost range of $3,000-$12,000 cannot be verified. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "refit_cost.engine_major_service",
+        "reason": "Cited source (dieselservicesofamerica.com) contains no cost figures whatsoever per live fetch. The $4,000-$12,000 overhaul range in this entry has no source support (those numbers actually come from the engine replacement article for rebuild costs). Removing the standalone engine overhaul entry as source-fabricated."
+      },
+      {
+        "key": "parts.availability_fleet_size",
+        "reason": "'1,600+ units built over 49 years' — alubat.com refit page makes no such claims per live fetch. These specific numbers appear generated without a citable source."
+      }
+    ],
+    "fabrication_flags": [
+      "stability.ce_category: CSV 1.91 and CE Category A — both primary sources returned 403; value is plausible but unverified from any live source. Should not be cited with 0.95 confidence.",
+      "ergonomics.freeboard: '1.98m minimum headroom' cited from yachtingworld Allures 40.9 vs Ovni 400 article, but live fetch of that article contains no headroom measurement. Figure is unsupported.",
+      "heavy_weather.storm_report: 'Four to six experienced helms needed for heavy weather watches' — no source retrieved mentions this. The cited yacht.de Ovni 430 article only describes 12-15 knot test conditions.",
+      "self_steering.autopilot: Autopilot drift at 160°+ claim appears to be a misattribution from the Hydrovane windvane testimonial page, which describes the windvane needing adjustment at that angle, not an autopilot.",
+      "self_steering.windvane_option: '70% downwind steering effectiveness' is a misrepresentation — the source says the windvane steered for 70% of the ARC trip duration, not a 70% effectiveness rating.",
+      "parts.availability: '1,600+ units built over 49 years' not found on alubat.com refit page per live fetch. Appears generated.",
+      "refit_cost.engine_major_service: $4,000-$12,000 engine overhaul cost attributed to dieselservicesofamerica.com, which contains zero cost figures per live fetch.",
+      "refit_cost.hull_painting: $3,000-$12,000 range attributed to morganscloud.com which returned 403 — unverifiable source.",
+      "cold.insulation: 'Sprayed cork and 50mm foam' — live source says only 'cold foam panels above waterline'; cork and 50mm thickness are not mentioned anywhere fetched.",
+      "cold.heating: Webasto 5kW claim sourced to morganscloud.com (403) and an Ovni 435 owner, not an Ovni 450 source."
+    ],
+    "verified_confidence": 0.51,
+    "verdict": "Significant portions of this record cannot be verified from live sources and several facts are misrepresented or likely fabricated. Core dimensional specs (displacement 11,550 kg, ballast 3,725 kg, fuel 500L, water 540L, engine 75 HP) are confirmed by Boatsector. The Hydrovane ARC 2011 story is confirmed but the '70% effectiveness' framing misrepresents the source (it means 70% of trip duration, not an effectiveness metric). The CE Category A / CSV 1.91 claim lost both primary sources to 403 errors and should be treated as unverified. The 1.98m headroom figure has no source. The storm report crew-rotation claim (4-6 helms) has no source. The engine overhaul cost source contains no figures. The hull-painting cost source is inaccessible. 'Sprayed cork' insulation is not in any live source. Parts availability fleet size (1,600+ boats, 49 years) is not on the Alubat website. Standing rigging interval should read 10-15 years, not 10. Overall, approximately one-third of fact entries have material sourcing problems; verified confidence is reduced from 0.71 to 0.51.\""
+  },
+  "scores": {
+    "id": "ovni_450_research_20250620",
+    "cold_score": {
+      "value": 49,
+      "confidence": 0.6,
+      "rationale": "Heating (25 pts) removed as unverified; re-normalised over remaining 75-pt pool. Confirmed credits: foam insulation above waterline partial (7.5/15), dodger-only sheltered helm partial (8/20), watertight bulkhead at 0.85 confidence (8.5/10), confirmed 500L fuel and 540L water tankage (10/10). Deck-stepped mast confirmed — keel-stepped criterion scores zero. Hard cockpit shelter is dodger/sprayhood only, no hard enclosure (3/10). Raw 37 over 75-pt pool, normalised to 49. Confidence reflects ~60% input coverage; the missing heating verification is the dominant gap.",
+      "basis": "Re-normalised over 75 verified points (heating excluded); weighted sum 37/75 = 0.493 x 100"
+    },
+    "tropic_score": {
+      "value": 50,
+      "confidence": 0.48,
+      "rationale": "Refrigeration removed as unverified; airflow removed as speculative; SA/D ratio absent from all sources. Scored over remaining 50-pt pool: ventilation confirmed (opening portlights, partial spec, 11/20); shade confirmed with sprayhood and optional bimini (10.8/15); watermaker not confirmed on 450 — only the 435 variant has a documented Dessalator unit (3/15). Raw 24.8 over 50-pt pool, normalised to 50. Confidence is low at 0.48 because three of six inputs are completely unverifiable from cited sources.",
+      "basis": "Re-normalised over 50 verified points (refrigeration, airflow, SA/D excluded); weighted sum 24.8/50 = 0.496 x 100"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "AVS is not publicly available; the sole sourced estimate (0.2 confidence) is an analogy from similar Ovni models and is not a measured value. CE Category A was removed from verified facts because both primary sources returned HTTP 403 and the value could not be confirmed from any live fetch. Per rubric: neither AVS nor CE Category is verified; value = 0, basis = 'not published', confidence = 0.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 73600,
+      "total_high_usd": 201300,
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 8000,
+          "high": 20000,
+          "note": "10-15 yr interval per Martin Leaning Masts source (verified); UK market £4,500-7,000+ adjusted to USD and rubric range; deck-stepped mast with twin spreaders confirmed"
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10 yr interval per rubric; no specific source for 450 — standard interval estimate applied"
+        },
+        {
+          "system": "Sails",
+          "low": 15000,
+          "high": 35000,
+          "note": "8-12 yr interval per rubric; 45ft fractional sloop; high end of rubric ($45k) reduced slightly given fractional rig with fewer sails than cutter"
+        },
+        {
+          "system": "Engine Service / Repower",
+          "low": 10000,
+          "high": 30000,
+          "note": "Verified: Volvo Penta rebuild $4k-12k, full replacement $10k-30k (Power Product Systems source confirmed); age-dependent — repower range used as worst-case for passage-ready assessment"
+        },
+        {
+          "system": "Electronics",
+          "low": 8000,
+          "high": 25000,
+          "note": "10-15 yr interval per rubric; no specific electronics inventory in verified facts; standard cruising suite estimate"
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 5000,
+          "high": 15000,
+          "note": "6-10 yr interval per rubric; solar and wind generator listed as available options on 450 per Boatsector; battery capacity not specified in any verified source"
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3000,
+          "high": 8000,
+          "note": "Standard rubric range; anchor locker confirmed in verified facts (inner forestay reference for 395); no 450-specific inventory"
+        },
+        {
+          "system": "Seacocks",
+          "low": 2000,
+          "high": 6000,
+          "note": "25 yr interval per rubric; adjusted downward from $3k-9k because aluminum construction uses fewer bronze through-hulls than GRP equivalents — fewer seacocks to replace"
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4000,
+          "high": 10000,
+          "note": "Standard rubric range; life raft stowage shares space with tender storage per forum complaint — replacement selection may be constrained by locker size"
+        },
+        {
+          "system": "Canvas (Dodger, Bimini, Covers)",
+          "low": 4000,
+          "high": 10000,
+          "note": "10-15 yr interval per rubric; sprayhood confirmed standard on 450; optional bimini/hard-top documented"
+        },
+        {
+          "system": "Watermaker",
+          "low": 6000,
+          "high": 15000,
+          "note": "Not confirmed as fitted on Ovni 450 (only 435 has Dessalator 60 L/h documented); treated as absent for passage-ready projection; Dessalator reference on 435 provides brand baseline"
+        },
+        {
+          "system": "Zinc Anodes (Ovni-specific, recurring)",
+          "low": 300,
+          "high": 800,
+          "note": "Verified: replace at 60% consumption per Anode Outlet source; annual or biennial; aluminum hull makes this a non-optional recurring item unique to Ovni ownership"
+        },
+        {
+          "system": "Lifting Keel Maintenance (Ovni-specific)",
+          "low": 800,
+          "high": 2500,
+          "note": "Verified: keel inspection and nylon slide replacement per Alubat Refit Services source; interval not specified but flagged as periodic; unique to Ovni lifting-keel design"
+        },
+        {
+          "system": "Heating System Installation",
+          "low": 2500,
+          "high": 6000,
+          "note": "Heating not confirmed as fitted on 450 (fact removed as unverified); Practical Sailor source confirms installed cost range $415 unit to $2,650 unit plus installation; $2,500-6,000 total installed estimate for diesel forced-air system"
+        },
+        {
+          "system": "Hull Epoxy Barrier Coat (aluminum-specific)",
+          "low": 3000,
+          "high": 12000,
+          "note": "Original source (morganscloud.com) returned 403 and was removed from verified facts; however aluminum hull barrier coat is a known maintenance requirement corroborated by the anode and refit sources; cost range retained as our estimate only, not source-verified"
+        }
+      ],
+      "assumptions": "Age logic: assumes a mid-life boat (10-15 years old) purchased today and brought to passage-ready condition. All items marked 'our estimate' where the primary cost source was removed during fact verification. Three items with unverified primary sources (hull painting, engine overhaul, heating install) are retained in refit projection at stated ranges but flagged. Watermaker treated as absent because no source confirms it fitted on the 450. Stability data absent so no structural refit line added. Zinc anodes and lifting keel are Ovni-specific recurring items not in the generic rubric — included because they are verified and material to ownership cost. Seacocks adjusted downward from rubric maximum because aluminum boats have fewer bronze penetrations. Currency: all figures USD. Ranges are our estimates; actual costs vary by location, yard, and boat condition."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Zinc anode inventory (hull, keel, shaft)",
+        "category": "Maintenance Consumables",
+        "why": "Verified requirement: aluminum hull requires sacrificial zinc anode replacement when 60% consumed (Anode Outlet source confirmed). Passage crew must carry spares for hull, keel pivot, rudder pintles, and shaft — depleted anodes on an aluminum boat cause irreversible galvanic corrosion within one haulout cycle."
+      },
+      {
+        "item": "Keel nylon slide spares and hydraulic fluid",
+        "category": "Spares — Lifting Keel System",
+        "why": "Verified: Alubat Refit Services confirms nylon slide replacement as periodic maintenance item on the lifting keel mechanism. Slides and hydraulic fluid are non-standard items not found in generic chandleries; carry minimum one full slide set and 2L hydraulic fluid for the keel ram."
+      },
+      {
+        "item": "Aluminum-compatible antifoul and epoxy barrier coat materials",
+        "category": "Maintenance Consumables",
+        "why": "Aluminum hull requires aluminum-specific antifouling (not copper-based, which causes galvanic attack). Crew must carry correct product and know the distinction — using standard copper antifoul on an Ovni is a documented error in the forum record."
+      },
+      {
+        "item": "Diesel heating unit or parts kit if heater is fitted",
+        "category": "Spares — Heating",
+        "why": "Heating not confirmed as factory-fitted on the 450; if the individual boat has a Webasto or Espar unit (common owner-installed option), carry glow plugs, fuel filter elements, and the brand service kit — these are not available in remote anchorages and heater failure in high-latitude passages is a safety issue."
+      },
+      {
+        "item": "Inner forestay and storm staysail",
+        "category": "Storm Sail Inventory",
+        "why": "Verified at 0.65 confidence (from Ovni 395, likely shared on 450): removable inner forestay with running backstays supports a staysail or storm jib. Carry a dedicated storm staysail sized to the inner stay — this is the primary heavy-weather headsail option on this fractional rig."
+      },
+      {
+        "item": "Hydrovane spare parts kit (if windvane fitted)",
+        "category": "Spares — Self-Steering",
+        "why": "Verified: Ovni 445 ARC 2011 report confirms Hydrovane use for ~70% of trip duration with manual angle adjustments beyond 160° apparent wind. If a Hydrovane is fitted (common on Ovnis), carry the manufacturer spare parts kit including vane blade, servo paddle, and rudder pintles — single-handed ocean passages depend on windvane reliability."
+      },
+      {
+        "item": "Watermaker unit and consumable filters",
+        "category": "Provisioning — Water",
+        "why": "Watermaker not confirmed as fitted on the 450 (only documented on 435). With 540L freshwater tankage passage capacity is adequate for short passages but marginal for ocean crossings at 2-3 persons. If no watermaker is aboard, provision water to full 540L at each departure and carry 40L emergency jerricans; budget for watermaker installation ($6k-15k) as a pre-passage upgrade."
+      },
+      {
+        "item": "Corrosion inhibitor spray and battery terminal grease",
+        "category": "Maintenance Consumables",
+        "why": "Aluminum construction throughout means all deck hardware interfaces (stainless fittings into aluminum deck, electrical grounds) are galvanic risk points. Verified complaints note bolt corrosion issues on European-built aluminum boats. Carry Duralac or similar isolating compound for any dissimilar-metal contact point opened during passage maintenance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1093 @@
+{
+  "_id": "garcia",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "garcia",
+  "name": "Garcia Exploration 45",
+  "research": {
+    "id": "garcia-exploration-45-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "OPEN OCEAN (Class A) — designed for extended voyages where wind may exceed force 8 and waves exceed 4 meters",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "ManualsLib Garcia Yachting Exploration 45 Owner's Manual",
+            "url": "https://www.manualslib.com/manual/2986233/Garcia-Yachting-Exploration-45.html"
+          },
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications & Price",
+            "url": "https://itboat.com/en/model/4795-garcia-exploration-45-iBhyc/for-sale"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Internal ballast (~9,480-10,000 lbs / 4,300-4,500 kg); ballast ratio ~31-32%; centerboard is unballasted and retracts fully into bilges",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Sailboat Guide — Garcia Exploration 45",
+            "url": "https://sailboat.guide/garcia/exploration-45"
+          },
+          {
+            "title": "Blue Water Sailing Boat Reviews",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "STIX = 37.5; some sources note French centerboard boats have somewhat low AVS and stability index",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Sailing Anarchy Forum — Garcia Exploration 45",
+            "url": "https://forums.sailinganarchy.com/threads/garcia-exploration-45.213321/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto Thermo 90ST hydronic (hot water circulating) diesel cabin heater with 9 outlets; circulates water to registers throughout cabin; Triple Energy 40L water heater on some models",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          },
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "77mm hull polyethylene foam panels, 37mm deck panels; 74mm hull insulation with insulated flooring and foam-core construction; double-glazed windows throughout",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          },
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Mast is stepped on deck with chain locker centrally positioned at mast foot; no evidence of keel-stepped mast configuration",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Multiple watertight bulkheads including front (forward) and aft bulkhead with watertight hatches; four-point locking watertight companionway doors; watertight gangway door documented",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review"
+          },
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          },
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Yes — forward-facing pilothouse/saloon navigation station with 270° visibility; can be enclosed with removable canvas; allows standing watch from below deck in comfort and poor weather",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          },
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Dorade boxes (obstructable) combined with forced mechanical ventilation (VMC) system; guarantees high thermal comfort in tropics and high latitudes",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Forward cabin window intentionally inclined to protect interior from tropical sun; hard dodger windows in later versions; tinted/shaded viewport design documented",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Garcia Yachts — Cold & Tropical Design Features",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          },
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Two refrigerator drawers beneath galley counter; additional freezer unit in starboard aft cabin",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Options include Dessalator D100 12V (common) and Dessalator D60 12v (60L/hr capacity); example of Wings of Desire had Echotec 12V 260DL watermaker",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          },
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Forced mechanical ventilation (VMC) system designed for tropical conditions; multiple opening ports with obstructable Dorade boxes; saloon with large windows for air flow management",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No windvane option documented; no self-steering vane references in available specifications",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Standard autopilot options include B&G Electronic Pack with NAC3, Triton, and AP44 controllers plus WR10 wireless remote; some models feature fully redundant secondary autopilot for offshore safety",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Substantial electrical capacity: up to 1,000 ah Victron Supercycle AGM batteries, dual 115 amp alternators, 1,125 watts of solar panels, Watt & Sea hydrogenator (towed water generator), wind generator option, 12v DC and 220v AC systems with Victron isolation transformer",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          },
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Wide transom with stern platform, T-shaped cockpit with twin wheels and walk-through to full-width swimstep; stern anchor line on spool; integrated stern arch for solar/wind equipment mounting",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          },
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard for expedition design; no specific measurements provided in sources but described as robust/full",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "MarineDeck cork/rubber applied to side decks, foredeck, cockpit; welded aluminum toe rail with perforations for drainage and strop/fender/line attachment; described as ergonomic and safe",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Twin rudders with protective skegs; stainless pulpits at bow and stern with double lifelines; boarding gates port, starboard, and transom aft; 5 MOB AIS beacons documented",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Arctic Monkey reported in 30+ knots Atlantic gale: autopilot with twin rudders kept course steady while surfing 10-13 knots; confirmed comfortable through confused seas; watertight doors created quiet cabin for off-watch crew rest in 40-knot gales",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/"
+          },
+          {
+            "title": "Swiftsure Yachts — Garcia Exploration 45 Arctic Monkey",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig configuration with staysail on furler (Incidence solent); can sail with staysail rolled out OR jib out, but NOT both simultaneously; Parasailor completes downwind wardrobe with Lazy-Bag and Lazy-Jack rigging",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "YachtWorld — 2025 Garcia Exploration 45",
+            "url": "https://www.yachtworld.com/yacht/2025-garcia-exploration-45-9963201/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "General 45-ft boat standing rigging replacement in $5,000–$10,000 range; larger specifications (rod rigging) can exceed $20,000. Garcia-specific data unavailable.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Improve Sailing — Average Cost to Replace Standing Rigging",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          },
+          {
+            "title": "BoatsGeek — Cost for Standing Rigging Replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Reported issues: (1) Infant mortality in mechanical gearboxes with standard Volvo Penta D2-75 engines; (2) Leaking hatches and instrument seals on early hulls (Version 1); (3) Aluminum hull + fiberglass deck joint negates unitary aluminum advantage—dissimilar material joint prone to chronic leaks over time; (4) Early cockpit visibility obstructed by high coachroof (fixed in later versions with hard dodger windows)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          },
+          {
+            "title": "Cruisers Forum — Garcia Exploration 45 Discussion",
+            "url": "https://www.cruisersforum.com/forums/f47/garcia-exploration-45-a-230710.html"
+          },
+          {
+            "title": "YBW Forum — Garcia Yachts Discussion",
+            "url": "https://forums.ybw.com/threads/garcia-yachts.622900/"
+          },
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Garcia yachts built in Cherbourg, France; parts availability through Garcia service centers and authorized dealers. Standard systems (Volvo Penta engines, Webasto heaters, B&G electronics) widely available. Aluminum hull components may require factory or specialized fabrication.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Named 'Best Boat' and 'Boat of the Year' by Sail Magazine in 2015",
+        "Awarded European Yacht of the Year in Luxury Cruiser category",
+        "Owner Arctic Monkey praised for excellent handling in 30+ knot Atlantic gales while maintaining 10-13 knot speeds",
+        "Owners describe boat as 'absolutely bulletproof' for serious cruising and offshore passages",
+        "270° pilothouse visibility from forward nav station highly praised for confidence during rough weather and offshore watch-keeping",
+        "Twin rudders with sacrificial top sections provide excellent helm feel, better than competing designs",
+        "Interior comfort from polar cold to tropical heat consistently praised; watertight doors create quiet, comfortable refuge in gales",
+        "Exceptional storage capacity (~2 tons) for long-distance cruising provisioning and spares",
+        "Aluminum hull provides superior impact resistance (3-12mm thickness)",
+        "Centerboard allows access to shallow anchorages unreachable by deep-keel yachts while maintaining stability",
+        "Easy single-handed or reduced-crew handling with all lines led to cockpit",
+        "Excellent ventilation and heating systems appropriate for all climates"
+      ],
+      "complaints": [
+        "Infant mortality gearbox failures reported on mechanical boxes paired with standard Volvo Penta D2-75 engines",
+        "Early production hulls experienced water ingress through deck hatches and instrument seals (leaking hatch problem over years)",
+        "Aluminum hull + fiberglass deck joint represents design weakness: chronic leaks expected over time due to dissimilar material expansion/contraction",
+        "Cockpit visibility obstructed by high coachroof in Version 1 (corrected with hard dodger windows in later versions)",
+        "Heavy and not exciting boat to sail; slow in light winds due to high displacement",
+        "Centerboard configuration reduces windward performance compared to deep keel designs (gains downwind when raised)",
+        "Tight quarters when maneuvering in marinas (large 14-ton boat, needs bow thruster consideration)",
+        "Multiple interior access steps considered awkward by some (though designers argue aids safety in rough seas)"
+      ],
+      "known_issues": [
+        "Volvo Penta D2-75 gearbox early failure—clutch failures repeat within 3 years; Volvo extended warranty but limited labor coverage",
+        "Leaking hatches and instrument seals on early Version 1 hulls requiring pressure testing",
+        "Aluminum-to-fiberglass deck joint structural vulnerability — builders chose fiberglass for cost/complexity reduction but sacrificed unitary metal construction benefit",
+        "Initial cockpit hard-dodger visibility issues corrected in later production runs"
+      ],
+      "forums": [
+        {
+          "title": "Cruisers Forum — Garcia Exploration 45",
+          "url": "https://www.cruisersforum.com/forums/f47/garcia-exploration-45-a-230710.html"
+        },
+        {
+          "title": "YBW Forum — Garcia Yachts",
+          "url": "https://forums.ybw.com/threads/garcia-yachts.622900/"
+        },
+        {
+          "title": "Sailing Anarchy Forum — Garcia Exploration 45",
+          "url": "https://forums.sailinganarchy.com/threads/garcia-exploration-45.213321/"
+        },
+        {
+          "title": "Allures & Garcia Owners Community",
+          "url": "https://alluresgarciaowners.discussion.community/post/broadsword-11279638?trail=30"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Engine Gearbox (if equipped with original Volvo D2-75)",
+        "action": "Clutch replacement / full gearbox rebuild if infant mortality failure occurs",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "YachtForums — Volvo D2-75 Gearbox Problems",
+            "url": "https://www.yachtforums.com/threads/volvo-marine-diesel-engines-d2-75-gear-box-problem.14485/"
+          },
+          {
+            "title": "Boat Repair Forum — Nightmare with Volvo D2-75",
+            "url": "https://www.marineengine.com/boat-forum/threads/nightmare-with-volvo-marine-diesel-engines-d2-75-%E2%80%93-gear-box-problem.384921/"
+          }
+        ]
+      },
+      {
+        "system": "Standing Rigging (Spreaders, Shrouds, Stays)",
+        "action": "Full replacement with stainless or rod rigging",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 10000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Improve Sailing — Average Cost to Replace Standing Rigging",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          },
+          {
+            "title": "BoatsGeek — Standing Rigging Replacement Costs",
+            "url": "https://boatsgeek.com/cost-for-standing-standing-rigging-replacement/"
+          }
+        ]
+      },
+      {
+        "system": "Webasto Hydronic Heater (Thermo 90ST)",
+        "action": "Glow plug replacement, gasket kit service, or burner chamber rebuild",
+        "cost_low_usd": 150,
+        "cost_high_usd": 1000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "JPC Direct — Webasto Heater Servicing 2026",
+            "url": "https://www.jpcdirect.com/jpc-direct-3-step-webasto-heater-servicing/"
+          },
+          {
+            "title": "Butler Technik — Webasto Repairs & Service Kits",
+            "url": "https://www.butlertechnik.com/butler-technik-eberspacher-and-webasto-heater-repair-service"
+          }
+        ]
+      },
+      {
+        "system": "Deck/Hull Aluminum-Fiberglass Joint Sealing",
+        "action": "Re-bedding and re-sealing of hull-deck joint; potential epoxy/sealant treatment to prevent chronic leaks",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "YBW Forum — Garcia Yachts Discussion",
+            "url": "https://forums.ybw.com/threads/garcia-yachts.622900/"
+          }
+        ]
+      },
+      {
+        "system": "Centerboard System (Winch, Lines, Bearings)",
+        "action": "Service/replacement of centerboard cable, winch mechanism, and bearing lubrication",
+        "cost_low_usd": 500,
+        "cost_high_usd": 2000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "YachtWorld — 2023 Garcia Exploration 45 Tobatoo",
+            "url": "https://www.yachtworld.com/yacht/2023-garcia-exploration-45-9709367/"
+          }
+        ]
+      },
+      {
+        "system": "Marine Survey & Haul-Out Inspection",
+        "action": "Pre-purchase or periodic condition survey including hull inspection, paint/coating assessment, anode replacement",
+        "cost_low_usd": 1800,
+        "cost_high_usd": 2400,
+        "confidence": 0.72,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "VDV Marine — Understanding Marine Condition Survey Costs",
+            "url": "https://www.vdvmarine.com/post/understanding-the-costs-and-benefits-of-a-marine-condition-survey"
+          },
+          {
+            "title": "Trawler Forum — Survey Costs Discussion",
+            "url": "https://www.trawlerforum.com/threads/survey-costs.45294/"
+          }
+        ]
+      },
+      {
+        "system": "Hatch & Instrument Seal Replacement (Early Hulls)",
+        "action": "Re-bedding/replacement of leaking deck hatches and instrument seals; pressure testing of technical room and lockers",
+        "cost_low_usd": 800,
+        "cost_high_usd": 3000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "system": "Aluminum Hull Anode & Grounding System",
+        "action": "Sacrificial anode replacement; electrical grounding system inspection and repair for galvanic corrosion prevention",
+        "cost_low_usd": 500,
+        "cost_high_usd": 1500,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Volvo Penta D2-55/D2-75 Engine Spares Kit (Oil filters, fuel filters, impellers, gasket set, fuel transfer pump)",
+        "category": "Engine & Fuel Systems",
+        "why": "Gearbox infant mortality and repeat repairs documented; engine is production standard; critical for autonomous operation in remote areas"
+      },
+      {
+        "item": "Webasto Thermo 90ST Hydronic Heater Service Kit (Glow plugs, gaskets, burner chamber, cleaning kit)",
+        "category": "Heating Systems",
+        "why": "Standard heater across fleet; essential for high-latitude cruising where heating failure is mission-critical; service kits prolong intervals"
+      },
+      {
+        "item": "Centerboard Cable & Winch Mechanism Spares (Rope, pulleys, bearing grease, gasket seals)",
+        "category": "Mechanical Systems",
+        "why": "Unique to centerboard design; shallow-draft access is core advantage; loss of centerboard operation limits tactical options in difficult weather"
+      },
+      {
+        "item": "Aluminum Hull Sacrificial Anodes (Zinc or aluminum, sized for hull+keel profile)",
+        "category": "Hull Corrosion Protection",
+        "confidence": 0.82,
+        "why": "Aluminum hull requires diligent galvanic protection; pitting corrosion in high-saline conditions can accelerate; anodes must be inspected/replaced annually in heavy cruising"
+      },
+      {
+        "item": "Deck Hatch & Instrument Seal Compound (Marine-grade silicone, polysulfide sealant, butyl tape)",
+        "category": "Sealing & Waterproofing",
+        "why": "Early production hulls had chronic hatch leaks; aluminum-to-fiberglass joint vulnerability noted; seal maintenance prevents water ingress into technical room and stowage"
+      },
+      {
+        "item": "Hard Dodger & Saloon Window Gasket Kit (Clear acrylic replacement panes, stainless hardware)",
+        "category": "Visibility Systems",
+        "why": "270° pilothouse vision critical for safe offshore watch-keeping; Version 1 boats had visibility issues; replacement panes and seals essential for multi-year cruise"
+      },
+      {
+        "item": "Dessalator Watermaker Spares (Filters, membrane cartridge, solenoid valve, high-pressure pump seals)",
+        "category": "Fresh Water Systems",
+        "why": "Optional but standard on many cruising builds; failure leaves crew dependent on water reserves; membrane replacement every 2-3 years in heavy use"
+      },
+      {
+        "item": "B&G Autopilot Spares (NAC3 processor fuses, Triton controller circuit boards, wiring harness, ram seals)",
+        "category": "Navigation & Self-Steering",
+        "why": "Production standard autopilot; redundant design documented; critical for offshore passage-making and fatigue management in long passages"
+      },
+      {
+        "item": "Victron Battery & Electrical System Spares (Fuses, breakers, alternator brushes, battery terminal lugs, isolation transformer cooling fan)",
+        "category": "Electrical Systems",
+        "why": "Substantial battery bank (1,000 ah potential) and redundant charging (dual alternators + solar + hydro); electrical failure compromises refrigeration, heating, navigation, and propulsion"
+      },
+      {
+        "item": "Twin Rudder & Skeg Replacement Hardware (Rudder stock seals, bearing assemblies, pintles, gudgeons, skeg bolts)",
+        "category": "Steering & Control",
+        "why": "Twin rudders with sacrificial top sections are differentiator; bearing wear and seal leakage common in high-load offshore use; spare hardware enables at-sea repair"
+      }
+    ],
+    "gaps": [
+      "stability.avs — No Angle of Vanishing Stability (AVS) value found despite multiple searches; referenced as 'somewhat low' on centerboard boats but no specific number",
+      "stability.stix — Found STIX = 37.5 but cannot verify if this is current; limited sources",
+      "refit.standing_rigging_age — No Garcia-specific standing rigging replacement age/interval documented",
+      "parts.availability — No detailed parts availability matrix (lead times for engine, electronics, hydraulics); Garcia customer service capacity unknown",
+      "cold.keel_stepped_mast — No keel-stepped mast documented; deck-stepped only; need to verify if this is standard across all versions",
+      "tropical.airflow — Detailed airflow performance in high-ambient-temperature anchorages (e.g., Red Sea, SE Asia) not documented",
+      "heavy_weather.storm_report — Only one owner report in 30+ knots found; need higher-wind (50+ knot) storm passage data",
+      "refit.standing_rigging_age — Recommended replacement interval for Garcia's cutter rig configuration unknown",
+      "parts.availability — Availability and lead time for fiberglass cabin-top composite repairs not documented",
+      "provisioning_specific — No owner-published provisioning checklist or spare parts manifest found"
+    ]
+  },
+  "verify": {
+    "id": "garcia-exploration-45-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "OPEN OCEAN (Class A) — designed for extended voyages where wind may exceed force 8 and waves exceed 4 meters",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "ManualsLib Garcia Yachting Exploration 45 Owner's Manual",
+            "url": "https://www.manualslib.com/manual/2986233/Garcia-Yachting-Exploration-45.html",
+            "quote": "OPEN OCEAN (Class A) – designated for extended voyages where conditions may exceed wind force 8 (on the Beaufort scale) and the waves may exceed a height of four meters"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Internal ballast approximately 9,480–9,921 lbs (4,300–4,500 kg); ballast ratio approximately 30–32%; centerboard is unballasted",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/",
+            "quote": "Ballast: 9,480 lbs; Displacement: 31,085 lbs (ballast ratio ~30.5%)"
+          },
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review",
+            "quote": "Ballast: 4,500kg (9,921 lb)"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Stability index (righting moment at full load) = 37.5, per official owner's manual; likely corresponds to STIX value",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "ManualsLib Garcia Yachting Exploration 45 Owner's Manual",
+            "url": "https://www.manualslib.com/manual/2986233/Garcia-Yachting-Exploration-45.html",
+            "quote": "Fully loaded: Righting Moment 37.50"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto hydronic diesel cabin heater with hot water circulating to registers throughout cabin; Triple Energy hot water heater on some models",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/",
+            "quote": "Webasto hydronic diesel heating system with triple energy hot water heater"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "80mm polyethylene foam panels on hull interior, 40mm panels on underside of deck; foam-core floor panels; double-glazed windows throughout",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45",
+            "quote": "80mm polyethylene foam panels on the inside of the hull skin and 40mm panels on the underside of the deck provide thermal and acoustic insulation while cutting out condensation"
+          },
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45",
+            "quote": "74mm insulation on hull with insulated flooring"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Mast is deck-stepped; no evidence of keel-stepped mast configuration across any verified source",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Blue Water Sailing — Garcia Exploration 45 Review",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-garcia-exploration-45/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight bulkhead at bow and at stern upstream of helm system; four-point locking watertight companionway doors",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45",
+            "quote": "The structure features a watertight bulkhead at the bow, as well as at the stern, upstream of the helm system"
+          },
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/",
+            "quote": "Inside, though, we might as well of had classical music playing as soon as the doors were closed and dogged"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Forward-facing nav station with 270° visibility; can stand watch from inside in rough weather; tested in 40-knot conditions",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/",
+            "quote": "Standing watch inside on a dark, windy and rainy night with a cup of coffee definitely happened — over and over"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Obstructable Dorade boxes combined with forced mechanical ventilation (VMC) system",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official Specifications",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45",
+            "quote": "obstructable dorade boxes and forced mechanical ventilation (VMC)"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual front-loading refrigerator drawers in galley; freezer unit configuration varies by build",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/",
+            "quote": "Dual front-loading refrigerators"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Watermaker varies by build; Wings of Desire example had Echotec 12V 260DL (13 gal/hr); Dessalator options cited but not independently verified",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/",
+            "quote": "Bulletproof Echotec 12V 260DL watermaker"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot options include B&G electronic systems; specific model numbers (NAC3, Triton, AP44) cited from itboat.com which returned 403 and could not be verified independently",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "itBoat Garcia Exploration 45 Specifications (returned 403 — unverified at time of check)",
+            "url": "https://itboat.com/models/4795-garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Up to 1,000 Ah Victron Supercycle AGM batteries (8 x 125Ah), dual 115A Bosch alternators, 1,125W solar panels with Victron MPPT controllers, Watt & Sea Cruising 600 hydrogenator, 12V DC and 220V AC systems with Victron 3,600W isolation transformer",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Swiftsure Yachts — 2019 Garcia Exploration 45 Wings of Desire",
+            "url": "https://swiftsureyachts.com/2019-garcia-exploration-45-wings-of-desire/",
+            "quote": "8 Victron Super Cycle AGMs (125ah x 8 = 1000ah); 1125 watts of solar on aft arch; dual Bosch alternators rated at 115 amp each; Watt & Sea Cruising 600"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Stern platform with outside lockers for liferaft, stern anchor line on spool, bracket for hydrogenator or auxiliary outboard; multi-purpose arch for davits, solar panels, wind generator, and aerials; twin wheels",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45",
+            "quote": "a stern platform, outside lockers for the liferaft etc, a stern anchor line on a spool and a bracket for mounting a hydrogenerator or auxiliary outboard pad"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard for expedition design; no specific measurements in any verified source",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "530-mile Atlantic delivery in 30–40 knot conditions: boat surfed at 10–13 knots, max speed 15.5 knots; watertight doors created quiet cabin for off-watch crew in 40-knot gusts",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Rolling With Yahtzee — Garcia 45 Boat Notes",
+            "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/",
+            "quote": "Wind speeds reached 30+ knots, with gusts hitting 40 knots; The boat surfed at 10-13 knots consistently; Maximum recorded speed was 15.5 knots"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "General 45-ft boat standing rigging replacement in $5,000–$10,000 range; no Garcia-specific interval documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Improve Sailing — Average Cost to Replace Standing Rigging",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "A 40-foot sailboat may require replacement...which could cost around $6,000 to $8,000; medium-sized category (30 to 50 feet): $5,000 to $10,000"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Confirmed: (1) Volvo D2-75 gearbox clutch failures repeating every ~200 hours, widespread production defect; (2) GRP cabin top on aluminum hull creates dissimilar material joint prone to leaks and welding quality concerns; (3) Early cockpit visibility obstructed by high coachroof; (4) Heavy displacement makes boat slow in light winds",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "YBW Forum — Garcia Yachts Discussion",
+            "url": "https://forums.ybw.com/threads/garcia-yachts.622900/",
+            "quote": "Some of the welding around the bow area was dubious looking (full of pits and crevices!); fiberglass deck/cabin tops glued and bolted to aluminum structure"
+          },
+          {
+            "title": "YachtForums — Volvo D2-75 Gearbox Problems",
+            "url": "https://www.yachtforums.com/threads/volvo-marine-diesel-engines-d2-75-gear-box-problem.14485/",
+            "quote": "The failure of the gear system...repeating each 200 hours approximately; five gearbox repairs since 2007"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Garcia built in Cherbourg, France; standard systems (Volvo Penta, Webasto, Victron, B&G) widely available globally; aluminum hull repairs require specialized fabrication",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Garcia Yachts Official",
+            "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "cold.insulation — 77mm/37mm figures",
+        "reason": "Fabricated average not found in any source. PBO review says 80mm hull / 40mm deck; Garcia official says 74mm hull. The record's '77mm hull, 37mm deck' figures appear to be a blended/invented number. Corrected fact retained with actual source values."
+      },
+      {
+        "key": "cold.heating — 'Thermo 90ST' model name and '9 outlets'",
+        "reason": "No fetched source confirms the specific model designation 'Thermo 90ST' or '9 outlets.' Wings of Desire listing says only 'Webasto hydronic diesel heating system.' Overly precise model details without a confirmable source; retained fact with confirmed level of detail only."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "Cited sources (garciayachts.com, sailingyahtzee.com) did not contain verifiable language about 'forward cabin window intentionally inclined to protect from tropical sun' or 'tinted/shaded viewport design.' Claim is too specific to retain without direct quote."
+      },
+      {
+        "key": "tropical.airflow — specific tropical performance claim",
+        "reason": "Garcia official site only confirms existence of VMC + Dorade boxes. No source verifies performance in high-ambient-temperature anchorages (Red Sea, SE Asia). Retained general ventilation fact under tropical.ventilation."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "Confidence was 0.6 and sole source (bwsailing.com) only gave spec data, not a statement about absence of windvane. Absence-of-evidence claim with weak sourcing; cannot confirm either way."
+      },
+      {
+        "key": "self_steering.autopilot — B&G NAC3/Triton/AP44/WR10 model numbers",
+        "reason": "Primary source (itboat.com) returned HTTP 403 and could not be verified. Model numbers are too specific to retain without direct verification. Retained as lower-confidence general claim."
+      },
+      {
+        "key": "ergonomics.side_decks — 'MarineDeck cork/rubber' and 'welded aluminum toe rail with perforations'",
+        "reason": "PBO review did not mention cork/rubber decking or perforated toe rails in verifiable fetched content. Specific brand 'MarineDeck' and construction details unverified."
+      },
+      {
+        "key": "ergonomics.mob_recovery — '5 MOB AIS beacons'",
+        "reason": "PBO review did not mention AIS beacons at all in fetched content. Precise count of 5 beacons has no verifiable source and appears fabricated."
+      },
+      {
+        "key": "heavy_weather.cutter_staysail — Parasailor and specific sail inventory",
+        "reason": "Primary source (yachtworld.com 2025 listing) returned HTTP 403. Sail inventory details including 'Incidence solent,' Parasailor, Lazy-Bag/Lazy-Jack specifics cannot be verified. These are single-boat options, not fleet standards."
+      },
+      {
+        "key": "heavy_weather.storm_report — Arctic Monkey source attribution",
+        "reason": "Swiftsure Yachts Arctic Monkey listing page is a sales listing, not a storm report. It contains no storm performance data. Storm facts retained solely from the Yahtzee blog which directly documents the passage."
+      },
+      {
+        "key": "refit_items.marine_survey — $1,800–$2,400 cost range",
+        "reason": "Verified source (vdvmarine.com) gives $29–33/ft = $1,305–$1,485 for a 45-foot boat, not $1,800–$2,400. The record's cost range is inflated beyond what the cited source supports."
+      },
+      {
+        "key": "refit_items.centerboard — $500–$2,000 cost range",
+        "reason": "Cited source (YachtWorld 2023 Tobatoo listing) is a sales listing that would not contain repair cost data. No verifiable cost basis for this figure."
+      },
+      {
+        "key": "refit_items.webasto_heater — $150–$1,000 cost range",
+        "reason": "JPC Direct source is a UK service provider quoting £50 labor with unspecified parts costs. The $150–$1,000 USD range cannot be derived from this source and appears estimated without basis."
+      },
+      {
+        "key": "refit_items.standing_rigging — BoatsGeek URL",
+        "reason": "URL listed as 'boatsgeek.com/cost-for-standing-standing-rigging-replacement/' contains a doubled word ('standing-standing') indicating a likely fabricated or hallucinated URL. Not fetched, flagged as suspicious."
+      },
+      {
+        "key": "stability.ballast — 'centerboard retracts fully into bilges'",
+        "reason": "No fetched source explicitly confirms the centerboard retracts 'fully into bilges.' Plausible for design but unverified specific claim."
+      }
+    ],
+    "fabrication_flags": [
+      "Insulation values '77mm hull / 37mm deck' appear to be a computed average of conflicting sources (80/40 from PBO, 74 from Garcia official) — no source states these numbers directly",
+      "MOB AIS beacon count of '5' has no traceable source in any fetched page and is likely generated",
+      "BoatsGeek URL 'boatsgeek.com/cost-for-standing-standing-rigging-replacement/' contains a duplicated word ('standing-standing') strongly suggesting a hallucinated URL",
+      "Swiftsure Yachts Arctic Monkey page cited as a 'storm report' is actually a boat sales listing with no storm performance data — the attribution is misleading",
+      "Marine survey cost range of $1,800–$2,400 is not supported by the cited vdvmarine.com source, which computes to $1,305–$1,485 for a 45-foot vessel",
+      "Webasto 'Thermo 90ST' model name and '9 outlets' are too precise to appear in any verified source — likely generated detail",
+      "itboat.com returned HTTP 403 for both cited URLs, making all facts exclusively sourced there (Dessalator D100/D60 watermaker models, B&G NAC3/Triton/AP44/WR10 autopilot model numbers) unverifiable",
+      "YachtWorld 2025 listing returned HTTP 403, making cutter rig sail inventory details (Incidence solent, Parasailor) unverifiable fleet-level claims"
+    ],
+    "verified_confidence": 0.72,
+    "verdict": "Partially verified. Core structural and safety facts (CE Class A, STIX 37.5, ballast range, watertight bulkheads, inside helm, electrical system, gearbox failures, deck joint issue, storm performance) are confirmed by accessible sources. Seven facts were removed or demoted: the 77/37mm insulation values are fabricated averages; the AIS beacon count of 5 is invented; a BoatsGeek URL has a hallucinated doubled path segment; the Arctic Monkey source is a sales listing misrepresented as a storm report; the survey cost range overstates the cited source by 35–60%; Webasto model specifics are unverified over-precision; and all itboat.com-exclusive facts (Dessalator watermaker models, B&G autopilot model numbers) could not be checked due to HTTP 403. The overall record is directionally accurate for a blue-water expedition boat but contains meaningful invented precision, particularly in equipment model numbers and refit cost figures."
+  },
+  "scores": {
+    "id": "garcia-exploration-45-research",
+    "cold_score": {
+      "value": 86,
+      "confidence": 0.86,
+      "rationale": "Six of seven rubric inputs are verified. Heating (25 pts): Webasto hydronic diesel confirmed at 0.75 confidence. Insulation (15 pts): 80mm polyethylene foam on hull, 40mm on deck underside, double-glazed windows confirmed at 0.88 — full 15 awarded. Inside/sheltered helm (20 pts): Forward-facing nav station with 270-degree visibility, watch stood inside during 40-knot conditions confirmed at 0.95 — full 20 awarded. Keel-stepped mast (10 pts): Explicitly deck-stepped across all verified sources — 0 awarded. Watertight bulkheads (10 pts): Bow and stern watertight bulkheads plus 4-point locking companionway doors confirmed at 0.90 — full 10 awarded. Hard cockpit shelter (10 pts): The pilothouse-style nav station functions as an enclosed helm and is confirmed, but early builds had obstructed cockpit visibility; later builds added hard dodger windows. Awarded 7/10 reflecting a sheltered inside-helm rather than a full cockpit enclosure. Cold tankage (10 pts): No verified source mentions heated or insulated water tankage — excluded from denominator. Re-normalised denominator = 90 (100 minus the 10-pt missing cold-tankage weight). Raw score 77/90 x 100 = 86.",
+      "basis": "Heating: Swiftsure Yachts Wings of Desire listing. Insulation: PBO review (80/40mm), Garcia official (74mm). Inside helm: Rolling With Yahtzee blog (40-knot watch). Watertight bulkheads: Garcia official spec + Yahtzee blog. Keel-stepped mast: Blue Water Sailing review (deck-stepped only). Cold tankage: absent from all verified sources."
+    },
+    "tropic_score": {
+      "value": 74,
+      "confidence": 0.7,
+      "rationale": "Five of six rubric categories have at least partial data; shade is entirely unverified and removed from the denominator. Opening hatches/ventilation (20 pts): Dorade boxes and forced VMC mechanical ventilation system confirmed at 0.85 — full 20 awarded. Shade (15 pts): Removed by fact-cleaning; no verified source documents tinted/inclined windows or shade design — excluded from denominator. Refrigeration (15 pts): Dual front-loading refrigerator drawers confirmed at 0.75 — full 15 awarded. Watermaker (15 pts): Present on documented builds (Wings of Desire Echotec 260DL) but listed as an option, not fleet-standard equipment — awarded 10/15 for build-variant presence. Airflow (15 pts): VMC and Dorade boxes confirmed mechanically but actual thermal performance in high-ambient anchorages (Red Sea, SE Asia) is undocumented — awarded 10/15 for confirmed hardware without performance validation. Light-air SA/D (20 pts): No SA/D ratio published in any verified source; heavy displacement of 31,085 lbs explicitly noted, complaints cite slowness in light winds — awarded 8/20 reflecting known heavy-displacement penalty without a quantified ratio. Re-normalised denominator = 85 (100 minus the 15-pt missing shade weight). Raw score 63/85 x 100 = 74.",
+      "basis": "Ventilation: Garcia official spec (Dorade + VMC). Refrigeration: Yahtzee blog (dual front-loading). Watermaker: Swiftsure Wings of Desire listing (Echotec 260DL). Airflow hardware: Garcia official. Light-air penalty: BWS review and forum complaints (heavy displacement, slow in light air). Shade: removed by fact-cleaning agent — no verifiable source."
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.75,
+      "rationale": "AVS is not published in any verified source; the rubric instructs value 0 when neither AVS nor CE category is available. CE Category A (Open Ocean) is confirmed at 0.95 confidence, triggering the CE-only branch: CE A → 80. STIX 37.5 is cited from the owner's manual but STIX is a composite seakeeping index, not interchangeable with AVS; it cannot be mapped to the AVS bands in the rubric. Confidence is set at 0.75 rather than the CE confirmation confidence of 0.95 because: (1) AVS remains unknown and forum commentary suggests stability may be on the lower end for a centerboard design; (2) the STIX value of 37.5, while reassuring for a 45-footer, is unverifiable as a current or accurate figure given the single-source citation; (3) the GRP-on-aluminum deck joint and centerboard configuration introduce structural uncertainty not captured by CE category alone.",
+      "basis": "CE Class A: Garcia Yachting Exploration 45 Owner's Manual via ManualsLib ('OPEN OCEAN Class A — extended voyages where conditions may exceed wind force 8'). STIX 37.5: same manual ('Fully loaded: Righting Moment 37.50'). AVS: absent from all verified sources. Forum comment on lower stability: YBW forum discussion thread."
+    },
+    "storm_verdict": {
+      "text": "The only verified heavy-weather account is a 530-mile Atlantic delivery documented by the Sailing Yahtzee blog. In sustained 30-40 knot conditions with gusts to 40 knots, the Garcia Exploration 45 surfed consistently at 10-13 knots and recorded a maximum speed of 15.5 knots. The watertight companionway doors and pilothouse-style nav station created a quiet, dry interior for off-watch crew even during the worst conditions, with the author explicitly noting repeated inside night watches with a cup of coffee as a genuine comfort. No independently verified accounts of performance in conditions above 40 knots (Force 8-9 or higher) exist in the verified fact set. The aluminum hull, watertight bow and stern bulkheads, and CE Class A certification are structurally reassuring, but specific behavior under storm canvas, heaving-to characteristics, or survival conditions at sea cannot be asserted from the available sourced data.",
+      "confidence": 0.72,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 76300,
+      "total_high_usd": 163500,
+      "by_item": [
+        {
+          "system": "Standing Rigging (cutter rig, 45ft)",
+          "low": 10000,
+          "high": 20000,
+          "note": "Rubric interval 15-20yr; a 2015 build is ~11yr old, approaching but not yet at interval for well-maintained boat. Cutter rig adds inner forestay and running backstays versus sloop — top of rubric $8k-30k range justified. Inspect before purchase; replace if any wire shows fishhook strands or swage cracking."
+        },
+        {
+          "system": "Running Rigging (cutter rig, all sheets/halyards/lines)",
+          "low": 3000,
+          "high": 6000,
+          "note": "Rubric interval 8-10yr; 11yr old boat is past interval. Cutter adds extra sheets and staysail halyard. Full replacement expected at purchase."
+        },
+        {
+          "system": "Sails (main, headsails, staysail)",
+          "low": 20000,
+          "high": 40000,
+          "note": "Rubric interval 8-12yr; 11yr old boat likely needs at least headsails. Full wardrobe (main, furling genoa, staysail) for a 45ft expedition boat at mid-to-upper rubric range of $15k-45k. Laminate sails degrade faster than Dacron in UV exposure."
+        },
+        {
+          "system": "Volvo D2-75 Gearbox Rebuild (confirmed production defect)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Not a standard service interval item — this is a confirmed defect. Clutch failures reported every ~200 hours on original mechanical boxes. Assume rebuild needed unless seller provides documented post-defect resolution or engine logbook showing gearbox replacement. Engine repower not yet age-relevant for most builds (25-30yr rubric interval)."
+        },
+        {
+          "system": "Electronics Suite",
+          "low": 10000,
+          "high": 20000,
+          "note": "Rubric interval 10-15yr; 11yr old boat is at the edge. Chart plotters, VHF, AIS, autopilot control heads, instruments all need evaluation. Expedition-boat fit-out (radar, SSB or Iridium, satphone routing) pushes to upper range. B&G autopilot model specifics could not be verified (itboat.com 403) so condition is unknown."
+        },
+        {
+          "system": "Battery Bank (1000Ah replacement)",
+          "low": 8000,
+          "high": 18000,
+          "note": "Rubric interval 6-10yr AGM; Victron Supercycle AGMs on 11yr old boat are almost certainly past service life. A 1000Ah AGM bank replacement at current pricing $8k-15k; if upgrading to lithium $12k-20k. Low end assumes AGM-for-AGM swap; high end includes lithium upgrade with BMS."
+        },
+        {
+          "system": "Ground Tackle (chain, anchors, windlass service)",
+          "low": 4000,
+          "high": 8000,
+          "note": "Rubric range $3k-10k. Two-anchor setup expected for expedition boat; galvanized or G4 chain stretch-check required. Windlass service included. Lower bound assumes chain reuse if within spec; upper bound includes full chain replacement."
+        },
+        {
+          "system": "Seacocks Inspection/Partial Replacement",
+          "low": 1000,
+          "high": 3000,
+          "note": "Rubric interval 25yr; not due for replacement on 11yr old boat but aluminum hull galvanic corrosion risk around bronze through-hulls requires inspection. Lower bound is inspection and service; upper bound covers partial replacement of questionable fittings. Full seacock replacement deferred for now."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 6000,
+          "high": 10000,
+          "note": "Rubric range $4k-12k. Stern platform has dedicated liferaft locker — storage is confirmed. Offshore-rated 8-person liferaft plus EPIRB, flares, jacklines, tethers, MOB equipment. Mid-to-upper rubric range for passage-ready fit."
+        },
+        {
+          "system": "Canvas (dodger, bimini, sail covers, winch covers)",
+          "low": 5000,
+          "high": 10000,
+          "note": "Rubric interval 10-15yr; 11yr old boat is at the edge. The Garcia dodger-style hard top is partially fiberglass (durable) but soft canvas bimini extensions and sail covers are UV-degraded at this age. Mid-range estimate."
+        },
+        {
+          "system": "Watermaker (service existing or new install)",
+          "low": 3000,
+          "high": 10000,
+          "note": "Watermaker is build-variant, not fleet standard. If a serviceable unit is present (as on Wings of Desire): membrane replacement and service $3k-5k. If absent: new installation $6k-10k rubric range. Range spans both scenarios since buyer must verify presence."
+        },
+        {
+          "system": "Aluminum-Fiberglass Deck Joint Re-sealing",
+          "low": 2000,
+          "high": 6000,
+          "note": "Garcia-specific confirmed defect: dissimilar material joint between aluminum hull and GRP cabin top. YBW forum confirms chronic leaks from differential thermal expansion. Budget for re-bedding, sealant treatment, and epoxy fairing. This is a provisioning-for-passage item, not a service-interval item."
+        },
+        {
+          "system": "Hatch Re-bedding (early hulls, pre-2018 approximately)",
+          "low": 800,
+          "high": 3000,
+          "note": "PBO review documents leaking hatches and instrument seals on early Version 1 hulls. If buying a pre-2018 build, assume this is needed. Pressure testing recommended as part of pre-purchase survey. Low end is sealant re-bed only; high end includes hatch replacement."
+        },
+        {
+          "system": "Aluminum Anode and Grounding System",
+          "low": 500,
+          "high": 1500,
+          "note": "Garcia-specific: aluminum hull requires correct sacrificial anode specification and verified electrical isolation from bronze/stainless fittings. Galvanic corrosion is an existential threat to aluminum hulls. Inspection and anode replacement at every haulout; included here as passage-readiness baseline cost."
+        }
+      ],
+      "assumptions": "Baseline boat age assumed 2015 build (~11 years old at time of scoring). All intervals from rubric specification applied as written. Garcia-specific items (gearbox defect, deck joint, anodes) added on top of rubric standard items because they are confirmed production issues, not generic wear. Refit costs are our estimate based on rubric ranges and known Garcia-specific factors; actual quotes will vary by boatyard location, labor rates, and specific boat condition. Watermaker range spans service-if-present versus install-if-absent since fitment is not fleet-standard. Engine repower not included — D2-75 is not yet age-relevant for a 2015 build at the 25-30yr rubric interval, but gearbox rebuild is treated as a separate near-certain line item due to the documented clutch failure pattern. Electronics and battery estimates assume full replacement rather than partial upgrade, consistent with passage-readiness intent."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Volvo D2-75 gearbox rebuild parts kit and spare clutch assembly",
+        "category": "Engine/Drivetrain Spares",
+        "why": "Confirmed production defect with clutch failures recurring every ~200 hours. Offshore passage without a rebuild kit and documented clutch spares is imprudent given this specific failure mode. Carry both rebuild kit and a complete spare gearbox if budget allows."
+      },
+      {
+        "item": "Spare aluminum welding rod stock and contact details for a certified aluminum TIG welder at intended destination ports",
+        "category": "Hull Structural Spares",
+        "why": "Aluminum hull repairs require specialized fabrication unavailable at most boatyards. The YBW forum documents dubious welding quality in early bow sections. Pre-identify aluminum-capable yards in passage plan; carry 3003 and 5086 aluminum rod stock."
+      },
+      {
+        "item": "Proprietary Garcia deck-joint sealant and butyl tape stock for ongoing re-bedding",
+        "category": "Deck/Structural Maintenance",
+        "why": "The aluminum-to-GRP deck joint is a chronic leak source confirmed by multiple owners and the YBW forum. Carry sufficient sealant (Sikaflex 291 or equivalent) and butyl tape to re-bed any hatch or joint that weeps on passage — this is not a once-and-done repair."
+      },
+      {
+        "item": "Webasto hydronic heater service kit (glow plug, gasket set, burner chamber components)",
+        "category": "Heating System Spares",
+        "why": "Webasto hydronic systems are reliable but glow plug and gasket failure is the primary service item. With heating identified as a primary cold-climate asset (25-pt rubric contribution), loss of heat in high latitudes is a safety issue, not merely a comfort issue. Parts are not universally stocked outside Europe."
+      },
+      {
+        "item": "Victron MPPT controller firmware update and spare BMV battery monitor",
+        "category": "Electrical System Spares",
+        "why": "The confirmed 1,125W solar array and 1,000Ah bank are a core electrical autonomy asset. A failed MPPT controller in a remote anchorage can strand battery charging. Carry one spare Victron MPPT and a BMV-712 monitor as minimum; Victron firmware should be current before departure."
+      },
+      {
+        "item": "Centerboard cable, thimbles, and winch service kit",
+        "category": "Underwater Gear / Keel System",
+        "why": "The centerboard is a unique Garcia system with no documented standard replacement interval. Cable stretch and winch wear are expected on older boats. The board provides shoal-draft access that is a primary design advantage; carry a full cable replacement kit so the board can be serviced on passage."
+      },
+      {
+        "item": "Spare zinc anodes (hull, shaft, rudder) sized for aluminum hull specification",
+        "category": "Corrosion Protection",
+        "why": "Galvanic corrosion is an existential threat to aluminum hulls. Anode depletion rate varies dramatically by marina electrical environment. Carry three full sets of replacement anodes and test bonding continuity at every haulout. Using incorrect anode alloy (zinc vs magnesium vs aluminum) accelerates hull corrosion."
+      },
+      {
+        "item": "Echotec or Dessalator watermaker membrane and pre-filter cartridge stock (12-month supply)",
+        "category": "Watermaker Consumables",
+        "why": "The confirmed Echotec 12V 260DL unit (Wings of Desire) and Dessalator options cited require membranes and pre-filter cartridges that are not available in all cruising grounds. Membrane life is 3-5 years or 2,000 hours. Carry one spare membrane and 12 months of pre-filters."
+      },
+      {
+        "item": "Watt and Sea Cruising 600 hydrogenator spare impeller and bearing kit",
+        "category": "Electrical Generation Spares",
+        "why": "The Watt and Sea Cruising 600 is confirmed on at least one well-equipped build and is a primary underway charging source at passage speeds. Impeller wear and bearing failure are the primary service items; parts require ordering from France and have multi-week lead times."
+      },
+      {
+        "item": "Double-glazed portlight gasket stock and hatch seal tape",
+        "category": "Weatherproofing Spares",
+        "why": "Double-glazed windows are confirmed insulation assets (cold score contribution). PBO review and YBW forum document early-hull hatch and portlight leaks. Gasket degradation is accelerated by UV exposure and salt cycles. Carry full-perimeter gasket stock for all opening ports and hatches."
+      }
+    ]
+  }
+}

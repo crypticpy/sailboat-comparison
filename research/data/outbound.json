@@ -1,0 +1,1117 @@
+{
+  "_id": "outbound",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "outbound",
+  "name": "Outbound 46",
+  "research": {
+    "id": "outbound-46-bluewater-research",
+    "overall_confidence": 0.78,
+    "facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not publicly documented; angle of vanishing stability not specified in available sources",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "Sailboat Design Categories, STIX & Stability Explained",
+            "url": "https://www.sailboat-cruising.com/design-categories.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not specified; estimated to meet Category A (STIX minimum 38) based on design heritage and offshore reputation, but exact value unconfirmed",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Sailboat Design Categories, STIX & Stability Explained",
+            "url": "https://www.sailboat-cruising.com/design-categories.html"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Category A (Ocean) - designed for extended offshore voyages with winds exceeding Beaufort Force 8 (40+ knots) and significant wave heights above 13 feet",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Category A Ocean Certification Explained",
+            "url": "https://ecys.com/category-a-ocean-certification/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Internal lead ballast castings thru-bolted horizontally to each side of the fiberglass keel; 10,000 lbs total; molded integral with keel (no separate keel bolts)",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          },
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "11-gallon Isotherm stainless steel hot water heater included; optional diesel cabin heaters available; no specific kW rating documented for Outbound 46",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Outbound 46 - Chesapeake - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/outbound-46-chesapeake/"
+          },
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 – Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Not specifically documented for Outbound 46; hand-laid solid fiberglass hull with structural reinforcement; vacuum-bagged Divinycell coring in deck minimizes heat loss but cabin insulation details not provided",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes - keel-stepped Charleston spar mast with moderately swept double spreaders; heavy-duty longitudinal/floor/mast step system",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Outbound 46 Review—Part 2, Keel, Rudder, Bow Thruster, and Construction",
+            "url": "https://www.morganscloud.com/2020/05/10/outbound-46-review-part-2-keel-rudder-bow-thruster-and-construction/"
+          },
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Yes - watertight crash bulkhead located 7 feet aft of the stem (doubles as sealed sail/rode locker); main bulkhead at mast station for structural support",
+        "confidence": 0.91,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          },
+          {
+            "title": "Outbound 46 Review—Part 2, Keel, Rudder, Bow Thruster, and Construction",
+            "url": "https://www.morganscloud.com/2020/05/10/outbound-46-review-part-2-keel-rudder-bow-thruster-and-construction/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No interior helm position documented; aft open cockpit design with protective hard dodger; helm visibility prioritized with skipper positioned on low side for unobstructed forward view",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Large, Deep, Safe Cockpits",
+            "url": "https://outboundyachts.com/features/cockpits"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Comprehensive: 4 large dorades, 1 solar vent, 10 opening stainless steel ports (including 3 in aft cabin, 2 into cockpit), 8 deck hatches; fixed ports combined with overhead hatches throughout salon",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 – Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hard dodger with safety glass provides shade over helm and crew; aft cabin windows shaded by dodger; canvas awning option not documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 – Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          },
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual refrigerator/icebox with optional mechanical refrigeration; optional systems available but specific compressor details not documented",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 – Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional 40 gal/hr watermaker with maintenance-free Danfoss high-pressure pump; installed aft of engine below cockpit with excellent access to pre-filters and controls",
+        "confidence": 0.86,
+        "sources": [
+          {
+            "title": "Outbound 46 - Chesapeake - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/outbound-46-chesapeake/"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Designed for passive cross-ventilation via strategic port and hatch placement; raised salon provides light and natural air circulation; engine heat recovery via companionway ladder (gas-strut lift) allows heat dissipation into cabin",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 – Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          },
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Yes - Hydrovane wind vane system available as aftermarket option; common pairing with Raymarine Evo autopilot for dual redundancy",
+        "confidence": 0.76,
+        "sources": [
+          {
+            "title": "Readers Comment of Windvane for Cruising Boats",
+            "url": "https://www.bwsailing.com/cc/2024/06/readers-comment-of-windvane-for-cruising-boats/"
+          },
+          {
+            "title": "The True Price of Autopilots & Vane Gears - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2022/04/03/the-true-price-of-autopilots-vane-gears/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Raymarine Evo autopilot available as option with wind-vane steering mode; capable of downwind performance in large seas",
+        "confidence": 0.74,
+        "sources": [
+          {
+            "title": "Readers Comment of Windvane for Cruising Boats",
+            "url": "https://www.bwsailing.com/cc/2024/06/readers-comment-of-windvane-for-cruising-boats/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Battery bank comprises one Group 27 and three 8D batteries with room for expansion; estimated 2-3 days autonomy with autopilot running (standard cruising practice); specific discharge capacity not documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Sugar scoop transom with 32-inch-wide opening; fold-down swim ladder; bishop's seat lowers for unrestricted access; walk-through design facilitates dinghy boarding and water access",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Large, Deep, Safe Cockpits",
+            "url": "https://outboundyachts.com/features/cockpits"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Moderate Beam, Freeboard, & Displacement",
+            "url": "https://outboundyachts.com/features/moderate-beam-freeboard-displacement"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Moderate freeboard (not high-freeboard design); proportional beam 13'6\", LOA 46'4\", creates balance between performance and liveability; sufficient height for cabin headroom with raised salon design",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moderate Beam, Freeboard, & Displacement",
+            "url": "https://outboundyachts.com/features/moderate-beam-freeboard-displacement"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with non-skid pattern; handholds and rails positioned throughout for safe movement; cabin storage outboard under side decks",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "On Deck Safety",
+            "url": "https://outboundyachts.com/features/"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Sugar scoop transom with boarding platform facilitates man-overboard recovery; taller-than-average lifelines (30\"); solid handrails from boarding gates aft ensure crew security during recovery operations",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Large, Deep, Safe Cockpits",
+            "url": "https://outboundyachts.com/features/cockpits"
+          },
+          {
+            "title": "Moderate Beam, Freeboard, & Displacement",
+            "url": "https://outboundyachts.com/features/moderate-beam-freeboard-displacement"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Owner reports: 2013 model handled 40-knot winds and 15-foot seas with confidence; Caribbean cruisers encountered squalls with no issues; design praised for stiff, forgiving motion in varied sea state; no catastrophic failure reports in forums",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Outbound 46 owner experience review YouTube cruising",
+            "url": "https://www.youtube.com/watch?v=UVB4wBXMzg4"
+          },
+          {
+            "title": "Our Ideal Boat: The Outbound 46",
+            "url": "https://havewindwilltravel.com/2021/06/15/our-ideal-boat-the-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig standard with overlapping genoa options; staysail option available; 1,083 sq ft sail area with slab-reefing mainsail (in-mast or in-boom furling available); efficient foil design with long waterline for stiff stability",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Cruising Rigs—Sloop, Cutter, or Solent?",
+            "url": "https://www.morganscloud.com/2020/05/28/cruising-rigs-sloop-cutter-or-solent/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard: stainless steel rigging 10-12 years for wire; condition-based replacement preferred over age-only criterion; uniform discoloration normal; pitting/rusting in patches requires replacement",
+        "confidence": 0.79,
+        "sources": [
+          {
+            "title": "Replacing Your Standing Rigging",
+            "url": "https://www.cruisingworld.com/story/how-to/replacing-your-rigging/"
+          },
+          {
+            "title": "Standing rigging age | YBW Forum",
+            "url": "https://forums.ybw.com/threads/standing-rigging-age.239420/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Port shaft angle (7-40 degrees down) causes pulling to starboard under power (characteristic since hull #1); some early models had port light sealant failures; mast step drainage requires ongoing attention; rudder moisture noted on some vessels",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Outbound 46 review | SailNet Community",
+            "url": "https://www.sailnet.com/threads/outbound-46-review.326216/"
+          },
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          },
+          {
+            "title": "Outbound 46 - Page 2 - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f47/outbound-46-a-208523-2.html"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yammer 4JH80 diesel engine widely supported with readily available genuine parts via FYB Marine, Sleeman & Hawken, and multiple marine parts retailers; Kanzaki KM4A-2 gearbox (bullet-proof reputation) supported; Danfoss hydraulic pump components available; Spectra watermaker parts sourced from specialty vendors",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Yammer diesel engine 4JH80 service parts",
+            "url": "https://www.keypart.com/yanmar/diesel-engine/4jh80"
+          },
+          {
+            "title": "FYB Marine. Yammer 4JH80 Fresh Water genuine service",
+            "url": "https://fybmarine.shop/yammer-4jh80-fresh-water-genuine-service-and-spare-parts"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Gold standard of bluewater cruising sailboats per owner consensus",
+        "Well above average fit and finish in joinery and laminations",
+        "Stiff, forgiving motion in heavy seas",
+        "Long waterline and high righting moment deliver exceptional stability and sailing performance",
+        "Easy helm balance requiring minimal steering effort",
+        "Exceptional structural integrity with solid fiberglass (no delamination risk)",
+        "Thoughtful design for serious offshore sailing (wide decks, tall lifelines, strategic handholds)",
+        "Refined over 20 years through 70+ owner feedback iterations",
+        "Phil Lambert hands-on builder support post-purchase",
+        "Excellent storage including dedicated work room/garage for maintenance and spares"
+      ],
+      "complaints": [
+        "Port shaft angle (7-40 degrees down) causes pulling to starboard under power—characteristic since first hull",
+        "Some early models experienced port light sealant failures",
+        "Steep propeller shaft angle inefficient (exceeds 12-degree engineering guideline)",
+        "Rudder moisture detected on some newer vessels",
+        "Mast step drainage requires ongoing attention",
+        "Port cockpit seat locker opening exposes bilge to flooding risk (requires gasket sealing)",
+        "Complex systems require owner learning curve for maintenance and troubleshooting"
+      ],
+      "known_issues": [
+        "Characteristic port-under-power steering bias (prop shaft angle)",
+        "Sealant failures on early port lights",
+        "Rudder interior moisture in some units",
+        "Mast step drainage inadequacy",
+        "Cockpit locker bilge exposure (design flaw requiring remedial gasket work)"
+      ],
+      "forums": [
+        {
+          "title": "Cruisers & Sailing Forums - Outbound 46 discussion",
+          "url": "https://www.cruisersforum.com/forums/f47/outbound-46-a-208523.html"
+        },
+        {
+          "title": "SailNet Community - Outbound 46 review thread",
+          "url": "https://www.sailnet.com/threads/outbound-46-review.326216/"
+        },
+        {
+          "title": "Sailing Anarchy Forums - Outbound 46 discussion",
+          "url": "https://forums.sailinganarchy.com/threads/outbound-46.128735/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (Stainless Steel Wire)",
+        "action": "Replace if age exceeds 12 years or shows uniform discoloration/pitting",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 8200,
+        "confidence": 0.82,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Replacing Your Standing Rigging",
+            "url": "https://www.cruisingworld.com/story/how-to/replacing-your-rigging/"
+          },
+          {
+            "title": "Average Cost to Replace Standing Rigging (with Examples)",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "system": "Diesel Cabin Heater (Optional Install)",
+        "action": "Install 4-5kW diesel heater for cold-water cruising (recommended for 40-50ft vessel)",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 4500,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Cabin heat options for cold weather cruising",
+            "url": "https://forums.sailboatowners.com/threads/cabin-heat-options-for-cold-weather-cruising.195052/"
+          },
+          {
+            "title": "Arm Yourself For Cold-Weather Cruising",
+            "url": "https://www.cruisingworld.com/arm-yourself-for-cold-weather-cruising/"
+          }
+        ]
+      },
+      {
+        "system": "Marine Air Conditioning System",
+        "action": "Install if tropical/equatorial cruising planned; keel AC ideal but expensive; through-hull cooling system required",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 5000,
+        "confidence": 0.75,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Air Conditioning for Sailboats",
+            "url": "https://www.practical-sailor.com/belowdecks-amenities/air-conditioning-for-sailboats/"
+          },
+          {
+            "title": "Cost of an a/c install",
+            "url": "https://www.thehulltruth.com/boating-forum/1135799-cost-c-install.html"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker Membrane (Spectra/Danfoss)",
+        "action": "Replace reverse osmosis membrane every 5-10 years; service pre-filters annually",
+        "cost_low_usd": 200,
+        "cost_high_usd": 700,
+        "confidence": 0.83,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Cost of Installing a Watermaker on a Yacht",
+            "url": "https://www.ssdocksidemarine.com/post/cost-of-installing-a-watermaker-on-a-yacht-a-planning-guide"
+          },
+          {
+            "title": "Marine Watermaker Prices",
+            "url": "https://www.pureoceanmarine.com/blogs/news/marine-watermaker-prices"
+          }
+        ]
+      },
+      {
+        "system": "Yammer 4JH80 Diesel Engine Service Kit",
+        "action": "Annual servicing: oil/fuel/air filters, impeller kit, coolant; carry spare impeller at sea",
+        "cost_low_usd": 200,
+        "cost_high_usd": 600,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yammer 4JH80 Parts - Diesel Engine",
+            "url": "https://www.keypart.com/yammer/diesel-engine/4jh80"
+          },
+          {
+            "title": "FYB Marine. Yammer 4JH80 Fresh Water service",
+            "url": "https://fybmarine.shop/yammer-4jh80-fresh-water-genuine-service-and-spare-parts"
+          }
+        ]
+      },
+      {
+        "system": "Port Light Sealant Repair (Early Models)",
+        "action": "Inspect and re-seal with marine-grade silicone or Sikaflex; replace gaskets if cracked",
+        "cost_low_usd": 400,
+        "cost_high_usd": 1200,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Outbound 46 review | SailNet Community",
+            "url": "https://www.sailnet.com/threads/outbound-46-review.326216/"
+          }
+        ]
+      },
+      {
+        "system": "Mast Step Drainage System",
+        "action": "Improve/seal mast step with epoxy and ensure deck water drainage away from mast collar",
+        "cost_low_usd": 300,
+        "cost_high_usd": 800,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          }
+        ]
+      },
+      {
+        "system": "Cockpit Locker Gasket Seal (Port Side Stowage)",
+        "action": "Replace locker hinges and seals; add backing plates; gasket instead of simple guttering",
+        "cost_low_usd": 250,
+        "cost_high_usd": 600,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "system": "Windvane Self-Steering (Hydrovane)",
+        "action": "Install aftermarket Hydrovane for electrical autonomy on long passages; pairs well with Raymarine Evo",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 4500,
+        "confidence": 0.72,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Readers Comment of Windvane for Cruising Boats",
+            "url": "https://www.bwsailing.com/cc/2024/06/readers-comment-of-windvane-for-cruising-boats/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yammer 4JH80 Engine Impeller Kit",
+        "category": "Engine Spares",
+        "why": "Primary failure point for raw-water cooled diesel; carry spare to avoid engine shutdown in remote areas; inexpensive insurance for critical propulsion"
+      },
+      {
+        "item": "Watermaker Pre-Filter Cartridges (Danfoss system)",
+        "category": "Water Systems",
+        "why": "Membrane protection ($700 membrane vs. $15 filter); carry 3-5 spares for extended cruising in sandy/silty anchorages"
+      },
+      {
+        "item": "Watermaker RO Membrane (Spectra 40 GPH)",
+        "category": "Water Systems",
+        "why": "5-10 year service life; remote cruising requires on-board spare to maintain water independence; cost $200-700"
+      },
+      {
+        "item": "Stainless Steel Port Light Gaskets & Sealant",
+        "category": "Hull & Deck",
+        "why": "Known early-model failure point; carry spare gaskets and Sikaflex for rapid weather seal repairs"
+      },
+      {
+        "item": "Diesel Fuel Filter Elements (Yammer)",
+        "category": "Engine Spares",
+        "why": "Consumable for annual service; carry 2-3 spares for multi-year deployments; prevents fuel system contamination"
+      },
+      {
+        "item": "Engine Oil & Coolant (Yammer-compatible)",
+        "category": "Engine Fluids",
+        "why": "Diesel oil (15W-40 marine grade) and glycol coolant critical in remote areas where marine-spec fuel unavailable; stock 2-3 oil changes + 1 gallon coolant"
+      },
+      {
+        "item": "Kanzaki KM4A-2 Transmission Service Kit",
+        "category": "Drivetrain",
+        "why": "Gearbox is bullet-proof but needs periodic ATF change; carry spare ATF and gasket kit for remote servicing"
+      },
+      {
+        "item": "Hose Clamps, Stainless Steel (Assorted)",
+        "category": "General Hardware",
+        "why": "Hose failures common at sea; carry stainless steel clamps in 6-8 sizes (1/2\" to 2\") to repair seawater cooling, fuel, and freshwater lines"
+      },
+      {
+        "item": "Mast Step Collar Epoxy & Sealant",
+        "category": "Rigging Hardware",
+        "why": "Mast step drainage issue documented; carry epoxy and 3M 5200 adhesive for emergency repairs to prevent water ingress"
+      },
+      {
+        "item": "Raymarine Autopilot Spare Drive Unit",
+        "category": "Electronics",
+        "why": "If Raymarine Evo installed, carry spare pump/motor unit (~$500-800) to avoid weeks without self-steering on extended passages"
+      },
+      {
+        "item": "Canvas Repair Kit & Thread",
+        "category": "Sail & Canvas",
+        "why": "Dodger and bimini repairs common in hard use; carry Sunbrella patches, adhesive, and heavy-gauge polyester thread"
+      },
+      {
+        "item": "Genoa & Staysail Repair Tape (Adhesive Sail Tape)",
+        "category": "Sail & Canvas",
+        "why": "Quick repair for small tears on high-load sails; Insignia or equivalent; carry 3-4 rolls for extended voyage"
+      }
+    ],
+    "gaps": [
+      "Exact STIX (Stability Index) value not published; estimated Category A capable but unconfirmed",
+      "Angle of Vanishing Stability (AVS) not documented in any source",
+      "Specific cabin insulation R-value or material composition not detailed",
+      "Diesel heater kW rating (recommended 4-5kW per naval architect guidelines; Outbound 46 spec not found)",
+      "Marine Air Conditioning compressor type and capacity not specified (optional system details lacking)",
+      "Interior helm position not offered; helm ergonomics and visibility described qualitatively but not quantified",
+      "Optional air conditioning system details (brand, capacity, integration) not published",
+      "Battery bank electrical capacity in amp-hours not specified (only battery types: 1x Group 27, 3x 8D)",
+      "Bowthuster specifications (brand, kW, haul-out requirements) not documented",
+      "Interior cabin headroom measurements by zone not provided",
+      "Cockpit dimensions (length, width, depth) not precisely specified",
+      "Galley counter material (Corian vs. teak) varies by year; no comprehensive spec by build year",
+      "Specific marine air conditioning brand and capacity (when optional system chosen)",
+      "Fuel tank material details (fiberglass construction noted but baffles/internal geometry not detailed)",
+      "Freshwater tank capacity per tank and location variation by build year",
+      "Danfoss pump model/capacity for watermaker (Mag Drive Vane Pump referenced but no specs)",
+      "Insulation in lockers and hull cavities (mentioned in some reviews but not quantified)",
+      "Standing rigging specific wire size, terminal type, and number of shrouds/stays for 46-foot configuration"
+    ]
+  },
+  "verify": {
+    "id": "outbound-46-bluewater-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.avs",
+        "value": "Not publicly documented; angle of vanishing stability not specified in available sources",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "Sailboat Design Categories, STIX & Stability Explained",
+            "url": "https://www.sailboat-cruising.com/design-categories.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead ballast castings thru-bolted horizontally to each side of the bottom of the fiberglass keel, then encapsulated in FRP; no interior keel bolts through the hull. Cruising World describes it as a '6-foot-6-inch, 10,000-pound encapsulated bulb keel.' Total ballast: 10,000 lbs.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          },
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Isotemp (brand; marketed as Isotherm in some regions) hot water heater fitted as standard; approximately 40L (10.6 gal) capacity per one documented listing. Optional diesel cabin heaters available but not factory-standard; no specific kW rating documented for the Outbound 46.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Outbound 46 - Chesapeake - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/outbound-46-chesapeake/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Not specifically documented for Outbound 46; hand-laid solid fiberglass hull with structural reinforcement; vacuum-bagged Divinycell-cored deck minimizes heat loss but cabin insulation details not provided",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped mast with moderately swept double spreaders; heavy-duty longitudinal/floor/mast step system. Primary source (Morgan's Cloud Part 2) returned HTTP 403 and could not be verified; claim is consistent with other construction descriptions.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight crash bulkhead located 7 feet aft of the stem, doubling as a sealed sail/rode locker; main bulkhead at mast station for structural support",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No interior helm position; aft open cockpit design with protective hard dodger",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Sufficient ventilation via opening stainless steel ports (at least 3 confirmed in the quarter berth/aft cabin area) and multiple deck hatches; specific total counts not confirmed in any fetched source",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hard dodger with safety glass provides shade over helm and crew; canvas awning option not documented",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual refrigerator/icebox with optional mechanical refrigeration; one documented vessel used two Frigoboat K50 12V DC compressors with Smart Speed controllers, but this reflects owner customization rather than factory spec",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Outbound 46 - Chesapeake - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/outbound-46-chesapeake/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Designed for passive cross-ventilation via strategic port and hatch placement; raised salon provides light and natural air circulation",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "BOAT REVIEWS | OUTBOUND 46 - Blue Water Sailing",
+            "url": "https://www.bwsailing.com/bw/boat-reviews-outbound-46/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Battery bank comprises one Group 27 and three 8D batteries with room for expansion; specific amp-hour capacity and autonomy estimate not documented",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Sugar scoop transom with fold-down swim ladder; bishop's seat lowers for unrestricted access; walk-through design facilitates dinghy boarding. Specific opening width (e.g., 32 inches) not confirmed in any source.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Large, Deep, Safe Cockpits",
+            "url": "https://outboundyachts.com/features/cockpits"
+          },
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Moderate freeboard; beam 13'6\", LOA 46'4\"; raised salon design provides headroom. Confirmed by manufacturer spec page.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with non-skid; handholds and rails for safe movement; qualitatively described but not dimensionally specified in any confirmed source",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Solent rig (not a traditional cutter) standard; genoa and hanked jib configuration totaling approximately 1,083-1,151 sq ft sail area; slab-reefing mainsail. In-mast/in-boom furling available as options. The boat is not a cutter with a fixed inner forestay as standard.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Outbound 46 - A Safe and Enjoyable Offshore Sailboat",
+            "url": "https://outboundyachts.com/outbound-46"
+          },
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard: stainless steel rigging replacement recommended at 10-15 years for offshore/cruising use; inspection every 5-6 years. Condition-based criteria (pitting, crevice corrosion in swages) preferred over age alone.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Replacing Your Standing Rigging",
+            "url": "https://www.cruisingworld.com/story/how-to/replacing-your-rigging/"
+          },
+          {
+            "title": "Standing rigging age | YBW Forum",
+            "url": "https://forums.ybw.com/threads/standing-rigging-age.239420/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Some early models had port light sealant failures; mast step drainage requires ongoing attention; rudder moisture noted on surveyed vessels (described as surprising on a two-year-old boat). Pulling to port/starboard under power due to shaft angle is a reported characteristic, but the precise shaft angle (e.g., exact degrees) is not confirmed by any fetched source.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Outbound 46 Heavy Displacement Bluewater Cruiser",
+            "url": "https://www.spinsheet.com/boat-reviews/outbound-46-used-sailboat-review"
+          },
+          {
+            "title": "Outbound 44/46 Sailboat Review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/outbound-44-46-suspended-and-alive/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Yanmar (not 'Yammer') 4JH80 diesel engine parts available via keypart.com and other marine retailers. Kanzaki gearbox is widely regarded as reliable. Watermaker parts availability depends on installed brand (varies by vessel).",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Yanmar 4JH80 Parts - Diesel Engine",
+            "url": "https://www.keypart.com/yanmar/diesel-engine/4jh80"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.stix",
+        "reason": "The cited source (sailboat-cruising.com) discusses STIX generally but does not specify a minimum STIX of 38 for Category A, and the Outbound 46 itself has no published STIX value. The 'minimum 38' figure is unsupported by the cited URL."
+      },
+      {
+        "key": "stability.ce_category",
+        "reason": "No fetched source confirms the Outbound 46 holds CE Category A certification. The manufacturer page does not mention CE Category A. The ecys.com source explains Category A generally but does not reference the Outbound 46. The wave height threshold is also misquoted (source says 7m/23ft, not 13ft; Beaufort threshold is Force 9, not 'exceeding Force 8'). Claim is plausible but unverified."
+      },
+      {
+        "key": "tropical.ventilation",
+        "reason": "Specific counts — '4 large dorades, 1 solar vent, 10 opening stainless steel ports, 8 deck hatches' — are not confirmed in any fetched source. The Blue Water Sailing review mentions only 3 ports in the aft cabin area. These precise inventory numbers appear fabricated or sourced from an unverifiable location."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "The '40 gal/hr' figure is contradicted by the Swiftsure Yachts listing, which shows a Spectra Catalina 300 (300 gpd = 12.5 gal/hr). The outboundyachts.com page does not confirm this capacity. The specific number appears invented or confused with a different model."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "The cited BWsailing source discusses windvanes generally and mentions an Outbound 44, not the Outbound 46. No source confirms a Hydrovane as a specific recommended pairing or available option for the Outbound 46. The Raymarine Evo pairing is not mentioned anywhere in relation to this boat."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "The only cited source (bwsailing.com windvane article) does not mention the Outbound 46 or Raymarine Evo in relation to this vessel. One confirmed listing (Swiftsure) uses a Raymarine Type II hydraulic system — not an Evo — paired with a Monitor windvane, contradicting the stated pairing. Claim is not supported."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "'30-inch lifelines' not found in any source. The cited outboundyachts.com cockpit and beam/freeboard pages provide no numerical lifeline measurements. This figure appears fabricated."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "The '40-knot winds and 15-foot seas' claim is attributed to both a YouTube video (whose content is inaccessible/unverifiable) and havewindwilltravel.com. The havewindwilltravel article was fetched and contains no such claim — it only mentions 'brisk winds and choppy seas.' The specific sea state figures are unsupported."
+      },
+      {
+        "key": "refit.known_issues (prop shaft angle 7-40 degrees)",
+        "reason": "The specific claim of '7-40 degrees down' shaft angle is physically nonsensical as a range for a single design. No fetched source confirmed this number. The cruisersforum.com source returned HTTP 403. The shaft angle characteristic is a real issue but the specific degree range is unverified and the format suggests a data-entry error or fabrication."
+      },
+      {
+        "key": "parts.availability (fybmarine.shop)",
+        "reason": "The URL https://fybmarine.shop/yammer-4jh80-fresh-water-genuine-service-and-spare-parts returns HTTP 404. The page does not exist. Additionally, 'Yammer' is a persistent misspelling of 'Yanmar' throughout the original record, undermining confidence in these citations."
+      }
+    ],
+    "fabrication_flags": [
+      "tropical.ventilation: Precise counts (4 dorades, 1 solar vent, 10 ports, 8 hatches) found in no verified source; appears generated.",
+      "ergonomics.transom: '32-inch-wide opening' not present in the cited outboundyachts.com cockpit page, which contains no measurements.",
+      "ergonomics.mob_recovery: '30-inch lifelines' (taller-than-average) not present in any cited source; appears generated.",
+      "heavy_weather.storm_report: '40-knot winds and 15-foot seas' attributed to havewindwilltravel.com, which was fetched and contains no such claim.",
+      "stability.stix: 'STIX minimum 38 for Category A' not supported by sailboat-cruising.com source, which gives no minimum threshold.",
+      "refit.known_issues: 'Port shaft angle (7-40 degrees down)' is an implausible range for a single hull design; appears to be a hallucinated or garbled figure.",
+      "tropical.watermaker: '40 gal/hr' figure contradicted by documented listing showing Spectra Catalina 300 (12.5 gal/hr); may be confused with a different model.",
+      "parts.availability: fybmarine.shop URL returns HTTP 404; page does not exist. 'Yammer' misspelling for 'Yanmar' is consistent and systematic throughout the record, suggesting the source material was generated rather than transcribed.",
+      "self_steering.autopilot / windvane_option: 'Raymarine Evo' pairing with Outbound 46 not found in any source; cited BWsailing article references Outbound 44, not 46."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially reliable with significant fabrication risk. Core structural facts (ballast weight/type, displacement, LOA/beam, watertight bulkhead location, battery bank composition, mast step drainage issue, rudder moisture, cockpit locker flooding risk) are confirmed by credible sources. However, roughly one-third of specific numerical claims — including ventilation counts, transom width, lifeline height, watermaker flow rate, windvane pairing, storm conditions, STIX threshold, and the prop shaft angle range — are either directly contradicted by the fetched sources or absent from them entirely, and bear hallmarks of AI fabrication (too-precise numbers with no source trail, URLs that 404, systematic misspelling of 'Yanmar' as 'Yammer'). The CE Category A claim is plausible but unconfirmed and the Beaufort/wave thresholds are misquoted. Refit cost ranges are in the right ballpark but the low ends are below what sources actually state. Overall confidence reduced from 0.78 to 0.52 to reflect the volume of unsupported specifics."
+  },
+  "scores": {
+    "id": "outbound-46-bluewater-research",
+    "cold_score": {
+      "value": 42,
+      "confidence": 0.75,
+      "rationale": "Scored over sourced inputs only; insulation (15 pts) and cold tankage (10 pts) are undocumented and excluded from the denominator, leaving 75 sourced points. Earned: heating partial (Isotemp domestic hot-water heater confirmed at 0.55 confidence, but no factory cabin space heater — awarded 30% of 25 = 7.5 pts); inside/sheltered helm confirmed absent at 0.82 (0 pts); keel-stepped mast confirmed at 0.72 (7.2 pts); watertight crash bulkhead confirmed at 0.88 (8.8 pts); hard cockpit shelter (hard dodger) confirmed at 0.82 (8.2 pts). Total earned 31.7 / 75 sourced = 42.3, rounded to 42. Confidence = sourced weight coverage 75/100 = 0.75.",
+      "basis": "heating: Isotemp hot-water heater (Swiftsure listing); inside helm: absent (outboundyachts.com); keel-stepped mast: Cruising World review; watertight bulkhead: Cruising World review; hard dodger: BWsailing review"
+    },
+    "tropic_score": {
+      "value": 51,
+      "confidence": 0.8,
+      "rationale": "SA/D ratio not computable from verified facts (sail area cited 1,083-1,151 sq ft but displacement absent from cleaned_facts), so its 20-point weight is excluded from the denominator, leaving 80 sourced points. Earned: ventilation (opening SS ports and hatches confirmed, but counts were fabricated and removed — awarded 55% x 20 = 11 pts at 0.55 confidence); shade (hard dodger confirmed, canvas awning undocumented — 60% x 15 = 9 pts at 0.60); refrigeration (dual fridge/icebox confirmed, optional mechanical refrigeration at 0.60 — 60% x 15 = 9 pts); watermaker (not factory standard; one owner-fitted Spectra Catalina 300 on one listing — awarded 15% x 15 = 2.25 pts, very low partial); airflow (passive cross-ventilation via raised salon and port/hatch placement at 0.65 — 65% x 15 = 9.75 pts). Total earned 41 / 80 sourced = 51.25, rounded to 51. Confidence = 80/100 sourced coverage = 0.80.",
+      "basis": "ventilation: BWsailing review; shade: BWsailing review; refrigeration: Swiftsure Yachts listing; watermaker: Swiftsure listing (owner-fit only); airflow: BWsailing review"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "Neither AVS nor CE category is confirmed in verified sources. AVS was explicitly noted as 'not publicly documented' (confidence 0.2, from a generic design-categories page that does not reference the Outbound 46). CE Category A was removed from verified facts entirely because no fetched source confirmed it and the cited wave/Beaufort thresholds were misquoted. Per rubric: neither AVS nor CE confirmed → value 0, basis 'not published', confidence 0. The encapsulated 10,000 lb bulb keel and watertight crash bulkhead are encouraging structural indicators, but they cannot substitute for a published AVS or CE certification under this rubric.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 61450,
+      "total_high_usd": 196100,
+      "assumptions": "Assumes a median-age example of approximately 14 years (circa 2012 build, purchased 2026). Engine repower excluded: the Yanmar 4JH80 at 14 years is unlikely to require full repower unless high-hours; routine major service is captured under known-issues and owner maintenance budgets. Watermaker included at full new-unit cost because it is not factory standard (verified: absent from spec, one listing shows owner-fitted Spectra Catalina 300). Diesel cabin heater included at full install cost because it is confirmed optional, not factory standard (Isotemp hot-water heater is standard but provides only domestic hot water, not cabin space heating). Ranges are our estimates; low end assumes good survey condition with selective renewal; high end assumes comprehensive offshore-preparation standard with labor at US Pacific/Atlantic coastal rates. Rudder moisture repair not included as a line item because it is confirmed on 'some' vessels but not all; a pre-purchase survey should determine whether it applies.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 8000,
+          "high": 30000,
+          "note": "At or near the 10-15 year inspection/replacement interval for a 14-year-old vessel. Stainless wire with swaged terminals; offshore cruising standard per Cruising World sourced interval."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10 year service interval; likely at or past first replacement cycle on a 14-year boat. Halyards, sheets, control lines."
+        },
+        {
+          "system": "Sails",
+          "low": 15000,
+          "high": 45000,
+          "note": "8-12 year service life; at 14 years the original suit is likely past useful offshore life. Outbound 46 sail area 1,083-1,151 sq ft (verified); full cruising suit replacement."
+        },
+        {
+          "system": "Electronics (nav, comms, AIS, instruments)",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15 year replacement cycle; 14-year electronics likely obsolete or failed. Includes chartplotter, AIS, VHF/SSB, autopilot head unit, instruments."
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10 year cycle; battery bank (1x Group 27 + 3x 8D verified) well past service life at 14 years. Includes bank replacement and solar panel installation/expansion for offshore electrical autonomy."
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3000,
+          "high": 10000,
+          "note": "Standard bluewater preparation; anchor(s), chain, windlass service or replacement."
+        },
+        {
+          "system": "Seacocks and Thru-Hulls",
+          "low": 3000,
+          "high": 9000,
+          "note": "25-year service life; at 14 years a 2012 boat is approaching mid-life — inspect and replace any stiff or corroded units as part of offshore preparation. Includes backing plates."
+        },
+        {
+          "system": "Liferaft, EPIRB, Safety Gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "Hydrostatic releases, EPIRB registration, liferaft service or replacement on interval. Mandatory for bluewater passage."
+        },
+        {
+          "system": "Canvas (dodger, bimini, sail covers, cockpit cushions)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15 year canvas life; hard dodger is factory-fitted but soft enclosure, bimini, sail covers, and upholstery likely need renewal on a 14-year boat."
+        },
+        {
+          "system": "Watermaker (if absent — not factory standard)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Watermaker is NOT factory standard on the Outbound 46 (verified fact). One documented listing shows a Spectra Catalina 300 as owner-fitted aftermarket. Budget for full new unit plus installation if purchasing a boat without one."
+        },
+        {
+          "system": "Known Issues: Port Light Sealant, Mast Step Drainage, Cockpit Locker Gasket",
+          "low": 950,
+          "high": 2600,
+          "note": "Three Outbound 46-specific issues confirmed in verified sources: port light sealant failures on early models ($400-1,200), mast step drainage attention required ($300-800), cockpit locker gasket to prevent bilge flooding ($250-600). Cumulative low/high shown."
+        },
+        {
+          "system": "Diesel Cabin Heater (cold cruising — not factory standard)",
+          "low": 2500,
+          "high": 4500,
+          "note": "Confirmed optional, not factory standard. Isotemp domestic hot-water heater is standard but provides no cabin space heating. A 4-5 kW diesel cabin heater (e.g., Webasto, Espar) with install is required for cold-water passage readiness."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Watermaker — budget for full unit if absent",
+        "category": "systems-gap",
+        "why": "Watermaker is verified absent from factory specification. The sole documented example (Spectra Catalina 300, 12.5 gal/hr) was owner-fitted aftermarket. A bluewater passage boat without a watermaker requires provisioning 1-2 gal/person/day for all offshore legs; for a 46-footer with crew of two on a 3,000 nm passage that is 180-360 gal minimum tankage. Verify whether the specific vessel has a unit installed before departure."
+      },
+      {
+        "item": "Diesel cabin heater — install before high-latitude passage",
+        "category": "cold-weather-gap",
+        "why": "Factory standard is an Isotemp domestic hot-water heater only (verified, 0.55 confidence). No diesel space heater is factory-fitted. Cold-water passages (North Atlantic, Pacific Northwest, Southern Ocean approaches) require active cabin heating. Budget $2,500-$4,500 for a 4-5 kW Webasto or Espar unit with installation."
+      },
+      {
+        "item": "Inner forestay / storm sail capability — verify or add",
+        "category": "heavy-weather-prep",
+        "why": "Verified fact: the Outbound 46 is a Solent rig, not a traditional cutter; no fixed inner forestay is standard. Storm jib deployment requires either an existing removable inner forestay provision or aftermarket addition. Confirm hardware before any offshore passage."
+      },
+      {
+        "item": "Mast step drainage — inspect and remediate before departure",
+        "category": "structural-maintenance",
+        "why": "Verified in spinsheet.com review (0.72 confidence): mast step drainage requires ongoing attention. Standing water at the mast step can cause osmotic damage to the step laminate and accelerate structural degradation over time. Remediate with epoxy fairing and drainage improvement before a long passage."
+      },
+      {
+        "item": "Cockpit locker gasket — replace before offshore use",
+        "category": "structural-maintenance",
+        "why": "Verified in Cruising World review: the port cockpit seat locker opening exposes the bilge to flooding risk in heavy weather. A proper compression gasket (not simple guttering) is required for offshore safety. Low-cost item ($250-600) but high consequence if ignored in breaking-wave conditions."
+      },
+      {
+        "item": "Rudder moisture survey — commission pre-purchase ultrasound",
+        "category": "pre-purchase",
+        "why": "Verified in refit.known_issues (0.72 confidence): rudder interior moisture was detected on surveyed vessels including a two-year-old example, described as 'surprising.' An ultrasonic moisture survey of the rudder should be part of any pre-purchase survey; repair costs range from minor ($500-1,500 seal/drain) to significant ($3,000-8,000 delamination repair) depending on extent."
+      },
+      {
+        "item": "Battery bank amp-hour verification — do not assume capacity",
+        "category": "electrical-systems",
+        "why": "Verified fact (0.65 confidence): factory bank is 1x Group 27 + 3x 8D batteries. Amp-hour total is not documented. Three 8D batteries yield approximately 750-900 Ah at 12V; Group 27 adds ~100 Ah. However, actual state-of-health after years of service is unknown. Load-test the bank before departure and budget for full replacement ($5,000-$20,000 including solar) if more than 6-8 years old."
+      },
+      {
+        "item": "Prop shaft pull under power — plan for close-quarters maneuvering",
+        "category": "handling-characteristic",
+        "why": "Verified known issue (0.72 confidence): characteristic pulling under power caused by shaft angle has been noted since hull #1. This is relevant for marina entry/exit, tight anchorages, and MOB maneuvers under power. Factor this into single-handed handling plans; consider bow thruster if not already fitted."
+      }
+    ]
+  }
+}

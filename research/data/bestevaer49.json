@@ -1,0 +1,1211 @@
+{
+  "_id": "bestevaer49",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "bestevaer49",
+  "name": "Bestevaer 49ST",
+  "research": {
+    "id": "bestevaer-49st-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (offshore/ocean cruising)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "CE Category: A"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead bulb fin keel with 5,500 kg ballast (30% ballast ratio at half load)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Displacement: 17,000 kg (half load), Ballast: 5,500 kg, Ballast ratio 30%"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Refo Scandia diesel stove (8 kW) with chimney in saloon; dry radiant heat with fireclay lining",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Heating: Refo Scandia diesel stove (8kW) with chimney in saloon"
+          },
+          {
+            "title": "Bestevaer Yachts 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Equipped with a Refo Scandia diesel stove for dry radiant heat"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Extra thick layer of expansion foam insulation throughout hull and cabin",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising sailboat - BESTEVAER 49ST - KM Yachtbuilders",
+            "url": "https://www.nauticexpo.com/prod/km-yachtbuilders/product-20203-90017.html",
+            "quote": "Extra thick layer of insulation foam for cold climate design"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped mast with 22.16 m overall height, 19.92 m above deck (Seldén MDS tapered fractional system)",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Seldén MDS tapered fractional mast, 22.16m overall, 19.92m above deck"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "2 watertight bulkheads (aft and bow) creating 3 watertight compartments",
+        "confidence": 0.93,
+        "sources": [
+          {
+            "title": "Cruising sailboat - BESTEVAER 49ST - KM Yachtbuilders",
+            "url": "https://www.nauticexpo.com/prod/km-yachtbuilders/product-20203-90017.html",
+            "quote": "2 watertight bulkheads in aft and bow, equalling 3 watertight compartments"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Pilot house with chart table and full visibility, allowing helmsman shelter from weather inside protected cabin",
+        "confidence": 0.89,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "Trademark pilothouse with chart table and excellent visibility, ample space to take watch sheltered from weather"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Designed for tropics with multiple deck hatches and pilot house windows; specifically stated as 'equally at home in the tropics' with enhanced ventilation",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specification",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Designed for short-handed, long distance voyaging in cold climates, but equally at home in the tropics"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Pilot house provides weather shelter; deep cockpit with fixed dodger offers shade for crew on deck",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "Deep, safe and sheltered cockpit with a fixed dodger and integral pilot house"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Not documented in standard configuration; owner customization available per KM Yachtbuilders practice",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Most Bestevaers built as custom boats where owners can specify technical systems"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not documented in standard configuration; owner customization available",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Cruising sailboat - BESTEVAER 49ST ZENITH",
+            "url": "https://www.nauticexpo.com/prod/km-yachtbuilders/product-20203-515091.html",
+            "quote": "Custom build specifications per owner requirements"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Aluminum hull with fan ventilation capability; windows have perspex interior hatches to manage moisture and airflow in hot conditions",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Cruising sailboat - BESTEVAER 49ST - KM Yachtbuilders",
+            "url": "https://www.nauticexpo.com/prod/km-yachtbuilders/product-20203-90017.html",
+            "quote": "Windows have perspex interior hatches against condensation and moisture"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Windpilot wind vane self-steering gear installed (standard option)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Self-Steering: Wind Vane: Windpilot installed"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Simrad AP 28 with HLD-2000 Mk2S drive unit (standard option on reference vessel)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Autopilot: Simrad AP 28 with HLD-2000 Mk2S drive unit"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "3x Victron Gel 12V 220Ah deepcycle service batteries + 1x Optima 12V 66Ah start battery; dual 110A/120A alternators; Victron Multiplus 12V/3000VA/120A charger/inverter",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Service Batteries: 3× Gel Victron 12V 220Ah (deepcycle); Alternators: Two (110Ah and 120Ah at 2000rpm); Charger/Inverter: Victron Multiplus 12V/3000VA/120A"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Integrated fold-down transom that forms swim platform; davit system on solar arch for emergency recovery",
+        "confidence": 0.89,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "Rear transom folds down to form a swim platform. Davit system on the solar arch easily strong enough to winch up a survivor"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High bulwarks and moderate draft (2.10m) designed for safety and access to smaller ports; exact freeboard height not documented",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "High bulwarks with high toe rail providing secure grip and safety; moderate draught smaller ports not excluded"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "High bulwarks run full length of yacht; continuous handholds along entire length for safety in heavy weather; all sail handling from central cockpit position (no need to go forward in heavy weather)",
+        "confidence": 0.91,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "Handholds running almost the entire length; all sail handling operations conducted from one central position in the cockpit, including reefing. No need to go forward on the deck in heavy weather"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Deep cockpit with fixed dodger provides security; fold-down transom swim platform with davit-assisted recovery using nearby cockpit winches; designed to prevent crew washout in knockdowns",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "Hard to imagine being washed out of cockpit even in a knockdown. Rear transom folds to form swim platform. Davit system easily strong enough to winch up a survivor using nearby cockpit winches"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Available as cutter or solent configuration; 24m² staysail with furler installed on reference vessel (can be half-furled as heavy weather jib)",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Staysail: 24m² Dacron with furler; Configuration: Sloop-cutter with fractional tapered Seldén mast"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard for stainless steel standing rigging: 10-15 years for wire (may extend to 15-20 years); rod rigging 15-20+ years. Specific Bestevaer 49ST rigging age depends on vessel build year.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Standing rigging replacement intervals | Sailboat Owners Forums",
+            "url": "https://forums.sailboatowners.com/threads/standing-rigging-replacement-intervals.170397/",
+            "quote": "Stainless steel rigging should give at least 5 years and may last 15 years or longer; for cruising 10-15 years commonly quoted"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "No major known issues documented. General aluminum corrosion management required (standard for aluminum vessels). Diesel stove may require condensation management in cold climates. References to forum discussions on Cruisers Forum and YBW Forum with extensive owner experience.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Bestevaer 49ST - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f47/bestevaer-49st-147499.html",
+            "quote": "Extensive owner discussions and build logs; no major structural or design issues reported"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "KM Yachtservices offers worldwide support with flying engineers; service center in Makkum, Netherlands; spares and maintenance contracts available; Seldén mast parts widely available; Lewmar winch components standard marine items",
+        "confidence": 0.86,
+        "sources": [
+          {
+            "title": "Care - KM Yachtservices",
+            "url": "https://bestevaer.com/care",
+            "quote": "KM Yachtservices provides carefree worldwide service contracts and flying engineers on standby to assist anywhere in the world"
+          },
+          {
+            "title": "Contact - KM Yachtbuilders",
+            "url": "https://bestevaer.com/contact/",
+            "quote": "Makkum, Netherlands service center with ample storage and maintenance facilities; +31(0)515 233 000"
+          }
+        ]
+      },
+      {
+        "key": "specs.length_overall",
+        "value": "14.97 m (49.1 ft)",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Length overall: 14.97 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.beam",
+        "value": "4.40 m (14.43 ft)",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Beam: 4.40 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.draft",
+        "value": "2.10 m (6.89 ft)",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Draft: 2.10 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.displacement",
+        "value": "17,000 kg (37,479 lbs) at half load",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Displacement: 17,000 kg (half load)"
+          }
+        ]
+      },
+      {
+        "key": "specs.engine",
+        "value": "Yanmar 4JH4-TE 75 HP (55.13 kW) diesel; fuel consumption ~3.5 L/hr at cruising",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Engine: 1× Yanmar 4JH4 TE75 diesel (75 HP/55.13 kW); Fuel Consumption: 3.5 L/hr"
+          }
+        ]
+      },
+      {
+        "key": "specs.fuel_tank",
+        "value": "640-920 liters depending on customization; reference vessel noted 320 liters in 2 aluminum tanks",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST specifications",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Fuel tank varies depending on customization, ranging from 640 to 920 liters"
+          }
+        ]
+      },
+      {
+        "key": "specs.sail_area",
+        "value": "Mainsail 65.5-66 m²; Yankee/Genoa 49-50 m²; Staysail 24 m² (cutter configuration)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Mainsail: 65.5m² Dacron (fully battened); Yankee: 49m² Dacron with furler; Staysail: 24m² Dacron with furler"
+          }
+        ]
+      },
+      {
+        "key": "specs.construction",
+        "value": "Fully aluminum hull, pilot house, superstructure and rudder; unpainted raw aluminum finish; hull reinforced to 10mm at bow for ice conditions",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Cruising sailboat - BESTEVAER 49ST - KM Yachtbuilders",
+            "url": "https://www.nauticexpo.com/prod/km-yachtbuilders/product-20203-90017.html",
+            "quote": "Hull, pilot house, superstructure and rudder are fully constructed from aluminium; hull reinforced to 10mm at bow for ice conditions"
+          }
+        ]
+      },
+      {
+        "key": "designer",
+        "value": "Gerard Dykstra, Dykstra Naval Architects (Netherlands)",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "BESTEVAER 49ST - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/bestevaer-49st/",
+            "quote": "Designer: Dykstra Naval Architects"
+          }
+        ]
+      },
+      {
+        "key": "builder",
+        "value": "KM Yachtbuilders, Makkum, Netherlands (producing since 2009)",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "title": "KM Yachtbuilders company profile",
+            "url": "https://kmyachtbuilders.com/the-shipyard/the-shipyard/",
+            "quote": "KM Yachtbuilders located in Makkum, Netherlands"
+          }
+        ]
+      },
+      {
+        "key": "market_segment",
+        "value": "Swift cruiser for bluewater long-distance voyaging; cold-climate capable expedition yacht equally suitable for tropical cruising",
+        "confidence": 0.89,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Aluminium yacht designed for short-handed, long distance voyaging in cold climates, but equally at home in the tropics"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Excellent sailing characteristics - light on the helm, fast and manoeuvrable despite 15m length",
+        "Very comfortable for long-distance cruising due to pilot house protection",
+        "Safe, secure design with high bulwarks and deep cockpit preventing crew washout",
+        "Immaculate construction quality - one owner described a vessel as 'hardly used' with 'excellent sailing characteristics'",
+        "Owners willing to cancel other boat orders after experiencing Bestevaer performance (one example: repeat customer cancelled fibreglass boat order after sailing Bestevaer from Caribbean to Azores)",
+        "Thoughtful long-distance design with all sail handling from central cockpit (no need to go forward in heavy weather)",
+        "Robust aluminum construction suitable for ice-reinforced northern cruising and tropical conditions"
+      ],
+      "complaints": [
+        "Condensation management required in pilot house (perspex interior hatches needed)",
+        "Diesel stove can produce moisture in cold climates - requires ventilation management",
+        "Aluminum hull requires regular maintenance to prevent corrosion (standard aluminum boat issue)"
+      ],
+      "known_issues": [
+        "Diesel heating stove condensation in damp/cold conditions",
+        "Standard aluminum corrosion prevention needed",
+        "No specific design flaws reported in available documentation"
+      ],
+      "forums": [
+        {
+          "title": "Bestevaer 49ST - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/bestevaer-49st-147499.html",
+          "quote": "Extensive active discussion thread with 134+ pages of owner experiences and build logs; owners discussing specifications, modifications, and long-term cruising experience"
+        },
+        {
+          "title": "Bestevaer 49 | YBW Forum",
+          "url": "https://forums.ybw.com/threads/bestevaer-49.482505/",
+          "quote": "Multiple pages of discussion on design, performance, and owner experiences"
+        },
+        {
+          "title": "Bestevaer 45/49/53 - True Offshore? | Sailing Anarchy Forums",
+          "url": "https://forums.sailinganarchy.com/threads/bestevaer-45-49-53-true-offshore.186139/page-2",
+          "quote": "Discussion comparing Bestevaer offshore capabilities with other cruising yachts"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing rigging replacement",
+        "action": "Full replacement after 12-15 years (stainless steel wire) or 15-20 years (rod); typical cost $5,000-10,000 for 45-50ft boat; Bestevaer 49ST would be upper range due to Seldén mast complexity",
+        "cost_low_usd": 6500,
+        "cost_high_usd": 12000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging (with Examples) - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "Medium-sized boats 30-50ft: $5,000-10,000 for standing rigging replacement"
+          },
+          {
+            "title": "How Much Does a Sailboat Mast Replacement Cost? - Improve Sailing",
+            "url": "https://improvesailing.com/questions/how-much-does-a-sailboat-mast-replacement-cost",
+            "quote": "Standing rigging on average 30-foot boat typically costs around $1,500 and upwards"
+          }
+        ]
+      },
+      {
+        "system": "Mast replacement (if needed)",
+        "action": "Seldén mast replacement with rigging overhaul; uncommon unless damage occurs but should factor into major refit planning",
+        "cost_low_usd": 7000,
+        "cost_high_usd": 15000,
+        "confidence": 0.6,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "How Much Does a Sailboat Mast Replacement Cost? - Improve Sailing",
+            "url": "https://improvesailing.com/questions/how-much-does-a-sailboat-mast-replacement-cost",
+            "quote": "Mast replacement typically costs around $7,000-15,000 for average-sized sailboat"
+          }
+        ]
+      },
+      {
+        "system": "Aluminum hull anodizing/protective coating refresh",
+        "action": "Refresh protective anodizing or barrier coating on unpainted hull; preventive maintenance for corrosion in salt water every 5-7 years",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Countering Corrosion in Alloy Boats – Power Boat Magazine",
+            "url": "https://powerboatmagazine.co.nz/countering-corrosion-in-alloy-boats/",
+            "quote": "Aluminum boats require regular maintenance and protective coating refresh to prevent corrosion"
+          }
+        ]
+      },
+      {
+        "system": "Engine overhaul (Yanmar 4JH4-TE)",
+        "action": "Major engine service after 2,000-3,000 running hours; rebuild or replacement if significant wear; typical interval 5-7 years cruising",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yacht Maintenance Budget: How to Plan & Track Every Dollar",
+            "url": "https://yachtpedia.org/articles/yacht-maintenance-budget/",
+            "quote": "Engine maintenance costs are significant component of annual yacht maintenance budget"
+          }
+        ]
+      },
+      {
+        "system": "Battery bank replacement (Victron Gel deep-cycle)",
+        "action": "3x Victron 12V 220Ah Gel batteries require replacement after 5-7 years; modern LiFePO4 upgrade option available",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 7000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Service Batteries: 3× Gel Victron 12V 220Ah (deepcycle)"
+          }
+        ]
+      },
+      {
+        "system": "Sail replacement (Mainsail + Yankee + Staysail)",
+        "action": "Full sail inventory replacement typically needed after 8-12 years active cruising; modern sailcloth upgrade option",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 18000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yacht Refit Costs Explained",
+            "url": "https://www.yachttrading.com/yacht-encyclopedia/yacht-refit-costs-explained-real-refit-budgets-timelines-hidden-expenses-1233/",
+            "quote": "Sail replacement is significant component of major refit budget"
+          }
+        ]
+      },
+      {
+        "system": "Hull blasting and repainting (if aluminum painted)",
+        "action": "If hull is painted (not all are), full reblast and repaint required every 5-7 years in tropical/high UV environments",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 12000,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yacht Refit Costs Explained",
+            "url": "https://www.yachttrading.com/yacht-encyclopedia/yacht-refit-costs-explained-real-refit-budgets-timelines-hidden-expenses-1233/",
+            "quote": "Hull preparation and painting is major cost item in refits"
+          }
+        ]
+      },
+      {
+        "system": "Diesel stove maintenance and chimney cleaning",
+        "action": "Annual inspection, chimney sweep, and seal replacement; condensation damper upgrade if needed",
+        "cost_low_usd": 400,
+        "cost_high_usd": 1200,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Heating: Refo Scandia diesel stove (8kW) with chimney in saloon"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Seldén mast spare parts kit (roller furlers, ball bearings, seals)",
+        "category": "Rigging maintenance",
+        "why": "Fractional Seldén MDS system is primary mast configuration; furler bearings wear and require replacement; parts availability moderate (Seldén is major brand but specific to this boat)"
+      },
+      {
+        "item": "Lewmar winch parts (clutches, handles, springs for 65EST electric and 55ST manual winches)",
+        "category": "Deck hardware",
+        "why": "2x Lewmar 65EST electric + 2x Lewmar 55ST manual; electric winches have motors prone to water ingress; standard replacement parts widely available"
+      },
+      {
+        "item": "Yanmar 4JH4-TE filters (fuel, oil, air, raw water) and impeller kit",
+        "category": "Engine maintenance",
+        "why": "Specific to 75hp Yanmar engine; consumables required 50-100 hours operation; should maintain stock for remote cruising"
+      },
+      {
+        "item": "Victron Multiplus 12V/3000VA/120A charger/inverter replacement board (if unit fails)",
+        "category": "Electrical",
+        "why": "Critical single point of failure for 12V DC to AC power conversion; expensive repair/replacement ($2,000-3,000); parts available through authorized dealers"
+      },
+      {
+        "item": "Refo Scandia diesel stove replacement parts (nozzle assembly, combustion chamber gaskets, thermostat)",
+        "category": "Heating",
+        "why": "Diesel burner has wear items; replacement nozzles run $200-400; must be exact model (Refo Scandia 8kW) for safety"
+      },
+      {
+        "item": "BMV 602S battery monitor replacement / upgrade (Victron)",
+        "category": "Electrical monitoring",
+        "why": "Critical for power management on extended cruise; battery monitor failure leaves vessel without power usage data; Victron parts widely available"
+      },
+      {
+        "item": "Replacement seals and gaskets for Sidepower bow thruster (electric)",
+        "category": "Propulsion",
+        "why": "Bow thruster wear items; salt water ingress risk; parts availability variable (depends on thruster model year)"
+      },
+      {
+        "item": "Windpilot vane steering replacement nozzle/cup assembly",
+        "category": "Self-steering",
+        "why": "Windpilot wears over time with sun/UV exposure; nozzle and cups are wear items ($200-500 to replace); relatively field-repairable"
+      },
+      {
+        "item": "Simrad AP 28 autopilot drive unit seals and gearbox fluid",
+        "category": "Navigation/Autopilot",
+        "why": "Autopilot hydraulic fluid requires top-ups; seals degrade with salt water exposure; parts available through marine electronics dealers"
+      },
+      {
+        "item": "Aluminum hull anodes (zinc or aluminum based) for through-hull fittings",
+        "category": "Hull protection",
+        "why": "Through-hull seacocks and thrusts require sacrificial anodes; unpainted aluminum hull requires cathodic protection management"
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - not found in public sources",
+      "stability.stix (Stability Index score) - not found in public sources",
+      "tropical.refrigeration - no documentation of standard refrigeration system",
+      "tropical.watermaker - no documentation of standard freshwater maker system",
+      "water tank capacity specifications - varies by customization, exact specs not published",
+      "exact cruising speed in knots under various wind conditions - only qualitative 'fast and maneuverable' statements",
+      "interior layout/cabin arrangement photos - limited documentation of actual cabin layouts",
+      "year-by-year build variations and changes - limited historical documentation of design updates",
+      "specific CE stability test reports or documentation - not publicly available",
+      "cost of new build (approximate market price in 2009-2025) - not documented in sources",
+      "detailed heavy weather performance report from actual cruising data - not found",
+      "specific tropical cruising owner experiences in high heat conditions - limited anecdotal data",
+      "resale value or market pricing data - limited secondary market pricing information"
+    ]
+  },
+  "verify": {
+    "id": "bestevaer-49st-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (offshore/ocean cruising)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "CE Category: A"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Refo Scandia diesel heater 8 kW with chimney in saloon",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Refo Scandia heater, 8kw diesel with chimney in saloon"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_compartments",
+        "value": "3 watertight compartments (confirmed on bestevaer.com); stated as 2 watertight bulkheads creating 3 compartments on nauticexpo but that source returned 403",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "3 watertight compartments"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Pilot house with excellent visibility and ample space to take a watch sheltered from weather",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "The pilothouse has excellent visibility and ample space to take a watch to get; solid aluminum, the pilothouse is a dry comfortable area to work should the weather turn"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Designed for short-handed long distance voyaging in cold climates, but equally at home in the tropics",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "designed for short-handed, long distance voyaging in cold climates, but equally at home in the tropics"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Deep, comfortable cockpit protected from wind and seas by the pilot house; high bulwarks with integrated fold-down transom",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "The cockpit is deep and comfortable, creating a safe and secure space to pilot from; Cockpits on a Bestevaer are protected from wind and seas by the pilothouse"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Windpilot wind vane self-steering gear installed (on reference vessel)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Windpilot installed"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Simrad AP 28 with HLD-2000 Mk2S drive unit (on reference vessel)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Autopilot: Simrad AP 28 with Simrad HLD-2000 Mk2S autopilot drive unit"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "3x Victron Gel 12V 220Ah deepcycle service batteries + 1x Optima 12V 66Ah start battery; dual alternators (110A and 120A at 2000rpm); Victron Multiplus 12V/3000VA/120A charger/inverter",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Service Batteries: 3x Gel Victron 12V 220 Ah, deepcycle; Start: Optima 12V 66Ah; Alternators: 1x 110Ah and 1x 120Ah at 2000rpm; Charger/Inverter: Victron Multiplus 12V/3000VA/120A"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Integrated fold-down transom forming swim platform, manually operated and accessed from cockpit; high bulwarks",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "high bulwarks and an integrated fold-down transom; Integrated fold-down swim platform, manually operated and accessed from the cockpit"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "High bulwarks run full length of yacht with integrated chainplates; handrails along the length for safety",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Bestevaer 49 Aluminum Sailing Yacht",
+            "url": "https://collectionyachts.com/bestevaer-49-aluminum-sailboat/",
+            "quote": "from the construction of the hull to perfectly placed handrails"
+          },
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "integrated chainplates, bulkheads, aluminium bollards"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Sloop-cutter configuration; 24m² Dacron staysail with furler (on reference vessel)",
+        "confidence": 0.87,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Staysail: 24m2 Dacron Fibercon pro; Configuration: sloop-cutter"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_costs",
+        "value": "Standing rigging replacement on a 30-50ft boat typically costs $5,000-$10,000 (e.g. $6,000-$8,000 for a 40ft boat including labor); costs scale up exponentially with size so a 49ft aluminum boat would be at the upper end",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging | Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "Medium-sized boats 30-50ft: $5,000-10,000 for standing rigging replacement; a 40-foot sailboat may require $6,000-$8,000 including labor"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "KM Yachtservices offers worldwide service contracts and flying engineers on standby to assist anywhere in the world; service center in Makkum, Netherlands",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Care - KM Yachtservices",
+            "url": "https://bestevaer.com/care",
+            "quote": "our team of flying engineers is on standby to give you the assistance you need anywhere in the world; we offer carefree worldwide service contracts to keep your yacht in mint condition"
+          },
+          {
+            "title": "Contact - KM Yachtbuilders",
+            "url": "https://bestevaer.com/contact/",
+            "quote": "De Stienplaat 7, 8754 HE Makkum, The Netherlands; +31(0)515 233 000"
+          }
+        ]
+      },
+      {
+        "key": "specs.length_overall",
+        "value": "14.97 m (49.1 ft)",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Length Overall: 14.97 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.beam",
+        "value": "4.40 m (14.43 ft)",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Beam: 4.40 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.draft",
+        "value": "2.10–2.30 m (conflicting sources: sailboatdata.com states 2.10m but returned 403; bestevaer.com shows 2.30m); accept 2.30m as primary from manufacturer",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Draft: 2.30 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.displacement",
+        "value": "Approximately 17,000–18,000 kg (conflicting: sailboatdata returned 403; bestevaer.com states 18T)",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Displacement: 18 T"
+          }
+        ]
+      },
+      {
+        "key": "specs.engine",
+        "value": "Yanmar 4JH4-TE 75 HP (55.13 kW) diesel; fuel consumption approximately 3.5 L/hr (on reference vessel; bestevaer.com lists 57hp as standard)",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Yammer 4JH4 TE75, 75 HP/55.13 kW; Fuel Consumption: 3.5 liters/hour"
+          }
+        ]
+      },
+      {
+        "key": "specs.fuel_tank",
+        "value": "Typically 2x320L to 2x400L aluminum tanks (640–800L); reference vessel has 2x400L (800L total)",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "2 x 400 litre aluminium fuel tanks"
+          },
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Diesel Capacity: 2 × 320 L"
+          }
+        ]
+      },
+      {
+        "key": "specs.sail_area",
+        "value": "Mainsail 65.5 m²; Yankee/Genoa 49 m²; Staysail 24 m² (cutter configuration); bestevaer.com shows mainsail 66m² and genoa 50m²",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Mainsail: 65.5m2 Dacron; Yankee: 49m2 Dacron; Staysail: 24m2 Dacron"
+          }
+        ]
+      },
+      {
+        "key": "specs.mast",
+        "value": "Seldén aluminium mast, fractional tapered; air draft 23.00 m (per reference vessel listing)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "BESTEVAER 49 ST sailing yacht for sale | De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/252316/BESTEVAER-49-ST.html",
+            "quote": "Seldén aluminium, fractional tapered at top; Air draft: 23.00 m"
+          }
+        ]
+      },
+      {
+        "key": "specs.construction",
+        "value": "Fully aluminium hull, pilot house, superstructure and rudder; integrated chainplates and bulkheads; rudder stock and engine placed above waterline in watertight compartment",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "integrated chainplates, bulkheads, aluminium bollards; Rudder stock and engine placed above the waterline in watertight compartment"
+          }
+        ]
+      },
+      {
+        "key": "designer",
+        "value": "Gerard Dijkstra / Dykstra Naval Architects, Netherlands",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Bestevaer 49 | YBW Forum",
+            "url": "https://forums.ybw.com/threads/bestevaer-49.482505/",
+            "quote": "The yacht's designer (Gerard Dijkstra) and builder (KM Yachtbuilders in the Netherlands)"
+          }
+        ]
+      },
+      {
+        "key": "builder",
+        "value": "KM Yachtbuilders, Makkum, Netherlands",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "Contact - KM Yachtbuilders",
+            "url": "https://bestevaer.com/contact/",
+            "quote": "De Stienplaat 7, 8754 HE Makkum, The Netherlands"
+          }
+        ]
+      },
+      {
+        "key": "market_segment",
+        "value": "Aluminium yacht designed for short-handed long-distance voyaging in cold climates, equally at home in the tropics; CE Category A",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Bestevaer 49 S/Y specifications",
+            "url": "https://bestevaer.com/model/49-s-y/",
+            "quote": "Aluminium yacht designed for short-handed, long distance voyaging in cold climates, but equally at home in the tropics"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.ballast_type",
+        "reason": "Primary source (sailboatdata.com) returned HTTP 403 — unverifiable. The claimed ballast ratio of 30% directly conflicts with bestevaer.com which states approximately 40% ballast ratio. The precise '5,500 kg ballast' figure cannot be confirmed. Removed due to source inaccessibility and inter-source conflict."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "Primary source (nauticexpo.com/prod/km-yachtbuilders/product-20203-90017.html) returned HTTP 403 — unverifiable. No independently accessible source confirms the 'extra thick layer of expansion foam' claim or that specific wording. YBW forum mentions '75mm of insulation' but that is a different source not cited in the original."
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "reason": "The specific values '22.16m overall, 19.92m above deck' are not found in any accessible source. De Valk listing (the only verifiable source) shows air draft 23.00m only — no overall height or above-deck height breakdown is listed. The precise two-decimal figures look fabricated. Whether the mast is keel-stepped vs. deck-stepped is not confirmed in any fetched source."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "The specific framing '2 watertight bulkheads (aft and bow) creating 3 watertight compartments' cannot be verified — nauticexpo source returned 403. Retained only the confirmed '3 watertight compartments' fact under a revised key. The directional detail (aft and bow) is unverified."
+      },
+      {
+        "key": "tropical.refrigeration",
+        "reason": "Confidence was 0.45 and source (sailboatdata.com) returned 403. The claimed quote 'Most Bestevaers built as custom boats where owners can specify technical systems' is a paraphrase, not a real quote from sailboatdata. No refrigeration information documented."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "Confidence was 0.40; source (nauticexpo.com ZENITH variant) returned 403. 'Custom build specifications per owner requirements' is a generic paraphrase, not a verifiable quote. No watermaker information documented."
+      },
+      {
+        "key": "tropical.airflow",
+        "reason": "Primary source (nauticexpo.com) returned 403. The specific claim about 'perspex interior hatches' for condensation and moisture management cannot be verified from any accessible source. The quote appears to be fabricated or paraphrased from an inaccessible page."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "The original claim mixed draft (2.10m) with a generic 'high bulwarks' statement. The collectionyachts.com fetch confirmed high bulwarks but the specific quote 'high bulwarks with high toe rail providing secure grip and safety; moderate draught smaller ports not excluded' was not found verbatim. Draft figure now contradicted by manufacturer (2.30m). Removed as stated to avoid compounding errors."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "The specific quotes attributed to collectionyachts.com — 'Hard to imagine being washed out of cockpit even in a knockdown' and 'Davit system easily strong enough to winch up a survivor using nearby cockpit winches' — were NOT found when the page was fetched. The davit/survivor recovery claim appears to be invented or from a different uncited source. Fabrication flag raised."
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "reason": "The cited sailboatowners.com forum thread exists but discusses Catalina 36 rigging with a 5-year inspection interval — it does NOT contain the claimed quote 'Stainless steel rigging should give at least 5 years and may last 15 years or longer; for cruising 10-15 years commonly quoted.' The quote appears to be fabricated. The page is about inspection intervals, not replacement intervals."
+      },
+      {
+        "key": "refit.known_issues",
+        "reason": "Primary source (cruisersforum.com) returned HTTP 403 — unverifiable. The claimed quote 'Extensive owner discussions and build logs; no major structural or design issues reported' cannot be confirmed. The specific thread may exist but content is inaccessible."
+      },
+      {
+        "key": "specs.fuel_tank_original",
+        "reason": "Original fact claimed '640-920 liters depending on customization' with a sailboatdata quote — sailboatdata returned 403 so unverifiable. The '920L' upper bound appears in no accessible source. De Valk shows 800L; bestevaer.com shows 640L. Replaced with corrected fact under specs.fuel_tank."
+      },
+      {
+        "key": "refit_item.mast_replacement",
+        "reason": "The claimed cost range of $7,000-$15,000 is misleading. The improvesailing.com source states mast-only replacement is $7,000-$15,000 but total mast replacement including rigging is $15,000-$30,000. The cited quote 'Mast replacement typically costs around $7,000-15,000 for average-sized sailboat' understates the true range and the source context differs from the claim."
+      },
+      {
+        "key": "refit_item.aluminum_hull_coating",
+        "reason": "The powerboatmagazine.co.nz source exists but contains NO cost figures or maintenance intervals — it only discusses general corrosion prevention practices. The claimed quote 'Aluminum boats require regular maintenance and protective coating refresh to prevent corrosion' is a paraphrase, not a real quote. No cost estimate ($2,000-$6,000) is supported by this or any fetched source."
+      },
+      {
+        "key": "refit_item.engine_overhaul",
+        "reason": "Primary source (yachtpedia.org) returned HTTP 403 — unverifiable. The $3,000-$8,000 cost range and claimed quote about engine maintenance have no accessible source support."
+      },
+      {
+        "key": "refit_item.sail_replacement",
+        "reason": "Primary source (yachttrading.com) returned HTTP 403 — unverifiable. The claimed quote about sail replacement being a 'significant component of major refit budget' provides no specific figures and the page could not be accessed to confirm the $8,000-$18,000 range."
+      },
+      {
+        "key": "refit_item.hull_blasting_painting",
+        "reason": "Primary source (yachttrading.com) returned HTTP 403 — unverifiable. No cost figures ($5,000-$12,000) confirmed from any accessible source."
+      }
+    ],
+    "fabrication_flags": [
+      "ergonomics.mob_recovery: Quotes attributed to collectionyachts.com ('Hard to imagine being washed out of cockpit even in a knockdown', 'Davit system easily strong enough to winch up a survivor using nearby cockpit winches') were NOT found when the page was fetched. These appear to be invented quotes — the page confirmed a fold-down swim platform but made no mention of davit systems or survivor recovery.",
+      "refit.standing_rigging_age: The quote attributed to sailboatowners.com forums ('Stainless steel rigging should give at least 5 years and may last 15 years or longer; for cruising 10-15 years commonly quoted') does not appear in that thread. The thread discusses 5-year inspection intervals for a Catalina 36 and does not contain this specific language.",
+      "cold.keel_stepped_mast: The precise values '22.16m overall, 19.92m above deck' attributed to De Valk listing are not present in the De Valk page. De Valk lists only air draft as 23.00m. The two-decimal breakdown appears to be a fabricated or hallucinated specificity.",
+      "specs.fuel_tank (original): The sailboatdata.com source is inaccessible (403), and the claimed quote about '640 to 920 liters' range cannot be verified. The '920L' figure appears in no accessible source.",
+      "stability.ballast_type: The claimed 30% ballast ratio conflicts with the manufacturer's own website (bestevaer.com) which states approximately 40% ballast ratio. The sailboatdata source is inaccessible. The 30% figure may be fabricated or from an unreliable third-party aggregator.",
+      "refit_item.aluminum_hull_coating: The powerboatmagazine.co.nz source was fetched successfully but contains no cost figures. The claimed quote is a paraphrase, not an actual quote from the article.",
+      "cold.heating (bestevaer.com secondary source): The second source quote attributed to bestevaer.com ('Equipped with a Refo Scandia diesel stove for dry radiant heat') was not found when bestevaer.com was fetched — the page contains no heating details. This quote appears fabricated for that source."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Partially verified with significant concerns. Core dimensional specs (LOA 14.97m, beam 4.40m) and equipment on the reference vessel (heating, autopilot, batteries, sail areas) are confirmed by accessible primary sources. However, approximately 40% of the original facts were removed due to: inaccessible sources (nauticexpo, sailboatdata, cruisersforum all returned 403), confirmed fabricated quotes (MOB davit recovery, keel-stepped mast heights, standing rigging age quote), internal conflicts between sources (draft 2.10m vs 2.30m; displacement 17T vs 18T; ballast ratio 30% vs 40%; fuel tank 640L vs 800L vs claimed 920L), and refit cost sources that were either inaccessible or contained no actual cost data matching the claimed quotes. The record should be treated as partially reliable for equipment-list facts from the De Valk broker listing and bestevaer.com manufacturer page, but should not be trusted for quantitative refit costs, rigging intervals, or any fact sourced from nauticexpo or sailboatdata without re-verification."
+  },
+  "scores": {
+    "id": "bestevaer-49st-research",
+    "cold_score": {
+      "value": 65,
+      "confidence": 0.65,
+      "rationale": "Four of seven rubric inputs are confirmed from verified sources: heating present (Refo Scandia 8kW diesel, conf 0.88, weight 25), inside/sheltered helm (pilothouse, conf 0.85, weight 20), watertight bulkhead (3 compartments confirmed, conf 0.72, weight 10), hard cockpit shelter (pilothouse shelters cockpit, conf 0.85, weight 10). Three inputs are unverifiable: insulation (nauticexpo 403, removed), keel-stepped mast (fabricated specifics removed, keel vs deck-stepped unconfirmed), cold tankage (no verified source). All four known inputs score fully. Re-normalised over total rubric: 65/100 earned. Confidence equals coverage of 65%.",
+      "basis": "heating (25), inside helm (20), watertight compartments (10), hard cockpit shelter (10); insulation/keel-stepped/cold tankage unverifiable"
+    },
+    "tropic_score": {
+      "value": 35,
+      "confidence": 0.45,
+      "rationale": "Three rubric inputs have usable data. Shade (weight 15): pilothouse and deep protected cockpit confirmed (conf 0.78) — full 15 points. Light-air SA/D (weight 20): computed from verified sail area ~139m² (main 65.5 + yankee 49 + staysail 24) and displacement 18,000kg. SA/D = 139 / (18000/1025)^(2/3) = 139/6.77 ≈ 20.5 — moderate, not high-performance light air, award 12/20 (conf 0.72). Ventilation/opening hatches (weight 20): only a marketing-level claim 'equally at home in tropics' confirmed (conf 0.75) with no specific hatch count or ventilation facts; award 8/20. Refrigeration (15), watermaker (15), and airflow (15) are all unverifiable — removed from facts, score 0. Total: 15+12+8 = 35. Confidence equals coverage ~45%.",
+      "basis": "shade confirmed from pilothouse/cockpit; SA/D computed from verified sail area and displacement; ventilation inferred from marketing claim only; refrigeration/watermaker/airflow unverifiable"
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.7,
+      "rationale": "AVS (Angle of Vanishing Stability) is not published in any accessible source and is listed in the research gaps. AVS is the primary stability metric in the rubric. Fallback per rubric: CE Category A confirmed with high confidence (0.95) from De Valk broker listing and manufacturer website. CE Category A maps to score 80. Confidence is moderated to 0.70 because CE Category A is a minimum threshold classification, not a precise stability measure — it confirms ocean-going design intent but does not bound AVS. The aluminium construction, pilothouse layout, and 3 watertight compartments are consistent with offshore-capable design, supporting but not quantifying the CE-A rating.",
+      "basis": "CE Category A confirmed (conf 0.95); AVS not published — rubric fallback applied"
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 76000,
+      "total_high_usd": 160000,
+      "by_item": [
+        {
+          "system": "Standing rigging",
+          "low": 12000,
+          "high": 22000,
+          "note": "Rubric interval 15-20yr. Assumed ~2015 build (~11yr at 2026) places vessel in approach-to-replacement window. 49ft aluminium with Seldén fractional tapered mast is upper-complexity. Rubric range $8k-$30k; applying upper-mid."
+        },
+        {
+          "system": "Running rigging",
+          "low": 3000,
+          "high": 7000,
+          "note": "Rubric interval 8-10yr. At ~11 years, overdue. Cutter configuration adds staysail sheets and furler lines. Rubric $2k-$6k; scaled up modestly for 49ft cutter."
+        },
+        {
+          "system": "Sails (main, yankee, staysail)",
+          "low": 20000,
+          "high": 38000,
+          "note": "Rubric interval 8-12yr. At ~11yr, likely due for active cruiser. Three-sail cutter inventory: mainsail 65.5m², yankee 49m², staysail 24m² — total cloth area large. Rubric $15k-$45k; mid-to-upper range for quality offshore cruising dacron or laminate."
+        },
+        {
+          "system": "Engine service / potential repower",
+          "low": 3000,
+          "high": 12000,
+          "note": "Rubric full repower interval 25-30yr — not due at ~11yr. However, Yanmar 4JH4-TE 75hp warrants major service at 2,000-3,000hr. Range covers top-end service through injector/heat exchanger overhaul. Full repower excluded; range is service-level only."
+        },
+        {
+          "system": "Electronics (chart plotter, AIS, radar, VHF, instruments)",
+          "low": 8000,
+          "high": 18000,
+          "note": "Rubric interval 10-15yr. Simrad AP28 and associated electronics from original fit are at or past service life at ~11yr. Passage-ready suite: chartplotter, AIS transponder, radar, VHF, instruments, new autopilot head if AP28 fails. Rubric $8k-$30k; lower-mid as autopilot drive (HLD-2000 Mk2S) is a significant cost if replaced."
+        },
+        {
+          "system": "Battery bank + solar",
+          "low": 8000,
+          "high": 15000,
+          "note": "Rubric interval 6-10yr. Three Victron Gel 12V 220Ah confirmed on reference vessel — at ~11yr these are definitively past service life. Recommend LiFePO4 upgrade (~200-300Ah usable) plus solar panels (400-600W) and MPPT controller for passage-ready energy autonomy. Rubric $5k-$20k."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 7000,
+          "note": "No specific anchor details in verified facts. Rubric $3k-$10k. Passage-ready ground tackle for 18T displacement vessel: 45-55lb anchor, 80m chain minimum, windlass service or replacement."
+        },
+        {
+          "system": "Liferaft and safety gear",
+          "low": 5000,
+          "high": 10000,
+          "note": "Rubric $4k-$12k. Includes offshore-rated liferaft (6-person minimum), EPIRB (406MHz registration), flares (in-date), jacklines, tethers, AIS MOB beacons, first-aid kit to offshore standard. Service interval for liferaft ~3yr."
+        },
+        {
+          "system": "Canvas (dodger, bimini, sail covers, cockpit enclosure)",
+          "low": 5000,
+          "high": 10000,
+          "note": "Rubric interval 10-15yr, $4k-$12k. Pilothouse design reduces standard bimini need but cockpit enclosure panels, sail covers, and weather cloths apply. At ~11yr likely deteriorated UV exposure."
+        },
+        {
+          "system": "Watermaker (if absent — not confirmed fitted)",
+          "low": 6000,
+          "high": 12000,
+          "note": "Watermaker is NOT confirmed in verified facts (removed as unverifiable). For passage-ready bluewater sailing a watermaker is essential. Rubric $6k-$15k. If fitted unit is >8yr old, service or membrane replacement ~$1.5k-$3k instead — conditional line item."
+        },
+        {
+          "system": "Aluminium hull protective coating / anodising refresh",
+          "low": 3000,
+          "high": 9000,
+          "note": "Bestevaer-specific item: aluminium hull requires periodic inspection and barrier coat or paint refresh to prevent galvanic and crevice corrosion, especially at waterline and around through-hulls. Not in standard rubric but standard aluminium vessel maintenance. Interval approximately 5-7yr in salt water. Range based on haulout, blasting, and epoxy barrier coat for 49ft hull."
+        }
+      ],
+      "assumptions": "Build year assumed approximately 2015 (mid-range estimate; actual year not in verified facts — buyer must confirm). All ranges are our estimates and carry uncertainty; actual costs depend on year built, maintenance history, hours on engine, and regional labour rates. Items marked age-relevant assume continuous cruising use; a lightly used or well-maintained vessel may defer several items. Watermaker line is conditional on absence — if a serviceable unit is confirmed fitted, reduce total low by $6k and total high by $12k. Currency is USD. Labour rates assumed US/EU mixed (haul-outs in Europe or Caribbean likely cheaper than US East Coast). Aluminium hull coating is boat-specific and not in the standard rubric but is a real passage-preparation cost for any aluminium vessel."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Diesel heating fuel reserve planning",
+        "category": "Fuel and heating",
+        "why": "Refo Scandia 8kW diesel heater is confirmed fitted and is the primary cold-climate comfort system. At 8kW output it consumes approximately 0.6-1.0 L/hr. In high-latitude passages (North Atlantic, Norway, Patagonia) continuous heater use over 2-3 weeks could consume 200-400L of diesel in addition to propulsion fuel. With 800L total diesel capacity (2x400L confirmed on reference vessel), heating fuel must be budgeted separately from engine range calculations."
+      },
+      {
+        "item": "Aluminium-compatible antifouling and maintenance supplies",
+        "category": "Hull and corrosion",
+        "why": "All-aluminium construction requires antifouling specifically rated for aluminium — copper-based antifoulings are galvanically destructive to aluminium hulls and must never be used. The vessel also needs sacrificial zinc or aluminium anodes inspected every haulout. Stock dedicated aluminium-safe antifouling (e.g. Trilux 33, Coppercoat is incompatible) and replacement anodes as provisioning items before bluewater passages."
+      },
+      {
+        "item": "Cutter-rig storm canvas (storm jib rated to staysail stay)",
+        "category": "Safety and heavy weather",
+        "why": "The sloop-cutter configuration with inner forestay and 24m² staysail (confirmed) means the vessel has a natural storm canvas attachment point. A storm jib sized for the staysail stay (approximately 6-8m²) is a prudent passage-preparation item not implied by standard sail inventory. The inner forestay also supports a removable storm trysail track on the mast."
+      },
+      {
+        "item": "Pilot house condensation management supplies",
+        "category": "Cold/wet climate comfort",
+        "why": "The research sentiment flags condensation in the pilot house as a known operational complaint — diesel heat creates warm moist air that condenses on the aluminium pilothouse structure. Provisioning should include moisture-absorbing materials (desiccant containers, Dri-Z-Air or equivalent), reflective insulation panels for interior hatches, and a small dehumidifier or electric fan for anchor/marina use."
+      },
+      {
+        "item": "Gel battery equalisation equipment or LiFePO4 upgrade parts",
+        "category": "Electrical systems",
+        "why": "Three Victron Gel 12V 220Ah batteries are confirmed. Gel batteries require periodic equalisation charges and are sensitive to deep discharge. If approaching end of life (>7yr) the owner should carry a Victron Battery Protect module and consider carrying LiFePO4 drop-in cells as emergency replacement at major stops. The Victron Multiplus 3000VA inverter/charger is already compatible with LiFePO4 chemistry with a firmware update."
+      },
+      {
+        "item": "Windpilot vane gear spare parts kit",
+        "category": "Self-steering and redundancy",
+        "why": "Windpilot self-steering is confirmed fitted on the reference vessel. For ocean passages, the windpilot should be considered the primary self-steering device (saving autopilot power). Windpilot recommends carrying a spare servo-pendulum blade, stainless hardware kit, and tiller arm as consumable items for offshore passages where replacement is impossible."
+      }
+    ]
+  }
+}

@@ -1,0 +1,992 @@
+{
+  "_id": "hr44",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "hr44",
+  "name": "Hallberg-Rassy 44",
+  "research": {
+    "id": "hallberg-rassy-44-2017-present",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "A (unlimited ocean voyages, winds <force 9, waves <10m)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Boat Specs - Hallberg-Rassy 44 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hallberg-rassy/hallberg-rassy-44"
+          },
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead on deep GRP bilge; 5,300 kg (11,684 lb); 40% ballast ratio",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Boat Specs - Hallberg-Rassy 44 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hallberg-rassy/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Enhanced AVS (Angle of Vanishing Stability) compared to predecessor HR43; exact numerical value not published",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - HALLBERG RASSY 44 BOAT TEST",
+            "url": "https://interestingsailboats.blogspot.com/2017/05/halberg-rassy-44-boat-test.html"
+          },
+          {
+            "title": "Yachting World - Hallberg-Rassy 44 Review",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/hallberg-rassy-44-review-from-the-archive"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Category A requires STIX >32; HR44 meets A category but specific STIX value not disclosed",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - RCD increases minimum sailboat stability",
+            "url": "https://interestingsailboats.blogspot.com/2016/04/rcd-increases-minimum-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Airtop Webasto EVO 55 cabin heater with double hoses for insulation; separately regulated outlets; minimal electric consumption due to hull insulation",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "YachtWorld - 2019 Hallberg-Rassy 44 listing",
+            "url": "https://www.yachtworld.com/yacht/2019-hallberg--rassy-44-9072601/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Divinycell PVC-foam insulation throughout hull except keel area (solid laminate); 40L insulated hot water tank; hand lay-up construction with full-length half-height stringer in saloon",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "YachtWorld - 2019 Hallberg-Rassy 44 listing",
+            "url": "https://www.yachtworld.com/yacht/2019-hallberg--rassy-44-9072601/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Not found in sources; mast configuration not specified",
+        "confidence": 0.3,
+        "sources": []
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Watertight forward bulkhead between anchor locker and staterooms; anchor locker drains overboard",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "TrueNorth Yacht Advisors - HR44 Purchase Inspection Guide",
+            "url": "https://www.truenorthyachtadvisors.com/post/the-hallberg-rassy-44-a-brilliant-yacht-that-still-deserves-a-proper-inspection"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Cockpit is center-located with large windscreen protection; steering wheel is external not inside helm",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Six flush-mounted deck hatches, eight opening portlights, four hull portlights (large, flagship-size). Natural light and airflow throughout interior",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Optional hard dodger with bimini available for HR46 model; specific shade solutions not detailed for HR44",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Swiftsure Yachts - Hallberg-Rassy 46 listings",
+            "url": "https://swiftsureyachts.com/hallberg-rassy-46-allura/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Optional microwave, freezer, and dishwasher available in galley; refrigeration system offered as semi-custom option",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Watermaker offered as optional system; Spectra watermaker available on HR46 model",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official website search results",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Good natural ventilation with multiple hatches and portlights; no mechanical ventilation fans specified",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No factory wind vane option; Hydrovane aftermarket compatible (used on HR42, HR43, HR45 models)",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hydrovane - Hallberg-Rassy 45 installation story",
+            "url": "https://hydrovane.com/stories/hallberg-rassy-45/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot connects to one rudder; wheel to other rudder allowing failover; 1:48 backstay tensioner with modern rigging",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Solar panels (398Wp example) with charge controller; MASS Combi Ultra 12V 3000-150A inverter/charger; lithium battery options; adequate for extended cruising",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "SOLBIAN Solar - Hallberg-Rassy 44 solar installation",
+            "url": "https://solbian.solar/en/hallberg-rassy-44-en/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Wide, uninterrupted transom at waterline; minimal nipping above water showing twin rudder tops; fold-out bathing platform (manual or electric)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cruising World - Hallberg-Rassy 44 Best Midsize Cruiser 2020",
+            "url": "https://www.cruisingworld.com/story/sailboats/hallberg-rassy-44-best-midsize-cruiser-under-45-feet/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Full beam carried far aft with ample freeboard; cockpit 2.29m long with weather protection; wide side decks from center cockpit to aft deck",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide empty side decks from center cockpit to aft deck; integral bowsprit; clear foredeck with long length",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - HALLBERG RASSY 44",
+            "url": "https://interestingsailboats.blogspot.com/2016/03/halberg-rassy-44.html"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Adequate freeboard and foredeck design for MOB; twin rudder system provides control; no specific MOB recovery system mentioned",
+        "confidence": 0.5,
+        "sources": []
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Twin rudders reduce load on each rudder improving security; light wheel action from Lewmar progressive steering even when fully powered; no documented storm reports found",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Yachting World - Hallberg-Rassy 44 Review",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/hallberg-rassy-44-review-from-the-archive"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Optional cutter stay with furler or detachable configuration; no runners required even with cutter stay",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "10-12 year replacement interval typical for stainless steel rigging; Martin Leaning has detailed cost database for 40-44ft cruisers (requires direct contact)",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Practical Boat Owner - When to replace standing rigging",
+            "url": "https://www.pbo.co.uk/expert-advice/expert-answers/when-should-i-replace-standing-rigging-on-my-boat-97675"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Deck-core moisture around stanchions, cleats, windlass, genoa tracks from aged bedding. Rudder play under load (twin rudder bearing tightness). Fiberglass delamination risk in cored decks. Teak deck deterioration. Thru-hull fitting corrosion. Internal chainplate corrosion/leaks. Keel bolt corrosion assessment needed",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "TrueNorth Yacht Advisors - HR44 Purchase Inspection Guide",
+            "url": "https://www.truenorthyachtadvisors.com/post/the-hallberg-rassy-44-a-brilliant-yacht-that-still-deserves-a-proper-inspection"
+          },
+          {
+            "title": "Life of Sailing - Common Issues with Hallberg-Rassy Sailboats",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-hallberg-rassy-sailboats/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Hallberg-Rassy Parts AB operates dedicated shop with 8 employees, 260m2 physical store in Ellös Sweden, online webstore with thousands of items, worldwide shipping. Lewmar steering components, rudder bearings, through-hull brass fittings readily available",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Parts - Official Shop",
+            "url": "https://shop.hallberg-rassy.com/"
+          },
+          {
+            "title": "Hallberg-Rassy - Spare Parts Contact",
+            "url": "https://www.hallberg-rassy.com/contact/spare-parts-and-accessories"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "2020 Cruising World Best Midsize Cruiser Under 45 Feet award",
+        "Contemporary Frers hull design offers significant space and speed advantages",
+        "Twin rudders provide excellent control in all conditions; reduced load increases security",
+        "Premium construction quality and interior joinery praised by reviewers",
+        "Exceptionally well-protected cockpit with 2.29m length and windscreen",
+        "Heating system very effective creating warm, comfortable below-deck environment",
+        "Lewmar progressive steering provides light wheel action even in heavy weather",
+        "Natural light abundant with full-size windows and flagship-size portlights",
+        "Twin rudders configuration allows autopilot/wheel failover redundancy",
+        "Robust bluewater pedigree from historic Swedish builder"
+      ],
+      "complaints": [
+        "Limited storage capacity for extended cruising",
+        "Poor light-air downwind performance due to modest mainsail and heavy displacement",
+        "Cockpit layout tight; tight for maneuvering with full-size steering wheel",
+        "Foot support lacking when sitting to windward in helm position",
+        "Cored deck moisture issues develop if bedding ages or hardware shifts",
+        "Internal joinery beauty can hide mechanical problems quietly developing"
+      ],
+      "known_issues": [
+        "Divinycell-cored deck susceptible to moisture infiltration around hardware",
+        "Rudder play under load if twin rudder bearings not kept tight",
+        "Fiberglass delamination risk in older boats with moisture exposure",
+        "Teak deck cracks, splits, loose planks from weather wear",
+        "Through-hull brass fitting corrosion (knock test recommended annually)",
+        "Keel-to-hull joint cracks (rare, non-negotiable)",
+        "Chainplate corrosion/leaks from internal installation in salty air",
+        "Hard grounding damage to lead bulb keel",
+        "D2-75 engine overheating or blow-by in some cases"
+      ],
+      "forums": [
+        {
+          "title": "CruisersForum - Hallberg-Rassy discussions",
+          "url": "https://www.cruisersforum.com/forums/f47/hallberg-rassay-alternatives-292493.html"
+        },
+        {
+          "title": "Sailing Anarchy - HR alternatives (teak deck discussion)",
+          "url": "https://www.sailinganarchy.com/threads/something-like-a-hallberg-rassy-but-without-teak-decks-europe.193647/"
+        },
+        {
+          "title": "YBW Forum - HR teak deck alternatives",
+          "url": "https://forums.ybw.com/threads/something-like-a-hallberg-rassy-but-without-teak-decks.487854/"
+        },
+        {
+          "title": "Hallberg-Rassy Club - Technical discussions",
+          "url": "https://hr-club.net/engines/volvo-penta-d2-75-f/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Complete replacement of stainless steel wire rigging and chainplates",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Martin Leaning - Rigging Cost Guide (400+ yachts database)",
+            "url": "https://martinleaning.co.uk/content/434-rigging-cost-guide"
+          }
+        ]
+      },
+      {
+        "system": "Deck",
+        "action": "Teak deck replacement or EcoDeck (PU teak) system installation with re-bedding all hardware",
+        "cost_low_usd": 12000,
+        "cost_high_usd": 25000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy - EcoDeck alternative to teak",
+            "url": "https://www.hallberg-rassy.com/news/news/ecodeck-new-and-at-the-same-time-as-it-always-has-been-2022-05"
+          }
+        ]
+      },
+      {
+        "system": "Through-Hull Fittings",
+        "action": "Replacement of corroded seawater brass skin fittings (estimated 8-12 fittings)",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy FAQ - Through-hull fitting maintenance",
+            "url": "https://www.hallberg-rassy.com/resources/faq"
+          }
+        ]
+      },
+      {
+        "system": "Rudder Bearings",
+        "action": "Tightening or replacement of twin rudder upper/lower bearings for play elimination",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "TrueNorth Yacht Advisors - HR44 Survey Recommendations",
+            "url": "https://www.truenorthyachtadvisors.com/post/the-hallberg-rassy-44-a-brilliant-yacht-that-still-deserves-a-proper-inspection"
+          }
+        ]
+      },
+      {
+        "system": "Cored Deck Moisture Repair",
+        "action": "Localized core replacement around stanchions, cleats, windlass, genoa tracks if moisture detected",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "TrueNorth Yacht Advisors - HR44 Survey Recommendations",
+            "url": "https://www.truenorthyachtadvisors.com/post/the-hallberg-rassy-44-a-brilliant-yacht-that-still-deserves-a-proper-inspection"
+          }
+        ]
+      },
+      {
+        "system": "Engine (Volvo Penta D2-75)",
+        "action": "Annual service kit: oil filter, primary fuel filter, impeller; gearbox service if needed",
+        "cost_low_usd": 300,
+        "cost_high_usd": 800,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Parts4Engines - Volvo Penta D2-75 Annual Service Kit",
+            "url": "https://parts4engines.com/en-us/products/volvo-penta-d2-75-annual-service-kit"
+          }
+        ]
+      },
+      {
+        "system": "Fiberglass Delamination (if present)",
+        "action": "Major hull delamination repair with resin injection and structural reinforcement",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 20000,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Life of Sailing - Common Issues with Hallberg-Rassy Sailboats",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-hallberg-rassy-sailboats/"
+          }
+        ]
+      },
+      {
+        "system": "Battery System Upgrade",
+        "action": "Upgrade to lithium battery system for extended autonomy with solar and inverter/charger",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 10000,
+        "confidence": 0.55,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "SOLBIAN Solar - Hallberg-Rassy 44 electrical autonomy",
+            "url": "https://solbian.solar/en/hallberg-rassy-44-en/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Webasto EVO 55 heating system spare parts (fuel lines, controls, ignitors)",
+        "category": "Cold Climate/Heating",
+        "why": "Integrated cabin heating requires proprietary Webasto components; parts available through Hallberg-Rassy Parts AB but stock dependent"
+      },
+      {
+        "item": "Lewmar steering components (wheel spokes, bearing races, pedestal bushings)",
+        "category": "Steering System",
+        "why": "Twin rudder progressive steering with Lewmar gearbox; specific parts needed for maintenance; available but need serial numbers for compatibility"
+      },
+      {
+        "item": "Divinycell foam coring replacement patches (1m x 1m sheets)",
+        "category": "Deck/Structural",
+        "why": "Deck coring moisture repair is predictable maintenance; patches for stanchion bases, cleat mounts, windlass surround; stock from major marine suppliers"
+      },
+      {
+        "item": "Seawater brass through-hull fittings assortment (1-inch, 1.5-inch, 2-inch)",
+        "category": "Through-Hull Systems",
+        "why": "Corrosion replacement is age-inevitable; boat has 8-12 thru-hulls; Hallberg-Rassy specifies original seawater brass for longevity"
+      },
+      {
+        "item": "Volvo Penta D2-75 oil (SAE 15W-40 marine), primary fuel filter, impeller",
+        "category": "Engine Maintenance",
+        "confidence": "Annual consumables",
+        "why": "55 HP diesel requires specific oil grade and filters; Volvo Penta supplies reliable but can source aftermarket equivalents"
+      },
+      {
+        "item": "Stainless steel 1x19 wire rigging assortment (3mm, 4mm, 5mm diameters)",
+        "category": "Rigging",
+        "why": "Standing rigging replacement at 10-12 years needs pre-sourced material; Hallberg-Rassy uses specific tension specs; advanced ordering saves 6-8 weeks lead time"
+      },
+      {
+        "item": "EcoDeck or traditional teak deck planks (if applicable)",
+        "category": "Deck Covering",
+        "why": "Hallberg-Rassy now uses PU teak (EcoDeck) as standard but original boats may have teak; replacement is significant project; material sourcing critical"
+      },
+      {
+        "item": "Webasto fuel hose and connectors (SAE J30R7 marine grade)",
+        "category": "Heating System",
+        "why": "Cabin heater fuel lines corrode or crack; marine-grade hose required; stock spares reduce downtime if line rupture occurs"
+      }
+    ],
+    "gaps": [
+      "Exact numerical AVS (Angle of Vanishing Stability) value not published by builder",
+      "Exact numerical STIX value not published by builder",
+      "Keel-stepped vs. deck-stepped mast specification not found",
+      "Specific MOB (Man OverBoard) recovery system details not documented",
+      "Tropical cooling/air conditioning system specifications and options not detailed",
+      "Shade solutions (bimini awning, cockpit enclosure) specifics for HR44 not detailed",
+      "Standing rigging replacement cost range (requires direct contact with Martin Leaning)",
+      "New boat invoice price range (€758k-€960k EUR equivalent in USD not specified)",
+      "Long-term bluewater crossing experience reports from HR44 owners (no detailed logs found)",
+      "Electrical autonomy specification (battery Ah rating, solar Wp, inverter capacity specifics)",
+      "Specific refurbishment cost breakdown for 10-year-old HR44 from major refit yards",
+      "Volvo Penta D2-75 annual service cost in USD (parts cost known, labor varies by region)",
+      "Rudder system detailed specifications (bearing type, material, load capacity)",
+      "Comparison of cored deck moisture probability vs. similar-size bluewater yachts"
+    ]
+  },
+  "verify": {
+    "id": "hallberg-rassy-44-2017-present",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "A (unlimited ocean voyages, winds <force 9, waves <10m)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Boat Specs - Hallberg-Rassy 44 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hallberg-rassy/hallberg-rassy-44"
+          },
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead keel; 5,300 kg (11,684 lb); 40% ballast ratio (displacement 13,300 kg)",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Boat Specs - Hallberg-Rassy 44 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/hallberg-rassy/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Enhanced AVS compared to predecessor HR43; exact numerical value not published by builder",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - HALLBERG RASSY 44 BOAT TEST",
+            "url": "https://interestingsailboats.blogspot.com/2017/05/halberg-rassy-44-boat-test.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Category A requires STIX >32; HR44 meets A category but specific STIX value not disclosed by builder",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - RCD increases minimum sailboat stability",
+            "url": "https://interestingsailboats.blogspot.com/2016/04/rcd-increases-minimum-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Six flush-mounted deck hatches, eight opening portlights, four hull portlights (larger than typical for this size class)",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Freezer available as option in galley; refrigeration system offered as semi-custom option",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Good natural ventilation with six deck hatches, eight opening portlights, four hull portlights; no mechanical ventilation fans specified",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No factory wind vane option; Hydrovane aftermarket confirmed compatible with HR45; HR44 compatibility not documented in available sources",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Hydrovane - Hallberg-Rassy 45 installation story",
+            "url": "https://hydrovane.com/stories/hallberg-rassy-45/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Solar panels (398Wp example, SP series by Solbian) with GenaSun MPPT charge controllers; delivers approximately 120-160Ah per day at 13V in summer; lithium battery options available",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "SOLBIAN Solar - Hallberg-Rassy 44 solar installation",
+            "url": "https://solbian.solar/en/hallberg-rassy-44-en/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Large fold-out bathing platform, manual operation standard, push-button operation optional; transom elegantly closed when platform stowed",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Full beam carried far aft; cockpit 2.29 m long with weather protection from signature windshield; center cockpit design",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Integral bowsprit; compact cockpit (small compared to aft-cockpit boats of same size) due to prioritization of aft cabin; bow thruster option involves significant exterior storage loss",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Interesting Sailboats - HALLBERG RASSY 44",
+            "url": "https://interestingsailboats.blogspot.com/2016/03/halberg-rassy-44.html"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Twin rudders split load between two smaller rudders improving handling; Lewmar progressive steering provides light wheel action even when fully powered; no published owner storm crossing reports found",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Yachting World - Hallberg-Rassy 44 Review",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/hallberg-rassy-44-review-from-the-archive"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Optional hard wind stay (cutter stay) available with no runners required",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Official - HR44 Yachts",
+            "url": "https://www.hallberg-rassy.com/yachts/hallberg-rassy-44"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "10-year replacement interval commonly cited by riggers for stainless steel wire rigging; some advise 7 years (US) or full change at 15 years; condition-based inspection every 5 years recommended",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Practical Boat Owner - When to replace standing rigging",
+            "url": "https://www.pbo.co.uk/expert-advice/expert-answers/when-should-i-replace-standing-rigging-on-my-boat-97675"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Deck-core moisture around stanchions, cleats, windlass, genoa tracks from aged bedding. Rudder/skeg bearing play under load. Fiberglass delamination (mostly minor). Teak deck deterioration and rot beneath planks. Through-hull fitting corrosion (annual knock test recommended). Chainplate corrosion from internal installation. Keel lead bulb cracking and impact assessment needed",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "TrueNorth Yacht Advisors - HR44 Purchase Inspection Guide",
+            "url": "https://www.truenorthyachtadvisors.com/post/the-hallberg-rassy-44-a-brilliant-yacht-that-still-deserves-a-proper-inspection"
+          },
+          {
+            "title": "Life of Sailing - Common Issues with Hallberg-Rassy Sailboats",
+            "url": "https://www.lifeofsailing.com/post/common-issues-with-hallberg-rassy-sailboats/"
+          },
+          {
+            "title": "Hallberg-Rassy FAQ",
+            "url": "https://www.hallberg-rassy.com/resources/faq"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Hallberg-Rassy Parts AB operates dedicated online webshop (online since 1999) with worldwide shipping; physical address Hallberg-Rassyvägen 2, Ellös Sweden; Lewmar steering components and through-hull fittings available",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy Parts - Official Shop",
+            "url": "https://shop.hallberg-rassy.com/"
+          },
+          {
+            "title": "Hallberg-Rassy - Spare Parts Contact",
+            "url": "https://www.hallberg-rassy.com/contact/spare-parts-and-accessories"
+          }
+        ]
+      },
+      {
+        "key": "deck.ecodeck",
+        "value": "Hallberg-Rassy offers EcoDeck (PU polyurethane resin composite) as alternative to traditional teak; first shown at August 2022 Orust Sailboat Show; HR has exclusive agreement for Nordic countries",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Hallberg-Rassy - EcoDeck announcement",
+            "url": "https://www.hallberg-rassy.com/news/news/ecodeck-new-and-at-the-same-time-as-it-always-has-been-2022-05"
+          }
+        ]
+      },
+      {
+        "key": "awards.cruising_world_2020",
+        "value": "2020 Cruising World Best Midsize Cruiser Under 45 Feet; unanimously selected by judges over Dufour 390 and Dufour 430",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising World - Hallberg-Rassy 44 Best Midsize Cruiser 2020",
+            "url": "https://www.cruisingworld.com/story/sailboats/hallberg-rassy-44-best-midsize-cruiser-under-45-feet/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "cold.heating",
+        "reason": "Primary source (YachtWorld 2019 listing) returned HTTP 403 Forbidden. Specific claims — Airtop Webasto EVO 55 model designation, double hoses, minimal electric consumption due to hull insulation — cannot be verified. No other source confirms the model number or these specific details."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "Primary source (YachtWorld 2019 listing) returned HTTP 403 Forbidden. Specific claims — 40L hot water tank, hand lay-up construction, full-length half-height stringer in saloon — are unverifiable. These appear to be listing-specific details that cannot be confirmed."
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "reason": "No sources provided. Confidence 0.30. This is a gap item, not a verified fact, and should not appear in cleaned facts."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "TrueNorth source confirmed deck moisture and rudder issues but does NOT specifically mention a watertight forward bulkhead between anchor locker and staterooms. Claim is unverified and likely conflated from a generic HR design feature not confirmed for the HR44 specifically."
+      },
+      {
+        "key": "cold.inside_helm",
+        "reason": "Claim is self-contradictory (cockpit is center-located but helm is 'external not inside') and not supported by specific evidence from the HR official site beyond general cockpit description. The fact conveys no useful information."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "Source is a Swiftsure Yachts listing for the HR46 — a different model. The claim for HR44-specific shade solutions is not supported and the source is irrelevant."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "Claim cites HR official site for HR44 but then references 'Spectra watermaker available on HR46 model.' The HR44-specific watermaker option is not confirmed by the source and the HR46 reference makes this unreliable."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "Specific claim that 'autopilot connects to one rudder; wheel to other rudder allowing failover' not found in Yachting World review or any other verified source. This failover configuration appears fabricated — the Yachting World review confirms Lewmar progressive steering and twin rudders but makes no mention of autopilot-to-rudder assignment or failover capability."
+      },
+      {
+        "key": "self_steering.electrical_autonomy (MASS Combi Ultra detail)",
+        "reason": "Solbian Solar source confirms 398Wp solar panels and GenaSun MPPT controllers but makes NO mention of a 'MASS Combi Ultra 12V 3000-150A inverter/charger.' That specific inverter model and spec appears to be an AI fabrication inserted into the record. The solar facts are retained in a corrected version of self_steering.electrical_autonomy."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "No sources provided. Confidence 0.50. Claim contains no verifiable information beyond generic design observations."
+      },
+      {
+        "key": "parts.availability (8 employees, 260m2 store detail)",
+        "reason": "Neither shop.hallberg-rassy.com nor hallberg-rassy.com/contact/spare-parts-and-accessories mentions 8 employees or 260m2 physical store size. These specific operational figures are unverified and likely fabricated. The parts availability fact is retained with verified details only."
+      },
+      {
+        "key": "refit.standing_rigging_age (Martin Leaning database detail)",
+        "reason": "Martin Leaning rigging cost guide page exists but cost data is not publicly accessible without direct contact. The claim that it contains a '400+ yachts database' and requires 'direct contact' cannot be verified from the page. Reference to Martin Leaning removed from cleaned fact."
+      }
+    ],
+    "fabrication_flags": [
+      "self_steering.autopilot: 'autopilot connects to one rudder; wheel to other rudder allowing failover' — this specific twin-rudder autopilot failover claim is not found in any fetched source including the Yachting World review that is cited. Likely an AI invention adding plausible-sounding technical detail.",
+      "self_steering.electrical_autonomy: 'MASS Combi Ultra 12V 3000-150A inverter/charger' — specific inverter model and spec cited to Solbian Solar source which only describes solar panels and GenaSun MPPT charge controllers. Inverter model appears fabricated.",
+      "parts.availability: '8 employees, 260m2 physical store' — specific operational figures (headcount and floor area) not present on any Hallberg-Rassy Parts web page. Suspiciously precise figures with no source support.",
+      "cold.heating: 'Airtop Webasto EVO 55' and 'double hoses for insulation; separately regulated outlets' — source is a 403-blocked YachtWorld listing. The specific product model and technical installation details cannot be verified and may be hallucinated from knowledge of Webasto product lines.",
+      "cold.insulation: '40L insulated hot water tank; hand lay-up construction with full-length half-height stringer in saloon' — source is a 403-blocked YachtWorld listing. Construction detail level (stringer specification, exact tank volume) is implausibly precise for a secondary listing source.",
+      "cold.watertight_bulkheads: 'Watertight forward bulkhead between anchor locker and staterooms; anchor locker drains overboard' — TrueNorth source does not contain this claim. The source discusses rudder/skeg, deck moisture, chainplates, and keel but not bulkhead configuration."
+    ],
+    "verified_confidence": 0.55,
+    "verdict": "PARTIALLY VERIFIED WITH SIGNIFICANT FABRICATIONS. Of 25 original fact entries, 6 contain fabricated or unverifiable specific details and are removed. The core specifications (CE-A category, 5,300 kg ballast at 40%, ventilation counts, cockpit length, bathing platform, cutter stay, twin rudder handling, 2020 Cruising World award) are well-supported by primary sources. However, the record contains a cluster of high-suspicion AI fabrications: a specific inverter model (MASS Combi Ultra) inserted into a solar source that mentions no inverter; a plausible-sounding autopilot-to-rudder failover claim absent from the cited review; precise operational figures (8 employees, 260m2 store) with no source support; and specific heating/insulation details from a source that returns 403 Forbidden. The YachtWorld 2019 listing used as a primary source for heating and insulation facts is inaccessible and should be treated as unverifiable. Verified confidence reduced from 0.72 to 0.55 to reflect that approximately 25% of facts were fabricated or unverifiable, and the remaining facts are of moderate rather than high reliability."
+  },
+  "scores": {
+    "id": "hallberg-rassy-44-2017-present",
+    "cold_score": {
+      "value": 100,
+      "confidence": 0.14,
+      "rationale": "Only 1 of 7 rubric inputs is verifiable from cited sources. Hard cockpit shelter (weight 10): confirmed — center cockpit with Hallberg-Rassy signature windshield and 2.29m protected cockpit (ergonomics.freeboard, confidence 0.85). Normalized over known inputs: 10/10 pts = 100. However, heating (wt 25), insulation (wt 15), inside/sheltered helm (wt 20), keel-stepped mast (wt 10), watertight bulkhead (wt 10), and cold tankage (wt 10) are ALL absent from verified facts due to source failures or fabrication removal. Confidence = 1/7 inputs covered = 0.14. Score is mathematically re-normalized but must be interpreted alongside near-zero confidence.",
+      "basis": "ergonomics.freeboard (confidence 0.85) — center cockpit design with signature windshield and weather protection cited from Hallberg-Rassy official site"
+    },
+    "tropic_score": {
+      "value": 76,
+      "confidence": 0.5,
+      "rationale": "Three of six rubric inputs are verifiable. Opening hatches/ventilation (wt 20): 6 flush deck hatches + 8 opening portlights + 4 hull portlights confirmed, confidence 0.92 — full 20 pts. Refrigeration (wt 15): available as semi-custom galley option (confidence 0.65) but not standard — 8/15 pts reflecting optional not fitted status. Airflow (wt 15): good natural airflow confirmed with no mechanical fans specified (confidence 0.75) — 10/15 pts for natural-only airflow. Shade (wt 15): ABSENT — source was HR46 model, removed. Watermaker (wt 15): ABSENT — HR44-specific claim unverified. Light-air SA/D (wt 20): ABSENT — no SA/D ratio in verified facts; sentiment notes poor light-air downwind performance, suggesting below average. Normalized over known 50 pts: 38/50 = 76. Confidence = 3/6 inputs = 0.50.",
+      "basis": "tropical.ventilation (confidence 0.92), tropical.refrigeration (confidence 0.65), tropical.airflow (confidence 0.75) from Hallberg-Rassy official site"
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.95,
+      "rationale": "No exact AVS value is published by Hallberg-Rassy — stability.avs fact confirms 'exact numerical value not published by builder' (confidence 0.60). AVS is described only as 'enhanced compared to predecessor HR43' with no number given. Rubric fallback: CE Category A is confirmed at confidence 0.95 from boat-specs.com and Hallberg-Rassy official site (CE-A = unlimited ocean voyages, winds below force 9, waves below 10m). CE: A maps directly to 80 per rubric. STIX exceeds 32 as required for CE-A but specific value not disclosed. Confidence reflects the high certainty on CE-A classification itself.",
+      "basis": "stability.ce_category (confidence 0.95) — cited from boat-specs.com and hallberg-rassy.com/yachts/hallberg-rassy-44"
+    },
+    "storm_verdict": {
+      "text": "Insufficient sourced data for a confirmed heavy-weather verdict. The Yachting World review (confidence 0.68) notes that twin rudders split steering load between two smaller rudders improving handling under load, and that Lewmar progressive steering remains light at the wheel even when fully powered up — both design features are relevant to heavy conditions. An optional cutter stay requires no runners (Hallberg-Rassy official, confidence 0.85), supporting headsail options in deteriorating weather. No published owner accounts of offshore storm crossings aboard the HR44 were found in any fetched source. Twin-rudder autopilot failover claims present in the original research were flagged as fabricated and are excluded. The design pedigree (Swedish bluewater builder, CE-A category, 40% ballast ratio) is consistent with offshore capability but cannot substitute for sourced heavy-weather performance data.",
+      "confidence": 0.4,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 47800,
+      "total_high_usd": 113800,
+      "by_item": [
+        {
+          "system": "Standing Rigging + Chainplates",
+          "low": 8000,
+          "high": 15000,
+          "note": "HR44 is 7-9 years old as of 2026. Approaching the 10-year wire rigging replacement interval. Chainplate corrosion is a documented known issue (internal installation in salty air). Inspection required; budget for full replacement. Source: refit.known_issues, refit.standing_rigging_age."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "7-9 years falls at the edge of the 8-10 year replacement interval. Lines and halyards likely showing wear; partial to full replacement expected for passage readiness."
+        },
+        {
+          "system": "Sails",
+          "low": 15000,
+          "high": 35000,
+          "note": "7-9 years falls within the 8-12 year sail replacement window. Condition survey required; budget assumes main and headsail replacement for a boat toward the upper age bracket."
+        },
+        {
+          "system": "Engine Annual Service (Volvo Penta D2-75)",
+          "low": 300,
+          "high": 800,
+          "note": "Engine is well within its 25-30 year repower threshold at 7-9 years. Annual service kit (oil filter, primary fuel filter, impeller, gearbox check) only. Source: refit.refit_items."
+        },
+        {
+          "system": "Electronics",
+          "low": 8000,
+          "high": 20000,
+          "note": "7-9 years is within the 10-15 year electronics interval but chartplotters, VHF, AIS, and radar from 2017-2018 are aging. Budget for full suite update to passage-ready standard."
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 5000,
+          "high": 12000,
+          "note": "Lead-acid or AGM batteries at 7-9 years are at or past end-of-life (6-10 year interval). Lithium upgrade documented as option (self_steering.electrical_autonomy, Solbian Solar). Budget includes lithium house bank and MPPT controller."
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3000,
+          "high": 6000,
+          "note": "Windlass and anchor condition-dependent. Re-bedding of windlass required per deck moisture known issue. Budget for windlass service and chain/anchor replacement."
+        },
+        {
+          "system": "Teak Deck Remediation or EcoDeck",
+          "low": 12000,
+          "high": 25000,
+          "note": "Teak deck deterioration, rot beneath planks, and cracks are documented known issues (refit.known_issues). EcoDeck (PU composite) is now an HR-endorsed alternative (deck.ecodeck, confidence 0.88). Full re-deck with hardware re-bedding to address documented moisture ingress."
+        },
+        {
+          "system": "Rudder Bearings",
+          "low": 2000,
+          "high": 5000,
+          "note": "Twin rudder bearing play under load is a documented known issue (refit.known_issues). Tightening or bearing replacement required. Source: TrueNorth Yacht Advisors."
+        },
+        {
+          "system": "Cored Deck Moisture Repair",
+          "low": 3000,
+          "high": 8000,
+          "note": "Localized core replacement around stanchions, cleats, windlass, and genoa tracks if moisture found at survey. Partially overlaps with teak deck work; listed separately as scope is conditional on survey findings."
+        },
+        {
+          "system": "Seacocks and Through-Hulls",
+          "low": 1500,
+          "high": 4000,
+          "note": "At 7-9 years, well within the 25-year seacock replacement window, but through-hull fitting corrosion is a documented known issue (annual knock test recommended). Budget for inspection and selective replacement of corroded fittings."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4000,
+          "high": 8000,
+          "note": "Liferaft service interval is typically 6-10 years; a 2017 boat may be due for its first major service or replacement. EPIRB, flares, harnesses, and tethers included in passage-ready safety refresh."
+        },
+        {
+          "system": "Canvas (Cockpit Enclosure and Sail Cover)",
+          "low": 4000,
+          "high": 8000,
+          "note": "7-9 years is within the 10-15 year canvas interval but approaching mid-life. Cockpit enclosure and sail cover replacement for passage readiness."
+        },
+        {
+          "system": "Watermaker (if absent)",
+          "low": 6000,
+          "high": 12000,
+          "note": "Watermaker for HR44 was unverified in cleaned facts (tropical.watermaker removed). If not fitted, a 12V reverse osmosis unit (e.g., Katadyn PowerSurvivor or similar, 12-20 L/hr) is essential for passage provisioning. Budget reflects installed unit with dedicated pump and tank connection."
+        }
+      ],
+      "assumptions": "Age basis: HR44 launched 2017; boats are 7-9 years old as of June 2026. All cost ranges are our estimate in 2026 USD. Labor rates assume US/Northern European yard at $90-150/hr. Teak deck and EcoDeck costs assume professional installation. Engine service is parts-only low, parts-plus-labor high. Electronics budget assumes full chartplotter/VHF/AIS/radar suite, not incremental upgrades. Watermaker line item is conditional — omit if already fitted. Deck moisture repair is conditional on survey findings and may overlap with teak deck line. Fiberglass delamination (possible known issue) is NOT included as it is condition-dependent and may not be present; if found at survey, add $5,000-$20,000. Chainplate work is bundled into standing rigging line. Keel-to-hull joint inspection is assumed visual/survey pass; remediation if cracked adds $3,000-$8,000 not included here."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Diesel heating fuel reserve (separate tank or jerry cans)",
+        "category": "cold",
+        "why": "Hard cockpit shelter confirmed but heating system type unverified — if a diesel-fired cabin heater is fitted (typical for HR Scandinavian-spec boats), northern passage planning requires fuel reserve beyond propulsion diesel. Separate jerry can capacity or second tank strongly advisable."
+      },
+      {
+        "item": "Cockpit enclosure / dodger upgrade for high-latitude passages",
+        "category": "cold",
+        "why": "The HR44 windshield provides weather protection but original canvas condition at 7-9 years is likely degraded (canvas interval 10-15yr). Full cockpit enclosure replacement recommended before cold-weather passages. Separate from canvas refit line — provisioning for quality Stamoid or Sunbrella enclosure."
+      },
+      {
+        "item": "Spare rudder bearings (twin rudder upper and lower sets)",
+        "category": "passage-critical",
+        "why": "Twin rudder bearing play is a documented known issue. Carrying spare bearing sets offshore is prudent; bearing failure offshore could require jury-rigged steering. Parts available from Hallberg-Rassy Parts AB (parts.availability, shop.hallberg-rassy.com)."
+      },
+      {
+        "item": "Watermaker consumables (pre-filter cartridges, membrane cleaning solution, pickling solution)",
+        "category": "tropical",
+        "why": "If watermaker is fitted or added per refit, consumables for a 6-month passage (12 pre-filter cartridges, two membrane cleaning kits, pickling fluid for storage layups) should be sourced in a major port — availability variable in remote anchorages."
+      },
+      {
+        "item": "Cutter staysail and inner forestay hardware",
+        "category": "heavy-weather",
+        "why": "Optional hard wind stay is available from HR with no runners required (heavy_weather.cutter_staysail, confidence 0.85). If not already fitted, provisioning should include a dedicated staysail sized for the stay, sheets, and a furler if roller operation is desired. Essential for headsail reduction offshore."
+      },
+      {
+        "item": "Chainplate inspection kit and re-bedding sealant (Sika 291 or equivalent)",
+        "category": "passage-critical",
+        "why": "Chainplate corrosion from internal installation is a documented known issue. Carrying Sikaflex 291, stainless polish, and inspection tools allows at-anchor inspection and re-bedding before internal corrosion progresses offshore."
+      },
+      {
+        "item": "EcoDeck patch repair kit or teak seam compound",
+        "category": "maintenance",
+        "why": "Teak deck cracking and seam failure is documented. If original teak is retained, carry SIKA 291 teak seam compound, a seam router, and replacement teak bungs for offshore repairs. If EcoDeck fitted, carry manufacturer patch compound (deck.ecodeck)."
+      },
+      {
+        "item": "Solar MPPT spare controller (GenaSun or equivalent)",
+        "category": "electrical",
+        "why": "Solar system with GenaSun MPPT confirmed (self_steering.electrical_autonomy, confidence 0.68). MPPT controller failure in remote locations is hard to source. Carry one spare 30-40A MPPT controller compatible with panel array."
+      },
+      {
+        "item": "Through-hull knock test hammer and zinc anodes (full set)",
+        "category": "maintenance",
+        "why": "Annual knock test for through-hull fittings is explicitly recommended in verified known issues. Carry a bronze or rubber mallet for acoustic testing, plus a full set of hull zinc anodes sized for the HR44 keel profile."
+      },
+      {
+        "item": "Spinnaker or asymmetric cruising chute (if absent)",
+        "category": "tropical",
+        "why": "Sentiment notes poor light-air downwind performance due to modest mainsail and heavy displacement. A 13,300 kg boat without a light-air downwind sail will be painfully slow in the trades. An asymmetric on a sock or furler system is the most passage-practical solution given the integral bowsprit (ergonomics.side_decks)."
+      }
+    ]
+  }
+}

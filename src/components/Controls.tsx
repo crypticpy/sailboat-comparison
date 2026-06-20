@@ -11,7 +11,15 @@ export type SortKey =
   | "range"
   | "name";
 
-export type ChipFilter = "all" | "alu" | "grp" | "lift" | "pilot" | "budget";
+export type ChipFilter =
+  | "all"
+  | "alu"
+  | "grp"
+  | "lift"
+  | "pilot"
+  | "budget"
+  | "shoal"
+  | "seakindly";
 
 const CHIPS: [ChipFilter, string][] = [
   ["all", "All"],
@@ -20,6 +28,8 @@ const CHIPS: [ChipFilter, string][] = [
   ["lift", "Lifting keel"],
   ["pilot", "Pilothouse/shelter"],
   ["budget", "Fits <$1M"],
+  ["shoal", "Shoal draft"],
+  ["seakindly", "Sea-kindly"],
 ];
 
 const CATEGORIES = [

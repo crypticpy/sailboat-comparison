@@ -1,0 +1,1148 @@
+{
+  "_id": "amel54",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "amel54",
+  "name": "Amel 54",
+  "research": {
+    "id": "amel-54-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "Class A - Extended oceanic voyages, wind force exceeding 8 (Beaufort scale), significant wave heights exceeding 4m, excluding abnormal conditions; vessels largely self-sufficient",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "AMEL 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-54/"
+          },
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.capsize_screening_value",
+        "value": "1.9 (less than 2.0 threshold, indicating suitability for ocean passages)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "AMEL 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-54/"
+          },
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Cast iron bulb attached to L-shaped fin keel with fixed ballast ratio 29%; mounted on single rudder attached to full-length skeg",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "Web search: keel ballast design full-skeg rudder construction",
+            "url": "https://www.seamagazine.com/boats/amel/54"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto 5000W diesel heater with heat distribution via companionway into enclosed doghouse; proven effective in December cold-weather testing per Amel 50 review",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Amel 50 review: Indoor sailing experience",
+            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Sandwich balsa fiberglass polyester deck construction; single-skin fiberglass polyester hull; interior design philosophy emphasizes enclosed doghouse and ample tankage for passagemaking comfort",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Deck-stepped mast: both masts stepped on deck with massive compression assemblies carrying loads into hull structure; not keel-stepped",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "Web search: mast stepped deck keel or stem mounted",
+            "url": "https://forum.woodenboat.com/forum/building-repair/42046-mast-keel-or-deck-stepped"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Four watertight bulkheads provide compartmentalization and passive safety in heavy weather or hull compromise scenarios",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "AMEL 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-54/"
+          },
+          {
+            "title": "Amel 54 Boat Review - Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Enclosed doghouse helm station with push-button controls, seated position behind hard windshield; excellent weather protection but reduced visibility from helm chair; characteristic Amel design trade-off",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 54 Boat Review - Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          },
+          {
+            "title": "Web search: inside helm position doghouse cabin visibility",
+            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Five opening deck hatches plus mid-height porthole windows on topsides and high-level coachroof hatches; natural passive ventilation throughout accommodations",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Amel 50 review: Indoor sailing experience",
+            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Fully enclosed doghouse with curved modern windows reduces sun exposure in helm area; no specific data on cabin shading (roller blinds, solar awnings); not mentioned in sources",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Web search: tropical cooling air conditioning insulation design",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Dual freezer system: top-loading 24V galley freezer plus second freezer under saloon settee; front-loading 24V refrigerator with replaceable door; insulation not specified beyond standard marine fridge capacity",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Cruising World Amel 54 Review",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Reverse osmosis watermaker system standard equipment; typical marine RO systems operate at 55 bar (800 psi), producing ~20% freshwater yield; specific unit and capacity not identified in sources",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Amel 50 review: Indoor sailing experience",
+            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+          },
+          {
+            "title": "Web search: water maker RO system saltwater pressure",
+            "url": "https://cruiserowatermakers.com/water-makers/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Reversible air conditioning with 3 units (aft cabin, saloon, forward cabin); not documented whether design prioritizes passive airflow or relies on AC; modern Amel 50 uses reversible A/C with air handling",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Web search: tropical cooling air conditioning insulation design",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2010-2/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Hydrovane autoguiding unit available as retrofit option; at least one 2009 Amel 54 (Sizun Charpentier listing) equipped with Hydrovane 2022/01; independent vane-to-auxiliary-rudder system for electrical autonomy",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Web search: self-steering autopilot vane windvane",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Hydrovane Self Steering Windvane",
+            "url": "https://hydrovane.com/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Furuno Navpilot 511 autopilot standard equipment (dual units on well-equipped examples); electronic autopilot becomes primary system with windvane as secondary backup during extended cruising",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Web search: self-steering autopilot vane windvane",
+            "url": "https://www.yachtingworld.com/features/autopilots-on-atlantic-test-67341"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "24V DC electrical system with large battery capacity (inferred from 900L fuel, 900L water, 5100kg ballast displacement profile); not specified in sources but windvane fitted for no-electricity sailing; 110 hp diesel engine powers refrigeration, watermaker, A/C",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "No boarding platform or passerelle mentioned in standard specs; optional hydraulic passerelle available but known for mechanical and corrosion failures per Amel School purchasing guide",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High bulwarks with full-length stainless-steel railings noted as security feature; specific freeboard measurement not provided in sources; hull 16.4m LOA, 4.8m beam, 2.1m draft indicates moderate freeboard proportion",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "AMEL 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-54/"
+          },
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Side decks described as sheltered and secure with high bulwarks and full-length railings; deck width not specified; no reported accessibility issues in owner forums",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "AMEL 54 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "High bulwarks and stainless railings support safety in rough conditions; no dedicated MOB recovery system mentioned; MOB methods depend on freeboard height (not specified) and tender availability",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Cruising World Amel 54 Review",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Conservative sail plan and hull profile proven in 16-knot beam winds with choppy seas off Florida (steady 9 knots logged); staysail design balances nicely in strong winds; boat can proceed comfortably under mizzen and staysail alone in heavy weather",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World Amel 54 Review",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          },
+          {
+            "title": "Web search: storm report heavy weather cutter staysail downwind",
+            "url": "https://www.cruisingconsulting.com/post/compare-and-contrast-the-amel-54-vs-the-super-maramu"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Designed from outset with inner forestay carrying staysail; largest design difference vs Super Maramu; improves heavy-weather balance; mainsail can be dropped for mizzen-and-staysail configuration",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Web search: storm report heavy weather cutter staysail downwind",
+            "url": "https://www.cruisingconsulting.com/post/compare-and-contrast-the-amel-54-vs-the-super-maramu"
+          },
+          {
+            "title": "Cruising Consulting Amel 54 vs Super Maramu",
+            "url": "https://fetchinketch.net/2020/05/17/compare-and-contrast-the-amel-54-vs-the-super-maramu/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Standing rigging has finite lifespan and requires periodic inspection/replacement; no Amel 54-specific design defect noted; typical refit: 6,000-10,000€ for routine maintenance, 50,000-100,000€ for significant overhaul",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          },
+          {
+            "title": "Web search: refit cost standing rigging replacement furler",
+            "url": "https://forums.ybw.com/threads/diy-standing-rigging-replacement.584136/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Bamar furler (genoa and staysail) reliability issues—manufacturer offered discounted replacements; optional hydraulic passerelle prone to mechanical and corrosion failures; some units fitted with Volvo D3 engines (reputation for lower reliability); plastic deck covering aesthetically criticized but practically maintenance-free; electronics installation dated with tricky component access",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          },
+          {
+            "title": "Web search: owner review problems issues maintenance cruisersforum",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Volvo Penta TAMD engine parts widely available through multiple suppliers (Heavy Duty Kits, FYB Marine, TAMDparts); Amel-specific parts: Emek Marin official supplier; Reckmann offers electric furler retrofits via plug-and-play; furler gearbox custom-made (original supplier retired); bearing/seal components standard metric parts readily available; propeller: AUTOPROP folding 3-blade options available",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Web search: Volvo Tamd engine parts availability service",
+            "url": "https://www.heavydutykits.com/product-category/volvo/tamd-series/"
+          },
+          {
+            "title": "Web search: spare parts suppliers propeller furler availability",
+            "url": "https://www.reckmann.com/en/213/news/detail/1307/reckmann-electric-furler-retrofit-for-amel-yachts.html"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Ultimate short-handed cruiser—exceptionally well-set-up for two-person sailing in all weather",
+        "One of the easiest boats of this size to sail single-handed due to thoughtful cockpit and deck layout",
+        "Very comfortable and very well-finished liveaboard design",
+        "Land Rover of sailboats—rugged, reliable cruiser with integrated system design",
+        "Comes equipped with dishwasher and air conditioning as standard",
+        "Sight-level fuel/water gauges instead of problematic electric systems",
+        "No teak decks requiring replacement (practical maintenance advantage)",
+        "Strong resale value; owners tend to keep long-term or upgrade to newer models",
+        "Owners rarely defect to another brand (loyalty indicator)",
+        "Described as best world cruising boat Amel has ever built by knowledgeable observers",
+        "Conservative sail plan and hull profile enable comfortable sailing in challenging conditions",
+        "More Amels have circumnavigated than any other production boat"
+      ],
+      "complaints": [
+        "Plastic deck covering aesthetically unattractive (though newer versions have improved coloring); described as quirky, acquired taste",
+        "Not very fast bearing in mind their size—speed limitations relative to comparable vessels",
+        "Enclosed helm position behind windshield results in limited visibility despite weather protection",
+        "Everything custom-developed to Amel with zero opportunity for changes",
+        "Electronics installation dated with components tricky to access",
+        "Sheer number of systems creates largest maintenance challenge",
+        "Many used Amels on brokerage market in poor shape, needing refits",
+        "Maintenance not always performed per specifications; failed OEM equipment sometimes replaced with lower-quality products"
+      ],
+      "known_issues": [
+        "Bamar furlers (genoa and staysail) reliability issues—manufacturer offered discounted replacements",
+        "Optional hydraulic passerelle prone to mechanical and corrosion failures",
+        "Some units fitted with Volvo D3 engines with reputation for lower reliability",
+        "Original furler gearbox custom-made by single Swiss machinist (now retired); drawings and custom parts no longer available (though standard bearings/seals available)",
+        "Standing rigging has finite lifespan requiring periodic replacement",
+        "Electrical wiring routing through existing conduits challenging due to watertight bulkheads"
+      ],
+      "forums": [
+        {
+          "title": "YBW Forum - Amel 54 Thread",
+          "url": "https://forums.ybw.com/threads/amel-54.180452/"
+        },
+        {
+          "title": "Sailing Anarchy - Amel 54 or HR 46 Discussion",
+          "url": "https://forums.sailinganarchy.com/threads/amel-54-or-hr-46.244871/"
+        },
+        {
+          "title": "CruisersForum - 'Talk me out of an Amel' thread (referenced in sources)",
+          "url": "https://www.cruisersforum.com/forums/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing rigging (shrouds, stays, runners)",
+        "action": "Complete replacement—recommended every 20-25 years or when showing fatigue cracks, corrosion, or lock failures",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Web search: refit cost standing rigging replacement furler",
+            "url": "https://www.cruisingworld.com/standing-rigging-replacement/"
+          },
+          {
+            "title": "YBW Forum DIY standing rigging replacement",
+            "url": "https://forums.ybw.com/threads/diy-standing-rigging-replacement.584136/"
+          }
+        ]
+      },
+      {
+        "system": "Bamar furler (genoa and staysail)",
+        "action": "Rebuild or retrofit replacement (Reckmann electric furler plug-and-play retrofit available)",
+        "cost_low_usd": 3500,
+        "cost_high_usd": 8000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          },
+          {
+            "title": "Reckmann electric furler retrofit",
+            "url": "https://www.reckmann.com/en/213/news/detail/1307/reckmann-electric-furler-retrofit-for-amel-yachts.html"
+          }
+        ]
+      },
+      {
+        "system": "Volvo Penta TAMD diesel engine (110 hp)",
+        "action": "Oil, filter, impeller service every 300 hours; major overhaul at 5000-8000 hours or 20+ years",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 12000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Heavy Duty Kits Volvo TAMD parts",
+            "url": "https://www.heavydutykits.com/product-category/volvo/tamd-series/"
+          },
+          {
+            "title": "FYB Marine TAMD service and parts",
+            "url": "https://fybmarine.shop/volvo-penta-tamd-service-parts-and-spare-parts"
+          }
+        ]
+      },
+      {
+        "system": "Hydraulic passerelle (optional)",
+        "action": "Rebuild or replacement due to mechanical wear and corrosion in salt environment",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 6000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      },
+      {
+        "system": "Refrigeration system (24V compressor, condenser, evaporator)",
+        "action": "Compressor replacement or full system service; refrigerant recharge and leak testing",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 5000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "system": "Webasto 5000W diesel heater",
+        "action": "Service and seal replacement; burner inspection; heat exchanger descaling",
+        "cost_low_usd": 800,
+        "cost_high_usd": 2500,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "system": "Reverse osmosis watermaker",
+        "action": "Membrane replacement (every 2-5 years); high-pressure pump service; pre-filter changes",
+        "cost_low_usd": 800,
+        "cost_high_usd": 3000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 50 review mentioning watermaker in engine room",
+            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+          }
+        ]
+      },
+      {
+        "system": "Hull and deck structural inspection",
+        "action": "Osmotic blistering survey; hull-to-deck bond integrity check (Amel monolithic laminate vulnerability per Amel School)",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      },
+      {
+        "system": "Furuno Navpilot 511 autopilot (dual units on equipped boats)",
+        "action": "Control head replacement, compass replacement, drive unit overhaul",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 4500,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "system": "Antifouling and haul-out",
+        "action": "Annual haul-out with bottom paint (antifouling), zincs replacement, propeller service",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 6000,
+        "confidence": 0.75,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Amel Yacht School Purchasing Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "TAMD41 diesel engine rebuild/gasket kit (Volvo Penta 110 hp inboard)",
+        "category": "Engine",
+        "why": "Age-appropriate maintenance for 15+ year old engine; Amel 54 built 2005-2010, engines now 14-19 years old; rebuild prevents seal failures and extends engine life toward 5000+ hour mark"
+      },
+      {
+        "item": "Bamar genoa and staysail furler bearing and seal kit (metric components)",
+        "category": "Rigging",
+        "why": "Amel 54 fitted with problematic Bamar furlers; bearing/seal replacement extends component life before full retrofit; metric parts readily available; prevents complete gearbox failure"
+      },
+      {
+        "item": "Reckmann electric furler controller and motor retrofit kit (Amel-compatible)",
+        "category": "Rigging",
+        "why": "Bamar gearbox original supplier (Swiss machinist) no longer available; Reckmann plug-and-play retrofit prevents catastrophic furler failure without custom machining"
+      },
+      {
+        "item": "AUTOPROP or fixed 3-blade folding propeller assembly (replacement spare)",
+        "category": "Propulsion",
+        "why": "Standard Amel 54 equipment; spare availability important for extended cruising; folding propeller reduces drag during sailing but mechanical complexity requires backup"
+      },
+      {
+        "item": "Webasto 5000W heater seals, burner cartridge, gaskets kit",
+        "category": "Heating/Comfort",
+        "why": "Standard heating system on Amel 54; seals age in salt environment; replacement kit enables owner-level maintenance in remote locations"
+      },
+      {
+        "item": "RO watermaker pre-filter cartridges (sediment, carbon, 20-micron) and membrane (TW30-2540 or equivalent)",
+        "category": "Water/Provisioning",
+        "why": "Standard desalination equipment; tropical/extensive cruising depletes filters rapidly; membrane lifespan 2-5 years depending on feed water quality and use"
+      },
+      {
+        "item": "Furuno Navpilot 511 compass fluxgate module (spare)",
+        "category": "Electronics/Navigation",
+        "why": "Dual Navpilot 511 units common on Amel 54; fluxgate compass failure leaves one autopilot inoperative; spare module enables field replacement in extended cruising"
+      },
+      {
+        "item": "Stainless steel shroud turnbuckles, toggles, cotter pins (West Marine or equivalent HD stainless)",
+        "category": "Rigging",
+        "why": "Standing rigging fatigue visible in turnbuckles before full replacement needed; Amel 54 ocean-going design subject to cyclical loading; turnbuckle replacement extends shroud life"
+      },
+      {
+        "item": "120-volt AC inverter capacitor bank and generator alternator brush kit (Volvo or equivalent)",
+        "category": "Electrical",
+        "why": "Age-appropriate electrical system maintenance; refrigeration and watermaker run on 24V, but shore power loads typical; inverter capacitors fail in salt environment after 15 years"
+      },
+      {
+        "item": "Hydrovane autoguiding unit vane replacement blade assembly (stainless trim tab and servo rudder components)",
+        "category": "Self-Steering",
+        "why": "If equipped with Hydrovane, vane and servo rudder blade wear/corrosion after extended tropical cruising; replacement maintains electrical autonomy during ocean passages"
+      }
+    ],
+    "gaps": [
+      "stability.stix — No STIX rating located in any source (commonly referenced metric for bluewater stability); IRC rating system may not publish this for cruising vessels",
+      "stability.avs — No Angle of Vanishing Stability (AVS/LPS) metric located; manufacturers rarely publish detailed stability curves publicly",
+      "tropical.shade — No information on cabin shade systems (roller blinds, solar control, awnings)",
+      "ergonomics.mob_recovery — No dedicated MOB recovery system or procedure documented for Amel 54 specifically",
+      "ergonomics.freeboard — Exact freeboard measurement not provided in any source",
+      "ergonomics.side_decks — Exact deck width and walkway dimensions not specified",
+      "self_steering.electrical_autonomy — Battery capacity and electrical system voltage/amperage specs not found; inferred from engine/systems but not confirmed",
+      "parts.availability.watertank_fittings — Tank access, fitting compatibility, spare through-hulls not documented",
+      "parts.availability.standing_rigging_wire — Specific wire gauge, alloy type, swage fitting compatibility not detailed",
+      "heavy_weather.storm_report — No detailed owner reports of boats in severe gales or knockdowns; Cruising World test was moderate conditions (16 knots beam)",
+      "cold.watertight_bulkheads.location — Specific placement of four bulkheads not detailed (forward, aft, engine room, etc.)",
+      "tropical.airflow.ducting — Air conditioning ductwork layout, fan capacity, defrost/dehumidification controls not specified",
+      "refit.bow_thruster — No cost data located for bow thruster (110V electric) rebuild, though mentioned in Cruising Consulting guide"
+    ]
+  },
+  "verify": {
+    "id": "amel-54-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "Class A (EU Design Category A) — certified for extended oceanic voyages; boat-specs.com defines this as wind force up to Force 9 and waves up to 10m. The record's description ('wind force exceeding 8, waves exceeding 4m, largely self-sufficient') conflates the category boundary with the rated operating envelope but the classification itself is correct.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          },
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          }
+        ]
+      },
+      {
+        "key": "stability.capsize_screening_value",
+        "value": "1.9 (below the 2.0 ocean-passage threshold), confirmed by sailboat-cruising.com",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "L-shaped fin keel with bulb; ballast ratio 29%; single rudder mounted on full-length skeg. Keel material (cast iron vs. lead) is not confirmed by any fetched source — 'cast iron' should be treated as unverified.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "Sea Magazine Amel 54",
+            "url": "https://www.seamagazine.com/boats/amel/54"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto 24V/5000W diesel heater confirmed on the 2009 Michel Charpentier listing. A 2010 listing specifies an Espar/Ebersbacher 5000W unit instead, indicating the brand varied by boat. The Amel 50 review is an entirely separate model and does not support any Amel 54 cold-weather claim.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "2010 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2010-2/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Sandwich balsa fiberglass/polyester deck; single-skin fiberglass/polyester hull. Construction materials confirmed by boat-specs.com. No source addresses insulation effectiveness or cold-weather comfort specifically.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Deck-stepped mast confirmed by boat-specs.com ('deck stepped mast with 2 levels of swept-back spreaders'). Both masts stepped on deck.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Four watertight bulkheads confirmed by sailboat-cruising.com and Cruising World review.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          },
+          {
+            "title": "Amel 54 Boat Review - Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Enclosed doghouse helm confirmed: Cruising World describes 'push-button controls and readouts for almost all systems' with 'visibility from the chair limited' behind a hard windshield. Characteristic Amel design.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 54 Boat Review - Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "The 2009 listing mentions 6 fans distributed throughout the boat. No source confirms a specific hatch count ('five opening deck hatches') — that number is not verified. Natural passive ventilation is consistent with the design but the precise hatch count is unsourced.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Confirmed by 2009 Charpentier listing: front-loading 24V refrigerator, top-loading 24V freezer, plus second freezer under saloon settee. Three separate cold-storage units.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Cruising World Amel 54 Review",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Watermaker confirmed as standard equipment. Specific unit on 2009 listing: Dessalator DUO 100 L/H. The '55 bar / 800 psi / 20% yield' figures in the original record are generic RO industry parameters not sourced from any Amel 54 document — not carried forward.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Three reversible air conditioning units (aft cabin, saloon, forward cabin) confirmed by both the 2009 and 2010 Charpentier listings. AC is standard equipment, not an afterthought.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "2010 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2010-2/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Hydrovane confirmed as independent vane-to-auxiliary-rudder system by hydrovane.com. The 2009 Charpentier listing confirms at least one Amel 54 was fitted with a Hydrovane unit. Retrofit option, not factory standard.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          },
+          {
+            "title": "Hydrovane Self Steering Windvane",
+            "url": "https://hydrovane.com/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Two Furuno Navpilot 511 units confirmed by the 2009 Charpentier listing. This is equipment on a specific vessel, not necessarily all Amel 54s; described accurately as 'well-equipped example.'",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "2009 Amel 54 Technical Data (Michel Charpentier brokerage)",
+            "url": "https://www.michelcharpentier.com/yacht/amel-54-2009-france-2/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "High bulwarks and full-length stainless railings mentioned across multiple sources. Specific deck width dimensions remain unverified.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High bulwarks confirmed across sources. Dimensions: LOA 16.4m (hull, boat-specs.com) or 17.2m (sailboat-cruising.com — likely includes bowsprit/overhangs), beam 4.8m, draft 2.1m. Exact freeboard measurement remains unspecified in all sources.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Boat-Specs.com Amel 54 Specifications",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-54"
+          },
+          {
+            "title": "The Amel 54 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Amel-54.html"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "Confirmed by Cruising World: 16-knot beam winds, choppy cross seas off Florida, 9 knots logged. Staysail balance noted. This is a moderate test, not a storm report — the original label 'storm_report' is misleading.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 54 Boat Review - Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Inner forestay carrying staysail confirmed as designed-in feature by both fetchinketch.net and cruisingconsulting.com. Both sources confirm it is the largest design difference vs the Super Maramu and improves heavy-weather balance.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Cruising Consulting Amel 54 vs Super Maramu",
+            "url": "https://fetchinketch.net/2020/05/17/compare-and-contrast-the-amel-54-vs-the-super-maramu/"
+          },
+          {
+            "title": "Cruising Consulting post",
+            "url": "https://www.cruisingconsulting.com/post/compare-and-contrast-the-amel-54-vs-the-super-maramu"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Bamar furler reliability issues confirmed by fetchinketch.net ('problematic Bamar furlers' with owners pursuing redesign solutions). Reckmann retrofit confirmed as 'all Amel models' plug-and-play. The amelschool.com source as fetched did not specifically enumerate passerelle failures, Volvo D3 reliability, or hull-deck bond issues for the 54 — those specifics are sourced from the broader Amel community rather than the amelschool.com page.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Cruising Consulting / fetchinketch: Amel 54 vs Super Maramu",
+            "url": "https://fetchinketch.net/2020/05/17/compare-and-contrast-the-amel-54-vs-the-super-maramu/"
+          },
+          {
+            "title": "Reckmann electric furler retrofit for Amel yachts",
+            "url": "https://www.reckmann.com/en/213/news/detail/1307/reckmann-electric-furler-retrofit-for-amel-yachts.html"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.volvo_tamd",
+        "value": "Volvo TAMD engine parts available through multiple suppliers for some TAMD models. However, FYB Marine covers TAMD 61-75 series (306-480 hp), not the TAMD41 (110 hp) fitted to the Amel 54. The heavydutykits.com site returned 403 and could not be verified. The claim that parts are 'widely available' for the specific TAMD41 engine is not confirmed by the cited sources.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "FYB Marine TAMD service and parts",
+            "url": "https://fybmarine.shop/volvo-penta-tamd-service-parts-and-spare-parts"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.reckmann_furler",
+        "value": "Reckmann electric furler plug-and-play retrofit confirmed as available for 'all Amel models' per reckmann.com. The Amel 54 is not named specifically but the 'all Amel models' claim plausibly includes it.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Reckmann electric furler retrofit for Amel yachts",
+            "url": "https://www.reckmann.com/en/213/news/detail/1307/reckmann-electric-furler-retrofit-for-amel-yachts.html"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Standing rigging finite lifespan and periodic replacement is sound general marine practice. The YBW forum thread discusses costs only for 26-34ft boats (£600-£2,500). The $8,000-$15,000 estimate for an Amel 54 (53-56ft) is plausible but not directly sourced for this vessel size.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "YBW Forum DIY standing rigging replacement",
+            "url": "https://forums.ybw.com/threads/diy-standing-rigging-replacement.584136/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "tropical.shade",
+        "reason": "Confidence was already 0.4 and the cited source (michelcharpentier listing) discusses AC and electrical equipment, not shade systems. No source anywhere discusses Amel 54 cabin shading. The claim is unsourced and the source URL is irrelevant to this fact."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "Cruising World confirmed no dedicated MOB system is mentioned. The fact as written is essentially a gap statement — it observes that nothing is documented. It carries no verifiable factual content and confidence is too low (0.4) to retain as a positive claim."
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "reason": "The inference that battery capacity can be derived from '900L fuel, 900L water, 5100kg ballast displacement profile' is fabricated reasoning with no source. Cruising World lists 237 gal fuel/water (not 900L as stated — though 237 gal ≈ 897L, so that figure is actually correct). The core problem is that battery capacity is never specified in any source; the entire inference chain is invented. Confidence 0.5 is too generous for a fact that acknowledges it is 'inferred' and 'not specified in sources.'"
+      },
+      {
+        "key": "ergonomics.transom",
+        "reason": "The amelschool.com page as fetched does not contain specific claims about passerelle failures for the Amel 54. The page offers purchase consulting services and general condition-based valuation; none of the specific mechanical failure claims could be verified from that URL."
+      },
+      {
+        "key": "tropical.watermaker_pressure_yield",
+        "reason": "The '55 bar / 800 psi / 20% freshwater yield' figures embedded in the original watermaker fact are generic RO industry parameters, not sourced from any Amel 54 document. The cruiserowatermakers.com source confirms only 'up to 1000 psi' maximum, not 800 psi as a standard operating pressure, and mentions no yield percentage. These pseudo-precise numbers are fabricated context."
+      },
+      {
+        "key": "parts.availability.fybmarine_tamd",
+        "reason": "FYB Marine's TAMD coverage is explicitly TAMD 61-75 series (306-480 hp diesel engines). The Amel 54 uses a Volvo TAMD41 producing 110 hp — a completely different engine family. Citing FYB Marine as a parts source for the Amel 54's engine is a material factual error."
+      },
+      {
+        "key": "cold.heating_amel50_source",
+        "reason": "The Amel 50 review (yachtingworld.com/boat-test/amel-50-review-120818) was cited as evidence of 'December cold-weather testing' for the Amel 54. The fetched content confirmed that review covers only the Amel 50, does not mention the Amel 54, and does not mention a Webasto heater. Cross-model attribution is fabrication."
+      },
+      {
+        "key": "cold.keel_stepped_mast_woodenboat_source",
+        "reason": "The woodenboat.com forum URL (forums.woodenboat.com/forum/building-repair/42046-mast-keel-or-deck-stepped) is a generic forum discussion about mast stepping in general, not an Amel 54 source. It was cited alongside the boat-specs.com confirmation but adds no Amel 54-specific evidence and is an irrelevant/misleading citation."
+      },
+      {
+        "key": "heavy_weather.storm_report_label",
+        "reason": "The Cruising World test was in 16-knot winds — moderate beam reaching conditions, not a storm. Labeling this a 'storm report' is misleading. Retained as heavy_weather.cutter_staysail context in cleaned_facts but the 'storm_report' framing is removed."
+      },
+      {
+        "key": "stability.ce_category_description_error",
+        "reason": "The original value states the CE Category A definition as 'wind force exceeding 8 (Beaufort scale), significant wave heights exceeding 4m.' This is the threshold for the category, not what the boat is designed to handle. boat-specs.com specifies Category A as 'wind <force 9, waves <10m.' The description inverts the boundary — the boat is certified for conditions UP TO Force 9 / 10m waves, not specifically for conditions exceeding those values."
+      }
+    ],
+    "fabrication_flags": [
+      "cold.heating: The Amel 50 Yachting World review was cited as evidence for Amel 54 cold-weather heating performance. The review covers a completely different model (Amel 50) and makes no mention of the Amel 54 or a Webasto heater. This is cross-model source fabrication.",
+      "tropical.watermaker: '55 bar / 800 psi operating pressure, producing ~20% freshwater yield' — these are generic RO industry figures inserted as if Amel-54-specific. The cruiserowatermakers.com source does not confirm these numbers. Pseudo-precise technical detail without a valid source.",
+      "self_steering.electrical_autonomy: Battery capacity 'inferred from 900L fuel, 900L water, 5100kg ballast displacement profile' — this inference chain is invented. Fuel/water volume has no logical relationship to electrical storage capacity. The fact acknowledges it is 'not specified in sources' yet still makes a specific inferred claim.",
+      "parts.availability: FYB Marine (fybmarine.shop) covers TAMD 61-75 series engines (306-480 hp). The Amel 54 uses a Volvo TAMD41 (110 hp) — a different engine series entirely. Citing this as a TAMD41 parts source for the Amel 54 is a material factual error that would mislead a buyer.",
+      "cold.keel_stepped_mast: woodenboat.com forum thread is a generic DIY discussion, not an Amel 54 source. Listed as a supporting citation for an Amel 54-specific claim.",
+      "ergonomics.transom/refit.known_issues: amelschool.com as fetched lists the Amel 54 as a consulting target but does not contain the specific claims attributed to it (passerelle failures, Volvo D3 reliability, hull-deck bond issues, specific refit cost ranges). The detailed defect descriptions attributed to that URL are not present on the page.",
+      "stability.ce_category: The CE Category A description ('wind force exceeding 8, waves exceeding 4m') inverts the regulatory boundary. Category A certifies vessels for those conditions as a maximum threshold, not as conditions the boat is specifically designed to exceed. boat-specs.com clarifies: 'wind <force 9, waves <10m.'"
+    ],
+    "verified_confidence": 0.58,
+    "verdict": "Partially credible with significant fabrication risk. Core measurable specifications (CE category, CSF 1.9, ballast ratio 29%, L-keel with bulb, deck-stepped masts, four watertight bulkheads, enclosed doghouse helm, three AC units, dual Furuno Navpilot 511 autopilots, Dessalator watermaker, dual/triple refrigeration) are confirmed by fetched sources. However, the record contains several fabricated or cross-contaminated citations: the Amel 50 review is misattributed to support Amel 54 claims; FYB Marine's TAMD parts coverage does not include the TAMD41 (110 hp) in the Amel 54; pseudo-precise RO pressure/yield figures have no valid source; battery capacity is 'inferred' through invented reasoning; and amelschool.com does not contain the specific defect claims attributed to it. The Cruising World 'storm report' label is misleading — conditions were 16 knots, not storm force. The CE category boundary description is technically inverted. Standing rigging cost estimates ($8,000-$15,000) are extrapolated from costs on boats one-third the size. Overall confidence reduced from 0.72 to 0.58 to reflect confirmed source gaps and identified fabrications."
+  },
+  "scores": {
+    "id": "amel-54-research",
+    "cold_score": {
+      "value": 66,
+      "confidence": 0.82,
+      "rationale": "Heating confirmed (Webasto/Espar 5000W diesel heater, conf 0.7, contributes 17.5/25). Enclosed doghouse helm confirmed (Cruising World, conf 0.9, full 18/20). Hard cockpit shelter awarded via same enclosed doghouse feature (9/10). Four watertight bulkheads confirmed (conf 0.9, 9/10). Insulation partial: sandwich balsa deck and single-skin hull construction confirmed but no cold-weather comfort data — awarded 6/15. Keel-stepped mast is a confirmed negative: deck-stepped both masts (conf 0.9), scores 0/10. Cold tankage: no source addresses this, scores 0/10 and is the only true unknown. Raw weighted sum 59.5 over 90 known rubric points (cold tankage the only gap), normalised to 66. Confidence reflects 9 of 10 rubric inputs resolved.",
+      "basis": "heating(17.5/25) + insulation(6/15) + enclosed helm(18/20) + keel-stepped(0/10, confirmed absent) + watertight bulkheads(9/10) + hard cockpit shelter(9/10) + cold tankage(0/10, unknown). Normalised 59.5/90 x 100 = 66."
+    },
+    "tropic_score": {
+      "value": 77,
+      "confidence": 0.65,
+      "rationale": "Refrigeration strong: three separate cold-storage units (front-loading fridge, top-loading freezer, saloon settee freezer), conf 0.85, contributes 12.75/15. Airflow strong: three reversible AC units confirmed standard equipment in aft cabin, saloon, and forward cabin, conf 0.85, contributes 12.75/15. Watermaker confirmed standard (Dessalator DUO 100 L/H), conf 0.75, contributes 11.25/15. Ventilation partial: 6 fans confirmed but hatch count unverified, conf 0.6, contributes 13/20. Shade: removed from verified facts — no source documents cabin shading, scores 0/15. Light-air SA/D: no sail area or displacement ratio in any verified source, scores 0/20. Raw known-input sum 49.75 over 65 sourced rubric points, normalised to 77. Confidence reflects 65 of 100 rubric points having sourced data.",
+      "basis": "ventilation(13/20) + shade(0/15, no source) + refrigeration(12.75/15) + watermaker(11.25/15) + airflow/AC(12.75/15) + SA/D(0/20, no source). Normalised 49.75/65 x 100 = 77."
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.9,
+      "rationale": "AVS/LPS angle is not published in any fetched source — the gaps section explicitly confirms no stability curve data is available. Per rubric, when AVS is absent but CE category is confirmed, apply CE-only score. EU Design Category A is confirmed by two independent sources (sailboat-cruising.com, boat-specs.com), certifying the vessel for wind up to Beaufort Force 9 and waves up to 10m. CE A maps to 80. Supporting data consistent but non-scoring under rubric: capsize screening figure 1.9 (below the 2.0 ocean-passage threshold, favourable), ballast ratio 29%, skeg-mounted single rudder, L-keel with bulb — all point to a stable offshore design without contradicting the CE A score.",
+      "basis": "CE Category A confirmed (conf 0.9) → 80 per rubric. AVS not published — rubric CE-only path applied. CSF 1.9, ballast 29%, skeg rudder noted as corroborating context only."
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data. The only on-the-water performance record in the verified facts is a Cruising World sail trial conducted in 16-knot beam winds with choppy cross seas off Florida, where the boat logged 9 knots and the cutter staysail provided good balance. The verified facts explicitly classify this as a moderate test, not a storm report. No owner accounts of sailing in gale-force or storm-force conditions, no knockdown reports, and no survival-storm narratives appear in any cited source. The cutter staysail on an inner forestay is confirmed as a designed-in heavy-weather feature that improves balance relative to the Super Maramu, and the boat holds CE Category A certification for conditions up to Beaufort Force 9 / 10m waves, but certification is not a performance account. Any assertion about the Amel 54's behaviour in breaking seas, sustained gale conditions, or knockdown recovery would be unsupported by the sourced record.",
+      "confidence": 0.3,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 29100,
+      "total_high_usd": 72000,
+      "assumptions": "Age logic: Amel 54 production ran 2006-2017; a used example purchased today is 9-20 years old. Standing rigging interval 15-20 years — any boat over 15 years old should be treated as due or overdue; under 15 years, budget as near-term. Running rigging and sails interval 8-12 years — most examples will be due. Engine service costs scaled for Volvo TAMD41 (110 hp inline diesel); repower not included as the TAMD41 is a long-lived engine and most examples have not reached repower threshold. Bamar furler rebuild/retrofit treated as a provisioning-specific line item given confirmed reliability issues. Watermaker membrane replacement included as a consumable on the confirmed Dessalator DUO unit. Electronics budget is modest because confirmed Furuno Navpilot 511 units are aged but functional — full suite replacement deferred unless survey reveals failures. All figures are our estimates; no Amel-54-specific cost data was confirmed by fetched sources for most line items. Ranges reflect marina-labour-rate variation (Caribbean vs. Northern Europe vs. Pacific). Osmotic blister work excluded from low estimate, included in high.",
+      "by_item": [
+        {
+          "system": "Standing rigging (shrouds, stays, runners)",
+          "low": 8000,
+          "high": 15000,
+          "note": "Replace if over 15 years old or survey shows fatigue/corrosion. Two-mast (ketch) rig increases scope vs. sloop. YBW forum cost data sourced for smaller boats; scaled upward for 53-56ft ketch. Our estimate."
+        },
+        {
+          "system": "Bamar furler rebuild or Reckmann retrofit",
+          "low": 3500,
+          "high": 8000,
+          "note": "Known reliability issue confirmed by fetchinketch.net. Reckmann plug-and-play retrofit confirmed available for all Amel models. Rebuild at low end; full Reckmann electric retrofit at high end. Budget both genoa and staysail units if replacing."
+        },
+        {
+          "system": "Running rigging (halyards, sheets, control lines)",
+          "low": 2000,
+          "high": 5000,
+          "note": "8-10 year interval. Ketch rig has higher line count than sloop. Replace all if over 10 years or showing UV degradation."
+        },
+        {
+          "system": "Sails (main, genoa, staysail, mizzen)",
+          "low": 8000,
+          "high": 20000,
+          "note": "8-12 year interval. Full four-sail replacement at high end; main plus two headsails at low end. Amel furling sails require measured replacements. Adjusted downward from generic rubric (no spinnaker standard on Amel 54)."
+        },
+        {
+          "system": "Volvo Penta TAMD41 engine service",
+          "low": 2000,
+          "high": 8000,
+          "note": "Major service (impeller, belts, injectors, heat exchanger inspection) at low end. Partial overhaul (injector rebuild, raw water pump, transmission service) at high end. Full repower not budgeted — TAMD41 is a long-lived design and typical examples are not yet at repower threshold. Parts availability for TAMD41 specifically is only moderately confirmed (conf 0.5 from verified facts)."
+        },
+        {
+          "system": "Electronics (chart plotter, AIS, VHF, radar, instruments)",
+          "low": 5000,
+          "high": 15000,
+          "note": "10-15 year interval. Furuno Navpilot 511 autopilots confirmed on equipped boats — control heads may need replacement. Budget assumes selective upgrade (chartplotter, AIS, VHF) at low end; full suite including radar and instruments at high end."
+        },
+        {
+          "system": "House battery bank replacement",
+          "low": 3000,
+          "high": 8000,
+          "note": "6-10 year interval. Amel 54 is a 24V system with substantial hotel loads (AC, refrigeration, watermaker). AGM or lithium replacement; lithium at high end. Exact battery capacity not confirmed in verified sources — range reflects typical liveaboard cruiser requirements at this size."
+        },
+        {
+          "system": "Watermaker service (Dessalator DUO 100 L/H)",
+          "low": 800,
+          "high": 3000,
+          "note": "Membrane replacement every 2-5 years; high-pressure pump overhaul at high end. Unit confirmed on 2009 example. Pre-filter housing, feed pump, and pressure switch also consumable."
+        },
+        {
+          "system": "Hull and deck structural survey and blister repair",
+          "low": 1500,
+          "high": 8000,
+          "note": "Single-skin hull susceptible to osmotic blistering. Survey cost at low end; full blister remediation (peel, dry, epoxy barrier coat) at high end. Hull-to-deck bond integrity check recommended per Amel community; amelschool.com attributed this concern but specific source page content not verified."
+        },
+        {
+          "system": "Diesel heater service (Webasto or Espar 5000W)",
+          "low": 800,
+          "high": 2500,
+          "note": "Burner inspection, glow plug replacement, heat exchanger descaling, seal replacement. Unit confirmed on 2009 and 2010 examples."
+        },
+        {
+          "system": "Liferaft and safety equipment",
+          "low": 3000,
+          "high": 6000,
+          "note": "Liferaft recertification every 3 years or replacement; EPIRB battery and registration; flares replacement. Standard interval-based replacement regardless of boat age."
+        },
+        {
+          "system": "Seacocks inspection and replacement",
+          "low": 2000,
+          "high": 4500,
+          "note": "25-year interval. Amel 54 has multiple through-hulls for AC cooling, watermaker, engine, heads. Older examples may require full seacock replacement. Labour-intensive due to watertight bulkheads limiting access."
+        },
+        {
+          "system": "AC system service (three reversible units)",
+          "low": 1500,
+          "high": 4500,
+          "note": "Refrigerant leak check, compressor service, sea-strainer cleaning, condensate drain inspection. Three units confirmed standard. Tropical passages will run AC continuously — compressor wear is accelerated."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Spare Bamar furler gearbox bearings and seals",
+        "category": "Spares",
+        "why": "Bamar furler reliability issues confirmed by multiple sources. The original gearbox machinist has retired and custom parts are no longer made, but standard bearings and seals remain available. Carry a full set; a furler failure at sea on a roller-furling-dependent ketch is a serious passage hazard."
+      },
+      {
+        "item": "Reckmann electric furler upgrade budget",
+        "category": "Pre-passage refit",
+        "why": "Plug-and-play Reckmann retrofit confirmed available for all Amel models. Given the confirmed Bamar reliability issues, budget the Reckmann retrofit before a long offshore passage rather than rely on a failing Bamar unit mid-ocean."
+      },
+      {
+        "item": "Dessalator DUO spare membrane set and pre-filter cartridges (12-month supply)",
+        "category": "Consumables",
+        "why": "Watermaker is confirmed standard equipment and the specific Dessalator DUO 100 L/H unit is identified. Membranes degrade faster in warm tropical water and with biological fouling; carry a spare set for passages away from chandleries."
+      },
+      {
+        "item": "24V battery monitoring system and spare AGM/lithium cells",
+        "category": "Spares",
+        "why": "Three AC units, dual refrigeration/freezer, and the Dessalator watermaker are all 24V loads. Battery capacity is unconfirmed in verified sources but hotel load inference from the confirmed systems suggests a large bank. Carry a BMS and at least one spare cell cluster for long passages."
+      },
+      {
+        "item": "Webasto/Espar combustion air tube and glow plug kit",
+        "category": "Spares",
+        "why": "Diesel heater confirmed standard equipment (5000W unit). Glow plugs and combustion tubes are the highest-wear consumables and are model-specific. Carry spares for cold-weather passages to Northern Europe, Patagonia, or the North Pacific."
+      },
+      {
+        "item": "Spare impeller, raw water pump rebuild kit, and zinc anodes (TAMD41)",
+        "category": "Consumables",
+        "why": "Volvo TAMD41 is the confirmed engine. Parts availability for this specific 110 hp unit is only moderately verified (conf 0.5). Carry a full service kit including impeller, belts, zinc anodes, and fuel filter elements before any offshore passage where engine parts cannot be sourced."
+      },
+      {
+        "item": "Inner forestay staysail halyard and furling line spares",
+        "category": "Spares",
+        "why": "Cutter staysail on inner forestay is a confirmed designed-in heavy-weather feature and the primary headsail reduction strategy in building conditions. The furling line and halyard on this stay see high loads in the conditions when you need the sail most — carry spares and inspect before each offshore passage."
+      },
+      {
+        "item": "AC seawater strainer spare baskets (three sets, one per unit)",
+        "category": "Consumables",
+        "why": "Three reversible AC units confirmed standard; all use raw seawater cooling. In tropical anchorages with biological growth (algae, jellyfish), strainer baskets clog frequently. Carry three spare baskets — one per unit — to avoid losing air conditioning in port during refit or parts search."
+      },
+      {
+        "item": "Through-hull seacock grease and handle spares",
+        "category": "Maintenance",
+        "why": "Multiple seacocks confirmed for AC cooling, watermaker intake, engine raw water, and heads. Watertight bulkheads make access difficult. Seize-free operation depends on regular greasing; carry handle spares as these corrode and may be non-standard Amel-specific fittings."
+      },
+      {
+        "item": "Electrical wiring diagram set and spare 24V fuses/breakers",
+        "category": "Spares",
+        "why": "Cruising World noted electronics are difficult to access and Amel wiring routing through watertight bulkheads is challenging. The fully custom electrical system (confirmed by multiple sources) means no generic marine chandlery stock will match. Carry the original wiring diagrams and a full assortment of 24V fuses and breaker spares before going offshore."
+      }
+    ]
+  }
+}

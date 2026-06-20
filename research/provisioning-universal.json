@@ -1,0 +1,582 @@
+{
+  "_doc": "Universal passage-provisioning kit — the gear/spares/stores carried regardless of which boat is chosen. Authored editorial (W3), mission-tuned. The BOAT-SPECIFIC half lives per-boat in research/data/<id>.json -> research.provisioning_specific + scores.provisioning_specific. Keep this list boat-agnostic; anything that depends on a particular engine/rig/system belongs in the boat-specific list.",
+  "mission": {
+    "crew": "2 adults (short-handed couple) + 2 dogs",
+    "route": "Patagonia & high-latitude (cold, remote, williwaws) -> tropics/Polynesia (heat, UV, long ocean passages)",
+    "profile": "Offshore passage-making, long autonomy between resupply, sub-$1M budget",
+    "implications": [
+      "Must self-rescue and self-repair: nearest yard can be 1000+ nm away.",
+      "Two climate extremes -> carry BOTH cold-weather survival and tropical heat/UV management.",
+      "Two dogs aboard add safety, hygiene, medical and stores requirements most lists ignore.",
+      "Short-handed -> redundancy in self-steering, reefing, and anchoring so one person can manage everything."
+    ]
+  },
+  "priority_key": {
+    "essential": "Do not leave the dock for an ocean passage without it.",
+    "recommended": "Strongly advised for this route; a few crews skip it and regret it.",
+    "comfort": "Quality-of-life or convenience; carry if budget/space allow."
+  },
+  "categories": [
+    {
+      "key": "safety_survival",
+      "label": "Safety & survival",
+      "note": "Offshore, remote, two climate extremes. Sized for 4 souls + 2 dogs.",
+      "items": [
+        {
+          "item": "Offshore liferaft (ISO 9650-1 / SOLAS-B), 4+ person, valise or canister",
+          "why": "Abandon-ship platform; service interval and packing matter more than headline capacity.",
+          "spec": "Add capacity for dogs' weight + grab-bag bulk; carry the dogs in, not towed.",
+          "priority": "essential"
+        },
+        {
+          "item": "Ditch bag / grab bag (floating, lashed by companionway)",
+          "why": "Everything you need in the 30 seconds before stepping up to the raft.",
+          "spec": "Contains: handheld GPS, handheld VHF, PLB, flares, water, signalling mirror, whistle, sunblock, space blankets, fishing kit, multitool, copies of passports.",
+          "priority": "essential"
+        },
+        {
+          "item": "406 MHz EPIRB with GPS, registered, auto/manual",
+          "why": "The primary distress alert to SAR from anywhere on the globe.",
+          "spec": "Check battery expiry; register to the vessel with float plan contacts.",
+          "priority": "essential"
+        },
+        {
+          "item": "Personal Locator Beacons (PLB) — one per crew",
+          "why": "Person-overboard at night, short-handed, is the highest-probability fatal event.",
+          "spec": "Worn on the PFD, not stowed.",
+          "priority": "essential"
+        },
+        {
+          "item": "Inflatable PFDs with integrated harness + spray hood + crotch strap — 1 per crew, plus 1 spare",
+          "why": "Auto-inflate, harness clip-in, and a hood to keep spray out of the airway.",
+          "spec": "Fit AIS-MOB beacon + light + whistle to each; service annually.",
+          "priority": "essential"
+        },
+        {
+          "item": "AIS-MOB beacons (one per PFD)",
+          "why": "Puts the casualty's position on your own plotter for a short-handed recovery.",
+          "priority": "essential"
+        },
+        {
+          "item": "Jacklines (bow-to-stern, both sides) + cockpit clip points",
+          "why": "Stay attached without unclipping when moving fore-aft.",
+          "spec": "Webbing run inboard so a tether keeps you ON the boat, not dragging alongside.",
+          "priority": "essential"
+        },
+        {
+          "item": "Tethers — double, elasticated, with overload-indicator clips (1 per crew + spare)",
+          "why": "Clip-in discipline is the single biggest factor in short-handed offshore safety.",
+          "priority": "essential"
+        },
+        {
+          "item": "MOB recovery gear: Lifesling + dedicated halyard/tackle",
+          "why": "A short-handed crew cannot deadlift an exhausted casualty; you need a mechanical-advantage system.",
+          "spec": "Practice the full recovery before departure.",
+          "priority": "essential"
+        },
+        {
+          "item": "Danbuoy + horseshoe + floating light + drogue",
+          "why": "Marks the spot and slows your drift away from it.",
+          "priority": "essential"
+        },
+        {
+          "item": "SOLAS flare pack + laser flare + orange smoke",
+          "why": "Visual distress, day and night; laser flare avoids expiry/percussive hazards.",
+          "priority": "essential"
+        },
+        {
+          "item": "Fire extinguishers (engine bay auto + galley + cabins) + fire blanket",
+          "why": "Engine-room and galley fires are the common causes; auto-discharge unit in the engine space.",
+          "priority": "essential"
+        },
+        {
+          "item": "Storm drogue (series drogue) and/or parachute sea anchor + chafe-proof bridle",
+          "why": "Survival tactics for Southern Ocean / high-latitude gales when running or lying-to.",
+          "spec": "Series (Jordan) drogue for running; para-anchor for lying bow-to. Match to displacement.",
+          "priority": "essential"
+        },
+        {
+          "item": "Emergency tiller + test-fit",
+          "why": "Steering-failure backup; many crews never test it until it's too late.",
+          "priority": "essential"
+        },
+        {
+          "item": "Softwood damage-control plugs (tapered, one per through-hull, tied nearby) + collision mat",
+          "why": "Flooding control after a through-hull or impact failure.",
+          "priority": "essential"
+        },
+        {
+          "item": "High-capacity manual bilge pump + spare diaphragms + dewatering pump",
+          "why": "Electrical bilge pumps fail when the batteries flood; you need a manual fallback and a high-volume option.",
+          "priority": "essential"
+        },
+        {
+          "item": "Radar reflector / active RTE",
+          "why": "Be seen by ships in fog and at night.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Night-vision monocular or thermal camera",
+          "why": "Spotting growlers/ice in Patagonia and unlit craft/containers anywhere.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "ground_tackle",
+      "label": "Ground tackle & mooring",
+      "note": "Anchoring is the primary 'parking' in remote cruising; in Patagonia you anchor + shore-tie nightly.",
+      "items": [
+        {
+          "item": "Primary anchor, oversized new-generation (Rocna/Spade/Mantus class)",
+          "why": "Go one size up from builder spec for high-latitude blows.",
+          "spec": "Sizing is boat-dependent (displacement/windage) -> see boat-specific list for the exact size.",
+          "priority": "essential"
+        },
+        {
+          "item": "Calibrated chain rode, full length + spare",
+          "why": "All-chain for catenary and chafe resistance over rock.",
+          "spec": "Mark every 10 m; carry a splice/spare section.",
+          "priority": "essential"
+        },
+        {
+          "item": "Secondary (kedge) anchor + mixed rode",
+          "why": "Second anchor for Bahamian moor, fouled-primary backup, or kedging off.",
+          "priority": "essential"
+        },
+        {
+          "item": "Storm/third anchor + rode",
+          "why": "When the forecast is genuinely bad and you can't move.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Snubbers/bridles (2) + chain hook + chafe gear",
+          "why": "Take shock load off the windlass and quiet the boat at anchor.",
+          "priority": "essential"
+        },
+        {
+          "item": "Shore-tie kit: 4x long floating lines (60–120 m), rock chocks, ascender, dry bag",
+          "why": "Patagonian caletas require tying to trees/rocks; this kit is non-negotiable there.",
+          "priority": "essential"
+        },
+        {
+          "item": "Anchor trip line + float + kellet (anchor weight)",
+          "why": "Retrieve a fouled anchor over rock/kelp; kellet improves holding in gusts.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Spare windlass parts: gypsy, clutch cones, motor brushes, foot-switch",
+          "why": "A dead windlass short-handed is a serious problem; the wear parts are predictable.",
+          "spec": "Exact gypsy/motor model is boat-specific -> see boat list.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "nav_comms",
+      "label": "Navigation & communications",
+      "note": "Redundant nav + global comms for weather routing in remote waters.",
+      "items": [
+        {
+          "item": "Primary chartplotter + fully independent backup (tablet w/ Navionics + OpenCPN on a laptop)",
+          "why": "Single-plotter failure mid-ocean must not blind you.",
+          "priority": "essential"
+        },
+        {
+          "item": "Paper charts + pilot books for the route + plotting tools",
+          "why": "Final fallback when all electronics die; pilot books carry local knowledge electronics lack.",
+          "spec": "Patagonia channels (RCC/Italian/Patagonia & Tierra del Fuego Nautical Guide), Pacific pilots.",
+          "priority": "essential"
+        },
+        {
+          "item": "Satellite communicator with weather/GRIB + 2-way messaging (Starlink + Iridium GO!/Garmin inReach as backup)",
+          "why": "Weather routing and emergency comms beyond cell/VHF range. Starlink for bandwidth, Iridium for global fallback when Starlink has no coverage/power.",
+          "priority": "essential"
+        },
+        {
+          "item": "SSB/HF receiver (or sat) for weatherfax/nets",
+          "why": "High-latitude weather and cruiser nets; receive-only is cheap insurance.",
+          "priority": "recommended"
+        },
+        {
+          "item": "AIS transceiver (Class B) + handheld VHF/DSC (2, waterproof, floating)",
+          "why": "Collision avoidance + ship comms; handhelds survive a main-set or power failure.",
+          "priority": "essential"
+        },
+        {
+          "item": "Fixed VHF/DSC with masthead + emergency antenna",
+          "why": "Primary short-range comms; emergency antenna for a dismasting.",
+          "priority": "essential"
+        },
+        {
+          "item": "Hand-bearing compass + handheld GPS (in ditch bag)",
+          "why": "Pilotage and a position fix independent of ship's power.",
+          "priority": "essential"
+        },
+        {
+          "item": "Radar (or confirm boat has it) + reflector",
+          "why": "Squalls, shipping, and ice/landfall in poor visibility.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Barometer (recording) + thermometer/hygrometer",
+          "why": "Local trend forecasting between GRIB downloads.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "self_steering_power",
+      "label": "Self-steering, power & water (universal)",
+      "note": "Short-handed redundancy. Boat-specific autopilot/watermaker models live in the boat list.",
+      "items": [
+        {
+          "item": "Wind-vane self-steering (mechanical) + spares",
+          "why": "Steers with zero electrical draw on long downwind passages — critical for a short-handed couple and battery autonomy.",
+          "spec": "Vane TYPE is boat-dependent (transom/rudder geometry) -> boat-specific list.",
+          "priority": "essential"
+        },
+        {
+          "item": "Redundant autopilot capacity (spare drive or full second pilot)",
+          "why": "Autopilot failure mid-passage forces hand-steering 24/7 with only 2 crew.",
+          "priority": "essential"
+        },
+        {
+          "item": "Solar + wind generation already aboard; carry spare charge controller + fuses",
+          "why": "Energy autonomy; controllers are a common silent failure point.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Portable generator or DC-DC redundancy + fuel",
+          "why": "Charge when solar is weak (Patagonia winters) without running the main engine hard.",
+          "priority": "comfort"
+        },
+        {
+          "item": "Watermaker spares: membranes, pre-filters, high-pressure pump seals, pickling chemicals",
+          "why": "Extends water autonomy beyond tankage; the consumables are predictable.",
+          "spec": "Unit model is boat-specific; carry one spare membrane set.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Collapsible jerry cans (water + diesel) + transfer pump + funnel w/ Baja filter",
+          "why": "Top up from shore/dinghy where there's no fuel dock; Baja filter keeps dirty fuel out.",
+          "priority": "essential"
+        },
+        {
+          "item": "Battery monitor + spare house-bank fuses/terminals",
+          "why": "Know your true state-of-charge; corroded terminals mimic a dead bank.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "engine_systems_spares",
+      "label": "Universal engine & systems spares",
+      "note": "Engine-model-specific parts (impellers, belts, injectors) belong in the boat-specific list. These are the truly cross-boat consumables.",
+      "items": [
+        {
+          "item": "Fuel filters/elements (multiple primary + secondary)",
+          "why": "Stirred-up tank sludge in a seaway clogs filters fast; carry many.",
+          "priority": "essential"
+        },
+        {
+          "item": "Assorted hose + double hose clamps (all sizes) + self-fusing silicone tape",
+          "why": "A burst hose or weeping clamp is the most common at-sea repair.",
+          "priority": "essential"
+        },
+        {
+          "item": "Sealants & adhesives: marine 3M 4200/5200, butyl tape, epoxy (fast + slow), thread-lock",
+          "why": "Bedding, leak-stopping, and structural repairs without a yard.",
+          "priority": "essential"
+        },
+        {
+          "item": "Electrical kit: marine wire (gauges), heat-shrink terminals, crimper, fuses, bulbs/LEDs, dielectric grease",
+          "why": "Corrosion and chafe kill wiring offshore; rebuild a circuit at sea.",
+          "priority": "essential"
+        },
+        {
+          "item": "Multimeter + clamp ammeter + circuit tester",
+          "why": "Diagnose electrical faults instead of guessing.",
+          "priority": "essential"
+        },
+        {
+          "item": "Rigging spares: bulldog clamps, spare shackles/blocks, soft shackles, Dyneema, cotter/clevis pins, rigging tape, bosun's chair",
+          "why": "Jury-rig a failed fitting and get up the mast at sea.",
+          "priority": "essential"
+        },
+        {
+          "item": "Emergency standing-rigging repair kit (Sta-Lok/Norseman fittings, wire, cable cutters/hacksaw)",
+          "why": "Replace a failed shroud or cut away a rig after a dismasting.",
+          "spec": "Wire diameter is boat-specific; cutters must match it.",
+          "priority": "essential"
+        },
+        {
+          "item": "Sail repair kit: sailcloth, sticky-back Dacron, palm + needles, waxed thread, webbing, spare batten",
+          "why": "Blown seams and battens are routine on a long passage.",
+          "priority": "essential"
+        },
+        {
+          "item": "Assorted fasteners (316 SS) + tap & die set",
+          "why": "Vibration loosens and loses fasteners; chase damaged threads.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Spare bilge pump + float switches + impellers (general)",
+          "why": "Redundancy on the system that keeps water out.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "tools",
+      "label": "Tools & workshop",
+      "note": "You are the yard. A short-handed crew still needs to do every job.",
+      "items": [
+        {
+          "item": "Comprehensive hand-tool set (metric + imperial), corrosion-protected, in a dry roll",
+          "why": "Most boats mix metric and imperial fasteners.",
+          "priority": "essential"
+        },
+        {
+          "item": "Cordless drill/driver + bits + spare batteries",
+          "why": "Repairs and damage control under time pressure.",
+          "priority": "essential"
+        },
+        {
+          "item": "Vice/Mole grips, hacksaw + blades, files, hand saw, oscillating multitool",
+          "why": "Cut/grip/shape when nothing fits.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Hand-operated rivet gun + assorted rivets",
+          "why": "Aluminium and hardware repairs without power.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Dive kit: mask/fins, weight, spare line cutter, hookah or full tank",
+          "why": "Clear a fouled prop, inspect the keel/rudder, free a snagged anchor — common and unavoidable.",
+          "priority": "essential"
+        },
+        {
+          "item": "Headlamps (red/white) + spare batteries; 12V/USB work light",
+          "why": "Night repairs and watch-keeping without ruining night vision.",
+          "priority": "essential"
+        }
+      ]
+    },
+    {
+      "key": "galley_stores",
+      "label": "Galley, water & food autonomy",
+      "note": "Provision for the longest leg + a safety margin; resupply can be poor and expensive in remote ports.",
+      "items": [
+        {
+          "item": "Long-passage food stores (longest leg + ~50% reserve), shelf-stable + canned + dried",
+          "why": "Pacific legs run 3–4 weeks; carry margin for a slow passage.",
+          "priority": "essential"
+        },
+        {
+          "item": "Pressure cooker + non-skid sea-going cookware + gimbaled-stove fiddle",
+          "why": "Fast, fuel-efficient cooking that stays on the stove in a seaway.",
+          "priority": "essential"
+        },
+        {
+          "item": "Cooking-fuel supply + adapters (propane/butane) + spare regulator/hose + sniffer",
+          "why": "Fittings vary by country; carry adapters and a gas-leak detector.",
+          "priority": "essential"
+        },
+        {
+          "item": "Water treatment: spare filters, purification tablets/drops, UV pen",
+          "why": "Shore water and watermaker backup; giardia/contamination are real in remote stops.",
+          "priority": "essential"
+        },
+        {
+          "item": "Vacuum sealer + ample storage; egg/produce preservation supplies",
+          "why": "Extends fresh-food life on long legs.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Thermos/insulated bottles + jackline-safe mugs",
+          "why": "Hot drinks on cold Patagonian watches without spills.",
+          "priority": "comfort"
+        }
+      ]
+    },
+    {
+      "key": "medical",
+      "label": "Medical & health",
+      "note": "Days from definitive care. Carry a real offshore kit and the training to use it.",
+      "items": [
+        {
+          "item": "Offshore medical kit (trauma + Rx) to a recognised standard, custom-stocked",
+          "why": "Suturing, fracture, burns, and serious-infection capability — not a coastal first-aid box.",
+          "spec": "Build with a doctor; include controlled meds with a prescription letter.",
+          "priority": "essential"
+        },
+        {
+          "item": "Prescription antibiotics (broad spectrum), strong analgesics, antiemetics",
+          "why": "Infection and pain management when evacuation is days away.",
+          "priority": "essential"
+        },
+        {
+          "item": "Telemedicine subscription + medical guide (e.g. ship's medical guide)",
+          "why": "Expert guidance over sat comms turns a crisis into a managed problem.",
+          "priority": "essential"
+        },
+        {
+          "item": "Seasickness meds (multiple types incl. suppository/patch)",
+          "why": "An incapacitated half of a 2-person crew is a safety emergency.",
+          "priority": "essential"
+        },
+        {
+          "item": "Personal Rx (months of supply) + spare glasses + dental emergency kit",
+          "why": "No pharmacies mid-ocean; a lost filling/abscess is debilitating.",
+          "priority": "essential"
+        },
+        {
+          "item": "Sun & cold injury care: high-SPF, zinc, lip balm, aloe; plus frostnip/hypothermia supplies",
+          "why": "Both climate extremes have their own injury profile.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "dogs",
+      "label": "Dog crew (2 dogs) — often-ignored essentials",
+      "note": "Two dogs add real safety, hygiene, medical, and admin load. This is bespoke to this mission.",
+      "items": [
+        {
+          "item": "Canine PFDs with lift handle — 1 per dog + spare",
+          "why": "A dog overboard, short-handed, in cold water is recoverable only with a handle and flotation.",
+          "priority": "essential"
+        },
+        {
+          "item": "Dog harness + secure cockpit tether/clip points",
+          "why": "Keep dogs attached on deck in a seaway, like the human crew.",
+          "priority": "essential"
+        },
+        {
+          "item": "Boarding aid: ramp/steps/sling for dog + human MOB-style hoist",
+          "why": "Dinghy and MOB re-boarding for animals that can't climb a transom.",
+          "priority": "essential"
+        },
+        {
+          "item": "Onboard toileting solution (artificial-turf pad + securing + rinse system)",
+          "why": "Multi-week passages with no shore stops; train before departure.",
+          "priority": "essential"
+        },
+        {
+          "item": "Dog food stockpile (longest leg + reserve) + sealed storage + bowls (non-skid)",
+          "why": "Brand availability is poor abroad; sudden diet changes cause GI illness at sea.",
+          "priority": "essential"
+        },
+        {
+          "item": "Canine medical: vet first-aid kit, parasite/tick/heartworm meds, prescriptions, sedation (vet-advised)",
+          "why": "Vet care is unavailable mid-ocean; storms may require calming.",
+          "priority": "essential"
+        },
+        {
+          "item": "Import paperwork: microchip, rabies titer (FAVN), vaccination records, health certificates per country",
+          "why": "Pacific nations (and Chile/NZ/Australia) have strict, slow, non-negotiable pet-import rules; getting this wrong can mean quarantine or refusal.",
+          "spec": "Plan FAVN titer timing MONTHS ahead — it's the long-lead admin item.",
+          "priority": "essential"
+        },
+        {
+          "item": "Cold + heat management: dog coats/booties (Patagonia), cooling mats + shade + fresh water (tropics)",
+          "why": "Dogs handle both extremes worse than the humans; paws burn on hot decks, hypothermia in cold.",
+          "priority": "recommended"
+        }
+      ]
+    },
+    {
+      "key": "crew_comfort_clothing",
+      "label": "Crew clothing & comfort (two climates)",
+      "note": "One wardrobe must cover sub-freezing Southern Ocean watches and equatorial heat.",
+      "items": [
+        {
+          "item": "Offshore foul-weather gear (ocean-grade) + thermal base/mid layers + sea boots + gloves",
+          "why": "Wet + cold + windchill on watch is a hypothermia and decision-quality risk.",
+          "priority": "essential"
+        },
+        {
+          "item": "Cold-weather extras: hats, neck gaiters, hand warmers, spare dry gloves",
+          "why": "Patagonia watches are brutal; dry hands keep you safe on deck.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Tropical sun protection: UPF clothing, wide-brim hats, polarized sunglasses, reef-safe sunblock",
+          "why": "Equatorial UV exposure over weeks causes real harm.",
+          "priority": "essential"
+        },
+        {
+          "item": "Lee-cloths/bunk straps + good offshore bedding",
+          "why": "Sleep is a safety system for a 2-person watch rotation.",
+          "priority": "essential"
+        },
+        {
+          "item": "Personal dry bags + quick-dry towels",
+          "why": "Keeping kit dry is morale and health.",
+          "priority": "comfort"
+        }
+      ]
+    },
+    {
+      "key": "dinghy_shore",
+      "label": "Tender & shore logistics",
+      "note": "Your car, truck, and lifeboat-of-convenience in remote anchorages.",
+      "items": [
+        {
+          "item": "Dinghy + reliable outboard + oars + repair kit + spare prop/shear pins",
+          "why": "Only way ashore in 99% of remote anchorages; must be self-repairable.",
+          "priority": "essential"
+        },
+        {
+          "item": "Dinghy anchor + long painter + wheels + lifting bridle",
+          "why": "Land on surf beaches, secure against tide, hoist aboard for passages.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Portable fuel + siphon + spare outboard spark plugs/impeller",
+          "why": "Outboards foul and overheat; the wear parts are cheap and tiny.",
+          "priority": "recommended"
+        },
+        {
+          "item": "Folding cart + heavy-duty jerry/water jugs",
+          "why": "Haul fuel, water, and provisions long distances from remote landings.",
+          "priority": "comfort"
+        }
+      ]
+    },
+    {
+      "key": "documentation_admin",
+      "label": "Documentation, admin & money",
+      "note": "Bureaucracy is a passage hazard; missing papers strand you.",
+      "items": [
+        {
+          "item": "Vessel papers: registration/documentation, radio licence, insurance (offshore + the right cruising grounds), proof of ownership",
+          "why": "Required at every clearance; insurance must explicitly cover high latitudes and ocean passages.",
+          "priority": "essential"
+        },
+        {
+          "item": "Crew docs: passports (6+ mo validity), visas, vaccination records, crew list",
+          "why": "Entry refusal for a short-handed couple is a real risk without correct paperwork.",
+          "priority": "essential"
+        },
+        {
+          "item": "Courtesy + Q flags for the route; clearance/zarpe folder",
+          "why": "Required on arrival; a zarpe (departure clearance) is demanded by the next port.",
+          "priority": "essential"
+        },
+        {
+          "item": "Cash reserve (USD + local) + multiple cards + offline copies of all documents",
+          "why": "ATMs and card networks fail in remote ports; clearance fees are often cash-only.",
+          "priority": "essential"
+        },
+        {
+          "item": "Float plan + emergency contacts + offshore SAR coordination info",
+          "why": "Someone ashore must know your plan and who to call.",
+          "priority": "recommended"
+        }
+      ]
+    }
+  ]
+}

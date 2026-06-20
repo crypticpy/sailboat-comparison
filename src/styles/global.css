@@ -1645,6 +1645,702 @@ footer a {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   Research redesign — Control Deck, tabbed dossier, report page, instruments
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Clickable hero KPI (a stat is now a verb — it filters the fleet) */
+.statbar button.st {
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  -webkit-appearance: none;
+  appearance: none;
+  transition:
+    transform var(--t-fast) var(--ease),
+    border-color var(--t-fast) var(--ease),
+    background var(--t-fast) var(--ease);
+}
+.statbar button.st:hover {
+  transform: translateY(-2px);
+  background: rgba(214, 169, 75, 0.14);
+  border-color: rgba(214, 169, 75, 0.6);
+}
+.statbar button.st:hover b {
+  color: var(--brass-bright);
+}
+.statbar button.st:focus-visible {
+  outline: 2px solid var(--brass-bright);
+  outline-offset: 2px;
+}
+
+/* ── Control Deck (segmented; retires the 5-panel disclosure stack) ───────── */
+.deck {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 6px 6px 0;
+  margin: 0 0 22px;
+  overflow: hidden;
+}
+.deck-seg {
+  display: flex;
+  gap: 4px;
+}
+.deck-segbtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 10px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--muted);
+  border-bottom: 3px solid transparent;
+  border-radius: 10px 10px 0 0;
+  transition:
+    color var(--t-fast) var(--ease),
+    background var(--t-fast) var(--ease);
+}
+.deck-segbtn:hover {
+  color: var(--ink);
+  background: var(--paper);
+}
+.deck-segbtn.on {
+  color: var(--ink);
+  border-bottom-color: var(--brass);
+  background: var(--paper);
+}
+.deck-segico {
+  font-size: 16px;
+}
+.deck-hint {
+  font-size: 12.5px;
+  color: var(--muted);
+  padding: 10px 12px 0;
+}
+.deck-body {
+  padding: 12px;
+}
+.deck-insights {
+  display: grid;
+  gap: 18px;
+}
+
+/* ── Tabbed dossier (shared by modal + report page) ───────────────────────── */
+.tabbar {
+  display: flex;
+  gap: 2px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--line);
+  margin: 0 0 16px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.tabbar::-webkit-scrollbar {
+  display: none;
+}
+.tabbtn {
+  flex: 0 0 auto;
+  padding: 11px 14px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  transition: color var(--t-fast) var(--ease);
+}
+.tabbtn:hover {
+  color: var(--ink);
+}
+.tabbtn.on {
+  font-weight: 700;
+}
+.tabpanel {
+  animation: tabfade var(--t-base) var(--ease);
+}
+@keyframes tabfade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+/* ── Instruments: confidence meter + score bar ────────────────────────────── */
+.confmeter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.confmeter-track {
+  width: 54px;
+  height: 6px;
+  background: var(--paper-2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.confmeter-fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+}
+.confmeter-lab {
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.scoregrid {
+  display: grid;
+  gap: 14px;
+}
+.scorebar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+.scorebar-lab {
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--ink);
+}
+.scorebar-val {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.scorebar-val i {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--muted);
+}
+.scorebar-na {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--neutral);
+}
+.scorebar-track {
+  position: relative;
+  height: 9px;
+  margin: 7px 0 6px;
+  background: var(--paper-2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.scorebar-track.na {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--paper-2),
+    var(--paper-2) 6px,
+    #ece3d2 6px,
+    #ece3d2 12px
+  );
+}
+.scorebar-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 6px;
+}
+.scorebar-med {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  background: var(--ink);
+  opacity: 0.5;
+}
+.scorebar-foot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.scorebar-note {
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.rangebars,
+.waterfall {
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+}
+
+/* ── Sentiment split bar ──────────────────────────────────────────────────── */
+.sentsplit {
+  margin: 10px 0 6px;
+}
+.sentsplit-bar {
+  display: flex;
+  height: 12px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: var(--paper-2);
+}
+.sentsplit-bar span {
+  display: block;
+}
+.sentsplit-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 7px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.sentsplit-key i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.sentcols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+.sentlist {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--card);
+}
+.sentlist h4 {
+  margin: 0 0 6px;
+  font-family: var(--font-ui);
+  font-size: 12.5px;
+}
+.sentlist.for {
+  border-top: 3px solid var(--good);
+}
+.sentlist.against {
+  border-top: 3px solid var(--warn);
+}
+.sentlist ul {
+  margin: 0;
+  padding-left: 16px;
+}
+.sentlist li {
+  font-size: 12.5px;
+  color: var(--text);
+  margin: 4px 0;
+  line-height: 1.45;
+}
+
+/* ── Verdicts, rationale, refit total, empties ────────────────────────────── */
+.rationale {
+  font-size: 13px;
+  color: var(--text);
+  margin: 8px 0 0;
+  line-height: 1.5;
+}
+.rationale b {
+  color: var(--ink);
+}
+.verdict-card {
+  border: 1px solid var(--line);
+  border-left-width: 4px;
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: var(--paper);
+}
+.verdict-card.cited {
+  border-left-color: var(--good);
+}
+.verdict-card.uncited {
+  border-left-color: var(--neutral);
+}
+.verdict-card p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.verdict-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+.verdict-card.cited .verdict-badge {
+  background: rgba(31, 122, 82, 0.12);
+  color: var(--good);
+}
+.verdict-card.uncited .verdict-badge {
+  background: rgba(107, 119, 101, 0.14);
+  color: var(--neutral);
+}
+.refit-total {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+.refit-total span {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+.research-empty {
+  font-size: 13px;
+  color: var(--muted);
+  background: var(--paper);
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-style: italic;
+}
+
+/* ── Evidence (cited facts) ───────────────────────────────────────────────── */
+.evidnote {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+.evidnote b {
+  color: var(--ink);
+}
+.factgroup {
+  margin: 0 0 16px;
+}
+.factgroup-title {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brass-deep);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+.factrow {
+  padding: 8px 0;
+  border-bottom: 1px dotted var(--line-2);
+}
+.factrow:last-child {
+  border-bottom: 0;
+}
+.factrow-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.factrow-key {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--ink);
+}
+.factrow-val {
+  font-size: 13px;
+  color: var(--text);
+  margin: 3px 0 4px;
+  line-height: 1.5;
+}
+.srclinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.srclinks a {
+  font-size: 11.5px;
+  color: var(--teal);
+  text-decoration: none;
+}
+.srclinks a:hover {
+  text-decoration: underline;
+}
+
+/* ── Provisioning (boat-specific + universal accordion) ───────────────────── */
+.provspecific {
+  display: grid;
+  gap: 8px;
+}
+.provitem {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brass);
+  border-radius: 9px;
+  padding: 9px 12px;
+  background: var(--card);
+}
+.provitem-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+}
+.provitem-head b {
+  font-size: 13.5px;
+  color: var(--ink);
+}
+.provcat {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.provwhy {
+  font-size: 12.5px;
+  color: var(--text);
+  margin-top: 3px;
+  line-height: 1.45;
+}
+.provnote {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+.provaccord {
+  display: grid;
+  gap: 8px;
+}
+.provcatblk {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--card);
+}
+.provcatbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--ink);
+  text-align: left;
+}
+.provcatbtn:hover {
+  background: var(--paper);
+}
+.provcatblk.open .provcatbtn {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.provcount {
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.provcount i {
+  font-style: normal;
+  margin-left: 4px;
+  color: var(--brass-deep);
+}
+.provcatbody {
+  padding: 8px 14px 12px;
+}
+.provcatnote {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.provrow {
+  display: flex;
+  gap: 9px;
+  padding: 5px 0;
+  font-size: 12.5px;
+  color: var(--text);
+  line-height: 1.45;
+  border-top: 1px dotted var(--line-2);
+}
+.provrow:first-of-type {
+  border-top: 0;
+}
+.provrow b {
+  color: var(--ink);
+}
+.provrow-pri {
+  flex: 0 0 auto;
+  width: 14px;
+  text-align: center;
+}
+.pr-essential .provrow-pri {
+  color: var(--warn);
+}
+.pr-recommended .provrow-pri {
+  color: var(--ok);
+}
+.pr-optional .provrow-pri {
+  color: var(--neutral);
+}
+.provspec {
+  color: var(--muted);
+  font-size: 11.5px;
+}
+
+/* ── Header pill + report link (on dark grounds) ──────────────────────────── */
+.research-pill {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: rgba(214, 169, 75, 0.18);
+  color: var(--brass-bright);
+  border: 1px solid rgba(214, 169, 75, 0.4);
+  vertical-align: middle;
+}
+.report-link {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--brass-bright);
+  text-decoration: none;
+  vertical-align: middle;
+}
+.report-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* ── Dedicated report page (/boat/:id) ────────────────────────────────────── */
+.report {
+  min-height: 100vh;
+  background: var(--paper);
+}
+.report-top {
+  background: var(--ink);
+}
+.report-topin {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 11px 0;
+}
+.backlink {
+  color: var(--foam);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+.backlink:hover {
+  color: #fff;
+}
+.report-hero {
+  background: linear-gradient(135deg, var(--ink), var(--ink-2));
+  color: #fff;
+}
+.report-heroin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 30px 0 34px;
+}
+.report-eyebrow {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--brass-bright);
+  font-weight: 700;
+}
+.report-hero h1 {
+  font-family: var(--font-display);
+  font-size: 34px;
+  margin: 6px 0 4px;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+.report-meta {
+  color: #cfe0d8;
+  font-size: 13.5px;
+}
+.report-meta b {
+  color: #fff;
+}
+.report-verdict {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 16px;
+  color: #eef6f1;
+  margin: 12px 0 0;
+  max-width: 60ch;
+  line-height: 1.5;
+}
+.report-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 18px;
+  box-shadow: var(--shadow);
+}
+.report-score span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brass-deep);
+  font-weight: 700;
+}
+.report-main {
+  padding: 22px 0 60px;
+}
+
+@media (max-width: 680px) {
+  .deck-segbtn span:not(.deck-segico) {
+    display: none;
+  }
+  .deck-segbtn {
+    gap: 0;
+  }
+  .sentcols {
+    grid-template-columns: 1fr;
+  }
+  .report-heroin {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .report-hero h1 {
+    font-size: 26px;
+  }
+}
+
 /* ─────────── Motion floor — mandatory reduced-motion guard ───────────────── */
 @media (prefers-reduced-motion: reduce) {
   *,
