@@ -2,6 +2,7 @@ import type { ScoredBoat } from "../types/boat";
 import { usd } from "../lib/metrics";
 import { budgeClass, budgeLabel, headline } from "../lib/format";
 import { Dots } from "../lib/svg";
+import { useNoteIds } from "../lib/notes";
 
 export type TableSortKey =
   | "selection"
@@ -54,6 +55,7 @@ export default function BoatTable({
   onSort,
   onOpen,
 }: Props) {
+  const noteIds = useNoteIds();
   const list = [...boats].sort((a, b) => {
     const x = sortValue(a, sortKey);
     const y = sortValue(b, sortKey);
@@ -78,6 +80,15 @@ export default function BoatTable({
             <tr key={b.id} onClick={() => onOpen(b.id)}>
               <td>
                 <span className="nm">{b.name}</span>
+                {noteIds.has(b.id) && (
+                  <span
+                    className="notemark tbl"
+                    title="You have a note on this boat"
+                  >
+                    {" "}
+                    ✎
+                  </span>
+                )}
                 <br />
                 <span
                   className="mini"

@@ -22,6 +22,7 @@ import BoatCard from "./components/BoatCard";
 import BoatTable, { type TableSortKey } from "./components/BoatTable";
 import DetailModal from "./components/DetailModal";
 import CompareModal from "./components/CompareModal";
+import { useNoteIds } from "./lib/notes";
 
 const PRICE_MAX = 2000000;
 const FAV_KEY = "sailfav19";
@@ -60,6 +61,7 @@ export default function App() {
   const [tableSortDir, setTableSortDir] = useState(-1);
 
   const [favs, setFavs] = useState<Set<string>>(() => loadFavs());
+  const noteIds = useNoteIds();
   const [compareSet, setCompareSet] = useState<Set<string>>(new Set());
   const [modalId, setModalId] = useState<string | null>(null);
   const [compareOpen, setCompareOpen] = useState(false);
@@ -277,6 +279,7 @@ export default function App() {
                   weights={weights}
                   fav={favs.has(b.id)}
                   inCompare={compareSet.has(b.id)}
+                  hasNote={noteIds.has(b.id)}
                   onOpen={setModalId}
                   onToggleFav={onToggleFav}
                   onToggleCompare={onToggleCompare}
@@ -351,6 +354,11 @@ export default function App() {
           onClear={() => {
             setCompareSet(new Set());
             setCompareOpen(false);
+          }}
+          onRemove={onToggleCompare}
+          onOpenBoat={(id) => {
+            setCompareOpen(false);
+            setModalId(id);
           }}
         />
       )}

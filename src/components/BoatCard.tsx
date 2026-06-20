@@ -17,6 +17,7 @@ interface Props {
   weights: Weights;
   fav: boolean;
   inCompare: boolean;
+  hasNote?: boolean;
   onOpen: (id: string) => void;
   onToggleFav: (id: string) => void;
   onToggleCompare: (id: string) => void;
@@ -38,6 +39,7 @@ export default function BoatCard({
   weights,
   fav,
   inCompare,
+  hasNote,
   onOpen,
   onToggleFav,
   onToggleCompare,
@@ -80,6 +82,15 @@ export default function BoatCard({
         >
           {fav ? "★" : "☆"}
         </button>
+        {hasNote && (
+          <span
+            className="notemark"
+            title="You have a private note on this boat"
+            aria-label="Has a personal note"
+          >
+            ✎
+          </span>
+        )}
         <h3 className="name">{b.name}</h3>
         <div className="builder">
           {b.builder} · {b.years}

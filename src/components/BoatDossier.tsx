@@ -38,6 +38,7 @@ import {
   usd,
 } from "../lib/charts";
 import universalRaw from "../../research/provisioning-universal.json";
+import NotesField from "./NotesField";
 
 interface UniversalCat {
   key: string;
@@ -234,7 +235,8 @@ type TabKey =
   | "ownership"
   | "costs"
   | "provisioning"
-  | "evidence";
+  | "evidence"
+  | "notes";
 
 const TABS: { key: TabKey; label: string }[] = [
   { key: "overview", label: "Overview" },
@@ -244,6 +246,7 @@ const TABS: { key: TabKey; label: string }[] = [
   { key: "costs", label: "Costs & Refit" },
   { key: "provisioning", label: "Provisioning" },
   { key: "evidence", label: "Evidence" },
+  { key: "notes", label: "📝 Notes" },
 ];
 
 export default function BoatDossier({
@@ -830,6 +833,19 @@ export default function BoatDossier({
               </div>
             )}
           </>
+        )}
+
+        {tab === "notes" && (
+          <div className="msec">
+            <SecHead>📝 Your private notes on {b.name}</SecHead>
+            <p className="provnote">
+              Jot survey findings, questions for the broker, what you felt
+              stepping aboard. These live only in your browser — never uploaded,
+              visible only to you, and they travel with you across the fleet and
+              the planner.
+            </p>
+            <NotesField id={b.id} />
+          </div>
         )}
       </div>
     </div>
