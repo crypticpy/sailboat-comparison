@@ -1307,6 +1307,176 @@
         "category": "Weatherproofing",
         "why": "The watertight doghouse door is the boat's primary dry, warm watch position, and a failed gasket lets weather into the heated space. EPDM ages and degrades in UV, so spare seal material is cheap insurance for a long high-latitude voyage."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Sila: 23,000 miles in 21 months",
+        "theme": "passage",
+        "region": "Ocean cruising, bound for high latitudes",
+        "account": "The owners of the Boréal 47 'Sila' reported logging roughly 23,000 nautical miles in their first 21 months aboard, having visited the yard in France, sailed the boat before ordering, and hired a consultant (Colin) to help draft their specification and navigate the custom build. Their account on the Attainable Adventure Cruising site is presented as a real owner's experience with the boat in service and plans oriented toward high-latitude cruising.",
+        "conditions": "",
+        "source": {
+          "title": "Boréal 47 — An Owner's Experience (Attainable Adventure Cruising / Morgan's Cloud)",
+          "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
+        },
+        "confidence": 0.6
+      },
+      {
+        "title": "Sir Ernst: four friends, Antarctica to the tropics",
+        "theme": "community",
+        "region": "Antarctica, South Georgia, Pacific, Atlantic, Mediterranean",
+        "account": "Four French friends in their 50s and 60s (Hervé, Jean Michel, Jean Louis and Georges) bought the Boréal 47 'Sir Ernst' together in 2016 and have documented extensive voyages on their YouTube channel, including Antarctica and South Georgia, an Ireland shakedown, and crossings of both the Pacific and Atlantic. The no-frills-sailing review praises the 100-plus videos as authentic, unsponsored documentation of real expedition sailing despite rough amateur camerawork.",
+        "conditions": "",
+        "source": {
+          "title": "SIR ERNST: A YouTube-Gem of real sailors (no-frills-sailing.com)",
+          "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "Anchoring bow-to an iceberg in 50 knots",
+        "theme": "weather",
+        "region": "Antarctica / Southern Ocean",
+        "account": "The no-frills-sailing review of 'Sir Ernst' highlights Antarctic-passage footage with winds up to around 50 knots, where the reviewer remarks on how smooth and superior the boat's motion looked. It also describes the crew demonstrating how to anchor the yacht bow-to an iceberg during a 50-plus-knot storm, and notes the ice-capable doghouse lets the watchkeeper sit dry with a 360-degree view.",
+        "conditions": "up to ~50 kt, Antarctica",
+        "source": {
+          "title": "SIR ERNST: A YouTube-Gem of real sailors (no-frills-sailing.com)",
+          "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Beyond the Blue: an 18-day 'Cadillac ride' Atlantic crossing",
+        "theme": "passage",
+        "region": "Bay of Biscay, Cape Verde, Antigua (Atlantic crossing)",
+        "account": "David Zaharik and his wife Scarlett took delivery of their Boréal 47 'Beyond the Blue' in Tréguier in February 2019, then sailed via the Channel Islands, Brittany and the Bay of Biscay before an 18-day Atlantic passage to Antigua. Zaharik described the crossing as broad and beam reaching in steady breeze and called the boat's motion 'a Cadillac ride'; he specifically noted that lifting the keel downwind eliminated yawing and dramatically improved the ride.",
+        "conditions": "moderate trade-wind reaching, ~18-day crossing to Antigua",
+        "source": {
+          "title": "The Dream — Beyond the Blue (Bluewater Cruising Association, Currents)",
+          "url": "https://currents.bluewatercruising.org/article/the-dream/"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Learning the boat in 10m tides and 9.5 kt currents",
+        "theme": "liveaboard",
+        "region": "North Brittany, France",
+        "account": "After moving aboard 'Beyond the Blue' in May 2019, the Zahariks faced an immediate learning curve in north Brittany: tides reaching about 10 metres, currents running up to 9.5 knots, tidal sill marinas, and a near-grounding on uncharted oyster farms that revealed all three depth sounders needed recalibration. The account is a candid first-season picture of daily life and shakedown problem-solving on a new Boréal rather than polished marketing.",
+        "conditions": "10 m tidal range, currents to ~9.5 kt",
+        "source": {
+          "title": "The Dream — Beyond the Blue (Bluewater Cruising Association, Currents)",
+          "url": "https://currents.bluewatercruising.org/article/the-dream/"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Triple-reefed and 'she just trucked'",
+        "theme": "handling",
+        "region": "Pacific Northwest (local sailing)",
+        "account": "Reporting on heavier-air local sailing in 2022, 'Beyond the Blue' owner David Zaharik described carrying a triple-reefed main and double-reefed genoa, saying 'she just trucked.' It is a brief but concrete owner observation of how the 47 carries sail and holds way once deeply reefed in strong wind.",
+        "conditions": "strong wind, triple-reef main / double-reef genoa",
+        "source": {
+          "title": "The Dream — Beyond the Blue (Bluewater Cruising Association, Currents)",
+          "url": "https://currents.bluewatercruising.org/article/the-dream/"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "Steers itself for six minutes hands-off",
+        "theme": "handling",
+        "region": "Chesapeake Bay, USA",
+        "account": "In a Cruising World sea trial of the Boréal 47 on Chesapeake Bay (16-22 kt wind, 2-3 ft seas), the reviewer recorded 7.2 kt closehauled and 8.5 kt reaching, and reported that with the main reefed and genoa partly furled the boat steered itself for several minutes with no autopilot, windvane or hand on the wheel. The aft daggerboards and centreboard system are credited for the balance, with the centreboard providing lateral resistance rather than ballast.",
+        "conditions": "16-22 kt, 2-3 ft seas, Chesapeake Bay",
+        "source": {
+          "title": "Boat Review: Boréal 47 (Cruising World)",
+          "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "Seakindly in Hurricane Maria swell off New England",
+        "theme": "weather",
+        "region": "US East Coast delivery (Portsmouth NH to Annapolis)",
+        "account": "On a delivery from Portsmouth, NH to Annapolis, SAIL Magazine's testers met low-20s wind against tide entering The Race plus leftover Hurricane Maria swell. They noted the helm loaded up and needed a reef once the breeze reached the low 20s, but the rudder never broke loose thanks to the aft daggerboards, and the boat's motion was 'easy and forgiving, with no slamming or whipping about.'",
+        "conditions": "wind to low 20s kt against tide, Hurricane Maria swell",
+        "source": {
+          "title": "Boat Review: Boréal 47 (SAIL Magazine)",
+          "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "Soft motion in 29-knot gusts under full sail",
+        "theme": "handling",
+        "region": "Sea trial (Brittany / delivery)",
+        "account": "Sailing journalist Charlie Doane, who later owned a Boréal 47 ('Lunacy'), reported that under full main and genoa the 44/47 took sudden gusts as high as 29 knots with a soft, manageable motion, needing only occasional mainsheet easing to avoid rounding up. He also documented the boat's beaching ability, with a draft of about 3'3\" board-up versus 8'1\" board-down and a protective keel embryo for the rudder, while noting steering is less crisp than a modern high-aspect spade.",
+        "conditions": "gusts to 29 kt, full main and genoa",
+        "source": {
+          "title": "Boréal 44/47: A Bulletproof Aluminum Centerboard Cruiser (Wave Train / Charlie Doane)",
+          "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Four Boréals reached Puerto Williams; Obelix to Cape Horn",
+        "theme": "region",
+        "region": "Patagonia / Cape Horn / South Georgia",
+        "account": "Yachting World's 47.2 review reports that four Boréal 44/47s had made it to Puerto Williams at the foot of Chile, all having sailed there from Brittany, with one of them, 'Obelix', heading on toward a Cape Horn-to-Cape Town passage and others cruising Patagonian glaciers and South Georgia. The piece frames this as the boat proven in its intended high-latitude environment, with an ice-breaking stem, watertight bulkheads and 8-10mm bottom plating.",
+        "conditions": "",
+        "source": {
+          "title": "Boréal 47.2 review: a proven concept refined (Yachting World)",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Board-up to settle the helm; out-pointed by an aak",
+        "theme": "handling",
+        "region": "Netherlands / Caribbean (forum reports)",
+        "account": "On a YBW thread, an experienced Boréal owner reportedly told another sailor the boat has to be sailed fairly upright to keep leeway and weather helm in check, admitted it was hard to manoeuvre in small Dutch harbours without a bow thruster, and recounted being out-pointed and out-footed to weather by a traditional Lemsteraak. A separate poster, Roberto, sailing alongside a Boréal 47 near the Cape Verdes, relayed his friend's wife asking how the Boréal could be faster under one sail than their Jeanneau under two.",
+        "conditions": "",
+        "source": {
+          "title": "Aluminium Centreboard Boats? (YBW Forum, page 2)",
+          "url": "https://forums.ybw.com/threads/aluminium-centreboard-boats.388397/page-2"
+        },
+        "confidence": 0.55
+      },
+      {
+        "title": "Swedish couple choose the doghouse for liveaboard life",
+        "theme": "liveaboard",
+        "region": "Channel Islands toward Norway and Spitsbergen",
+        "account": "Jeanette and Fredrik, a Swedish couple and former Allures 45 owners, took delivery of the Boréal 55 OC 'Bushpoint' (the third built) and stressed that since most cruising time is spent at anchor or in port, living well aboard matters more than sailing. They run a shared 'no I in team' watch/cooking/maintenance routine, praise the protected doghouse highly, and candidly note that living together in a confined space proved trickier than the sailing itself; their 2021 plan ran via the UK and Scotland toward Norway and Spitsbergen.",
+        "conditions": "",
+        "source": {
+          "title": "Aluminum Upgrade: Boréal 55 OC (no-frills-sailing.com)",
+          "url": "https://no-frills-sailing.com/boreal-55oc-sailing-yacht/"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "Founder sailed his own Boréal 44 to Antarctica with young sons",
+        "theme": "region",
+        "region": "Antarctica / South Georgia",
+        "account": "In a Boréal interview, co-owner Jean-François Eeman said his own boat was the first Boréal 44 ever built ('Juan Sa Bulan', 2007) and that he sailed it to Antarctica with his two sons, then aged about 8 and 6, claiming Boréal had taken more private crews to Antarctica or South Georgia than any other brand over the prior five years. The designer, Jean-François Delvoye, conceived the boat during a six-year family circumnavigation that included roughly two years in Patagonia.",
+        "conditions": "",
+        "source": {
+          "title": "An expedition into the world of Boréal (no-frills-sailing.com)",
+          "url": "https://no-frills-sailing.com/boreal-yacht-47-go-anywhere/"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Test sail: heel-stiff with the asymmetric, board tactics",
+        "theme": "handling",
+        "region": "Atlantic France (post-Vendée swell)",
+        "account": "Yachting World's 47.2 sea trial, sailed in leftover Vendée-Globe swell with wind from 8-9 kt up to 22 kt gusts, recorded a best of 8.7 kt at 145 degrees in 17 kt and 6.5 kt close-hauled at 55 degrees in 15 kt. Pressed hard under the asymmetric, gusts added little heel and the lee toerail stayed well clear of the water; the reviewer also noted the twin daggerboards can be raised for responsiveness in confined water or lowered for directional stability that lets the helm be left briefly unattended.",
+        "conditions": "8-22 kt, leftover Vendée Globe swell",
+        "source": {
+          "title": "Boréal 47.2 review: a proven concept refined (Yachting World)",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+        },
+        "confidence": 0.85
+      }
     ]
   }
 }

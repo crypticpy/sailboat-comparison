@@ -5,7 +5,7 @@
 // no deep research yet.
 import { useMemo, useState, type ReactNode } from "react";
 import type { ScoredBoat } from "../types/boat";
-import type { BoatResearch, Fact } from "../types/research";
+import type { BoatResearch, Fact, FieldReport } from "../types/research";
 import {
   METRICS,
   PILLARS,
@@ -223,6 +223,109 @@ function FactRow({ f }: { f: Fact }) {
       </div>
       <div className="factrow-val">{f.value}</div>
       <SourceLinks sources={f.sources} />
+    </div>
+  );
+}
+
+// ── real-world accounts ("From the logbook"), grouped by theme ──────────────
+const THEME_META: Record<string, { label: string; icon: string }> = {
+  weather: { label: "Heavy weather & sea state", icon: "🌊" },
+  "heavy-weather": { label: "Heavy weather & sea state", icon: "🌊" },
+  passage: { label: "Passages & ocean miles", icon: "🧭" },
+  handling: { label: "Handling & sailing", icon: "⛵" },
+  liveaboard: { label: "Living aboard", icon: "🏠" },
+  region: { label: "Where they cruise", icon: "🗺️" },
+  tropics: { label: "Tropical cruising", icon: "🌴" },
+  cold: { label: "High latitudes & cold", icon: "❄️" },
+  comfort: { label: "Comfort under way & at rest", icon: "🛋️" },
+  anchoring: { label: "Anchoring & ground tackle", icon: "⚓" },
+  reliability: { label: "Reliability & systems", icon: "🔧" },
+  systems: { label: "Reliability & systems", icon: "🔧" },
+  maintenance: { label: "Maintenance & refit", icon: "🛠️" },
+  build: { label: "Build & structure", icon: "🏗️" },
+  community: { label: "Owners & community", icon: "👥" },
+};
+const THEME_ORDER = [
+  "weather",
+  "heavy-weather",
+  "passage",
+  "handling",
+  "liveaboard",
+  "region",
+  "tropics",
+  "cold",
+  "comfort",
+  "anchoring",
+  "reliability",
+  "systems",
+  "maintenance",
+  "build",
+  "community",
+];
+
+function FieldReports({ reports }: { reports: FieldReport[] }) {
+  const groups = useMemo(() => {
+    const m = new Map<string, FieldReport[]>();
+    for (const r of reports) {
+      const k = r.theme || "region";
+      (m.get(k) ?? m.set(k, []).get(k)!).push(r);
+    }
+    return [...m.keys()]
+      .sort((a, b) => {
+        const ia = THEME_ORDER.indexOf(a);
+        const ib = THEME_ORDER.indexOf(b);
+        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      })
+      .map((k) => [k, m.get(k)!] as const);
+  }, [reports]);
+
+  return (
+    <div className="logbook">
+      {groups.map(([theme, items]) => {
+        const meta = THEME_META[theme] ?? {
+          label: theme.charAt(0).toUpperCase() + theme.slice(1),
+          icon: "•",
+        };
+        return (
+          <div className="lb-group" key={theme}>
+            <h4 className="lb-theme">
+              <span className="lb-ic">{meta.icon}</span>
+              {meta.label}
+              <span className="lb-n">{items.length}</span>
+            </h4>
+            <div className="lb-cards">
+              {items.map((r, i) => (
+                <article className="lb-card" key={r.title + i}>
+                  <div className="lb-head">
+                    <h5 className="lb-title">{r.title}</h5>
+                    <ConfMeter confidence={r.confidence} />
+                  </div>
+                  {((r.region && r.region !== "—") || r.conditions) && (
+                    <div className="lb-meta">
+                      {r.region && r.region !== "—" && (
+                        <span className="lb-region">📍 {r.region}</span>
+                      )}
+                      {r.conditions && (
+                        <span className="lb-cond">{r.conditions}</span>
+                      )}
+                    </div>
+                  )}
+                  <p className="lb-account">{r.account}</p>
+                  <a
+                    className="lb-src"
+                    href={r.source.url}
+                    target="_blank"
+                    rel="noopener"
+                    title={r.source.title}
+                  >
+                    {r.source.title || hostOf(r.source.url)} ↗
+                  </a>
+                </article>
+              ))}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -657,6 +760,20 @@ export default function BoatDossier({
                 what="owner sentiment"
               />
             )}
+            {research?.scores.field_reports &&
+              research.scores.field_reports.length > 0 && (
+                <div className="msec">
+                  <SecHead>📖 From the logbook — real-world accounts</SecHead>
+                  <p className="lb-intro">
+                    Cited owner logs, magazine sea-trials and forum threads —
+                    grouped by what they’re about. Every card links to its
+                    source; the meter shows how directly the account is
+                    attested. These are real people’s experiences, not our
+                    scoring.
+                  </p>
+                  <FieldReports reports={research.scores.field_reports} />
+                </div>
+              )}
           </>
         )}
 

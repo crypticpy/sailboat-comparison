@@ -1204,6 +1204,80 @@
         "category": "Safety",
         "why": "Recovering a casualty over the high topsides of a 24-tonne ketch shorthanded is genuinely hard, so the realistic strategy is staying aboard. Keep the MOB module within its repack interval and the cockpit-to-bow jacklines and tethers current."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "All sails set from the cockpit in five minutes",
+        "theme": "handling",
+        "region": "Îles d'Hyères, France",
+        "account": "Reviewing the ketch-rigged Amel 55 off Hyères on the Côte d'Azur, a tester deployed the full sail plan — genoa, staysail, main and mizzen, 145 m² in all — in about five minutes using joystick controls from the cockpit. In light 8.5-knot air the boat made 4.2 knots hard on the wind at roughly 35 degrees; the reviewer judged it would be 'right at home' running in the Atlantic trades under twin headsails rather than excelling in flat light air.",
+        "conditions": "8.5 knots true, ~4.2 knots boatspeed close-hauled at ~35 degrees",
+        "source": {
+          "title": "Amel 55 sailboat review — TradeABoat",
+          "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "Heavy helm when over-canvassed",
+        "theme": "handling",
+        "region": "—",
+        "account": "Yachting Monthly's Chris Beeson found the Amel 55 comfortable and unhurried rather than quick, in keeping with its 30-tonne-plus displacement. He noted the helm went 'very heavy' when the boat was over-canvassed, particularly with too much mizzen set — a handling caution for owners learning to balance the ketch rig.",
+        "conditions": "",
+        "source": {
+          "title": "Amel 55 boat review — Yachting Monthly",
+          "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "A solid, fast ketch built ready to cross oceans",
+        "theme": "passage",
+        "region": "Offshore / trade-wind cruising",
+        "account": "Blue Water Sailing described the Amel 55 as 'a solid and fast ketch with true blue water capabilities,' aimed at mature couples seeking self-sufficiency, with capacity to cruise comfortably with a second couple aboard. The magazine noted boats arrive fully outfitted from the yard with Amel-tested sails, generator, watermaker and gear, reflecting the 'ready-to-cruise' philosophy and an even spread of canvas so no single sail is unmanageable on passage.",
+        "conditions": "",
+        "source": {
+          "title": "Amel 55 — Blue Water Sailing",
+          "url": "https://www.bwsailing.com/bw/amel-55/"
+        },
+        "confidence": 0.78
+      },
+      {
+        "title": "Watertight bulkheads and skeg-hung rudder",
+        "theme": "handling",
+        "region": "—",
+        "account": "The Amel 55's offshore credentials per the TradeABoat sea trial include four watertight bulkheads, a balsa-sandwich hull with solid GRP below the waterline, a skeg-protected rudder integrated with the cast-iron keel, and a propeller set in the keel's trailing edge to eliminate propwalk. The enclosed cockpit uses 12mm Plexiglas screens and a canvas Cabriolet top, and the molded non-slip deck removes teak upkeep — all geared to secure, low-maintenance ocean cruising.",
+        "conditions": "",
+        "source": {
+          "title": "Amel 55 sailboat review — TradeABoat",
+          "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+        },
+        "confidence": 0.78
+      },
+      {
+        "title": "Amel 55s stage for Atlantic crossings in the Canaries",
+        "theme": "community",
+        "region": "Lanzarote, Canary Islands",
+        "account": "Circumnavigators Judy and Bill (SV BeBe, a Super Maramu) documented an unusually large gathering of Amels at Marina Lanzarote in November 2015 as boats staged for Atlantic crossings. Among them were the Amel 55s Kandiba (Turkish owners Hassan and Zehrya, taking on a niece as crew for the crossing) and Rainbow (Hamburg-flagged), alongside an Amel 54, Now or Ever — a snapshot of the active 55-era owner community using the Canaries as a jumping-off point.",
+        "conditions": "",
+        "source": {
+          "title": "S/V BeBe: Lots of Amels in the Canary Islands! (owner blog)",
+          "url": "http://svbebe.blogspot.com/2015/12/lots-of-amels-in-canary-islands.html"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Buyers smitten at the boat show, then reconsider",
+        "theme": "liveaboard",
+        "region": "Düsseldorf / on-the-water",
+        "account": "Prospective circumnavigators Glen and Oana (Sail Cloudy Bay) were 'smitten' by the Amel 55 at the 2016 Düsseldorf show — Glen citing the deck-accessed engine room, ketch rig, protected nav station and watertight bulkheads; Oana the modern looks and sundeck. They ultimately bought a Hallberg-Rassy 54 instead, partly on cost (a roughly 980k euro show offer would have left no cruising kitty) and partly because, seen on the water, the 55s struck them as 'square and blocky.' A useful, honest non-owner perspective on the 55's trade-offs.",
+        "conditions": "",
+        "source": {
+          "title": "How It Started, with Amel 55 — Sail Cloudy Bay (blog)",
+          "url": "https://www.sailcloudybay.com/how-it-starteddusseldorf-boat-show/"
+        },
+        "confidence": 0.66
+      }
     ]
   },
   "sources": [

@@ -1250,6 +1250,80 @@
         "category": "Maneuvering",
         "why": "Twin rudders give no propwalk, making the boat awkward in tight quarters under power. A stern thruster materially improves docking and anchorage safety on a 60-foot, ~27-tonne boat handled by two."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Stiff and seaworthy in 25 knots and 2m seas",
+        "theme": "weather",
+        "region": "Catalan coast, Mediterranean",
+        "account": "In YACHT magazine's test off Port Ginesta, the Amel 60 proved 'stiff enough' in 25-knot winds with waves over 2 metres despite a relatively modest ballast ratio. In moderate conditions (15–18 knots, ~1.5m waves) it held composed speed, and the testers noted around 7 knots under furling main and Code Zero in 8–10 knots, touching near its 10-knot hull speed with a gennaker in a fresh midday breeze.",
+        "conditions": "Up to 25 knots, 2m+ seas; also 8–10 knots making ~7 knots",
+        "source": {
+          "title": "Test Amel 60: Comfortable luxury yacht with a wow effect — YACHT",
+          "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "Light-air test leaves heavy weather unproven",
+        "theme": "handling",
+        "region": "La Rochelle, France",
+        "account": "Yachting World's Matthew Sheahan tested the Amel 60 in only 6–7 knots and flat water, making 5.4 knots with the 26-tonne boat — explicitly noting he 'didn't get to sail in a stronger breeze and bigger seas.' He praised the electrically furled Code 0 as 'a doddle,' found single-handing easy thanks to the well-sorted control panel, but flagged long steering-cable runs to the twin rudders and suspected finger-light helm feel would not be the boat's strong card.",
+        "conditions": "6–7 knots true, flat water, 5.4 knots boatspeed",
+        "source": {
+          "title": "Amel 60 review: a true benchmark for quality — Yachting World",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "Decoupled helm, but rock-solid autopilot",
+        "theme": "handling",
+        "region": "Mediterranean",
+        "account": "YACHT's testers reported a 'decoupled' steering feel with reduced feedback on the Amel 60, attributing it to twin rudders set far aft whose pre-balance they judged too strong and transmission too indirect, which limits agility versus rivals. Upwind height was an average ~50 degrees. They emphasized this matters little in practice on a boat where the Furuno autopilot — which performed 'extremely precisely and reliably' — does the steering almost all the time.",
+        "conditions": "~50 degrees upwind",
+        "source": {
+          "title": "Test Amel 60: Comfortable luxury yacht with a wow effect — YACHT",
+          "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "Entropie crosses the Atlantic in 11d 19h",
+        "theme": "passage",
+        "region": "Las Palmas to the Caribbean (ARC)",
+        "account": "Near-novice owners Jeremie Dubois-Lacoste and Deanna sailed their new Amel 60 Entropie across the Atlantic with the ARC, after coastal-hopping down France and Portugal to build confidence. They crossed in 11 days 19 hours — light, unstable winds early, then 15–17-knot trades with squalls in the last 48 hours — running downwind under poled-out genoa and main at night. Jeremie, with only about 18 months of sailing experience, called the crossing 'much less daunting than I was expecting.'",
+        "conditions": "Light/unstable early; 15–17 knot trades with squalls late",
+        "source": {
+          "title": "Advice on making an Atlantic crossing from people who have done it — Yachting World",
+          "url": "https://www.yachtingworld.com/bluewater-sailing/advice-on-making-an-atlantic-crossing-from-people-who-have-done-it-150857"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Near-100% cockpit-only sailing",
+        "theme": "liveaboard",
+        "region": "—",
+        "account": "Reviewing the Amel 60 at the 2024 Cannes show, Lars Reisberg of no-frills-sailing described a near-100% 'cockpit-only' concept: all furling, winches and running rigging operate by push-button from the helm without leaving the protected center cockpit, which he noted gives the least motion in harsh conditions. He highlighted dual windlasses with separate anchor chains for world-cruising redundancy and a substantial bow locker doubling as a crash box, while conceding that '99 per cent of the time steering is done by the autopilot anyway.'",
+        "conditions": "",
+        "source": {
+          "title": "Bluewater Icon: Amel 60 — no-frills-sailing.com",
+          "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Twin rudders aid Med stern-to and redundancy",
+        "theme": "region",
+        "region": "Mediterranean",
+        "account": "boats.com's overview of the Berret-Racoupeau-designed Amel 60 noted that its twin rudders reduce drag when heeled, give a more surefooted feel underway, and provide redundancy if one is damaged — with the shallower blades also easing stern-to mooring for owners who spend time in the Mediterranean. The reviewer called the boat reassuringly easy to handle shorthanded, with the deckhouse/dodger grown to winter-garden size for crew protection.",
+        "conditions": "",
+        "source": {
+          "title": "Four of the best Amel cruising yachts — boats.com",
+          "url": "https://uk.boats.com/reviews/four-of-the-best-amel-cruising-yachts/"
+        },
+        "confidence": 0.66
+      }
     ]
   }
 }

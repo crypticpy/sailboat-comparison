@@ -703,6 +703,56 @@
         "category": "Safety",
         "why": "Moody rudder-shaft seals can weep with age; carrying the seal kit avoids a haul-out emergency on the partial-skeg spade rudder."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Johanem: two ARC crossings, 25,000+ nm liveaboard",
+        "theme": "passage",
+        "region": "Atlantic (ARC), Caribbean, Europe",
+        "account": "A high-specification 2003 Moody 47 named Johanem was fitted out for long-term liveaboard bluewater cruising and completed an ARC Atlantic crossing in 2007 under one owner, then a further ARC crossing in 2012 and an ARC Europe return in 2013 under the next owners. The owners report over 25,000 nautical miles of sailing across eight years, stating they always felt safe and secure. The boat carries a three-cabin, two-head layout with a large aft owner's cabin, and the brokerage notes the traditional heavyweight construction is intended to look after her crew, with the rig easily within the capability of a couple.",
+        "conditions": "",
+        "source": {
+          "title": "New Listing - 2003 Moody 47 'Johanem', Grabau International",
+          "url": "https://www.grabauinternational.com/news/new-listing-2003-moody-47/"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "Owners: comfortable and safe in big seas",
+        "theme": "weather",
+        "region": "Pacific NW (Vancouver Island), UK",
+        "account": "On the Moody Owners Information Exchange, Michael Barrett (a 2000 Moody 46, the near-identical sibling whose interior and sailing characteristics he says are the same as the 47) relays that M47-owning friends remarked the boat was made for these conditions while cruising around Vancouver Island. Rainer Funke (a 1998 Moody 46) describes the boat becoming quick once the breeze builds past about 3 Beaufort and staying very comfortable even in heavy seas. Owners repeatedly credit the centre cockpit and the boat's roughly 23-tonne weight for feeling safe and secure offshore.",
+        "conditions": "Heavy seas reported qualitatively; one owner notes liveliness above ~3 Beaufort",
+        "source": {
+          "title": "Moody 46 vs 47, Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/threads/moody-46-vs-47.18980/"
+        },
+        "confidence": 0.62
+      },
+      {
+        "title": "Diablito of Cowes: 47 cruised Solent to Canaries",
+        "theme": "region",
+        "region": "Solent, UK to Canary Islands",
+        "account": "Owner Lee Adams reported on the Moody 47 Diablito of Cowes (a 2001 model) on the owners' forum, cruising the Solent and out to the Canary Islands. He explained that the main difference between the 46 and 47 is the stern bathing platform (corded on the 46, hydraulic on the 47) and noted detail variations such as plastic versus aluminium water tanks and backstay chainplate design between boats. His account establishes a real 2001-2004 Moody 47 being used for offshore-leaning passage cruising.",
+        "conditions": "",
+        "source": {
+          "title": "Differences between 46 and 47s, Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/threads/differences-between-46-and-47s.25759/"
+        },
+        "confidence": 0.55
+      },
+      {
+        "title": "Sibling 46 CC: dry, stable, fast off Vancouver Island",
+        "theme": "handling",
+        "region": "West coast of Vancouver Island, Canada",
+        "account": "A detailed used-boat review of the Moody 46 CC, the near-identical sibling that shares the Moody 47's hull, rig and accommodation, reports the boat rounding Brooks Peninsula on Vancouver Island doing 10-11 knots in high-20s wind and 2m seas while heeling only about 5 degrees, feeling stable and fast. It credits the high coamings and central cockpit position for keeping crew dry in rough water, and describes the rig as a straightforward masthead cutter with in-mast main furling and a conservative ~15:1 sail-area-to-displacement ratio chosen for shorthanded couples. Build is solid laminate below the waterline and cored above, with through-hull chainplates and Lloyds inspection. (Attributed to the 46 CC; sailing behaviour applies to the 47 as a shared design.)",
+        "conditions": "High-20s knots wind, ~2m seas, ~5 degrees heel at 10-11 knots",
+        "source": {
+          "title": "Moody 46 CC Used Boat Review, Practical Sailor",
+          "url": "https://www.practical-sailor.com/sailboat-reviews/sailboats-over40ft/moody-46-cc-used-boat-review/"
+        },
+        "confidence": 0.66
+      }
     ]
   }
 }

@@ -1600,6 +1600,176 @@
         "category": "Weatherproofing Spares",
         "why": "Double-glazed windows are confirmed insulation assets (cold score contribution). PBO review and YBW forum document early-hull hatch and portlight leaks. Gasket degradation is accelerated by UV exposure and salt cycles. Carry full-perimeter gasket stock for all opening ports and hatches."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Iceberg ledge strike spares hull",
+        "theme": "weather",
+        "region": "Northwest Passage, Canadian Arctic",
+        "account": "Jimmy Cornell recounts striking an underwater rock ledge in the Northwest Passage hard enough to be knocked off his feet aboard his Garcia Exploration 45 Aventura IV. The rudder's sacrificial 'crumple zone' at the top of the blade absorbed the impact and prevented any hull damage; only superficial rudder repairs were needed later back in Cherbourg. He cites this as validation of the boat's protected twin-rudder design for ice and grounding-prone waters.",
+        "conditions": "",
+        "source": {
+          "title": "Cornell Sailing — Aventura IV (Exploration 45) FAQ",
+          "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+        },
+        "confidence": 0.88
+      },
+      {
+        "title": "Gooseneck fails in Greenland gybe",
+        "theme": "maintenance",
+        "region": "Greenland to Newfoundland, North Atlantic",
+        "account": "On a southbound passage from Greenland sailing with his daughter Doina, Cornell suffered an involuntary gybe triggered by a large breaking wave that damaged the boom gooseneck casting on Aventura IV. He lashed the boom to the mast winches and continued 1,100 miles to St John's, Newfoundland in seven days, where a workshop machined a solid-aluminium replacement. He credits a boom brake with preventing far worse damage in the gybe.",
+        "conditions": "large breaking wave caused an involuntary gybe",
+        "source": {
+          "title": "PBO — Jimmy Cornell: How I've learned to fix my own problems at sea",
+          "url": "https://www.pbo.co.uk/expert-advice/jimmy-cornell-fix-problems-at-sea-76535"
+        },
+        "confidence": 0.86
+      },
+      {
+        "title": "Centreboarder stable in 60-knot winds",
+        "theme": "handling",
+        "region": "High latitudes / Antarctica",
+        "account": "Drawing on having sailed twice to Antarctica on centreboard boats, Cornell argues the type is as stable as keeled yachts in extreme conditions, citing weathering 60-knot winds. On Aventura IV he describes roughly 3.5 tonnes of internal lead ballast against a ~9-tonne displacement, and notes retracting the board reduces wetted surface to add 0.3–0.5 knots of speed off the wind. He concedes hard upwind sailing is the centreboarder's weakest point.",
+        "conditions": "60-knot winds (Antarctic experience cited)",
+        "source": {
+          "title": "Cornell Sailing — Aventura IV (Exploration 45) FAQ",
+          "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "Upwind is the weak point",
+        "theme": "handling",
+        "region": "—",
+        "account": "Cornell candidly states that sailing hard on the wind is the weakest point of a centreboard boat, and recounts reluctantly abandoning the yankee-and-staysail cutter rig he used on Aventura III for a Solent configuration on the Exploration 45. He reports the 7/8 fractional rig will make roughly 35 degrees to the apparent wind when well trimmed, and that the boat touched 9.5 knots under full staysail with two reefs in. The honesty about windward limits is a recurring owner theme.",
+        "conditions": "",
+        "source": {
+          "title": "Cornell Sailing — Aventura IV (Exploration 45) FAQ",
+          "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "Surfs to 15.5kn in Atlantic gale",
+        "theme": "passage",
+        "region": "Maine to Maryland, US East Coast",
+        "account": "The cruising crew of Yahtzee delivered the Exploration 45 Arctic Monkey 530 miles from Portland, Maine to Annapolis in demanding conditions, meeting 30-plus knots of wind and large swells. The boat surfed at 10–13 knots with a peak of 15.5 knots, averaging over 7 knots for the passage, and they called her 'a smooth-handling rocketship' off the wind with the twin rudders holding course reliably. They singled out watertight doors as 'priceless' when it blew 40 knots and the forward nav station for night watches.",
+        "conditions": "30+ knots wind, large swells, gusts to 40 knots",
+        "source": {
+          "title": "Three Sheets / Sailing Yahtzee — Garcia Exploration 45 revisited after a real boat test",
+          "url": "http://sailingyahtzee.com/2016/11/21/boat-notes-garcia-exploration-45-revisited-after-a-real-boat-test/"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Board-up running 'straight and true'",
+        "theme": "passage",
+        "region": "Guernsey to Antigua, North Atlantic",
+        "account": "Ex-Vendee Globe racer Pete Goss and his wife Tracey crossed from Guernsey to Antigua via Lanzarote aboard their Exploration 45 Pearl of Penzance, leaving in winter and arriving on Christmas Day. They met 30 knots near Ushant and a week of strong winds and big seas in the Atlantic, then surfed at 17 knots approaching Antigua. Goss reports that with the centreboard raised the boat 'just runs with the wave, straight and true,' and that the B&G autopilot needed minimal correction while surfing.",
+        "conditions": "30 knots near Ushant; ~1 week of strong winds and big seas; surfs to 17 knots",
+        "source": {
+          "title": "Yachting World — Pete Goss transatlantic: Vendee Globe racer on life in the slow lane",
+          "url": "https://www.yachtingworld.com/cruising/pete-goss-transatlantic-vendee-globe-race-124054"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "17,000 miles of liveaboard lessons",
+        "theme": "liveaboard",
+        "region": "UK, Caribbean, US East Coast",
+        "account": "After about 17,000 miles cruising from the UK to the Caribbean and the US east coast on Pearl of Penzance, Pete Goss reflects that roughly 20% of cruising time is actually spent sailing and the rest at anchor. He praises the centreboard for reaching shallow anchorages closed to keelboats, the pilothouse for a light airy interior with good weather visibility, and the full-bodied hull for form stability in rolly anchorages. He flags spares-and-customs frustration with custom parts and runs four independent charging sources (solar, wind, hydro, engine).",
+        "conditions": "",
+        "source": {
+          "title": "Yachting World — Pete Goss's lessons learned from 2.5 years cruising the world",
+          "url": "https://www.yachtingworld.com/cruising/pete-goss-lessons-learned-cruising-the-world-126989"
+        },
+        "confidence": 0.85
+      },
+      {
+        "title": "Three Garcias clear the Northwest Passage",
+        "theme": "region",
+        "region": "Northwest Passage, Canadian Arctic",
+        "account": "In summer 2024 three owner-operated Exploration 45s — Voyager (Switzerland), Night Owl (Britain) and Hauru (Poland) — transited the Northwest Passage together, covering about 3,600 miles from Greenland's west coast to the Bering Strait in roughly six weeks. They waited off Greenland for ice to clear before entering Lancaster Sound, then worked south via Prince Regent Inlet to the notorious Bellot Strait. The shared transit cemented the model's high-latitude reputation.",
+        "conditions": "drifting pack ice, fog and frequent icebergs",
+        "source": {
+          "title": "Garcia Yachts — Our three Garcia Exploration 45s made it through the Northwest Passage",
+          "url": "https://www.garciayachts.com/en/news/our-three-garcia-exploration-45s-made-it-through-the-north-west-passage"
+        },
+        "confidence": 0.78
+      },
+      {
+        "title": "Bellot Strait rescue, pristine hull after ice",
+        "theme": "region",
+        "region": "Bellot Strait, Canadian Arctic",
+        "account": "Aboard Voyager, Adriano Vigano and Marisa Lankester made multiple attempts at the 18-mile Bellot Strait, initially blocked by closing ice, and rescued the crew of a French yacht that was 'pushed out of the water like a cork from a bottle' between converging floes. Vigano reports the boat 'copes incredibly well with heavy weather,' citing earlier North Sea testing, and that Voyager's bare aluminium hull came through twelve weeks in ice nearly pristine. The elevated saloon let the crew keep watch and work from a protected interior.",
+        "conditions": "shifting pack ice, fog, frequent icebergs; severe weather tested earlier on North Sea",
+        "source": {
+          "title": "YACHT — Northwest Passage: dangerous route through the ice with three Garcia yachts",
+          "url": "https://www.yacht.de/en/special/people/northwest-passage-dangerous-route-through-the-ice-with-three-garcia-yachts/"
+        },
+        "confidence": 0.78
+      },
+      {
+        "title": "Comfortable in a confused sea",
+        "theme": "handling",
+        "region": "—",
+        "account": "Yachting Monthly's sea-trial found the rounded aluminium hull suffers to windward from the lack of low-down ballast typical of centreboarders, but on a windy test in a confused sea the boat was 'very comfortable' and the Jefa helm was responsive and lighter than her 14-tonne bulk suggests. The reviewer notes that with the wind aft of the beam you can start lifting the board, which lightens the helm and improves performance. The deep skeg adds directional stability at the cost of marina manoeuvrability.",
+        "conditions": "windy test sail in a confused sea",
+        "source": {
+          "title": "Yachting Monthly — Garcia Exploration 45 review",
+          "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "6.5kn upwind, 8kn reaching on Chesapeake",
+        "theme": "handling",
+        "region": "Chesapeake Bay, USA",
+        "account": "A Blue Water Sailing / Cruising Compass sea trial of the Exploration 45 in about 20 knots and building chop on Chesapeake Bay logged 6.5 knots close-hauled at 35–40 degrees apparent and 7.5 knots sustained (8-knot peaks) on a beam reach, with twin-rudder steering described as effortless. The reviewer praised deck ergonomics, granny bars at the mast, and quiet sightlines from the forward nav station. A delivery-crew member called her as comfortable underway as anything they had sailed.",
+        "conditions": "~20 knots, building chop",
+        "source": {
+          "title": "Cruising Compass / Blue Water Sailing — Garcia Exploration 45",
+          "url": "https://www.bwsailing.com/cc/2015/03/garcia-exploration-45/"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "Greenland-to-England on renewables alone",
+        "theme": "liveaboard",
+        "region": "Greenland to England, North Atlantic",
+        "account": "Cornell reports that on a Greenland-to-England passage where Aventura IV had engine problems, the boat's wind, hydro and solar generation 'provided all our energy needs perfectly,' validating his refusal to fit a diesel generator. He also describes routinely drying the boat out on a beach for maintenance and wildlife watching thanks to the fully retracting centreboard. Insulation above the waterline and an insulated floor are cited as meaningful advantages for managing condensation when living aboard in cold, damp high latitudes.",
+        "conditions": "",
+        "source": {
+          "title": "Cornell Sailing — Aventura IV (Exploration 45) FAQ",
+          "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+        },
+        "confidence": 0.8
+      },
+      {
+        "title": "Decade of poles aboard a Garcia 52",
+        "theme": "region",
+        "region": "Svalbard to Patagonia / Antarctic Peninsula",
+        "account": "The Italian-owned Exploration 52 Lifexplorer (delivered April 2017) ran a ten-year program from 80°N in the Arctic Ocean off Svalbard down to Patagonia and beyond 62°S at the Antarctic Peninsula. A 350-mile Barents Sea leg took 42 hours in 25–35 knots with surfs to 12 knots over a current-roughened sea, averaging over 8 knots, and the aluminium boat logged 5,000-plus miles in the northern phase with minimal issues. The owners cite excellent range and provisioning capacity for remote, self-sufficient sailing.",
+        "conditions": "25–35 knots, rough current-affected sea, surfs to 12 knots (Barents Sea)",
+        "source": {
+          "title": "Garcia Yachts — Lifexplorer: 10 years of sailing in extreme latitudes aboard a Garcia Exploration 52",
+          "url": "https://www.garciayachts.com/en/garcia-magazine/lifexplorer-10-years-of-sailing-in-extreme-latitudes-aboard-a-garcia-exploration-52"
+        },
+        "confidence": 0.72
+      },
+      {
+        "title": "Atlantic crossing on the bigger sister",
+        "theme": "passage",
+        "region": "Martinique to Azores, North Atlantic",
+        "account": "Yachting World tester Francois Tregouet crossed the Atlantic west-to-east on the Exploration 60 Albius IV, Le Marin to Horta in 14 days 20 hours with a crew of four. Conditions were light for much of the way — 12–20 knots early, a calm stretch under engine, then a Code 0 spell — with boatspeed staying a remarkably constant 7–9 knots when trimmed, and the centreboard credited for steady motion despite heel. The cabin beneath the saloon was rated one of the most comfortable berths in rough seas, illustrating the line's seakindly liveaboard character.",
+        "conditions": "12–20 knots early then light/calm; speeds held 7–9 knots",
+        "source": {
+          "title": "Yachting World — Garcia Exploration 60 review: we crossed the Atlantic to test it",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/garcia-exploration-60-review-we-crossed-the-atlantic-to-test-this-adventure-cruiser"
+        },
+        "confidence": 0.78
+      }
     ]
   }
 }

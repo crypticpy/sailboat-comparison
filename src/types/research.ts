@@ -52,6 +52,18 @@ export interface ProvisioningItem {
   why: string;
 }
 
+/** A cited real-world owner/press account, grouped by theme in the dossier. */
+export interface FieldReport {
+  title: string;
+  /** weather | passage | handling | liveaboard | region | reliability | ... */
+  theme: string;
+  region: string;
+  account: string;
+  conditions: string;
+  source: Source;
+  confidence: number;
+}
+
 export interface Sentiment {
   praise: string[];
   complaints: string[];
@@ -86,6 +98,8 @@ export interface BoatScores {
   storm_verdict: StormVerdict;
   refit_projection: RefitProjection;
   provisioning_specific: ProvisioningItem[];
+  /** Cited real-world accounts (owner logs, press sea-trials, forum threads). */
+  field_reports?: FieldReport[];
 }
 
 /** The full per-boat research record (lazy-loaded on demand). */

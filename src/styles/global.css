@@ -2124,6 +2124,113 @@ footer a {
   text-decoration: underline;
 }
 
+/* ── From the logbook (cited real-world accounts, grouped by theme) ───────── */
+.lb-intro {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0 0 14px;
+  max-width: 72ch;
+}
+.logbook {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.lb-theme {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  color: var(--ink);
+}
+.lb-ic {
+  font-size: 16px;
+}
+.lb-n {
+  font-family: var(--font-body, inherit);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--chip);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+.lb-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+.lb-card {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--teal);
+  border-radius: 10px;
+  background: var(--card);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+.lb-card:hover {
+  border-left-color: var(--brass);
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+.lb-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.lb-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.lb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.lb-region,
+.lb-cond {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+.lb-cond {
+  color: var(--brass-deep);
+}
+.lb-account {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+}
+.lb-src {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+  align-self: flex-start;
+}
+.lb-src:hover {
+  text-decoration: underline;
+  color: var(--brass-deep);
+}
+
 /* ── Provisioning (boat-specific + universal accordion) ───────────────────── */
 .provspecific {
   display: grid;

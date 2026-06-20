@@ -1400,6 +1400,92 @@
         "category": "Spares",
         "why": "Everything aboard is custom Amel, and Cruising World notes electronics and wiring routed through the watertight bulkheads are hard to access. The original diagrams plus a full assortment of 24V fuses and breakers turn a no-spares-in-stock situation into a fixable one offshore."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Effortless 9 knots off Florida in chop",
+        "theme": "handling",
+        "region": "Florida, USA",
+        "account": "In a Cruising World sea trial, the Amel 54 logged an effortless 9 knots in 16 knots of wind on the beam with choppy cross seas. The conservative ketch sail plan and full-skeg rudder gave a composed, armchair-style ride rather than a sporty one, consistent with Amel's comfort-first design brief.",
+        "conditions": "16 knots true on the beam, choppy cross seas",
+        "source": {
+          "title": "Amel 54 Boat Review — Cruising World",
+          "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+        },
+        "confidence": 0.9
+      },
+      {
+        "title": "One person can run the whole boat",
+        "theme": "liveaboard",
+        "region": "—",
+        "account": "Cruising World's review stressed the Amel 54's shorthanded ergonomics for older cruising couples: electric furling main and genoa, electric winches, a bow thruster and push-button controls at the steering station, all operable from the protected center cockpit. US agent Joel Potter summarized it as 'If you can lift 50 pounds, you can do everything on this boat yourself.' Standard liveaboard kit included a dishwasher, washer/dryer and deep freeze.",
+        "conditions": "",
+        "source": {
+          "title": "Amel 54 Boat Review — Cruising World",
+          "url": "https://www.cruisingworld.com/sailboats/amel-54/"
+        },
+        "confidence": 0.88
+      },
+      {
+        "title": "Carango circumnavigates via the World ARC",
+        "theme": "passage",
+        "region": "Caribbean to Pacific (World ARC)",
+        "account": "Owners Peter and Vicky Forbes sailed their Amel 54 Carango on the World ARC circumnavigation, one of two 54s aiming to complete the full loop. Forbes told Yachting World he chose the boat primarily for its inherent safety features and cockpit-controlled sail plan, valuing comfort and safety over outright speed, and noted the ketch rig's shorter masts and smaller sails suited a crew 'of a certain age.' The first leg from St Lucia to Colombia involved over 40 hours of motoring in light air, yet he still called it some of his best sailing since buying her in 2013.",
+        "conditions": "Light air on the St Lucia–Colombia leg; 40+ hours motoring",
+        "source": {
+          "title": "World ARC crews talk to us in Colombia — Yachting World",
+          "url": "https://www.yachtingworld.com/features/world-arc-crews-talk-us-colombia-first-stop-circumnavigation-71138/2"
+        },
+        "confidence": 0.82
+      },
+      {
+        "title": "Holds firm in 45-knot Tuamotu squall",
+        "theme": "weather",
+        "region": "Tuamotus, French Polynesia",
+        "account": "On their Pacific leg toward Rangiroa, the Forbeses' Amel 54 Carango rode out a sudden storm with 45-knot winds and high waves inside an atoll lagoon. Several nearby boats dragged anchor while Carango held firm, which the owners credited to the boat's ground tackle and the security of the heavy, well-equipped Amel package.",
+        "conditions": "45-knot winds, high waves in a lagoon",
+        "source": {
+          "title": "Carango Amel 54 #035 — In full Sail (owner blog)",
+          "url": "https://blog.mailasail.com/carango/posts/2016/4/20/149-in-full-sail"
+        },
+        "confidence": 0.72
+      },
+      {
+        "title": "Beats an Oyster 62 to windward off Brazil",
+        "theme": "handling",
+        "region": "Brazilian coast (Salvador toward Grenada)",
+        "account": "Working north along the Brazilian coast toward Fernando de Noronha and Grenada, owner Peter Forbes reported Carango going well close-hauled on starboard tack with barber haulers and running backstays rigged on the staysail and a partial yankee, main and mizzen sheeted in hard. He wrote that 'Carango goes very well to windward and we have held off challenge from the 62 foot Oyster — very satisfactory,' and that the boat handled a two-person watch system on long passages.",
+        "conditions": "Close-hauled, starboard tack; coastal Brazil",
+        "source": {
+          "title": "Carango Amel 54 #035 — Up further North in Brazil (owner blog)",
+          "url": "https://blog.mailasail.com/carango/posts/2017/2/23/268-up-further-north-in-brazil-towards-the-carnivals"
+        },
+        "confidence": 0.72
+      },
+      {
+        "title": "Engine failure and 'appalling' Amel support",
+        "theme": "maintenance",
+        "region": "Papeete, French Polynesia",
+        "account": "After a main-engine failure on a reef, Carango was towed into Papeete, where the owners juggled a broken anchor windlass and a leaking generator anti-siphon valve at the same time. Forbes found the local Volvo agent unreliable and emailed contacts in New Zealand, Australia and France to source help, venting in the blog about what he called Amel's 'appalling' factory support — a candid counterpoint to the brand's reliability reputation.",
+        "conditions": "",
+        "source": {
+          "title": "Carango Amel 54 #035 — Volvo Engine disaster (owner blog)",
+          "url": "http://blog.mailasail.com/carango/posts/2016/5/19/155-volvo-engine-disaster"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Owner blog flags furler and chain-handling quirks",
+        "theme": "maintenance",
+        "region": "—",
+        "account": "Amel owner Bill Kinney (who sails the Super Maramu Harmonie) compared the 54 to the older boat after a week aboard. He praised the 54's inner-forestay staysail for balancing the boat nicely in heavy weather, but criticized its Bamar genoa and staysail furlers as less robust than Amel's own design, reported that 100m of chain jammed the 54's chainpipe, and noted the hydraulic passerelle's reputation for constant mechanical problems.",
+        "conditions": "",
+        "source": {
+          "title": "Compare and Contrast: The Amel 54 vs. the Super Maramu — fetchinketch (owner blog)",
+          "url": "https://fetchinketch.net/2020/05/17/compare-and-contrast-the-amel-54-vs-the-super-maramu/"
+        },
+        "confidence": 0.66
+      }
     ]
   }
 }

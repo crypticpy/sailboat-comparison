@@ -748,6 +748,56 @@
         "category": "Safety / Redundancy",
         "why": "On a two-person ocean boat the autopilot is the primary watch-keeper; a spare drive unit is standard offshore redundancy."
       }
+    ],
+    "field_reports": [
+      {
+        "title": "Sea trial: powerful but can build weather helm",
+        "theme": "handling",
+        "region": "—",
+        "account": "A sea-trial review of the new classic centre-cockpit Moody 54 found the 16.7m hull carried great power, fetching to windward comfortably at around seven knots in moderate air and handling easily when not pressed. The reviewer noted, however, that during a gust in tight quarters the boat became grossly overpowered and the weather helm began to take command, underscoring that the big in-mast-furled rig needs to be reefed early. The triple-spreader cutter rig with self-tacking staysail, in-mast main furling, electric primary winches and a bow thruster is explicitly set up for shorthanded couples.",
+        "conditions": "Gust to ~15 knots in confined water during the test",
+        "source": {
+          "title": "Moody 54 review (Mark Rothfield, Modern Boating, Oct 2000) via Yacht & Boat",
+          "url": "https://www.yachtandboat.com.au/moody-54-review/"
+        },
+        "confidence": 0.78
+      },
+      {
+        "title": "Ocean Blue: ARC plus Atlantic-to-Pacific passages",
+        "theme": "passage",
+        "region": "Atlantic, Caribbean, Panama, South Pacific to Australia",
+        "account": "A 2002 Moody 54 named Ocean Blue completed an extensive multi-year bluewater voyage, crossing the Atlantic to St Lucia with the ARC in 2016, working through the Bahamas, Turks and Caicos and the Panama Canal, then sailing the Pacific via the Galapagos, French Polynesia, Tonga, Fiji and New Zealand before reaching Queensland, Australia. The brokerage describes her as a fast ocean cruising yacht designed to be handled by two, with roller furling on all sails, a well-sheltered centre cockpit and proven bluewater dependability. Displacement is listed around 23,000 kg.",
+        "conditions": "",
+        "source": {
+          "title": "2002 Moody 54 'Ocean Blue' listing, The Yacht Sales Co.",
+          "url": "https://yachtsalesco.com/boats/pre-owned/sailing-yachts/2002-moody-54-ocean-blue/"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Owner-reported factory fit-out on Great Lakes 54",
+        "theme": "community",
+        "region": "Great Lakes, USA",
+        "account": "On the Moody Owners Information Exchange, Max Schwartz (Gusto Vita), owner of a 2002 Moody 54 sailed on the Great Lakes out of Chicago, discussed factory-installed equipment including a gas/water separator and the optional Onan 13.5kW genset, and uploaded the boat's owner's manual for other owners. A prospective buyer of a 2001 Moody 54 (Chinook, Dana Point, hull #6) joined the thread asking about the same fit-out details. The exchange reflects a small but active classic-Moody-54 owner community sharing factory specifications and documentation rather than heavy-weather narratives.",
+        "conditions": "",
+        "source": {
+          "title": "Moody 54 - Considering Purchase, Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/threads/considering-purchase-any-advice-please.19083/"
+        },
+        "confidence": 0.55
+      },
+      {
+        "title": "Design profile: moderate, comfortable bluewater cruiser",
+        "theme": "handling",
+        "region": "—",
+        "account": "Specification analysis of the Bill Dixon classic Moody 54 lists roughly 21,500 kg displacement, a deep-keel draft near 2.37m (with a 1.8m shoal option), a cutter rig with in-mast furling, a displacement/length ratio of about 201 and a capsize-screening value of 1.8. The numbers place her as a moderate-displacement bluewater cruiser expected to give a relatively comfortable ride over long passages. Designer Robert Perry separately praised the hull's gentle sheerline and reasonable hull shape.",
+        "conditions": "",
+        "source": {
+          "title": "Moody 54 specs & KPIs, Sailboat-Cruising.com",
+          "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+        },
+        "confidence": 0.6
+      }
     ]
   }
 }
