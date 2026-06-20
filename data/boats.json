@@ -320,7 +320,9 @@
       "The performance rig brings running backstays — extra short-handed workload.",
       "A hard, performance-tuned hull gives a firmer motion than a heavy traditional cruiser."
     ],
-    "awards": ["European Yacht of the Year 2026"],
+    "awards": [
+      "European Yacht of the Year 2026"
+    ],
     "endorsements": [
       {
         "who": "Yachting World (EYOTY jury)",
@@ -1054,7 +1056,9 @@
       "No factory insulation/heating provision.",
       "Performance degrades as you load cruising weight (it punishes payload)."
     ],
-    "awards": ["European Yacht of the Year 2012"],
+    "awards": [
+      "European Yacht of the Year 2012"
+    ],
     "endorsements": [
       {
         "who": "Interesting Sailboats",
@@ -1426,7 +1430,10 @@
       "Boutique single-source builder + a small owner community for peer support.",
       "Verify rig service and gelcoat on 10+ year boats."
     ],
-    "awards": ["Cruising World Boat of the Year 2016", "SAIL Best Boats 2012"],
+    "awards": [
+      "Cruising World Boat of the Year 2016",
+      "SAIL Best Boats 2012"
+    ],
     "endorsements": [
       {
         "who": "Cruising World (Alvah Simon)",
@@ -2356,7 +2363,9 @@
       "In-mast furling main is a convenience/redundancy compromise.",
       "Low-volume, semi-custom — used examples are scarce and configurations vary."
     ],
-    "awards": ["SAIL Best Boats 2009"],
+    "awards": [
+      "SAIL Best Boats 2009"
+    ],
     "endorsements": [
       {
         "who": "Cruising World (Andrew Burton)",
@@ -2413,7 +2422,7 @@
     "builder": "Garcia Yachts · France",
     "designer": "Berret-Racoupeau w/ Jimmy Cornell",
     "color": "#1f6b5e",
-    "years": "2016–present",
+    "years": "2015–present",
     "material": "Aluminium",
     "category": "Aluminium expedition",
     "loa": "54'6\" (16.65 m)",
@@ -2433,7 +2442,7 @@
     "sad": "~17.1",
     "dl": "~175",
     "airDraft": "21.5 m / 70'6\"",
-    "engine": "Volvo D3-110 (150 opt)",
+    "engine": "Volvo D3-110",
     "drive": "Shaft",
     "cabins": "3 cabins / 2 heads (+workshop)",
     "keel": "Integral aluminium centreboard (no bolt-on keel) · twin skeg-protected rudders · ice-reinforced forefoot",
@@ -2454,18 +2463,19 @@
     "accommodation": "Deck-saloon liveaboard with 270° views, a big galley and nav station; cork decks (grippy, dog-friendly, washable) + a low swim platform aid dog boarding; the workshop cabin gives space for two dogs.",
     "highLatText": "Best-in-class — built to Jimmy Cornell's Northwest-Passage brief: ice-reinforced forefoot, watertight bulkheads, welded above-WL seacocks, heavy insulation, watertight doors, optional heating. Proven Svalbard–Patagonia–Antarctica.",
     "tropicalText": "Very good — shoal 1.27 m board-up draft for reefs/lagoons, a 270° shaded saloon, coachroof shade, big watermaker/tankage and good ventilation.",
-    "priceText": "$1.0M–$2.0M (used)",
-    "priceNew": "New from ~€1.3M (~€1.5–1.8M outfitted)",
-    "priceUsed": "Used ~$1.0M–$2.0M (median ~$1.75M)",
-    "priceMinUSD": 1000000,
-    "priceMaxUSD": 2000000,
+    "priceText": "$1.5M–$2.0M (used)",
+    "priceNew": "New POA — base ex-shipyard ~€830k (2020); cruise-ready orders ~€1.3–1.8M",
+    "priceUsed": "Used ~$1.5M–$2.0M (median ~$1.75M)",
+    "priceMinUSD": 1500000,
+    "priceMaxUSD": 2050000,
     "budget": "over",
     "budgetN": 3,
-    "budgetText": "Over budget — even the cheapest used hulls sit at/above $1M, and a properly outfitted example runs $1.5M+. Included as the aspirational aluminium benchmark; the Exploration 45 is the in-budget Garcia.",
+    "budgetText": "Well over budget — even the cheapest used hulls now ask ~$1.5M (a 2021 ex-Antarctica boat at €1.35M ex-VAT ≈ $1.56M), and outfitted examples reach $2M+. The in-budget Garcia is the Exploration 45.",
     "priceExamples": [
-      "New from ~€1.3M (ex-options)",
-      "2018/2019 used examples ~$1.35M–$1.56M",
-      "Used median asking ~$1.75M"
+      "2021 'HEBE' (ex-Antarctica) — €1,350,000 ex-VAT (~$1.56M, GL Yachting)",
+      "2018/2019 used — ~$1.56M–$2.0M (Swiftsure / YachtWorld)",
+      "12-month median asking ~$1.75M–$2.0M",
+      "New base ex-shipyard ~€830k (2020); cruise-ready ~€1.3–1.8M"
     ],
     "scores": {
       "protection": 5,
@@ -2476,7 +2486,7 @@
       "tankage": 5,
       "highlat": 5,
       "tropical": 4.5,
-      "budget": 1.5
+      "budget": 1
     },
     "tags": [
       "Aluminium expedition",
@@ -2535,7 +2545,7 @@
       "Unmatched dual-climate engineering: ice-reinforced/insulated for the cold, shaded/shoal/ventilated for the tropics."
     ],
     "cons": [
-      "Price — over the $1M budget (used $1.0–2.0M); the single biggest disqualifier here.",
+      "Price — well over the $1M budget (used ~$1.5–2.0M); the single biggest disqualifier here.",
       "Modest sail area (SA/D ~17.1) — sluggish in light air under white sails; needs a downwind sail.",
       "Aluminium demands disciplined galvanic/corrosion management — a learning curve for the crew.",
       "Complex, system-rich expedition boat (genset, watermaker, multiple charging sources) — more to maintain.",
@@ -2579,7 +2589,7 @@
         }
       ],
       "risks": [
-        "Price — over the $1M budget (the biggest disqualifier here)",
+        "Price — well over the $1M budget (the biggest disqualifier here)",
         "Aluminium galvanic/corrosion discipline required",
         "Complex, system-rich expedition boat — more to maintain",
         "Light-air sluggishness; short twin rudders if over-pressed"
@@ -2599,7 +2609,7 @@
     "builder": "Boréal Yachts · France",
     "designer": "Jean-François Delvoye",
     "color": "#234f6b",
-    "years": "2014–present",
+    "years": "2014–c.2024 (succeeded by the Boréal 56)",
     "material": "Aluminium",
     "category": "Aluminium expedition",
     "loa": "52'0\" (15.86 m)",
@@ -2618,7 +2628,7 @@
     "sailArea": "130 m² / 1,399 ft²",
     "sad": "~20.5",
     "dl": "~174",
-    "airDraft": "~23 m / 75'",
+    "airDraft": "~23 m / 75' (est.)",
     "engine": "Volvo D2-75 (Nanni 85 opt)",
     "drive": "Shaft",
     "cabins": "3 cabins / 2 heads",
@@ -2649,9 +2659,9 @@
     "budgetN": 2,
     "budgetText": "Tight/borderline — a clean used 52 fits under $1M if lightly speced; a fully world-cruise-outfitted boat sits right at or just over the cap. A used Boréal 44/47.2 is the comfortable in-budget alternative.",
     "priceExamples": [
-      "2020 'Bravo' — €885,000 + VAT (~$950k–$1.0M, Berthon)",
-      "2020 Boréal 52 — ~$813,000 (Boatshop24/YachtWorld)",
-      "New base ~€725,000 ex-VAT (2020)"
+      "2020 'BRAVO' — €885,000 +VAT (~$1.0M asking, Berthon)",
+      "~2014–16 hull (Nanni 85) — €750,000 (~$863k, France)",
+      "Launch base €685k ex-VAT (2015)"
     ],
     "scores": {
       "protection": 5,
@@ -2728,7 +2738,9 @@
       "Bare-aluminium maintenance discipline (anodes, antifouling, no stray current) is non-negotiable.",
       "Niche French builder — parts/service network is thinner in the Americas/Pacific."
     ],
-    "awards": ["European Yacht of the Year 2015"],
+    "awards": [
+      "European Yacht of the Year 2015"
+    ],
     "endorsements": [
       {
         "who": "Yachting World (Matthew Sheahan)",
@@ -2778,6 +2790,398 @@
       }
     },
     "engineHp": 75
+  },
+  {
+    "id": "boreal55",
+    "name": "Boréal 55",
+    "builder": "Boréal Yachts · France",
+    "designer": "Jean-François Delvoye",
+    "color": "#356a86",
+    "years": "2014–c.2023 · OC from ~2019 · succeeded by the Boréal 56",
+    "material": "Aluminium",
+    "category": "Aluminium expedition",
+    "loa": "53'10\" (16.40 m)",
+    "loaN": 16.4,
+    "lwl": "45'4\" (13.82 m)",
+    "beam": "15'4\" (4.65 m)",
+    "beamFt": 15.26,
+    "lwlFt": 45.4,
+    "dispLb": 36376,
+    "draftMin": "3'9\" (1.14 m up)",
+    "draftMinN": 1.14,
+    "draftMax": "10'3\" (3.13 m down)",
+    "displacement": "16,500 kg / 36,376 lb (light); ~17,800 kg loaded (sources vary)",
+    "ballast": "4,800 kg lead",
+    "ballastRatio": "~29%",
+    "sailArea": "130 m² / 1,399 ft² (61 main + 69 genoa + 26 staysail)",
+    "sad": "~20",
+    "dl": "~175",
+    "airDraft": "~24 m / 79' (est.)",
+    "engine": "Volvo D2-75 (Nanni 85 / 100 hp opt)",
+    "drive": "Shaft",
+    "cabins": "3–4 cabins / 2 heads",
+    "keel": "Lifting ballasted NACA centreboard in a flat keel-stub (dries out upright); integral internal lead ballast — no bolt-on keel · single NACA rudder (+ balancing daggerboards on the 55 OC)",
+    "cockpit": "Permanent welded aluminium doghouse with wraparound glazing + watertight door (standard); the later '55 OC' opens the cockpit and stern for warm-climate sailing",
+    "cockpitType": "Aft + hard doghouse (OC: open cockpit)",
+    "bestFor": "The couple who want the welded-doghouse expedition formula of the Boréal 52 with a little more length and stern volume — though it's now a rare, discontinued model (≈3 open-cockpit hulls built) superseded by the Boréal 56.",
+    "protectionText": "A permanent welded alloy doghouse with wraparound glazing and a solid watertight \"bye-bye weather\" door gives a sheltered inside helm/nav station — Attainable Adventure Cruising called it \"pure luxury in the cold and wet… one of the best features ever for high latitudes.\" The later \"55 OC\" (Open Cockpit) trades some of that enclosure for an open, warm-climate cockpit.",
+    "rig": "Cutter (masthead) — fully-battened main + furling genoa + self-tacking staysail on an inner forestay; deck-stepped aluminium mast (Seldén).",
+    "handlingText": "Short-handed focus shared with the 52 — the cutter rig splits the sail plan into manageable sails, lines led aft, twin wheels, optional electric winches; the 80°N boat 'Bushpoint' adds twin autopilots and bow/stern thrusters. Yachting World on the same hull: \"surprisingly nimble… a very easy boat to handle.\"",
+    "engineWorkshop": "Engine centralised over the keel with access via the companionway/aft (good, not a walk-in room); a large aft lazarette swallows expedition gear — the standard 55 even stowed a dive compressor there.",
+    "systems": "12V + 220V circuits, shore power and charger; the heavily-outfitted 55 OC 'Bushpoint' carries ~800 Ah lithium, 1,100 W solar, hydro- and wind-generators, a watermaker, and Eberspächer + Refleks heating — illustrating how owners spec these for self-sufficiency.",
+    "storageText": "Strong for the size — a big aft lazarette, a forward sail locker, gas-bottle stowage and the deep bilges of a centreboarder; up to ~1,400 L fuel and 1,470 L water give long autonomy.",
+    "fuel": "879 L / 232 gal (up to ~1,400 opt)",
+    "fuelN": 879,
+    "water": "1,470 L / 388 gal",
+    "waterN": 1470,
+    "rangeText": "Big tankage — up to ~1,400 L fuel and 1,470 L water; ~1,000–1,200+ nm under power (estimate).",
+    "accommodation": "Deck-saloon layout with the signature near-360° doghouse, 3–4 cabins / 2 heads. The welded doghouse is a safe, warm indoor space; the lifting ballasted centreboard (1.14 m board-up) lets her take the ground for beach access. The '55 OC' opens the cockpit and adds a fold-down bathing platform for warm-climate living.",
+    "highLatText": "Excellent and proven — insulated alloy hull, a heated enclosed doghouse, double-glazed windows for condensation control, a Refleks/Eberspächer heating provision, watertight bulkheads and a dry-out keel. The 55 OC 'Bushpoint' reached 80°N at Svalbard in 2022 after cruising Ireland, the Hebrides, the Faroes and Norway.",
+    "tropicalText": "Capable — shoal 1.14 m board-up draft for reefs and lagoons, big water tankage and good ventilation; the '55 OC' open-cockpit variant was created specifically for warm-climate, sun-friendly cruising. As with all bare-alloy boats, the dark doghouse and topsides need awnings/ventilation in the heat.",
+    "priceText": "~$1.3M–$1.4M (used OC)",
+    "priceNew": "New POA (never published) — bracketed by the 52 (€685k, 2015) and the successor 56 (€1.45M ex-VAT)",
+    "priceUsed": "Used 55 OC ~€1.2M–€1.29M (~$1.3–1.4M); very few built, thin market",
+    "priceMinUSD": 1300000,
+    "priceMaxUSD": 1400000,
+    "budget": "over",
+    "budgetN": 3,
+    "budgetText": "Over budget and rare — only a handful built (≈3 of the open-cockpit '55 OC'); used examples ask €1.2–1.29M (~$1.3–1.4M). For a couple at ~$1M the Boréal 47.2 or a used 52 is the realistic in-budget Boréal.",
+    "priceExamples": [
+      "2021 'Bushpoint' (55 OC, hull #3, →80°N) — €1,290,000 (~$1.39M, Berthon)",
+      "2020 Boréal 55 OC — €1,200,000 (~$1.3M, boat24)",
+      "New POA — bracketed by the 52 (€685k '15) & the 56 (€1.45M ex-VAT)"
+    ],
+    "scores": {
+      "protection": 5,
+      "handling": 4,
+      "dogs": 4.5,
+      "workshop": 4,
+      "storage": 5,
+      "tankage": 5,
+      "highlat": 5,
+      "tropical": 4,
+      "budget": 2
+    },
+    "tags": [
+      "Hard doghouse",
+      "Aluminium centreboard",
+      "80°N proven",
+      "Discontinued → 56"
+    ],
+    "fun": [
+      "'Bushpoint' (55 OC, hull #3) sailed to 80°N at Svalbard in 2022 — about as far north as a cruising yacht can practically go.",
+      "Boréal took seven orders for the 55 Open Cockpit — and every one was switched to the new Boréal 56 before the 55 OC could become a series.",
+      "The standard 55's aft locker was sized to stow a dive compressor — a nod to its go-anywhere expedition brief."
+    ],
+    "notable": "Maiden 55 'Eala Bhan' was delivered in 2016 (her homecoming voyage documented by Attainable Adventure Cruising); the open-cockpit '55 OC' Bushpoint reached 80°N at Svalbard in 2022. Only about three 55 OCs were built before the model was superseded by the Boréal 56.",
+    "sources": [
+      {
+        "name": "Boréal 55 — Boat-Specs",
+        "url": "https://www.boat-specs.com/sailing/sailboats/boreal/boreal-55"
+      },
+      {
+        "name": "Boréal 55 — SailboatData",
+        "url": "https://sailboatdata.com/sailboat/boreal-55/"
+      },
+      {
+        "name": "Boréal 55 OC review — No Frills Sailing",
+        "url": "https://no-frills-sailing.com/boreal-55oc-sailing-yacht/"
+      },
+      {
+        "name": "'Bushpoint' 55 OC spec — Berthon Scandinavia",
+        "url": "https://berthonscandinavia.se/en/sold-yachts/boreal-55-oc/"
+      },
+      {
+        "name": "'Eala Bhan' maiden voyage — Attainable Adventure Cruising",
+        "url": "https://www.morganscloud.com/2016/01/21/eala-bhan-sails-home-the-maiden-voyage-of-the-boreal-55/"
+      },
+      {
+        "name": "Boréal 56 review (supersession) — Yachting World",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-56-review-aluminium-explorer-yacht-with-a-scow-influenced-shape"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Bushpoint Sailing — channel",
+        "url": "https://www.youtube.com/@bushpoint",
+        "note": "55 OC owners, Arctic to 80°N"
+      },
+      {
+        "name": "Launch of Bushpoint (Boréal 55 OC) — Ep 1",
+        "url": "https://www.youtube.com/watch?v=xIsyjNfunCk",
+        "note": "Splash / launch"
+      },
+      {
+        "name": "Beaching the boat — Ep 2",
+        "url": "https://www.youtube.com/watch?v=nWJUPv0I7kM",
+        "note": "Demonstrates dry-out / beaching"
+      },
+      {
+        "name": "Boat tour of Bushpoint — Ep 3",
+        "url": "https://www.youtube.com/watch?v=6sBVpBP708M",
+        "note": "Interior + doghouse tour"
+      },
+      {
+        "name": "Landfall Svalbard (Spitsbergen) — Ep 41",
+        "url": "https://www.youtube.com/watch?v=I5w-qMGLXZY",
+        "note": "Arctic high-latitude sailing"
+      }
+    ],
+    "pros": [
+      "The welded alloy doghouse gives a sheltered, heated inside helm/nav — outstanding all-weather protection for a short-handed couple.",
+      "Genuinely proven in the high latitudes: a 55 OC reached 80°N at Svalbard.",
+      "Lifting ballasted centreboard — 1.14 m board-up draft for gunkholing/beaching, 3.13 m down for upwind grip.",
+      "Big tankage (up to ~1,400 L fuel / 1,470 L water) for long-range autonomy.",
+      "Aluminium hull tolerates ice, grounding and remote-coast abuse; dry-out keel for beach inspection.",
+      "Easily-handled cutter rig with the option of heavy automation (twin pilots, thrusters)."
+    ],
+    "cons": [
+      "Discontinued — superseded by the Boréal 56; only ~3 open-cockpit 55s were built, so the used market is tiny.",
+      "Expensive and rare: used 55 OCs ask €1.2–1.29M (~$1.3–1.4M), well over a $1M budget; no published new price.",
+      "The standard 55's cockpit is small (\"a little bit hardcore\") — exactly why the open-cockpit OC was created.",
+      "Bare-aluminium discipline (anodes, antifouling, stray-current control) is non-negotiable.",
+      "Spec databases conflate the 52 and 55 (shared hull) — verify each individual hull's exact build and displacement.",
+      "Versus the 52 it adds relatively little; the bigger real step up is the successor Boréal 56 (taller rig, more ballast, scow bow)."
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Attainable Adventure Cruising (John Harries)",
+        "note": "On the 55's doghouse: \"pure luxury in the cold and wet, that makes you glad to be 'in the doghouse' — one of the best features ever for high latitudes.\"",
+        "url": "https://www.morganscloud.com/2016/01/21/eala-bhan-sails-home-the-maiden-voyage-of-the-boreal-55/"
+      },
+      {
+        "who": "Yachting World",
+        "note": "On Boréal generally: \"not simply aluminium tanks for off-piste cruising… a practical sailing cockpit and enough focus on performance and handling to be a proper sailing yacht.\"",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-56-review-aluminium-explorer-yacht-with-a-scow-influenced-shape"
+      }
+    ],
+    "badge": "80°N proven",
+    "own": {
+      "mastStep": "Deck-stepped",
+      "keelRudder": "Integral aluminium keel-stub with internal lead ballast and a lifting NACA centreboard (no bolt-on keel) · single NACA spade rudder (balancing daggerboards on the 55 OC)",
+      "complexity": "Moderate — the doghouse boat is deliberately robust/simple, but expedition examples like 'Bushpoint' layer on lithium, multiple charging sources, a watermaker and redundant heating.",
+      "maintain": "Good for a hands-on owner — accessible systems and an alloy hull any competent welder can repair; aluminium electrolysis/anode management demands discipline.",
+      "partsText": "Active builder (now up to the 56/70), but the 55 is out of production and only a few were built — boat-specific/alloy support routes back through France. Mainstream marine gear is easy worldwide.",
+      "problems": "No widespread defect pattern; the main themes are aluminium galvanic/electrolysis management and the thin parts/service footprint outside Europe, plus the small-cockpit critique that led to the OC.",
+      "sentiment": "Strongly positive — owners and reviewers praise the build, the doghouse and the seaworthiness; the 80°N voyage is the headline credential.",
+      "communities": [
+        {
+          "name": "Bushpoint Sailing (YouTube)",
+          "url": "https://www.youtube.com/@bushpoint"
+        },
+        {
+          "name": "AAC — Boréal coverage",
+          "url": "https://www.morganscloud.com/2016/01/21/eala-bhan-sails-home-the-maiden-voyage-of-the-boreal-55/"
+        },
+        {
+          "name": "Cruisers Forum — Boréal",
+          "url": "https://www.cruisersforum.com/forums/f47/boreal-sailboats-165018.html"
+        }
+      ],
+      "risks": [
+        "Discontinued/rare — tiny used market, parts route through France",
+        "Price well over a $1M budget (used ~$1.3–1.4M)",
+        "Aluminium electrolysis/anode discipline required",
+        "Standard 55's small cockpit; verify variant (55 vs 55 OC)"
+      ],
+      "scores": {
+        "maintain": 4,
+        "simplicity": 4,
+        "parts": 2,
+        "community": 3
+      }
+    },
+    "engineHp": 75
+  },
+  {
+    "id": "boreal56",
+    "name": "Boréal 56",
+    "builder": "Boréal Yachts · France",
+    "designer": "Jean-François Delvoye",
+    "color": "#2a7396",
+    "years": "2025–present (replaced the 52 & 55)",
+    "material": "Aluminium",
+    "category": "Aluminium expedition",
+    "loa": "56'2\" (17.12 m)",
+    "loaN": 17.12,
+    "lwl": "47'6\" (14.47 m)",
+    "beam": "16'2\" (4.94 m)",
+    "beamFt": 16.21,
+    "lwlFt": 47.5,
+    "dispLb": 45194,
+    "draftMin": "3'11\" (1.20 m up)",
+    "draftMinN": 1.2,
+    "draftMax": "10'5\" (3.18 m down)",
+    "displacement": "20,500 kg / 45,194 lb (light); ~24,700 kg loaded",
+    "ballast": "6,600 kg lead",
+    "ballastRatio": "~32%",
+    "sailArea": "143 m² / 1,540 ft² (74 main + 69 genoa + 49 staysail)",
+    "sad": "~18.9",
+    "dl": "~189",
+    "airDraft": "~23.2 m / 76'",
+    "engine": "Yanmar 4JH80 (80 hp; 110 hp opt)",
+    "drive": "Shaft",
+    "cabins": "3 cabins / 2 heads (4th opt)",
+    "keel": "Lifting NACA centreboard in a long welded keel-trunk with internal lead ballast + a grounding plate (dries out upright) · single aluminium NACA rudder flanked by two lifting daggerboards",
+    "cockpit": "Permanent welded aluminium doghouse (watertight \"closes-like-a-safe\" door, two-person watch seat + oilskin locker) with the sailing cockpit separated from an enlarged guest cockpit and a clear run aft to a fold-down bathing platform",
+    "cockpitType": "Aft + hard doghouse",
+    "bestFor": "The well-funded couple who want Boréal's go-anywhere aluminium expedition formula in its newest, roomiest and fastest form — the brand-new scow-bowed flagship that replaced the 52 and 55.",
+    "protectionText": "Boréal's signature welded alloy doghouse — a watertight \"closes-like-a-safe\" door, a two-person watch seat and an oilskin drying locker — now paired with a sailing cockpit separated from an enlarged guest cockpit (a layout proven on the 47.2). A sheltered all-weather inside watch position is the brand's defining high-latitude feature.",
+    "rig": "Fractional sloop convertible to cutter (optional furling staysail on running checkstays); deck-stepped anodised aluminium mast, twin swept spreaders, rigid vang; main + genoa + spinnaker/gennaker options.",
+    "handlingText": "Short-handed by design — most lines led to a central electric Antal winch, twin steering columns, a single-line centreboard hoist and optional twin autopilots. The taller fractional rig and scow bow make it faster and drier than the 52/55: on test it made 7.5 kn upwind in 20 kn and surfed to 11.5 kn. Yachting World: \"not the most exciting to helm, but it'll outperform most others in this voyager sector.\"",
+    "engineWorkshop": "A workbench with heavy-duty tool drawers and a removable vice sits in the passage to the forward cabin, with an optional technical/workshop cabin to starboard aft; engine access is from both aft cabins and the companionway.",
+    "systems": "12V + 220V circuits; central electric winch, all-LED nav lights, a 40 L calorifier and 4× electric + 1 manual bilge pump; optional Refleks diesel stove or Eberspächer heating, plus nav/autopilot packages — most polar/expedition kit is optional and adds materially to the price.",
+    "storageText": "Exceptional — over 12 m³ of stowage across fore and aft peaks and deck lockers, a large rear cargo hold with two access panels, a dedicated twin gas-bottle locker and a forward sail locker.",
+    "fuel": "1,150 L / 304 gal",
+    "fuelN": 1150,
+    "water": "1,500 L / 396 gal",
+    "waterN": 1500,
+    "rangeText": "Big tankage — 1,150 L fuel and 1,500 L water for long autonomy under power and sail (theoretical hull speed ~9.2 kn).",
+    "accommodation": "Raised U-shape deck saloon with a wraparound double-glazed window strip; a forward master that exploits the scow-bow volume (peninsula berth + office desk), two aft cabins (the starboard convertible to twin bunks or a workshop), two heads with showers, and a long galley with a 144 L fridge. Three cabins standard, a fourth optional; 8 berths.",
+    "highLatText": "Built for it — a fully welded, insulated, twin-watertight-bulkhead \"practically unsinkable\" alloy hull, a heated enclosed doghouse, a grounding keel for drying out, and Refleks/Eberspächer heating options. Boréal's pedigree is proven (a Boréal 47 ran the Northwest Passage in 2024), though the 56 itself is too new for its own polar log.",
+    "tropicalText": "Capable — shoal 1.20 m board-up draft for reefs and lagoons, 1,500 L water, a big fridge and opening hatches/ports; as with all bare-alloy boats the hull and dark doghouse need awnings and ventilation in the heat. Model-specific tropical detail is thin beyond the brand's \"from the Tropics to extreme cold\" positioning.",
+    "priceText": "~$1.6M–$1.9M (new)",
+    "priceNew": "Base €1,486,900 ex-VAT (~$1.6M); ready-to-sail €1.51M, comfort pack €1.57M; Yachting World test boat ~€1.45M + ~€220k options (2025)",
+    "priceUsed": "None yet — brand-new model (first hulls 2025); no second-hand market",
+    "priceMinUSD": 1600000,
+    "priceMaxUSD": 1900000,
+    "budget": "over",
+    "budgetN": 3,
+    "budgetText": "Well over budget — the flagship lists at €1.49M+ ex-VAT (~$1.6M, dearer optioned and with VAT) and has no used market yet. The in-budget Boréals are the 47.2 or a used 52.",
+    "priceExamples": [
+      "Base ex-shipyard €1,486,900 ex-VAT (2025, YACHT.de)",
+      "Ready-to-sail €1,509,780 / comfort pack €1,567,730 ex-VAT",
+      "Yachting World test boat ~€1.45M + ~€220k options"
+    ],
+    "scores": {
+      "protection": 5,
+      "handling": 4.5,
+      "dogs": 4.5,
+      "workshop": 4.5,
+      "storage": 5,
+      "tankage": 5,
+      "highlat": 5,
+      "tropical": 4,
+      "budget": 1
+    },
+    "tags": [
+      "Hard doghouse",
+      "Scow bow",
+      "Aluminium centreboard",
+      "New flagship"
+    ],
+    "fun": [
+      "The 56's scow bow was borrowed from IMOCA 60 ocean racers — Delvoye: \"We tried an extreme one and it worked.\"",
+      "Ten customers cancelled their Boréal 55 orders and switched to the 56 before it had even launched.",
+      "On its delivery trip the test boat crossed Brittany to Holland in 35–50 kn winds and reportedly \"ran like it was on rails.\""
+    ],
+    "notable": "Boréal's new flagship — the natural evolution of the 52/55/55 OC; first revealed mid-2025 with the second hull on test that autumn. Nominated for European Yacht of the Year 2026 (over-16 m). Builder pedigree includes a Boréal 47 completing the Northwest Passage in 2024 and EYOTY wins for the 47.2 (2021) and 52 (2015).",
+    "sources": [
+      {
+        "name": "Boréal 56 spec sheet (PDF, 2025)",
+        "url": "https://www.boreal-yachts.com/wp-content/uploads/2025/03/SPECIFICATIONS-BOREAL-56-2025.pdf"
+      },
+      {
+        "name": "Boréal 56 review — Yachting World",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-56-review-aluminium-explorer-yacht-with-a-scow-influenced-shape"
+      },
+      {
+        "name": "Boréal 56 test — YACHT.de",
+        "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-56-globetrotter-for-extreme-areas-in-the-test/"
+      },
+      {
+        "name": "Boréal Yachts — builder",
+        "url": "https://www.boreal-yachts.com/?lang=en"
+      },
+      {
+        "name": "European Yacht of the Year 2026 nominees",
+        "url": "https://www.yacht.de/en/yachts/shipyards/european-yacht-of-the-year-2026-the-nominees-for-european-yacht-of-the-year/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "BOREAL 56 — blue water expedition perfection",
+        "url": "https://www.youtube.com/watch?v=Tt-RtyEZ1Ww",
+        "note": "Builder feature"
+      },
+      {
+        "name": "BOREAL 56 : le nouveau Boréal! / The new Boréal!",
+        "url": "https://www.youtube.com/watch?v=TXElLQqnvC0",
+        "note": "2025 reveal"
+      },
+      {
+        "name": "Boréal Yachts — channel",
+        "url": "https://www.youtube.com/channel/UC8dePDAyqXwVKYsQlI_AQgg",
+        "note": "Official channel"
+      }
+    ],
+    "pros": [
+      "More space and a better-organised cockpit than the 52/55 — the scow bow opens up a forward master and separates the sailing cockpit from an enlarged guest area with a clear run to the bathing platform.",
+      "Faster and drier than its predecessors — a taller fractional rig + symmetric scow hull; surfed to 11.5 kn on test.",
+      "Genuinely go-anywhere build — fully welded 5083/5086 alloy, a 12 mm keel and twin watertight bulkheads (\"practically unsinkable\"), with a grounding keel for drying out.",
+      "Serious expedition autonomy — 1,150 L fuel + 1,500 L water, >12 m³ stowage, a workbench/vice and an optional technical cabin.",
+      "Proven builder pedigree for high latitudes — a Boréal 47 ran the Northwest Passage in 2024; multiple Yacht-of-the-Year wins across the range.",
+      "Strong expert reception — Yachting World: it \"leads by the nose\" for far-reaching voyaging."
+    ],
+    "cons": [
+      "Very expensive and dearer fast — ~€1.49M base ex-VAT (~$1.6M); the test boat carried ~€220k of options, and an optioned spec is listed at €1.6M.",
+      "Brand-new model with almost no track record — only ~2 hulls launched and no owner-voyage history or used market yet.",
+      "Long wait — a ~3-year build slot, with up to 12 boats in build at once.",
+      "Not a thrilling helm — Yachting World calls it \"not the most exciting to helm.\"",
+      "A heavy, deep-when-down passagemaker (20.5 t light / 24.7 t loaded, 3.18 m board-down) — not a coastal sportboat.",
+      "Many expedition essentials are options (cutter staysail, heating, 110 hp engine, autopilot/nav packages), inflating the real cruising price."
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Yachting World",
+        "note": "\"For those with far-reaching voyaging aspirations, the Boréal 56 leads by the nose… it'll outperform most others in this voyager sector.\"",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-56-review-aluminium-explorer-yacht-with-a-scow-influenced-shape"
+      },
+      {
+        "who": "YACHT (Jochen Rieker)",
+        "note": "Delivered the test boat through 35–50 kn winds: \"ran like it was on rails… behind the raw, ultra-rugged shell she hides more finesse than before.\"",
+        "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-56-globetrotter-for-extreme-areas-in-the-test/"
+      }
+    ],
+    "badge": "EYOTY 2026 nominee",
+    "own": {
+      "mastStep": "Deck-stepped",
+      "keelRudder": "Lifting NACA centreboard in a long welded keel-trunk with internal lead ballast (no bolt-on keel) + a grounding plate · single aluminium NACA rudder flanked by two lifting daggerboards",
+      "complexity": "Moderate–high — a robust welded-alloy platform, but a fully-outfitted expedition 56 layers on heating, a watermaker, multiple charging sources and nav/autopilot packages.",
+      "maintain": "Good for a hands-on owner — a dedicated workbench/vice, engine access from both aft cabins, and an alloy hull any competent welder can repair; aluminium electrolysis/anode discipline is required.",
+      "partsText": "Active, well-regarded builder (up to 12 boats in build, ~113 delivered), but boat-specific/alloy support routes through France; mainstream gear (Yanmar, B&G, Lewmar, Antal) is easy worldwide.",
+      "problems": "Too new for a defect record. Watch items: the usual aluminium galvanic/anode discipline and a long build-slot wait; the builder document is internally inconsistent on ballast and the sail-area split (verify the as-built spec).",
+      "sentiment": "Early reviews are strongly positive on build, seaworthiness and the roomier, faster scow hull; the main reservations are price, the brand-new track record and a sedate helm feel.",
+      "communities": [
+        {
+          "name": "Boréal Yachts (YouTube)",
+          "url": "https://www.youtube.com/channel/UC8dePDAyqXwVKYsQlI_AQgg"
+        },
+        {
+          "name": "Boréal blog",
+          "url": "https://www.boreal-yachts.com/boreal-blog/?lang=en"
+        },
+        {
+          "name": "Cruisers Forum — Boréal",
+          "url": "https://www.cruisersforum.com/forums/f47/boreal-sailboats-165018.html"
+        }
+      ],
+      "risks": [
+        "Price well over budget (~€1.49M+ ex-VAT, ~$1.6M)",
+        "Brand-new model — no track record or used market yet",
+        "~3-year build-slot wait",
+        "Aluminium electrolysis/anode discipline required"
+      ],
+      "scores": {
+        "maintain": 4,
+        "simplicity": 3,
+        "parts": 3,
+        "community": 3
+      }
+    },
+    "engineHp": 80
   },
   {
     "id": "boreal",
@@ -2911,7 +3315,9 @@
       "Centreboard + twin daggerboards add maintenance points vs. a fixed keel.",
       "Aluminium needs galvanic management and can be warm below in the tropics without good ventilation."
     ],
-    "awards": ["European Yacht of the Year 2021"],
+    "awards": [
+      "European Yacht of the Year 2021"
+    ],
     "endorsements": [
       {
         "who": "John Harries · Attainable Adventure Cruising",
@@ -3877,7 +4283,9 @@
       "More boat and more complex systems for two people to maintain far from help.",
       "Composite deck on an alloy hull means two maintenance regimes; centreboard case + twin rudders add inspection points."
     ],
-    "awards": ["Cruising World Boat of the Year 2025"],
+    "awards": [
+      "Cruising World Boat of the Year 2025"
+    ],
     "endorsements": [
       {
         "who": "Cruising World jury",
@@ -4477,7 +4885,9 @@
       "Mostly at/above budget — getting one fully outfitted under $1M is tight.",
       "High freeboard makes dog boarding harder (needs a ramp/sling), and it leans heavily on electric systems."
     ],
-    "awards": ["European Yacht of the Year 2018"],
+    "awards": [
+      "European Yacht of the Year 2018"
+    ],
     "endorsements": [
       {
         "who": "Yachting World (Toby Hodges)",
@@ -5076,7 +5486,9 @@
       "Deepest draft here (2.28 m std) — shoal keel needed for rock/shallow anchorages.",
       "Heavier and less sail-powered — wants breeze, more motoring in light air; helm feel is geared and heavy."
     ],
-    "awards": ["European Yacht of the Year 2023"],
+    "awards": [
+      "European Yacht of the Year 2023"
+    ],
     "endorsements": [
       {
         "who": "European Yacht of the Year jury",
@@ -5607,7 +6019,9 @@
       "The desirable new-generation 50CS is out of budget; you're buying a 10–20-year-old boat — survey systems carefully.",
       "Smaller dedicated engine space than the Discovery's walk-in engine room."
     ],
-    "awards": ["European Yacht of the Year 2022"],
+    "awards": [
+      "European Yacht of the Year 2022"
+    ],
     "endorsements": [
       {
         "who": "Yachting World",
@@ -5787,7 +6201,9 @@
       "Steep companionway and isolated aft master can be awkward for an older/less-mobile dog or smaller crew.",
       "New boats are far above $1M; the used pool is thin."
     ],
-    "awards": ["Cruising World Boat of the Year 2019"],
+    "awards": [
+      "Cruising World Boat of the Year 2019"
+    ],
     "endorsements": [
       {
         "who": "Cruising World jury (Alvah Simon)",
@@ -6972,7 +7388,12 @@
       "tropical": 4,
       "budget": 1
     },
-    "tags": ["centre-cockpit", "deck-saloon", "cutter-rig", "bluewater-proven"],
+    "tags": [
+      "centre-cockpit",
+      "deck-saloon",
+      "cutter-rig",
+      "bluewater-proven"
+    ],
     "fun": [
       "Only ~36 were ever built — your Oyster 485 will be the rarest boat in most anchorages from Ushuaia to Bora Bora.",
       "The dedicated generator alcove and under-cockpit engine room with lift-out panels are a genuine treat after crawling into a production boat's bilge with a headlamp."
@@ -7128,7 +7549,12 @@
       "tropical": 4,
       "budget": 2
     },
-    "tags": ["deck-saloon", "centre-cockpit", "bluewater", "cutter"],
+    "tags": [
+      "deck-saloon",
+      "centre-cockpit",
+      "bluewater",
+      "cutter"
+    ],
     "fun": [
       "The cockpit was ergonomically designed with Loughborough University — seats long enough to sleep on, with wavy coamings for every lounging position.",
       "In a 2006 SAIL Magazine test, the 53 was compared to riding first class on a British train — composed and quiet through rough seas that had the crew expecting chaos below."
@@ -7309,7 +7735,12 @@
       "tropical": 4,
       "budget": 2
     },
-    "tags": ["centre-cockpit", "deck-saloon", "bluewater", "UK-built"],
+    "tags": [
+      "centre-cockpit",
+      "deck-saloon",
+      "bluewater",
+      "UK-built"
+    ],
     "fun": [
       "Oyster 54 hull #1 was delivered to Sir Robin Knox-Johnston, who sailed it solo across the Atlantic within months of delivery",
       "The 545's flush deck hatches were inspired directly by Oyster's larger superyacht range — the 54-footer got the same hardware as boats twice its price"
