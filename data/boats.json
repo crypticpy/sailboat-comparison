@@ -320,9 +320,7 @@
       "The performance rig brings running backstays — extra short-handed workload.",
       "A hard, performance-tuned hull gives a firmer motion than a heavy traditional cruiser."
     ],
-    "awards": [
-      "European Yacht of the Year 2026"
-    ],
+    "awards": ["European Yacht of the Year 2026"],
     "endorsements": [
       {
         "who": "Yachting World (EYOTY jury)",
@@ -1056,9 +1054,7 @@
       "No factory insulation/heating provision.",
       "Performance degrades as you load cruising weight (it punishes payload)."
     ],
-    "awards": [
-      "European Yacht of the Year 2012"
-    ],
+    "awards": ["European Yacht of the Year 2012"],
     "endorsements": [
       {
         "who": "Interesting Sailboats",
@@ -1430,10 +1426,7 @@
       "Boutique single-source builder + a small owner community for peer support.",
       "Verify rig service and gelcoat on 10+ year boats."
     ],
-    "awards": [
-      "Cruising World Boat of the Year 2016",
-      "SAIL Best Boats 2012"
-    ],
+    "awards": ["Cruising World Boat of the Year 2016", "SAIL Best Boats 2012"],
     "endorsements": [
       {
         "who": "Cruising World (Alvah Simon)",
@@ -1514,10 +1507,10 @@
     "drive": "Shaft",
     "cabins": "3 cabins / 2 heads",
     "keel": "Bolted fin keel (deep/shoal/CB options) · semi-skeg-hung rudder",
-    "cockpit": "Center cockpit + raised deck saloon; often a fully enclosed cockpit with an inside steering station",
-    "cockpitType": "Deck saloon (inside steering)",
+    "cockpit": "Center cockpit + raised deck-saloon coachroof; weather protection at the helm is a canvas dodger and bimini, not a hard enclosure",
+    "cockpitType": "Center + deck saloon",
     "bestFor": "The returning skipper + novice crew who want a heavy, sea-kindly liveaboard with a serious onboard workshop and big self-sufficiency — Patagonia to Polynesia in comfort, well under budget.",
-    "protectionText": "Center cockpit, deep and well-protected; the raised deck-saloon coachroof + a common hard dodger give excellent shelter, and many boats add a fully enclosed cockpit with an INSIDE steering station in the heated saloon — a major plus for cold Patagonian/Chilean watches.",
+    "protectionText": "A deep, dry centre cockpit — genuinely well protected for a sailing yacht and far drier than any aft cockpit, helped by the cockpit position and the raised deck-saloon coachroof ahead of it. But be clear about what that protection is: a canvas dodger and bimini, not a hard structure. There's no standard fixed windscreen or doghouse, and a fabric dodger won't take a boarding sea the way the Boréal's welded doghouse or the Amel's glassed-in cockpit will. The deck saloon is a warm, panoramic place to keep watch, and some hulls were specced with an inside steering station — but treat that as a per-boat option, not a given, and it's a deck-salon helm rather than a weatherproof enclosure around the working cockpit. Well sheltered for its type; not an all-weather inside helm like the Garcia or Boréal.",
     "rig": "Cutter (ketch optional) — a Yankee + staysail split foretriangle for easily-managed, balanced sail in a blow; many add an in-boom or in-mast furling main + electric winches.",
     "handlingText": "Rigged for a cruising couple — a generous Lewmar winch package (often electric), a Leisure Furl boom or in-mast main, an electric windlass and a bow thruster; the heavy hull is steady and forgiving, which suits a novice second crew.",
     "engineWorkshop": "A standout — a full STAND-UP engine room WITH a workbench (rare at this size), sound-insulated with 360° access around the engine. One of the strongest workshop/engine-access setups in the class.",
@@ -1545,7 +1538,7 @@
       "\"Moonshadow\" — Contest Brokerage (70,000+ nm world-cruised)"
     ],
     "scores": {
-      "protection": 4.5,
+      "protection": 4,
       "handling": 4,
       "dogs": 4,
       "workshop": 5,
@@ -2363,9 +2356,7 @@
       "In-mast furling main is a convenience/redundancy compromise.",
       "Low-volume, semi-custom — used examples are scarce and configurations vary."
     ],
-    "awards": [
-      "SAIL Best Boats 2009"
-    ],
+    "awards": ["SAIL Best Boats 2009"],
     "endorsements": [
       {
         "who": "Cruising World (Andrew Burton)",
@@ -2737,9 +2728,7 @@
       "Bare-aluminium maintenance discipline (anodes, antifouling, no stray current) is non-negotiable.",
       "Niche French builder — parts/service network is thinner in the Americas/Pacific."
     ],
-    "awards": [
-      "European Yacht of the Year 2015"
-    ],
+    "awards": ["European Yacht of the Year 2015"],
     "endorsements": [
       {
         "who": "Yachting World (Matthew Sheahan)",
@@ -2922,9 +2911,7 @@
       "Centreboard + twin daggerboards add maintenance points vs. a fixed keel.",
       "Aluminium needs galvanic management and can be warm below in the tropics without good ventilation."
     ],
-    "awards": [
-      "European Yacht of the Year 2021"
-    ],
+    "awards": ["European Yacht of the Year 2021"],
     "endorsements": [
       {
         "who": "John Harries · Attainable Adventure Cruising",
@@ -3890,9 +3877,7 @@
       "More boat and more complex systems for two people to maintain far from help.",
       "Composite deck on an alloy hull means two maintenance regimes; centreboard case + twin rudders add inspection points."
     ],
-    "awards": [
-      "Cruising World Boat of the Year 2025"
-    ],
+    "awards": ["Cruising World Boat of the Year 2025"],
     "endorsements": [
       {
         "who": "Cruising World jury",
@@ -4492,9 +4477,7 @@
       "Mostly at/above budget — getting one fully outfitted under $1M is tight.",
       "High freeboard makes dog boarding harder (needs a ramp/sling), and it leans heavily on electric systems."
     ],
-    "awards": [
-      "European Yacht of the Year 2018"
-    ],
+    "awards": ["European Yacht of the Year 2018"],
     "endorsements": [
       {
         "who": "Yachting World (Toby Hodges)",
@@ -5093,9 +5076,7 @@
       "Deepest draft here (2.28 m std) — shoal keel needed for rock/shallow anchorages.",
       "Heavier and less sail-powered — wants breeze, more motoring in light air; helm feel is geared and heavy."
     ],
-    "awards": [
-      "European Yacht of the Year 2023"
-    ],
+    "awards": ["European Yacht of the Year 2023"],
     "endorsements": [
       {
         "who": "European Yacht of the Year jury",
@@ -5626,9 +5607,7 @@
       "The desirable new-generation 50CS is out of budget; you're buying a 10–20-year-old boat — survey systems carefully.",
       "Smaller dedicated engine space than the Discovery's walk-in engine room."
     ],
-    "awards": [
-      "European Yacht of the Year 2022"
-    ],
+    "awards": ["European Yacht of the Year 2022"],
     "endorsements": [
       {
         "who": "Yachting World",
@@ -5808,9 +5787,7 @@
       "Steep companionway and isolated aft master can be awkward for an older/less-mobile dog or smaller crew.",
       "New boats are far above $1M; the used pool is thin."
     ],
-    "awards": [
-      "Cruising World Boat of the Year 2019"
-    ],
+    "awards": ["Cruising World Boat of the Year 2019"],
     "endorsements": [
       {
         "who": "Cruising World jury (Alvah Simon)",
@@ -6995,12 +6972,7 @@
       "tropical": 4,
       "budget": 1
     },
-    "tags": [
-      "centre-cockpit",
-      "deck-saloon",
-      "cutter-rig",
-      "bluewater-proven"
-    ],
+    "tags": ["centre-cockpit", "deck-saloon", "cutter-rig", "bluewater-proven"],
     "fun": [
       "Only ~36 were ever built — your Oyster 485 will be the rarest boat in most anchorages from Ushuaia to Bora Bora.",
       "The dedicated generator alcove and under-cockpit engine room with lift-out panels are a genuine treat after crawling into a production boat's bilge with a headlamp."
@@ -7156,12 +7128,7 @@
       "tropical": 4,
       "budget": 2
     },
-    "tags": [
-      "deck-saloon",
-      "centre-cockpit",
-      "bluewater",
-      "cutter"
-    ],
+    "tags": ["deck-saloon", "centre-cockpit", "bluewater", "cutter"],
     "fun": [
       "The cockpit was ergonomically designed with Loughborough University — seats long enough to sleep on, with wavy coamings for every lounging position.",
       "In a 2006 SAIL Magazine test, the 53 was compared to riding first class on a British train — composed and quiet through rough seas that had the crew expecting chaos below."
@@ -7342,12 +7309,7 @@
       "tropical": 4,
       "budget": 2
     },
-    "tags": [
-      "centre-cockpit",
-      "deck-saloon",
-      "bluewater",
-      "UK-built"
-    ],
+    "tags": ["centre-cockpit", "deck-saloon", "bluewater", "UK-built"],
     "fun": [
       "Oyster 54 hull #1 was delivered to Sir Robin Knox-Johnston, who sailed it solo across the Atlantic within months of delivery",
       "The 545's flush deck hatches were inspired directly by Oyster's larger superyacht range — the 54-footer got the same hardware as boats twice its price"
