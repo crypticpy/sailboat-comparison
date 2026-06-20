@@ -750,7 +750,7 @@
       },
       {
         "key": "parts.availability",
-        "value": "Good; most components are off-the-shelf; UK Najad Owners forum (najad.co.uk) documented as providing spare-sourcing advice, though site currently has TLS certificate issues",
+        "value": "Good; most components are off-the-shelf; UK Najad Owners forum documented as providing spare-sourcing advice, though site currently has TLS certificate issues",
         "confidence": 0.65,
         "sources": [
           {
@@ -849,20 +849,20 @@
     "cold_score": {
       "value": 63,
       "confidence": 0.8,
-      "rationale": "Five rubric inputs are sourced. Heating (25pts, Espar forced-air, confirmed) and insulation (15pts, Divinycell sandwich hull, confirmed) and keel-stepped mast (10pts, confirmed) score fully. Inside/sheltered helm (20pts) is confirmed absent — centre cockpit only, fixed windscreen and sprayhood do not qualify. Hard cockpit shelter (10pts) is confirmed absent — optional canvas enclosure is soft and non-standard, scores zero. Watertight bulkhead (10pts) and cold tankage (10pts) are unverifiable after source removal; not scored. Re-normalised over 80 scored weight points: 50/80 * 100 = 62.5, rounded to 63. Confidence equals coverage: 80/100 = 0.80.",
-      "basis": "Sourced inputs: heating(25/25), insulation(15/15), inside_helm(0/20 confirmed absent), keel_mast(10/10), hard_shelter(0/10 confirmed absent). Unsourced: watertight_bulkhead(10), cold_tankage(10). Denominator 80, numerator 50."
+      "rationale": "The Najad scores well on the cold-weather basics it documents: a standard Espar forced-air heater, a Divinycell sandwich hull for insulation, and a keel-stepped mast are all confirmed. What holds it back is the cockpit. There is no inside or sheltered steering position — it is a centre cockpit with only a fixed windscreen and sprayhood — and the full canvas enclosure is an optional soft cover rather than a hard, standard shelter. A couple of further cold-climate details, such as a watertight bulkhead and dedicated cold-water tankage, could not be confirmed. Confidence is good because the features that matter most here are well documented.",
+      "basis": "Strong heating and insulation, but no sheltered helm and only optional cockpit canvas"
     },
     "tropic_score": {
       "value": 92,
       "confidence": 0.65,
-      "rationale": "Four rubric inputs are sourced. Ventilation (20pts): six dorade vents, five deck hatches, 12 portlights — confirmed excellent, full credit. Shade (15pts): sprayhood and bimini both confirmed, full credit. Airflow (15pts): confirmed excellent per same source as ventilation, full credit. Watermaker (15pts): optional, not standard fit — documented on at least one real example enabling six-month autonomous cruising; scored 10/15 to reflect optional status. Refrigeration (15pts) was removed as unverifiable; not scored. Light-air SA/D ratio (20pts) has no verified numerical input; not scored. Re-normalised over 65 scored weight points: 60/65 * 100 = 92.3. Confidence equals coverage: 65/100 = 0.65. The high re-normalised score reflects genuinely outstanding documented ventilation and airflow; the low confidence reflects that 35% of rubric weight (refrigeration, SA/D) is unevidenced.",
-      "basis": "Sourced inputs: ventilation(20/20), shade(15/15), airflow(15/15), watermaker(10/15 partial-optional). Unsourced: refrigeration(15), SA/D(20). Denominator 65, numerator 60."
+      "rationale": "Ventilation is this boat's standout strength for hot-climate cruising: six dorade vents, five deck hatches and twelve portlights make for genuinely excellent airflow, and both a sprayhood and a bimini are confirmed for shade. A watermaker is available — documented on at least one example enabling roughly six months of autonomous cruising — but it is an option rather than standard fit. Two factors keep confidence modest: refrigeration could not be confirmed, and there is no published sail-area figure to judge light-air performance.",
+      "basis": "Outstanding documented ventilation, shade and airflow; watermaker optional, refrigeration and light-air performance unconfirmed"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "No AVS value is verifiable — the sailboatdata.com source returned HTTP 403 and was removed from verified facts. No CE category certification is documented in any accessible source — the sailboat-cruising.com page was fetched and does not contain CE category language. Neither AVS nor CE category input is available. Per rubric: neither present -> value 0, basis 'not published', confidence 0.",
-      "basis": "not published"
+      "rationale": "We could not confirm a published stability figure for this boat. No angle of vanishing stability is documented in any accessible source, and no CE design category certification could be verified either. With no published safety number to anchor a stability score, we leave it unscored rather than guess.",
+      "basis": "No published stability figure or CE category found"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -877,37 +877,37 @@
           "system": "Standing rigging (shrouds, stays, forestays)",
           "low": 8000,
           "high": 30000,
-          "note": "Rubric interval 15-20yr; a 2007 vintage (19yr) boat is at or past threshold on wire standing rigging. Cutter rig adds a second forestay and staysail stay. Inspect before purchase; budget for full replacement. £7k-£15k UK industry quote (martinleaning.co.uk) converted conservatively; US market upper end higher for rod or Dyneema upgrades."
+          "note": "Wire standing rigging is typically replaced every 15 to 20 years, so a 2007 boat is at or past due. The cutter rig adds a second forestay and a staysail stay. Inspect before purchase and budget for full replacement. A UK industry quote of around 7,000 to 15,000 pounds converts conservatively to this range; the US market upper end runs higher for rod or Dyneema upgrades."
         },
         {
           "system": "Running rigging (halyards, sheets, control lines, blocks)",
           "low": 2000,
           "high": 6000,
-          "note": "Rubric interval 8-10yr. At 19yr a 2007 boat has cycled through at least one full set; condition varies by use. Furlex in-mast furling system requires dedicated halyards; cutter rig adds staysail sheets and furling line."
+          "note": "Running rigging is usually renewed every 8 to 10 years, so a 2007 boat has likely been through at least one full set; condition varies with use. The Furlex in-mast furling system needs dedicated halyards, and the cutter rig adds staysail sheets and a furling line."
         },
         {
           "system": "Sails (in-mast furling main, furling jib, staysail)",
           "low": 15000,
           "high": 45000,
-          "note": "Rubric interval 8-12yr. Three-sail cutter wardrobe; in-mast furling main is the most expensive individual sail. A 19yr boat is likely on its second or third set. Lower bound assumes serviceable used sails supplemented; upper bound is full new inventory from a known loft."
+          "note": "Sails are typically replaced every 8 to 12 years. This is a three-sail cutter wardrobe, and the in-mast furling main is the most expensive individual sail; a boat this age is likely on its second or third set. The lower figure assumes serviceable used sails supplemented as needed, the upper a full new inventory from a known loft."
         },
         {
           "system": "Engine service — Yanmar 4JH4 96-100hp (not at repower threshold)",
           "low": 3000,
           "high": 8000,
-          "note": "Rubric repower threshold is 25-30yr or high hours; a 2007 boat at 19yr is not there. Budget covers full service: injectors, heat exchanger, impeller, zincs, belts, mounts inspection, transmission fluid. Repower ($25k-$70k) is a contingency if hours are very high — flag for survey."
+          "note": "A repower usually only becomes necessary around 25 to 30 years or at high hours, so a 2007 boat isn't there yet. This budget covers a full service: injectors, heat exchanger, impeller, zincs, belts, mount inspection and transmission fluid. A repower (roughly 25,000 to 70,000 dollars) is a contingency if hours are very high — flag it at survey."
         },
         {
           "system": "Electronics (chartplotter, VHF, AIS, radar, autopilot display)",
           "low": 8000,
           "high": 30000,
-          "note": "Rubric interval 10-15yr. A 2007 installation is well past end-of-life for NMEA 0183 systems and early chartplotters. Budget covers integrated Garmin or Raymarine suite; lower end is a minimal passage-ready fit; upper end includes radar, two-station display, satellite comms."
+          "note": "Marine electronics typically last 10 to 15 years, so a 2007 installation is well past end-of-life for its NMEA 0183 wiring and early chartplotters. Budget covers an integrated Garmin or Raymarine suite: the lower end a minimal passage-ready fit, the upper end adding radar, a two-station display and satellite comms."
         },
         {
           "system": "House batteries and solar",
           "low": 5000,
           "high": 20000,
-          "note": "Rubric interval 6-10yr. Documented original system was 6x120Ah 24V flooded lead-acid (Victron community, SV Freya); a 19yr boat has cycled through 2+ battery banks. Lower end is AGM replacement in kind; upper end is lithium upgrade with MPPT and additional panels as documented on SV Freya."
+          "note": "House batteries usually last 6 to 10 years, so a boat this age has been through two or more banks. The documented original system was six 120Ah 24V flooded lead-acid batteries (Victron community, SV Freya). The lower end is a like-for-like AGM replacement; the upper end is a lithium upgrade with MPPT and extra panels, as documented on SV Freya."
         },
         {
           "system": "Ground tackle (anchor, chain, windlass)",
@@ -919,7 +919,7 @@
           "system": "Seacocks and through-hulls",
           "low": 2000,
           "high": 6000,
-          "note": "Rubric replacement threshold 25yr. A 2007 boat (19yr) is approaching but has not yet crossed the threshold. Budget for inspection, greasing, and partial replacement of any that are stiff or weeping. Full replacement deferred to 25yr unless survey flags failures."
+          "note": "Seacocks and through-hulls are typically replaced at around 25 years, which a 2007 boat is approaching but hasn't yet reached. Budget for inspection, greasing and partial replacement of any that are stiff or weeping; defer full replacement unless the survey flags failures."
         },
         {
           "system": "Liferaft and offshore safety equipment",
@@ -931,7 +931,7 @@
           "system": "Canvas (bimini, sprayhood, cockpit covers, sail covers)",
           "low": 4000,
           "high": 12000,
-          "note": "Rubric interval 10-15yr. Sprayhood and bimini are confirmed standard/fitted; cockpit canvas enclosure is optional. A 19yr boat is past the typical canvas lifespan. UV degradation in tropical or Mediterranean use accelerates replacement."
+          "note": "Canvas is typically renewed every 10 to 15 years, so a boat this age is past its lifespan. The sprayhood and bimini are confirmed fitted; the full cockpit enclosure is optional. UV exposure in tropical or Mediterranean use brings replacement forward."
         },
         {
           "system": "Watermaker (if absent)",
@@ -952,13 +952,13 @@
           "note": "Espar is confirmed standard fit on Najad 460 (Cruising World). Annual service: fuel filter, nozzle cleaning, glow pin inspection. Full overhaul or controller replacement at upper end. Not age-critical but service-interval dependent; budget as routine maintenance."
         }
       ],
-      "assumptions": "Baseline vintage assumed 2007 (19yr at time of purchase in 2026), representing a mid-production Najad 460 (built 2000-2014). All cost ranges are our estimate, in 2026 USD, for a boat bought today and brought to offshore passage-ready standard. Age logic: items past their rubric service interval are included at full range; items approaching threshold are included at a reduced range; items below threshold (engine repower) are replaced with appropriate service costs. Watermaker is included as a conditional line item reflecting optional factory status — deduct if already fitted. Standing rigging and electronics are the two highest-probability overdue items on a 19yr example and should be prioritised at survey. Engine repower ($25k-$70k) is a contingency not included in totals; flag if hours exceed ~4,000-5,000 or compression test shows wear."
+      "assumptions": "We based these estimates on a mid-production example from around 2007, roughly 19 years old at purchase in 2026 (the model was built 2000-2014). All figures are our own estimates in 2026 US dollars, for a boat bought today and brought up to offshore passage-ready standard. Items already past their normal service life are budgeted at the full range; those approaching it are budgeted more lightly; and where age alone doesn't yet justify replacement (such as the engine), we've allowed for thorough service instead. The watermaker is shown as a conditional line because it was a factory option — deduct it if the boat already has one. Standing rigging and electronics are the two items most likely to be overdue on a boat of this age and should be priorities at survey. A full engine repower (roughly 25,000 to 70,000 dollars) is treated as a contingency outside the totals — flag it if engine hours are very high or a compression test shows wear."
     },
     "provisioning_specific": [
       {
         "item": "Alloy windshield corrosion inspection and spares kit",
         "category": "Najad-specific maintenance",
-        "why": "Confirmed endemic issue on Najad 460 (YBW forum, confidence 0.82). Alloy windshield frames corrode; stainless steel was a factory option. Carry fastener set, marine-grade sealant, and aluminium touch-up paint; budget for stainless replacement if significant pitting is found at survey."
+        "why": "Confirmed endemic issue on Najad 460 (YBW forum). Alloy windshield frames corrode; stainless steel was a factory option. Carry fastener set, marine-grade sealant, and aluminium touch-up paint; budget for stainless replacement if significant pitting is found at survey."
       },
       {
         "item": "Furlex furling gear parts (foil sections, bearings, drum seals)",
@@ -968,12 +968,12 @@
       {
         "item": "Espar fuel filter and glow pin set",
         "category": "Heating system spares",
-        "why": "Espar forced-air heating is confirmed standard fit (Cruising World, confidence 0.92). Espar components are brand-specific and not available in all marinas. Carry two fuel filters, one glow pin (combustion chamber element), and control unit fuse set."
+        "why": "Espar forced-air heating is confirmed standard fit (Cruising World). Espar components are brand-specific and not available in all marinas. Carry two fuel filters, one glow pin (combustion chamber element), and control unit fuse set."
       },
       {
         "item": "Cutter staysail storm jib configuration — pre-passage setup check",
         "category": "Heavy weather preparation",
-        "why": "Confirmed via rhbell.com owner account (confidence 0.88): the inner staysail on Furlex furling gear can be progressively furled to a storm jib configuration. Pre-passage, verify the Furlex is greased and the staysail can be partially rolled to a working storm area; carry a dedicated soft shackle and spare furling line for the staysail."
+        "why": "Confirmed via rhbell.com owner account: the inner staysail on Furlex furling gear can be progressively furled to a storm jib configuration. Pre-passage, verify the Furlex is greased and the staysail can be partially rolled to a working storm area; carry a dedicated soft shackle and spare furling line for the staysail."
       },
       {
         "item": "24V DC system awareness — lithium vs lead-acid compatibility check",
@@ -983,7 +983,7 @@
       {
         "item": "Divinycell foam core damage repair kit (epoxy + foam blanks)",
         "category": "Hull-specific spares",
-        "why": "Hull is hand-laid Divinycell PVC foam core sandwich (Cruising World, confidence 0.92). Core damage from impact or osmotic blistering requires foam-core-compatible epoxy repair, not solid laminate technique. Carry West System 105/206 with G-flex and a small block of 12mm Divinycell for emergency patch."
+        "why": "Hull is hand-laid Divinycell PVC foam core sandwich (Cruising World). Core damage from impact or osmotic blistering requires foam-core-compatible epoxy repair, not solid laminate technique. Carry West System 105/206 with G-flex and a small block of 12mm Divinycell for emergency patch."
       },
       {
         "item": "NGA gelcoat touch-up kit matched to hull colour",
@@ -993,7 +993,7 @@
       {
         "item": "Spare Seldén mast hardware (sheave, halyard exit boxes, collar seals)",
         "category": "Rig-specific spares",
-        "why": "Keel-stepped Seldén mast confirmed (Cruising World, confidence 0.88). In-mast furling main requires intact exit box and internal sheave stack. Carry at least one replacement sheave sized for the mast section, and the access panel fasteners documented in the owner account. Seldén parts require ordering from Scandinavia or authorised dealers — long lead times offshore."
+        "why": "Keel-stepped Seldén mast confirmed (Cruising World). In-mast furling main requires intact exit box and internal sheave stack. Carry at least one replacement sheave sized for the mast section, and the access panel fasteners documented in the owner account. Seldén parts require ordering from Scandinavia or authorised dealers — long lead times offshore."
       }
     ]
   }

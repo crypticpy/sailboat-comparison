@@ -1,6 +1,6 @@
 {
   "_id": "garcia",
-  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score), enriched 2026-06-20 with magazine sail tests, Jimmy Cornell's own writing, Attainable Adventure Cruising, builder material and current brokerage data",
   "_models": {
     "research": "haiku",
     "verify": "sonnet",
@@ -10,11 +10,11 @@
   "name": "Garcia Exploration 45",
   "research": {
     "id": "garcia-exploration-45-research",
-    "overall_confidence": 0.72,
+    "overall_confidence": 0.78,
     "facts": [
       {
         "key": "stability.ce_category",
-        "value": "OPEN OCEAN (Class A) — designed for extended voyages where wind may exceed force 8 and waves exceed 4 meters",
+        "value": "CE Category A (Open Ocean), per the owner's manual — certified for extended voyages where wind may exceed Force 8 and waves may exceed 4 metres. This is the highest CE design category and confirms the boat is built for true offshore use.",
         "confidence": 0.95,
         "sources": [
           {
@@ -350,6 +350,194 @@
             "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
           }
         ]
+      },
+      {
+        "key": "design.designer_and_builder",
+        "value": "Hull and deck by Olivier Racoupeau (Racoupeau Yacht Design), interior by Garcia. Built by Garcia Yachts in Cherbourg, France, part of the Grand Large Yachting group (alongside Allures and Outremer) since 2010. Output is roughly ten boats per year; the Exploration 45 and 52 are the group's best-selling expedition monohulls, with build lead times reported around 18 months.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/"
+          }
+        ]
+      },
+      {
+        "key": "construction.hull_material",
+        "value": "Welded marine-grade aluminium hull (5083 H111 plate with 6060 T6 extruded profiles on at least one documented boat), built stress-free over a welded frame. Garcia builds an all-aluminium hull AND deck (a true metal monocoque), which distinguishes it from sister-brand Allures whose deck is GRP. This means no osmosis, exceptional impact resistance, and field-repairability: in Garcia's words aluminium 'might bend, but it doesn't break — and it's easily repaired, even far from any marina.'",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/"
+          },
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+          }
+        ]
+      },
+      {
+        "key": "construction.plate_thickness",
+        "value": "Garcia's expedition range uses thick bottom plating for grounding and ice contact. The larger Exploration 52 is documented at 6mm above the waterline, 8mm below, and 10mm on the floor — heavy enough to push through thin ice and to dry out on a flat bottom. The 45 follows the same construction philosophy; an exact published plate schedule for the 45 was not located. The near-plumb bow carries an icebreaker/towing eye at the foot of the stem.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Garcia Exploration 52 test — Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/garcia-exploration-52-jimmy-cornell"
+          },
+          {
+            "title": "Garcia Exploration 52 — yacht.de test",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/garcia-exploration-52-robust-explorer-yacht-with-an-uncompromising-focus-put-to-the-test/"
+          }
+        ]
+      },
+      {
+        "key": "stability.centreboard",
+        "value": "Integral aluminium centreboard that retracts fully into the hull (not a ballasted keel). Draft is about 1.05m board up and 2.8m board down. Designer Jimmy Cornell reports the boat points as close as 35 degrees with the board down. The board is raised by a single rope-and-winch tackle. On Cornell's own boat the board did its job during a hard grounding in the Northwest Passage — it 'swung up, scraped along the top of the rock, then dropped back into its lowered position.'",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+            "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+          },
+          {
+            "title": "Jimmy Cornell: Why aluminium centreboarders are the best choice — Yachting World",
+            "url": "https://www.yachtingworld.com/features/jimmy-cornell-aluminium-centreboarders-explorer-yachts-128465"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.twin_rudders",
+        "value": "Twin aluminium rudders, each protected by a short, robust skeg and running on JEFA self-aligning bearings. The rudder shafts are deliberately oversized so the blades can take the loads of the stern when the boat is dried out on its flat bottom. A central skeg also houses and protects the propeller and shaft. With the centreboard up there is no keel to act as a pivot, which Cornell notes makes steering in strong following winds easy and 'virtually eliminates' the risk of broaching.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/"
+          },
+          {
+            "title": "Jimmy Cornell: Why aluminium centreboarders are the best choice — Yachting World",
+            "url": "https://www.yachtingworld.com/features/jimmy-cornell-aluminium-centreboarders-explorer-yachts-128465"
+          }
+        ]
+      },
+      {
+        "key": "tankage.water_fuel",
+        "value": "Tankage figures vary slightly by source and market. The Yachting Monthly review lists 500 litres water and 700 litres fuel; the US 'Arctic Monkey' brokerage listing lists 132 US gallons (about 500 litres) water and 87 US gallons (about 330 litres) fuel plus 29 gallons holding. Tanks sit low in the bilge, keeping weight central and low. Either way this is generous water for an expedition 45-footer, and a watermaker is normally fitted to extend autonomy.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review"
+          },
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/"
+          }
+        ]
+      },
+      {
+        "key": "performance.sailing",
+        "value": "A heavy-displacement expedition boat (roughly 14 tonnes / 31,000 lb) that is comfortable and easily driven off the wind but pays the usual centreboarder penalty to windward because there is little weight low down. SAIL recorded it 'fully powered up at about a 40-degree apparent-wind angle, making better than 6 knots in a 20-knot breeze in choppy conditions,' with a light helm carrying just a touch of weather helm. Reviewers consistently describe the motion in a seaway as remarkably smooth for a monohull. It is slow in light air and a bow thruster is a near-essential option for marina handling.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/"
+          },
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.high_latitude_record",
+        "value": "Jimmy Cornell's own Exploration 45, Aventura IV, has a genuine high-latitude track record: two crossings of the Drake Passage to Antarctica, a transit of the Northwest Passage, and cruising in Alaska, including a hard grounding the centreboard absorbed and a collision with an underwater ledge of an iceberg. On a Greenland-to-England passage with engine trouble, the boat's solar, wind (D400) and Sail-Gen hydro charging covered all electrical needs unaided. This is sustained expedition use, not a single delivery anecdote.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+            "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+          },
+          {
+            "title": "Jimmy Cornell: Why aluminium centreboarders are the best choice — Yachting World",
+            "url": "https://www.yachtingworld.com/features/jimmy-cornell-aluminium-centreboarders-explorer-yachts-128465"
+          }
+        ]
+      },
+      {
+        "key": "construction.aluminium_durability_real_world",
+        "value": "Real-world durability is strong. A sister Garcia Exploration 52 hauled out after roughly 50,000 nautical miles and a circumnavigation needed essentially cosmetic attention only — some antifouling peeled and minor dents, 'but nothing more.' The sacrificial anodes had done their job and worn down as intended, with no galvanic damage to the hull and no major equipment failures recorded at that survey. This supports Garcia's claim that a properly protected aluminium hull 'ages very well.'",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "no-frills-sailing — Garcia Exploration 52 after sailing around the world (the big D-Check)",
+            "url": "https://no-frills-sailing.com/garcia-exploration-52-after-sailing-around-the-world/"
+          },
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+          }
+        ]
+      },
+      {
+        "key": "maintenance.aluminium_hull_care",
+        "value": "An aluminium hull demands specific, disciplined care rather than constant work: keep correctly specified sacrificial anodes (zinc or aluminium alloy — never copper-based, and avoid mixing anode types), use only antifouling formulated for aluminium (no copper-based paints in contact with the hull), fit a galvanic isolator or isolation transformer on shore power, and stay vigilant for stray current in marinas, which is the main external corrosion driver. Garcia keeps the electrical system electrically isolated from the hull by design so that galvanic corrosion 'can only be induced from the outside.' Inspect hull, anodes and fittings frequently to catch problems early.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+          },
+          {
+            "title": "More Thoughts on Galvanic Corrosion for Aluminium Yachts — Katamarans",
+            "url": "https://www.katamarans.com/more-thoughts-on-galvanic-corrosion-for-aluminium-yachts/"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "A niche, expensive boat that holds value well. Current new builds list around €830,000-€1,000,000 (roughly $830k-$1.04M) ex-yard depending on specification. On the used market, 2021-2025 examples have been listed roughly $725,000-$870,000; an early, very-well-equipped 2015 boat (Arctic Monkey) was offered at $549,000. Production is limited (about ten boats a year), so supply of used examples is thin and asking prices stay firm.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Garcia Exploration 45 boats for sale — YachtWorld",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-garcia/model-exploration-45/"
+          },
+          {
+            "title": "Garcia Exploration 45 boats for sale — Boatshop24",
+            "url": "https://www.boatshop24.com/us/boats-for-sale/manufacturer-garcia/model-exploration-45/"
+          },
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/"
+          }
+        ]
+      },
+      {
+        "key": "awards.recognition",
+        "value": "Won SAIL Magazine's Best Boat / Boat of the Year award for 2015 and was named European Yacht of the Year in the Luxury Cruiser category — unusually strong recognition for a purpose-built expedition aluminium centreboarder rather than a mainstream production cruiser.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/"
+          }
+        ]
       }
     ],
     "sentiment": {
@@ -399,6 +587,50 @@
         {
           "title": "Allures & Garcia Owners Community",
           "url": "https://alluresgarciaowners.discussion.community/post/broadsword-11279638?trail=30"
+        },
+        {
+          "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+          "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/"
+        },
+        {
+          "title": "Jimmy Cornell: Why aluminium centreboarders are the best choice — Yachting World",
+          "url": "https://www.yachtingworld.com/features/jimmy-cornell-aluminium-centreboarders-explorer-yachts-128465"
+        },
+        {
+          "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+          "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+        },
+        {
+          "title": "Attainable Adventure Cruising — Garcia Exploration 45 vs Boréal 47 (Hull & Build)",
+          "url": "https://www.morganscloud.com/2019/12/04/the-garcia-exploration-45-compared-to-the-boreal-47-part-3-hull-and-build/"
+        },
+        {
+          "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg (build)",
+          "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/"
+        },
+        {
+          "title": "no-frills-sailing — Garcia Exploration 52 after a circumnavigation (the big D-Check)",
+          "url": "https://no-frills-sailing.com/garcia-exploration-52-after-sailing-around-the-world/"
+        },
+        {
+          "title": "Garcia Yachts — Aluminium blue water cruising sailboats (hull care)",
+          "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+        },
+        {
+          "title": "More Thoughts on Galvanic Corrosion for Aluminium Yachts — Katamarans",
+          "url": "https://www.katamarans.com/more-thoughts-on-galvanic-corrosion-for-aluminium-yachts/"
+        },
+        {
+          "title": "YouTube — Garcia Exploration 45: A complete boat tour by Pete Goss",
+          "url": "https://www.youtube.com/watch?v=5_hyr4CUSLs"
+        },
+        {
+          "title": "YouTube — Garcia Exploration 45 Guided Tour (Garcia Yachting, English)",
+          "url": "https://www.youtube.com/watch?v=YDsApBaGkhw"
+        },
+        {
+          "title": "YouTube — Garcia Exploration 45 Walkthrough (Swiftsure Yachts)",
+          "url": "https://www.youtube.com/watch?v=68nv-7wnDws"
         }
       ]
     },
@@ -530,6 +762,74 @@
             "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
           }
         ]
+      },
+      {
+        "system": "Aluminium-Specific Bottom Strip & Repaint Package",
+        "action": "Soda-blast or peel old antifouling, inspect bare hull for pitting, apply an aluminium-safe barrier/primer scheme and copper-free antifouling. The wrong (copper-based) paint in contact with the hull is actively harmful, so this is not interchangeable with a routine GRP repaint.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+          },
+          {
+            "title": "More Thoughts on Galvanic Corrosion for Aluminium Yachts — Katamarans",
+            "url": "https://www.katamarans.com/more-thoughts-on-galvanic-corrosion-for-aluminium-yachts/"
+          }
+        ]
+      },
+      {
+        "system": "Shore-Power Galvanic Isolation Upgrade",
+        "action": "Fit or upgrade a galvanic isolator or isolation transformer and verify the hull stays isolated from the DC negative/bonding system. Cheap insurance against the marina stray current that is the main external corrosion threat to an aluminium hull.",
+        "cost_low_usd": 800,
+        "cost_high_usd": 4000,
+        "confidence": 0.6,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "More Thoughts on Galvanic Corrosion for Aluminium Yachts — Katamarans",
+            "url": "https://www.katamarans.com/more-thoughts-on-galvanic-corrosion-for-aluminium-yachts/"
+          },
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat"
+          }
+        ]
+      },
+      {
+        "system": "High-Latitude / Expedition Systems Package",
+        "action": "Bring an older boat to expedition standard: service or replace the Webasto hydronic heater, add/upgrade lithium house bank with Watt & Sea hydrogenerator and solar, fit redundant autopilot drive and offshore comms (Starlink/Iridium). The boat is designed for this; budget reflects bringing a 2015-era fit-out current.",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 45000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/"
+          },
+          {
+            "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+            "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/"
+          }
+        ]
+      },
+      {
+        "system": "Centreboard Lift & Trunk Service",
+        "action": "Drop the board, inspect pivot pin and trunk for wear and debris, replace the lifting rope/cable and winch service kit, check anode and antifoul inside the case. A simple rope-and-winch system but neglected examples seize; service at haul-out.",
+        "cost_low_usd": 800,
+        "cost_high_usd": 4000,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Garcia Yachting Exploration 45 Owner's Manual — ManualsLib",
+            "url": "https://www.manualslib.com/manual/2986233/Garcia-Yachting-Exploration-45.html"
+          }
+        ]
       }
     ],
     "provisioning_specific": [
@@ -583,19 +883,31 @@
         "item": "Twin Rudder & Skeg Replacement Hardware (Rudder stock seals, bearing assemblies, pintles, gudgeons, skeg bolts)",
         "category": "Steering & Control",
         "why": "Twin rudders with sacrificial top sections are differentiator; bearing wear and seal leakage common in high-load offshore use; spare hardware enables at-sea repair"
+      },
+      {
+        "item": "Aluminium-safe antifouling and barrier-coat stock plus matching topcoat for touch-ups",
+        "category": "Hull Corrosion Protection",
+        "why": "Copper-based antifouling in contact with the hull is actively harmful. Carry the correct aluminium-compatible paint system so the bottom can be touched up or recoated anywhere without grabbing whatever the local yard stocks."
+      },
+      {
+        "item": "Galley provisioning fit-out: dual fridge drawers plus dedicated freezer spares (compressor, gasket, thermostat), vacuum sealer and bulk dry-stores in the ~2 ton stowage",
+        "category": "Provisioning & Galley",
+        "why": "The boat offers two front-loading fridge drawers under the galley and a separate freezer, with roughly two tonnes of stowage for an expedition payload. For high-latitude or remote passages, carry compressor and gasket spares so a single fridge failure does not spoil weeks of provisions."
+      },
+      {
+        "item": "Watermaker membrane, pre-filters and high-pressure pump seal kit (Dessalator/Echotec depending on build)",
+        "category": "Fresh Water Systems",
+        "why": "Around 500 litres of tankage is generous but a watermaker is the real autonomy enabler on a long expedition. Membranes and seal kits are not stocked in remote cruising grounds; carry a 12-month consumable supply plus one spare membrane."
       }
     ],
     "gaps": [
-      "stability.avs — No Angle of Vanishing Stability (AVS) value found despite multiple searches; referenced as 'somewhat low' on centerboard boats but no specific number",
-      "stability.stix — Found STIX = 37.5 but cannot verify if this is current; limited sources",
-      "refit.standing_rigging_age — No Garcia-specific standing rigging replacement age/interval documented",
-      "parts.availability — No detailed parts availability matrix (lead times for engine, electronics, hydraulics); Garcia customer service capacity unknown",
-      "cold.keel_stepped_mast — No keel-stepped mast documented; deck-stepped only; need to verify if this is standard across all versions",
-      "tropical.airflow — Detailed airflow performance in high-ambient-temperature anchorages (e.g., Red Sea, SE Asia) not documented",
-      "heavy_weather.storm_report — Only one owner report in 30+ knots found; need higher-wind (50+ knot) storm passage data",
-      "refit.standing_rigging_age — Recommended replacement interval for Garcia's cutter rig configuration unknown",
-      "parts.availability — Availability and lead time for fiberglass cabin-top composite repairs not documented",
-      "provisioning_specific — No owner-published provisioning checklist or spare parts manifest found"
+      "Angle of Vanishing Stability (AVS) — Not published anywhere we could find. This is the single most useful self-righting number, and its absence is the main reason the stability score is not higher. Centreboard boats of this type are sometimes described as having lower ultimate stability than deep-keel designs, but no specific AVS figure exists to confirm or deny that.",
+      "STIX — The owner's manual quotes a full-load value of 37.5, but it comes from a single source and we could not cross-check it.",
+      "Hull plate thickness for the 45 specifically — Not published; we have the 52's schedule (6mm above waterline, 8mm below, 10mm floor) as a guide to the build philosophy, but not the 45's exact figures.",
+      "Survival-storm behaviour above Force 9 — The high-latitude and 30-40 knot track record is well documented, but we did not find a detailed first-hand account of heaving-to, lying to a drogue, or genuine survival conditions.",
+      "Standing rigging interval for the cutter rig — No Garcia-specific replacement age or interval is published; general marine practice was used.",
+      "Parts lead times and aluminium-repair availability outside Europe — Garcia supports the boats from Cherbourg, but real-world lead times for hull/coachroof composite repairs and spares in remote cruising grounds are not documented.",
+      "Tropical airflow performance in very hot anchorages — The ventilation hardware (Dorade boxes plus forced ventilation) is confirmed, but measured comfort in extreme heat (Red Sea, SE Asia) is not documented."
     ]
   },
   "verify": {
@@ -603,7 +915,7 @@
     "cleaned_facts": [
       {
         "key": "stability.ce_category",
-        "value": "OPEN OCEAN (Class A) — designed for extended voyages where wind may exceed force 8 and waves exceed 4 meters",
+        "value": "CE Category A (Open Ocean), per the owner's manual — certified for extended voyages where wind may exceed Force 8 and waves may exceed 4 metres. This is the highest CE design category and confirms the boat is built for true offshore use.",
         "confidence": 0.95,
         "sources": [
           {
@@ -749,7 +1061,7 @@
       },
       {
         "key": "self_steering.autopilot",
-        "value": "Autopilot options include B&G electronic systems; specific model numbers (NAC3, Triton, AP44) cited from itboat.com which returned 403 and could not be verified independently",
+        "value": "Autopilot options include B&G electronic systems; specific model numbers (NAC3, Triton, AP44) cited from itboat.com which could not be accessed and could not be verified independently",
         "confidence": 0.6,
         "sources": [
           {
@@ -844,6 +1156,194 @@
             "url": "https://www.garciayachts.com/en/sailsboats/exploration-45"
           }
         ]
+      },
+      {
+        "key": "design.designer_and_builder",
+        "value": "Hull and deck designed by Olivier Racoupeau (Racoupeau Yacht Design); built by Garcia Yachts, Cherbourg, in the Grand Large Yachting group (with Allures and Outremer) since 2010. Roughly ten boats a year; the 45 and 52 are the group's best-selling expedition monohulls.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/",
+            "quote": "designer is Racoupeau Yacht Design; builder is Garcia Yachting (France)"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/",
+            "quote": "Garcia maintains full aluminum monocoques throughout; the Exploration 45 and the 52 are the most sold"
+          }
+        ]
+      },
+      {
+        "key": "construction.hull_material",
+        "value": "Welded marine-grade aluminium hull AND deck (true metal monocoque), 5083 H111 plate with 6060 T6 profiles documented on at least one boat. Distinguished from sister-brand Allures, which uses a GRP deck. No osmosis; high impact resistance; field-repairable.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/",
+            "quote": "Aluminum 5083 H111 with 6060 T6 extruded profiles"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/",
+            "quote": "Garcia yachts use all-aluminum construction... Allures... The deck is made of GRP"
+          },
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat",
+            "quote": "It might bend, but it doesn't break — and it's easily repaired, even far from any marina"
+          }
+        ]
+      },
+      {
+        "key": "construction.plate_thickness",
+        "value": "Exact plate schedule for the 45 not published in available sources. The larger Exploration 52, built to the same philosophy, is documented at 6mm above waterline, 8mm below, 10mm floor — thick enough to push through thin ice and dry out. Near-plumb bow with icebreaker/towing eye at the stem foot.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Garcia Exploration 52 — yacht.de test",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/garcia-exploration-52-robust-explorer-yacht-with-an-uncompromising-focus-put-to-the-test/",
+            "quote": "aluminium plates of six (above the waterline) and eight millimetres (below)... plates ten millimetres thick for the floor element"
+          }
+        ]
+      },
+      {
+        "key": "stability.centreboard",
+        "value": "Integral aluminium centreboard retracting fully into the hull; draft ~1.05m up / 2.8m down; points to ~35 degrees board down per Cornell; single rope-and-winch lift. Board absorbed a hard Northwest Passage grounding by swinging up.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+            "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/",
+            "quote": "an integral centreboard... when the board is raised, it is fully retracted into the hull... a draft of 2.8 metres... sail as close as 35 degrees to the wind"
+          },
+          {
+            "title": "Jimmy Cornell: Why aluminium centreboarders are the best choice — Yachting World",
+            "url": "https://www.yachtingworld.com/features/jimmy-cornell-aluminium-centreboarders-explorer-yachts-128465",
+            "quote": "the centreboard did its job and swung up, scraped along the top of the rock, then dropped back into its lowered position"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.twin_rudders",
+        "value": "Twin aluminium rudders on short protective skegs, JEFA self-aligning bearings, oversized shafts to take drying loads; central skeg houses and protects prop and shaft. Board up, no keel to pivot on — Cornell notes easy downwind steering and 'virtually eliminated' broaching.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Practical Boat Owner — Garcia Exploration 45 Review",
+            "url": "https://www.pbo.co.uk/reviews/boats/garcia-exploration-45",
+            "quote": "Twin aluminium rudders protected against collision by robust, short skegs... JEFA self-aligning bearings"
+          },
+          {
+            "title": "no-frills-sailing — At Allures and Garcia Yachts of Cherbourg",
+            "url": "https://no-frills-sailing.com/allures-garcia-yachts-cherbourg/",
+            "quote": "Oversized aluminum rudder shafts designed to handle loads of the boat's stern part when falling dry"
+          }
+        ]
+      },
+      {
+        "key": "tankage.water_fuel",
+        "value": "Water about 500 litres; fuel figures differ by source (Yachting Monthly 700 litres; US Arctic Monkey listing 87 US gal / ~330 litres). Tanks low in the bilge for central low weight. Generous water for the size; watermaker normally fitted.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review",
+            "quote": "Fuel: 700 litres (154 gal); Water: 500 litres (110 gal)"
+          },
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/",
+            "quote": "Fuel: 87 gallons; Fresh water: 132 gallons; Holding: 29 gallons"
+          }
+        ]
+      },
+      {
+        "key": "performance.sailing",
+        "value": "Heavy expedition boat (~14 t / 31,000 lb); comfortable and easily driven off the wind, weaker to windward (centreboarder, little low weight). SAIL: powered up at ~40 degrees AWA, better than 6 kn in 20 kn; light helm; smooth seaway motion; slow in light air; bow thruster near-essential.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/",
+            "quote": "fully powered up at about a 40-degree apparent-wind angle, making better than 6 knots in a 20-knot breeze in choppy conditions"
+          },
+          {
+            "title": "Yachting Monthly — Garcia Exploration 45 Review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/garcia-exploration-45-yachting-monthly-review",
+            "quote": "windward performance suffers... lack of weight low down... a bow thruster is an option I wouldn't be without"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.high_latitude_record",
+        "value": "Jimmy Cornell's own Aventura IV (Exploration 45) has crossed the Drake Passage to Antarctica twice, transited the Northwest Passage and cruised Alaska, survived a hard grounding (board swung up) and an iceberg-ledge collision, and on a Greenland-England passage with engine trouble met all power needs from solar, D400 wind and Sail-Gen hydro alone.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cornell Sailing — Aventura IV / Exploration 45 FAQ",
+            "url": "https://cornellsailing.com/aventura/frequently-asked-questions-exploration-45/",
+            "quote": "twice across the Drake Passage to Antarctica... the Northwest Passage... Alaska... colliding with an iceberg's underwater ledge... D400 wind generator, Sail-Gen hydro-generator, and a 140 watts solar panel... have fulfilled our energy needs on all offshore passages"
+          }
+        ]
+      },
+      {
+        "key": "construction.aluminium_durability_real_world",
+        "value": "A sister Exploration 52 hauled out after ~50,000 nm and a circumnavigation needed essentially cosmetic work only — some antifouling peeled, minor dents, 'nothing more.' Anodes had worn as intended with no galvanic hull damage and no major failures at survey.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "no-frills-sailing — Garcia Exploration 52 after sailing around the world (the big D-Check)",
+            "url": "https://no-frills-sailing.com/garcia-exploration-52-after-sailing-around-the-world/",
+            "quote": "just some of the antifouling has been peeled off, some dents are visible but nothing more... those [anodes] had been suffering and making their sacrifice for the boat pretty well"
+          }
+        ]
+      },
+      {
+        "key": "maintenance.aluminium_hull_care",
+        "value": "Aluminium needs specific care: correctly specified zinc/aluminium anodes (never copper-based, do not mix types), antifouling formulated for aluminium only, galvanic isolator or isolation transformer on shore power, and vigilance for marina stray current. Garcia isolates the electrical system from the hull so corrosion 'can only be induced from the outside.' Inspect hull/anodes/fittings frequently.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Garcia Yachts — Aluminium blue water cruising sailboats",
+            "url": "https://www.garciayachts.com/en/garcia-magazine/aluminum-blue-water-sailboat",
+            "quote": "Properly protected by sacrificial anodes, an aluminium hull ages very well... galvanic corrosion can only be induced from the outside"
+          },
+          {
+            "title": "More Thoughts on Galvanic Corrosion for Aluminium Yachts — Katamarans",
+            "url": "https://www.katamarans.com/more-thoughts-on-galvanic-corrosion-for-aluminium-yachts/",
+            "quote": "Power supplies in marinas often leak small amounts of stray current... galvanic isolators or cathodic protection systems can help mitigate stray current issues"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "New builds list roughly €830,000-€1,000,000 (about $830k-$1.04M) ex-yard. Used 2021-2025 examples have listed roughly $725,000-$870,000; an early, well-equipped 2015 boat (Arctic Monkey) was offered at $549,000. Thin used supply (about ten boats a year built) keeps prices firm.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Garcia Exploration 45 boats for sale — YachtWorld",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-garcia/model-exploration-45/"
+          },
+          {
+            "title": "Garcia Exploration 45 — Arctic Monkey, Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/garcia-exploration-45-arctic-monkey/",
+            "quote": "2015 model; asking price $549,000 USD"
+          }
+        ]
+      },
+      {
+        "key": "awards.recognition",
+        "value": "SAIL Magazine Best Boat / Boat of the Year 2015 and European Yacht of the Year (Luxury Cruiser category) — strong recognition for a purpose-built expedition aluminium centreboarder.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "SAIL Magazine — Garcia Exploration 45: Jimmy Cornell's Ideal Boat",
+            "url": "https://sailmagazine.com/boats/garcia-exploration-45-jimmy-cornells-ideal-boat/",
+            "quote": "The boat received SAIL Magazine's 2015 Best Boat award"
+          }
+        ]
       }
     ],
     "removed": [
@@ -926,95 +1426,95 @@
     "cold_score": {
       "value": 86,
       "confidence": 0.86,
-      "rationale": "Six of seven rubric inputs are verified. Heating (25 pts): Webasto hydronic diesel confirmed at 0.75 confidence. Insulation (15 pts): 80mm polyethylene foam on hull, 40mm on deck underside, double-glazed windows confirmed at 0.88 — full 15 awarded. Inside/sheltered helm (20 pts): Forward-facing nav station with 270-degree visibility, watch stood inside during 40-knot conditions confirmed at 0.95 — full 20 awarded. Keel-stepped mast (10 pts): Explicitly deck-stepped across all verified sources — 0 awarded. Watertight bulkheads (10 pts): Bow and stern watertight bulkheads plus 4-point locking companionway doors confirmed at 0.90 — full 10 awarded. Hard cockpit shelter (10 pts): The pilothouse-style nav station functions as an enclosed helm and is confirmed, but early builds had obstructed cockpit visibility; later builds added hard dodger windows. Awarded 7/10 reflecting a sheltered inside-helm rather than a full cockpit enclosure. Cold tankage (10 pts): No verified source mentions heated or insulated water tankage — excluded from denominator. Re-normalised denominator = 90 (100 minus the 10-pt missing cold-tankage weight). Raw score 77/90 x 100 = 86.",
-      "basis": "Heating: Swiftsure Yachts Wings of Desire listing. Insulation: PBO review (80/40mm), Garcia official (74mm). Inside helm: Rolling With Yahtzee blog (40-knot watch). Watertight bulkheads: Garcia official spec + Yahtzee blog. Keel-stepped mast: Blue Water Sailing review (deck-stepped only). Cold tankage: absent from all verified sources."
+      "rationale": "This is one of the best cold-weather and high-latitude boats in this guide, and the score reflects that. It was designed from a blank sheet for the Northwest Passage, and it shows. Heating is a proper Webasto hydronic diesel system circulating hot water to outlets throughout the boat, so each cabin can be warmed independently. Insulation is genuinely expedition-grade: 80mm of polyethylene foam against the inside of the hull and 40mm under the deck, with double-glazed windows throughout to kill condensation and cold bridging. The standout is the inside steering and nav station with 270-degree visibility — you can stand watch in warmth and safety from below in foul weather, which testers have done in 40-knot conditions. Watertight bulkheads fore and aft and four-point-locking companionway doors seal the living space off from the sea. The only marks against it are minor: the mast is deck-stepped rather than keel-stepped, and the cockpit itself is open (the shelter is the inside helm, not a hard cockpit enclosure), with early boats criticised for restricted cockpit sightlines before later builds added a hard dodger. No data was found on heated or insulated water tankage, so that was left out of the assessment rather than counted against the boat.",
+      "basis": "Webasto hydronic heating, 80mm hull / 40mm deck insulation and double glazing, an inside helm with 270-degree visibility used on watch in 40-knot weather, and watertight fore-and-aft bulkheads — all confirmed by the PBO and SAIL reviews, the Arctic Monkey listing and Garcia's own material. Deck-stepped mast and open cockpit are the only cold-weather shortfalls."
     },
     "tropic_score": {
       "value": 74,
       "confidence": 0.7,
-      "rationale": "Five of six rubric categories have at least partial data; shade is entirely unverified and removed from the denominator. Opening hatches/ventilation (20 pts): Dorade boxes and forced VMC mechanical ventilation system confirmed at 0.85 — full 20 awarded. Shade (15 pts): Removed by fact-cleaning; no verified source documents tinted/inclined windows or shade design — excluded from denominator. Refrigeration (15 pts): Dual front-loading refrigerator drawers confirmed at 0.75 — full 15 awarded. Watermaker (15 pts): Present on documented builds (Wings of Desire Echotec 260DL) but listed as an option, not fleet-standard equipment — awarded 10/15 for build-variant presence. Airflow (15 pts): VMC and Dorade boxes confirmed mechanically but actual thermal performance in high-ambient anchorages (Red Sea, SE Asia) is undocumented — awarded 10/15 for confirmed hardware without performance validation. Light-air SA/D (20 pts): No SA/D ratio published in any verified source; heavy displacement of 31,085 lbs explicitly noted, complaints cite slowness in light winds — awarded 8/20 reflecting known heavy-displacement penalty without a quantified ratio. Re-normalised denominator = 85 (100 minus the 15-pt missing shade weight). Raw score 63/85 x 100 = 74.",
-      "basis": "Ventilation: Garcia official spec (Dorade + VMC). Refrigeration: Yahtzee blog (dual front-loading). Watermaker: Swiftsure Wings of Desire listing (Echotec 260DL). Airflow hardware: Garcia official. Light-air penalty: BWS review and forum complaints (heavy displacement, slow in light air). Shade: removed by fact-cleaning agent — no verifiable source."
+      "rationale": "Although it is best known as a polar boat, the Garcia was deliberately designed to work in the tropics too, and it scores well here. Ventilation is a real strength: obstructable Dorade boxes plus a forced mechanical ventilation system push air through the boat, and the same heating loop helps manage the cabin in any climate. The galley has two front-loading fridge drawers and a separate freezer for keeping provisions in heat. A watermaker is fitted on most cruising builds (a Dessalator or Echotec depending on the boat), which is what makes long tropical passages comfortable, though it is an option rather than fixed standard equipment. The main limit is sailing performance in the heat: this is a heavy displacement boat (about 14 tonnes) that is genuinely slow in light airs, so tropical passages can mean more motoring than on a lighter cruiser. The forward window is angled and the later boats gained a hard dodger, but we could not confirm a dedicated tropical-shade system from a reliable source, so that was set aside rather than scored either way.",
+      "basis": "Dorade boxes plus forced mechanical ventilation, dual fridge drawers and a freezer, and a watermaker on most builds all support hot-climate cruising. The drag on the score is heavy displacement and poor light-air speed noted by reviewers. A specific tropical-shade design could not be verified and was excluded."
     },
     "stability_score": {
       "value": 80,
       "confidence": 0.75,
-      "rationale": "AVS is not published in any verified source; the rubric instructs value 0 when neither AVS nor CE category is available. CE Category A (Open Ocean) is confirmed at 0.95 confidence, triggering the CE-only branch: CE A → 80. STIX 37.5 is cited from the owner's manual but STIX is a composite seakeeping index, not interchangeable with AVS; it cannot be mapped to the AVS bands in the rubric. Confidence is set at 0.75 rather than the CE confirmation confidence of 0.95 because: (1) AVS remains unknown and forum commentary suggests stability may be on the lower end for a centerboard design; (2) the STIX value of 37.5, while reassuring for a 45-footer, is unverifiable as a current or accurate figure given the single-source citation; (3) the GRP-on-aluminum deck joint and centerboard configuration introduce structural uncertainty not captured by CE category alone.",
-      "basis": "CE Class A: Garcia Yachting Exploration 45 Owner's Manual via ManualsLib ('OPEN OCEAN Class A — extended voyages where conditions may exceed wind force 8'). STIX 37.5: same manual ('Fully loaded: Righting Moment 37.50'). AVS: absent from all verified sources. Forum comment on lower stability: YBW forum discussion thread."
+      "rationale": "Be honest about what is and isn't known here. The Garcia is certified to CE Category A (Open Ocean), meaning it is designed and built for voyages where the wind may exceed Force 8 and the seas exceed four metres, and that certification is the firm ground the score stands on. The owner's manual also quotes a stability index (STIX) of 37.5 at full load, which is a respectable number for a 45-footer. What is NOT published anywhere we could find is an Angle of Vanishing Stability (AVS) figure — the single most useful number for judging ultimate self-righting ability — so we will not invent or imply one. There is a genuine caveat: this is an unballasted-centreboard design with most of its weight as internal ballast rather than down in a deep keel bulb, and experienced sailors note that boats of this type can sit lower on the stability curve than a deep-keel boat. The aluminium hull with a composite-jointed coachroof and the centreboard configuration also add some uncertainty that a CE category alone does not capture. The score reflects strong, certified offshore capability tempered by the missing AVS figure and the inherent trade-off of the centreboard layout.",
+      "basis": "CE Category A (Open Ocean) is confirmed in the Garcia owner's manual, and the same manual quotes a full-load STIX of 37.5. No published AVS figure exists in any source we found. Centreboard boats can have lower ultimate stability than deep-keel designs, which is reflected in the confidence."
     },
     "storm_verdict": {
-      "text": "The only verified heavy-weather account is a 530-mile Atlantic delivery documented by the Sailing Yahtzee blog. In sustained 30-40 knot conditions with gusts to 40 knots, the Garcia Exploration 45 surfed consistently at 10-13 knots and recorded a maximum speed of 15.5 knots. The watertight companionway doors and pilothouse-style nav station created a quiet, dry interior for off-watch crew even during the worst conditions, with the author explicitly noting repeated inside night watches with a cup of coffee as a genuine comfort. No independently verified accounts of performance in conditions above 40 knots (Force 8-9 or higher) exist in the verified fact set. The aluminum hull, watertight bow and stern bulkheads, and CE Class A certification are structurally reassuring, but specific behavior under storm canvas, heaving-to characteristics, or survival conditions at sea cannot be asserted from the available sourced data.",
-      "confidence": 0.72,
+      "text": "Few boats in this guide have a better-documented heavy-weather and expedition pedigree. The boat's designer-owner, Jimmy Cornell, sailed his own Exploration 45 (Aventura IV) across the Drake Passage to Antarctica twice, through the Northwest Passage and around Alaska — including a hard grounding the centreboard absorbed by swinging up, and a collision with an iceberg's underwater ledge — and on one engine-troubled Greenland-to-England passage met all the boat's electrical needs from solar, wind and a towed hydrogenerator alone. Separately, a 530-mile Atlantic delivery in sustained 30-40 knot winds saw the boat surf steadily at 10-13 knots, touch 15.5 knots, and stay quiet and dry below thanks to its watertight companionway doors, with the crew standing watch in comfort from the inside helm. The aluminium hull, watertight bow and stern bulkheads, twin skeg-protected rudders and CE Category A certification are exactly what you want for serious high-latitude work, and they are backed by real ocean miles rather than brochure claims. The honest caveat is that we did not find a detailed first-hand account of survival conditions above Force 9 (heaving-to, lying to a drogue, or true storm behaviour), so while everything points to a very capable storm boat, its outright survival-storm behaviour is inferred from design and track record rather than fully documented.",
+      "confidence": 0.78,
       "cited": true
     },
     "refit_projection": {
-      "total_low_usd": 76300,
-      "total_high_usd": 163500,
+      "total_low_usd": 81100,
+      "total_high_usd": 179500,
       "by_item": [
         {
           "system": "Standing Rigging (cutter rig, 45ft)",
           "low": 10000,
           "high": 20000,
-          "note": "Rubric interval 15-20yr; a 2015 build is ~11yr old, approaching but not yet at interval for well-maintained boat. Cutter rig adds inner forestay and running backstays versus sloop — top of rubric $8k-30k range justified. Inspect before purchase; replace if any wire shows fishhook strands or swage cracking."
+          "note": "Standing rigging is typically replaced every 15-20 years, so a 2015 boat is approaching but not yet at that point if it has been well maintained. The cutter rig adds an inner forestay and running backstays over a simple sloop, which is why the figure sits at the upper end of the range. Inspect before purchase and replace immediately if any wire shows broken (fishhook) strands or cracked swage terminals."
         },
         {
           "system": "Running Rigging (cutter rig, all sheets/halyards/lines)",
           "low": 3000,
           "high": 6000,
-          "note": "Rubric interval 8-10yr; 11yr old boat is past interval. Cutter adds extra sheets and staysail halyard. Full replacement expected at purchase."
+          "note": "Running rigging usually needs replacing every 8-10 years, so an 11-year-old boat is past due. The cutter rig adds extra sheets and a staysail halyard. Budget for a full set at purchase."
         },
         {
           "system": "Sails (main, headsails, staysail)",
           "low": 20000,
           "high": 40000,
-          "note": "Rubric interval 8-12yr; 11yr old boat likely needs at least headsails. Full wardrobe (main, furling genoa, staysail) for a 45ft expedition boat at mid-to-upper rubric range of $15k-45k. Laminate sails degrade faster than Dacron in UV exposure."
+          "note": "Sails are generally good for 8-12 years, so an 11-year-old boat probably needs at least new headsails. This covers a full wardrobe (main, furling genoa, staysail) for a 45ft expedition boat. Laminate sails degrade faster than cruising Dacron under UV, so check what is fitted."
         },
         {
           "system": "Volvo D2-75 Gearbox Rebuild (confirmed production defect)",
           "low": 3000,
           "high": 8000,
-          "note": "Not a standard service interval item — this is a confirmed defect. Clutch failures reported every ~200 hours on original mechanical boxes. Assume rebuild needed unless seller provides documented post-defect resolution or engine logbook showing gearbox replacement. Engine repower not yet age-relevant for most builds (25-30yr rubric interval)."
+          "note": "This is not routine wear — it is a confirmed defect on the original Volvo D2-75 mechanical gearbox, with clutch failures reported roughly every 200 hours. Assume a rebuild is needed unless the seller can show the gearbox was replaced or the defect was resolved. A full engine repower is not yet due at this age (engines typically last 25-30 years), so only the gearbox is flagged here."
         },
         {
           "system": "Electronics Suite",
           "low": 10000,
           "high": 20000,
-          "note": "Rubric interval 10-15yr; 11yr old boat is at the edge. Chart plotters, VHF, AIS, autopilot control heads, instruments all need evaluation. Expedition-boat fit-out (radar, SSB or Iridium, satphone routing) pushes to upper range. B&G autopilot model specifics could not be verified (itboat.com 403) so condition is unknown."
+          "note": "Marine electronics typically last 10-15 years, so an 11-year-old boat is right at the edge. Chartplotters, VHF, AIS, autopilot control heads and instruments all need evaluation. A full expedition fit-out (radar, plus offshore comms such as Iridium or Starlink) pushes toward the top of the range. The exact B&G autopilot package on a given boat should be checked on survey."
         },
         {
           "system": "Battery Bank (1000Ah replacement)",
           "low": 8000,
           "high": 18000,
-          "note": "Rubric interval 6-10yr AGM; Victron Supercycle AGMs on 11yr old boat are almost certainly past service life. A 1000Ah AGM bank replacement at current pricing $8k-15k; if upgrading to lithium $12k-20k. Low end assumes AGM-for-AGM swap; high end includes lithium upgrade with BMS."
+          "note": "AGM battery banks last about 6-10 years, so the Victron Supercycle AGMs on an 11-year-old boat are almost certainly worn out. A like-for-like AGM replacement of a 1000Ah bank runs about $8k-15k; converting to lithium with a battery management system runs $12k-20k. The low end is an AGM swap; the high end is the lithium upgrade."
         },
         {
           "system": "Ground Tackle (chain, anchors, windlass service)",
           "low": 4000,
           "high": 8000,
-          "note": "Rubric range $3k-10k. Two-anchor setup expected for expedition boat; galvanized or G4 chain stretch-check required. Windlass service included. Lower bound assumes chain reuse if within spec; upper bound includes full chain replacement."
+          "note": "An expedition boat should carry two anchors, and the chain needs a stretch and gauge check (galvanized or G4). Windlass service is included here. The low end assumes the chain is reusable if within spec; the high end covers full chain replacement."
         },
         {
           "system": "Seacocks Inspection/Partial Replacement",
           "low": 1000,
           "high": 3000,
-          "note": "Rubric interval 25yr; not due for replacement on 11yr old boat but aluminum hull galvanic corrosion risk around bronze through-hulls requires inspection. Lower bound is inspection and service; upper bound covers partial replacement of questionable fittings. Full seacock replacement deferred for now."
+          "note": "Seacocks are typically a 25-year item, so not due for wholesale replacement on an 11-year-old boat. Garcia uses welded aluminium through-hulls with valves above the waterline, which sidesteps the usual bronze-in-aluminium galvanic worry, but the fittings still need inspection. The low end is inspection and service; the high end covers replacing any questionable valves."
         },
         {
           "system": "Liferaft and Safety Gear",
           "low": 6000,
           "high": 10000,
-          "note": "Rubric range $4k-12k. Stern platform has dedicated liferaft locker — storage is confirmed. Offshore-rated 8-person liferaft plus EPIRB, flares, jacklines, tethers, MOB equipment. Mid-to-upper rubric range for passage-ready fit."
+          "note": "The stern platform has a dedicated liferaft locker, so stowage is sorted. Budget covers an offshore-rated liferaft plus EPIRB, flares, jacklines, tethers and MOB gear for a passage-ready fit."
         },
         {
           "system": "Canvas (dodger, bimini, sail covers, winch covers)",
           "low": 5000,
           "high": 10000,
-          "note": "Rubric interval 10-15yr; 11yr old boat is at the edge. The Garcia dodger-style hard top is partially fiberglass (durable) but soft canvas bimini extensions and sail covers are UV-degraded at this age. Mid-range estimate."
+          "note": "Canvas typically lasts 10-15 years, so an 11-year-old boat is at the edge. The Garcia's hard dodger top is durable, but the soft bimini extensions and sail covers will be UV-degraded by now. This is a mid-range estimate."
         },
         {
           "system": "Watermaker (service existing or new install)",
           "low": 3000,
           "high": 10000,
-          "note": "Watermaker is build-variant, not fleet standard. If a serviceable unit is present (as on Wings of Desire): membrane replacement and service $3k-5k. If absent: new installation $6k-10k rubric range. Range spans both scenarios since buyer must verify presence."
+          "note": "A watermaker is fitted on most cruising builds but is not universal, so check the specific boat. If a serviceable unit is present, membrane replacement and service runs about $3k-5k; if absent, a new installation runs about $6k-10k. The range covers both cases."
         },
         {
           "system": "Aluminum-Fiberglass Deck Joint Re-sealing",
@@ -1033,9 +1533,21 @@
           "low": 500,
           "high": 1500,
           "note": "Garcia-specific: aluminum hull requires correct sacrificial anode specification and verified electrical isolation from bronze/stainless fittings. Galvanic corrosion is an existential threat to aluminum hulls. Inspection and anode replacement at every haulout; included here as passage-readiness baseline cost."
+        },
+        {
+          "system": "Aluminium-Safe Bottom Strip and Repaint",
+          "low": 4000,
+          "high": 12000,
+          "note": "Garcia-specific: strip the old antifouling, inspect the bare aluminium for pitting, then apply an aluminium-compatible barrier and copper-free antifouling. Copper-based paint in contact with the hull is actively harmful, so this is not the same job as a routine fiberglass repaint and should be quoted by a yard that knows aluminium. Low end is a straightforward recoat; high end is a full strip-to-metal and barrier scheme."
+        },
+        {
+          "system": "Shore-Power Galvanic Isolation",
+          "low": 800,
+          "high": 4000,
+          "note": "Garcia-specific: fit or verify a galvanic isolator or isolation transformer so the hull is protected from marina stray current, which is the main external corrosion threat to an aluminium boat. Cheap relative to the consequences. Low end is a galvanic isolator; high end is a full isolation transformer installation."
         }
       ],
-      "assumptions": "Baseline boat age assumed 2015 build (~11 years old at time of scoring). All intervals from rubric specification applied as written. Garcia-specific items (gearbox defect, deck joint, anodes) added on top of rubric standard items because they are confirmed production issues, not generic wear. Refit costs are our estimate based on rubric ranges and known Garcia-specific factors; actual quotes will vary by boatyard location, labor rates, and specific boat condition. Watermaker range spans service-if-present versus install-if-absent since fitment is not fleet-standard. Engine repower not included — D2-75 is not yet age-relevant for a 2015 build at the 25-30yr rubric interval, but gearbox rebuild is treated as a separate near-certain line item due to the documented clutch failure pattern. Electronics and battery estimates assume full replacement rather than partial upgrade, consistent with passage-readiness intent."
+      "assumptions": "These figures model an early (around 2015) boat, roughly eleven years old, being brought up to passage-ready standard. Replacement timings are the usual marine service intervals for each system. On top of the standard wear items, we have added three Garcia-specific lines — the Volvo D2-75 gearbox rebuild, the aluminium-to-fiberglass deck-joint re-seal, and aluminium-specific anode and bottom work — because these are confirmed issues for this boat rather than generic wear. We have also added two aluminium-only items most buyers overlook: a bottom strip and repaint with an aluminium-safe, copper-free paint system, and a shore-power galvanic isolator, because using the wrong paint or leaving the hull exposed to marina stray current is a real corrosion risk on a metal boat. A full engine repower is not included because the engine itself is not yet old enough to need one, though the gearbox is treated as a near-certain line item given the documented failure pattern. Electronics and batteries are costed as full replacements rather than partial upgrades, in keeping with preparing the boat for offshore use. All costs are estimates; real quotes vary widely with the yard, the country, labour rates and the individual boat's condition, so treat these as a planning range and confirm against a survey."
     },
     "provisioning_specific": [
       {
@@ -1056,7 +1568,7 @@
       {
         "item": "Webasto hydronic heater service kit (glow plug, gasket set, burner chamber components)",
         "category": "Heating System Spares",
-        "why": "Webasto hydronic systems are reliable but glow plug and gasket failure is the primary service item. With heating identified as a primary cold-climate asset (25-pt rubric contribution), loss of heat in high latitudes is a safety issue, not merely a comfort issue. Parts are not universally stocked outside Europe."
+        "why": "Webasto hydronic systems are reliable but glow plug and gasket wear are the primary service items. Heating is one of this boat's biggest cold-climate strengths, and in high latitudes losing it is a safety problem, not just a comfort one. Parts are not universally stocked outside Europe, so carry a service kit."
       },
       {
         "item": "Victron MPPT controller firmware update and spare BMV battery monitor",

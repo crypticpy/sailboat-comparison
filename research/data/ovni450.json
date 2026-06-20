@@ -842,20 +842,20 @@
     "cold_score": {
       "value": 49,
       "confidence": 0.6,
-      "rationale": "Heating (25 pts) removed as unverified; re-normalised over remaining 75-pt pool. Confirmed credits: foam insulation above waterline partial (7.5/15), dodger-only sheltered helm partial (8/20), watertight bulkhead at 0.85 confidence (8.5/10), confirmed 500L fuel and 540L water tankage (10/10). Deck-stepped mast confirmed — keel-stepped criterion scores zero. Hard cockpit shelter is dodger/sprayhood only, no hard enclosure (3/10). Raw 37 over 75-pt pool, normalised to 49. Confidence reflects ~60% input coverage; the missing heating verification is the dominant gap.",
-      "basis": "Re-normalised over 75 verified points (heating excluded); weighted sum 37/75 = 0.493 x 100"
+      "rationale": "Cold-weather readiness lands mid-range. On the plus side, the hull carries foam insulation above the waterline, the watertight bulkhead is confirmed, and the large fuel and freshwater tanks (500L and 540L) support cold-climate self-sufficiency. Against it, the mast is deck-stepped rather than keel-stepped, the only helm shelter is a dodger or sprayhood with no hard enclosure or inside steering position, and no heating system could be confirmed from a reliable source. Moderate confidence — heating in particular is the gap we couldn't verify.",
+      "basis": "Insulation and tankage help, but no confirmed heating, helm shelter, or keel-stepped mast"
     },
     "tropic_score": {
       "value": 50,
       "confidence": 0.48,
-      "rationale": "Refrigeration removed as unverified; airflow removed as speculative; SA/D ratio absent from all sources. Scored over remaining 50-pt pool: ventilation confirmed (opening portlights, partial spec, 11/20); shade confirmed with sprayhood and optional bimini (10.8/15); watermaker not confirmed on 450 — only the 435 variant has a documented Dessalator unit (3/15). Raw 24.8 over 50-pt pool, normalised to 50. Confidence is low at 0.48 because three of six inputs are completely unverifiable from cited sources.",
-      "basis": "Re-normalised over 50 verified points (refrigeration, airflow, SA/D excluded); weighted sum 24.8/50 = 0.496 x 100"
+      "rationale": "Tropical comfort lands mid-range. Opening portlights give some confirmed ventilation, and a standard sprayhood plus optional bimini provide shade. But a watermaker is not confirmed on the 450 (only the earlier 435 has a documented unit), and we could not verify refrigeration, cabin airflow, or the sail area needed to judge light-air performance. Low confidence — half of what matters for the tropics simply isn't documented in the sources we could check.",
+      "basis": "Decent ventilation and shade, but refrigeration, airflow, and watermaker all unconfirmed"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "AVS is not publicly available; the sole sourced estimate (0.2 confidence) is an analogy from similar Ovni models and is not a measured value. CE Category A was removed from verified facts because both primary sources returned HTTP 403 and the value could not be confirmed from any live fetch. Per rubric: neither AVS nor CE Category is verified; value = 0, basis = 'not published', confidence = 0.",
-      "basis": "not published"
+      "rationale": "We can't score stability because the numbers that matter aren't published. There's no angle-of-vanishing-stability figure for this boat — the only estimate we found is a rough analogy to other Ovni models, not a measured value. The CE Category A claim couldn't be confirmed either, because both sources for it were unreachable. With no verified stability figure to stand on, we leave this unscored rather than guess.",
+      "basis": "No published stability figures could be verified"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -870,19 +870,19 @@
           "system": "Standing Rigging",
           "low": 8000,
           "high": 20000,
-          "note": "10-15 yr interval per Martin Leaning Masts source (verified); UK market £4,500-7,000+ adjusted to USD and rubric range; deck-stepped mast with twin spreaders confirmed"
+          "note": "Standing rigging is typically replaced every 10-15 years, per the verified Martin Leaning Masts source. The range reflects UK market pricing of £4,500-7,000+ converted to USD and adjusted for a boat this size. Deck-stepped mast with twin spreaders confirmed."
         },
         {
           "system": "Running Rigging",
           "low": 2000,
           "high": 6000,
-          "note": "8-10 yr interval per rubric; no specific source for 450 — standard interval estimate applied"
+          "note": "Running rigging is usually renewed every 8-10 years. No 450-specific source was found, so this is a standard-interval estimate."
         },
         {
           "system": "Sails",
           "low": 15000,
           "high": 35000,
-          "note": "8-12 yr interval per rubric; 45ft fractional sloop; high end of rubric ($45k) reduced slightly given fractional rig with fewer sails than cutter"
+          "note": "Sails are typically replaced every 8-12 years. As a 45ft fractional sloop, the high end is pulled back slightly from a typical $45k ceiling because a fractional rig carries fewer sails than a cutter."
         },
         {
           "system": "Engine Service / Repower",
@@ -894,37 +894,37 @@
           "system": "Electronics",
           "low": 8000,
           "high": 25000,
-          "note": "10-15 yr interval per rubric; no specific electronics inventory in verified facts; standard cruising suite estimate"
+          "note": "Electronics are generally refreshed every 10-15 years. No specific inventory is documented for this boat, so this reflects a standard cruising suite."
         },
         {
           "system": "Batteries and Solar",
           "low": 5000,
           "high": 15000,
-          "note": "6-10 yr interval per rubric; solar and wind generator listed as available options on 450 per Boatsector; battery capacity not specified in any verified source"
+          "note": "Batteries and solar are typically renewed every 6-10 years. Boatsector lists solar and a wind generator as available options on the 450; battery capacity is not specified in any verified source."
         },
         {
           "system": "Ground Tackle",
           "low": 3000,
           "high": 8000,
-          "note": "Standard rubric range; anchor locker confirmed in verified facts (inner forestay reference for 395); no 450-specific inventory"
+          "note": "A standard allowance for ground tackle. The anchor locker is confirmed (inner forestay reference for the 395); no 450-specific inventory is documented."
         },
         {
           "system": "Seacocks",
           "low": 2000,
           "high": 6000,
-          "note": "25 yr interval per rubric; adjusted downward from $3k-9k because aluminum construction uses fewer bronze through-hulls than GRP equivalents — fewer seacocks to replace"
+          "note": "Seacocks are typically replaced around the 25-year mark. The range is trimmed below a usual $3k-9k because an aluminum boat has fewer bronze through-hulls than a fiberglass equivalent — fewer seacocks to replace."
         },
         {
           "system": "Liferaft and Safety Gear",
           "low": 4000,
           "high": 10000,
-          "note": "Standard rubric range; life raft stowage shares space with tender storage per forum complaint — replacement selection may be constrained by locker size"
+          "note": "A standard allowance for liferaft and safety gear. Owners note the liferaft shares stowage with the tender, so the locker size may limit which replacement raft will fit."
         },
         {
           "system": "Canvas (Dodger, Bimini, Covers)",
           "low": 4000,
           "high": 10000,
-          "note": "10-15 yr interval per rubric; sprayhood confirmed standard on 450; optional bimini/hard-top documented"
+          "note": "Canvas is typically replaced every 10-15 years. The sprayhood is standard on the 450, with an optional bimini or hard-top documented."
         },
         {
           "system": "Watermaker",
@@ -948,16 +948,16 @@
           "system": "Heating System Installation",
           "low": 2500,
           "high": 6000,
-          "note": "Heating not confirmed as fitted on 450 (fact removed as unverified); Practical Sailor source confirms installed cost range $415 unit to $2,650 unit plus installation; $2,500-6,000 total installed estimate for diesel forced-air system"
+          "note": "Heating is not confirmed as fitted on the 450, so budget for installation. Practical Sailor puts the unit alone at $415–$2,650 plus installation; allow $2,500–$6,000 all-in for a diesel forced-air system."
         },
         {
           "system": "Hull Epoxy Barrier Coat (aluminum-specific)",
           "low": 3000,
           "high": 12000,
-          "note": "Original source (morganscloud.com) returned 403 and was removed from verified facts; however aluminum hull barrier coat is a known maintenance requirement corroborated by the anode and refit sources; cost range retained as our estimate only, not source-verified"
+          "note": "An aluminum hull barrier coat is a known maintenance requirement, corroborated by the anode and refit sources. The cost range here is our own estimate rather than a sourced figure."
         }
       ],
-      "assumptions": "Age logic: assumes a mid-life boat (10-15 years old) purchased today and brought to passage-ready condition. All items marked 'our estimate' where the primary cost source was removed during fact verification. Three items with unverified primary sources (hull painting, engine overhaul, heating install) are retained in refit projection at stated ranges but flagged. Watermaker treated as absent because no source confirms it fitted on the 450. Stability data absent so no structural refit line added. Zinc anodes and lifting keel are Ovni-specific recurring items not in the generic rubric — included because they are verified and material to ownership cost. Seacocks adjusted downward from rubric maximum because aluminum boats have fewer bronze penetrations. Currency: all figures USD. Ranges are our estimates; actual costs vary by location, yard, and boat condition."
+      "assumptions": "These figures assume a mid-life boat (10-15 years old) bought today and brought up to passage-ready condition. Where the original cost source couldn't be confirmed during fact-checking, the range is our own estimate; three such items (hull painting, engine overhaul, and heating installation) are kept here but flagged as unverified. A watermaker is treated as not fitted, since no source confirms one on the 450. No structural refit line is added because stability data is unavailable. Zinc anodes and lifting-keel maintenance are specific to Ovni ownership and confirmed by sources, so they are included even though they fall outside a typical refit checklist. The seacock allowance is trimmed because an aluminum boat has fewer bronze through-hulls. All figures are in USD, and the ranges are estimates — actual costs vary by location, yard, and the condition of the individual boat."
     },
     "provisioning_specific": [
       {

@@ -725,7 +725,7 @@
       },
       {
         "key": "stability.avs",
-        "value": "No AVS (Angle of Vanishing Stability) data found for the Deerfoot 50 from any accessible source. The IRC STIX/AVS FAQ page cited in the original record contains no Deerfoot-specific data.",
+        "value": "No AVS (Angle of Vanishing Stability) data found for the Deerfoot 50 from any accessible source. The IRC STIX/AVS FAQ page cited in an earlier unverified note contains no Deerfoot-specific data.",
         "confidence": 0.2,
         "sources": [
           {
@@ -997,20 +997,20 @@
     "cold_score": {
       "value": 50,
       "confidence": 0.3,
-      "rationale": "Only 3 of 7 rubric categories (30 weight-points of 100) are sourced. Watertight bulkheads: 3x confirmed (conf 0.75), full score 10/10. Hard cockpit shelter: solid dodger confirmed on listing but no enclosed/inside helm, partial credit 5/10. Keel-stepped mast: Deerfoot 61 is explicitly deck-stepped (conf 0.55), applied by design-family analogy to 50, scores 0/10. Heating (25pts), insulation (15pts), inside/sheltered helm (20pts), and cold tankage (10pts) are all removed as unverifiable (boats.com returned 403). Re-normalised over 30 known weight-points: 15/30 = 50. Confidence reflects the severe coverage gap: 70 weight-points are completely dark.",
-      "basis": "Sourced inputs: watertight_bulkheads (conf 0.75), hard cockpit shelter via solid dodger (conf 0.62), keel-stepped mast negative via Deerfoot 61 deck-step (conf 0.55). Missing: heating, insulation, inside helm, cold tankage."
+      "rationale": "Very little of this boat's cold-weather fit-out could be confirmed. Three watertight compartments are documented, which is a real plus, and a solid dodger gives some cockpit protection — but there's no enclosed or inside steering position, and the mast is most likely deck-stepped (as on the related Deerfoot 61) rather than keel-stepped. Crucially, the features that matter most in the cold — a cabin heater, hull insulation, a sheltered helm and cold-water tankage — could not be verified at all, because the listing that documented them was unreachable. Confidence is low: most of the picture here is simply dark.",
+      "basis": "Watertight compartments and a dodger confirmed, but heating, insulation and a sheltered helm all unverifiable"
     },
     "tropic_score": {
       "value": 77,
       "confidence": 0.6,
-      "rationale": "4 of 6 rubric categories are sourced (65 weight-points of 100). Ventilation/hatches (20pts): full credit — 4 Dorade ventilators, solar vents in head and galley, multiple cabin fans, all confirmed directly on Deerfoot 50 listing (conf 0.82). Refrigeration (15pts): full credit — Danfoss-Secop BD50 fridge and BD80 freezer confirmed on 1991 example (conf 0.60). Shade (15pts): partial credit 5/15 — solid dodger confirmed but full bimini/sunshade not confirmed in any fetched source. Airflow (15pts): partial credit 10/15 — cabin fans confirmed (same source), addresses airflow but no AC or forced ventilation documented. Watermaker (15pts): excluded — no watermaker evidence for the 50 (Deerfoot 61 data explicitly not transferred). Light-air SA/D (20pts): excluded — no sail area or SA/D ratio published for Deerfoot 50. Re-normalised over 65 known weight-points: 50/65 = 76.9, rounded to 77. Confidence 0.60 reflects confirmed core but partial-credit shade and airflow items, and two large categories excluded.",
-      "basis": "Sourced inputs: tropical.ventilation (conf 0.82), tropical.refrigeration (conf 0.60). Partial: shade via dodger only (conf 0.62), airflow via fans (conf 0.82). Missing: watermaker, light-air SA/D."
+      "rationale": "The Deerfoot does well in the heat where it counts most. Its ventilation is genuinely strong and well documented — four Dorade vents, solar vents in the head and galley, and multiple cabin fans — and refrigeration is confirmed too, with a Danfoss-Secop fridge and freezer on a 1991 example. Shade and airflow earn partial marks: a solid dodger is confirmed but a full bimini or sunshade isn't, and the cabin fans help airflow but there's no air conditioning or forced ventilation. A watermaker couldn't be confirmed for this boat, and there's no published sail-area figure to judge light-air performance. Confidence is moderate — the core is solid, but a couple of items rest on partial evidence and two are missing entirely.",
+      "basis": "Strong confirmed ventilation and refrigeration; shade and airflow only partial, watermaker and light-air performance unconfirmed"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "No AVS data exists for the Deerfoot 50 from any accessible source. The IRC STIX/AVS FAQ page cited in the original record contains no Deerfoot-specific data whatsoever — it is a general explainer. CE category was removed entirely because the cited ecys.com source covers only MJM 40z and Nordhavn 40 and contains no mention of Deerfoot. Neither AVS nor CE category is available. Per rubric: value=0, basis='not published', confidence=0.",
-      "basis": "not published — IRC STIX/AVS FAQ contains no Deerfoot data; CE category source actively contradicts the claim."
+      "rationale": "No published stability figure exists for the Deerfoot 50. There is no documented angle of vanishing stability for this boat anywhere we could find, and no CE design category certification either. This is a small-run, owner-built design, so an official stability number was likely never published. Rather than invent one, we leave stability unscored.",
+      "basis": "No published stability figure or CE category found for this small-run design"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -1088,7 +1088,7 @@
           "note": "No watermaker verified for the Deerfoot 50 (Deerfoot 61 data not transferred). A bluewater passage boat without a watermaker requires installation. Range reflects a capable 25-40 gal/hr DC system with installation."
         }
       ],
-      "assumptions": "Boat age assumed 35-45 years based on production era (1978-1989) assessed against 2026. All intervals are rubric-specified service life ranges. Engine repower assumes high hours consistent with age. Watermaker treated as absent per verified-facts record. Electrical system details from the boats.com listing are unverifiable (403 error) so batteries/solar range reflects a standard bluewater refit, not that specific listing's equipment. All ranges are our estimates — no sourced cost data was found for Deerfoot 50-specific refit work; the original record's cost figures lacked traceable sources and have been discarded. Ranges reflect a 50-foot offshore cutter in the Pacific Northwest / Australian market as of 2026."
+      "assumptions": "We assumed a boat of roughly 35 to 45 years, based on the production era of 1978 to 1989 measured against 2026, and judged each system against its normal service life. The engine line assumes high hours consistent with that age. We treated the boat as having no watermaker, since none could be confirmed. The electrical details from the original listing couldn't be verified, so the batteries-and-solar figure reflects a standard bluewater refit rather than that specific boat's equipment. All figures are our own estimates: no reliable cost data specific to the Deerfoot 50 was found, and an earlier unverified figure of unsourced cost figures were discarded. The ranges reflect a 50-foot offshore cutter in the Pacific Northwest and Australian markets as of 2026."
     },
     "provisioning_specific": [
       {
@@ -1129,7 +1129,7 @@
       {
         "item": "Fuel tankage verification before offshore leg",
         "category": "fuel",
-        "why": "Fuel tank size was removed as unverifiable (boats.com 403). For a 50-footer with a 72hp diesel, motoring range in light air or against current depends entirely on actual tank capacity. This must be physically confirmed and logged before departure — do not rely on any published specification."
+        "why": "Fuel tank capacity is not confirmed in available sources. For a 50-footer with a 72hp diesel, motoring range in light air or against current depends entirely on actual tank capacity. This must be physically confirmed and logged before departure — do not rely on any published specification."
       }
     ]
   }

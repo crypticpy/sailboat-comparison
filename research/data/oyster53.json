@@ -818,7 +818,7 @@
       },
       {
         "key": "cold.watertight_bulkheads",
-        "value": "Internal bulkheads approximately 30-40mm thick for structural rigidity confirmed. Specific watertight compartment details for lazarette and anchor locker are not confirmed in fetched sources.",
+        "value": "Internal bulkheads approximately 30-40mm thick for structural rigidity confirmed. Specific watertight compartment details for lazarette and anchor locker are not confirmed in available sources.",
         "confidence": 0.55,
         "sources": [
           {
@@ -958,7 +958,7 @@
       },
       {
         "key": "heavy_weather.storm_report",
-        "value": "1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions confirmed. The specific owner quote ('She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above') is not confirmed in fetched sources and should be treated as unverified.",
+        "value": "1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions confirmed. The specific owner quote ('She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above') is not confirmed in available sources and should be treated as unverified.",
         "confidence": 0.6,
         "sources": [
           {
@@ -1084,7 +1084,7 @@
       },
       {
         "key": "refit.standing_rigging_cost",
-        "value": "Standing rigging replacement for a 50+ ft vessel: $10,000-$20,000 per improvesailing.com. The $12,000 lower bound cited in the original record is not confirmed; verified range starts at $10,000.",
+        "value": "Standing rigging replacement for a 50+ ft vessel: $10,000-$20,000 per improvesailing.com. The $12,000 lower bound cited in an earlier unverified note is not confirmed; verified range starts at $10,000.",
         "confidence": 0.7,
         "sources": [
           {
@@ -1199,96 +1199,96 @@
     "cold_score": {
       "value": 40,
       "confidence": 0.64,
-      "rationale": "Seven inputs scored against verified facts only. Keel-stepped mast confirmed (full credit, confidence 0.85). Heating present as optional reverse-cycle on documented examples only, not confirmed standard (partial credit). Solid GRP hull present but no insulation specification found (low partial credit). Inside/sheltered helm explicitly absent — open cockpit with optional sprayhood only (near-zero credit). Structural bulkheads confirmed but watertight compartment status unconfirmed (half credit). Hard cockpit shelter absent — sprayhood only confirmed (near-zero credit). Cold tankage entirely absent from verified sources (zero, dropped from denominator). Raw weighted sum 35.75 re-normalised over 90 active weight points yields 39.7, rounded to 40. Confidence reflects 7-category coverage at variable confidence levels averaging 0.64.",
-      "basis": "heating.cold.optional(0.55) + insulation.GRP_only(0.50) + inside_helm.absent(0.80) + keel_stepped(0.85) + watertight_bulkhead.structural_only(0.55) + hard_shelter.absent(0.80) + cold_tankage.not_confirmed(0.0)"
+      "rationale": "Cold-weather readiness is below average. The keel-stepped mast is confirmed, and the solid GRP hull is a plus, but no insulation spec is documented. Heating only shows up as an optional reverse-cycle unit on a few specific boats, not as standard equipment. The helm is an open center cockpit with at most a sprayhood — there's no inside steering position or hard cockpit enclosure. The structural bulkheads are confirmed but their watertight status isn't, and there's no evidence of dedicated cold-weather tankage. Moderate confidence, with several features known only at partial certainty.",
+      "basis": "Keel-stepped mast and solid hull help, but heating is optional-only and helm shelter is minimal"
     },
     "tropic_score": {
       "value": 51,
       "confidence": 0.52,
-      "rationale": "Six inputs scored. Ventilation: raised deck saloon with opening ports and pilothouse windows confirmed (score 65%, confidence 0.65). Shade: standard sprayhood and optional bimini — bimini not standard reduces score (55%, confidence 0.65). Refrigeration: 24V Frigomatic documented as an upgrade on one vessel, not standard fit (50%, confidence 0.65). Watermaker: explicitly optional, not standard, capacity unspecified (20%, confidence 0.65). Airflow: opening ports and pilothouse windows with optional AC (60%, confidence 0.65). Light-air SA/D: no sail area published in verified sources, SA/D cannot be computed — input dropped from denominator. Raw weighted sum 40.75 over 80 active weight points yields 50.9, rounded to 51. Confidence penalised by absent SA/D input and optional-only status of key tropical systems.",
-      "basis": "ventilation.opening_ports_confirmed(0.65) + shade.optional_bimini(0.65) + refrigeration.upgrade_only(0.65) + watermaker.optional_not_standard(0.65) + airflow.passive_ports(0.65) + SA_D.not_published(dropped)"
+      "rationale": "Tropical comfort lands mid-range. The raised deck saloon with opening ports and pilothouse windows gives good ventilation and airflow, and a standard sprayhood provides shade (a bimini is optional rather than standard). Refrigeration and a watermaker are both available only as upgrades, not standard fit, and the watermaker's capacity isn't specified. There's also no published sail area, so light-air performance can't be judged. Low confidence — several key tropical systems are optional-only, and one input couldn't be evaluated at all.",
+      "basis": "Good ventilation and standard shade, but fridge and watermaker are upgrades and sail area is unpublished"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "Rubric requires AVS >=130/120/110 threshold or CE Category A/B/C/D. Neither AVS nor CE category is published for the Oyster 53 in any verified source. CSF of 1.8 and ballast/displacement ratio of 40.4% with low-positioned lead bulb keel are positive indicators but the rubric does not permit scoring from these proxies. Per rubric: Neither published → value 0, basis 'not published', confidence 0. No score can be assigned.",
-      "basis": "not published"
+      "rationale": "We can't put a number on stability because the key figures aren't published for the Oyster 53. There's no angle-of-vanishing-stability rating and no formal CE category in any verified source. The boat does have encouraging signs — a low capsize-screening value of 1.8, a high 40.4% ballast ratio, and a low-mounted lead bulb keel — but these are indirect indicators, not a measured stability figure, so we leave this unscored rather than imply a rating the data doesn't support.",
+      "basis": "No published stability figures could be verified"
     },
     "storm_verdict": {
-      "text": "Two sourced heavy-weather data points exist for the Oyster 53. The yachtandboat.com.au review (confidence 0.75) confirms the vessel was tested working to weather in winds exceeding 50 knots. A 1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions is confirmed via murrayyachtsales.com (confidence 0.60), though no specific sea state or boat-motion detail survived adversarial verification — the often-cited owner quote was not found in the fetched source and is excluded. The cutter rig with removable inner forestay, slab reefing, and confirmed heavy-weather headsail options are well-documented (confidence 0.90) and represent sound offshore storm-sail configuration. These three data points are consistent with the design brief of a dedicated bluewater cruiser but do not constitute multiple independent ocean-passage storm reports. Insufficient sourced data exists to characterise the vessel's behaviour in survival conditions, broker any comparison against peer designs, or assert specific crew-experience outcomes in severe weather.",
+      "text": "Two sourced heavy-weather data points exist for the Oyster 53. The yachtandboat.com.au review confirms the vessel was tested working to weather in winds exceeding 50 knots. A 1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions is confirmed via murrayyachtsales.com, though no detailed sea-state or motion account could be independently confirmed. The cutter rig with removable inner forestay, slab reefing, and confirmed heavy-weather headsail options are well-documented and represent sound offshore storm-sail configuration. These three data points are consistent with the design brief of a dedicated bluewater cruiser but do not constitute multiple independent ocean-passage storm reports. Insufficient sourced data exists to characterise the vessel's behaviour in survival conditions, broker any comparison against peer designs, or assert specific crew-experience outcomes in severe weather.",
       "confidence": 0.6,
       "cited": true
     },
     "refit_projection": {
       "total_low_usd": 79500,
       "total_high_usd": 234500,
-      "assumptions": "Baseline hull modelled as approximately 2003 build (mid-fleet, ~23 years old as of 2026). All 52 hulls are between 18 and 27 years old, so all age-triggered intervals apply across the fleet. Standing rigging cost floor corrected to $10,000 per improvesailing.com (verified); original record's $12,000 floor was unsupported. Engine modelled as overhaul-only at 23 years (repower interval is 25-30yr); overhaul cost $5,000-$15,000 estimated — no verified Oyster-53-specific engine cost source exists, engine overhaul cost range from sentiment ($4k-$10k) is unverified so rubric general guidance applied with uplift for 53ft vessel. Watermaker added as absent-from-standard-spec item per verified watermaker fact. Teak deck modelled as restoration (not full replacement) per americanyachtrestoration.com verified range. All ranges are our estimates; actual costs depend on survey findings, geographic labour rates, and individual vessel condition.",
+      "assumptions": "These figures assume a mid-fleet boat built around 2003 (about 23 years old as of 2026). Every one of the 52 hulls is now 18 to 27 years old, so all the age-driven replacement intervals apply across the fleet. The standing-rigging floor is set at $10,000 per the verified improvesailing.com source; an earlier unverified figure of $12,000 floor wasn't supported. The engine is treated as needing an overhaul rather than a full repower at this age, with an estimated $5,000-$15,000 cost — no Oyster-53-specific engine source could be verified, so this is a general estimate scaled up for a 53ft boat. A watermaker is included as an addition since none is fitted as standard. The teak deck is costed as a restoration rather than a full replacement, per the verified americanyachtrestoration.com range. All ranges are estimates; actual costs depend on survey findings, local labour rates, and the condition of the individual boat.",
       "by_item": [
         {
           "system": "Standing Rigging",
           "low": 10000,
           "high": 20000,
-          "note": "Full replacement due at 18-27yr. Verified range $10k-$20k (improvesailing.com). Cutter rig adds inner forestay terminals vs sloop."
+          "note": "Full replacement due at 18-27yr. Verified range $10k-$20k. Cutter rig adds inner forestay terminals vs sloop."
         },
         {
           "system": "Running Rigging",
           "low": 2000,
           "high": 6000,
-          "note": "8-10yr service interval; replacement due. Rubric standard range. Cutter rig adds running backstay lines."
+          "note": "Running rigging is typically renewed every 8-10 years, so replacement is due. A standard allowance; the cutter rig adds running backstay lines."
         },
         {
           "system": "Sails (full suit)",
           "low": 15000,
           "high": 45000,
-          "note": "8-12yr interval; replacement due. Horizon Sails confirmed as Oyster supplier. Full cutter suit: main, genoa, jib, staysail. Rubric range applied."
+          "note": "Sails are typically replaced every 8-12 years, so replacement is due. Horizon Sails is a confirmed Oyster supplier. Covers a full cutter suit: main, genoa, jib, and staysail."
         },
         {
           "system": "Engine overhaul (Yanmar)",
           "low": 5000,
           "high": 15000,
-          "note": "At ~23yr, overhaul rather than repower indicated (25-30yr repower interval). Verified Yanmar parts availability; overhaul cost unverified from sources — estimate based on rubric guidance for vessel size. No confirmed Oyster-53-specific cost source."
+          "note": "At about 23 years, an overhaul is more likely than a full repower (repowers usually come at 25-30 years). Yanmar parts availability is confirmed; the overhaul cost couldn't be verified from sources and is a general estimate scaled to this boat's size. No Oyster-53-specific cost source was found."
         },
         {
           "system": "Electronics",
           "low": 8000,
           "high": 30000,
-          "note": "10-15yr interval; all electronics likely original or first-generation replacement. Chartplotter, AIS, VHF, radar, autopilot head. Rubric range."
+          "note": "Electronics are generally refreshed every 10-15 years, so the suite is likely original or a first-generation replacement. Covers chartplotter, AIS, VHF, radar, and autopilot head."
         },
         {
           "system": "Batteries and Solar",
           "low": 5000,
           "high": 20000,
-          "note": "6-10yr interval; 24V system documented. Upgrade path to LiFePO4 documented on at least one vessel. Rubric range."
+          "note": "Batteries are typically renewed every 6-10 years. A 24V system is documented, with a lithium (LiFePO4) upgrade path shown on at least one vessel."
         },
         {
           "system": "Ground Tackle",
           "low": 3000,
           "high": 10000,
-          "note": "Condition unknown; age-appropriate replacement of anchor, chain, and windlass service. Rubric range."
+          "note": "Condition unknown; a standard allowance covering age-appropriate replacement of anchor and chain plus windlass service."
         },
         {
           "system": "Seacocks and Through-Hulls",
           "low": 3000,
           "high": 9000,
-          "note": "25yr replacement interval; hulls at 18-27yr place older vessels at or past interval. DZR bronze replacement per yacht-experts.com guidance. Rubric range."
+          "note": "Seacocks are typically replaced around 25 years, so the older hulls (the fleet is 18-27 years old) are at or past that point. Assumes DZR bronze replacement, per yacht-experts.com guidance."
         },
         {
           "system": "Liferaft and Safety Gear",
           "low": 4000,
           "high": 12000,
-          "note": "10yr service/replacement interval. Offshore safety pack including liferaft, EPIRB, flares. Rubric range."
+          "note": "Safety gear is serviced or replaced on roughly a 10-year cycle. Covers an offshore pack including liferaft, EPIRB, and flares."
         },
         {
           "system": "Canvas (Sprayhood and Bimini)",
           "low": 4000,
           "high": 12000,
-          "note": "10-15yr interval; sun and salt deterioration confirmed as complaint in sentiment. Sprayhood and optional bimini replacement including frames. Rubric range."
+          "note": "Canvas is typically replaced every 10-15 years, and sun and salt deterioration is a confirmed owner complaint. Covers sprayhood and optional bimini replacement, including frames."
         },
         {
           "system": "Watermaker (not standard)",
           "low": 6000,
           "high": 15000,
-          "note": "Not standard equipment per verified watermaker fact. 750L tank capacity confirmed but watermaker absent from standard spec. Passage-ready addition. Rubric range."
+          "note": "Not standard equipment, per the verified record. The 750L water tank is confirmed, but no watermaker is part of the standard spec — this is a passage-ready addition."
         },
         {
           "system": "Teak Deck Restoration",
@@ -1308,12 +1308,12 @@
       {
         "item": "Lewmar hatch seal replacement kit (full vessel set)",
         "category": "Maintenance",
-        "why": "Hatch seal deterioration is a confirmed documented maintenance issue on the Oyster 53 (sailingbritican.com). Lewmar rubber seals (~$50/hatch) are cited as the permanent fix over silicone patching. Carrying a full set prevents in-passage leaks."
+        "why": "Hatch seal deterioration is a confirmed documented maintenance issue on the Oyster 53. Lewmar rubber seals (~$50/hatch) are cited as the permanent fix over silicone patching. Carrying a full set prevents in-passage leaks."
       },
       {
         "item": "Cutter staysail (storm-weight hanked-on)",
         "category": "Safety / Heavy Weather",
-        "why": "Inner forestay and cutter rig confirmed (confidence 0.90, boatingnz.co.nz and sailboat-cruising.com). A dedicated storm-weight staysail is the primary heavy-weather sail configuration for this rig; absence would compromise safety in the confirmed 50+ knot wind envelope."
+        "why": "Inner forestay and cutter rig confirmed (boatingnz.co.nz and sailboat-cruising.com). A dedicated storm-weight staysail is the primary heavy-weather sail configuration for this rig; absence would compromise safety in the confirmed 50+ knot wind envelope."
       },
       {
         "item": "Autopilot drive unit / ram spare (Raymarine ST-series compatible)",
@@ -1323,12 +1323,12 @@
       {
         "item": "Yanmar engine service kit (impeller, belts, zincs, fuel/oil filters, injector set)",
         "category": "Maintenance",
-        "why": "Yanmar engine parts confirmed readily available (oysteryachts.com service plans, parts.availability confidence 0.80). Carrying a full service kit enables 500hr intervals offshore without port dependency. Engine brand and parts ecosystem are verified."
+        "why": "Yanmar engine parts confirmed readily available (oysteryachts.com service plans). Carrying a full service kit enables 500hr intervals offshore without port dependency. Engine brand and parts ecosystem are verified."
       },
       {
         "item": "Frigomatic 24V compressor spare / refrigerant recharge kit",
         "category": "Provisioning / Tropical",
-        "why": "24V Frigomatic cooling system documented as upgrade on Seeadler (denisonyachtsales.com). For tropical passages a failed compressor renders the refrigeration inoperable; spare or service kit is appropriate provisioning given the documented system type."
+        "why": "24V Frigomatic cooling system documented as upgrade on Seeadler. For tropical passages a failed compressor renders the refrigeration inoperable; spare or service kit is appropriate provisioning given the documented system type."
       },
       {
         "item": "DZR bronze seacock service kit (grease, rebuild parts) or spare ball valves",

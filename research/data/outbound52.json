@@ -1000,7 +1000,7 @@
       },
       {
         "key": "price_new",
-        "value": "$830,000 original MSRP per CruisingWorld; used market pricing not independently verified (YachtWorld returned 403)",
+        "value": "$830,000 original MSRP per CruisingWorld; used market pricing not independently verified (YachtWorld could not be accessed)",
         "confidence": 0.8,
         "sources": [
           {
@@ -1041,7 +1041,7 @@
       },
       {
         "key": "heavy_weather.storm_report",
-        "value": "Offshore delivery around Cape Hatteras noted 780 miles at 8.2 knots average; seakindly motion in 15-20 knot winds with quartering seas — source (boats.com) returned HTTP 403, cannot directly verify quotes but facts align with other published accounts",
+        "value": "Offshore delivery around Cape Hatteras noted 780 miles at 8.2 knots average; seakindly motion in 15-20 knot winds with quartering seas — source could not be accessed, cannot directly verify quotes but facts align with other published accounts",
         "confidence": 0.6,
         "sources": [
           {
@@ -1082,7 +1082,7 @@
       },
       {
         "key": "stability.sea_keeping",
-        "value": "Described in multiple sources as seakindly with V-sections and moderate beam; easily driven hull; specific rocker/wave-striding quotes from boats.com could not be verified (403)",
+        "value": "Described in multiple sources as seakindly with V-sections and moderate beam; easily driven hull; specific rocker/wave-striding quotes from boats.com could not be verified (source inaccessible)",
         "confidence": 0.7,
         "sources": [
           {
@@ -1167,20 +1167,20 @@
     "cold_score": {
       "value": 70,
       "confidence": 0.43,
-      "rationale": "Three of seven cold-climate criteria have verified sourced data. Heating (25 pts) and insulation (15 pts) were removed from the verified record — no source confirmed either. Mast-step configuration (10 pts) and cold tankage (10 pts) are undocumented. Re-normalisation is applied over the three sourced criteria only (max 40 pts). Inside/sheltered helm (20 pts rubric weight): hard-top dodger with integral design confirmed by Sail Magazine 2009; no enclosed helm station per verified fact — awarded 10 of 20. Watertight bulkheads (10 pts): two full-perimeter bonded bulkheads confirmed by CruisingWorld — full 10 pts. Hard cockpit shelter (10 pts): integral hard-top dodger confirmed — 8 of 10 (not a full enclosure). Achieved 28 of 40 sourced points, re-normalised to 70.",
-      "basis": "Re-normalised over 3 of 7 criteria (heating, insulation, keel-stepped mast, cold tankage excluded — no verified source). Sources: CruisingWorld Outbound 52, Sail Magazine 2009 Best Boats."
+      "rationale": "On the features we could confirm, the Outbound 52 scores well for cold weather. It has two full-perimeter watertight bulkheads (confirmed by Cruising World) and an integral hard-top dodger that shelters the cockpit, though there's no fully enclosed inside helm. The catch is how much we couldn't verify: heating, insulation, the mast-step type, and cold-weather tankage are all undocumented. The score reflects only the confirmed features, which is why confidence is low — most of the cold-weather picture is simply missing from the sources.",
+      "basis": "Watertight bulkheads and hard dodger confirmed, but heating, insulation, and tankage all undocumented"
     },
     "tropic_score": {
       "value": 76,
       "confidence": 0.5,
-      "rationale": "Three of six tropic criteria have verified sourced data. Ventilation/opening hatches (20 pts) removed from verified record. Watermaker (15 pts) removed — source had expired SSL, inaccessible. Passive airflow detail (15 pts) undocumented. Re-normalisation applied over three sourced criteria (max 50 pts). Shade (15 pts): integral hard-top dodger confirmed by Sail Magazine — awarded 10 of 15 (cockpit coverage confirmed; full deck awning coverage not documented). Refrigeration (15 pts): large separated fridge/freezer plus two over-the-counter day fridges confirmed by Sail Magazine — full 15 pts. Light-air SA/D (20 pts): SA 1,312 sq ft (CruisingWorld), displacement 39,500 lbs. SA/D = 1312 / (39500/64)^(2/3) = 1312 / 72.4 ≈ 18.1 — moderate-to-adequate for bluewater; not a light-air flyer. Awarded 13 of 20. Achieved 38 of 50 sourced points, re-normalised to 76.",
-      "basis": "Re-normalised over 3 of 6 criteria. SA/D computed from CruisingWorld figures. Shade and refrigeration from Sail Magazine."
+      "rationale": "Tropical comfort is a relative strength. Refrigeration is excellent — a large separated fridge and freezer plus two day fridges, all confirmed by Sail Magazine. The integral hard-top dodger shades the cockpit, though there's no full deck awning. Sail area of 1,312 sq ft against this displacement gives moderate-to-adequate light-air performance — capable, but not a light-air flyer. Confidence is held down because ventilation, cabin airflow, and the watermaker couldn't be verified (one source was unreachable), so part of the tropical picture is incomplete.",
+      "basis": "Strong refrigeration and decent shade and sail area, but ventilation and watermaker unconfirmed"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "AVS (Angle of Vanishing Stability) is not published in any verified source. CE Category A certification was removed from the verified record because the manufacturer source was not confirmed and the cited source conflated Category A and Category B definitions. Per rubric: neither AVS nor confirmed CE category is available. Value is set to 0, basis is not published, confidence is 0. Note: ballast ratio of 0.35-0.38 and lead bulb keel with V-sections are suggestive of reasonable offshore stability, but no quantified stability figure exists in the verified record to score against the rubric.",
-      "basis": "not published"
+      "rationale": "We can't score stability because the published figures aren't there to verify. There's no angle-of-vanishing-stability rating, and the CE Category A claim couldn't be confirmed — the source for it was unverified and muddled the Category A and B definitions. The boat's ballast ratio of around 0.35-0.38 and its lead bulb keel point toward reasonable offshore stability, but those are general indicators, not a measured figure, so we leave this unscored rather than imply a rating.",
+      "basis": "No published stability figures could be verified"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -1195,67 +1195,67 @@
           "system": "Standing Rigging (Selden triple-spreader, 52ft)",
           "low": 10000,
           "high": 25000,
-          "note": "At 14-year assumed age, approaching or at end of service life for stainless wire (10-12yr) and rod (15-20yr). Full replacement recommended. Selden triple-spreader rig on a 52ft adds labour complexity. Rubric range $8k-$30k; upper range applied given rig size."
+          "note": "At an assumed 14 years, the rigging is at or near the end of its service life (10-12 years for wire, 15-20 for rod), so full replacement is recommended. The Selden triple-spreader rig on a 52-footer adds labour complexity, which pushes this toward the upper end of a typical $8k-$30k range."
         },
         {
           "system": "Running Rigging",
           "low": 2000,
           "high": 6000,
-          "note": "At 14 years, past the 8-10yr service interval. Full halyards, sheets, control lines replacement. Hood Vectran lines may carry premium. Rubric range $2k-$6k applied directly."
+          "note": "At 14 years, the running rigging is past its 8-10 year service interval. Covers full replacement of halyards, sheets, and control lines; Hood Vectran lines may cost a premium. A standard $2k-$6k allowance applies."
         },
         {
           "system": "Sails (in-mast furling main + Vectran headsails on Furlex furlers)",
           "low": 15000,
           "high": 40000,
-          "note": "At 14 years, past the 8-12yr sail life. In-mast furling mainsail replacement is more expensive than conventional (limited batten options, must match furling drum). Hood Vectran headsail replacement at Sail Magazine-confirmed 1,312 sq ft total. Rubric range $15k-$45k; high end reduced slightly as in-mast main is smaller sail area."
+          "note": "At 14 years, the sails are past their 8-12 year life. An in-mast furling mainsail costs more to replace than a conventional one (limited batten options, must match the furling drum). Includes Hood Vectran headsails at the Sail Magazine-confirmed 1,312 sq ft total. The high end is trimmed slightly from a typical $45k because the in-mast main is a smaller sail."
         },
         {
           "system": "Engine Major Service / Partial Overhaul (Yanmar 110hp, 4JH series)",
           "low": 5000,
           "high": 15000,
-          "note": "Yanmar 110hp confirmed by Sail Magazine. At 14 years with unknown hours, full repower threshold (25-30yr per rubric) not yet reached. Major service (injectors, heat exchanger, impellers, belts, mounts, Aquadrive inspection) budgeted. Full repower reserved for high-hour examples — apply as contingency."
+          "note": "Yanmar 110hp confirmed by Sail Magazine. At 14 years with unknown hours, the boat hasn't reached the usual 25-30 year repower point. This budgets a major service (injectors, heat exchanger, impellers, belts, mounts, and an Aquadrive inspection); a full repower is reserved for high-hour examples and should be treated as a contingency."
         },
         {
           "system": "Electronics Suite (chartplotters, AIS, VHF, radar, autopilot)",
           "low": 8000,
           "high": 25000,
-          "note": "At 14 years, past the 10-15yr electronics rubric interval. Chartplotter integration, AIS class B, SSB or Iridium satcom, radar, autopilot drive/head all likely due. Lower bound assumes partial upgrade; upper bound assumes full modern suite."
+          "note": "At 14 years, the electronics are past their typical 10-15 year life. Chartplotter integration, AIS Class B, SSB or Iridium satcom, radar, and autopilot drive/head are all likely due. The low end assumes a partial upgrade; the high end assumes a full modern suite."
         },
         {
           "system": "Battery Bank (AGM replacement or LiFePO4 upgrade)",
           "low": 5000,
           "high": 18000,
-          "note": "At 14 years, at minimum second replacement cycle for AGM (6-10yr per rubric). Lower bound: AGM bank replacement. Upper bound: LiFePO4 conversion with BMS and potential alternator upgrade. Kernan 900Ah AGM option reference removed from verified facts but size provides scale."
+          "note": "At 14 years, this is at least the second battery replacement cycle (AGM banks last 6-10 years). The low end covers an AGM bank replacement; the high end covers a lithium (LiFePO4) conversion with a battery management system and a possible alternator upgrade. The Kernan 900Ah AGM reference was dropped from verified facts but gives a sense of bank size."
         },
         {
           "system": "Ground Tackle (chain, windlass service, anchors)",
           "low": 3000,
           "high": 8000,
-          "note": "Rubric range $3k-$10k. At 14 years, galvanised chain stretching and windlass gypsy wear likely. Modern Rocna/Mantus anchor plus 300ft of 3/8in G4 chain and windlass service."
+          "note": "A standard $3k-$10k allowance. At 14 years, galvanised chain stretch and windlass gypsy wear are likely. Covers a modern Rocna or Mantus anchor, 300ft of 3/8in G4 chain, and windlass service."
         },
         {
           "system": "Seacocks Inspection / Partial Replacement",
           "low": 1500,
           "high": 5000,
-          "note": "At 14 years, below the 25yr full replacement rubric threshold. Inspection and cycling service appropriate; partial replacement if any are seized. Full replacement deferred unless survey indicates otherwise. Rubric range $3k-$9k for full replacement — lower range applied for inspection/partial."
+          "note": "At 14 years, the seacocks are well short of the usual 25-year full-replacement point. Inspection and a cycling service are appropriate, with partial replacement only if any are seized; full replacement is deferred unless the survey says otherwise. The low figure reflects inspection and partial work rather than a full $3k-$9k replacement."
         },
         {
           "system": "Liferaft / Safety Gear (recert or replace)",
           "low": 4000,
           "high": 12000,
-          "note": "Rubric range $4k-$12k. Liferaft recertification at 3-year intervals or replacement if expired. EPIRB, flares, jacklines, tethers, MOB gear included. ORC or ISO offshore standards for Category 1 passage."
+          "note": "A standard $4k-$12k allowance. Covers liferaft recertification (due every 3 years, or replacement if expired) plus EPIRB, flares, jacklines, tethers, and MOB gear, to ORC or ISO offshore standards for a Category 1 passage."
         },
         {
           "system": "Canvas / Cockpit Soft Goods (bimini, sail covers, cockpit cushions)",
           "low": 3000,
           "high": 9000,
-          "note": "At 14 years, past the 10-15yr canvas rubric interval. Hard-top dodger (integral, confirmed by Sail Magazine) reduces cost versus full soft dodger replacement. Bimini, sail covers, companionway cover, and cockpit cushions budgeted. Rubric $4k-$12k; lower end applied given hard-top reduces scope."
+          "note": "At 14 years, the canvas is past its typical 10-15 year life. The integral hard-top dodger (confirmed by Sail Magazine) costs less than replacing a full soft dodger. Covers bimini, sail covers, companionway cover, and cockpit cushions; the figure sits at the lower end of a typical $4k-$12k range because the hard-top reduces the scope."
         },
         {
           "system": "Watermaker (install new — absent from verified specification)",
           "low": 6000,
           "high": 15000,
-          "note": "Watermaker fact removed from verified record (source had expired SSL, inaccessible). Per rubric, if absent budget $6k-$15k for installation. Vessel has 200-225 gal tankage (verified), which reduces urgency but a watermaker is essential for offshore passage-making. Budget includes unit, installation, pressure vessels, and throughput fittings."
+          "note": "The watermaker claim was dropped from the verified record (its source was inaccessible). When one isn't fitted, a typical installation runs $6k-$15k. The boat's 200-225 gal tankage (verified) reduces urgency, but a watermaker is essential for offshore passage-making. The budget covers the unit, installation, pressure vessels, and throughput fittings."
         },
         {
           "system": "Furlex Roller Furling and In-Mast Furling Mechanism Service",
@@ -1264,13 +1264,13 @@
           "note": "Boat-specific item. Furlex manual furlers (confirmed Sail Magazine) require bearing inspection and potential replacement at 10-12 years. Selden in-mast furling drum and internal batten track inspection. Lower bound: service and seals. Upper bound: full bearing replacement plus batten renewal."
         }
       ],
-      "assumptions": "Age basis: mid-fleet Outbound 52 assumed approximately 14 years old (2012 build), consistent with the model's production run starting circa 2007-2008. Engine repower not included — Yanmar 4JH series at 14 years is below the 25-30yr rubric repower threshold; budgeted as major service only unless a surveyed example shows high hours (add $25k-$70k if >3,000 hours). Seacocks below full replacement threshold — inspection budget only. Stability score is 0 (AVS not published) so no structural refit items are triggered by stability findings. Watermaker budgeted as absent per removal of that verified fact. All figures in 2026 USD. Ranges are our estimates; actual cost depends on yard location (Caribbean vs US East Coast vs Pacific), individual boat condition, and survey findings."
+      "assumptions": "These figures assume a mid-fleet Outbound 52 of about 14 years (a 2012 build), in line with the model's production run starting around 2007-2008. A full engine repower isn't included — the Yanmar 4JH at 14 years is below the usual 25-30 year repower point, so it's budgeted as a major service only, unless a survey shows high hours (add $25k-$70k if over 3,000 hours). Seacocks are budgeted for inspection only, as they're below the full-replacement age. Stability is unscored (no published figure), so no stability-driven structural work is included. A watermaker is budgeted as not fitted, since that claim was dropped from the verified record. All figures are in 2026 USD, and the ranges are estimates — actual cost depends on where the work is done (Caribbean vs US East Coast vs Pacific), the condition of the individual boat, and survey findings."
     },
     "provisioning_specific": [
       {
         "item": "Extended fuel reserve planning: 250-gallon tank at 1 gal/hr yields ~1,500nm motoring range",
         "category": "Fuel and Range",
-        "why": "Verified by Blue Water Sailing (bwsailing.com): 110hp Yanmar burning approximately 1 gal/hr at 7 knots, 250-gal fuel capacity, 1,500-mile safe motoring range. This is a meaningful bluewater asset — provision jerry cans for contingency on passages with uncertain wind."
+        "why": "Verified by Blue Water Sailing: 110hp Yanmar burning approximately 1 gal/hr at 7 knots, 250-gal fuel capacity, 1,500-mile safe motoring range. This is a meaningful bluewater asset — provision jerry cans for contingency on passages with uncertain wind."
       },
       {
         "item": "Water provisioning conservatively from tanks only: budget 200-225 gallons, ~10 gal/person/day",
@@ -1280,7 +1280,7 @@
       {
         "item": "Solent rig standard — provision storm jib or cutter staysail as a separate purchase",
         "category": "Heavy Weather Sail Inventory",
-        "why": "Outbound Yachts confirms (outboundyachts.com) that OB 521 owners mostly opt for a solent rig rather than a cutter. Cutter rig is possible but not standard. A dedicated storm jib on its own stay (or inner forestay) should be provisioned separately and rigged before offshore passage to provide sail reduction options below the furled headsail. Budget $800-$2,500 for storm jib and inner forestay fittings if not already aboard."
+        "why": "Outbound Yachts confirms that OB 521 owners mostly opt for a solent rig rather than a cutter. Cutter rig is possible but not standard. A dedicated storm jib on its own stay (or inner forestay) should be provisioned separately and rigged before offshore passage to provide sail reduction options below the furled headsail. Budget $800-$2,500 for storm jib and inner forestay fittings if not already aboard."
       },
       {
         "item": "Refrigeration provisioning: dual-system boat allows offshore provisioning for 3-4 crew over 4+ weeks",

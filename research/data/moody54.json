@@ -1,0 +1,753 @@
+{
+  "_id": "moody54",
+  "_provenance": {
+    "generated": "2026-06-20",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "opus",
+    "verify": "opus",
+    "score": "opus"
+  },
+  "id": "moody54",
+  "name": "Moody 54",
+  "research": {
+    "id": "moody-54-bluewater-research",
+    "overall_confidence": 0.8,
+    "facts": [
+      {
+        "key": "identity.model_disambiguation",
+        "value": "This record covers the Bill Dixon centre-cockpit Moody 54 built from December 1999 to March 2004 (about 55 hulls) by Marine Projects (Plymouth) Ltd under the A.H. Moody & Son marque. It is a completely different boat from the later Hanse-built Moody Decksaloon 54 (2012-present), which is a single-level glass-walled deck saloon designed around a Judel/Vrolijk hull. Do not conflate the two.",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          },
+          {
+            "title": "MOODY 54 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-54/"
+          }
+        ]
+      },
+      {
+        "key": "dimensions.principal",
+        "value": "LOA 16.72 m (54'10\"), LWL 14.02 m (46'1\"), beam 4.85 m (15'11\"), fin-keel draft 2.28 m (7'6\") or shoal draft 1.80 m (5'11\"), displacement 20.06 tonnes (~44,200 lb), ballast about 6.8 tonnes (lead/antimony). The Moody Owners Association archive and sailboat data sources agree closely; sailboatdata lists displacement near 21,500 kg and ballast near 8,600 kg, so figures vary a little between sources and keel options.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          },
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "performance.ratios",
+        "value": "Sail area/displacement ratio about 16.6, displacement/length ratio about 201, Ted Brewer comfort ratio about 35.3, and capsize screening formula 1.8. These place the boat squarely in moderate-displacement bluewater-cruiser territory: stiff and sea-kindly rather than sporty, with a capsize number comfortably under the 2.0 offshore threshold.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "construction.hull",
+        "value": "Hand-laid GRP with an isophthalic gelcoat for blister resistance, a balsa-cored sandwich laminate for panel stiffness, and the underwater sections from stem to keel further reinforced with an Aramid (Kevlar) laminate. The Moody Owners Association describes the result as 'stiff, immensely strong, yet light enough to maintain optimum performance across the full range of ocean cruising conditions.'",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "construction.builder",
+        "value": "Designed by British naval architect Bill Dixon and built by Marine Projects (Plymouth) Ltd — the Plymouth yard that became Princess Yachts — under the A.H. Moody & Son marque. Some sources credit A.H. Moody & Son Ltd directly; the practical point is that this is a British production yacht with a long, established building lineage.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          },
+          {
+            "title": "MOODY 54 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-54/"
+          }
+        ]
+      },
+      {
+        "key": "rig.configuration",
+        "value": "Keel-stepped masthead cutter on a Selden triple aft-swept-spreader silver-anodised spar. Standard sail handling is in-mast furling main, a self-tacking staysail, and a furling Yankee or genoa, so the whole sail plan sets, reefs and stows from the cockpit. Mast height (I) about 21.0 m and air draft about 22.75 m (74'6\").",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "keel_rudder.configuration",
+        "value": "Lead/antimony ballast keel offered as a fin keel with a vestigial bulb (2.28 m) or an optional shoal keel (1.80 m). Steering is via a partially-balanced spade rudder supported on a short skeg — more robust than a pure spade but less grounding-tolerant than a full skeg-hung rudder.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "engine.propulsion",
+        "value": "Yanmar 4JH2-UT(B)E, a 100 hp (73.6 kW) four-cylinder turbocharged diesel on a conventional shaft drive, with a 10 hp Sleipner Sidepower bow thruster as standard equipment. The Yanmar 4JH family is one of the most widely supported marine diesels in the world.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "tankage.fuel_water",
+        "value": "Fuel about 682 litres (180 US gal) and fresh water about 995 litres (263 US gal) per the Moody Owners Association specification — both generous for a 54-foot cruiser and a real asset for long passages and remote anchorages.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "accommodation.layout",
+        "value": "Three private cabins sleeping seven: a full-beam owner's stateroom aft with en-suite heads and a separate shower stall, a forward cabin with a centreline double, and a versatile mid cabin (twin berths or convertible to an office). A large C-shaped galley sits by the companionway, with a proper chart table and a richly finished teak saloon. Interior design by Roel de Groot.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          },
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "key": "cockpit.protection",
+        "value": "A deep, well-inboard centre cockpit behind a fixed 'runabout-style' wrap-around glass windscreen that genuinely shelters the watch from spray and wind, with a sprayhood and bimini to close it down further. A hydraulic fold-down transom turns the flat stern into a boarding/bathing platform. There is no inside steering position, so watches are stood in the open (if very sheltered) cockpit.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "handling.shorthanded",
+        "value": "Designed for two people to run easily: furling on every sail, a self-tacking staysail, electric primary winches, and a standard bow thruster mean little foredeck work and easy short-tacking and docking. The boat carries full sail well; the helm stays engaged when feathering the main, with only a hint of weather helm appearing once it is pressed past about 25 knots over the deck.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.behaviour",
+        "value": "No detailed published storm report was found for this specific model, but the design brief, a comfort ratio of 35.3, a capsize number of 1.8, a stiff Kevlar-reinforced hull, and the strong ballasting all point to a sea-kindly, capable ocean boat. At least one example ('Blue Pearl') completed an Atlantic crossing. Owners and reviewers treat it as a genuine bluewater cruiser; the only weather-handling note is the mild weather helm when over-pressed.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          },
+          {
+            "title": "Moody Sailboats — bluewater overview",
+            "url": "https://www.sailboat-cruising.com/Moody-sailboats.html"
+          }
+        ]
+      },
+      {
+        "key": "known_issues.moody_patterns",
+        "value": "The widely-discussed Moody check items are maintenance patterns, not design faults. Chainplate deck seals can dry out and let deck water into the bulkheads or core, causing rot if neglected. The chain locker can drain salt water into the bilge, which over years can corrode keel-bolt heads. Rudder-shaft seals can weep. Teak decks and the balsa core need diligent moisture management, and the in-mast furling main should be checked for free running.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel / keel-bolt threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          },
+          {
+            "title": "Moody quality opinions — YBW Forum",
+            "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+          }
+        ]
+      },
+      {
+        "key": "ownership.parts_community",
+        "value": "Parts are sourced from mainstream component makers rather than a factory: Yanmar diesels, Selden spars, Sleipner thrusters and Lewmar deck gear are all supported worldwide. The Moody Owners Association and the Moody Owners Information Exchange forum keep brochures, specifications and an active knowledge base alive. Factory support ended when the marque moved to Hanse, so it is a component-supported rather than builder-supported boat.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association",
+            "url": "https://www.moodyowners.org/"
+          },
+          {
+            "title": "Moody Owners Information Exchange (forum)",
+            "url": "https://www.moodyowners.info/"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Used Moody 54s trade roughly in the US$240,000-US$420,000 band, with most boats in Europe. Documented listings include a 2003 boat at US$309,970 (Ancasta, Barcelona) and US$325,751 (GT Yachtbrokers, Spain), with Boatshop24 showing a 2003-era range of about US$239,000-US$508,000 depending on condition, keel and equipment. Well inside a sub-$1M budget with margin for refit.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "YachtWorld — Moody 54 listings (Europe)",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-moody/model-54/region-europe/"
+          },
+          {
+            "title": "Boatshop24 — Moody 54 listings",
+            "url": "https://www.boatshop24.com/us/boats-for-sale/manufacturer-moody/model-54/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "A genuinely two-person 54-footer: furling everything, self-tacking staysail, electric winches and a standard bow thruster",
+        "Stiff, immensely strong hull with a Kevlar-reinforced underbody and isophthalic gelcoat for blister resistance",
+        "Deep, glass-screened centre cockpit gives near-pilothouse shelter without losing the open-cockpit sailing feel",
+        "Private full-beam aft owner's stateroom with en-suite and separate shower, plus a richly finished teak liveaboard interior",
+        "Generous tankage (682 L fuel / 995 L water) and abundant stowage for long passages",
+        "Proven ocean capability — an example completed an Atlantic crossing — at a fraction of an Oyster or Amel price"
+      ],
+      "complaints": [
+        "No inside steering, so cold high-latitude watches are stood in the open cockpit",
+        "Balsa-cored topsides and teak decks demand diligent sealing; deck-water ingress is the classic Moody worry",
+        "A hint of weather helm when pressed past about 25 knots over the deck",
+        "In-mast furling main trades a little upwind sail shape and adds a jam risk",
+        "Production-density fit-out — good engine access for the class, but not a walk-in workshop boat"
+      ],
+      "known_issues": [
+        "Chainplate deck seals drying out and admitting water to bulkheads/core",
+        "Chain-locker salt-water drainage corroding keel-bolt heads over time",
+        "Rudder-shaft seal weeping",
+        "Teak deck and balsa-core moisture management",
+        "In-mast furling main jamming if not maintained"
+      ],
+      "forums": [
+        {
+          "title": "Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/"
+        },
+        {
+          "title": "Moody 54 Maintenance Issues — Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/moody-54-maintenance-issues-282723.html"
+        },
+        {
+          "title": "Moody quality opinions — YBW Forum",
+          "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement of the Selden triple-spreader cutter rig (caps, lowers, intermediates, forestay, inner forestay, backstay) on a boat 22-26 years old. Standing rigging is commonly replaced at roughly 10-year intervals, with offshore advisories shorter, so every hull in the fleet is at or past interval.",
+        "cost_low_usd": 12000,
+        "cost_high_usd": 22000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "system": "Teak Deck Restoration or Replacement",
+        "action": "Sand, recaulk and spot-replace planks, or remove and replace with composite decking — a path several Moody owners have taken at reasonable cost. Teak decks are the single biggest variable in a Moody refit budget.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 30000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Reviews — Windcraft (teak/composite deck note)",
+            "url": "https://www.teamwindcraft.com/moody/moody-owners-reviews/"
+          }
+        ]
+      },
+      {
+        "system": "Chainplate Reseal and Bulkhead Repair",
+        "action": "Strip, inspect and rebed the chainplate deck seals with butyl, and repair any water-damaged bulkhead/core found beneath. A core Moody maintenance item; cost depends heavily on whether rot is present.",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 8000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody quality / chainplate threads — YBW Forum",
+            "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+          }
+        ]
+      },
+      {
+        "system": "Keel-Bolt Inspection / Rebed",
+        "action": "Address chain-locker salt-water drainage, inspect keel-bolt heads, and in the worst case drop the keel and remake the joint. Often the bolts are sound once cleaned; budget covers the inspection-to-rebed range.",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 10000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel-bolt threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          }
+        ]
+      },
+      {
+        "system": "Sails (full suit)",
+        "action": "Replace the in-mast furling main, furling Yankee/genoa and self-tacking staysail at the usual 8-12 year interval. A full cutter suit for a 54-footer.",
+        "cost_low_usd": 18000,
+        "cost_high_usd": 45000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "system": "Electronics and Autopilot",
+        "action": "Replace chartplotter, radar, AIS, VHF and the autopilot drive/head; most boats are on original or first-generation replacement gear. A reliable autopilot is the primary short-handed watch-keeper.",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 30000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "system": "House Batteries and Charging",
+        "action": "Replace the house bank (lead-acid to LiFePO4 path common) and refresh charging/solar for liveaboard autonomy on a systems-laden boat.",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 18000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker (add or refit)",
+        "action": "Fit or recommission a watermaker for ocean legs and remote anchorages. Generous water tankage reduces dependence but a watermaker is the norm for the intended cruising.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 15000,
+        "confidence": 0.6,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "system": "Engine Service / Overhaul",
+        "action": "At 22-26 years the Yanmar 4JH2 typically warrants a major service or partial overhaul (injectors, heat exchanger, mounts, hoses, raw-water system) rather than a repower. Parts availability is excellent.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 14000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "system": "Canvas, Sprayhood and Bimini",
+        "action": "Replace sun- and salt-degraded sprayhood and bimini canvas and frames at the 10-15 year interval; important given the windscreen-plus-canvas weather protection.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yanmar 4JH2 service kit (impeller, belts, fuel/oil filters, zincs, thermostat)",
+        "category": "Engine Spares",
+        "why": "The 100 hp Yanmar 4JH2 is the confirmed engine. Its parts ecosystem is global, but carrying a full service kit allows 250-500 hour intervals offshore without port dependency."
+      },
+      {
+        "item": "In-mast furling spares (luff feeder, furling line, mandrel bearing kit)",
+        "category": "Rigging Hardware",
+        "why": "The in-mast furling main is the primary mainsail handling system; a jam offshore is a real risk, so the parts that prevent or clear one belong aboard."
+      },
+      {
+        "item": "Chainplate butyl tape and bedding sealant",
+        "category": "Maintenance",
+        "why": "Chainplate deck-seal failure is the classic Moody water-ingress path. Rebedding consumables let you keep the bulkheads and core dry between yard visits."
+      },
+      {
+        "item": "Rudder-shaft seal and bearing spares",
+        "category": "Steering System",
+        "why": "Rudder-shaft seals on Moodys can weep with age; carrying the seal kit avoids a haul-out emergency on the partially-balanced spade rudder."
+      },
+      {
+        "item": "Sleipner bow-thruster spares (motor brushes, propeller, shear pin)",
+        "category": "Propulsion Auxiliary",
+        "why": "The 10 hp Sleipner thruster is standard and used for short-handed docking; brushes, propeller and shear pin are predictable wear items in salt water."
+      },
+      {
+        "item": "Autopilot drive-unit spare (Raymarine/B&G-compatible ram or motor)",
+        "category": "Safety / Redundancy",
+        "why": "On a two-person ocean boat the autopilot is the primary watch-keeper; a spare drive is standard offshore redundancy."
+      }
+    ],
+    "gaps": [
+      "Angle of Vanishing Stability (AVS) — not published for the Moody 54 in any located source",
+      "STIX stability index — not published",
+      "Formal CE category designation (A/B/C/D) — not located, though the boat is built and marketed to ocean-cruising standards",
+      "Exact ballast weight — sources differ (about 6.8 t per the owners' archive versus about 8.6 t on sailboatdata), partly reflecting keel options",
+      "Detailed published storm/heavy-weather report for this specific model — only the design ratios, an Atlantic-crossing example and the mild-weather-helm note were found",
+      "Standard heating specification — Webasto/Eberspächer hot-air heating is common on cruising-equipped boats but the standard fit is not documented",
+      "GZ righting-moment curve — not available in public sources",
+      "Detailed laminate schedule beyond 'hand-laid GRP, balsa-cored, Kevlar-reinforced underbody'"
+    ]
+  },
+  "verify": {
+    "id": "moody-54-bluewater-research",
+    "cleaned_facts": [
+      {
+        "key": "identity.model_disambiguation",
+        "value": "Confirmed: the Bill Dixon centre-cockpit Moody 54 (built circa 1999/2000-2004, around 44-55 hulls depending on source) is distinct from the later Hanse-built Moody Decksaloon 54 (2012-present). Sailboatdata and the Moody Owners Association both support the distinction; hull-count figures vary by source (sailboatdata 'about 44', owners' archive 55).",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "MOODY 54 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-54/"
+          },
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "dimensions.principal",
+        "value": "Confirmed with source variance. Owners' archive: LOA 16.72 m, LWL 14.02 m, beam 4.85 m, fin draft 2.28 m, displacement 20.06 t, ballast 6.8 t. Sailboat-cruising/sailboatdata: LOA 16.54 m, LWL 14.40 m, draft 2.37 m, displacement 21,500 kg, ballast 8,600 kg. Differences are within normal source/keel-option spread; the record uses the owners'-archive figures as primary and flags the spread.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          },
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "performance.ratios",
+        "value": "Confirmed: SA/D about 16.6, D/L about 201, comfort ratio about 35.3, capsize screening formula 1.8. Consistent across the sailboat-cruising KPI page.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          }
+        ]
+      },
+      {
+        "key": "construction.hull",
+        "value": "Confirmed verbatim from the Moody Owners Association specification: hand-laid glassfibre with isophthalic gelcoat, balsa-cored sandwich construction for panel stiffness, and an Aramid (Kevlar) laminate stiffening the underwater sections from stem to keel.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          }
+        ]
+      },
+      {
+        "key": "rig.configuration",
+        "value": "Confirmed: keel-stepped masthead cutter, Selden triple aft-swept-spreader spar, in-mast furling main, self-tacking staysail, furling headsail. The owners' specification and the Yacht and Boat review agree.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "engine.propulsion",
+        "value": "Confirmed: Yanmar 4JH2-UT(B)E 100 hp turbocharged diesel and a 10 hp Sleipner Sidepower bow thruster as standard, per the owners' specification; the Yacht and Boat review independently cites a 100 hp four-cylinder turbo Yanmar and a 10 hp bow thruster.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 specification",
+            "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+          },
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "tankage.fuel_water",
+        "value": "Fuel about 682 L and water about 995 L are cited via the Moody Owners Association archive. The figures are consistent with the boat's size and intended cruising; treated as reliable but single-sourced.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 54 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.behaviour",
+        "value": "No model-specific published storm narrative could be found. What is supported: the moderate-displacement design ratios (CSF 1.8, comfort 35.3), the stiff Kevlar-reinforced hull, an Atlantic-crossing example ('Blue Pearl'), and the reviewer note of mild weather helm above about 25 knots. The boat's bluewater character is well supported; a detailed survival-conditions account is not available.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Sailboat-Cruising — Moody 54 specs & KPIs",
+            "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+          },
+          {
+            "title": "Yacht and Boat — Moody 54 review",
+            "url": "https://www.yachtandboat.com.au/moody-54-review/"
+          }
+        ]
+      },
+      {
+        "key": "known_issues.moody_patterns",
+        "value": "The chainplate-seal, keel-bolt (chain-locker drainage) and rudder-shaft-seal items are confirmed as recurring Moody-marque maintenance themes in owner forums, applied here as model-relevant rather than model-specific. They are maintenance patterns, not documented design defects, and a dedicated 'Moody 54 maintenance issues' thread exists.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          },
+          {
+            "title": "Moody 54 Maintenance Issues — Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f47/moody-54-maintenance-issues-282723.html"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Confirmed in the US$240k-US$420k working band: a 2003 boat at US$309,970 (Ancasta) and US$325,751 (GT Yachtbrokers) are documented, with a broader 2003-era spread of about US$239k-US$508k on Boatshop24. Most inventory is in Europe.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "YachtWorld — Moody 54 listings (Europe)",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-moody/model-54/region-europe/"
+          },
+          {
+            "title": "Boatshop24 — Moody 54 listings",
+            "url": "https://www.boatshop24.com/us/boats-for-sale/manufacturer-moody/model-54/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "construction.builder.single_attribution",
+        "reason": "Sources disagree on whether the builder is best named as A.H. Moody & Son Ltd or Marine Projects (Plymouth) Ltd. Rather than assert one, the record states both and the lineage to Princess Yachts; no single-source claim is published as definitive."
+      },
+      {
+        "key": "tankage.exact_values_multi_source",
+        "reason": "Fuel 682 L / water 995 L are supported only through the Moody Owners Association archive in the located sources. They are retained as the best available figures but flagged single-sourced rather than presented as cross-verified."
+      }
+    ],
+    "fabrication_flags": [
+      "Hull count varies by source (sailboatdata 'about 44', owners' archive '55'); the record gives a range rather than a single fabricated number.",
+      "Displacement and ballast differ between sources (20.06 t / 6.8 t versus 21,500 kg / 8,600 kg); presented as a range, not a false-precision single value.",
+      "No AVS, STIX or CE category is published for this model; none has been invented — the stability_score is left unscored with confidence 0."
+    ],
+    "verified_confidence": 0.78,
+    "verdict": "The Bill Dixon centre-cockpit Moody 54 (Marine Projects / A.H. Moody, circa 1999/2000-2004) is a real, well-documented British bluewater cruiser, clearly distinct from the later Hanse Moody Decksaloon 54. Core facts — hand-laid balsa-cored GRP with a Kevlar-reinforced underbody and isophthalic gelcoat, a Selden triple-spreader masthead cutter with in-mast furling and a self-tacking staysail, a partially-balanced spade rudder on a short skeg, the 100 hp Yanmar 4JH2 with a 10 hp Sleipner thruster, generous tankage, and a three-cabin layout with a full-beam aft owner's suite — are confirmed by the Moody Owners Association specification and corroborated by an independent review. Performance ratios (CSF 1.8, comfort 35.3, SA/D 16.6, D/L 201) and used pricing (about US$240k-US$420k) are well supported. The main uncertainties are normal source spread on displacement/ballast and hull count, and the absence of any published AVS/STIX/CE figure or a detailed model-specific storm report. No safety numbers were invented. Overall confidence about 0.78."
+  },
+  "scores": {
+    "id": "moody-54-bluewater-research",
+    "cold_score": {
+      "value": 58,
+      "confidence": 0.6,
+      "rationale": "The Moody 54 is a capable but not cold-specialised cruiser. In its favour: a stiff, immensely strong Kevlar-reinforced hull, strong ballasting, and a deep centre cockpit behind a fixed wrap-around glass windscreen that shelters the watch far better than an open transom-cockpit boat. Hot-air (Webasto/Eberspächer) heating is common on cruising-equipped examples. Working against a high cold score: there is no inside steering position, so watches in a cold climate are still stood in the open (if very sheltered) cockpit, and the balsa-cored topsides plus teak decks demand careful moisture management in wet, cold conditions and offer no special insulation. This is a temperate-to-trade-wind boat that can handle a cool high-latitude season with good heating rather than a dedicated expedition platform.",
+      "basis": "glass-screened sheltered cockpit (strong) + common hot-air heating (moderate) + stiff Kevlar-reinforced hull (strong) − no inside helm − balsa core / teak deck moisture exposure − no dedicated insulation"
+    },
+    "tropic_score": {
+      "value": 78,
+      "confidence": 0.65,
+      "rationale": "Strong tropical credentials. Opening hatches and ports plus the large cockpit give good cross-ventilation; the bimini and wrap-around windscreen shade the crew well; water tankage is large (about 995 L) and a watermaker is easily fitted, which together suit hot-climate living. The hydraulic fold-down transom platform and the protected centre cockpit make anchorage and swimming life easy, and most cruising-equipped boats carry refrigeration and air conditioning. The only mild caveat is that, like most production cruisers of its era, comprehensive forced-air tropical ventilation is not a standard suite — it relies on natural airflow plus optional A/C.",
+      "basis": "good natural ventilation + effective cockpit shade + large water tankage and easy watermaker + bathing platform and protected cockpit + common refrigeration/AC − no standard forced-vent suite"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "No Angle of Vanishing Stability, STIX index, or formal CE category figure is published for the Moody 54 in any source located. The capsize screening formula of 1.8 (comfortably under the 2.0 offshore threshold), the comfort ratio of 35.3, the roughly one-third ballast ratio, and the stiff Kevlar-reinforced hull are all positive seaworthiness indicators, but they are proxies, not a measured stability figure. No stability number has been invented.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "There is no detailed, published heavy-weather report for this specific Moody 54 model in the sources located, so its behaviour in survival conditions cannot be characterised with confidence. What can be said is well supported: the boat was designed and built as an ocean cruiser, with moderate-displacement ratios (capsize number 1.8, comfort ratio 35.3), a stiff hull stiffened from stem to keel with a Kevlar laminate, and roughly one-third ballast. The rig is a sensible heavy-weather configuration — a masthead cutter with a self-tacking staysail and a furling Yankee gives a deep-reefed, low-centre-of-effort option in a blow. At least one example completed an Atlantic crossing. The only specific handling note from a sail review is a hint of weather helm when the boat is pressed past about 25 knots over the deck, which is managed by reefing the main early. In short: a credible, sea-kindly bluewater design with the right rig and structure for offshore work, but without an independent storm account to quantify its behaviour at the extreme.",
+      "confidence": 0.55,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 71500,
+      "total_high_usd": 196000,
+      "assumptions": "Baseline hull modelled as a mid-fleet circa-2002 boat, roughly 24 years old as of 2026, so all age-triggered intervals apply across the fleet (production ran to 2004). Ranges are our estimates built from the boat's documented systems (Selden cutter rig, in-mast furling, teak decks over a balsa-cored hull, 100 hp Yanmar 4JH2, Sleipner thruster) combined with general cruising-yacht service intervals and the recurring Moody-marque check items. The teak deck and any chainplate/keel-bolt water-ingress findings are the biggest swing factors — a sound boat lands near the low end, a tired one with wet core and a teak-to-composite conversion near the high end. Engine is modelled as a major service or partial overhaul rather than a repower. Actual cost depends on survey findings, location and labour rates.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 12000,
+          "high": 22000,
+          "note": "Selden triple-spreader cutter rig at or past the ~10-year interval on every fleet boat; cutter adds inner-forestay terminals."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "Halyards, sheets and furling lines led aft; replacement due at the service interval."
+        },
+        {
+          "system": "Sails (full cutter suit)",
+          "low": 18000,
+          "high": 45000,
+          "note": "In-mast main, furling Yankee/genoa and self-tacking staysail at the 8-12 year interval."
+        },
+        {
+          "system": "Engine major service / partial overhaul (Yanmar 4JH2)",
+          "low": 4000,
+          "high": 14000,
+          "note": "At ~24 years a major service rather than repower; excellent Yanmar parts availability."
+        },
+        {
+          "system": "Electronics and Autopilot",
+          "low": 10000,
+          "high": 30000,
+          "note": "Chartplotter, radar, AIS, VHF and autopilot drive/head; most boats on original or first-gen replacement gear."
+        },
+        {
+          "system": "House Batteries, Charging and Solar",
+          "low": 5000,
+          "high": 18000,
+          "note": "House-bank renewal (LiFePO4 path common) plus charging/solar for liveaboard autonomy."
+        },
+        {
+          "system": "Teak Deck Restoration or Composite Conversion",
+          "low": 8000,
+          "high": 30000,
+          "note": "Largest single swing item; recaulk/spot-replace at the low end, full composite conversion at the high end."
+        },
+        {
+          "system": "Chainplate Reseal and Bulkhead/Core Repair",
+          "low": 1500,
+          "high": 8000,
+          "note": "Core Moody water-ingress path; cost depends on whether rot is found beneath."
+        },
+        {
+          "system": "Keel-Bolt Inspection / Rebed",
+          "low": 1000,
+          "high": 10000,
+          "note": "Address chain-locker drainage; inspection-to-keel-drop range."
+        },
+        {
+          "system": "Canvas (Sprayhood and Bimini)",
+          "low": 4000,
+          "high": 12000,
+          "note": "Sun/salt-degraded canvas and frames at the 10-15 year interval; central to this boat's weather protection."
+        },
+        {
+          "system": "Watermaker (add or recommission)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Norm for the intended ocean and remote-anchorage cruising."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Yanmar 4JH2 full service kit (impeller, belts, fuel/oil filters, zincs, thermostat)",
+        "category": "Maintenance",
+        "why": "The 100 hp Yanmar 4JH2 is confirmed; its parts are globally supported, but a full kit aboard enables offshore service intervals without port dependency."
+      },
+      {
+        "item": "In-mast furling spares (luff feeder, furling line, mandrel bearing kit)",
+        "category": "Safety / Heavy Weather",
+        "why": "The in-mast furling main is the primary mainsail-handling system and a jam offshore is a genuine risk; the parts to clear or prevent one belong aboard."
+      },
+      {
+        "item": "Chainplate butyl tape and rebedding sealant",
+        "category": "Maintenance",
+        "why": "Chainplate deck-seal failure is the classic Moody water-ingress path into the bulkheads and core; rebedding consumables keep the structure dry between yard visits."
+      },
+      {
+        "item": "Rudder-shaft seal and bearing kit",
+        "category": "Safety",
+        "why": "Moody rudder-shaft seals can weep with age; carrying the seal kit avoids a haul-out emergency on the partially-balanced spade rudder."
+      },
+      {
+        "item": "Autopilot drive-unit spare",
+        "category": "Safety / Redundancy",
+        "why": "On a two-person ocean boat the autopilot is the primary watch-keeper; a spare drive unit is standard offshore redundancy."
+      }
+    ]
+  }
+}

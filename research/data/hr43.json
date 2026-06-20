@@ -997,20 +997,20 @@
     "cold_score": {
       "value": 60,
       "confidence": 0.25,
-      "rationale": "Only 2 of 7 rubric inputs are verified from cited sources. Insulation is confirmed — Divinycell PVC foam sandwich above waterline provides passive thermal insulation (confidence 0.82), earning full 15 pts. Keel-stepped mast is confirmed absent (deck-stepped with saloon compression post, confidence 0.92), earning 0/10. The five remaining inputs — heating system, inside/sheltered helm, watertight bulkheads, hard cockpit shelter, and cold tankage — were all removed as unverified fabrications. Rubric weight covered by verified inputs: 25/100. Normalised: 15/25 × 100 = 60. Coverage is critically low; this score would move substantially if a verified heating system (25 pts) or inside helm (20 pts) were confirmed.",
-      "basis": "insulation=15pts confirmed (foam sandwich, sailboat-cruising.com); keel-stepped mast=0pts (confirmed absent, same source); all other inputs removed as unverified; normalised 15/25 available pts"
+      "rationale": "The one clear cold-weather positive is construction: a Divinycell foam sandwich above the waterline gives useful passive insulation against cold. Working against the score, the mast is deck-stepped rather than keel-stepped, which is less favoured for high-latitude work. Beyond those two points the cold-weather picture is thin — claims about a diesel cabin heater, an inside steering position, watertight bulkheads, a hard cockpit shelter and cold-water tankage all failed verification and were dropped. Low confidence as a result: a confirmed heater or inside helm would move this score substantially.",
+      "basis": "Foam-sandwich insulation confirmed; mast is deck-stepped; other cold-weather features could not be verified."
     },
     "tropic_score": {
       "value": 49,
       "confidence": 0.7,
-      "rationale": "Four of six rubric inputs are assessed from verified sources. Ventilation (20 pts): flush-glued superstructure windows cannot open — only hatches and flat deck vents provide below-decks ventilation, a confirmed design limitation (confidence 0.80); awarded 8/20 reflecting significant penalty. Refrigeration (15 pts): top-loading fridge and front-opening freezer with water-cooled compressor confirmed (confidence 0.65); awarded 10/15 applying confidence discount. Watermaker (15 pts): confirmed as owner-installed option only, not factory standard (confidence 0.82); awarded 6/15 as optional-only gets half credit. SA/D ratio (20 pts): confirmed at 17.4 (confidence 0.88); 17.4 is in the moderate range for a 43ft bluewater cruiser — adequate but not strong light-air performance; awarded 10/20. Shade and airflow inputs removed as unverified. Available weight covered: 70/100. Raw earned: 34/70 × 100 = 49.",
-      "basis": "ventilation partial (fixed windows, yacht.de/hallberg-rassy-43-mk-iii); refrigeration confirmed (cruisingworld.com/hallberg-rassy-43-mk-iii); watermaker optional (swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm); SA/D 17.4 (sailboat-cruising.com); shade and airflow removed as fabricated"
+      "rationale": "The big tropical compromise is ventilation: the flush-glued superstructure windows can't open, so below-decks airflow relies on hatches and deck vents alone — a deliberate trade-off for weather protection that costs comfort in the heat. On the plus side, refrigeration (a top-loading fridge and front-opening freezer) is confirmed. A watermaker is available only as an owner-installed extra, not factory equipment, so it counts for less. Light-air sailing performance is moderate — fine for a 43-foot cruiser but not a light-wind flyer. Two more warm-weather items, window shading and below-decks airflow detail, couldn't be verified, leaving a middling tropical score.",
+      "basis": "Fixed windows limit ventilation; fridge-freezer confirmed; watermaker is an owner-fit option; moderate light-air performance."
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "Neither AVS nor CE Design Category is published in any verified source. The gaps list explicitly confirms both are absent: 'stability.avs — specific numerical value not published in accessible sources' and 'stability.ce_category — not explicitly stated in sources.' The rubric requires one of these two inputs to assign a non-zero score. CSF of 1.8 and ballast/displacement ratio of 35.4% are confirmed but are not rubric inputs. Neither published AVS nor CE category = value 0, confidence 0 per rubric.",
-      "basis": "not published — AVS and CE category both absent from all verified sources (gaps confirmed in research context)"
+      "rationale": "We score stability only on a published angle of vanishing stability or an official CE design category, and neither could be found for this boat. The capsize-screening number (1.8) and the 35.4% ballast ratio both point to a sound, moderately heavy offshore design, but those are general indicators rather than the published safety figures we require — so the stability score is left blank rather than estimated from proxies.",
+      "basis": "No published angle of vanishing stability or CE design category could be found."
     },
     "storm_verdict": {
       "text": "Insufficient sourced data. The one applicable report (Cruising World Swedish review) notes the HR 43 is 'designed for directional stability with fin keel and skeg-hung rudder' and achieved 7–8 knots in testing, but contains no heavy-weather trial, knockdown account, or storm sea-state assessment. No published AV report, ocean survival test, or documented offshore storm encounter was found in any verified source. The CSF of 1.8 sits within the conventionally accepted offshore threshold, and the comfort ratio of 33.9 suggests a moderately heavy-displacement ride. These proxies are promising but are not storm performance data.",
@@ -1020,7 +1020,7 @@
     "refit_projection": {
       "total_low_usd": 64500,
       "total_high_usd": 193000,
-      "assumptions": "Age basis: HR 43 Mk III built 2001–2016; median purchase assumed approximately 2008 build year, giving ~17 years of age in 2025. All intervals applied against rubric standard service lives. Engine repower is conditional (low end = $0 if hours are modest; high end = $35k if hours exceed 3,000 or saildrive seals are due — saildrive configuration adds cost over shaft drive). Watermaker budgeted assuming absent since it is confirmed optional-only, not factory standard. Teak deck excluded from rubric line items but noted as a known major wildcard (practical-sailor.com flags replacement as 'astronomical'). Heating system service excluded because the specific system is unverified. All ranges are our estimates; actual costs depend on survey findings, geographic market, and existing upgrade history.",
+      "assumptions": "Age basis: the HR 43 Mk III was built 2001–2016; we assume a roughly 2008 boat, about 17 years old. Standard marine service-life intervals were applied for each system. Engine repower is treated as conditional (nothing at the low end if hours are modest; up to $35k at the high end if hours are high or the saildrive seals are due — the saildrive adds cost over a conventional shaft drive). A watermaker is budgeted as absent, since it is an owner-fit option rather than factory standard. The teak deck is not broken out as a line item but is flagged as a major wildcard — practical-sailor.com describes replacement cost as 'astronomical.' Heater servicing is left out because the specific system couldn't be confirmed. All ranges are our estimates; actual costs depend on survey findings, local market and any upgrades already done.",
       "by_item": [
         {
           "system": "Standing Rigging",
@@ -1086,7 +1086,7 @@
           "system": "Watermaker",
           "low": 6000,
           "high": 12000,
-          "note": "Confirmed as optional — not factory standard. Budget assumes absent and required for ocean passage. Owner example (Spectra Ventura 200C, 200 gal/day, 12V DC) cited from swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm. Range per rubric $6k–$15k; upper end trimmed to $12k for 12V DC system in 43ft installation."
+          "note": "An owner-fit option, not factory standard. Budget assumes none is fitted and one is needed for ocean passages. Owner example (Spectra Ventura 200C, 200 gal/day, 12V DC) cited from swiftsureyachts.com/hallberg-rassy-43-ocean-rhythm. The $6k–$12k range reflects a 12V DC system in a 43ft installation."
         }
       ]
     },

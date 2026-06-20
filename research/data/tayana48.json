@@ -675,7 +675,7 @@
     "cleaned_facts": [
       {
         "key": "stability.csf",
-        "value": "Capsize Screening Formula (CSF) = 1.77–1.8 (below 2.0 safety threshold; inherent resistance to capsize). Note: original record mislabeled this key as 'stability.avs' — no AVS (Angle of Vanishing Stability) data was found in any source.",
+        "value": "Capsize Screening Formula (CSF) = 1.77–1.8 (below 2.0 safety threshold; inherent resistance to capsize). No AVS (Angle of Vanishing Stability) data was found in any available source.",
         "confidence": 0.87,
         "sources": [
           {
@@ -720,7 +720,7 @@
       },
       {
         "key": "cold.heating",
-        "value": "Espar D10W hydronic diesel cabin heater serving all cabins/saloon (confirmed on 2001 Rapport build); Isotemp Basic 40L (~10.6 gal) hot water tank. Note: 'Wabasto 2010' detail from original record is unverified — the Rapport listing shows Espar only; the marine surveyors source references Marine Air Systems and a Raritan water heater on a different hull.",
+        "value": "Espar D10W hydronic diesel cabin heater serving all cabins/saloon (confirmed on 2001 Rapport build); Isotemp Basic 40L (~10.6 gal) hot water tank. A 'Webasto 2010' heater noted elsewhere is unverified — the Rapport listing shows Espar only, and a marine-surveyor source references Marine Air Systems and a Raritan water heater on a different hull.",
         "confidence": 0.72,
         "sources": [
           {
@@ -753,7 +753,7 @@
       },
       {
         "key": "tropical.refrigeration",
-        "value": "Twin box refrigeration: 5 cu ft front/top-opening fridge and 4 cu ft front/top-opening freezer, custom stainless-steel lined with automatic lighting (confirmed on Rapport build). Sea Frost and Adler alternatives mentioned in original record but not confirmed from fetched sources.",
+        "value": "Twin box refrigeration: 5 cu ft front/top-opening fridge and 4 cu ft front/top-opening freezer, custom stainless-steel lined with automatic lighting (confirmed on Rapport build). Sea Frost and Adler alternatives previously mentioned but unverified but not confirmed in available sources.",
         "confidence": 0.78,
         "sources": [
           {
@@ -790,7 +790,7 @@
       },
       {
         "key": "ergonomics.transom",
-        "value": "Reverse transom stern with teak steps; transom ladder documented. ISO 15085:2003 compliance and specific '600mm below waterline' step height were NOT confirmed in any fetched source — those figures are removed.",
+        "value": "Reverse transom stern with teak steps; transom ladder documented. ISO 15085:2003 compliance and specific '600mm below waterline' step height were NOT confirmed in any available source — those figures are removed.",
         "confidence": 0.72,
         "sources": [
           {
@@ -812,7 +812,7 @@
       },
       {
         "key": "ergonomics.side_decks",
-        "value": "Double stainless steel wire lifelines; teak grab rails; stainless steel bow and stern rails; wide side decks confirmed. 'Double anchor guides' detail not confirmed from fetched sources.",
+        "value": "Double stainless steel wire lifelines; teak grab rails; stainless steel bow and stern rails; wide side decks confirmed. 'Double anchor guides' detail not confirmed in available sources.",
         "confidence": 0.72,
         "sources": [
           {
@@ -823,7 +823,7 @@
       },
       {
         "key": "heavy_weather.cutter_staysail",
-        "value": "Standard cutter rig with Leisurefurl in-boom main; total working sail area 1,048 sq ft (this is the full working canvas, not 'reefed mainsail + staysail' as the original record stated — that parenthetical was a mischaracterization). Staysail allows heavy-weather sailing while large genoa is furled.",
+        "value": "Standard cutter rig with Leisurefurl in-boom main; total working sail area 1,048 sq ft (this is the full working canvas, not 'reefed mainsail + staysail' as an earlier unverified note stated — that parenthetical was a mischaracterization). Staysail allows heavy-weather sailing while large genoa is furled.",
         "confidence": 0.83,
         "sources": [
           {
@@ -864,7 +864,7 @@
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Mast options available: 70-foot performance rig or ICW-friendly shoal-draft mast (confirmed). Keel-stepped vs. deck-stepped configuration not confirmed in any fetched source — that distinction remains unverified.",
+        "value": "Mast options available: 70-foot performance rig or ICW-friendly shoal-draft mast (confirmed). Keel-stepped vs. deck-stepped configuration not confirmed in any available source — that distinction remains unverified.",
         "confidence": 0.45,
         "sources": [
           {
@@ -944,20 +944,20 @@
     "cold_score": {
       "value": 100,
       "confidence": 0.25,
-      "rationale": "Only one of seven rubric inputs is sourced: heating (25 pts) — Espar D10W hydronic diesel cabin heater confirmed at 0.72 confidence on the 2001 Rapport hull. Re-normalised over known weight (25/25 = 100). All other inputs removed or unverified: insulation (no thermal specs found), inside/sheltered helm (paywalled source, removed), keel-stepped mast (not confirmed, confidence 0.45), watertight bulkheads (removed — surveyor cited plywood bulkheads only), hard cockpit shelter (removed with inside_helm), cold tankage (no data). Confidence = 0.25 reflecting 25/100 rubric-point coverage. The score of 100 is mechanically correct per re-normalisation but carries almost no predictive weight given the 75% data gap.",
-      "basis": "Espar D10W hydronic diesel cabin heater serving all cabins/saloon confirmed on 2001 Rapport build (swiftsureyachts.com). Six of seven rubric inputs unverifiable."
+      "rationale": "The one cold-weather feature we could confirm is a strong one: an Espar hydronic diesel cabin heater ducted throughout the boat, documented on a 2001 example. That alone reads well, but it is almost the only data point we have — insulation, an inside steering position, the mast-step type, watertight bulkheads, a hard cockpit shelter and cold-water tankage could none be verified, and the surveyor noted only plywood bulkheads. So while the headline score looks high, confidence is low: it rests on a single confirmed feature with most of the cold-weather picture unknown. Treat it as 'good heater, everything else unverified' rather than a thoroughly cold-ready boat.",
+      "basis": "Ducted diesel cabin heating confirmed on one example; the rest of the cold-weather picture is unverified."
     },
     "tropic_score": {
       "value": 89,
       "confidence": 0.7,
-      "rationale": "Four of six rubric inputs sourced (70/100 pts coverage). Ventilation/hatches (20/20): 15 stainless opening ports, 5 Lewmar deck hatches, 5 dorade vents, Hella fans throughout — fully confirmed at 0.87 confidence. Refrigeration (15/15): twin box 5 cu ft fridge + 4 cu ft freezer, custom SS-lined with auto lighting — confirmed at 0.78. Airflow (15/15): same port/hatch/dorade system plus Leisurefurl in-boom main and open deck plan — confirmed at 0.87. Light-air SA/D (12/20): working SA 1,048 sq ft, displacement 34,000 lb yields SA/D ≈ 16.0 — moderate bluewater performance, not high-aspect light-air optimised, partial credit. Shade (15): removed — sole source paywalled. Watermaker (15): removed — sole source was dead placeholder page. Re-normalised: 62/70 = 88.6, rounded to 89.",
-      "basis": "Ventilation/airflow from swiftsureyachts.com Rapport listing (conf 0.87). Refrigeration from same (conf 0.78). SA/D computed from verified specs: SA 1,048 sq ft (sailboat-cruising.com, conf 0.83), displacement 34,000 lb (yachtdatabase.com/sailboat-cruising.com, conf 0.84)."
+      "rationale": "This boat is genuinely well set up for the tropics. Ventilation is excellent — fifteen opening ports, five deck hatches, five dorade vents and cabin fans throughout — and below-decks airflow is helped further by the open deck plan. Twin custom-lined fridge and freezer boxes handle cold storage. Sailing performance in light air is moderate: respectable for a heavy cruiser but not a light-wind sprinter. The two items we couldn't confirm are window shading and a watermaker, which keeps confidence moderate, but the confirmed ventilation and refrigeration carry the score solidly.",
+      "basis": "Excellent ventilation, airflow and twin fridge-freezer confirmed; moderate light-air performance; shade and watermaker unverified."
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "No AVS (Angle of Vanishing Stability) data found in any source. The key originally labelled stability.avs was a mislabelled CSF (Capsize Screening Formula = 1.77-1.8) — a different metric not covered by the rubric. CE Category A claim was removed because sailboatdata.com returned HTTP 403 and the designation could not be verified. With neither AVS nor CE category confirmed, the rubric mandates value 0, basis 'not published', confidence 0. The CSF of 1.77-1.8 (below the 2.0 safety threshold) and MCR of 35.8-36.1 are positive structural indicators but are not the metrics the rubric scores.",
-      "basis": "not published"
+      "rationale": "We score stability only on a published angle of vanishing stability or an official CE design category, and neither could be confirmed for this boat. A capsize-screening figure exists (1.77-1.8, comfortably below the 2.0 caution line) and the motion-comfort numbers are good, both pointing to a stable, comfortable design — but those are general indicators, not the published safety figures we require, so the stability score is left blank rather than estimated. A CE Category A claim turned up but its only source was unreachable, so we did not rely on it.",
+      "basis": "No published angle of vanishing stability or CE design category could be confirmed."
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -972,7 +972,7 @@
           "system": "Standing rigging",
           "low": 8000,
           "high": 15000,
-          "note": "At 16-26 years (2000-2010 build range), replacement is overdue per 15-20yr interval. Fetched source (improvesailing.com) confirmed $5k-10k for 30-50 ft vessels; 48-footer at upper bracket. Survey-confirmed chainplate/shroud fiberglass separation elevates urgency. Rod or Dyneema replacement at high end."
+          "note": "At 16-26 years (2000-2010 build range), replacement is overdue per 15-20yr interval. Available data confirmed $5k-10k for 30-50 ft vessels; 48-footer at upper bracket. Survey-confirmed chainplate/shroud fiberglass separation elevates urgency. Rod or Dyneema replacement at high end."
         },
         {
           "system": "Chainplates",
@@ -1044,10 +1044,10 @@
           "system": "Engine service (Yanmar 4JH3-TE 75HP)",
           "low": 1500,
           "high": 4000,
-          "note": "Engine repower not assumed at 20yr age unless hours are high (not confirmed). Full service: impeller, heat exchanger inspection, exhaust elbow (saltwater corrosion is confirmed failure mode on 4JH3), fuel system, zincs. Repower (if needed) would add $25k-45k and is excluded from totals as conditional — flag for survey."
+          "note": "Engine repower not assumed at 20yr age unless hours are high (not confirmed). Full service: impeller, heat exchanger inspection, exhaust elbow (saltwater corrosion is confirmed failure mode on 4JH3), fuel system, zincs. Repower (if needed) would add $25k-45k and is left out of the totals as conditional — flag for survey."
         }
       ],
-      "assumptions": "Age basis: typical used Tayana 48 DS on market in 2026 is a 2000-2010 build, approximately 16-26 years old; mid-estimate 20 years used for interval logic. All systems assumed at or past their service interval unless confirmed recent service in a specific listing's equipment notes. Watermaker budgeted as absent because confirmed presence was removed from verified facts. Engine repower ($25k-45k additional) excluded from totals — treat as conditional on engine hours and compression test at survey. CE Category A and AVS unverified, so no structural confidence premium applied. Standing rigging cost range uses improvesailing.com verified figure ($5k-10k for 30-50ft) adjusted upward to $8k-15k for a 48ft vessel at the large end of that bracket, overriding the original refit_items figure ($12k-22k) which was directly contradicted by the fetched source. All figures are our estimates; a pre-purchase survey and haul-out are required before committing to any range."
+      "assumptions": "Age basis: a typical used Tayana 48 DS on the market in 2026 is a 2000-2010 build, roughly 16-26 years old; we use a mid-point of about 20 years when judging service intervals. Every system is assumed to be at or past its service life unless a specific listing documents recent work. A watermaker is budgeted as absent, since its presence couldn't be confirmed. An engine repower ($25k-45k on top) is left out of the totals — treat it as conditional on engine hours and a compression test at survey. With no published stability figures confirmed, no allowance was made for them either way. The standing-rigging range follows the verified improvesailing.com figure ($5k-10k for 30-50ft boats), nudged up to $8k-15k for a 48-footer at the top of that bracket; we set aside an earlier $12k-22k estimate because the source contradicted it. All figures are our estimates; a pre-purchase survey and haul-out are required before committing to any range."
     },
     "provisioning_specific": [
       {
@@ -1078,7 +1078,7 @@
       {
         "item": "Tayana Owners Group (TOG) technical archive membership and contact list",
         "category": "Documentation/Support",
-        "why": "TOG confirmed active with 2,000+ members (tognews.com). Ta Yang factory closed September 2020 — TOG is now the primary technical resource for non-standard parts, Taiwan-specific construction details, and locating AEGIS Marine/MMI for replacement hardware. Essential before any major refit decision."
+        "why": "TOG confirmed active with 2,000+ members. Ta Yang factory closed September 2020 — TOG is now the primary technical resource for non-standard parts, Taiwan-specific construction details, and locating AEGIS Marine/MMI for replacement hardware. Essential before any major refit decision."
       },
       {
         "item": "Spare Lifeline AGM cells or LiFePO4 BMS documentation",

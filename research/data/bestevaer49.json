@@ -693,7 +693,7 @@
       },
       {
         "key": "cold.watertight_compartments",
-        "value": "3 watertight compartments (confirmed on bestevaer.com); stated as 2 watertight bulkheads creating 3 compartments on nauticexpo but that source returned 403",
+        "value": "3 watertight compartments (confirmed on bestevaer.com); stated as 2 watertight bulkheads creating 3 compartments on nauticexpo but that source could not be accessed",
         "confidence": 0.72,
         "sources": [
           {
@@ -871,7 +871,7 @@
       },
       {
         "key": "specs.draft",
-        "value": "2.10–2.30 m (conflicting sources: sailboatdata.com states 2.10m but returned 403; bestevaer.com shows 2.30m); accept 2.30m as primary from manufacturer",
+        "value": "2.10–2.30 m (conflicting sources: sailboatdata.com states 2.10m but could not be accessed; bestevaer.com shows 2.30m); accept 2.30m as primary from manufacturer",
         "confidence": 0.72,
         "sources": [
           {
@@ -883,7 +883,7 @@
       },
       {
         "key": "specs.displacement",
-        "value": "Approximately 17,000–18,000 kg (conflicting: sailboatdata returned 403; bestevaer.com states 18T)",
+        "value": "Approximately 17,000–18,000 kg (conflicting: sailboatdata could not be accessed; bestevaer.com states 18T)",
         "confidence": 0.72,
         "sources": [
           {
@@ -1082,20 +1082,20 @@
     "cold_score": {
       "value": 65,
       "confidence": 0.65,
-      "rationale": "Four of seven rubric inputs are confirmed from verified sources: heating present (Refo Scandia 8kW diesel, conf 0.88, weight 25), inside/sheltered helm (pilothouse, conf 0.85, weight 20), watertight bulkhead (3 compartments confirmed, conf 0.72, weight 10), hard cockpit shelter (pilothouse shelters cockpit, conf 0.85, weight 10). Three inputs are unverifiable: insulation (nauticexpo 403, removed), keel-stepped mast (fabricated specifics removed, keel vs deck-stepped unconfirmed), cold tankage (no verified source). All four known inputs score fully. Re-normalised over total rubric: 65/100 earned. Confidence equals coverage of 65%.",
-      "basis": "heating (25), inside helm (20), watertight compartments (10), hard cockpit shelter (10); insulation/keel-stepped/cold tankage unverifiable"
+      "rationale": "This is a genuinely cold-capable boat. A Refo Scandia 8kW diesel cabin stove is confirmed fitted, the trademark pilothouse gives a sheltered inside steering and watch position, the hull is divided into three watertight compartments, and the pilothouse shelters the cockpit from wind and spray — all four well documented. What we couldn't confirm pulls the score down from the top: the hull insulation spec, whether the mast is keel-stepped, and dedicated cold-water tankage all came from sources that failed verification. Moderate confidence — the core cold-weather features check out, but a few details remain unconfirmed.",
+      "basis": "Diesel cabin heater, sheltered pilothouse helm, three watertight compartments, pilothouse-protected cockpit (broker listing and builder site)"
     },
     "tropic_score": {
       "value": 35,
       "confidence": 0.45,
-      "rationale": "Three rubric inputs have usable data. Shade (weight 15): pilothouse and deep protected cockpit confirmed (conf 0.78) — full 15 points. Light-air SA/D (weight 20): computed from verified sail area ~139m² (main 65.5 + yankee 49 + staysail 24) and displacement 18,000kg. SA/D = 139 / (18000/1025)^(2/3) = 139/6.77 ≈ 20.5 — moderate, not high-performance light air, award 12/20 (conf 0.72). Ventilation/opening hatches (weight 20): only a marketing-level claim 'equally at home in tropics' confirmed (conf 0.75) with no specific hatch count or ventilation facts; award 8/20. Refrigeration (15), watermaker (15), and airflow (15) are all unverifiable — removed from facts, score 0. Total: 15+12+8 = 35. Confidence equals coverage ~45%.",
-      "basis": "shade confirmed from pilothouse/cockpit; SA/D computed from verified sail area and displacement; ventilation inferred from marketing claim only; refrigeration/watermaker/airflow unverifiable"
+      "rationale": "This is a cold-climate boat first, and the tropical score shows it. Shade is well covered — the pilothouse and deep, protected cockpit keep crew out of the sun. Its sail-area-to-displacement ratio works out to a moderate figure, so it will move in light tropical airs but isn't a light-wind flyer. Beyond that, the picture thins out: the builder only claims the boat is 'equally at home in the tropics' without listing hatch counts or ventilation detail, and refrigeration, a watermaker and hot-weather airflow couldn't be confirmed at all. Low-to-moderate confidence — most tropical-comfort features went undocumented.",
+      "basis": "Pilothouse and deep cockpit give good shade; moderate light-air sail power; refrigeration, watermaker and hot-weather airflow undocumented"
     },
     "stability_score": {
       "value": 80,
       "confidence": 0.7,
-      "rationale": "AVS (Angle of Vanishing Stability) is not published in any accessible source and is listed in the research gaps. AVS is the primary stability metric in the rubric. Fallback per rubric: CE Category A confirmed with high confidence (0.95) from De Valk broker listing and manufacturer website. CE Category A maps to score 80. Confidence is moderated to 0.70 because CE Category A is a minimum threshold classification, not a precise stability measure — it confirms ocean-going design intent but does not bound AVS. The aluminium construction, pilothouse layout, and 3 watertight compartments are consistent with offshore-capable design, supporting but not quantifying the CE-A rating.",
-      "basis": "CE Category A confirmed (conf 0.95); AVS not published — rubric fallback applied"
+      "rationale": "No angle-of-vanishing-stability figure is published anywhere we could find, so the score leans on the boat's confirmed CE Category A (ocean) certification, documented by both the broker listing and the builder. Category A tells us the design is cleared for ocean passages, but it's a minimum threshold rather than a precise stability measurement, which is why confidence sits a notch below certain. The aluminium hull, pilothouse layout and three watertight compartments all point to serious offshore capability and reinforce the rating, even though they don't put a number on ultimate stability.",
+      "basis": "Confirmed CE Category A (ocean) certification; ultimate-stability angle not published (broker listing and builder site)"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -1110,70 +1110,70 @@
           "system": "Standing rigging",
           "low": 12000,
           "high": 22000,
-          "note": "Rubric interval 15-20yr. Assumed ~2015 build (~11yr at 2026) places vessel in approach-to-replacement window. 49ft aluminium with Seldén fractional tapered mast is upper-complexity. Rubric range $8k-$30k; applying upper-mid."
+          "note": "Stainless wire rigging is typically renewed at 15-20 years. Assuming a roughly 2015 build, a vessel around 11 years old is approaching that window. The 49ft aluminium boat with its Seldén fractional tapered mast sits at the more complex, costlier end of the range."
         },
         {
           "system": "Running rigging",
           "low": 3000,
           "high": 7000,
-          "note": "Rubric interval 8-10yr. At ~11 years, overdue. Cutter configuration adds staysail sheets and furler lines. Rubric $2k-$6k; scaled up modestly for 49ft cutter."
+          "note": "Running rigging is usually replaced every 8-10 years, so at around 11 years it is overdue. The cutter configuration adds staysail sheets and furler lines, nudging the cost up for a boat this size."
         },
         {
           "system": "Sails (main, yankee, staysail)",
           "low": 20000,
           "high": 38000,
-          "note": "Rubric interval 8-12yr. At ~11yr, likely due for active cruiser. Three-sail cutter inventory: mainsail 65.5m², yankee 49m², staysail 24m² — total cloth area large. Rubric $15k-$45k; mid-to-upper range for quality offshore cruising dacron or laminate."
+          "note": "Sails typically need replacing every 8-12 years, so an actively cruised boat near 11 years is likely due. The three-sail cutter inventory — 65.5m² mainsail, 49m² yankee and 24m² staysail — is a lot of cloth, and the estimate reflects quality offshore cruising dacron or laminate."
         },
         {
           "system": "Engine service / potential repower",
           "low": 3000,
           "high": 12000,
-          "note": "Rubric full repower interval 25-30yr — not due at ~11yr. However, Yanmar 4JH4-TE 75hp warrants major service at 2,000-3,000hr. Range covers top-end service through injector/heat exchanger overhaul. Full repower excluded; range is service-level only."
+          "note": "A full repower isn't due until 25-30 years, so it's off the table at around 11 years. The Yanmar 4JH4-TE 75hp does warrant major service around 2,000-3,000 hours, though. The estimate covers everything from a top-end service to an injector and heat-exchanger overhaul — service work only, not a repower."
         },
         {
           "system": "Electronics (chart plotter, AIS, radar, VHF, instruments)",
           "low": 8000,
           "high": 18000,
-          "note": "Rubric interval 10-15yr. Simrad AP28 and associated electronics from original fit are at or past service life at ~11yr. Passage-ready suite: chartplotter, AIS transponder, radar, VHF, instruments, new autopilot head if AP28 fails. Rubric $8k-$30k; lower-mid as autopilot drive (HLD-2000 Mk2S) is a significant cost if replaced."
+          "note": "Marine electronics generally last 10-15 years, so the original Simrad AP28 and its companions are at or past their service life at around 11 years. A passage-ready suite means a chartplotter, AIS transponder, radar, VHF, instruments and a new autopilot head if the AP28 fails. The estimate stays mid-range, with replacing the HLD-2000 Mk2S autopilot drive being the main cost driver if needed."
         },
         {
           "system": "Battery bank + solar",
           "low": 8000,
           "high": 15000,
-          "note": "Rubric interval 6-10yr. Three Victron Gel 12V 220Ah confirmed on reference vessel — at ~11yr these are definitively past service life. Recommend LiFePO4 upgrade (~200-300Ah usable) plus solar panels (400-600W) and MPPT controller for passage-ready energy autonomy. Rubric $5k-$20k."
+          "note": "Battery banks last 6-10 years, and the three confirmed Victron Gel 12V 220Ah batteries are well past that at around 11 years. We'd recommend a LiFePO4 upgrade of roughly 200-300Ah usable, plus 400-600W of solar and an MPPT controller for passage-ready energy autonomy."
         },
         {
           "system": "Ground tackle (anchor, chain, windlass)",
           "low": 3000,
           "high": 7000,
-          "note": "No specific anchor details in verified facts. Rubric $3k-$10k. Passage-ready ground tackle for 18T displacement vessel: 45-55lb anchor, 80m chain minimum, windlass service or replacement."
+          "note": "No specific anchor details were confirmed. Passage-ready ground tackle for an 18-tonne boat means a 45-55lb anchor, at least 80m of chain, and a windlass service or replacement."
         },
         {
           "system": "Liferaft and safety gear",
           "low": 5000,
           "high": 10000,
-          "note": "Rubric $4k-$12k. Includes offshore-rated liferaft (6-person minimum), EPIRB (406MHz registration), flares (in-date), jacklines, tethers, AIS MOB beacons, first-aid kit to offshore standard. Service interval for liferaft ~3yr."
+          "note": "Covers an offshore-rated liferaft (6-person minimum), a 406MHz EPIRB, in-date flares, jacklines, tethers, AIS MOB beacons and a first-aid kit to offshore standard. The liferaft itself needs servicing roughly every three years."
         },
         {
           "system": "Canvas (dodger, bimini, sail covers, cockpit enclosure)",
           "low": 5000,
           "high": 10000,
-          "note": "Rubric interval 10-15yr, $4k-$12k. Pilothouse design reduces standard bimini need but cockpit enclosure panels, sail covers, and weather cloths apply. At ~11yr likely deteriorated UV exposure."
+          "note": "Canvas typically lasts 10-15 years. The pilothouse reduces the need for a standard bimini, but cockpit enclosure panels, sail covers and weather cloths still apply — and at around 11 years they have likely degraded under UV exposure."
         },
         {
           "system": "Watermaker (if absent — not confirmed fitted)",
           "low": 6000,
           "high": 12000,
-          "note": "Watermaker is NOT confirmed in verified facts (removed as unverifiable). For passage-ready bluewater sailing a watermaker is essential. Rubric $6k-$15k. If fitted unit is >8yr old, service or membrane replacement ~$1.5k-$3k instead — conditional line item."
+          "note": "We couldn't confirm whether a watermaker is fitted. For passage-ready bluewater cruising one is essential, so the estimate assumes a new installation. If a unit is already aboard but more than eight years old, budget roughly $1.5k-$3k for a service or membrane replacement instead — this line is conditional on what the boat already has."
         },
         {
           "system": "Aluminium hull protective coating / anodising refresh",
           "low": 3000,
           "high": 9000,
-          "note": "Bestevaer-specific item: aluminium hull requires periodic inspection and barrier coat or paint refresh to prevent galvanic and crevice corrosion, especially at waterline and around through-hulls. Not in standard rubric but standard aluminium vessel maintenance. Interval approximately 5-7yr in salt water. Range based on haulout, blasting, and epoxy barrier coat for 49ft hull."
+          "note": "A Bestevaer-specific item: the aluminium hull needs periodic inspection and a barrier-coat or paint refresh to fend off galvanic and crevice corrosion, especially at the waterline and around through-hulls. This is routine maintenance for any aluminium boat, typically every 5-7 years in salt water. The estimate covers haulout, blasting and an epoxy barrier coat for a 49ft hull."
         }
       ],
-      "assumptions": "Build year assumed approximately 2015 (mid-range estimate; actual year not in verified facts — buyer must confirm). All ranges are our estimates and carry uncertainty; actual costs depend on year built, maintenance history, hours on engine, and regional labour rates. Items marked age-relevant assume continuous cruising use; a lightly used or well-maintained vessel may defer several items. Watermaker line is conditional on absence — if a serviceable unit is confirmed fitted, reduce total low by $6k and total high by $12k. Currency is USD. Labour rates assumed US/EU mixed (haul-outs in Europe or Caribbean likely cheaper than US East Coast). Aluminium hull coating is boat-specific and not in the standard rubric but is a real passage-preparation cost for any aluminium vessel."
+      "assumptions": "Build year assumed approximately 2015 (mid-range estimate; actual year not in verified facts — buyer must confirm). All ranges are our estimates and carry uncertainty; actual costs depend on year built, maintenance history, hours on engine, and regional labour rates. Items marked age-relevant assume continuous cruising use; a lightly used or well-maintained vessel may defer several items. Watermaker line is conditional on absence — if a serviceable unit is confirmed fitted, reduce total low by $6k and total high by $12k. Currency is USD. Labour rates assumed US/EU mixed (haul-outs in Europe or Caribbean likely cheaper than US East Coast). Aluminium hull coating is specific to this boat and is a real passage-preparation cost for any aluminium vessel."
     },
     "provisioning_specific": [
       {

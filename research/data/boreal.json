@@ -1,6 +1,6 @@
 {
   "_id": "boreal",
-  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score)",
+  "_provenance": "fan-out:wf_d565ece0 (haiku research + sonnet verify + sonnet score); enriched 2026-06-20 with magazine sail tests, builder interviews, owner accounts, and brokerage listings",
   "_models": {
     "research": "haiku",
     "verify": "sonnet",
@@ -14,320 +14,459 @@
     "facts": [
       {
         "key": "stability.ballast_type",
-        "value": "Molded lead blocks integrated at the lowest point in the keel embryo (shallow 80cm-wide vestigial keel); 3,800 kg total ballast (28% ballast ratio)",
-        "confidence": 0.95,
+        "value": "Lead ballast cast as moulded blocks (roughly 450 kg each) and bedded in resin at the lowest point of a shallow keel embryo (a stub keel that also protects the rudder when beaching). Total ballast about 3,800 kg. Boréal places all heavy items low and amidships, which improves both stability and motion. The original Boréal 47 carried a ballast ratio near 36 percent; the heavier 47.2 hull lowers that figure toward the high-20s/low-30s, a point the design press has flagged.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           },
           {
-            "title": "BORÉAL 47.2 specifications",
-            "url": "https://sailboatdata.com/sailboat/boreal-47-2/"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "Interesting Sailboats: THE NEW BOREAL 44.2",
+            "url": "https://interestingsailboats.blogspot.com/2022/01/the-new-boreal-442-great-aluminum.html"
           }
         ]
       },
       {
         "key": "stability.displacement",
-        "value": "Light displacement: 13,650 kg; Loaded displacement: 17,000 kg (with centerboard down)",
-        "confidence": 0.95,
+        "value": "Light displacement of the original Boréal 47 is about 10,700 kg (23,600 lb); loaded/half-load figures quoted by reviewers run to roughly 11,300-12,400 kg. The 47.2 hull is heavier than the 47. Displacement/length is about 193, which is moderate for a cruising boat of this size.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "BORÉAL 47.2 sailboatdata",
-            "url": "https://sailboatdata.com/sailboat/boreal-47-2/"
+            "title": "Boréal 47 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/boreal/boreal-47"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "stability.ce_category",
-        "value": "CE Category A (Ocean - highest category for open-ocean voyaging); winds over Force 8 (34-40 knots) and significant wave heights 4m or more",
+        "value": "CE Category A (Ocean), the highest design category, certifying the boat for sustained winds over Force 8 and significant wave heights above 4 m.",
         "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "stability.avs",
-        "value": "Not specified in manufacturer documentation or technical reviews; qualitative assessment: 'the boat sails stiff' and becomes very stable when heeled, with gusts not causing marked extra heel",
+        "value": "No Angle of Vanishing Stability is published by Boréal or quoted in any magazine test located. Reviewers describe the boat as stiff and resistant to extra heel in gusts, but that is a qualitative impression, not a measured righting-moment curve. An honest buyer should treat the boat's ultimate-stability envelope as undocumented and ask the builder directly for an ISO 12217 stability calculation on a specific hull and loadout.",
         "confidence": 0.3,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "stability.stix",
-        "value": "Not available in searched sources",
-        "confidence": 0.2,
-        "sources": []
+        "value": "No STIX value is published in any accessible source. The boat is CE Category A certified (which requires a STIX of at least 32 under ISO 12217), but the actual figure is not disclosed.",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+          }
+        ]
       },
       {
         "key": "cold.heating",
-        "value": "Refleks diesel heating stove with hot-water circulation through radiators in staterooms; optional feature available as standard on most production boats",
-        "confidence": 0.92,
+        "value": "Refleks diesel drip-stove heating with hot-water circulation to radiators in the cabins, plus blowers in the heads. Owners who have cruised Chile, South Georgia and Greenland praise it specifically; one Boréal 47 owner said they 'could not have sailed in Chile and South Georgia without heat, or at least we would have been miserable.' The radiators are quiet and the blowers can dry several sets of wet foul-weather gear in an evening.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boréal 47 - An Owner's Experience - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
           },
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
             "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
         "key": "cold.insulation",
-        "value": "80mm PU foam in hollow spaces; 60mm under roof; 80mm along hull above waterline; cork sprayed on frames; cork/colour coating in hard-to-reach structural areas; effectively manages condensation in cold conditions (verified in 8-10°C overnight temperatures)",
-        "confidence": 0.93,
+        "value": "Roughly 80 mm (8 cm) of insulation throughout the hull and deck. A sprayed cork layer is applied to the aluminium frames before the foam panels go on, which co-founder Jean-François Eeman says is done specifically to break thermal bridges and stop condensation. The result is verified by owners in sub-10 C overnight temperatures and in high-latitude winters.",
+        "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "An expedition into the world of Boreal - no-frills-sailing.com (interview with Jean-François Eeman)",
+            "url": "https://no-frills-sailing.com/boreal-yacht-47-go-anywhere/"
+          },
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Deck-stepped mast (not keel-stepped); massive I-beam compression post passes through cabin with centerboard trunk behind it; allows beaching and interior space flexibility",
-        "confidence": 0.92,
+        "value": "A heavy aluminium compression post carries the rig loads down through the saloon, with the centreboard trunk behind it. Whether the Sparcraft mast itself is technically deck-stepped or keel-stepped is not stated unambiguously in any accessible source; the load path through the post and the beachable shallow-draft design are what matter in practice.",
+        "confidence": 0.6,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "cold.watertight_bulkheads",
-        "value": "Yes - watertight bulkheads and 8-10mm bottom plating on substantial framing enables safe beaching; 3,800kg keel ballast embedded in sealing resin and welded in watertight compartments",
-        "confidence": 0.93,
+        "value": "Full collision bulkheads forward and aft create watertight compartments at each end of the hull. Bottom plating is a heavy 10 mm in the keel and bottom area, tapering to 6 mm at the transom and 4 mm in the deck and coachroof. The shallow keel embryo and stout bottom let the boat take the ground or be deliberately beached.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "cold.inside_helm",
-        "value": "Yes - pilothouse with protected helm station; massive watertight door opens into heated pilothouse with portside nav station at cockpit level; watchkeeping possible from protected position inside or from helmstation at forward end of cockpit; pilot remote enables conning from pilothouse back area",
-        "confidence": 0.92,
+        "value": "The signature feature is a hard aluminium pilothouse (the 'doghouse') with a watertight door, an inside nav/watch seat at cockpit level, and a near 360-degree view. Crew can keep watch in the dry and warm and only step out to handle sails. On the Sir Ernst Boréal 47 in 50-knot Antarctic winds the skipper stayed 'dry in the fantastic doghouse, enjoying a stunning 360 degree view.' Steering itself is from an open cockpit at the forward end, behind a hard dodger.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
-            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+            "title": "SIR ERNST: A YouTube-Gem of real sailors - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
           }
         ]
       },
       {
         "key": "tropical.ventilation",
-        "value": "Highly efficient forced ventilation system with giant Dorade fan through double-walled deckhouse aft edge; functions in severe weather conditions even with hatches blocked; narrow full-breadth wind-scoop on doghouse roof helps ventilate aft cabins",
-        "confidence": 0.92,
+        "value": "A large Dorade-style vent is built into the aft edge of the double-walled deckhouse and keeps drawing air below even in severe weather with the hatches shut. Boréal markets the design as working equally well in the tropics and at high latitudes, and the pilothouse windows open for saloon airflow.",
+        "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "tropical.shade",
-        "value": "Optional external shade system available; marketing notes that bigger cockpit works equally well in tropics and at high latitudes",
-        "confidence": 0.85,
+        "value": "Cockpit shade is an optional external system rather than a standard fixture; the hard dodger over the forward cockpit gives fixed shelter for two. The deck layout is marketed as comfortable in both the tropics and high latitudes, but a tropical buyer should budget for a proper bimini or awning.",
+        "confidence": 0.72,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "tropical.refrigeration",
-        "value": "Two large refrigerator drawers (starboard galley); one drawer convertible to freezer; optional separate freezer available for starboard aft cabin",
-        "confidence": 0.93,
+        "value": "A large two-drawer refrigerator is standard in the starboard galley. A separate freezer can be added as an option, commonly fitted in the starboard aft cabin space, rather than by converting a fridge drawer.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "tropical.watermaker",
-        "value": "Optional diesel watermaker with pre-installation provided; diesel generator required as companion system; room in systems space for both genset and watermaker; enables months of autonomy",
-        "confidence": 0.88,
+        "value": "A watermaker is not standard, but the boat is delivered with pre-installation provision for one alongside the optional diesel generator, and the systems space is sized to take both. Owners fitting one report the months-of-autonomy that the boat is designed for. Practically every serious tropical or expedition buyer fits a watermaker after purchase.",
+        "confidence": 0.8,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "tropical.airflow",
-        "value": "Doghouse with full-width dorade-style vent for aft cabins; dual foot pumps supply saltwater and pressurized freshwater throughout; good air circulation through pilothouse design",
-        "confidence": 0.88,
+        "value": "The doghouse with its full-width Dorade vent, opening pilothouse windows and deck hatches gives good passive cross-flow. Dual foot pumps deliver both saltwater and pressurised freshwater at the galley, which helps conserve tank water in warm climates.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "self_steering.windvane_option",
-        "value": "Windvane-compatible design with twin offset daggerboards (epoxy composite) that enable fine-tuning of helm balance and neutral-helm self-steering; users report successful Windpilot and Aries windvane installations with daggerboard adjustment; not factory-installed",
-        "confidence": 0.87,
+        "value": "No factory windvane is offered. The boat has a single protected centreline rudder and a pair of epoxy-composite daggerboards set well aft; adjusting the daggerboards lets the crew trim the helm toward neutral, which is unusually good for an autopilot and helps a self-steering setup. A windvane can be retrofitted on the reverse transom but is an owner project.",
+        "confidence": 0.65,
         "sources": [
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
-            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
-            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
         "key": "self_steering.autopilot",
-        "value": "Pilot remote control system enables autopilot functionality from pilothouse back area; not explicitly named but functionality described as electronic tiller-pilot capability; twin wheels setup with single centralized rudder enable advanced autopilot rigging",
-        "confidence": 0.8,
+        "value": "The boat's helm balance makes it exceptionally easy to steer hands-off. On the Cruising World test the boat under reefed main and partly furled genoa held its course unaided for several minutes with no autopilot engaged. No single autopilot brand is standard; brokerage examples show NKE and other systems fitted to owner choice.",
+        "confidence": 0.75,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
           }
         ]
       },
       {
         "key": "self_steering.electrical_autonomy",
-        "value": "Optional diesel generator (pre-installation provided) can power watermaker and ship systems; batteries positioned low in center of boat for weight distribution; specific electrical capacity not detailed in sources",
-        "confidence": 0.75,
+        "value": "Electrical fit-out is highly owner-specific. The boat provides pre-installation for an optional diesel generator, and brokerage examples show large AGM banks (for instance four 130 Ah AGM service batteries with a Mastervolt charger and a Superwind wind generator on a 2013 boat). More recent boats have been specified with up to roughly 1,100 W of solar and around 800 Ah of lithium. Batteries sit low and central for weight distribution.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          },
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.transom",
-        "value": "Reverse transom with modest swim step; deck work area clear with safe passage from transom to companionway; good access for boarding and tender operations",
-        "confidence": 0.88,
+        "value": "Reverse transom with a fold-down bathing platform and a dedicated transom locker for liferaft stowage. The aft deck is clear and gives safe passage forward.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.freeboard",
-        "value": "11 cm additional freeboard compared to previous Boréal 47 model; higher freeboard than predecessor but designed conservatively to avoid excessive height; design philosophy: no unnecessary high freeboard just to create space",
-        "confidence": 0.89,
+        "value": "The 47.2 has slightly more freeboard and interior volume than the previous Boréal 47, but the design philosophy avoids piling on height purely to gain accommodation. Visibility from the pilothouse and helm is good.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.side_decks",
-        "value": "Wide side decks with easy movement from cockpit to forward sections; no big steps needed; V1 shrouds mounted on coachroof so they do not obstruct passage; safety railings either side of mast; sturdy welded-on cleats and double stanchions",
-        "confidence": 0.92,
+        "value": "Wide, uncluttered side decks let crew move fore and aft without big steps. The V1 (cap) shrouds land on the coachroof rather than the rail so they do not block the gangway, and there are welded-on cleats, double stanchions, and granny bars at the mast.",
+        "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          },
+          {
+            "title": "SIR ERNST: A YouTube-Gem of real sailors - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
           }
         ]
       },
       {
         "key": "ergonomics.mob_recovery",
-        "value": "Dual wheels for improved visibility; granny bars fitted each side of mast for crew safety when working forward; daggerboards enable neutral helm for hands-free sailing if crew overboard procedures require heave-to; single protected centreline rudder easier to manage than twin rudders in emergency",
-        "confidence": 0.78,
+        "value": "A single, well-protected centreline rudder is simpler to manage in an emergency than twin rudders, and the daggerboards let the crew tune the helm to near neutral for hands-free heave-to. Granny bars at the mast give a secure stance when working forward, and the pilothouse gives a constantly manned, dry watch position. No model-specific MOB equipment is standard.",
+        "confidence": 0.72,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           },
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
             "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
         "key": "heavy_weather.storm_report",
-        "value": "No specific storm reports documented in sources. Design features for heavy weather: ice-breaking stem, watertight bulkheads, 8-10mm bottom plating, short compact deckhouse keeps water out of saloon even in heavy rain or spray. Design proven by founder's Antarctic expeditions and high-latitude cruising experience",
-        "confidence": 0.72,
+        "value": "Real high-latitude and heavy-weather accounts exist for the type. The Boréal 47 'Sir Ernst' sailed to the Antarctic and crossed both the Pacific and Atlantic; in 50-knot Antarctic winds an observer described the motion as 'so smooth, so superior' with the crew 'absolutely safe' and the skipper dry in the doghouse, and the channel documents a 72-knot gust reading on the South Georgia to Cape Town leg. SAIL's reviewer, sailing the boat in residual Hurricane Maria swell, called the motion 'at all times both easy and forgiving, with no slamming or whipping about, the definition of a seakindly boat.' These are firsthand observations, not survival-storm tactical reports, but they are consistent and credible.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "SIR ERNST: A YouTube-Gem of real sailors - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "heavy_weather.cutter_staysail",
-        "value": "Double-headsail rig (not cutter configuration). Option to swap from genoa to self-tacking staysail (26m²) around 17-20 knots. Removable inner forestay with hanked-on staysail available as alternative to furling. Full genoa and staysail not flown simultaneously. Can reef staysail heavily for worst conditions",
-        "confidence": 0.91,
+        "value": "A double-headsail rig: a furling genoa on the headstay and a self-tacking staysail (about 26 sq m) on an inner stay, both on Profurl furlers. Around 17 to 20 knots the crew rolls the genoa and works under staysail. A removable inner forestay carrying a hanked-on staysail is offered as an alternative to furling. The genoa and staysail are not flown together; the staysail can be deeply reefed for the worst conditions.",
+        "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.self_righting_beaching",
+        "value": "The deep keel embryo holds the lead ballast below the rudder, so the boat sits upright and stable when deliberately dried out or beached, and reviewers report it can recover from heel of roughly 14 degrees while aground without falling over. The shallow board-up draft (about 1.0 m) is what makes drying out and exploring thin water practical.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "construction.aluminium",
+        "value": "Hard-chined hull in marine aluminium, using 5083 and 5086 H111 alloy from Norway. Plate is laser- or waterjet-cut to fit and welded, with thickness graded from 10 mm in the bottom and keel down to 4 mm in deck and coachroof. Below-waterline through-hulls are standpipes that rise above the waterline with the seacock on top, so seacocks can be removed and serviced with the boat afloat. The hull is sandblasted and epoxy barrier-coated within about eight hours of blasting, before oxidation can start.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "appendages.centreboard_daggerboards",
+        "value": "The centreboard is a hollow aluminium blade shaped as a NACA foil for windward performance, drawing about 2.5 m down and retracting into a trunk for shallow water. Brokerage detail describes it with a roughly 10 mm internal structure and 8 mm skin, ribbed and pivoting on an Ertalon (engineering plastic) shaft about 120 mm in diameter. The two daggerboards set aft are epoxy composite, not aluminium, so they break away rather than damage the hull if struck.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "tankage.water_fuel",
+        "value": "Generous expedition tankage. Magazine specs give roughly 760 litres (200 US gal) fresh water and 600 litres (158 US gal) diesel; one 2013 brokerage boat lists 636 litres water, 594 litres fuel, plus separate black-water (about 40 L) and grey-water tanks. Fuel for around 600 litres gives long motoring range for calms and high-latitude glacier work, and the diesel feeds both the engine and the Refleks heater.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "engine.options",
+        "value": "Volvo Penta D2 diesel on a shaft, offered across the production run from about 50 hp up to 75 hp (50, 55, 60 and 70/75 hp variants appear on different boats and brokerage listings); a Nanni N4.60 has also been offered. A 2013 boat shows the 55 hp D2-55F with under 2,000 hours. Three-blade reversible (feathering-style) propeller.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "pricing.new_and_used",
+        "value": "The Boréal 47.2 is expensive and largely built to order, with an 18 to 24 month wait. Magazine reporting puts the base price near 987,000 euros gross (including VAT), well over a million US dollars once equipped. The earlier Boréal 47 sold new around 453,000 euros in 2016 and around 555,000 to 650,000 US dollars at 2018 US reviews. Used boats are scarce: recent listings have included a Boréal 47 around 599,000 US dollars in the US and a larger Boréal 52 near 885,000 euros at a European broker, so depreciation is shallow and the used market is thin.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+          },
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boreal 47.2 Narval and Boreal 52 Bravo listings - Berthon International",
+            "url": "https://www.berthoninternational.com/yacht-sales-brokerage/yachts-for-sale/boreal-47-2-narval/"
           }
         ]
       },
       {
         "key": "refit.standing_rigging_age",
-        "value": "Industry standard for stainless steel rigging: 10-12 years for wire; 15-20 years for rod. Complete overhaul typically at 10 years or 7 years depending on environment. Boréal 47.2 equipped with Sparcraft aluminum mast and stainless steel wire rigging. No boat-specific maintenance schedule located",
-        "confidence": 0.72,
+        "value": "No Boréal-specific rigging-replacement schedule is published. The boat carries a Sparcraft aluminium mast with stainless wire standing rigging, so the usual offshore practice applies: inspect closely from about 10 years and plan full wire replacement around 10 to 15 years, sooner if the boat has done hard high-latitude miles.",
+        "confidence": 0.65,
         "sources": [
           {
-            "title": "Boréal 47.2 specifications and reviews",
-            "url": "https://sailboatdata.com/sailboat/boreal-47-2/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "refit.known_issues",
-        "value": "No significant recurring defects documented in owner forums or professional reviews. Aluminum corrosion properly managed with: epoxy barrier coating below waterline, three sacrificial anodes (rudder, centerboard, hull-mounted 5kg anode near engine), custom anodized bushings for dissimilar metal isolation, hull-potential meter monitoring. Centerboard pivot and trunk wear requires inspection but design includes replaceable plastic guide plates. Water tanks coated internally",
-        "confidence": 0.85,
+        "value": "No major recurring structural defect shows up in owner accounts or professional reviews. The honest watch items are aluminium-specific and centreboard-specific. Bare aluminium holds up very well: one owner reports unpainted hull and chainplates uncorroded after 10 years, but painted surfaces are the weak point, with deck paint starting to need real attention after about six years and painted chainplates corroding badly where stainless toggles meet them. Galvanic protection (anodes, isolation of dissimilar metals, a hull-potential meter) must be maintained. The centreboard trunk and pivot need periodic inspection for wear from the blade working under load.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Interesting Sailboats: THE NEW BOREAL 44.2",
-            "url": "https://interestingsailboats.blogspot.com/2022/01/the-new-boreal-442-great-aluminum.html"
+            "title": "Boréal 47 - An Owner's Experience - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
           },
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
-            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "parts.availability",
-        "value": "Boréal Yachts manufactures in France; uses Volvo Penta and Yammer diesel engines (readily available worldwide); Sparcraft aluminum masts (European standard); Antal mast track; Profurl furlers (standard cruising equipment). No documented issues with parts availability. Inspection traps around bulkheads and furniture facilitate maintenance access",
+        "value": "Boréal builds in Tréguier, France, and uses mainstream gear: Volvo Penta (with Nanni as an alternative) diesels, Sparcraft aluminium spars, and Profurl furlers, all well supported worldwide. Aluminium construction means damage is repaired by welding, which is fixable almost anywhere there is a competent welder, but specialised parts such as Refleks stove spares are Scandinavian-sourced and worth carrying for remote cruising.",
         "confidence": 0.8,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
@@ -335,244 +474,273 @@
     ],
     "sentiment": {
       "praise": [
-        "European Yacht of the Year 2021 winner in Bluewater Cruiser category",
-        "Excellent stability and seaworthiness: 'the boat becomes very solid and stable, with gusts not contributing marked extra heel'",
-        "Outstanding cold-weather insulation and heating system - effectively eliminates condensation even in sub-10°C overnight conditions",
-        "Simple, manageable deck layout for small crew; easy to con from pilothouse in inclement weather",
-        "Exceptional provisioning space for remote cruising autonomy - easily swallows enormous stores and spares",
-        "Robust aluminum construction rivaling early Garcia builds - built to expedition yacht standards",
-        "Superb ventilation system that works even in severe weather with hatches blocked",
-        "Wider side decks and interior volume improvements over previous generation; generous owner's cabin and ensuite",
-        "Excellent visibility from pilothouse with 360-degree awareness; dual helm design separates working and relaxation zones",
-        "Impeccable self-steering balance with daggerboard system - vessel can sail itself without active helm",
-        "Long-distance cruising proven: owners report 23,000nm+ voyages and 200+nm daily runs",
-        "Designer credibility: Jean-François Delvoye has six-year circumnavigation and Antarctic expedition experience"
+        "European Yacht of the Year 2021 winner in the Bluewater Cruiser category",
+        "Genuinely proven in the highest latitudes: owner boats have cruised Patagonia, Chile, South Georgia, Greenland, Iceland and the Antarctic",
+        "Seakindly motion confirmed by a magazine reviewer in residual hurricane swell and by an owner crew in 50-knot Antarctic winds",
+        "Outstanding cold-weather package: 80mm insulation with cork-sprayed frames eliminates condensation, and the Refleks diesel heater is widely loved for warmth and drying wet gear",
+        "Hard pilothouse doghouse lets the crew keep watch warm and dry with a near 360-degree view",
+        "Tough, repairable aluminium hull in quality Norwegian 5083/5086 alloy with graded plating up to 10mm in the bottom",
+        "Beachable shallow-draft design (about 1.0m board up) opens up anchorages and drying-out spots most deep-keel boats cannot reach",
+        "Exceptional helm balance: the boat will self-steer hands-off under sail, and daggerboards let you tune the helm to neutral",
+        "Full collision bulkheads fore and aft and standpipe through-hulls serviceable afloat reflect serious expedition engineering",
+        "Generous expedition tankage (around 760L water, 600L fuel) for long autonomy",
+        "Designed by Jean-François Delvoye out of a six-year family circumnavigation including long spells in Patagonia"
       ],
       "complaints": [
-        "No factory windvane option - requires owner retrofit (though design accommodates systems well)",
-        "Long 18-24 month build delivery time - significant wait for new boat",
-        "High new-boat price (~EUR 987,280 base, ~USD 1M+) limits buyer pool",
-        "Used market limited - few listings available, depreciation not well-established for 47.2 model",
-        "Aluminum hull requires ongoing corrosion management despite good design mitigation",
-        "Centerboard centerline placement not traditional - requires learning curve on helm balance and daggerboard tuning",
-        "Double-headsail rig (not cutter) means genoa/staysail swap rather than simultaneous flying - less flexible in some conditions"
+        "Very expensive new (base near 987,000 euros) with an 18 to 24 month build wait",
+        "Thin used market and shallow depreciation, so finding a good used example is hard and rarely cheap",
+        "No factory windvane option; a self-steering vane is an owner retrofit",
+        "Aluminium needs ongoing corrosion discipline, and painted surfaces in particular (decks, chainplates) need attention from around year six",
+        "Watermaker and generator are options, not standard, so a passage-ready boat needs significant fit-out spend on top of the base price",
+        "The double-headsail rig swaps genoa for staysail rather than flying both, which is slightly less flexible than a true cutter",
+        "Reviewers note the design press has flagged the heavier hull's lower ballast ratio, so buyers should ask for an actual stability calculation rather than rely on reputation"
       ],
       "known_issues": [
-        "Steering not as precise as modern high-aspect spade rudders - offset daggerboard system requires helm adaptation",
-        "Centerboard trunk pivot wear from continuous rubbing under sail loads - requires inspection protocol and replaceable guide plates",
-        "Aluminum galvanic corrosion risk if dissimilar metals not properly isolated - mitigated by factory anodized bushings and anode system",
-        "Furler foil dent potential - could jam headsail deployment if damaged; replaceable foil sections available"
+        "Painted aluminium surfaces (deck paint, painted chainplates) degrade faster than bare metal; deck paint needs real maintenance from around six years",
+        "Centreboard trunk and pivot wear from the blade working under sail load; periodic inspection needed",
+        "Galvanic corrosion risk if dissimilar metals are not properly isolated or anodes are neglected; managed by the factory anode and isolation system",
+        "Profurl furler foil can dent and jam a headsail if damaged; foil comes in replaceable sections",
+        "Daggerboard handling has a learning curve, since helm balance depends on getting the offset right"
       ],
       "forums": [
         {
-          "title": "OVNI vs Garcia vs Boreal comparison",
+          "title": "OVNI vs Garcia vs Boreal comparison - YBW Forum",
           "url": "https://forums.ybw.com/threads/ovni-vs-garcia-vs-boreal.407298/page-2"
         },
         {
-          "title": "Aluminium Centreboard Boats discussion",
+          "title": "Aluminium Centreboard Boats discussion - YBW Forum",
           "url": "https://forums.ybw.com/threads/aluminium-centreboard-boats.388397/page-3"
         },
         {
-          "title": "Boréal 47 - An Owner's Experience (Morgan's Cloud)",
+          "title": "Boréal 47 - An Owner's Experience (Attainable Adventure Cruising)",
           "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
         },
         {
-          "title": "Test Sail and Review of The Boréal 47.2 (Morgan's Cloud)",
+          "title": "Test Sail and Review of The Boréal 47.2 (Attainable Adventure Cruising)",
           "url": "https://www.morganscloud.com/2021/12/28/test-sail-and-review-of-the-boreal-47-2/"
+        },
+        {
+          "title": "SIR ERNST: A YouTube-Gem of real sailors (no-frills-sailing.com)",
+          "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
         }
       ]
     },
     "refit_items": [
       {
-        "system": "Standing Rigging (wire and rod)",
-        "action": "Replace - stainless steel wire/rod reaches end of service life (10-12 years wire; 15-20 years rod)",
-        "cost_low_usd": 5500,
-        "cost_high_usd": 8000,
-        "confidence": 0.78,
+        "system": "Standing rigging (Sparcraft mast, stainless wire)",
+        "action": "Inspect from 10 years; budget full wire replacement around 10 to 15 years, or sooner after hard high-latitude miles. End fittings, toggles and furler-stay terminals renewed with the wire.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 14000,
+        "confidence": 0.7,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Standing rigging replacement costs - generalized for 47ft aluminum boat",
-            "url": "https://forums.ybw.com/threads/standing-rigging-replacement.624348/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           }
         ]
       },
       {
-        "system": "Aluminum Hull - Epoxy barrier coat refresh",
-        "action": "Refresh epoxy barrier coating below waterline every 5-7 years in saltwater; resand and re-coat above waterline as needed",
-        "cost_low_usd": 3000,
-        "cost_high_usd": 6000,
-        "confidence": 0.72,
+        "system": "Aluminium hull - epoxy barrier coat and antifoul",
+        "action": "Below the waterline, refresh the epoxy barrier coat roughly every 5 to 7 years and antifoul over it; touch up any dings or scrapes to bare metal immediately to stop corrosion. Above the waterline, painted topsides and deck need periodic recoat (deck paint typically needs real attention from about year six).",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.75,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Boréal aluminum corrosion mitigation strategy",
-            "url": "https://interestingsailboats.blogspot.com/2022/01/the-new-boreal-442-great-aluminum.html"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "Boréal 47 - An Owner's Experience - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
           }
         ]
       },
       {
-        "system": "Sacrificial anodes (zinc/zinc-aluminum)",
-        "action": "Replace - hull anode (5kg), rudder anode, centerboard anode as consumed (typically every 2-3 years)",
+        "system": "Sacrificial anodes and galvanic protection",
+        "action": "Replace the hull anode (around 5 kg), rudder anode and centreboard anode as they consume, typically every 2 to 3 years, and check the hull-potential meter regularly. Use zinc-aluminium anodes suited to an aluminium hull, not pure zinc.",
         "cost_low_usd": 400,
-        "cost_high_usd": 900,
-        "confidence": 0.82,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Boréal yacht corrosion protection system",
-            "url": "https://interestingsailboats.blogspot.com/2022/01/the-new-boreal-442-great-aluminum.html"
-          }
-        ]
-      },
-      {
-        "system": "Centerboard pivot pin and lifting strops",
-        "action": "Inspect and replace if corroded or frayed; centerboard trunk guide plates (plastic, replaceable) may wear from continuous rubbing under sail load",
-        "cost_low_usd": 500,
-        "cost_high_usd": 1500,
-        "confidence": 0.75,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Aluminum centerboard maintenance - general",
-            "url": "https://forums.sailinganarchy.com/threads/centerboard-trunk-on-aluminum-boats-maintenance-questions.176144/"
-          }
-        ]
-      },
-      {
-        "system": "Headsail furler foil sections (Profurl)",
-        "action": "Replace if dented or bent (foil comes in replaceable sections with aluminum sleeves and plastic bearings)",
-        "cost_low_usd": 800,
-        "cost_high_usd": 2000,
-        "confidence": 0.7,
-        "age_relevant": false,
-        "sources": [
-          {
-            "title": "Furler foil repair and replacement",
-            "url": "https://sailmagazine.com/diy/know-how-installing-a-new-headsail-furler/"
-          }
-        ]
-      },
-      {
-        "system": "Interior wood finish (Ash or Oak cabin sole and furnishings)",
-        "action": "Refresh varnish/polyurethane on cabin sole (15mm plywood with veneer) and joinery as needed; higher maintenance in tropical humidity",
-        "cost_low_usd": 800,
-        "cost_high_usd": 2500,
-        "confidence": 0.7,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Boréal 47.2 interior wood finish",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
-          }
-        ]
-      },
-      {
-        "system": "Refleks diesel heating stove",
-        "action": "Annual service (cleaning, seal replacement); chimney sweep for safety",
-        "cost_low_usd": 300,
-        "cost_high_usd": 600,
-        "confidence": 0.75,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Diesel heating stove maintenance",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
-          }
-        ]
-      },
-      {
-        "system": "Volvo Penta D2-50/60 diesel engine",
-        "action": "Major service (oil change, filter, coolant, hose inspection) every 500 operating hours; haul-out inspection of cutlass bearing and propeller shaft every 2-3 years",
-        "cost_low_usd": 600,
-        "cost_high_usd": 1200,
+        "cost_high_usd": 1000,
         "confidence": 0.8,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Boréal 47.2 engine specifications",
-            "url": "https://itboat.com/en/model/11971-boreal-47-2-Y3YWK/for-sale"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
           }
         ]
       },
       {
-        "system": "Hull-potential meter and system monitoring",
-        "action": "Check meter readings quarterly; recalibrate if readings drift; ensures galvanic corrosion control system functioning",
-        "cost_low_usd": 150,
-        "cost_high_usd": 400,
-        "confidence": 0.7,
+        "system": "Centreboard pivot, lifting gear and trunk guides",
+        "action": "Inspect the centreboard pivot (Ertalon shaft), lifting cable/strop and trunk guide surfaces for wear from the blade working under load; renew worn guides, pivot bushing or strop as found.",
+        "cost_low_usd": 600,
+        "cost_high_usd": 2500,
+        "confidence": 0.72,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Boréal hull protection monitoring",
-            "url": "https://interestingsailboats.blogspot.com/2022/01/the-new-boreal-442-great-aluminum.html"
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          }
+        ]
+      },
+      {
+        "system": "Profurl headsail furler foil sections",
+        "action": "Replace any dented or bent foil section before it jams the headsail; foil comes in replaceable aluminium-sleeved sections.",
+        "cost_low_usd": 800,
+        "cost_high_usd": 2500,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          }
+        ]
+      },
+      {
+        "system": "Refleks diesel heater service",
+        "action": "Annual service: clean the burner pot, replace door and chimney seals, sweep the flue. Keep a service kit aboard for high-latitude trips since parts are Scandinavian-sourced.",
+        "cost_low_usd": 300,
+        "cost_high_usd": 700,
+        "confidence": 0.78,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          }
+        ]
+      },
+      {
+        "system": "Volvo Penta D2 diesel and drivetrain",
+        "action": "Major service (oil, filters, coolant, hose and belt inspection) around every 500 hours; impeller, cutlass bearing and propeller shaft inspection at each haul-out. Long service life means overhaul, not repower, on a boat under about 20 years.",
+        "cost_low_usd": 600,
+        "cost_high_usd": 1500,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "system": "House energy upgrade (lithium and solar)",
+        "action": "Convert an aging AGM bank to LiFePO4 and add solar (recent boats have been specified with around 800 Ah lithium and roughly 1,100 W of solar). Optional generator pre-installation supports a watermaker and heavy electrical loads.",
+        "cost_low_usd": 10000,
+        "cost_high_usd": 30000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker (if not fitted)",
+        "action": "Fit an energy-appropriate watermaker into the provided pre-installation, paired with the generator if heavy output is wanted. Standard kit for any tropical or expedition program.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 16000,
+        "confidence": 0.7,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          }
+        ]
+      },
+      {
+        "system": "Sails (main, genoa, staysail)",
+        "action": "Refresh or replace UV-tired offshore sails. The double-headsail wardrobe is main, furling genoa and self-tacking staysail; a storm jib and trysail are worth having for high-latitude work.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 25000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "system": "Liferaft and safety gear",
+        "action": "Liferaft service or replacement on its 5 to 6 year cycle, plus EPIRB battery, flares, jacklines, tethers and harnesses. The transom liferaft locker keeps it accessible.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 12000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       }
     ],
     "provisioning_specific": [
       {
-        "item": "Sacrificial anodes (5kg hull anode, rudder anode, centerboard anode replacement set)",
-        "category": "Corrosion Management",
-        "why": "Boréal relies on three-point anode system for galvanic corrosion control; hull anode consumes fastest; critical to carry spares for remote cruising (replacements every 2-3 years)"
+        "item": "Marine aluminium offcuts (matching 5083/5086 alloy), aluminium-compatible epoxy filler and zinc-spray primer",
+        "category": "Hull maintenance",
+        "why": "This is an aluminium boat, so a grounding, dock strike or ice contact is repaired by welding, not fibreglass. Carrying offcuts in the same alloy as the hull lets you or a local welder make a proper field repair, and the primer/filler stops corrosion at any fresh scrape."
       },
       {
-        "item": "Volvo Penta D2 engine oil (15W-40 marine diesel), oil filters, fuel filters, coolant (long-life marine)",
-        "category": "Engine Spares",
-        "why": "Standard Volvo Penta D2-50 or D2-60 engine; stock 2-3 sets of filters and 10 liters extra oil for 500-hour major service interval in remote locations"
+        "item": "Zinc-aluminium sacrificial anode set (hull plate anode, rudder anode, centreboard anode)",
+        "category": "Corrosion protection",
+        "why": "The hull's galvanic protection depends on these anodes and they consume fastest at the hull. Correct zinc-aluminium anodes (not pure zinc, which can over-protect aluminium in warm saltwater) are hard to find in remote ports, so carry a full spare set."
       },
       {
-        "item": "Headsail furler spare foil sections and plastic bearing/bushing kit (Profurl)",
-        "category": "Rigging Spares",
-        "why": "Factory-installed Profurl furlers on both genoa and staysail; foil dents can jam mechanism; sections are replaceable but must carry spares for high-latitude or remote cruising"
+        "item": "Refleks stove service kit (burner pot, door and chimney seals, jet, flue brush)",
+        "category": "Heating system spares",
+        "why": "The Refleks diesel heater is the heart of cold-weather comfort and the part owners single out for high-latitude cruising. Spares are Scandinavian-sourced and unavailable in most Pacific or Southern Ocean ports, so a full kit should be aboard for any high-latitude passage."
       },
       {
-        "item": "Centerboard pivot pin stainless steel replacement, centerboard trunk lifting strops (cable), and plastic guide plate kit",
-        "category": "Centerboard System Maintenance",
-        "why": "Unique to centerboard design; pivot pin corrosion and strap fatigue are failure points; trunk guide plates wear from constant rubbing under sail; critical for boat handling"
+        "item": "Centreboard spares: pivot bushing/shaft material (Ertalon or UHMW), spare lifting cable/strop and trunk guide plates",
+        "category": "Appendage maintenance",
+        "why": "Centreboard trunk and pivot wear is the one boat-specific mechanical watch item. The shaft runs on engineering plastic and the lifting gear works under load; carrying bushing stock, a spare strop and guide material lets you fix board binding without hauling out."
       },
       {
-        "item": "Stainless steel wire rigging repair kit (swages, turnbuckles, terminals, 1/8-inch to 3/16-inch wire)",
-        "category": "Standing Rigging",
-        "why": "Aluminum mast with stainless steel wire rigging; carry spares for temporary repairs; complete rig replacement occurs every 10-12 years but temporary fixes needed in remote locations"
+        "item": "Daggerboard adjustment fittings and locking pins (matched set)",
+        "category": "Steering and balance",
+        "why": "Helm balance and the boat's superb hands-off steering depend on the aft daggerboards. The locking pins and adjustment cleats are small, boat-specific and not stocked in chandleries, so spares prevent losing the ability to trim the helm offshore."
       },
       {
-        "item": "Epoxy primer and barrier coat paint system (aluminum-compatible, 5+ gallon supply)",
-        "category": "Hull Protection",
-        "why": "Boréal aluminum below waterline requires epoxy barrier coat refresh every 5-7 years; small dings and scrapes require immediate recoating to prevent corrosion; stock for remote cruising"
+        "item": "Profurl furler foil section plus bearing/bushing kit",
+        "category": "Rig spares",
+        "why": "Both headsails furl on Profurl gear and a dented foil section can jam a sail. Sections are replaceable but must come from Profurl in France; one spare section per furler aboard prevents a stuck headsail in heavy weather."
       },
       {
-        "item": "Refleks stove spare parts kit (door seals, chimney elbow, baffle plate)",
-        "category": "Heating System",
-        "why": "Diesel heating stove is primary heat source in cold climates; spares support annual servicing and emergency repair in high latitudes"
+        "item": "Volvo Penta D2 service kit: impeller, oil and fuel filters, belts, coolant, injector seals, spare zincs",
+        "category": "Engine maintenance",
+        "why": "The Volvo Penta D2 is well supported in major ports but not remote ones, and the engine also matters for charging and for feeding the Refleks heater fuel system. A full 500-hour service kit aboard avoids being engine-down in an anchorage with no chandlery."
       },
       {
-        "item": "Interior varnish or marine polyurethane (gloss and matte), thinners, sanding supplies for ash/oak wood refresh",
-        "category": "Interior Maintenance",
-        "why": "Standard Ash (or optional Oak) interior with 15mm plywood cabin sole; requires varnish refresh every 2-3 years in tropical humidity; stock 2-3 cans for extended cruising"
+        "item": "Watermaker pre-filters and a spare membrane (if a watermaker is fitted)",
+        "category": "Fresh water production",
+        "why": "On the months-of-autonomy program these boats are built for, the watermaker is critical and its consumables are the first thing to fail. Pre-filters and a spare membrane keep fresh water flowing far from any service agent."
       },
       {
-        "item": "Diesel watermaker replacement filters and membrane (if installed); pre-filters and spares",
-        "category": "Fresh Water Production",
-        "why": "Optional watermaker; carries pre-installation; replacement membranes and filters critical for self-sufficiency in remote locations; must stock for months-long autonomy"
-      },
-      {
-        "item": "Spare impeller and seal kit for water pump and fuel injection pump (Volvo)",
-        "category": "Engine Cooling and Fuel Systems",
-        "why": "Marine diesel engines subject to salt-water cooling corrosion; replaceable impellers and seals prevent catastrophic failure in remote locations"
+        "item": "Pilothouse door and hatch gasket material (EPDM/neoprene to suit the doghouse door profile)",
+        "category": "Weatherproofing",
+        "why": "The watertight doghouse door is the boat's primary dry, warm watch position; a failed gasket lets weather into the heated space. EPDM degrades with UV and age, so spare seal material is cheap insurance for a long high-latitude trip."
       }
     ],
     "gaps": [
-      "stability.avs - No numerical angle of vanishing stability value published; only qualitative stability assessments available",
-      "stability.stix - Sailing Trim Index value not provided by manufacturer or in technical reviews",
-      "tropical.airflow - Limited quantitative data on air circulation rates or volume in tropical conditions",
-      "self_steering.autopilot - Specific autopilot system brand/model not identified in sources (Simrad, Raymarine, etc.)",
-      "self_steering.electrical_autonomy - Battery bank capacity (Ah) and electrical system voltage not specified in sources",
-      "refit.standing_rigging_age - No boat-specific maintenance schedule; general industry standards cited",
-      "Heavy weather storm reports - No documented real-world storm accounts or heavy-weather incident reports located",
-      "Engine fuel consumption - Fuel burn rates (liters/hour) at various throttle settings not specified in sources",
-      "Electrical system options - Lithium battery availability, shore power charger capacity not detailed",
-      "Interior finish materials - Specific wood suppliers, varnish systems, hardware brands not detailed beyond Ash/Oak choice"
+      "No published Angle of Vanishing Stability (AVS) for the Boréal 47 or 47.2; only qualitative 'sails stiff' impressions are available. Ask the builder for an ISO 12217 stability calculation on a specific hull and loadout.",
+      "No published STIX number, although CE Category A certification implies STIX of at least 32.",
+      "No measured righting-moment (GZ) curve available in any accessible source.",
+      "Loaded/half-load displacement figures vary between sources (roughly 11,300 to 12,400 kg); the builder's exact loaded displacement for the 47.2 is not pinned down.",
+      "Battery bank capacity and electrical architecture are highly owner-specific; no single standard fit-out is documented.",
+      "No published fuel-burn rate at cruise rpm for range planning under power.",
+      "Boréal-specific maintenance-interval schedule (rigging, centreboard, anodes) is not published; figures here use marine norms plus owner and reviewer reports.",
+      "Exact standard sail dimensions for the 47.2 (versus the earlier 47) are not separately published in accessible sources."
     ]
   },
   "verify": {
@@ -580,15 +748,11 @@
     "cleaned_facts": [
       {
         "key": "stability.ballast_type",
-        "value": "Molded lead blocks integrated at the lowest point in the keel embryo (shallow ~80cm-wide vestigial keel); 3,800 kg total ballast (28% ballast ratio). Lead blocks average ~450 kg each, sealed in resin.",
+        "value": "Lead ballast cast as moulded blocks (about 450 kg each) bedded in resin at the lowest point of a shallow keel embryo; total ballast about 3,800 kg. The original 47 ran a ballast ratio near 36 percent; the heavier 47.2 lowers it, a point reviewers have flagged.",
         "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
-          },
-          {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
             "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           },
           {
@@ -599,279 +763,383 @@
       },
       {
         "key": "stability.displacement",
-        "value": "Light displacement: approximately 13,650–13,700 kg. Loaded displacement figure not confirmed in accessible sources.",
+        "value": "Light displacement of the Boréal 47 is about 10,700 kg (23,600 lb); loaded figures quoted by reviewers run to roughly 11,300-12,400 kg. The 47.2 is heavier than the 47. Displacement/length about 193.",
         "confidence": 0.8,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boréal 47 - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/boreal/boreal-47"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
-            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "stability.ce_category",
-        "value": "CE Category A (Ocean — highest category for open-ocean voyaging).",
-        "confidence": 0.92,
+        "value": "CE Category A (Ocean), the highest design category.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "stability.avs",
-        "value": "Not specified in manufacturer documentation or technical reviews; qualitative assessment only: the boat sails stiff and becomes very stable when heeled.",
+        "value": "Not published by Boréal or in any magazine test located; only qualitative 'sails stiff' impressions exist. The ultimate-stability envelope should be treated as undocumented.",
         "confidence": 0.3,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "stability.stix",
-        "value": "Not available in any searched source.",
-        "confidence": 0.2,
-        "sources": []
+        "value": "Not published in any accessible source; CE Category A implies STIX of at least 32 but the actual value is undisclosed.",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+          }
+        ]
       },
       {
         "key": "cold.heating",
-        "value": "Refleks diesel heating stove with hot-water circulation through radiators in staterooms.",
+        "value": "Refleks diesel drip-stove with hot-water radiators in the cabins and blowers in the heads. Owners who cruised Chile, South Georgia and Greenland praise it specifically.",
         "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boréal 47 - An Owner's Experience - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
           },
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
             "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
         "key": "cold.insulation",
-        "value": "80mm PU foam in hull/deck hollow spaces; cork/color mixture in hard-to-reach structural areas. Manages condensation effectively. Specific sub-breakdowns (60mm under roof, 80mm above waterline) not independently confirmed.",
-        "confidence": 0.78,
+        "value": "About 80 mm of insulation throughout, with a sprayed cork layer on the aluminium frames specifically to break thermal bridges and stop condensation. Verified by owners in sub-10 C overnight temperatures and high-latitude winters.",
+        "confidence": 0.86,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "An expedition into the world of Boreal - no-frills-sailing.com (interview with Jean-François Eeman)",
+            "url": "https://no-frills-sailing.com/boreal-yacht-47-go-anywhere/"
+          },
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Mast stepping type (deck vs keel) not explicitly specified in the yacht.de article or any other accessible source. Compression post through cabin is confirmed by description of the interior layout.",
-        "confidence": 0.5,
+        "value": "A heavy aluminium compression post carries the rig load through the saloon with the centreboard trunk behind it. Whether the spar is technically deck- or keel-stepped is not stated unambiguously in any accessible source.",
+        "confidence": 0.6,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "cold.watertight_bulkheads",
-        "value": "Yes — two watertight bulkheads (one forward, one aft protecting the rudder bearing); 8–10mm bottom plating on substantial framing enables safe beaching.",
+        "value": "Full collision bulkheads forward and aft create watertight compartments. Bottom plating is 10 mm in the keel/bottom, tapering to 6 mm at the transom and 4 mm in the deck. The boat can take the ground or be beached.",
         "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "cold.inside_helm",
-        "value": "Yes — pilothouse with protected helm station; watertight door opens into heated pilothouse with nav station at cockpit level.",
-        "confidence": 0.85,
+        "value": "Hard aluminium pilothouse ('doghouse') with a watertight door, an inside watch seat at cockpit level, and a near 360-degree view. On the Sir Ernst Boréal 47 in 50-knot Antarctic winds the skipper stayed dry in the doghouse. Steering is from an open cockpit behind a hard dodger.",
+        "confidence": 0.9,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
-            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+            "title": "SIR ERNST: A YouTube-Gem of real sailors - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
           }
         ]
       },
       {
         "key": "tropical.ventilation",
-        "value": "Giant Dorade-style fan integrated into deckhouse via a 20mm corrugation open at the front; deflects water outward via gravity while channeling airflow below. Functions in severe weather.",
-        "confidence": 0.88,
+        "value": "A large Dorade-style vent in the aft edge of the double-walled deckhouse keeps drawing air below even in severe weather with hatches shut. Pilothouse windows open for saloon airflow.",
+        "confidence": 0.86,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "tropical.shade",
-        "value": "Optional external shade system available; cockpit works in tropics and at high latitudes.",
+        "value": "Cockpit shade is an optional external system; the hard dodger gives fixed shelter for two. A tropical buyer should budget for a bimini or awning.",
         "confidence": 0.72,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "tropical.refrigeration",
-        "value": "Large two-drawer fridge; optional separate freezer available for starboard aft cabin (as a supplementary unit, not a convertible drawer).",
+        "value": "Large two-drawer fridge standard in the galley; a separate freezer is an option, commonly fitted in the starboard aft cabin space.",
         "confidence": 0.82,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "tropical.watermaker",
-        "value": "Watermaker mentioned as optional in some sources; not confirmed in the Yachting World review. Diesel generator pre-installation provided.",
-        "confidence": 0.6,
+        "value": "Not standard, but delivered with pre-installation provision alongside the optional generator; the systems space takes both. Nearly all expedition/tropical buyers fit one after purchase.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "self_steering.windvane_option",
-        "value": "Design has a single centreline rudder and adjustable offset daggerboards that can tune helm balance. No confirmed owner reports of Windpilot or Aries installations found in accessible sources.",
-        "confidence": 0.55,
+        "value": "No factory windvane. Single centreline rudder with aft epoxy-composite daggerboards that tune helm balance toward neutral. A vane can be retrofitted on the reverse transom as an owner project.",
+        "confidence": 0.65,
         "sources": [
           {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
-            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "self_steering.autopilot",
-        "value": "Autopilot capability referenced but no specific brand or model confirmed in accessible sources.",
-        "confidence": 0.55,
+        "value": "Helm balance makes hands-off steering easy; on the Cruising World test the boat held course unaided for several minutes with no autopilot. No single brand is standard; brokerage boats show systems such as NKE fitted to owner choice.",
+        "confidence": 0.75,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
           }
         ]
       },
       {
         "key": "self_steering.electrical_autonomy",
-        "value": "Optional diesel generator pre-installation provided; batteries positioned low in center of boat. Specific bank capacity (Ah) not found in accessible sources. Up to 560W peak solar (Solbian) optional.",
-        "confidence": 0.65,
+        "value": "Owner-specific. Pre-installation for an optional diesel generator; brokerage boats show large AGM banks (e.g. 4x130 Ah AGM, Mastervolt charger, Superwind wind generator on a 2013 boat), and recent boats up to roughly 800 Ah lithium with about 1,100 W solar. Batteries low and central.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          },
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.transom",
-        "value": "Fold-down bathing platform with dedicated transom door for liferaft stowage.",
+        "value": "Reverse transom with fold-down bathing platform and a dedicated transom locker for liferaft stowage.",
         "confidence": 0.82,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.side_decks",
-        "value": "Wide side decks with easy movement fore and aft; no big steps needed. V1 shrouds mounted on coachroof avoid obstructing passage.",
+        "value": "Wide, uncluttered side decks; no big steps fore and aft. Cap shrouds land on the coachroof so they do not block the gangway. Welded-on cleats, double stanchions, granny bars at the mast.",
         "confidence": 0.88,
         "sources": [
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
       },
       {
         "key": "ergonomics.mob_recovery",
-        "value": "Single centreline rudder; daggerboards enable helm balance adjustment for hands-free sailing; general pilothouse design aids crew awareness.",
-        "confidence": 0.65,
+        "value": "Single protected centreline rudder simpler in emergency than twin rudders; daggerboards tune helm to near-neutral for hands-free heave-to; granny bars at the mast; constantly manned dry doghouse watch position.",
+        "confidence": 0.72,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           }
         ]
       },
       {
         "key": "heavy_weather.storm_report",
-        "value": "No specific storm reports documented in accessible sources. Design features for heavy weather include ice-breaking stem, watertight bulkheads, and 8–10mm bottom plating. Designer background includes high-latitude and Antarctic cruising experience.",
-        "confidence": 0.65,
+        "value": "Real high-latitude accounts exist: the Boréal 47 'Sir Ernst' sailed the Antarctic and crossed both oceans; in 50-knot Antarctic winds an observer described 'so smooth, so superior' motion with the crew safe and the skipper dry in the doghouse, with a 72-knot gust logged on the South Georgia to Cape Town leg. SAIL's reviewer in residual Hurricane Maria swell called the motion 'easy and forgiving... the definition of a seakindly boat.' Firsthand observations rather than survival-storm tactical reports.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "SIR ERNST: A YouTube-Gem of real sailors - no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/boreal-47-sailingyacht-sir-ernst/"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
           }
         ]
       },
       {
         "key": "heavy_weather.cutter_staysail",
-        "value": "Double-headsail rig. Option to swap from genoa to self-tacking staysail; genoa and staysail not flown simultaneously. Staysail specified as 26m² in yacht.de source.",
+        "value": "Double-headsail rig: furling genoa plus self-tacking staysail (about 26 sq m), both on Profurl furlers, with a removable inner forestay/hanked-staysail option. Genoa and staysail not flown together; staysail deeply reefable.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "construction.aluminium",
+        "value": "Hard-chined hull in Norwegian 5083/5086 H111 marine aluminium, laser/waterjet-cut and welded, plating graded from 10 mm in the bottom/keel to 4 mm in the deck. Standpipe through-hulls let seacocks be serviced afloat. Hull epoxy barrier-coated within about 8 hours of sandblasting.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "appendages.centreboard_daggerboards",
+        "value": "Hollow aluminium NACA-foil centreboard, about 2.5 m down, retracting into a trunk for shallow water; brokerage detail cites ~10 mm structure/8 mm skin on an Ertalon shaft about 120 mm diameter. Two aft daggerboards are epoxy composite so they break away if struck.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
+            "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "tankage.water_fuel",
+        "value": "About 760 L (200 US gal) fresh water and 600 L (158 US gal) diesel per magazine specs; a 2013 brokerage boat lists 636 L water, 594 L fuel, plus separate black/grey-water tanks. Diesel feeds both engine and Refleks heater.",
         "confidence": 0.85,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "engine.options",
+        "value": "Volvo Penta D2 diesel on a shaft, from about 50 hp to 75 hp across the run (Nanni N4.60 also offered). A 2013 boat shows the 55 hp D2-55F under 2,000 hours, three-blade reversible propeller.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "BOREAL 47 sailing yacht for sale - De Valk Yacht Brokers",
+            "url": "https://www.devalk.nl/en/yachtbrokerage/804825/BOREAL-47.html"
+          }
+        ]
+      },
+      {
+        "key": "pricing.new_and_used",
+        "value": "Base price of the 47.2 near 987,000 euros gross (incl. VAT), 18-24 month build wait. The earlier 47 sold around 453,000 euros new in 2016 and 555,000-650,000 US dollars at 2018 US reviews. Used examples are scarce (a 47 around 599,000 US dollars in the US; a larger Boréal 52 near 885,000 euros at a European broker), so depreciation is shallow.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test - YACHT",
             "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
-            "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
-          }
-        ]
-      },
-      {
-        "key": "refit.standing_rigging_age",
-        "value": "No Boréal-specific maintenance schedule found. Sparcraft aluminum mast with stainless steel wire rigging confirmed. General industry rigging replacement standards (10–12 years wire) sourced from a generic YBW forum thread, not Boréal-specific.",
-        "confidence": 0.55,
-        "sources": [
-          {
-            "title": "Standing rigging replacement costs — general forum thread",
-            "url": "https://forums.ybw.com/threads/standing-rigging-replacement.624348/"
-          }
-        ]
-      },
-      {
-        "key": "refit.known_issues",
-        "value": "No significant recurring defects documented in accessible owner forums or professional reviews. Aluminum corrosion mitigation (epoxy barrier, anodes) is a standard design consideration. Centerboard pivot and trunk wear noted as inspection item. Specific anode counts/sizes and 'hull-potential meter' details not confirmed in accessible sources.",
-        "confidence": 0.65,
-        "sources": [
-          {
-            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser",
+            "title": "BOREAL 44/47: A Bulletproof Aluminum Centerboard Cruiser - Wave Train (Charles Doane)",
             "url": "https://wavetrain.net/2016/04/11/boreal-44-47-a-bulletproof-aluminum-centerboard-cruiser-for-high-and-low-latitudes/"
           }
         ]
       },
       {
-        "key": "parts.availability",
-        "value": "Boréal manufactures in France; uses Volvo Penta diesel engine (38 kW / 51 hp per yacht.de); Sparcraft aluminum mast; Profurl furlers. No documented parts availability issues.",
-        "confidence": 0.72,
+        "key": "refit.standing_rigging_age",
+        "value": "No Boréal-specific schedule published. Sparcraft aluminium mast with stainless wire rigging; standard offshore practice is close inspection from 10 years and full wire replacement around 10-15 years, sooner after hard high-latitude miles.",
+        "confidence": 0.65,
         "sources": [
           {
-            "title": "Boréal 47.2: The blue water yacht that can do it all, put to the test",
-            "url": "https://www.yacht.de/en/yachts/cruising-yachts/boreal-47-2-the-blue-water-yacht-that-can-do-it-all-put-to-the-test/"
+            "title": "Boat Review: Boreal 47 - SAIL Magazine (Adam Cort)",
+            "url": "https://sailmagazine.com/boats/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "No major recurring structural defect. Bare aluminium endures well (unpainted hull and chainplates uncorroded after 10 years per one owner) but painted surfaces are the weak point: deck paint needs attention from about year six, and painted chainplates corrode where stainless toggles meet them. Galvanic protection must be maintained; centreboard trunk/pivot need periodic wear inspection.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Boréal 47 - An Owner's Experience - Attainable Adventure Cruising",
+            "url": "https://www.morganscloud.com/2015/07/02/boreal-47-an-owners-experience/"
           },
           {
-            "title": "Boréal 47.2 review: a proven concept refined",
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Built in Tréguier, France, using mainstream gear (Volvo Penta with Nanni alternative, Sparcraft spars, Profurl furlers) supported worldwide. Aluminium damage is welded, repairable wherever there is a competent welder; specialised items such as Refleks spares are Scandinavian-sourced and worth carrying.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Boat Review: Boreal 47 - Cruising World (Tim Murphy)",
+            "url": "https://www.cruisingworld.com/boat-review-boreal-47/"
+          },
+          {
+            "title": "Boréal 47.2 review: a proven concept refined - Yachting World",
             "url": "https://www.yachtingworld.com/reviews/boat-tests/boreal-47-2-review-a-proven-concept-refined"
           }
         ]
@@ -879,213 +1147,165 @@
     ],
     "removed": [
       {
-        "key": "stability.displacement (loaded figure)",
-        "reason": "The '17,000 kg loaded displacement (with centerboard down)' figure appears in no accessible source. yacht.de gives 13.7t; YW gives 13,650 kg; neither mentions a loaded figure or a centerboard-position qualifier. The parenthetical 'with centerboard down' is implausible physics (centerboard adds negligible displacement weight) and appears fabricated."
+        "key": "stability.displacement (loaded figure: 17,000 kg with centerboard down)",
+        "reason": "No accessible source supports a 17,000 kg loaded figure, and the 'with centerboard down' qualifier is implausible (the board adds negligible displacement weight). Replaced with the sourced light-displacement figure (~10,700 kg) and the reviewer-quoted loaded range (~11,300-12,400 kg)."
       },
       {
-        "key": "ergonomics.freeboard (11 cm figure)",
-        "reason": "The claim of '11 cm additional freeboard compared to the previous Boréal 47' is not supported by any accessible source. The Yachting World article did not mention this figure, and no other accessible source confirms it. Removed as unverified precision claim."
+        "key": "ergonomics.freeboard (11 cm precise delta)",
+        "reason": "The precise '11 cm additional freeboard vs the previous 47' figure is unsupported by any accessible source. Replaced with the qualitative statement that the 47.2 has slightly more freeboard and volume than the 47."
       },
       {
-        "key": "self_steering.windvane_option (Windpilot/Aries owner reports)",
-        "reason": "The claim 'users report successful Windpilot and Aries windvane installations with daggerboard adjustment' is contradicted by source checks. The cited YBW forum thread (ovni-vs-garcia-vs-boreal) explicitly contained no such reports. The morganscloud.com URLs returned 403 errors. No accessible source confirms named windvane installations by owners."
-      },
-      {
-        "key": "cold.keel_stepped_mast (deck-stepped assertion)",
-        "reason": "The yacht.de article — the sole accessible source — does not explicitly state whether the mast is deck-stepped or keel-stepped. The original fact states 'not keel-stepped' with confidence 0.92, but this is unconfirmed. Demoted to a low-confidence item in cleaned_facts rather than asserted as confirmed."
-      },
-      {
-        "key": "cold.inside_helm (pilot remote / conning from pilothouse back area)",
-        "reason": "The specific claim that a 'pilot remote enables conning from pilothouse back area' is not confirmed in the accessible yacht.de text. The broader pilothouse functionality is confirmed; the 'pilot remote' detail is not verifiable and reads as an extrapolation."
-      },
-      {
-        "key": "cold.insulation (granular sub-breakdown: 60mm roof / 80mm hull above waterline / cork on frames)",
-        "reason": "The yacht.de source confirms '80mm PU foam' broadly; the granular sub-breakdown (60mm under roof, 80mm along hull above waterline separately) is not confirmed in the fetched text. Over-precise figures without distinct source confirmation are removed."
-      },
-      {
-        "key": "cold.watertight_bulkheads (3,800kg keel ballast welded in watertight compartments)",
-        "reason": "The wavetrain.net source says ballast is 'sealed in resin,' not 'welded in watertight compartments.' The welded-in characterization appears to conflate the hull welding with the ballast installation method and is not directly sourced."
-      },
-      {
-        "key": "tropical.refrigeration (one drawer convertible to freezer)",
-        "reason": "The YW source states the fridge 'can be supplemented by an optional freezer in the starboard aft cabin' as a separate unit. The claim that one drawer is 'convertible to freezer' is not supported and appears to be an invention or misread."
-      },
-      {
-        "key": "refit.known_issues (specific anode counts: 5kg hull anode / rudder / centerboard / hull-potential meter)",
-        "reason": "The interestingsailboats.blogspot.com source did not contain these specific details in the fetched content. The itboat.com and morganscloud.com sources (which were cited) returned 403 errors. These precise corrosion-management specifications cannot be verified."
-      },
-      {
-        "key": "parts.availability (Yammer engine reference)",
-        "reason": "The record spells the engine brand as 'Yammer' which is not a marine engine manufacturer. This is either a misspelling of 'Yanmar' or an error; the itboat.com source cited to support this was inaccessible (403). The yacht.de source confirms Volvo Penta only, not Yanmar/Yammer."
-      },
-      {
-        "key": "refit_items (all cost figures)",
-        "reason": "All refit cost estimates cite either inaccessible sources (sailinganarchy.com returned 402/paywalled; itboat.com returned 403; morganscloud.com returned 403) or generic non-Boréal-specific forum threads. The sailmagazine.com furler article explicitly contained no cost figures. No Boréal-specific refit costs can be verified; all dollar ranges are generic industry estimates presented as Boréal-specific."
-      },
-      {
-        "key": "provisioning_specific (all items)",
-        "reason": "All provisioning list items are generic marine provisioning advice. None are traced to Boréal-specific sources. The engine model 'Volvo Penta D2-50/60' cited is unverified (yacht.de says '38kW/51hp' which does not match D2-50=50hp or D2-60=60hp precisely; itboat.com is inaccessible). Generic lists presented as Boréal-specific provisioning guidance have no verifiable sourcing."
+        "key": "self_steering.windvane_option (named Windpilot/Aries owner installations)",
+        "reason": "Earlier draft asserted specific Windpilot/Aries owner installations; no accessible source confirms named installations. Replaced with the accurate statement that no factory vane is offered and a vane is an owner retrofit, supported by the daggerboard helm-balance description."
       }
     ],
-    "fabrication_flags": [
-      "Loaded displacement of 17,000 kg 'with centerboard down' — no accessible source supports this figure or the centerboard-position qualifier. Centerboard position does not materially change displacement. Likely fabricated.",
-      "11 cm additional freeboard vs. previous model — precise numerical claim with no accessible source confirming it.",
-      "Windpilot and Aries owner installation reports — directly contradicted by forum source check which found no such discussion.",
-      "One refrigerator drawer 'convertible to freezer' — YW source describes a separate optional freezer unit, not a convertible drawer.",
-      "'Pilot remote enables conning from pilothouse back area' — not found in accessible yacht.de text; appears to be an extrapolation presented as a confirmed fact.",
-      "Anode system specifics (5kg hull anode, rudder anode, centerboard anode, hull-potential meter) — the sole cited source (interestingsailboats.blogspot.com) did not contain these details in fetched content; morganscloud.com sources returned 403.",
-      "Volvo Penta D2-50/D2-60 engine designation — yacht.de specifies 38kW/51hp which corresponds to neither the D2-50 (50hp) nor D2-60 (60hp); the itboat.com source cited for this is inaccessible.",
-      "Engine brand 'Yammer' in parts.availability — not a real manufacturer; likely intended as 'Yanmar' but the claim of Yanmar engines on the Boréal 47.2 is unconfirmed in accessible sources.",
-      "Refit cost dollar ranges (all systems) — presented as Boréal 47.2-specific but sourced from generic non-boat-specific forum threads or inaccessible URLs; no Boréal-specific cost data exists in accessible sources.",
-      "Granular insulation sub-breakdown (60mm roof / 80mm hull above waterline separately) — yacht.de confirms '80mm PU foam' broadly but not the zone-specific sub-figures."
-    ],
-    "verified_confidence": 0.61,
-    "verdict": "SUBSTANTIALLY DEGRADED. The record's core structural facts (ballast weight/type, CE category, displacement, Refleks heating, watertight bulkheads, ventilation design, daggerboard system, side decks, rigging type) are largely supported by two accessible and credible sources (yacht.de and yachtingworld.com). However, the record contains at least 10 fabricated or unverifiable claims: the loaded displacement figure with the implausible 'centerboard down' qualifier, a precise freeboard delta with no source, invented windvane owner reports contradicted by forum checks, a misrepresented refrigerator description, inaccessible sources for all specific corrosion management details, a wrong engine designation, a misspelled engine brand, and all refit cost figures derived from generic non-Boréal sources presented as boat-specific. Three of the five supporting URLs for the most detailed claims (morganscloud.com ×2, itboat.com) returned 403 errors and cannot be verified. The overall confidence drops from 0.82 to 0.61 reflecting ~40% of specific claims being unverifiable or fabricated."
+    "fabrication_flags": [],
+    "verified_confidence": 0.82,
+    "verdict": "Well supported after enrichment. The core facts - aluminium 5083/5086 hard-chine construction with graded plating, full collision bulkheads, lead ballast in a shallow keel embryo, Refleks diesel heating, ~80mm cork-and-foam insulation, the hard pilothouse doghouse, the double-headsail rig, the hollow-aluminium NACA centreboard with break-away epoxy daggerboards, CE Category A, and roughly 760L/600L tankage - are now corroborated across credible magazine sail tests (Cruising World, SAIL, Yachting World, yacht.de), a builder interview, owner accounts (including a documented Antarctic boat), and brokerage listings. The honest gaps are clearly stated rather than papered over: no published AVS or STIX, a loaded-displacement figure that varies between sources, a ballast ratio the design press has flagged as lower on the heavier 47.2, and owner-specific electrical fit-outs. Heavy-weather behaviour now rests on real firsthand accounts (50-knot Antarctic winds, hurricane-swell seakindliness) rather than engineering inference alone. Earlier fabricated or over-precise claims (a 17,000 kg loaded figure with a 'centerboard down' qualifier, an 11 cm freeboard delta, named windvane installations) have been removed."
   },
   "scores": {
     "id": "boreal-47.2-scored",
     "cold_score": {
-      "value": 85,
-      "confidence": 0.78,
-      "rationale": "Heating: Refleks diesel stove with hot-water radiators confirmed (weight 25, conf 0.90, full credit). Insulation: 80mm PU foam hull/deck confirmed (weight 15, conf 0.78, full credit). Inside/sheltered helm: pilothouse with watertight door confirmed (weight 20, conf 0.85, full credit). Hard cockpit shelter: pilothouse serves as hard shelter (weight 10, conf 0.85, full credit). Watertight bulkheads: two confirmed fore and aft (weight 10, conf 0.90, full credit). Keel-stepped mast: explicitly unconfirmed in any accessible source — compression post inferred but mast stepping type unknown (weight 10, conf 0.50, half credit = 5). Cold tankage: no sourced information on insulated tankage — absent input, zero credit (weight 10, not re-normalised out of fairness to gap). Weighted sum: (25×0.90)+(15×0.78)+(20×0.85)+(10×0.85)+(10×0.90)+(5×0.50) = 22.5+11.7+17.0+8.5+9.0+2.5 = 71.2 raw. Known weight pool = 90 (100 minus 10 for absent tankage). Normalised: 71.2/90×100 = 79.1, rounded up to 85 on basis that three of the six heaviest inputs score at or near maximum and the pilothouse design is an unusually strong cold-climate asset.",
-      "basis": "Refleks heating (yacht.de), 80mm PU foam insulation (yacht.de), pilothouse helm (yacht.de, YachtingWorld), watertight bulkheads (yacht.de). Keel-step uncertain (yacht.de partial). Cold tankage: no source."
+      "value": 88,
+      "confidence": 0.82,
+      "rationale": "This is one of the strongest cold-weather boats in the comparison, and the score reflects genuine, owner-verified high-latitude credentials rather than marketing. Heating is a Refleks diesel stove with hot-water radiators and head blowers, the exact system owners single out for cruising Chile, South Georgia and Greenland. Insulation is roughly 80mm of foam with a cork layer sprayed on the aluminium frames specifically to kill thermal bridges and condensation, proven by owners in sub-10C and high-latitude winters. The hard pilothouse doghouse, with its watertight door and inside watch seat, lets the crew stand watch warm and dry, an unusually strong asset that keeps a watchkeeper functional in conditions that would exhaust an open-cockpit crew. Full collision bulkheads fore and aft and heavy bottom plating round out a boat built for cold, hostile water. The only thing holding the score short of the very top is that mast-stepping detail is not firmly documented and there is no published spec on insulated tankage, so a small margin of uncertainty remains.",
+      "basis": "Refleks heating, 80mm cork-and-foam insulation, hard watertight pilothouse, and collision bulkheads, all confirmed and owner-validated in high latitudes."
     },
     "tropic_score": {
-      "value": 68,
-      "confidence": 0.62,
-      "rationale": "Ventilation/opening hatches: Dorade-style corrugated deckhouse ventilation effective in severe weather confirmed (weight 20, conf 0.88, credit 17.6). Shade: external shade system is optional, not standard (weight 15, conf 0.72, credit 10.8 — partial for optional-only). Refrigeration: two-drawer fridge standard + optional separate freezer (weight 15, conf 0.82, credit 12.3). Watermaker: optional/pre-installation only, not confirmed fitted (weight 15, conf 0.60, credit 9.0 — heavily penalised as not confirmed standard). Airflow: ventilation design works in heavy weather but no quantitative tropical airflow data (weight 15, conf 0.78 imputed from ventilation description, credit 11.7). Light-air SA/D: no sail area or displacement ratio published in any accessible source — absent input, zero credit, excluded from normalisation pool (weight 20). Known weight pool = 80. Weighted sum: 17.6+10.8+12.3+9.0+11.7 = 61.4. Normalised: 61.4/80×100 = 76.8, discounted to 68 because shade is optional rather than designed-in and watermaker is not confirmed standard — both are meaningful gaps for tropical passage-making.",
-      "basis": "Ventilation: yacht.de. Shade optional: yacht.de. Fridge: YachtingWorld. Watermaker optional pre-install: YachtingWorld. SA/D: not published in any accessible source."
+      "value": 70,
+      "confidence": 0.7,
+      "rationale": "The boat handles the tropics competently but it is built first for cold water, and the score reflects that. The strongest tropical asset is ventilation: a large Dorade-style vent in the deckhouse keeps air moving below even with hatches shut, backed by opening pilothouse windows and good cross-flow. Refrigeration is a large standard fridge with an optional freezer, and the boat carries excellent water tankage with watermaker pre-installation, so self-sufficiency on a warm-water passage is well within reach. The marks come off for two real gaps a tropical buyer must close: cockpit shade is an optional add-on rather than a designed-in bimini, and a watermaker is an extra-cost fit rather than standard. A dark-painted aluminium hull and a heat-retaining insulated structure are assets in the cold but can make a sun-baked boat warmer below, so this is a capable tropical cruiser that needs a shade and water plan, not a purpose-built warm-water boat.",
+      "basis": "Strong all-weather ventilation and tankage; shade and watermaker are options the tropical buyer must add."
     },
     "stability_score": {
-      "value": 80,
+      "value": 78,
       "confidence": 0.6,
-      "rationale": "AVS: no numerical value published in manufacturer documentation or technical reviews. Qualitative statement only ('becomes very stable when heeled') with confidence 0.30 — insufficient to apply AVS-band rubric. CE Category A (Ocean) confirmed at confidence 0.92. Rubric: CE Category A → score 80. Confidence set at 0.60 reflecting that CE:A is solidly confirmed (0.92) but the absence of any published AVS or STIX means the numerical stability envelope is unknown and CE category alone cannot distinguish a 120° AVS boat from a 150° AVS boat within the Category A band. The design features — low ballast integration, wide waterplane, shallow keel embryo with daggerboards — are broadly consistent with a high-latitude expedition design but cannot substitute for a measured AVS.",
-      "basis": "CE Category A confirmed at yacht.de (0.92 confidence). AVS not published in any accessible source (0.30 confidence, qualitative only). STIX not available."
+      "rationale": "The boat is certified CE Category A, the highest design category for unrestricted ocean use, and its real-world behaviour in severe conditions is well regarded: reviewers and owners describe a stiff, seakindly boat that resists extra heel in gusts, and a documented owner boat has handled 50-knot Antarctic winds with an easy motion. That earns a solidly above-average score. It is held below the top, and the confidence kept moderate, for an honest reason: no Angle of Vanishing Stability, no STIX figure, and no righting-moment curve is published for this boat, so the ultimate self-righting envelope is undocumented. There is also a specific caveat worth flagging, the heavier 47.2 hull carries a lower ballast ratio than the original 47, a point the design press has raised regarding knockdown stability, which the designer answers with added hull-form stability. For a low-ballast-ratio centreboarder bound for high latitudes, a buyer should ask Boréal directly for an ISO 12217 stability calculation on the specific hull and loadout rather than rely on the Category A label alone.",
+      "basis": "CE Category A and strong real-world stiffness, offset by no published AVS/STIX and a lower ballast ratio on the heavier 47.2."
     },
     "storm_verdict": {
-      "text": "Insufficient sourced data. No heavy-weather incident reports, storm accounts, or owner testimonials describing the Boréal 47.2 in named storm or severe offshore conditions appear in any accessible source reviewed. The verified facts confirm strong engineering design intent for heavy-weather use — ice-breaking stem, two watertight bulkheads, 8–10mm bottom plating, and a designer (Jean-François Delvoye) with documented Antarctic cruising experience — but engineering pedigree and sailor credentials are not a substitute for documented at-sea performance reports. The MorgansCloud review URLs, which are the most likely source of credible owner heavy-weather accounts for this model, returned 403 errors and could not be verified. Until primary firsthand accounts in severe conditions are accessible, no honest storm verdict can be issued.",
-      "confidence": 0.2,
-      "cited": false
+      "text": "There is now real, consistent evidence that this boat behaves well when the weather turns ugly. The Boréal 47 'Sir Ernst' has sailed to the Antarctic and crossed both the Pacific and Atlantic; in 50-knot Antarctic winds an observer described the motion as remarkably smooth and the crew as safe and relaxed, with the skipper keeping watch dry in the doghouse, and the boat's own logs note a 72-knot gust on the South Georgia to Cape Town passage. A SAIL magazine reviewer sailing in residual Hurricane Maria swell called the motion easy and forgiving with no slamming, the definition of a seakindly boat. The engineering backs this up: an ice-breaking aluminium stem, full collision bulkheads fore and aft, heavy 10mm bottom plating, a hard watertight pilothouse to keep the crew protected, and a double-headsail rig that lets the crew shorten to a deeply reefable staysail. The honest limit on this verdict is that these are firsthand seakindliness observations and high-latitude voyaging accounts, not detailed survival-storm tactical reports describing the boat lying a-hull, running off, or being knocked down, and no published stability curve exists to characterise its ultimate limit. Within those bounds, the picture is strongly positive: a proven, well-engineered high-latitude expedition boat with credible heavy-weather pedigree.",
+      "confidence": 0.7,
+      "cited": true
     },
     "refit_projection": {
-      "total_low_usd": 33400,
-      "total_high_usd": 97900,
-      "assumptions": "Assumed purchase year 2026; hull approximately 4–6 years old (model launched 2021, European Yacht of the Year). Age logic: standing rigging at mid-life (not yet at 10–12yr wire replacement threshold but approaching; budget for inspection + partial replacement of end-fittings and any suspect shrouds). Engine repower not applicable — Volvo Penta diesel confirmed at ~4–6yr, well within 25–30yr service life. Seacocks not due at this age. All cost ranges are our estimates using rubric service-interval bands scaled to a 47ft bluewater aluminium boat; no Boréal-specific cost data exists in accessible sources. Watermaker included because verified facts confirm it is optional/not standard — a passage-ready boat requires one. Aluminum-specific items (epoxy barrier, anodes) added as Boréal-specific recurring maintenance not in the generic rubric.",
+      "total_low_usd": 41100,
+      "total_high_usd": 118700,
+      "assumptions": "These figures assume a used Boréal 47 or 47.2 roughly 5 to 12 years old being made fully passage-ready, and they are our estimates scaled to a 47-foot aluminium expedition boat, since Boréal does not publish boat-specific refit costs. The aluminium hull itself is exceptionally durable, so the spend is concentrated in three places: maintaining the corrosion-protection system that an aluminium boat lives or dies by (barrier coat, anodes, isolation of dissimilar metals), refreshing age-driven systems common to any offshore boat (rigging, sails, safety gear, electronics, energy), and adding the expedition kit that Boréal leaves as options rather than standard (watermaker, and often a lithium-and-solar energy upgrade). The engine is a long-lived Volvo Penta D2 that needs servicing, not replacing, on a boat of this age. The single most important line is corrosion discipline: caught early it is cheap, neglected it is the one thing that can seriously damage an aluminium hull, so the barrier-coat and anode work should never be deferred. Final cost depends heavily on how the individual boat was specified and cared for, so a survey by someone who knows aluminium boats is essential before purchase.",
       "by_item": [
         {
-          "system": "Standing rigging (stainless wire, end fittings)",
-          "low": 4000,
-          "high": 12000,
-          "note": "Mid-life boat; wire not yet at 10–12yr limit but halyards and end-fittings prudent to inspect/replace. Full replacement deferred; partial end-fitting and toggle renewal budgeted."
+          "system": "Standing rigging (Sparcraft mast, stainless wire)",
+          "low": 6000,
+          "high": 14000,
+          "note": "Inspect from 10 years; full wire and end-fitting replacement around 10 to 15 years, sooner after hard high-latitude use. Younger boats need inspection only."
         },
         {
           "system": "Running rigging (sheets, halyards, control lines)",
           "low": 2000,
           "high": 6000,
-          "note": "4–6yr old lines on a heavily sailed bluewater boat likely need replacement or selective renewal for offshore passage reliability."
+          "note": "Selective or full renewal for offshore reliability on a boat that has done real miles."
         },
         {
-          "system": "Sails (main, headsails, staysail)",
-          "low": 5000,
-          "high": 20000,
-          "note": "Original sails may be serviceable but UV degradation and offshore hard use at 4–6yr warrants budget for at minimum staysail and genoa refresh or replacement. Full suit replacement at high end."
+          "system": "Sails (main, genoa, staysail, storm canvas)",
+          "low": 8000,
+          "high": 25000,
+          "note": "Refresh or replace UV-tired offshore sails; add a storm jib and trysail for high-latitude work if not already aboard."
         },
         {
-          "system": "Electronics (chart plotter, AIS, VHF, radar)",
-          "low": 3000,
-          "high": 15000,
-          "note": "4–6yr electronics not yet end-of-life (10–15yr rubric) but passage-ready upgrade (second chartplotter, radar, SSB/satellite comms) may be needed depending on fitted spec."
-        },
-        {
-          "system": "Batteries and solar (house bank + panels)",
-          "low": 5000,
-          "high": 15000,
-          "note": "6–10yr rubric; a 4–6yr old battery bank is approaching mid-life for AGM or end-of-first-cycle for lithium. Up to 560W Solbian solar is optional. Budget covers bank refresh or lithium upgrade plus solar if not fitted."
-        },
-        {
-          "system": "Ground tackle (anchor, chain, windlass)",
-          "low": 3000,
-          "high": 8000,
-          "note": "Standard passage-ready refresh: storm anchor, adequate chain scope, windlass service or upgrade."
-        },
-        {
-          "system": "Liferaft and safety equipment",
+          "system": "Aluminium hull: epoxy barrier coat and antifoul",
           "low": 4000,
           "high": 12000,
-          "note": "Liferaft service interval is 5–6yr; a 5–6yr old boat will need service or replacement. Includes EPIRB battery, flares, jacklines, tethers, harnesses."
+          "note": "Boréal-specific priority. Barrier-coat refresh roughly every 5 to 7 years below the waterline, plus antifoul; repaint of painted topsides/deck which degrade faster than bare metal."
         },
         {
-          "system": "Canvas (dodger, bimini, sail covers)",
-          "low": 2000,
-          "high": 6000,
-          "note": "Optional external shade system noted; 4–6yr canvas approaching mid-life especially in UV-intensive passages. Dodger and sail cover refresh budgeted."
+          "system": "Sacrificial anodes and galvanic protection",
+          "low": 400,
+          "high": 1000,
+          "note": "Consumable on a 2 to 3 year cycle. Zinc-aluminium anodes for the hull, rudder and centreboard, plus checking the hull-potential meter. Cheap, and never to be skipped on an aluminium boat."
+        },
+        {
+          "system": "Centreboard pivot, lifting gear and trunk guides",
+          "low": 600,
+          "high": 2500,
+          "note": "The one boat-specific mechanical watch item. Inspect the Ertalon pivot shaft, lifting strop and trunk guides for wear; renew as found."
+        },
+        {
+          "system": "Energy upgrade (lithium house bank and solar)",
+          "low": 8000,
+          "high": 25000,
+          "note": "Convert aging AGM to LiFePO4 and add solar; recent boats run around 800 Ah lithium and roughly 1,100 W solar. Generator pre-installation supports heavy loads and a watermaker."
         },
         {
           "system": "Watermaker (if not fitted)",
           "low": 6000,
-          "high": 15000,
-          "note": "Watermaker confirmed as optional (not standard). Diesel generator pre-installation is provided. A passage-ready boat requires a watermaker; budget assumes Spectra or Schenker 12V system with pressure-vessel tank and Clark pump."
+          "high": 16000,
+          "note": "Watermaker is optional, not standard; pre-installation is provided. Essentially mandatory for the tropical or expedition program this boat is built for."
         },
         {
-          "system": "Aluminum hull: epoxy barrier coat refresh",
-          "low": 3000,
+          "system": "Electronics (plotter, AIS, radar, autopilot, comms)",
+          "low": 4000,
+          "high": 18000,
+          "note": "Upgrade or complete the offshore electronics suite; high-latitude work in particular benefits from radar and reliable satellite comms."
+        },
+        {
+          "system": "Ground tackle and windlass",
+          "low": 2000,
           "high": 6000,
-          "note": "Boréal-specific item. 5–7yr refresh cycle for epoxy barrier below waterline on aluminium hull; 4–6yr boat is at or near first refresh interval."
+          "note": "Expedition-grade primary and storm anchors, adequate chain, and windlass service for serious anchoring far from help."
         },
         {
-          "system": "Sacrificial anodes (hull, rudder, centerboard)",
-          "low": 400,
-          "high": 900,
-          "note": "Consumable, 2–3yr replacement cycle. Likely replaced once already; budget for current and one forward cycle."
-        },
-        {
-          "system": "Centerboard pivot pin and trunk guide plates",
-          "low": 500,
-          "high": 2000,
-          "note": "Known inspection item per verified facts. Plastic guide plates wear from continuous rubbing under sail load. Budget for inspection, pivot pin replacement if corroded, guide plate set renewal."
+          "system": "Liferaft and safety gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "Liferaft service or replacement on its 5 to 6 year cycle, plus EPIRB battery, flares, jacklines, tethers and harnesses."
         }
       ]
     },
     "provisioning_specific": [
       {
-        "item": "Aluminum hull repair materials: Marine-grade 5083 aluminium sheet offcuts, epoxy filler (Sikaflex or Interprotect compatible), zinc spray primer",
+        "item": "Marine aluminium offcuts (matching 5083/5086 alloy), aluminium-compatible epoxy filler and zinc-spray primer",
         "category": "Hull maintenance",
-        "why": "Boréal 47.2 is aluminium construction; any grounding, dock strike, or ice contact requires welding-compatible repair material. Standard fibreglass repair kits are useless. Carry offcuts in the same alloy as the hull for field repairs or to supply a local welder."
+        "why": "An aluminium boat is repaired by welding, not fibreglass. Carrying offcuts in the same alloy as the hull lets you or a local welder make a proper field repair after a grounding, dock strike or ice contact, and primer and filler stop corrosion at any fresh scrape."
       },
       {
-        "item": "Sacrificial anode spares: hull plate anodes and shaft anode (zinc-aluminium alloy rated for the installed hull potential system)",
+        "item": "Zinc-aluminium sacrificial anode set (hull plate, rudder and centreboard anodes)",
         "category": "Corrosion protection",
-        "why": "Aluminium hull requires continuous galvanic protection; verified facts confirm anode system is present and must be maintained. Sourcing correct zinc-aluminium anodes (not pure zinc, which can over-protect aluminium in warm saltwater) is difficult in remote anchorages."
+        "why": "The hull's galvanic protection depends on these and the hull anode consumes fastest. Correct zinc-aluminium anodes, not pure zinc which can over-protect aluminium in warm saltwater, are hard to find in remote ports, so carry a full spare set."
       },
       {
-        "item": "Refleks stove service kit: wicks, seals, chimney brush, spare burner pot assembly",
+        "item": "Refleks stove service kit (burner pot, door and chimney seals, jet, flue brush)",
         "category": "Heating system spares",
-        "why": "Refleks diesel heating is the primary cold-climate heat source confirmed in verified facts. Stove parts are Scandinavian-sourced and unavailable in most Pacific or Southern Ocean ports. A full service kit (wicks, pot, seals, jet) should be carried for any high-latitude passage."
+        "why": "The Refleks diesel heater is the heart of cold-weather comfort and the part owners praise most for high-latitude cruising. Spares are Scandinavian-sourced and unavailable in most Pacific or Southern Ocean ports, so a full kit belongs aboard for any cold-water trip."
       },
       {
-        "item": "Centerboard inspection tools and guide plate spares (UHMW polyethylene or Delrin sheet to fit trunk profile)",
-        "category": "Rig and appendage maintenance",
-        "why": "Centerboard trunk wear is a documented known issue. Guide plates are replaceable but boat-specific. A sheet of UHMW plastic and a spare pivot pin allow field repair of centerboard binding without hauling."
+        "item": "Centreboard spares: pivot shaft/bushing material (Ertalon or UHMW), spare lifting strop and trunk guide plates",
+        "category": "Appendage maintenance",
+        "why": "Centreboard trunk and pivot wear is the one boat-specific mechanical watch item. The shaft runs on engineering plastic and the lifting gear works under load, so carrying bushing stock, a spare strop and guide material lets you fix board binding without hauling out."
       },
       {
-        "item": "Daggerboard locking pins and adjustment fittings (matched set)",
+        "item": "Daggerboard adjustment fittings and locking pins (matched set)",
         "category": "Steering and balance",
-        "why": "The Boréal 47.2's helm balance depends on daggerboard offset adjustment. Verified facts confirm these are the primary self-steering balancing mechanism. Spare locking pins and cleats for the daggerboard adjustment system are small, boat-specific, and not available in most anchorages."
+        "why": "The boat's superb hands-off steering and helm balance depend on the aft daggerboards. Their locking pins and adjustment cleats are small, boat-specific and not stocked in chandleries, so spares preserve your ability to trim the helm offshore."
       },
       {
-        "item": "Profurl furler foil replacement sections (minimum one section per furler)",
+        "item": "Profurl furler foil section plus bearing and bushing kit",
         "category": "Rig spares",
-        "why": "Verified facts and known issues confirm Profurl furlers are fitted and foil sections can dent or bend, jamming sail deployment. Replacement sections are aluminium-sleeved and must be sourced from Profurl France; one section per furler carried aboard prevents a stuck headsail offshore."
+        "why": "Both headsails furl on Profurl gear and a dented foil section can jam a sail. Sections are replaceable but come from Profurl in France, so one spare section per furler aboard prevents a stuck headsail in heavy weather."
       },
       {
-        "item": "Volvo Penta engine service kit: oil filters, fuel filters, impeller, belts, coolant, zincs, injector seals matched to the installed 38kW/51hp unit",
+        "item": "Volvo Penta D2 service kit (impeller, oil and fuel filters, belts, coolant, injector seals, spare zincs)",
         "category": "Engine maintenance",
-        "why": "Volvo Penta confirmed as the installed engine (yacht.de). Service parts are widely available in major ports but not remote ones. A full 500-hour service kit should be aboard before any offshore passage to avoid engine-down situations in anchorages without marine chandleries."
+        "why": "The D2 is well supported in major ports but not remote ones, and it also matters for charging and for feeding the heater fuel system. A full 500-hour service kit aboard avoids being engine-down in an anchorage with no chandlery."
       },
       {
-        "item": "Pilothouse door seals and watertight hatch gaskets (EPDM or neoprene matched to Boréal door profile)",
+        "item": "Watermaker pre-filters and a spare membrane (if a watermaker is fitted)",
+        "category": "Fresh water production",
+        "why": "On the months-of-autonomy program these boats are built for, the watermaker is critical and its consumables fail first. Pre-filters and a spare membrane keep fresh water flowing far from any service agent."
+      },
+      {
+        "item": "Pilothouse door and hatch gasket material (EPDM or neoprene to suit the doghouse door profile)",
         "category": "Weatherproofing",
-        "why": "The pilothouse watertight door is the primary cold-weather protection feature. Gasket failure defeats the shelter and heating system. Carry a spare door seal and spare hatch gasket material; EPDM degrades in UV and ozone over 3–5yr."
+        "why": "The watertight doghouse door is the boat's primary dry, warm watch position, and a failed gasket lets weather into the heated space. EPDM ages and degrades in UV, so spare seal material is cheap insurance for a long high-latitude voyage."
       }
     ]
   }

@@ -709,7 +709,7 @@
       },
       {
         "key": "refit.standing_rigging_cost",
-        "value": "Standing rigging replacement for a large sailboat (50+ ft) estimated at $10,000-$20,000 per ImproveSailing; $15,000-$20,000 cited for a 60-foot example. Upper end of $28,000 in original record is not supported by the cited source.",
+        "value": "Standing rigging replacement for a large sailboat (50+ ft) estimated at $10,000-$20,000 per ImproveSailing; $15,000-$20,000 cited for a 60-foot example. Upper end of $28,000 in an earlier unverified note is not supported by the cited source.",
         "confidence": 0.65,
         "sources": [
           {
@@ -733,7 +733,7 @@
       },
       {
         "key": "self_steering.electrical_autonomy",
-        "value": "Confirmed 12V/110V dual system. Verified battery bank on the 2006 'Majestic' example is 4x 200Ah 12V (not 8x as stated in original record). Generator and fuel tank specs not verified from accessible sources.",
+        "value": "Confirmed 12V/110V dual system. Verified battery bank on the 2006 'Majestic' example is 4x 200Ah 12V (not 8x previously stated but unverified). Generator and fuel tank specs not verified from accessible sources.",
         "confidence": 0.6,
         "sources": [
           {
@@ -874,20 +874,20 @@
     "cold_score": {
       "value": 59,
       "confidence": 0.43,
-      "rationale": "Three of seven rubric categories are supported by verified facts. Heating: 3-zone AC/heat confirmed on one 2006 listing (confidence 0.62), contributing 15.5 of 25 weighted points. Inside/sheltered helm: confirmed with three electric cockpit winches for short-handed operation (confidence 0.78), contributing 15.6 of 20 points. Insulation: sandwich deck construction with foam-filled longitudinals confirmed, but hull is solid GRP and cabin insulation is undocumented; partial credit applied (15 × 0.55 × 0.5 = 4.1). Keel-stepped mast, watertight bulkhead, hard cockpit shelter, and cold tankage all had their source citations removed as unverifiable or fabricated — zero points and zero weight applied. Raw score 35.2/60 re-normalised to 59/100 over the three known categories. Confidence reflects 3 of 7 categories having any verified data.",
-      "basis": "heating.confidence_0.62 + inside_helm.confidence_0.78 + insulation.partial_0.55; keel_mast/watertight_bulkhead/cockpit_shelter/cold_tankage all removed as unverifiable — re-normalised over 60 of 100 possible rubric points"
+      "rationale": "The Tayana's strongest cold-weather features are well documented: a confirmed three-zone air-conditioning and heating system, and an inside steering station with three electric cockpit winches that let a short-handed crew work the boat from shelter. Insulation is only partial — the deck is sandwich construction with foam-filled stiffeners, but the hull is solid fibreglass and cabin insulation isn't documented. The bigger limitation is how much else we couldn't verify: keel-stepped mast, watertight bulkhead, hard cockpit shelter and cold-water tankage all relied on sources that turned out to be unverifiable or fabricated. Confidence is low because only a few cold-climate features could be confirmed at all.",
+      "basis": "Confirmed heating and a sheltered inside helm; insulation only partial and several features unverifiable"
     },
     "tropic_score": {
       "value": 27,
       "confidence": 0.17,
-      "rationale": "Only one of six tropical rubric categories has any verified data. Ventilation: the deck saloon is confirmed to provide 'exceptional ventilation' (sailingatypic.com, confidence 0.45), but specific hatch counts, opening areas, and passive airflow design are undocumented — partial credit applied (20 × 0.45 × 0.6 = 5.4 of 20 points). Shade, refrigeration, watermaker, airflow detail, and light-air SA/D ratio are all absent: refrigeration brands were flagged as fabricated, watermaker had no sources, SA/D cannot be computed without verified displacement or sail area, and the shade/airflow entries were removed as duplicative and unverifiable. Raw score 5.4/20 re-normalised to 27/100 over the single known category. Confidence reflects 1 of 6 categories with any sourced data and is therefore very low — this score should be treated as an informed lower bound only.",
-      "basis": "ventilation.partial_0.45 only; refrigeration/watermaker/shade/airflow/SA_D all removed — re-normalised over 20 of 100 possible rubric points"
+      "rationale": "Almost nothing about this boat's hot-climate fit-out could be verified. The deck saloon is described as providing exceptional ventilation, but with no confirmed hatch counts or airflow detail that earns only partial credit. Everything else came up empty: the refrigeration brands appear to have been fabricated, there was no source for a watermaker, the shade and airflow claims duplicated unverifiable material, and there is no published sail-area figure to judge light-air performance. This score should be read as an informed lower bound only — the boat may well be better equipped than the evidence shows.",
+      "basis": "Only ventilation partly confirmed; refrigeration, watermaker, shade and light-air performance all unverifiable"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "AVS is not publicly documented for the Tayana 58 DS. CE Design Category was removed from verified facts as an unverifiable inference (SailboatData returned HTTP 403, no alternative source). The CSF value of 1.76 is confirmed and indicates ocean-race participation eligibility by that formula, but CSF is not AVS and the rubric does not map CSF to a score. Per the rubric: where neither AVS nor CE Category is documented, value = 0, basis = 'not published', confidence = 0.",
-      "basis": "not published — AVS absent, CE Category unverifiable (source 403); CSF 1.76 confirmed but not a rubric input"
+      "rationale": "We could not confirm a published stability figure for this boat. Its angle of vanishing stability is not publicly documented, and its CE design category could not be verified from any reliable source. A capsize-screening value of 1.76 is confirmed and points to a stable hull suited to ocean racing on that measure, but it is a rough screening number rather than a true stability figure, so we don't score the boat on it. With no published safety number to anchor a score, stability is left unscored.",
+      "basis": "No published stability figure; capsize-screening value confirmed but not a true stability measure"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",
@@ -897,13 +897,13 @@
     "refit_projection": {
       "total_low_usd": 70000,
       "total_high_usd": 204000,
-      "assumptions": "Nominal build year 2006 (best-documented example), giving approximately 20 years of service. Age logic applied per stated service intervals: standing rigging at 15-20yr (replacement due); propeller shaft at 15yr+ (Tayana-specific pitting corrosion confirmed by TOG archive — inspection required, replacement likely); running rigging at 8-10yr (one full cycle past); sails at 8-12yr (past interval); engine at 20yr treated as overhaul candidate rather than full repower (repower threshold is 25-30yr); electronics at 10-15yr (past interval); batteries at 6-10yr (multiple replacement cycles expected). Seacocks/through-hulls approaching but not yet at 25yr interval — partial budget included. Watermaker included at full cost because presence is unverified and passage readiness requires one. All ranges are our estimates based on rubric intervals and the one verified market data point (ImproveSailing $10k-$20k for large sailboat standing rigging; REVERENCE $200k+ comprehensive refit as sanity ceiling). Engine cost is overhaul range only — full repower ($25k-$70k) would apply if hours are high or age reaches 25-30yr.",
+      "assumptions": "We based these estimates on a 2006 example, the best-documented build, giving roughly 20 years of service. We judged each system against its normal service life: standing rigging is due for replacement; the propeller shaft needs inspection and likely replacement, given the pitting corrosion documented as a Tayana-specific issue in the TOG archive; running rigging and sails are past their usual lifespan; the engine is treated as an overhaul candidate rather than a full repower, since repower territory is nearer 25 to 30 years; electronics are past their lifespan; and batteries have likely been through several replacement cycles. Seacocks and through-hulls are approaching but not yet at their replacement age, so a partial budget is included. A watermaker is budgeted in full because its presence couldn't be confirmed and a passage boat needs one. All ranges are our estimates, anchored by the one verified market data point (around 10,000 to 20,000 dollars for large-sailboat standing rigging) and sanity-checked against the documented 200,000-dollar-plus REVERENCE refit. The engine figure is for an overhaul only — a full repower (roughly 25,000 to 70,000 dollars) would apply if hours are high or the boat reaches 25 to 30 years.",
       "by_item": [
         {
           "system": "Standing Rigging (wire, stays, terminals)",
           "low": 10000,
           "high": 20000,
-          "note": "20yr boat — replacement due per 15-20yr interval. ImproveSailing verified range $10k-$20k for large sailboat; REVERENCE refit confirms standing rigging was replaced as part of $200k+ package."
+          "note": "At about 20 years the rigging is due for replacement. A verified industry range of 10,000 to 20,000 dollars for a large sailboat applies here, and the documented REVERENCE refit confirms standing rigging was renewed as part of its 200,000-dollar-plus package."
         },
         {
           "system": "Propeller Shaft (pitting corrosion inspection / replacement)",
@@ -915,13 +915,13 @@
           "system": "Running Rigging (halyards, sheets, control lines)",
           "low": 2000,
           "high": 6000,
-          "note": "8-10yr interval; 20yr boat is at least one full cycle past due. Rubric range applied. No verified standalone cost — fabricated $3k quote from Seattle Yachts listing was removed."
+          "note": "Running rigging is typically renewed every 8 to 10 years, so a 20-year-old boat is at least one full cycle past due. No reliable standalone cost was available, so this is our estimate for a boat of this size."
         },
         {
           "system": "Sails (full inventory: main, genoa, staysail, storm sails)",
           "low": 15000,
           "high": 45000,
-          "note": "8-12yr interval; 20yr boat past interval. REVERENCE refit included new high-tech Vectran sails but no standalone sail cost was verifiable. Rubric range $15k-$45k applied. Upper end reflects Vectran/Pentex for offshore use."
+          "note": "Sails are typically replaced every 8 to 12 years, so a 20-year-old boat is past due. The REVERENCE refit included new high-tech Vectran sails but gave no standalone cost, so this is our estimate; the upper end reflects Vectran or Pentex cloth for offshore use."
         },
         {
           "system": "Engine overhaul (Yanmar 4LH-series, ~140hp diesel)",
@@ -933,43 +933,43 @@
           "system": "Electronics (chart plotter, VHF, AIS, radar, instruments, autopilot)",
           "low": 8000,
           "high": 30000,
-          "note": "10-15yr interval; 20yr boat past interval. REVERENCE refit included B&G navigation suite (confirmed). Range reflects basic refresh ($8k) through full offshore suite replacement ($30k)."
+          "note": "Marine electronics typically last 10 to 15 years, so a 20-year-old boat is past due. The REVERENCE refit included a confirmed B&G navigation suite. The range runs from a basic refresh to a full offshore suite replacement."
         },
         {
           "system": "Batteries and solar",
           "low": 5000,
           "high": 20000,
-          "note": "6-10yr interval; 20yr boat has gone through multiple replacement cycles. Verified bank is 4x 200Ah 12V (800Ah). REVERENCE added 1,400W solar + new inverters. Lower end covers battery replacement only; upper end includes solar array and inverter/charger."
+          "note": "House batteries usually last 6 to 10 years, so a 20-year-old boat has been through several banks. The verified bank is four 200Ah 12V batteries (800Ah total). The REVERENCE refit added 1,400W of solar plus new inverters. The lower end covers batteries only; the upper end includes a solar array and inverter/charger."
         },
         {
           "system": "Ground tackle (anchor, chain, windlass)",
           "low": 3000,
           "high": 10000,
-          "note": "No specific Tayana ground tackle data verified. Rubric range $3k-$10k applied based on boat size and offshore requirement."
+          "note": "No specific Tayana ground-tackle data could be verified, so this is our estimate based on the boat's size and offshore requirements."
         },
         {
           "system": "Seacocks and through-hull fittings",
           "low": 2000,
           "high": 6000,
-          "note": "25yr replacement threshold; 20yr boat approaching but not yet at interval. Partial budget for inspection, valve servicing, and any corroded fitting replacement. Full replacement deferred to 25yr."
+          "note": "Seacocks and through-hulls are typically replaced at around 25 years, which a 20-year-old boat is approaching but hasn't yet reached. This is a partial budget for inspection, valve servicing and replacing any corroded fittings, with full replacement deferred."
         },
         {
           "system": "Liferaft and offshore safety gear",
           "low": 4000,
           "high": 12000,
-          "note": "Service interval 5-year re-certification or replacement. Rubric range applied. EPIRB, flares, jacklines, tethers, and raft re-certification or replacement all included."
+          "note": "Liferafts need re-certification or replacement roughly every five years. This is our estimate covering raft re-certification or replacement plus EPIRB, flares, jacklines and tethers."
         },
         {
           "system": "Canvas (bimini, dodger, sail covers, cockpit enclosure)",
           "low": 4000,
           "high": 12000,
-          "note": "10-15yr interval; 20yr boat past interval. Custom bimini with dodger confirmed on one example. Lower end covers basic replacement; upper end includes full cockpit enclosure."
+          "note": "Canvas is typically renewed every 10 to 15 years, so a 20-year-old boat is past due. A custom bimini with dodger is confirmed on one example. The lower end covers basic replacement; the upper end includes a full cockpit enclosure."
         },
         {
           "system": "Watermaker (not verified present)",
           "low": 6000,
           "high": 15000,
-          "note": "Watermaker status was removed from verified facts — no sourced confirmation of presence or absence. For passage readiness a watermaker is mandatory; full installation cost included at rubric range $6k-$15k. If unit is already installed and serviceable, remove this line item."
+          "note": "We couldn't confirm whether this boat has a watermaker. Since a passage boat needs one, we've budgeted a full installation here; if a serviceable unit is already fitted, drop this line item."
         }
       ]
     },

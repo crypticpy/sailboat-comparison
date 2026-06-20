@@ -797,7 +797,7 @@
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Aluminum mast with twin spreaders and in-mast furling mainsail (Mack Sails replacement documented on refit vessels). Mast step configuration (keel vs. deck) not explicitly confirmed in fetched sources.",
+        "value": "Aluminum mast with twin spreaders and in-mast furling mainsail (Mack Sails replacement documented on refit vessels). Mast step configuration (keel vs. deck) not explicitly confirmed in available sources.",
         "confidence": 0.7,
         "sources": [
           {
@@ -1120,19 +1120,19 @@
     "cold_score": {
       "value": 62,
       "confidence": 0.65,
-      "rationale": "Scored over known inputs only (65/100 weight coverage; insulation, keel-step config, and watertight bulkhead removed as unverifiable or fabricated). Heating confirmed (engine heat exchanger + 220V immersion, 25 pts). Inside helm absent — exposed center cockpit confirmed (0/20 pts). Hard cockpit shelter: bimini + dodger only, not hard shelter (5/10 pts). Cold tankage: 300 gal fuel, 300-340 gal water — exceptional (10/10 pts). Raw score 40/65 known weight, renormalized to 62/100. Confidence reflects 35% of rubric inputs missing from verified record.",
+      "rationale": "Cold-weather readiness rests on what could be confirmed. Cabin heating is verified — an engine heat-exchanger circuit plus a 220V immersion element. Tankage is exceptional for high-latitude self-sufficiency: roughly 300 gallons of fuel and 300–340 gallons of water. Against that, there is no inside or sheltered steering position — the center cockpit is exposed, with only a bimini and dodger rather than a hard shelter — and hull insulation, the keel-step configuration and any watertight bulkhead could not be confirmed from available sources. Confidence is moderate, reflecting that about a third of the cold-weather checklist remains unverified.",
       "basis": "Heating: cold.heating (pjyachts.com, curtisstokes.net); Inside helm absent: cold.inside_helm (curtisstokes.net); Hard shelter partial: tropical.shade (tecsew.com); Cold tankage: performance.tankage (cruisingworld.com specs, iphomeport.com)"
     },
     "tropic_score": {
       "value": 64,
       "confidence": 0.68,
-      "rationale": "Ventilation/airflow: 4 dorades confirmed (pjyachts.com); specific port/hatch counts removed as unverifiable (source returned 403) — partial credit only (10/20 ventilation, 9/15 airflow). Shade: bimini and dodger confirmed via Tecsew custom product listing (12/15). Refrigeration: dual Frigoboat top-loading fridge/freezer confirmed on multiple listings (15/15). Watermaker: optional not standard — documented on some vessels only; buyer cannot assume present (8/15). Light-air SA/D: both SA/D figures (17.6 CW, 15.81 YachtDatabase) conflict and were removed; cutter rig with staysail + yankee known; heavy displacement (39,000 lb) limits light-air performance — moderate score (10/20). Total 64. Confidence reduced for missing ventilation specifics and disputed SA/D.",
+      "rationale": "Tropical readiness is solid where it counts. Ventilation runs through four confirmed Dorade vents, though exact port and hatch counts are not confirmed in available sources. Shade comes from a bimini and dodger (Tecsew). Refrigeration is a real strength — a dual Frigoboat top-loading fridge and freezer documented on multiple listings. A watermaker is optional rather than standard, so a buyer cannot assume one is fitted. Light-air performance is the weak point: published SA/D figures conflict (17.6 vs 15.81) and the heavy ~39,000 lb displacement limits drive in light wind, though the cutter rig's staysail and yankee add flexibility. Confidence is reduced by the missing ventilation specifics and the disputed sail-area figures.",
       "basis": "Refrigeration: tropical.refrigeration (pjyachts.com, curtisstokes.net); Shade: tropical.shade (tecsew.com); Watermaker: tropical.watermaker (pjyachts.com, curtisstokes.net); Airflow partial: pjyachts.com dorade count; SA/D: removed (cruisingworld.com and yachtdatabase.com conflict); Rig type: heavy_weather.cutter_staysail (wellfoundyachts.com, curtisstokes.net)"
     },
     "stability_score": {
       "value": 80,
       "confidence": 0.72,
-      "rationale": "AVS not published by manufacturer in any accessible source — AVS scoring path cannot be applied. CE Category A (Ocean) is confirmed at 0.9 confidence from Grabau International listing quoting the CE certification directly. Rubric: CE Category A → 80. Confidence modestly reduced from 0.9 to 0.72 because CE Category A confirms the vessel meets the design standard for ocean use but does not independently verify the angular stability limit; no AVS figure, no STIX, and no sail-area-to-displacement ratio that could serve as a secondary check (both SA/D values conflict and were removed). Ballast ratio is 0.36-0.41 depending on source — healthy range for a full-keel cruiser but ratio alone does not determine AVS. Full-foil encapsulated keel with no external bolts is a positive structural note but does not change the rubric calculation.",
+      "rationale": "No Angle of Vanishing Stability figure is published for this boat in any available source, so the rating leans on the next-best evidence. CE Category A (Ocean) is confirmed — a Grabau International listing quotes the certification directly — which means the design meets the European standard for unrestricted offshore use. That is reassuring but not a substitute for a measured righting-arm limit: there is no published AVS, no STIX, and no usable sail-area-to-displacement cross-check (the two SA/D figures on record conflict). Ballast ratio sits in a healthy 0.36–0.41 range and the full-foil encapsulated keel with no external bolts is a structural plus, though neither fixes the angular stability limit. Confidence is moderate, reflecting the absence of a directly measured stability number.",
       "basis": "stability.ce_category (grabauinternational.com — CE Category A certified, confidence 0.9); stability.avs (not published, confirmed by yachtdatabase.com cross-check); stability.stix (not published); stability.keel_type (pjyachts.com — full foil encapsulated lead)"
     },
     "storm_verdict": {

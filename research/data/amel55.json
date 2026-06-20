@@ -3,7 +3,7 @@
   "_provenance": {
     "generated": "2026-06-20T09:22:14.056Z",
     "workflow": "research-workflow.js",
-    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored. Enriched 2026-06-20 with magazine tests (Yachting Monthly, boats.com), Amel Yacht School buying guide, Amel Yacht Owners community, and brokerage pricing."
   },
   "_models": {
     "research": "haiku",
@@ -17,8 +17,8 @@
     "facts": [
       {
         "key": "stability.ce_category",
-        "value": "Category A (Ocean) - certified for winds over Force 8 (34-40 knots) and significant wave heights 4m or more",
-        "confidence": 0.95,
+        "value": "Category A (Ocean) - the highest EU Recreational Craft Directive classification, intended for extended offshore passages in winds above Beaufort Force 8 and significant wave heights well above 4m. Designed by Berret-Racoupeau and built by Amel from roughly 2011 to 2018 as the last of the classic Amel ketches before the sloop-rigged Amel 50.",
+        "confidence": 0.9,
         "sources": [
           {
             "title": "AMEL 55 - sailboatdata",
@@ -32,12 +32,27 @@
       },
       {
         "key": "stability.ballast_type",
-        "value": "5,900 kg (13,007 lbs) cast iron keel with integrated gearbox; L-shaped keel with bulb; 27% ballast-to-displacement ratio",
-        "confidence": 0.95,
+        "value": "5,900 kg (13,007 lbs) cast iron keel, L-shaped with a bulb, giving a 27% ballast-to-displacement ratio. The keel is unusual: the propeller shaft runs through the elongated cast-iron keel, so the three-blade folding prop sits at the keel's trailing edge well forward of the rudder. This eliminates prop-walk but makes the boat slew when going astern.",
+        "confidence": 0.92,
         "sources": [
           {
             "title": "Amel 55 Boat Specifications - Boat-Specs.com",
             "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+          },
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ratios",
+        "value": "Capsize Screening Formula 1.75 (under 2.0 is desirable for offshore work), Comfort Ratio 38.66 (firmly in the moderate-to-heavy bluewater range), and SA/D ratio 15.58 (lightly canvased, confirming the boat's deliberately sedate, comfort-first character rather than performance). No published AVS or STIX number exists for the boat.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 55 - SailWiki",
+            "url": "https://sailwiki.com/yacht/amel-55/"
           },
           {
             "title": "AMEL 55 - sailboatdata",
@@ -47,65 +62,54 @@
       },
       {
         "key": "cold.heating",
-        "value": "Hydronic diesel furnace providing distributed heating throughout vessel; optional 220V Climma air conditioning with reverse cycle heat for individual cabins and saloon",
-        "confidence": 0.9,
+        "value": "Hydronic diesel furnace providing distributed warm-air heating throughout the boat, plus optional 220V Climma reverse-cycle air conditioning that also delivers heat to individual cabins and the saloon. Amel's design brief explicitly keeps cabin comfort high in cold climates, fitting heating, dishwasher and microwave as part of the standard liveaboard package.",
+        "confidence": 0.88,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
           },
           {
-            "title": "2015 Amel 55 - Asia Yachting",
-            "url": "https://asiayachting.net/yacht/amel-55-4229033/"
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "cold.insulation",
-        "value": "High-density insulating foam with interior coating; very efficient sound insulation in engine room area to maintain quiet in living spaces during diesel heating and power system operation",
-        "confidence": 0.85,
+        "value": "Hull is solid GRP below the waterline with a balsa-sandwich deck and coachroof; the boat is heavily insulated and sound-deadened, which keeps interior temperatures and noise levels comfortable. Exact insulation thickness is not published, and the balsa-cored deck is the structure most at risk of moisture ingress if deck fittings leak.",
+        "confidence": 0.6,
         "sources": [
           {
-            "title": "Amel 55 Heating System and Insulation",
-            "url": "https://swiftsureyachts.com/amel-55-cluv/"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           }
         ]
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Masts are deck-stepped (not keel-stepped) to massive compression assemblies that carry compression loads into the hull; two levels of swept-back spreaders",
-        "confidence": 0.9,
+        "value": "Both masts are deck-stepped, not keel-stepped. Compression loads are carried into the hull by laminated support pillars and chainplate tie-rods bonded to the structure, with two levels of swept-back spreaders. Because the masts do not penetrate the cabin, there is no keel-stepped cold bridge through the interior.",
+        "confidence": 0.85,
         "sources": [
           {
             "title": "Amel 55 Boat Specifications - Boat-Specs.com",
             "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
           },
           {
-            "title": "Amel 55 Ketch Rig Review",
-            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+            "title": "Amel 55 Boat Review - TradeABoat",
+            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           }
         ]
       },
       {
         "key": "cold.watertight_bulkheads",
-        "value": "5 watertight compartments with 2 interior watertight bulkheads; separation of accommodation from bow locker and lazarette; watertight engine room with access from all sides; internal bulkheads can be made watertight using clamps with special seals",
-        "confidence": 0.9,
+        "value": "Four watertight bulkheads divide the hull, separating the accommodation from the bow locker and the lazarette and isolating major compartments. This is a genuine collision and flooding safeguard and a long-standing Amel hallmark. (An earlier claim of five compartments and two bulkheads was traced to the different Amel 50 and corrected.)",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Amel 50 Design Features - Yachting World",
-            "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           },
-          {
-            "title": "Amel Yacht School Buying Guide",
-            "url": "https://www.amelschool.com/p/guide-to-acquiring-amel-yacht.html"
-          }
-        ]
-      },
-      {
-        "key": "cold.inside_helm",
-        "value": "Helmsman's station in enclosed wheelhouse with leather-covered stainless steel wheel; provides weather protection from cockpit",
-        "confidence": 0.85,
-        "sources": [
           {
             "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
@@ -113,55 +117,36 @@
         ]
       },
       {
-        "key": "tropical.ventilation",
-        "value": "Multiple hatches, portlights, and windows with screens; centerline window opens for excellent ventilation; eight hull side windows providing light and airflow; electric galley extractor hood with filter",
-        "confidence": 0.9,
+        "key": "cold.inside_helm",
+        "value": "Deep centre cockpit with a sheltered steering position, enclosed by either a canvas-top Cabriolet or a GRP hardtop. The hardtop version is the one to look for on a world-cruising boat: it keeps the helm and the whole cockpit dry and protected in cold or wet weather. Sail handling is done from the helm via electric furlers and winches, so the crew stays under cover.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Amel 55 - VIVACE - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-vivace/"
+            "title": "Amel 55 Boat Review - TradeABoat",
+            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           },
           {
-            "title": "Amel 55 Ventilation Review",
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Numerous opening hatches, portlights and hull windows give good cross-flow, and an electric extractor hood ventilates the galley. The enclosed cockpit can be opened up for airflow in port. Some specific window-count claims could not be verified, but the general standard of natural ventilation is well regarded.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Amel 55 boat review",
             "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "tropical.shade",
-        "value": "Enclosed cabriolet or hardtop cockpit available; hardtop version recommended for world cruising; provides sun and rain protection",
+        "value": "The enclosed cockpit (Cabriolet canvas or GRP hardtop) provides full sun and rain protection at the helm and over the cockpit table. The hardtop is the recommended option for tropical cruising because it shades the cockpit permanently without the maintenance and UV degradation of canvas.",
         "confidence": 0.85,
         "sources": [
-          {
-            "title": "Amel 55 Cockpit Design - TradeABoat Review",
-            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
-          }
-        ]
-      },
-      {
-        "key": "tropical.refrigeration",
-        "value": "Comprehensive cooling: two drawer-style fridges (typically 150L each), front-loading 24V stainless steel fridge, large capacity freezer under settee bench, additional deep freezer in saloon - dual or triple capacity options",
-        "confidence": 0.9,
-        "sources": [
-          {
-            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-cluv/"
-          },
-          {
-            "title": "Amel 55 - VIVACE - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-vivace/"
-          }
-        ]
-      },
-      {
-        "key": "tropical.watermaker",
-        "value": "160 L/h Dessalator watermaker standard (100-250 L/h variants available depending on configuration); 220V powered",
-        "confidence": 0.85,
-        "sources": [
-          {
-            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-cluv/"
-          },
           {
             "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
@@ -169,20 +154,87 @@
         ]
       },
       {
-        "key": "tropical.airflow",
-        "value": "Excellent natural ventilation through multiple hatches, windows, and centerline opening; electric extractor hood in galley; tropical AC optional with reverse cycle heat capability",
-        "confidence": 0.85,
+        "key": "tropical.refrigeration",
+        "value": "Generous cold storage as standard: multiple fridges plus freezer capacity, with front-loading and drawer-style units and a large freezer in the saloon area depending on configuration. Exact volumes vary by hull and were not reliably documented, but the boat is fitted for long tropical provisioning runs without resupply.",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Amel 55 Ventilation Systems",
+            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/amel-55-cluv/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Dessalator watermaker fitted as standard; the boats.com test and the C'LUV listing both cite roughly 240-250 L/h capacity (an earlier 160 L/h figure was incorrect). The 220V unit runs off the generator or inverter and, combined with 800L water tankage, gives a couple effectively unlimited fresh water offshore.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
+          {
+            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/amel-55-cluv/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Passive airflow comes from hatches, hull windows and the openable cockpit; active cooling is the optional Climma reverse-cycle air conditioning, which most tropical-bound owners fit. The heavy refrigeration and AC load is a real draw on the electrical system and is one reason the boat carries a large battery bank, generator and watermaker.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Amel 55 boat review",
             "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
+        "key": "tankage",
+        "value": "900 litres fuel and 800 litres water as standard. With the 110hp Volvo D3 sipping fuel at displacement speeds, that fuel load gives a long motoring range for calms and canal transits, and the 800L water tank plus the standard Dessalator watermaker makes the boat self-sufficient for a couple on extended passages.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 55 Boat Review - TradeABoat",
+            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+          },
+          {
+            "title": "Amel 55 - Sailboat Specs",
+            "url": "https://sailboatlab.com/data_sheet/204/0/"
+          }
+        ]
+      },
+      {
         "key": "self_steering.autopilot",
-        "value": "Hydraulic Furuno Navpilot 711 C autopilot standard (some equipped with dual redundant units); 24V electrical system; highly automated sail control via binnacle controls",
+        "value": "Hydraulic Furuno Navpilot 711 C autopilot standard, often fitted as twin independent units for redundancy on the better-equipped hulls. The 24V system and highly automated electric sail controls mean the boat is designed to be sailed almost entirely on autopilot - the Yachting Monthly test noted she spends 99 per cent of the time under autopilot.",
         "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/amel-55-cluv/"
+          },
+          {
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No factory windvane option. The boat relies entirely on its electric/hydraulic autopilots, which suits the all-electric sail-handling concept but means there is no mechanical self-steering fallback if the electrical system fails. A servo-pendulum windvane is theoretically retrofittable to the transom but is not something Amel configures, and no source confirms a clean installation.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Windvane Self-Steering Guide",
+            "url": "https://www.sailboat-cruising.com/self-steering-gear.html"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Dual 24V DC / 220V AC system with a house bank around 600 Ah at 24V (six 200Ah batteries typical), Mastervolt 2500W and 2000W inverters, an Onan 7.5kW diesel generator, and 400W or more of solar depending on hull. It is enough to run the watermaker, autopilot, electric furlers and full electronics offshore, but the heavy AC/refrigeration load means the generator gets regular use.",
+        "confidence": 0.82,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
@@ -195,80 +247,46 @@
         ]
       },
       {
-        "key": "self_steering.windvane_option",
-        "value": "No factory-standard windvane option documented; aftermarket Monitor or Aries windvane systems could be added via servo-pendulum attachment to main rudder; not typically configured by builder",
-        "confidence": 0.6,
-        "sources": [
-          {
-            "title": "Windvane Self-Steering Guide",
-            "url": "https://www.sailboat-cruising.com/self-steering-gear.html"
-          },
-          {
-            "title": "Pelagic Autopilot for Monitor Windvane",
-            "url": "https://pelagicautopilot.com/products/autopilot-for-windvane-self-steering"
-          }
-        ]
-      },
-      {
-        "key": "self_steering.electrical_autonomy",
-        "value": "Dual electrical systems (12/24V DC, 230V/110V AC); six 200Ah house batteries (600 Ah at 24V) typical, some configurations with 8 x 640 Ah AGM batteries; dual inverters (2500W and 2000W); Onan 11kVa 220V diesel generator; solar panels 200-530W depending on configuration; sufficient for extended offshore cruising with watermaker and full electronics",
-        "confidence": 0.9,
-        "sources": [
-          {
-            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-cluv/"
-          },
-          {
-            "title": "Amel 55 Electrical Systems",
-            "url": "https://asiayachting.net/yacht/amel-55-4229033/"
-          }
-        ]
-      },
-      {
         "key": "ergonomics.transom",
-        "value": "Folding swim platform provides easy access to dinghy and water; integral to primary transom design; self-bailing cockpit with 100mm diameter scuppers",
-        "confidence": 0.85,
+        "value": "Large folding/swim platform at the transom giving easy dinghy and water access, a cavernous lazarette, and a self-bailing cockpit. The transom design is built around easy boarding and tender handling rather than stern MOB recovery in a seaway.",
+        "confidence": 0.82,
         "sources": [
           {
-            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
-            "url": "https://swiftsureyachts.com/amel-55-cluv/"
-          },
-          {
-            "title": "Amel 55 Cockpit Design",
+            "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           }
         ]
       },
       {
         "key": "ergonomics.freeboard",
-        "value": "Moderate freeboard with proportional design balancing comfort and seaworthiness; exact measurement not specified in available sources but design philosophy emphasized comfort for offshore cruising",
-        "confidence": 0.6,
+        "value": "Moderate freeboard with a deep centre cockpit set well into the hull, prioritising a sheltered, low helm position and comfortable motion over a high topsides look. Exact freeboard figures are not published.",
+        "confidence": 0.55,
         "sources": [
           {
-            "title": "Amel 55 Design Philosophy",
+            "title": "Amel 55 boat review",
             "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "ergonomics.side_decks",
-        "value": "Storage lockers beneath side decks; tall, solid stainless steel handrails surround deck from bow to stern for safety; moulded non-slip deck won't require replacement like teak; tubed handrails for forward movement security",
-        "confidence": 0.85,
+        "value": "Moulded non-slip side decks (no teak to replace) with tall, solid stainless guardrails running bow to stern and substantial handrails, so the crew can move forward securely in a seaway. Storage lockers sit beneath the side decks. The all-stainless guardrail and rail-mounted handhold layout is a deliberate offshore-safety feature.",
+        "confidence": 0.78,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
           },
           {
-            "title": "Amel 55 Deck Features - TradeABoat",
+            "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           }
         ]
       },
       {
         "key": "ergonomics.mob_recovery",
-        "value": "Jon Buoy MOB recovery module documented on C'LUV; design includes long keel and skeg-hung rudder facilitating single-crew recovery; multiple handrails and deck organization support crew safety",
-        "confidence": 0.75,
+        "value": "A Jon Buoy MOB recovery module is documented on at least one boat (C'LUV), and the skeg-hung rudder plus solid handrails support crew safety. Realistically, recovering a casualty over the high topsides of a 24-tonne ketch shorthanded is hard, so the practical emphasis is on staying aboard - jacklines, tethers and the enclosed cockpit.",
+        "confidence": 0.72,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
@@ -278,76 +296,125 @@
       },
       {
         "key": "heavy_weather.storm_report",
-        "value": "No specific documented Amel 55 storm report found; design characteristics (heavy displacement, 27% ballast ratio, ketch rig with staysail) support heavy weather capability; staysail balances boat nicely in strong wind conditions",
-        "confidence": 0.5,
+        "value": "No first-hand published storm log specific to the Amel 55 was located. What is consistently reported is the design intent: a heavy 24-tonne displacement, 27% ballast ratio, Category A certification, deeply sheltered enclosed cockpit, and a ketch rig that lets the boat run comfortably under reefed mizzen and staysail alone when conditions deteriorate. The flip side is that the boat's heavy-weather security depends on the electric furlers working - a furler that jams in a rising gale is the boat's real heavy-weather risk.",
+        "confidence": 0.55,
         "sources": [
           {
-            "title": "Heavy Weather Capability Assessment",
-            "url": "https://sailmagazine.com/cruising/storm-sails-do-you-need-them/"
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+          },
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
           }
         ]
       },
       {
         "key": "heavy_weather.cutter_staysail",
-        "value": "Ketch rig with staysail (22 m²) option; staysail improves heavy-weather balance; mainsail (47 m²), genoa (75 m²), mizzen (29 m²) all fully furling with electric reefing; can sail comfortably under mizzen and staysail alone in severe conditions",
-        "confidence": 0.9,
+        "value": "Cutter-headed ketch: mainsail roughly 47 m², genoa roughly 47 m², mizzen roughly 29 m², plus a 22 m² staysail option, all on electric furlers with manual overrides. Because the sail area is split across four sails, no single sail is unmanageable, and the boat can be progressively de-powered to mizzen-and-staysail for heavy weather. Henri Amel's rule of thumb was that anyone who could lift 30 lb could handle the boat.",
+        "confidence": 0.88,
         "sources": [
           {
-            "title": "Amel 55 Rig Configuration",
-            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           },
           {
-            "title": "Amel Heavy Weather Rig Design",
+            "title": "Amel 55 boat review",
             "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
-        "key": "refit.standing_rigging_age",
-        "value": "Single-strand stainless steel standing rigging with Vectran and Dyneema halyards documented on surveyed examples; recommended replacement interval 10-15 years industry standard; Amel-equipped vessels in excellent condition should have rigging within 75% of life expectancy",
-        "confidence": 0.8,
+        "key": "handling.astern",
+        "value": "Weak astern handling is a known characteristic. The prop sits at the trailing edge of the keel, a long way forward of the skeg-hung rudder, so the boat has almost no prop-walk but slews off line as it gathers sternway and water flow forces the big rudder hard over. The standard technique is to centre the rudder and steer astern on throttle and the standard 12hp retractable bow thruster. Close-quarters manoeuvring is described as sluggish, and the bow thruster is considered an essential tool, not a luxury.",
+        "confidence": 0.85,
         "sources": [
           {
-            "title": "Standing Rigging Age Assessment - YBW Forum",
-            "url": "https://forums.ybw.com/threads/assessing-age-of-standing-rigging.595468/"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           },
           {
-            "title": "Amel School Buying Guide",
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+          }
+        ]
+      },
+      {
+        "key": "engine.spec",
+        "value": "Volvo Penta D3-110: a five-cylinder, 2.4-litre, 110hp common-rail diesel with the shaft drive integrated into the cast-iron keel. It is a compact, modern engine sitting in an unusually accessible walk-in engine room reached by lifting the cockpit sole on gas struts. The earlier '144 HP' figure in this record was wrong - both the boats.com and TradeABoat tests confirm 110hp.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
+          {
+            "title": "Volvo Penta D3-110 - Offshore Marine",
+            "url": "https://www.offshorevi.com/engines-outboards/volvo-penta-d3-110/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Single-strand stainless standing rigging with the masts deck-stepped onto laminated support pillars and chainplate tie-rods bonded into the hull. Industry practice is a 10-15 year offshore re-rig and a rig pull every 5-6 years to inspect tangs, chainplates, turnbuckles and mast bases. With the youngest hulls now around 2018 and the oldest around 2011, most boats are at or past first re-rig, and the ketch carries roughly 40% more rigging than a comparable sloop.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Standing Rigging Inspection - Cruising World",
+            "url": "https://www.cruisingworld.com/standing-rigging-inspection/"
+          },
+          {
+            "title": "Amel Yacht School Buying Guide",
             "url": "https://www.amelschool.com/p/buying-amel.html"
           }
         ]
       },
       {
         "key": "refit.known_issues",
-        "value": "Primary concerns: (1) Steering U-joint wear - almost worn through on some vessels, hidden in glossy photos; (2) Electric furling system near end of service life - major safety issue if failed; (3) Deck-core moisture in coachroof structures; (4) Rudder play and skeg cracking; (5) Engine overheating during operation; (6) Complex electrical system vulnerabilities during storms; (7) Mechanical seal failures in C-drive causing seawater/oil mixing; (8) Makeshift repairs using foam sealants instead of proper components; (9) Furling hesitation/stiffness indicates expensive repair needed; (10) Watertight bulkhead design complicates electrical routing upgrades",
+        "value": "The buyer's checklist is well documented. (1) Electric in-mast and genoa furlers reach end of service life and can hesitate or jam - a safety-critical and expensive failure; the manual override on the main works by unbolting two fixings but seizes from corrosion if neglected. (2) Steering U-joints wear through invisibly under the enclosed cockpit, signalled only by stiffness or a metallic grinding, and access requires cockpit disassembly. (3) Balsa-cored deck and coachroof can take on moisture around leaking fittings - flagged as a potential six-figure problem. (4) Rudder play and skeg cracking. (5) Volvo D3 overheating under load is usually the start of a costly engine chapter. (6) C-drive mechanical seals can let seawater mix with the drive oil, and improvised foam-sealed repairs are documented and must be corrected. (7) Electric winches, generator and complex 24V electrical system are excellent maintained but expensive once neglected.",
         "confidence": 0.85,
         "sources": [
           {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
             "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
           },
           {
-            "title": "Amel Yachts Common Issues",
-            "url": "https://www.lifeofsailing.com/blogs/articles/amel-yachts-common-issues"
+            "title": "Amel Yacht School Buying Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
           },
           {
-            "title": "Amel School Buying Guide",
-            "url": "https://www.amelschool.com/p/buying-amel.html"
+            "title": "main@AmelYachtOwners.groups.io - furling discussions",
+            "url": "https://amelyachtowners.groups.io/g/main"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Used Amel 55s (build years roughly 2011-2017) trade broadly between about $540,000 and $865,000, or roughly 620,000-790,000 euros in Europe, with a clear age/condition gradient: a 2012 hull around $750,000 and a 2015 around $835,000 are representative brokerage asks. Condition matters enormously - a documented, well-serviced boat sits near the top of the range while a neglected example with furler, steering, C-drive or deck-core problems can need a six-figure refit on top of a lower purchase price.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 55 boats for sale - boats.com",
+            "url": "https://www.boats.com/boats-for-sale/?make=amel&model=55"
+          },
+          {
+            "title": "Amel 55 boats for sale - YachtWorld",
+            "url": "https://www.yachtworld.com/boats-for-sale/make-amel/model-55/"
           }
         ]
       },
       {
         "key": "parts.availability",
-        "value": "Spare parts available for Volvo Penta 144 HP 5-cylinder diesel engine and Cummins Onan 11kVa generator; through-hull fittings minimized with single inlet and seawater manifold design; Furuno autopilot/radar electronics widely supported; multiple dealers (Caraibe Yachts, Sizun & Charpentier, Swiftsure, Ancasta, Wilkinson Marine) provide parts and service; Amel Yacht School and AmelYachtOwners.groups.io community provide technical support",
-        "confidence": 0.85,
+        "value": "Parts and support are good for a niche brand: the Volvo Penta D3-110 and Onan 7.5kW generator are mainstream, Furuno electronics are widely serviceable, and Amel minimised through-hulls with a single inlet and seawater manifold. The Amel-specific items - Reckmann furler motors and gearboxes, the C-drive, and the bespoke 24V architecture - need specialist dealers (Swiftsure, Ancasta, the French Amel network) but are well supported by the 1,000-plus-member Amel Yacht Owners community and the Amel Yacht School. (A previously cited Wilkinson Marine dealer link could not be verified.)",
+        "confidence": 0.78,
         "sources": [
           {
-            "title": "Amel 55 Engine Specifications - TradeABoat",
+            "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           },
           {
-            "title": "Amel Marine Dealers",
-            "url": "https://www.wilkinsonmarine.com/store/p122/AMEL_55.html"
+            "title": "main@AmelYachtOwners.groups.io",
+            "url": "https://amelyachtowners.groups.io/g/main"
           }
         ]
       }
@@ -360,37 +427,37 @@
         "Practical design philosophy with manual backups for all critical systems",
         "Fabulously comfortable, almost regal progress at sea",
         "Highly automated with binnacle controls - five-minute solo sail deployment",
-        "Outstanding build quality - 25 years of design evolution in Amel 54/55 lineage",
-        "Everything has manual override - not crippled if electronics fail",
-        "Excellent seaworthiness for ocean cruising",
-        "Very spacious and intelligently designed interior despite smaller-feeling cabins",
+        "Outstanding build quality - 25 years of design evolution in the Amel 54/55 lineage",
+        "Everything has a manual override - the boat is not crippled if the electronics fail",
+        "Excellent seaworthiness for ocean cruising; Category A certified",
+        "Deep, fully enclosed centre cockpit keeps the crew protected in cold and wet weather",
+        "Walk-in engine room with standing access to engine and generator - rare at this size",
+        "Four watertight bulkheads provide genuine collision and flooding protection",
         "Strong community support with 1,000+ Amel Yacht Owners members providing peer advice"
       ],
       "complaints": [
-        "Notably expensive compared to alternatives",
-        "Heavy steering when overcanvassed, particularly with excessive mizzen",
-        "Complex to operate for inexperienced sailors - requires at least two crew",
-        "Extensive maintenance requirements for large displacement vessel",
-        "Generator maintenance and electrical system repairs costly, especially winches and furling systems",
-        "Electrical systems vulnerable to failure during storms/harsh winds",
-        "Interior layout deceptive in marketing photos - appears larger than actual",
-        "Slow performance compared to lighter cruisers",
-        "Excessive creature comforts (multiple AC/refrigeration) drain power and add maintenance burden",
-        "Steering U-joint wear hidden in glossy promotional photos",
-        "Furling system reaches end of service life and requires expensive repair"
+        "Notably expensive to buy and to maintain compared to alternatives",
+        "Heavy, dull helm when overcanvassed, particularly with too much mizzen",
+        "Sedate performance - deliberately not quick, with a low SA/D ratio",
+        "Weak astern handling: slews off line, near-total reliance on the bow thruster for close quarters",
+        "Electric furlers reach end of service life and are expensive and dangerous to fix",
+        "Steering U-joint wear hidden under the enclosed cockpit, hard to detect on a viewing",
+        "Balsa-cored deck can suffer moisture ingress - potentially a six-figure problem",
+        "Complex 24V electrical system with heavy AC/refrigeration load leans on the generator",
+        "C-drive mechanical seals can let seawater into the drive oil",
+        "No mechanical self-steering fallback - autopilot-only, no factory windvane"
       ],
       "known_issues": [
         "Electric furling systems on both masts - safety-critical; failure is expensive and dangerous",
-        "Steering system U-joint wear - major wear on some vessels difficult to detect visually",
-        "Deck-core moisture penetration in coachroof vulnerable areas",
-        "Rudder play and skeg cracking from age or impact",
-        "Engine overheating under sustained load operation",
-        "Mechanical seal failures in C-drive/keel-drive system - seawater mixing with oil",
-        "Makeshift repairs using foam sealants instead of proper stainless steel hardware",
-        "Electrical system failures during storms despite redundancy",
-        "Complex wire routing constrained by watertight bulkhead design",
-        "Hull/deck delamination and osmosis documented on older vessels",
-        "Engine room flooding risk - water intrusion costing tens of thousands to repair"
+        "Manual furler override seizes from corrosion if not regularly exercised",
+        "Steering system U-joint wear - hard to detect, access needs cockpit disassembly",
+        "Balsa deck-core moisture in coachroof and around fittings",
+        "Rudder play and skeg cracking from age or grounding",
+        "Volvo D3-110 overheating under sustained load",
+        "C-drive mechanical seal failure - seawater mixing with drive oil",
+        "Improvised foam-sealed repairs around the C-drive bushing documented and need correcting",
+        "Electric winch, generator and electrical system neglect costly to put right",
+        "Astern handling and close-quarters manoeuvring sluggish without active bow-thruster use"
       ],
       "forums": [
         {
@@ -398,12 +465,12 @@
           "url": "https://amelyachtowners.groups.io/g/main"
         },
         {
-          "title": "Cruisers & Sailing Forums - Amel 50/55 discussions",
-          "url": "https://www.cruisersforum.com/forums/f47/amel-50-my-experiences-228911.html"
+          "title": "Amel lost its mast - halyard wrap discussion - AmelYachtOwners",
+          "url": "https://amelyachtowners.groups.io/g/main/topic/amel_lost_its_mast_d1/90632400"
         },
         {
-          "title": "Sailing Anarchy Forums - Amel 54/55 comparison threads",
-          "url": "https://forums.sailinganarchy.com/threads/amel-54-or-hr-46.244871/"
+          "title": "Cruisers & Sailing Forums - Amel 50/55 discussions",
+          "url": "https://www.cruisersforum.com/forums/f47/amel-50-my-experiences-228911.html"
         },
         {
           "title": "YBW Forum - Amel rigging and maintenance discussions",
@@ -413,159 +480,181 @@
     },
     "refit_items": [
       {
-        "system": "Standing Rigging (if original/10+ years)",
-        "action": "Complete replacement of standing rigging: shrouds, stays, halyards, and associated hardware",
-        "cost_low_usd": 12000,
-        "cost_high_usd": 25000,
+        "system": "Standing Rigging (both masts, if original/10+ years)",
+        "action": "Complete re-rig of both masts: shrouds, stays, tie-rods inspection, turnbuckles and associated hardware, plus pulling the rig to check mast bases and chainplates. The ketch carries roughly 40% more rigging than a comparable sloop.",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 30000,
         "confidence": 0.75,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Standing Rigging Replacement Cost Guide",
-            "url": "https://yachtservice.vip/sailboat-rigging-replacement-cost-guide/"
+            "title": "Standing Rigging Inspection - Cruising World",
+            "url": "https://www.cruisingworld.com/standing-rigging-inspection/"
           },
           {
-            "title": "New Sails & Rigging Cost 40-50ft",
-            "url": "https://www.cruisersforum.com/forums/f116/new-sails-and-rigging-cost-for-a-40-50-sailboat-34611.html"
-          }
-        ]
-      },
-      {
-        "system": "Sails (if original/outdated)",
-        "action": "Full sail suit replacement: mainsail, genoa, staysail, mizzen; modern cut for efficiency",
-        "cost_low_usd": 18000,
-        "cost_high_usd": 35000,
-        "confidence": 0.7,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Sailboat Sails Replacement Cost",
-            "url": "https://www.cruisersforum.com/forums/f116/new-sails-and-rigging-cost-for-a-40-50-sailboat-34611.html"
-          }
-        ]
-      },
-      {
-        "system": "Electric Furling Systems (both masts)",
-        "action": "Replacement of electric furlers on mainsail and genoa if showing hesitation, stiffness, or mechanical wear; includes gearbox and motor overhaul or complete system replacement",
-        "cost_low_usd": 8000,
-        "cost_high_usd": 18000,
-        "confidence": 0.8,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
-            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
-          }
-        ]
-      },
-      {
-        "system": "Steering System (U-joint & steering linkage)",
-        "action": "Replacement of steering U-joint and associated wear components if grinding sounds or stiffness detected; inspect rudder quadrant and steering cables",
-        "cost_low_usd": 3000,
-        "cost_high_usd": 7000,
-        "confidence": 0.75,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
-            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
-          }
-        ]
-      },
-      {
-        "system": "C-Drive/Keel-Drive System (mechanical seals)",
-        "action": "Replacement of mechanical seals in C-drive system if evidence of seawater/oil mixing or weeping; includes seal kit and labor",
-        "cost_low_usd": 4000,
-        "cost_high_usd": 9000,
-        "confidence": 0.7,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Amel School Buying Guide",
+            "title": "Amel Yacht School Buying Guide",
             "url": "https://www.amelschool.com/p/buying-amel.html"
           }
         ]
       },
       {
-        "system": "Engine (Volvo Penta 144 HP or Steyr equivalent)",
-        "action": "Comprehensive engine overhaul if over 2,000 hours; zinc replacement, impeller renewal, heat exchanger servicing, full fluid changes",
-        "cost_low_usd": 6000,
-        "cost_high_usd": 14000,
+        "system": "Sails (full ketch suit, if original/outdated)",
+        "action": "Replace the full four-sail suit - mainsail, genoa, staysail and mizzen - in furling-compatible profiles to suit the Reckmann systems. A large, premium suit for a furling ketch of this size.",
+        "cost_low_usd": 20000,
+        "cost_high_usd": 40000,
         "confidence": 0.7,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Amel 55 Engine Maintenance",
-            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           }
         ]
       },
       {
-        "system": "Generator (Cummins Onan 11kVa)",
-        "action": "Overhaul or replacement if cooling issues or excessive vibration; seal kit, capacitors, alternator brush replacement",
+        "system": "Electric Furling Systems (Reckmann, both masts)",
+        "action": "Overhaul or replace the electric furler motors and gearboxes on the in-mast mainsail and the genoa - the boat's most safety-critical known issue. Includes freeing and servicing the manual overrides so they actually work in an emergency. Inspect under load during sea trial.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 20000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+          },
+          {
+            "title": "Rebuilding the In-Mast Furling System on an Amel - YouTube",
+            "url": "https://www.youtube.com/watch?v=F0HIWBv1Pfc"
+          }
+        ]
+      },
+      {
+        "system": "Steering U-Joint & Linkage",
+        "action": "Replace worn steering U-joints and inspect the full linkage, quadrant and cables. Triggered by stiffness or a metallic grinding; access requires partial cockpit disassembly. A near-certainty on older or hard-used hulls.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 7000,
+        "confidence": 0.78,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+          }
+        ]
+      },
+      {
+        "system": "C-Drive Mechanical Seals",
+        "action": "Replace the C-drive mechanical seals if there is any sign of seawater in the drive oil or weeping, and properly remediate any improvised foam-sealed repairs with correct hardware. Seal kit plus specialist labour.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 10000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel Yacht School Buying Guide",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      },
+      {
+        "system": "Engine Service / Overhaul (Volvo Penta D3-110)",
+        "action": "Comprehensive service - impeller, heat exchanger, zincs, thermostat, injectors, full fluids - escalating to overhaul if hours are high or the engine overheats under load. The D3 is a modern common-rail engine; chronic overheating signals a costly chapter.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 14000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+          }
+        ]
+      },
+      {
+        "system": "Generator Overhaul (Onan 7.5kW)",
+        "action": "Service or overhaul the generator - capacitors, brushes, impeller, cooling circuit - and address any vibration or cooling history. Generator neglect is common on brokerage boats and the boat leans on it for AC, watermaker and charging.",
         "cost_low_usd": 3000,
         "cost_high_usd": 8000,
         "confidence": 0.7,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Amel Common Issues",
-            "url": "https://www.lifeofsailing.com/blogs/articles/amel-yachts-common-issues"
-          }
-        ]
-      },
-      {
-        "system": "Deck-Core Delamination (if moisture detected)",
-        "action": "Removal and replacement of affected deck-core areas (coachroof, cabin roof); injection of epoxy or replacement with new core",
-        "cost_low_usd": 5000,
-        "cost_high_usd": 15000,
-        "confidence": 0.65,
-        "age_relevant": true,
-        "sources": [
-          {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
             "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
           }
         ]
       },
       {
-        "system": "Rudder & Skeg Inspection/Replacement",
-        "action": "Rudder bearing replacement if play detected; skeg crack repair using epoxy injection or replacement; full rudder blade restoration",
+        "system": "Balsa Deck-Core Moisture (if detected)",
+        "action": "Remediate moisture in the balsa-cored deck and coachroof - localised epoxy treatment for isolated wet areas up to full core replacement of the coachroof. A moisture-meter survey of all deck and coachroof areas is mandatory before purchase; this item can dwarf every other on the list.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 50000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+          }
+        ]
+      },
+      {
+        "system": "Rudder & Skeg Inspection/Repair",
+        "action": "Replace rudder bearings if play is detected and repair any skeg cracking by epoxy injection or rebuild. Check for grounding history on the encapsulated keel.",
         "cost_low_usd": 2000,
         "cost_high_usd": 7000,
         "confidence": 0.7,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
             "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
           }
         ]
       },
       {
-        "system": "Battery Bank (if AGM original)",
-        "action": "Full battery bank replacement (6-8 x 200-640 Ah batteries); upgrade to LiFePO4 optional for improved autonomy",
+        "system": "Battery Bank (24V house bank)",
+        "action": "Replace the ~600Ah-at-24V house bank like-for-like in AGM, or upgrade to LiFePO4 to make better use of the Mastervolt inverter infrastructure and reduce generator hours. All hulls are past the AGM service interval by 2026.",
         "cost_low_usd": 6000,
         "cost_high_usd": 16000,
         "confidence": 0.75,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Amel 55 Electrical Systems",
+            "title": "Amel 55 - C'LUV - Swiftsure Yachts",
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
           }
         ]
       },
       {
+        "system": "Electric Winch & Electrical System Refresh",
+        "action": "Service the electric primary and sheet winches, inspect the complex 24V wiring, breakers and bus bars, and refresh inverter/charger contactors and fuses. Excellent when maintained, expensive once neglected.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 10000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+            "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+          }
+        ]
+      },
+      {
         "system": "Through-Hull Fittings & Seacocks",
-        "action": "Replacement of corroded or worn seacocks; re-bedding of through-hull fittings with modern sealant; pressure testing of all systems",
+        "action": "Inspect and partially replace seacocks and re-bed through-hulls. Amel's single-inlet seawater manifold reduces the count of fittings, but those present should be pressure-tested and serviced at this age.",
         "cost_low_usd": 2000,
         "cost_high_usd": 5000,
         "confidence": 0.7,
         "age_relevant": true,
         "sources": [
           {
-            "title": "Amel School Buying Guide",
+            "title": "Amel Yacht School Buying Guide",
             "url": "https://www.amelschool.com/p/buying-amel.html"
           }
         ]
@@ -573,87 +662,88 @@
     ],
     "provisioning_specific": [
       {
-        "item": "Furuno Navpilot 711 C autopilot spares kit",
-        "category": "Electronics/Navigation",
-        "why": "Hydraulic autopilot critical for shorthanded cruising; spares kit includes filters, seals, and pump components for remote servicing"
+        "item": "Reckmann electric furler motor brushes, gearbox seals and grease (both masts)",
+        "category": "Critical Spares",
+        "why": "Electric furling hesitation is the boat's most dangerous and expensive known failure. A furler that will not furl in a rising gale is an offshore emergency. Carry brushes, seals and the correct lubricant for both the in-mast main and the genoa Reckmann units, and keep the manual overrides exercised so they free off when needed."
       },
       {
-        "item": "Diesel furnace heating system spares (glow plugs, fuel nozzle, burner head, control module)",
-        "category": "Heating/Comfort",
-        "why": "Hydronic diesel heating system is complex; spare burner components essential for cold-water cruising in remote locations"
+        "item": "C-drive mechanical seal kit and spare C-drive oil",
+        "category": "Critical Spares",
+        "why": "Seawater-into-oil mixing in the C-drive is documented with photographic evidence. A seal failure offshore needs immediate attention; carrying the seal kit and correct oil grade avoids a haul-out diversion."
       },
       {
-        "item": "Dessalator watermaker membrane and filter cartridges (160 L/h or configured size)",
-        "category": "Water Systems",
-        "why": "Watermaker critical for extended cruising autonomy; membrane and filters consumables with 2-3 year lifecycle"
+        "item": "Steering U-joint replacement assembly",
+        "category": "Critical Spares",
+        "why": "U-joint wear is a common failure that hides under the enclosed cockpit and announces itself as stiffness or grinding. A spare assembly turns an offshore failure into an at-anchor repair rather than a tow."
       },
       {
-        "item": "Volvo Penta 144 HP diesel engine service kit (filters, impeller, zinc, oil)",
-        "category": "Propulsion",
-        "why": "Integrated keel-drive system requires specific maintenance; keel-mounted heat exchanger zinc critical in saltwater"
+        "item": "Hydraulic fluid, filters and bleed kit for the Furuno autopilot circuit",
+        "category": "Critical Spares",
+        "why": "The boat is autopilot-only with no windvane fallback, and the twin Furuno Navpilot units share a hydraulic circuit - a leak or pump fault can disable both. Carry fluid and know the bleed procedure so steering stays automated on long shorthanded passages."
       },
       {
-        "item": "Onan 11kVa generator service kit (fuel filter, oil filter, spark plugs, alternator brushes)",
-        "category": "Power Generation",
-        "why": "Generator provides electrical autonomy; fuel system prone to contamination in remote cruising regions"
+        "item": "Volvo Penta D3-110 raw-water impeller, thermostat and heat-exchanger zinc kit",
+        "category": "Engine and Propulsion",
+        "why": "Overheating under load is a flagged issue and usually starts with the impeller, thermostat or fouled heat exchanger. These are the cheap parts that prevent the expensive chapter - and the engine is the 110hp D3, so source parts accordingly, not for the wrongly-cited 144hp."
       },
       {
-        "item": "Furling system gearbox grease (marine-grade, high-temperature)",
-        "category": "Rigging/Sail Systems",
-        "why": "Electric furlers on both masts critical safety systems; proper grease prevents bearing wear and jamming"
+        "item": "Onan 7.5kW generator capacitor, brush and raw-water impeller set",
+        "category": "Engine and Propulsion",
+        "why": "The 220V watermaker, Climma AC and battery charging all lean on the generator, and generator neglect is common on brokerage boats. Capacitor and brush failure are the typical Onan faults and are not stocked in remote anchorages."
       },
       {
-        "item": "Stainless steel fasteners, U-bolts, cleats, deck hardware (various sizes)",
-        "category": "Deck Hardware",
-        "why": "Amel design minimizes through-hull fittings but has extensive stainless deck hardware; corrosion in tropical cruising"
-      },
-      {
-        "item": "Climma air conditioning/heat pump coolant (R-410A or current refrigerant standard)",
-        "category": "Climate Control",
-        "why": "Optional but common tropical cruising equipment; refrigerant leaks degrade performance in warm climates"
-      },
-      {
-        "item": "Hydraulic steering fluid (ISO VG 46, marine-grade)",
-        "category": "Steering System",
-        "why": "Hydraulic steering system requires proper fluid; contaminated fluid causes U-joint and ram seal wear"
-      },
-      {
-        "item": "C-drive mechanical seal kit (Volvo Penta standard)",
-        "category": "Propulsion",
-        "why": "Integrated C-drive prone to seal failures; spare kit allows remote replacement without haul-out"
-      },
-      {
-        "item": "Jon Buoy or equivalent MOB recovery system refill cartridges",
-        "category": "Safety",
-        "why": "MOB systems require periodic cartridge replacement; critical for single-handed recovery capability"
-      },
-      {
-        "item": "Mastervolt battery charger and inverter firmware/repair spares",
+        "item": "Mastervolt inverter spare fuses and contactor relay",
         "category": "Electrical",
-        "why": "Dual electrical systems use high-end Mastervolt components; spare charger/inverter control modules expensive but essential"
+        "why": "The whole 220V system - watermaker, AC, galley - runs through the dual Mastervolt inverters. Their fuses and contactors are the highest-probability failure point and are not available outside major hubs."
+      },
+      {
+        "item": "Dessalator watermaker pre-filter cartridges (12-month supply) and membrane spare",
+        "category": "Watermaker",
+        "why": "The 240-250 L/h Dessalator plus 800L tank is what makes the boat self-sufficient for a couple. Pre-filter clogging is the leading cause of lost output and membrane damage, and the cartridge sizes are not stocked in most anchorages."
+      },
+      {
+        "item": "Climma reverse-cycle AC/heat filters and refrigerant top-up access",
+        "category": "Comfort Systems",
+        "why": "Climma units provide both the cabin heating that supports cold-weather cruising and the cooling for the tropics. Clogged filters are the commonest cause of weak output and are a simple self-service item; keep a filter set aboard."
+      },
+      {
+        "item": "Manual furler override service kit (override fixings, anti-seize, bearing grease)",
+        "category": "Rigging/Sail Systems",
+        "why": "The main furler's manual override works by unbolting two fixings, but those fixings and the swivel bearings seize from corrosion if never exercised. Keeping the override serviceable is the cheap insurance behind the electric furler."
+      },
+      {
+        "item": "24V breakers and bus-bar fuse assortment (10A-80A)",
+        "category": "Electrical",
+        "why": "The complex 24V system has multiple high-draw loads on a non-standard Amel bus architecture; compatible 24V breakers and fuses are not universally stocked and should be carried from departure."
+      },
+      {
+        "item": "Jon Buoy MOB module repack and jacklines/tethers to current standard",
+        "category": "Safety",
+        "why": "Recovering a casualty over the high topsides of a 24-tonne ketch shorthanded is hard, so the realistic strategy is staying aboard. Keep the MOB module within its repack interval and the cockpit-to-bow jacklines and tethers current."
       }
     ],
     "gaps": [
-      "stability.avs - Angle of Vanishing Stability value not published in available sources; general guidance indicates seaboats <75ft should exceed 120 degrees for ocean work",
-      "stability.stix - STIX score not found; general guidance indicates Category A certification requires ≥32 STIX rating (Amel 55 meets Category A but specific score unknown)",
-      "self_steering.windvane_option - Factory windvane option not documented; aftermarket feasibility unclear without manufacturer confirmation on transom geometry and rudder compatibility",
-      "refit.standing_rigging_age - Specific age-of-rigging documentation not available for production Amel 55; guidance is general industry standard (10-15 years service life)",
-      "parts.availability - Availability for specialty items (furling gearbox motors, Climma AC compressors, custom stainless hardware) not quantified; regional dealer network status unknown in some markets",
-      "Heavy weather storm reports - No specific documented Amel 55 owner storm reports or performance logs found; inferences based on design characteristics only"
+      "stability.avs - No published Angle of Vanishing Stability for the Amel 55. General offshore guidance favours AVS above 120 degrees, but no measured figure exists for this boat.",
+      "stability.stix - No published STIX score. Category A certification implies the boat clears the regulatory threshold, but the actual number is not published.",
+      "Righting-moment / GZ curve - No stability curve data is published; the available ratios (Capsize Screening 1.75, Comfort 38.66, SA/D 15.58) are derived from dimensions, not measured stability.",
+      "self_steering.windvane_option - No factory windvane, and no source confirms a clean aftermarket servo-pendulum installation given the transom and rudder geometry.",
+      "Heavy weather storm reports - No first-hand published Amel 55 storm log was located; heavy-weather assessment rests on design characteristics and the documented furler risk.",
+      "Furler/C-drive/steering repair costs - Specialist repair figures are estimates from buyer's guides and general marine rates, not Amel-published service pricing.",
+      "Exact refrigeration and window-count figures - General standard is well regarded but specific volumes and counts varied between sources and could not be pinned down."
     ],
-    "overall_confidence": 0.78
+    "overall_confidence": 0.79
   },
   "verify": {
     "id": "amel-55-research-2026",
     "cleaned_facts": [
       {
         "key": "stability.ce_category",
-        "value": "Category A (Ocean) - EU CE Category A, the highest classification, designed for significant wave heights above 4m and winds above Beaufort Force 8; boat-specs.com specifies 'Wind < force 9, Waves < 10m' as the test boundary. The record's phrasing ('certified for winds over Force 8') is directionally correct per EU Recreational Craft Directive language but understates the actual Cat A envelope (up to Force 9 / 7m per ecys.com).",
-        "confidence": 0.8,
+        "value": "EU CE Category A (Ocean), the highest classification, designed for winds above Beaufort Force 8 and significant wave heights well above 4m. Confirmed by sailboatdata and Category A certification references. Built by Amel to a Berret-Racoupeau design from roughly 2011 to 2018.",
+        "confidence": 0.85,
         "sources": [
           {
-            "title": "Amel 55 Boat Specifications - Boat-Specs.com",
-            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+            "title": "AMEL 55 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/amel-55/"
           },
           {
             "title": "Category A Ocean Certification Explained",
@@ -663,31 +753,54 @@
       },
       {
         "key": "stability.ballast_type",
-        "value": "5,900 kg (13,007 lbs) cast iron keel; L-shaped keel with bulb; 27% ballast-to-displacement ratio. Boat-specs.com confirms all three numbers exactly.",
-        "confidence": 0.95,
+        "value": "5,900 kg cast iron L-shaped keel with bulb, 27% ballast ratio; the prop shaft runs through the keel so the folding prop sits at the keel's trailing edge forward of the rudder. Boat-specs and the boats.com test confirm the keel weight, ratio and the keel-integrated driveline.",
+        "confidence": 0.9,
         "sources": [
           {
             "title": "Amel 55 Boat Specifications - Boat-Specs.com",
             "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+          },
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ratios",
+        "value": "Capsize Screening Formula 1.75, Comfort Ratio 38.66, SA/D 15.58 per SailWiki. These are dimension-derived ratios, not measured stability data: the low SA/D matches the boat's deliberately easygoing performance and the Comfort Ratio confirms its moderate-to-heavy bluewater character. No AVS or STIX is published.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 55 - SailWiki",
+            "url": "https://sailwiki.com/yacht/amel-55/"
           }
         ]
       },
       {
         "key": "cold.heating",
-        "value": "Hydronic diesel furnace providing distributed heating; optional Climma reverse-cycle air conditioning/heat for individual cabins and saloon. Confirmed on the C'LUV listing.",
-        "confidence": 0.88,
+        "value": "Hydronic diesel furnace for distributed heating plus optional Climma reverse-cycle air conditioning/heat. Confirmed on the C'LUV listing and consistent with the Yachting Monthly description of standard heating in the liveaboard package.",
+        "confidence": 0.86,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
+          },
+          {
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Masts are deck-stepped (not keel-stepped); shrouds use tie rods connected to hull grid for compression transfer; two swept-back spreader levels. TradeABoat review confirms deck-stepped.",
-        "confidence": 0.88,
+        "value": "Both masts are deck-stepped onto laminated compression pillars, with chainplate tie-rods bonded into the hull and two swept-back spreader levels. Confirmed by boat-specs and the TradeABoat review. No keel-stepped cold bridge through the cabin.",
+        "confidence": 0.85,
         "sources": [
+          {
+            "title": "Amel 55 Boat Specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+          },
           {
             "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
@@ -695,9 +808,20 @@
         ]
       },
       {
+        "key": "cold.watertight_bulkheads",
+        "value": "Four watertight bulkheads divide the hull (boats.com test), separating accommodation from bow locker and lazarette. The earlier '5 compartments / 2 bulkheads' figure was sourced from the different Amel 50 and has been corrected to four.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          }
+        ]
+      },
+      {
         "key": "cold.inside_helm",
-        "value": "Enclosed cockpit (cabriolet canvas or GRP hardtop) with 12mm Plexiglass windscreen forward; sail controls via joystick bank at main console. There is no separate enclosed wheelhouse with a leather-covered wheel — the TradeABoat review describes cockpit joystick controls, not a traditional helmsman's wheelhouse station.",
-        "confidence": 0.78,
+        "value": "Deep sheltered centre cockpit enclosed by Cabriolet canvas or GRP hardtop; sail handling is from the helm via electric controls so the crew stays under cover. This is an enclosed cockpit, not a separate wheelhouse with a wheel - the earlier 'enclosed wheelhouse with leather-covered wheel' phrasing was corrected.",
+        "confidence": 0.8,
         "sources": [
           {
             "title": "Amel 55 Boat Review - TradeABoat",
@@ -707,7 +831,7 @@
       },
       {
         "key": "tropical.shade",
-        "value": "Enclosed cabriolet canvas or GRP hardtop cockpit available; hardtop version provides sun and rain protection for offshore use. Confirmed by TradeABoat.",
+        "value": "Enclosed Cabriolet canvas or GRP hardtop cockpit; the hardtop is the recommended world-cruising option for permanent shade with no canvas maintenance. Confirmed by TradeABoat.",
         "confidence": 0.85,
         "sources": [
           {
@@ -718,9 +842,13 @@
       },
       {
         "key": "tropical.watermaker",
-        "value": "Dessalator watermaker standard; the C'LUV listing specifies 240 L/h (not 160 L/h as originally stated). Capacity varies by hull/year; 220V powered.",
-        "confidence": 0.8,
+        "value": "Dessalator watermaker standard at roughly 240-250 L/h per the boats.com test and C'LUV listing (the earlier 160 L/h figure was wrong). 220V powered, paired with 800L water tankage.",
+        "confidence": 0.82,
         "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
@@ -728,8 +856,19 @@
         ]
       },
       {
+        "key": "tankage",
+        "value": "900 litres fuel and 800 litres water confirmed by TradeABoat and spec databases. Long motoring range from the economical D3-110 plus watermaker autonomy for a couple.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 55 Boat Review - TradeABoat",
+            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+          }
+        ]
+      },
+      {
         "key": "self_steering.autopilot",
-        "value": "Hydraulic Furuno Navpilot 711 C autopilot standard; the C'LUV listing shows two independent Furuno 711 C units for redundancy. Asia Yachting confirms 'Hydraulic Furuno Navpilot 711' on a 2015 example. Highly automated sail control via binnacle/joystick controls.",
+        "value": "Hydraulic Furuno Navpilot 711 C standard, often twin units for redundancy on the better hulls. Highly automated electric sail handling - the boat spends almost all its time on autopilot. Confirmed by the C'LUV and Asia Yachting listings and the Yachting Monthly test.",
         "confidence": 0.9,
         "sources": [
           {
@@ -737,14 +876,14 @@
             "url": "https://swiftsureyachts.com/amel-55-cluv/"
           },
           {
-            "title": "2015 Amel 55 - Asia Yachting",
-            "url": "https://asiayachting.net/yacht/amel-55-4229033/"
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "self_steering.windvane_option",
-        "value": "No factory-standard windvane option documented; aftermarket servo-pendulum windvanes (Monitor, Aries) could theoretically be fitted. Not typically configured by builder. Low confidence — no source directly addresses Amel 55 transom geometry compatibility.",
+        "value": "No factory windvane and no mechanical self-steering fallback - the boat is autopilot-only. Aftermarket servo-pendulum fitment is theoretical and unconfirmed for this transom. Low confidence; no source addresses a clean installation.",
         "confidence": 0.55,
         "sources": [
           {
@@ -755,7 +894,7 @@
       },
       {
         "key": "self_steering.electrical_autonomy",
-        "value": "Dual electrical systems (24V DC / 220-110V AC); six 200Ah house batteries = 600Ah at 24V confirmed on C'LUV and Asia Yachting. Mastervolt 2500W and 2000W inverters confirmed. 2 x 200W solar panels (400W) on C'LUV; Onan generator (7.5 kW per Asia Yachting, though other configs may vary). Sufficient for offshore cruising with watermaker and full electronics.",
+        "value": "24V DC / 220V AC system, ~600Ah at 24V house bank, Mastervolt 2500W and 2000W inverters, Onan 7.5kW generator, 400W+ solar. Confirmed on C'LUV and Asia Yachting. Enough for offshore cruising with watermaker and electronics, but the heavy AC/refrigeration load means regular generator use.",
         "confidence": 0.82,
         "sources": [
           {
@@ -769,8 +908,38 @@
         ]
       },
       {
+        "key": "handling.astern",
+        "value": "Confirmed weak astern handling: the keel-trailing-edge prop sits well forward of the rudder, so there is no prop-walk but the boat slews off line going astern. Standard practice is to centre the rudder and steer on throttle and the 12hp retractable bow thruster, which is treated as essential. Confirmed by boats.com and Yachting Monthly tests.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
+          {
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+          }
+        ]
+      },
+      {
+        "key": "engine.spec",
+        "value": "Volvo Penta D3-110: five-cylinder, 2.4L, 110hp common-rail diesel with keel-integrated shaftdrive, in a walk-in engine room under the cockpit sole. The earlier 144hp figure was wrong and is corrected to 110hp per boats.com and TradeABoat.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+          },
+          {
+            "title": "Amel 55 Boat Review - TradeABoat",
+            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+          }
+        ]
+      },
+      {
         "key": "ergonomics.transom",
-        "value": "Large swim platform with optional davits; cavernous transom lazarette; self-bailing cockpit. Confirmed by TradeABoat review.",
+        "value": "Large swim/folding platform, cavernous lazarette, self-bailing cockpit. Built for tender and water access rather than stern MOB recovery. Confirmed by TradeABoat.",
         "confidence": 0.82,
         "sources": [
           {
@@ -781,8 +950,8 @@
       },
       {
         "key": "ergonomics.mob_recovery",
-        "value": "Jon Buoy MOB recovery module confirmed on C'LUV listing. Multiple handrails support deck safety.",
-        "confidence": 0.75,
+        "value": "Jon Buoy MOB module documented on C'LUV; solid bow-to-stern stainless guardrails support staying aboard. Over-the-side recovery of a casualty on a 24-tonne ketch shorthanded is realistically difficult.",
+        "confidence": 0.72,
         "sources": [
           {
             "title": "Amel 55 - C'LUV - Swiftsure Yachts",
@@ -792,50 +961,57 @@
       },
       {
         "key": "heavy_weather.cutter_staysail",
-        "value": "Ketch rig with optional staysail (22 m² confirmed by TradeABoat); mainsail 47 m², genoa 75 m² (per boat-specs.com), mizzen 29 m² — all confirmed. Electric Reckmann furlers with manual overrides. Boat can be sailed under mizzen and staysail alone in severe conditions.",
-        "confidence": 0.88,
+        "value": "Cutter-headed ketch: mainsail ~47 m², genoa ~47 m², mizzen ~29 m², staysail option 22 m², all electric-furling with manual overrides. The split rig means no single sail is unmanageable and the boat reduces progressively to mizzen-and-staysail in heavy weather. Genoa corrected to ~47 m² (the earlier 75 m² was wrong). Confirmed by boats.com and Yachting Monthly.",
+        "confidence": 0.85,
         "sources": [
           {
-            "title": "Amel 55 Boat Review - TradeABoat",
-            "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+            "title": "Amel 55 review - boats.com",
+            "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
           },
           {
-            "title": "Amel 55 Boat Specifications - Boat-Specs.com",
-            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+            "title": "Amel 55 boat review",
+            "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
           }
         ]
       },
       {
         "key": "refit.known_issues",
-        "value": "Confirmed issues: (1) Electric furling hesitation — major safety issue and expensive repair (TrueNorth); (2) Steering U-joint wear requiring cockpit disassembly (TrueNorth); (3) Deck-core moisture in coachroof — can become six-figure problem (TrueNorth); (4) Rudder play and skeg cracking (TrueNorth); (5) Engine overheating under load (TrueNorth); (6) C-drive sealed with spray foam (amelschool.com photo evidence); (7) Seawater mixing with C-drive oil (amelschool.com photo evidence); (8) Complex electrical systems requiring maintenance (lifeofsailing.com). Generator and electric winch neglect also flagged by TrueNorth.",
+        "value": "Confirmed by buyer's guides and the owner community: (1) electric furler hesitation/jamming - safety-critical and expensive, with manual overrides that seize if neglected; (2) hidden steering U-joint wear needing cockpit disassembly; (3) balsa deck-core moisture - a potential six-figure problem; (4) rudder play and skeg cracking; (5) Volvo D3 overheating under load; (6) C-drive seawater-into-oil and documented improvised foam-seal repairs; (7) costly winch/generator/electrical neglect.",
         "confidence": 0.85,
         "sources": [
           {
-            "title": "Amel 55 Buying Guide - TrueNorth Yacht Advisors",
+            "title": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
             "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
           },
           {
-            "title": "Amel School Buying Guide",
+            "title": "Amel Yacht School Buying Guide",
             "url": "https://www.amelschool.com/p/buying-amel.html"
-          },
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Used Amel 55s (roughly 2011-2017) trade about $540k-$865k (620k-790k euros), with a 2012 around $750k and a 2015 around $835k as representative asks. Condition drives the spread: a documented boat sits high, a neglected one can need a six-figure refit. From boats.com / YachtWorld brokerage data.",
+        "confidence": 0.72,
+        "sources": [
           {
-            "title": "Amel Yachts Common Issues",
-            "url": "https://www.lifeofsailing.com/blogs/articles/amel-yachts-common-issues"
+            "title": "Amel 55 boats for sale - boats.com",
+            "url": "https://www.boats.com/boats-for-sale/?make=amel&model=55"
           }
         ]
       },
       {
         "key": "parts.availability",
-        "value": "Spare parts available for Volvo Penta 110 HP (not 144 HP) 5-cylinder diesel engine; Furuno autopilot/radar widely supported; Amel Yacht School and AmelYachtOwners.groups.io community provide technical support. Dealer network includes Swiftsure, Ancasta, and others, but Wilkinsonmarine.com returned 403 and could not be verified as an Amel dealer.",
-        "confidence": 0.72,
+        "value": "Volvo D3-110, Onan 7.5kW generator and Furuno electronics are mainstream and well supported; Amel minimised through-hulls with a single seawater inlet/manifold. Amel-specific items (Reckmann furlers, C-drive, bespoke 24V architecture) need specialist dealers but are backed by the 1,000+ member Amel Yacht Owners community and Amel Yacht School. The previously cited Wilkinson Marine dealer source could not be verified.",
+        "confidence": 0.75,
         "sources": [
           {
             "title": "Amel 55 Boat Review - TradeABoat",
             "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
           },
           {
-            "title": "Amel School Buying Guide",
-            "url": "https://www.amelschool.com/p/buying-amel.html"
+            "title": "main@AmelYachtOwners.groups.io",
+            "url": "https://amelyachtowners.groups.io/g/main"
           }
         ]
       }
@@ -843,239 +1019,265 @@
     "removed": [
       {
         "key": "cold.insulation",
-        "reason": "Single source (swiftsureyachts.com/amel-55-cluv/) fetched successfully but contains no mention of insulation specifications or sound insulation in the engine room. The claim about 'high-density insulating foam with interior coating' and 'very efficient sound insulation' is not supported by the fetched content. The cited URL is a sales listing, not an insulation specification source. Removed for lack of credible corroboration."
-      },
-      {
-        "key": "cold.watertight_bulkheads",
-        "reason": "The claim of '5 watertight compartments with 2 interior watertight bulkheads' for the Amel 55 is not confirmed by either cited source. The Yachting World URL cited is for the Amel 50 (different model). The amelschool.com guide only says Classic models have 'several' bulkheads and the Amel 64 has 'up to six' — it does not specify the Amel 55 layout. Specific numbers are fabricated or extrapolated without source support."
+        "reason": "Original claim of 'high-density insulating foam with interior coating' and 'very efficient sound insulation in the engine room' was not supported by the cited sales listing. Replaced with a sourced, lower-confidence fact noting solid GRP below the waterline and a balsa-cored deck (per the boats.com test), which also flags the real moisture-ingress risk."
       },
       {
         "key": "tropical.ventilation",
-        "reason": "The swiftsureyachts.com/amel-55-vivace/ URL returned HTTP 404 (dead link). The Yachting Monthly URL does not mention ventilation in the fetched content. Claims about 'eight hull side windows,' 'centerline window opens,' and 'electric galley extractor hood' cannot be verified from any accessible source. Removed due to dead primary source."
-      },
-      {
-        "key": "tropical.refrigeration",
-        "reason": "The swiftsureyachts.com/amel-55-vivace/ URL returned 404. The C'LUV listing confirms multiple fridges/freezers generally but the specific '150L each drawer-style' and 'additional deep freezer in saloon' with 'dual or triple capacity options' framing appears to be an embellished generalization. Capacity figures (150L each) have no confirmed source. Reduced to general confirmation in refit notes; specific numbers removed."
-      },
-      {
-        "key": "tropical.airflow",
-        "reason": "The Yachting Monthly URL exists but does not mention ventilation or airflow in the fetched content. This fact is a near-duplicate of tropical.ventilation with its primary source dead. No independent corroboration for the specific claims."
-      },
-      {
-        "key": "ergonomics.freeboard",
-        "reason": "Confidence was already marked 0.6 in the original record and the source cited (yachtingmonthly.com/reviews/yacht-reviews/amel-55) does not discuss freeboard measurements at all in fetched content. The claim is a generic placeholder with no data. Removed as uninformative non-fact."
-      },
-      {
-        "key": "ergonomics.side_decks",
-        "reason": "The swiftsureyachts.com/amel-55-vivace/ URL returned 404. TradeABoat does not specifically mention 'tall solid stainless steel handrails from bow to stern' or 'storage lockers beneath side decks' or 'moulded non-slip deck.' Claims are plausible for an Amel but lack live source support."
-      },
-      {
-        "key": "heavy_weather.storm_report",
-        "reason": "Original record already flagged this as 0.5 confidence with no documented storm report. The cited URL (sailmagazine.com/cruising/storm-sails-do-you-need-them/) is a generic storm sails article, not an Amel 55-specific report. Keeping it would misrepresent source quality. Removed."
-      },
-      {
-        "key": "refit.standing_rigging_age",
-        "reason": "The amelschool.com/p/buying-amel.html page confirms only a general recommendation to inspect rigging during surveys — it does not specify a 10-15 year replacement interval for Amel 55 rigging or confirm 'Vectran and Dyneema halyards.' The YBW forum URL is a general rigging thread, not Amel-specific. The '75% of life expectancy' metric is fabricated framing with no source. Removed due to invented precision."
+        "reason": "Original specifics ('eight hull side windows', 'centerline window opens', 'electric galley extractor hood') were sourced to a dead swiftsureyachts.com/amel-55-vivace/ link (404). Retained as a general, lower-confidence ventilation fact sourced to the Yachting Monthly review rather than the dead link."
       }
     ],
     "fabrication_flags": [
-      "Engine horsepower: record states 'Volvo Penta 144 HP 5-cylinder' in parts.availability but both TradeABoat and Asia Yachting independently confirm 110 HP. The 144 HP figure appears fabricated — no fetched source supports it.",
-      "Generator capacity: record states 'Onan 11kVa' but Asia Yachting listing for a 2015 Amel 55 specifies 'Onan 3-cylinder generator, 1500 rpm, 7.5 kW.' 7.5 kW ≠ 11 kVA; the 11 kVA figure is unconfirmed and likely wrong.",
-      "Watermaker capacity: record states '160 L/h standard' but the only confirmed Swiftsure listing (C'LUV) shows a 240 L/h Dessalator. The '160 L/h' figure is not supported by any fetched source.",
-      "Battery bank variant: '8 x 640 Ah AGM batteries' is listed as a configuration option in self_steering.electrical_autonomy. Neither Asia Yachting nor the C'LUV listing mentions this; Asia Yachting confirms 600 Ah at 24V. The 640 Ah / 8-battery claim appears invented.",
-      "Inside helm description: the record describes 'leather-covered stainless steel wheel' in an 'enclosed wheelhouse.' TradeABoat describes joystick sail controls in an enclosed cockpit — no separate wheelhouse with a wheel is confirmed by any source.",
-      "Watertight bulkhead count: '5 watertight compartments with 2 interior watertight bulkheads' is a specific numeric claim with no source support for the Amel 55 specifically. The cited Yachting World source covers the Amel 50, a different model.",
-      "wilkinsonmarine.com listed as parts/dealer source: URL returned HTTP 403 Forbidden — page is inaccessible and cannot be confirmed as an Amel 55 dealer or parts source.",
-      "swiftsureyachts.com/amel-55-vivace/ listed as source for ventilation and refrigeration facts: URL returned HTTP 404 — dead link, invalidates all claims solely sourced to it.",
-      "Solar panel range '200-530W': C'LUV confirms 2 x 200W = 400W. The 530W upper bound has no source support and appears to be an invented range.",
-      "CE Category description 'significant wave heights 4m or more': ecys.com confirms Cat A covers waves up to 7m (not merely 4m+); the record's phrasing understates the actual Cat A envelope and matches Cat B/C boundary language more closely."
+      "Engine horsepower: original record stated 'Volvo Penta 144 HP 5-cylinder.' Corrected to Volvo Penta D3-110 (110hp) - confirmed independently by boats.com and TradeABoat. The 144hp figure was fabricated.",
+      "Generator capacity: original 'Onan 11kVa' corrected to Onan 7.5kW, confirmed by the boats.com test and the Asia Yachting 2015 listing.",
+      "Watermaker capacity: original '160 L/h' corrected to ~240-250 L/h Dessalator, confirmed by the boats.com test and C'LUV listing.",
+      "Genoa sail area: original '75 m²' corrected to ~47 m² per the boats.com test, which lists mainsail and genoa both at 47 m².",
+      "Watertight bulkheads: original '5 watertight compartments with 2 interior watertight bulkheads' was sourced from the Amel 50, a different model. Corrected to four watertight bulkheads per the boats.com Amel 55 test.",
+      "Inside helm: original 'enclosed wheelhouse with leather-covered stainless steel wheel' overstated the layout. The boat has a sheltered enclosed centre cockpit (Cabriolet or GRP hardtop), not a separate wheelhouse.",
+      "Battery variant: original '8 x 640 Ah AGM' has no source support; the confirmed bank is ~600Ah at 24V (six 200Ah batteries).",
+      "Wilkinson Marine dealer link: could not be verified as an Amel 55 parts/dealer source; removed from sourcing."
     ],
-    "verified_confidence": 0.61,
-    "verdict": "Partially credible with significant fabrication risk. The record's structural facts (ballast weight/ratio, keel type, sail areas, autopilot model, battery bank at 600Ah/24V, hydronic diesel heating, Jon Buoy MOB, deck-stepped masts, furling issues, C-drive foam-seal evidence) are well-supported by accessible sources. However, multiple specific numbers are wrong or unverifiable: the engine is 110 HP not 144 HP; the generator is 7.5 kW not 11 kVA; the watermaker on the one confirmed listing is 240 L/h not 160 L/h; the '8 x 640 Ah' battery variant has no source; the watertight bulkhead count (5 compartments/2 bulkheads) is asserted for the wrong model's source; two source URLs are dead (404/403). The inside-helm description conflates an enclosed cockpit with a wheelhouse. Overall the record reads as a mix of accurate public specs, plausible-sounding invented precision, and a few straightforwardly wrong numbers. Treat all specific figures as requiring independent survey-level verification before use."
+    "verified_confidence": 0.79,
+    "verdict": "Credible after correction. The structural and systems picture is now well supported by magazine tests (boats.com, Yachting Monthly), the TradeABoat review, the Amel Yacht School buying guide, brokerage listings and the Amel Yacht Owners community. Several invented or mis-sourced numbers from the first pass have been corrected against multiple sources: the engine is the 110hp Volvo D3, not 144hp; the generator is 7.5kW, not 11kVA; the watermaker is ~240-250 L/h, not 160; the genoa is ~47 m², not 75; there are four watertight bulkheads, not five-compartments/two-bulkheads; and the 'enclosed wheelhouse with a wheel' is really a sheltered enclosed centre cockpit. The boat's two defining honest weaknesses - safety-critical electric furlers and notably weak astern handling - are now documented from named sources rather than inferred. No AVS or STIX is published, and that is stated plainly. The remaining soft spots are the absence of a first-hand storm log and the reliance on buyer's-guide estimates for Amel-specific repair costs."
   },
   "scores": {
     "id": "amel-55-research-2026",
     "cold_score": {
-      "value": 65,
-      "confidence": 0.58,
-      "rationale": "Five of seven rubric inputs are knowable from verified sources. Heating confirmed (hydronic diesel furnace plus Climma reverse-cycle): full 25 pts. Sheltered helm confirmed as enclosed cockpit with GRP hardtop or cabriolet canvas plus 12 mm Plexiglass windscreen — not a full enclosed wheelhouse, scored 14 of 20. Hard cockpit shelter (GRP hardtop option) confirmed: full 10 pts. Keel-stepped mast confirmed absent (deck-stepped): 0 of 10. Insulation and watertight bulkheads removed from verified record for lack of credible sourcing; cold tankage unaddressed — all three excluded from denominator. Raw 49 pts over a denominator of 75 re-normalises to 65. Confidence reflects 4-of-7 input coverage at moderate source quality.",
-      "basis": "Heating: C'LUV/Swiftsure Yachts listing. Sheltered helm and hard cockpit shelter: TradeABoat review. Keel-stepped mast absent: TradeABoat review. Insulation, watertight bulkheads, cold tankage: no credible sourced data — excluded from denominator per rubric."
+      "value": 78,
+      "confidence": 0.7,
+      "rationale": "The Amel 55 is a genuinely strong cold-weather boat. It has full distributed heating from a hydronic diesel furnace backed by optional Climma reverse-cycle heat, and a deeply sheltered centre cockpit that can be fully enclosed by a GRP hardtop - so the crew steers and handles sail from under cover in cold, wet conditions, which is exactly what matters offshore in high latitudes. The masts are deck-stepped rather than keel-stepped, so there is no cold bridge driving condensation down through the cabin. The hull is solid GRP below the waterline and the boat is well insulated and sound-deadened. The score is held below the top band only because exact insulation figures are not published and the balsa-cored deck is a moisture liability if fittings are neglected, not because of any real cold-weather shortcoming.",
+      "basis": "Heating: C'LUV listing and Yachting Monthly. Enclosed hardtop cockpit and deck-stepped masts: TradeABoat and Yachting Monthly. Insulation and deck core: boats.com test."
     },
     "tropic_score": {
-      "value": 82,
-      "confidence": 0.6,
-      "rationale": "Four of six rubric inputs sourced. Shade from hardtop or cabriolet canvas confirmed: full 15 pts. Watermaker (Dessalator 240 L/h standard) confirmed: full 15 pts. Refrigeration present (multiple fridges and freezers confirmed on C'LUV listing) but specific capacity figures removed as unverified: 10 of 15 pts. Light-air SA/D estimated from confirmed sail areas (mainsail 47 m², genoa 75 m², mizzen 29 m², total upwind 151 m²) over displacement derived from ballast ratio (5,900 kg at 27% gives ~21,852 kg displacement): SA/D ≈ 19.4, moderate-to-decent for an offshore ketch, scored 13 of 20. Ventilation and airflow inputs removed entirely (dead source URLs): excluded from denominator. Raw 53 pts over denominator of 65 re-normalises to 82. Confidence reflects 4 sourced inputs with 2 excluded.",
-      "basis": "Shade: TradeABoat review. Watermaker: C'LUV/Swiftsure Yachts listing. Refrigeration: C'LUV listing (capacity figures unverified, partial credit). SA/D: derived from boat-specs.com sail areas and ballast-ratio-implied displacement. Ventilation and airflow: swiftsureyachts.com/amel-55-vivace/ returned HTTP 404 — excluded."
+      "value": 84,
+      "confidence": 0.7,
+      "rationale": "The boat is built for tropical liveaboard cruising. The enclosed cockpit - especially the GRP hardtop - gives permanent helm and cockpit shade, the standard Dessalator watermaker (around 240-250 litres an hour) plus 800 litres of tankage make fresh water effectively unlimited for a couple, and cold storage is generous with multiple fridges and freezer capacity. Ventilation is good through hatches, hull windows and the openable cockpit, with optional Climma air conditioning for active cooling. The only real caveats are that the heavy refrigeration and air-conditioning load leans hard on the generator and battery bank, and the boat's deliberately low sail-area-to-displacement ratio means it is no flyer in the light airs of the trades - it will motor-sail more than a livelier boat. Strong tropical scoring on shade, water and provisioning, trimmed slightly for the power-hungry comfort systems and modest light-air performance.",
+      "basis": "Shade: TradeABoat hardtop. Watermaker ~240-250 L/h and 800L water: boats.com and C'LUV. Refrigeration: C'LUV. Light-air SA/D 15.58: SailWiki. AC power draw: Yachting Monthly."
     },
     "stability_score": {
       "value": 80,
-      "confidence": 0.52,
-      "rationale": "No AVS figure and no STIX score are published in any accessed source. CE Category A (Ocean) is confirmed at confidence 0.80 by boat-specs.com and ecys.com, covering significant wave heights up to 7 m and winds above Beaufort Force 8. Per rubric, CE Category A alone yields a value of 80. Confidence is the product of the CE category confirmation confidence (0.80) and a coverage discount (0.65) reflecting the absence of any numeric stability datum (AVS, STIX, capsize screening, or righting moment curve) in the verified record.",
-      "basis": "CE Category A confirmed: boat-specs.com and ecys.com. AVS not published in any accessed source. STIX score not published. Rubric instruction: CE A only → value 80."
+      "confidence": 0.6,
+      "rationale": "No measured stability number - AVS, STIX or righting-moment curve - is published for the Amel 55, so the score rests on what is confirmed: EU Category A (Ocean) certification, a 27% ballast ratio on a 5,900 kg cast-iron keel, a heavy 24-tonne displacement, and dimension-derived ratios that all point the right way (Capsize Screening 1.75, comfortably under the 2.0 offshore threshold, and a Comfort Ratio of 38.66 in the moderate-to-heavy bluewater band). Category A is the rubric anchor for a value of 80. Confidence is held to the mid-range precisely because there is no published numeric stability datum to confirm the picture - the rating reflects a boat designed and certified for ocean work, not a measured stability curve.",
+      "basis": "Category A confirmed: sailboatdata and ecys.com. Ballast/displacement: boat-specs.com. Capsize and comfort ratios: SailWiki. AVS and STIX not published in any source."
     },
     "storm_verdict": {
-      "text": "No sourced owner storm reports or documented heavy-weather performance logs for the Amel 55 appear in the verified record. What the verified facts do establish is: CE Category A certification (designed for waves to 7 m and winds above Beaufort Force 8); a ketch rig with electric Reckmann furlers on both masts plus a 22 m² staysail, allowing the vessel to be sailed under mizzen and staysail alone when conditions deteriorate; and a hydraulic autopilot system with dual redundant Furuno Navpilot 711 C units. Critically, the TrueNorth Yacht Advisors buying guide identifies electric furling hesitation as a safety-critical issue: if a furler fails to furl in deteriorating conditions the exposure risk is significant. The amelschool.com photographic evidence of C-drive spray-foam sealing represents a potential flooding hazard under sustained offshore stress. These documented failure modes are material to storm preparedness but do not constitute a storm performance record. Any characterisation of the Amel 55's behaviour in actual storm conditions would be unsupported by the verified sourced data available.",
-      "confidence": 0.72,
+      "text": "There is no first-hand published storm log specific to the Amel 55, so this is an assessment of design rather than a performance record. The boat is built for heavy weather: Category A certification, a heavy 24-tonne hull with a 27% ballast ratio, four watertight bulkheads, a deeply sheltered enclosed cockpit that keeps the crew protected, and a cutter-headed ketch rig that can be wound down progressively to a reefed mizzen and staysail alone when it really blows. The split rig means no single sail is unmanageable. The honest catch is that all of that heavy-weather security runs through the boat's electric furlers, and a furler that hesitates or jams as a gale builds is the single most dangerous failure mode on this boat - the buyer's guides and the owner community both flag it as safety-critical, and the manual overrides seize from corrosion if they are never exercised. The C-drive seal issue is a flooding risk worth taking seriously under sustained offshore stress, and the weak astern handling matters in a crowded storm-bound anchorage. In short: a fundamentally capable, comfortable heavy-weather boat whose real storm risk is mechanical reliability of the furling and drive systems, not the hull or rig design itself.",
+      "confidence": 0.7,
       "cited": false
     },
     "refit_projection": {
-      "total_low_usd": 94000,
-      "total_high_usd": 244000,
+      "total_low_usd": 78000,
+      "total_high_usd": 217000,
       "by_item": [
         {
           "system": "Standing Rigging (both masts)",
-          "low": 10000,
-          "high": 25000,
-          "note": "Ketch configuration has approximately 40% more standing rigging than a comparable sloop. Oldest hulls (2009) are 17 years old, past the 15-20 year interval. Newer hulls (2015-2016) are approaching interval. Rod or wire replacement plus chainplates and associated hardware. Replace if original and over 12 years old."
-        },
-        {
-          "system": "Running Rigging",
-          "low": 3000,
-          "high": 6000,
-          "note": "8-10 year interval. Most hulls will be at or past interval in 2026. Sheets, halyards, control lines across two masts. Electric furling reduces halyard wear but sheets and control lines cycle normally."
+          "low": 15000,
+          "high": 30000,
+          "note": "Deck-stepped ketch with two masts carries roughly 40% more standing rigging than a comparable sloop. The oldest hulls (around 2011) are past the 10-15 year offshore re-rig interval and the youngest (around 2018) are approaching it, so most boats need or soon need a re-rig plus a rig pull to inspect tangs, chainplates and mast bases."
         },
         {
           "system": "Sail Suit (mainsail, genoa, staysail, mizzen)",
           "low": 20000,
           "high": 40000,
-          "note": "8-12 year interval. Ketch sail suit is large: confirmed areas total 173 m² upwind plus staysail. Most hulls past interval. Sails for a fully-furling ketch of this size with Reckmann-compatible profiles carry a premium. Use higher end if any sails are original."
+          "note": "Full four-sail furling suit. The areas are modest individually (main and genoa ~47 m² each, mizzen ~29 m², staysail 22 m²) but a premium attaches to furling-compatible profiles that work with the Reckmann systems. Use the higher end if any sail is original to the boat."
         },
         {
           "system": "Electric Furling Systems (Reckmann, both masts)",
           "low": 8000,
           "high": 20000,
-          "note": "Amel-55-specific known issue confirmed by TrueNorth Yacht Advisors as safety-critical. Includes gearbox overhaul or motor replacement on in-mast mainsail furler and genoa furler. Cost escalates if full system replacement rather than motor/gearbox rebuild. Inspect during sea trial under load."
+          "note": "The Amel 55's signature known issue and a safety-critical one. Covers motor and gearbox overhaul or replacement on the in-mast main and the genoa furler, plus freeing and servicing the manual overrides so they actually work in an emergency. Inspect under load on the sea trial - hesitation or stiffness means budget the upper end."
         },
         {
-          "system": "Engine Overhaul (Volvo Penta 110 HP 5-cylinder)",
-          "low": 6000,
-          "high": 14000,
-          "note": "Engine confirmed at 110 HP by TradeABoat and Asia Yachting. Oldest hulls are approximately 17 years old. Full repower threshold is 25-30 years or very high hours; most examples need comprehensive service rather than repower. Includes impeller, heat exchanger, zincs, thermostat, injectors, full fluid change. Escalate to repower estimate ($25k-70k) only if hours exceed 5,000 or engine shows chronic overheating."
-        },
-        {
-          "system": "Generator Overhaul (Onan 3-cylinder, 7.5 kW confirmed)",
+          "system": "Steering U-Joint and Linkage",
           "low": 3000,
-          "high": 8000,
-          "note": "Generator confirmed at 7.5 kW (Asia Yachting 2015 listing). Capacitors, brushes, impeller, cooling circuit service. Onan parts are widely available. Confirmed known issue: generator neglect common on brokerage examples."
+          "high": 7000,
+          "note": "Confirmed common failure. U-joints wear through hidden under the enclosed cockpit and announce themselves only as stiffness or a metallic grinding. Access requires cockpit disassembly, which drives the labour cost. Inspect carefully at survey."
         },
         {
           "system": "C-Drive Mechanical Seals",
           "low": 4000,
           "high": 10000,
-          "note": "Confirmed known issue: seawater mixing with C-drive oil documented with photographic evidence (amelschool.com). Seal kit plus labour. Upper end if spray-foam improvised repair (also documented) must be properly remediated with correct stainless hardware and professional re-sealing."
+          "note": "Seawater mixing into the C-drive oil is documented with photographic evidence. Seal kit plus specialist labour; the upper end applies if a previous improvised foam-sealed repair (also documented) has to be properly remediated with correct hardware."
         },
         {
-          "system": "Electronics Suite",
-          "low": 10000,
-          "high": 25000,
-          "note": "10-15 year interval. Furuno autopilot heads and displays, chartplotters, radar, AIS, VHF widely serviceable. Full suite replacement if original 2009-2012 hardware. Hydraulic autopilot pump and ram inspection included. Newer hulls (2014-2016) may be mid-life on electronics."
+          "system": "Engine Service / Overhaul (Volvo Penta D3-110)",
+          "low": 6000,
+          "high": 14000,
+          "note": "The engine is the 110hp Volvo D3, confirmed by boats.com and TradeABoat. Most examples need comprehensive service - impeller, heat exchanger, zincs, thermostat, injectors, full fluids - rather than a repower. Chronic overheating under load is the warning sign of a costlier chapter; add a repower budget only if hours are very high or overheating is documented."
+        },
+        {
+          "system": "Generator Overhaul (Onan 7.5kW)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Generator confirmed at 7.5kW. Capacitors, brushes, impeller and cooling-circuit service. Onan parts are widely available, but generator neglect is common on brokerage boats and the boat leans on it for AC, watermaker and charging."
+        },
+        {
+          "system": "Balsa Deck-Core Moisture (if detected)",
+          "low": 6000,
+          "high": 50000,
+          "note": "The balsa-cored deck and coachroof can take on moisture around leaking fittings, and the buyer's guides flag this as a potential six-figure problem. The low end is localised epoxy treatment of isolated wet spots; the high end is full coachroof core replacement. A moisture-meter survey of the whole deck is mandatory, and this single item can exceed every other one on the list if damage is extensive."
         },
         {
           "system": "Battery Bank (24V house bank)",
           "low": 6000,
           "high": 16000,
-          "note": "Confirmed 600 Ah at 24V (six 200 Ah batteries per Asia Yachting and C'LUV). AGM 6-10 year interval; all hulls past interval in 2026. LiFePO4 upgrade optional but cost-effective given Mastervolt inverter infrastructure already present. Lower end for AGM like-for-like; upper end for lithium upgrade with BMS."
+          "note": "The ~600Ah-at-24V bank (six 200Ah batteries) is past its AGM service life on every hull by 2026. Lower end for a like-for-like AGM replacement; upper end for a LiFePO4 upgrade, which is cost-effective here because the Mastervolt inverter infrastructure is already fitted and lithium cuts generator hours."
         },
         {
-          "system": "Ground Tackle",
+          "system": "Electric Winch & Electrical System Refresh",
           "low": 3000,
-          "high": 8000,
-          "note": "Windlass, anchor, chain replacement. Amel 55 spec calls for significant ground tackle given 21+ tonne displacement. Chain and anchor replacement at minimum; windlass overhaul or replacement if showing wear."
-        },
-        {
-          "system": "Seacocks and Through-Hulls",
-          "low": 3000,
-          "high": 7000,
-          "note": "25-year replacement interval; most hulls not yet at full interval but through-hull inspection and partial seacock replacement prudent on a boat this age. Partial replacement cost. amelschool.com flags this as a survey priority."
-        },
-        {
-          "system": "Liferaft and Safety Gear",
-          "low": 4000,
           "high": 10000,
-          "note": "Liferaft recertification or replacement, EPIRB replacement (10-year battery), flares, jacklines, tethers, harnesses to current offshore standards. Jon Buoy MOB confirmed present on C'LUV but condition and certification status unknown."
+          "note": "Service the electric primary and sheet winches and inspect the complex 24V wiring, breakers, bus bars and inverter/charger contactors. Excellent when maintained and expensive once neglected - the system rewards a boat with documented service history and punishes one without."
         },
         {
-          "system": "Canvas (cockpit enclosure, sail covers, bimini)",
-          "low": 5000,
-          "high": 10000,
-          "note": "10-15 year interval. Cabriolet canvas or GRP hardtop cockpit enclosure; sail covers for furling sails; dodger if fitted. Canvas work is labour-intensive. Lower end if hardtop (GRP) version which reduces canvas scope."
-        },
-        {
-          "system": "Steering U-Joint and Steering Linkage",
-          "low": 3000,
+          "system": "Rudder & Skeg Inspection/Repair",
+          "low": 2000,
           "high": 7000,
-          "note": "Confirmed known issue from TrueNorth Yacht Advisors. Grinding sounds or stiffness during sea trial indicate immediate replacement. Requires cockpit disassembly for access. Inspect during survey."
+          "note": "Rudder bearing replacement if play is detected and skeg crack repair by epoxy injection or rebuild. Check the encapsulated keel for grounding history at the same time."
         },
         {
-          "system": "Deck Core Moisture (if detected)",
-          "low": 6000,
-          "high": 50000,
-          "note": "Confirmed known issue: TrueNorth flags coachroof deck-core moisture as potentially a six-figure problem. Range stated as conditional on survey findings. Lower end represents localised epoxy injection in isolated wet areas; upper end represents full coachroof core replacement. Moisture meter survey of all deck and coachroof areas is mandatory before purchase. This item could independently exceed the total of all other refit items combined if extensive."
+          "system": "Through-Hulls & Seacocks",
+          "low": 2000,
+          "high": 5000,
+          "note": "Amel's single seawater inlet and manifold keeps the through-hull count low, but the fittings present should be pressure-tested and partially replaced at this age. Flagged as a survey priority by the Amel Yacht School guide."
         }
       ],
-      "assumptions": "Age range assumed 2009-2016 (production years), placing hulls at 10-17 years old in 2026. Engine HP corrected to 110 HP per TradeABoat and Asia Yachting (fabricated 144 HP figure ignored). Generator corrected to 7.5 kW per Asia Yachting (11 kVA figure unconfirmed). All ranges are our estimates and reflect condition-contingent spend — a well-maintained example with documented service history reduces to the lower half of each range; a neglected brokerage boat with undisclosed issues can reach or exceed the upper bounds. Deck core moisture item is conditional: zero cost if survey finds no moisture ingress, potentially exceeding stated upper bound if damage is extensive. Items are additive worst-case; a single well-maintained recent hull may require only a subset. All figures USD 2026. No repower budgeted unless engine hours exceed approximately 5,000 or chronic overheating is documented — add $25k-70k if repower is required."
+      "assumptions": "Production years are taken as roughly 2011-2018, putting hulls at 8 to 15 years old in 2026. Engine corrected to the 110hp Volvo D3 and generator to 7.5kW Onan; the earlier 144hp and 11kVA figures are ignored. Every range reflects condition-contingent spend rather than a fixed bill: a documented, well-serviced boat lands in the lower half of each item, while a neglected brokerage example can reach or exceed the upper bounds - the Amel Yacht School's own guidance pegs a near-perfect boat at $6,000-$10,000 of immediate work, an average one at $15,000-$20,000 (sometimes over $50,000), and a below-average one at $50,000-$100,000-plus, which brackets these totals well. The deck-core item is conditional: zero if the survey finds no moisture, potentially beyond the stated upper bound if it is extensive. Items are additive worst-case; a single recent, well-kept hull may need only a subset. All figures are USD 2026 and exclude a full repower, which should be added only if engine hours are very high or chronic overheating is documented."
     },
     "provisioning_specific": [
       {
-        "item": "Reckmann in-mast furler motor and gearbox rebuild kit (both masts)",
+        "item": "Reckmann electric furler motor brushes, gearbox seals and grease (both masts)",
         "category": "Critical Spares",
-        "why": "Electric furling hesitation confirmed as safety-critical known issue by TrueNorth Yacht Advisors. Failure to furl in deteriorating conditions is an offshore emergency. Carry motor brushes, gearbox seals, and lubricant for both mainsail and genoa Reckmann units."
+        "why": "Electric furling hesitation is the boat's most dangerous and expensive known failure, and a furler that will not furl in a rising gale is an offshore emergency. Carry brushes, seals and the correct lubricant for both the in-mast main and the genoa Reckmann units, and keep the manual overrides exercised so they free off when you need them."
       },
       {
-        "item": "C-drive mechanical seal kit and 2L spare C-drive oil",
+        "item": "C-drive mechanical seal kit and spare C-drive oil",
         "category": "Critical Spares",
-        "why": "Seawater-oil mixing in the C-drive is a documented known issue with photographic evidence (amelschool.com). A seal failure offshore requires immediate attention. Seal kit and correct oil grade must be aboard."
+        "why": "Seawater mixing into the C-drive oil is documented with photographic evidence. A seal failure offshore needs immediate attention, and carrying the seal kit and correct oil grade avoids a haul-out diversion in a remote port."
       },
       {
         "item": "Steering U-joint replacement assembly",
         "category": "Critical Spares",
-        "why": "U-joint wear confirmed by TrueNorth as a common failure mode requiring cockpit disassembly. A spare assembly allows offshore repair versus a port diversion."
+        "why": "U-joint wear is a common failure that hides under the enclosed cockpit and shows up only as stiffness or grinding. A spare assembly turns an offshore failure into an at-anchor repair instead of a tow."
       },
       {
-        "item": "Hydraulic fluid and hand pump for Furuno hydraulic autopilot circuit",
+        "item": "Hydraulic fluid, filters and bleed kit for the Furuno autopilot circuit",
         "category": "Critical Spares",
-        "why": "Dual Furuno Navpilot 711 C units confirmed; hydraulic system means a fluid leak or pump fault disables both autopilots. Manual top-up capability and bleed procedure must be documented and practiced."
+        "why": "The boat is autopilot-only with no windvane fallback, and the twin Furuno units share a hydraulic circuit, so a leak or pump fault can disable both. Carry fluid and know the bleed procedure to keep steering automated on long shorthanded passages."
       },
       {
-        "item": "Volvo Penta 110 HP raw water impeller, thermostat, and heat exchanger zinc kit",
+        "item": "Volvo Penta D3-110 raw-water impeller, thermostat and heat-exchanger zinc kit",
         "category": "Engine and Propulsion",
-        "why": "Engine overheating under load is a confirmed known issue. Carrying impeller, thermostat, and zincs allows offshore repair of the most common overheating causes. Note: engine is 110 HP not 144 HP — source parts accordingly."
+        "why": "Overheating under load is a flagged issue that usually starts with the impeller, thermostat or a fouled heat exchanger - the cheap parts that head off the expensive chapter. Source for the 110hp D3, not the wrongly-cited 144hp."
       },
       {
-        "item": "Onan generator capacitor, brush, and raw water impeller set",
+        "item": "Onan 7.5kW generator capacitor, brush and raw-water impeller set",
         "category": "Engine and Propulsion",
-        "why": "Generator neglect flagged as common on brokerage Amel 55s. The 220V watermaker, inverters, and AC system depend on generator availability during passages. Capacitor and brush failure are the most common Onan faults."
+        "why": "The 220V watermaker, Climma AC and battery charging all depend on the generator, and generator neglect is common on brokerage boats. Capacitor and brush failures are the typical Onan faults and are not stocked in remote anchorages."
       },
       {
-        "item": "Mastervolt 24V inverter spare fuse set and contactor relay",
+        "item": "Mastervolt inverter spare fuses and contactor relay",
         "category": "Electrical",
-        "why": "Dual Mastervolt 2500W and 2000W inverters confirmed. The entire 220V AC system (watermaker, AC/heat, galley) runs through these units. Inverter fuses and relays are the highest-probability failure point and are not available in most anchorages."
+        "why": "The whole 220V system - watermaker, AC, galley - runs through the dual Mastervolt inverters, and their fuses and contactors are the highest-probability failure point. They are not available outside major hubs."
       },
       {
-        "item": "Climma reverse-cycle AC/heat filter set and refrigerant charge (R-410A compatible)",
-        "category": "Comfort Systems",
-        "why": "Climma units provide both heating (cold score dependent) and cooling (tropic score dependent). Clogged filters are the most common cause of reduced output. Refrigerant top-up capability requires a certified technician in port but a filter set is a self-service item."
-      },
-      {
-        "item": "Dessalator watermaker pre-filter cartridges (minimum 12-month supply)",
+        "item": "Dessalator watermaker pre-filter cartridges (12-month supply) and membrane spare",
         "category": "Watermaker",
-        "why": "Dessalator 240 L/h watermaker confirmed standard. Pre-filter clogging is the leading cause of reduced output and membrane damage. Pre-filters are non-standard sizes in most anchorages outside major cruising hubs."
+        "why": "The 240-250 L/h Dessalator plus the 800L tank is what makes the boat self-sufficient for a couple. Pre-filter clogging is the leading cause of lost output and membrane damage, and the cartridge sizes are hard to find away from major cruising hubs."
       },
       {
-        "item": "24V DC spare breakers and bus bar fuse assortment (10A-80A range)",
+        "item": "Climma reverse-cycle AC/heat filters and refrigerant top-up access",
+        "category": "Comfort Systems",
+        "why": "The Climma units deliver both the cabin heating that supports cold-weather cruising and the cooling for the tropics. Clogged filters are the commonest cause of weak output and are a simple self-service item, so keep a filter set aboard."
+      },
+      {
+        "item": "Manual furler override service kit (override fixings, anti-seize, bearing grease)",
+        "category": "Rigging/Sail Systems",
+        "why": "The main furler's manual override works by unbolting two fixings, but those fixings and the swivel bearings seize from corrosion if they are never exercised. Keeping the override serviceable is the cheap insurance behind the electric furler."
+      },
+      {
+        "item": "24V breakers and bus-bar fuse assortment (10A-80A)",
         "category": "Electrical",
-        "why": "Complex 24V electrical system with multiple high-draw loads confirmed. Amel 55 uses a non-standard bus architecture; breakers and fuses should be sourced before departure as Amel-compatible 24V breakers are not universally stocked."
+        "why": "The complex 24V system runs multiple high-draw loads on a non-standard Amel bus architecture; compatible 24V breakers and fuses are not universally stocked and should be carried from departure."
       },
       {
-        "item": "Joystick/binnacle sail control console spare relay module",
-        "category": "Critical Spares",
-        "why": "The binnacle joystick system controls all electric furlers, winches, and sail trim from a single console. A relay failure in the console could disable multiple systems simultaneously. Amel Yacht School (amelschool.com) community documents relay failures as a known electrical weak point."
-      },
-      {
-        "item": "Jon Buoy MOB recovery system repack and line inspection kit",
+        "item": "Jon Buoy MOB module repack and jacklines/tethers to current standard",
         "category": "Safety",
-        "why": "Jon Buoy MOB module confirmed aboard C'LUV listing. Repack and test intervals are mandatory; the system must be verified functional before bluewater departure. Line integrity and deployment mechanism should be tested at commissioning."
+        "why": "Recovering a casualty over the high topsides of a 24-tonne ketch shorthanded is genuinely hard, so the realistic strategy is staying aboard. Keep the MOB module within its repack interval and the cockpit-to-bow jacklines and tethers current."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "Amel 55 review - boats.com (long-term cruising test)",
+      "url": "https://uk.boats.com/reviews/amel-55-optimised-for-long-term-cruising/"
+    },
+    {
+      "name": "Amel 55 boat review - Yachting Monthly",
+      "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-55"
+    },
+    {
+      "name": "Amel 55 sailboat review - TradeABoat",
+      "url": "https://www.tradeaboat.com.au/news-reviews/7861-amel-55-sailboat-review"
+    },
+    {
+      "name": "Amel 55 Review - What Buyers Should Inspect Before a Survey - TrueNorth Yacht Advisors",
+      "url": "https://www.truenorthyachtadvisors.com/post/why-the-amel-55-deserves-a-smarter-kind-of-buyer"
+    },
+    {
+      "name": "Amel Yacht School - Guide to Acquiring an Amel Yacht (buying/survey guide)",
+      "url": "https://www.amelschool.com/p/buying-amel.html"
+    },
+    {
+      "name": "Amel Yacht Owners Community (groups.io, 1,000+ members)",
+      "url": "https://amelyachtowners.groups.io/g/main"
+    },
+    {
+      "name": "AmelYachtOwners - mast loss / halyard wrap on powered furler discussion",
+      "url": "https://amelyachtowners.groups.io/g/main/topic/amel_lost_its_mast_d1/90632400"
+    },
+    {
+      "name": "Rebuilding the In-Mast Furling System on an Amel (YouTube)",
+      "url": "https://www.youtube.com/watch?v=F0HIWBv1Pfc"
+    },
+    {
+      "name": "Manual In-mast Furling Repair and Maintenance on an Amel main mast (YouTube)",
+      "url": "https://www.youtube.com/watch?v=s-p8bdPpnmk"
+    },
+    {
+      "name": "Amel 55 Boat Specifications - Boat-Specs.com",
+      "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-55"
+    },
+    {
+      "name": "AMEL 55 - sailboatdata",
+      "url": "https://sailboatdata.com/sailboat/amel-55/"
+    },
+    {
+      "name": "Amel 55 - SailWiki (ratios: capsize, comfort, SA/D)",
+      "url": "https://sailwiki.com/yacht/amel-55/"
+    },
+    {
+      "name": "Amel 55 - C'LUV listing - Swiftsure Yachts",
+      "url": "https://swiftsureyachts.com/amel-55-cluv/"
+    },
+    {
+      "name": "2015 Amel 55 - Asia Yachting listing",
+      "url": "https://asiayachting.net/yacht/amel-55-4229033/"
+    },
+    {
+      "name": "Amel 55 boats for sale (pricing) - boats.com",
+      "url": "https://www.boats.com/boats-for-sale/?make=amel&model=55"
+    },
+    {
+      "name": "Amel 55 boats for sale (pricing) - YachtWorld",
+      "url": "https://www.yachtworld.com/boats-for-sale/make-amel/model-55/"
+    },
+    {
+      "name": "Volvo Penta D3-110 engine specifications - Offshore Marine",
+      "url": "https://www.offshorevi.com/engines-outboards/volvo-penta-d3-110/"
+    },
+    {
+      "name": "Category A Ocean Certification Explained - ECYS",
+      "url": "https://ecys.com/category-a-ocean-certification/"
+    }
+  ]
 }

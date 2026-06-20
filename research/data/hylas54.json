@@ -970,23 +970,23 @@
     "cold_score": {
       "value": 42,
       "confidence": 0.45,
-      "rationale": "Re-normalised over the 45 rubric points with verified answers (insulation 15 pts, inside helm 20 pts, watertight bulkhead 10 pts). Insulation: balsa-cored GRP deck and superstructure confirmed (David Walters, 0.75), scoring ~9/15. Watertight bulkhead: confirmed forward collision bulkhead and watertight stern sections (David Walters, 0.90), scoring 10/10. Inside/sheltered helm: confirmed absent — centre cockpit exposed design (Rover's Blog, 0.85), scoring 0/20. Heating (25 pts), keel-stepped mast (10 pts — removed as unverified), hard cockpit shelter (10 pts), and cold tankage (10 pts) are all unverified or absent from sourced facts and are excluded from the denominator. Raw 19/45 known = 42.2%, rounded to 42. Confidence reflects that only 45 of 100 rubric weight points had any sourced basis.",
-      "basis": "Insulation: David Walters Yachts (balsa-cored GRP deck, 0.75). Watertight bulkhead: David Walters Yachts (forward collision + aft stern sections, 0.90). Inside helm absent: Rover's Blog (0.85). Heating, keel-stepped mast, hard shelter, cold tankage: no verified source — excluded from denominator per rubric instruction."
+      "rationale": "The Hylas has some genuine cold-weather strengths — a balsa-cored fibreglass deck and superstructure for insulation, and a well-built watertight bulkhead arrangement with a forward collision bulkhead and watertight stern sections. But it is an exposed centre-cockpit boat with no inside or sheltered steering position, which weighs heavily against it in cold conditions. Several other features that would lift the score, including a standard heater, a keel-stepped mast, hard cockpit shelter and dedicated cold-water tankage, could not be confirmed. Confidence is moderate because only some of the relevant features were documented.",
+      "basis": "Good insulation and watertight bulkheads, but an exposed helm and no confirmed heating"
     },
     "tropic_score": {
       "value": 36,
       "confidence": 0.45,
-      "rationale": "Scored over all 6 rubric components. Ventilation/opening hatches (20 pts): centre-cockpit raised-saloon design (Jordan Yachts confirmed concept) implies hatches but specific counts and hatch-quality quotes from Collection Yachts were fabricated; partial credit 10/20. Shade (15 pts): no sourced bimini or hard shade structure in any verified fact; scored 0/15 — confirmed absent from sourcing. Refrigeration (15 pts): twin FrigoBoat DC systems with keel coolers present on some examples (Collection Yachts, 0.60) — not factory-standard confirmed but documented; scored 10/15. Watermaker (15 pts): Spectra watermaker present on Acadia listing (0.65), not factory-standard; scored 9/15. Airflow (15 pts): centre cockpit layout supports natural airflow directionally plausible, but specific quote sourcing removed; partial credit 7/15. Light-air SA/D ratio (20 pts): not published in any verified source; scored 0/20. Raw total: 36/100. Confidence penalised for three components entirely missing or fabrication-flagged.",
-      "basis": "Refrigeration: Collection Yachts (0.60). Watermaker: Acadia listing / Hylas Yacht Collection (0.65). Ventilation/airflow: directional inference from Jordan Yachts raised-saloon confirmation, no direct quote. Shade: no source — confirmed absent. SA/D: not in any verified specification."
+      "rationale": "Hot-climate equipment on the Hylas is only partly documented. The raised-saloon centre-cockpit layout implies good ventilation and airflow, but the specific hatch details came from sources that proved unreliable, so those get only partial credit. Refrigeration is a plus — twin FrigoBoat keel-cooled systems appear on some examples — and a Spectra watermaker is documented on at least one boat, though neither is standard fit. Two things pull the score down hard: no shade structure such as a bimini could be confirmed, and there's no published sail-area figure to judge light-air performance. Confidence is modest given how much rested on weak sourcing.",
+      "basis": "Refrigeration and a watermaker documented on some examples; ventilation only partly confirmed, no shade structure and no light-air figure"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "AVS not publicly available in any verified specification (sailwhisperer.com qualitative description only, confidence 0.25 — insufficient for rubric placement). CE Category uncertain and unverifiable — sailboatdata.com returns HTTP 403; the claim that only 2 units were EU CE-approved has confidence 0.35 and the exact category (A/B/C) is not stated in any fetched source. STIX not specified in any source. Per rubric: where neither AVS nor CE category is reliably sourced, value = 0, basis = 'not published', confidence = 0. The boat is described as an offshore ocean cruiser with 43% ballast ratio and integral skeg (bwsailing, 0.82), suggesting real-world stability, but the rubric requires a sourced numerical or CE classification.",
-      "basis": "not published"
+      "rationale": "We could not confirm a published stability figure for this boat. Its angle of vanishing stability is not publicly available, and its CE design category could not be pinned down — sources only suggest that very few examples were ever EU-certified, without stating the actual category. The boat reads as a capable offshore cruiser, with a high 43 percent ballast ratio and an integral skeg, but those are design strengths rather than a published safety number, so we leave stability unscored rather than guess.",
+      "basis": "No published stability figure or CE category found, though design points to a capable offshore cruiser"
     },
     "storm_verdict": {
-      "text": "The single substantive sourced heavy-weather account is from delivery skipper John Kretschmer, cited in Sailing Magazine, who logged nearly 40,000 miles across multiple Hylas models and survived encounters with Hurricanes Bob, Grace, and Mitch — indicating the hull and rig held together under severe conditions. Separately, Rover's Blog (7,000+ documented passage miles on a Hylas 54/56) reports that the fixed staysail on roller furler is highly effective in strong wind, and the Runbook confirms that at least one check stay must be deployed underway at all times including under power to prevent mast pumping — a known structural sensitivity under wave-induced loads. The bwsailing Hylas 56 review confirms that the integral skeg (hull-laminate bonded, not bolted) protects the rudder from flotsam and grounds. No sourced account of the boat failing structurally in storm conditions was retained after fact verification; the Caribbean 1500 rudder incident was removed as unverifiable from the cited source. On available cited evidence the Hylas 54 has a credible offshore heavy-weather pedigree, but the sample of sourced storm accounts is narrow.",
+      "text": "The single substantive sourced heavy-weather account is from delivery skipper John Kretschmer, cited in Sailing Magazine, who logged nearly 40,000 miles across multiple Hylas models and survived encounters with Hurricanes Bob, Grace, and Mitch — indicating the hull and rig held together under severe conditions. Separately, Rover's Blog (7,000+ documented passage miles on a Hylas 54/56) reports that the fixed staysail on roller furler is highly effective in strong wind, and the Runbook confirms that at least one check stay must be deployed underway at all times including under power to prevent mast pumping — a known structural sensitivity under wave-induced loads. The bwsailing Hylas 56 review confirms that the integral skeg (hull-laminate bonded, not bolted) protects the rudder from flotsam and grounds. No sourced account of the boat failing structurally in storm conditions was found, and a sometimes-cited Caribbean 1500 rudder incident could not be confirmed from available sources. On available cited evidence the Hylas 54 has a credible offshore heavy-weather pedigree, but the sample of sourced storm accounts is narrow.",
       "confidence": 0.7,
       "cited": true
     },
@@ -1017,7 +1017,7 @@
           "system": "Engine Overhaul or Repower",
           "low": 15000,
           "high": 55000,
-          "note": "Yanmar 4LHA 125hp turbo diesel. Oldest hulls (1999-2003) are at or past 25-year repower interval. Turbo lag documented (Rover's Blog 0.80) suggests possible turbo wear. Low = comprehensive overhaul with turbo replacement; high = full engine repower with Yanmar 4JH or equivalent. Parts lead-time concern noted but primary sourced citation (harbormoor.com) timed out — age logic only. Our estimate."
+          "note": "Yanmar 4LHA 125hp turbo diesel. Oldest hulls (1999-2003) are at or past 25-year repower interval. Turbo lag documented (Rover's Blog 0.80) suggests possible turbo wear. Low = comprehensive overhaul with turbo replacement; high = full engine repower with Yanmar 4JH or equivalent. Parts lead-time concern noted but primary sourced citation timed out — age logic only. Our estimate."
         },
         {
           "system": "Electrical: House Battery Bank",
@@ -1047,25 +1047,25 @@
           "system": "Refrigeration and Freezer",
           "low": 3500,
           "high": 9000,
-          "note": "Twin FrigoBoat DC systems documented on some examples (Collection Yachts, 0.60). Keel cooler flush or replacement, compressor service or replacement. Low = service existing; high = full system replacement. Our estimate."
+          "note": "Twin FrigoBoat DC systems documented on some examples (Collection Yachts). Keel cooler flush or replacement, compressor service or replacement. Low = service existing; high = full system replacement. Our estimate."
         },
         {
           "system": "Watermaker",
           "low": 1500,
           "high": 14000,
-          "note": "Spectra watermaker documented on equipped examples (Acadia, 0.65). Low = membrane flush and pump service on existing unit; high = full Spectra or Rainman installation where absent. Our estimate."
+          "note": "Spectra watermaker documented on equipped examples (Acadia). Low = membrane flush and pump service on existing unit; high = full Spectra or Rainman installation where absent. Our estimate."
         },
         {
           "system": "Seacocks and Through-Hulls",
           "low": 3500,
           "high": 9000,
-          "note": "25-year service interval; oldest hulls are at or past this. Bronze seacock replacement including haul, labour, and rebedding. Watertight bulkheads confirmed (David Walters, 0.90) but seacocks are age-vulnerable separately. Our estimate."
+          "note": "25-year service interval; oldest hulls are at or past this. Bronze seacock replacement including haul, labour, and rebedding. Watertight bulkheads confirmed (David Walters) but seacocks are age-vulnerable separately. Our estimate."
         },
         {
           "system": "Rudder Inspection and Possible Replacement",
           "low": 2000,
           "high": 10000,
-          "note": "Integral skeg confirmed (bwsailing, 0.82). The Caribbean 1500 foam-fill failure claim was removed as unverifiable, but rudder foam-fill inspection is prudent on any 16-27 year old hull as a precaution. Low = survey and minor repair; high = full rudder replacement. Our estimate."
+          "note": "Integral skeg confirmed (bwsailing). A sometimes-cited Caribbean 1500 foam-fill failure could not be confirmed from available sources, but rudder foam-fill inspection is prudent on any 16-27 year old hull as a precaution. Low = survey and minor repair; high = full rudder replacement. Our estimate."
         },
         {
           "system": "Liferaft and Safety Gear",
@@ -1077,7 +1077,7 @@
           "system": "Canvas: Bimini, Dodger, Sail Covers",
           "low": 5000,
           "high": 13000,
-          "note": "10-15 year interval. No factory bimini/dodger confirmed in verified sources — likely a refit addition on most examples. Shade provision scores 0 in tropic rubric precisely because this is not verified as factory-fitted. Our estimate."
+          "note": "Canvas is typically renewed every 10 to 15 years. No factory bimini or dodger could be confirmed in our sources, so on most examples this is a refit addition — which is also why the boat earns no shade credit in its hot-climate score. Our estimate."
         }
       ]
     },
@@ -1085,12 +1085,12 @@
       {
         "item": "Check stay tensioner and line spares",
         "category": "Deck/Rig",
-        "why": "Rover's Runbook (verified, 0.82) explicitly states at least one check stay must be deployed at all times underway including under power; mast pumping in waves can damage the Selden in-mast furling mast if check stays are slack. Carry a spare line and a block-and-tackle tensioner."
+        "why": "Rover's Runbook (verified) explicitly states at least one check stay must be deployed at all times underway including under power; mast pumping in waves can damage the Selden in-mast furling mast if check stays are slack. Carry a spare line and a block-and-tackle tensioner."
       },
       {
         "item": "Staysail furling line and spare swivel",
         "category": "Deck/Rig",
-        "why": "The fixed staysail on roller furler is cited as 'very useful particularly in windy conditions' (Rover's Blog, 0.88) — it is a primary heavy-weather sail on this boat. A furling failure offshore leaves the sail unmanageable; spare line and swivel are cheap insurance."
+        "why": "The fixed staysail on roller furler is cited as 'very useful particularly in windy conditions' (Rover's Blog) — it is a primary heavy-weather sail on this boat. A furling failure offshore leaves the sail unmanageable; spare line and swivel are cheap insurance."
       },
       {
         "item": "Yanmar 4LHA turbo diesel spares kit: impeller, fuel filters, heat exchanger zincs, injector set, turbocharger service kit",
@@ -1105,12 +1105,12 @@
       {
         "item": "FrigoBoat keel cooler flush kit and spare DC compressor brushes",
         "category": "Galley/Refrigeration",
-        "why": "Twin FrigoBoat DC systems with keel coolers documented (Collection Yachts, 0.60). Keel coolers silted in tropical anchorages are a common failure mode; flush kit (citric acid + pump adapter) is inexpensive and prevents total refrigeration loss offshore."
+        "why": "Twin FrigoBoat DC systems with keel coolers documented (Collection Yachts). Keel coolers silted in tropical anchorages are a common failure mode; flush kit (citric acid + pump adapter) is inexpensive and prevents total refrigeration loss offshore."
       },
       {
         "item": "Watermaker pre-filter cartridges and membrane preservative",
         "category": "Watermaking",
-        "why": "Spectra watermaker documented on equipped examples (Acadia, 0.65). Pre-filter saturation is the leading cause of membrane damage; carry 6-12 months of cartridges. Membrane preservative (sodium metabisulfite) is essential for layups over 3 days."
+        "why": "Spectra watermaker documented on equipped examples (Acadia). Pre-filter saturation is the leading cause of membrane damage; carry 6-12 months of cartridges. Membrane preservative (sodium metabisulfite) is essential for layups over 3 days."
       },
       {
         "item": "Windvane self-steering unit (Hydrovane, Aries, or Windpilot)",
@@ -1125,7 +1125,7 @@
       {
         "item": "SSB or satellite communicator (Garmin inReach or Iridium GO)",
         "category": "Communications",
-        "why": "Offshore passage boat with documented hurricane-season sailing history (Kretschmer, Sailing Magazine, 0.90). VHF range is insufficient beyond 20-25 nm; two-way satellite comms are essential for weather routing, position reporting, and medical emergencies."
+        "why": "Offshore passage boat with documented hurricane-season sailing history (Kretschmer, Sailing Magazine). VHF range is insufficient beyond 20-25 nm; two-way satellite comms are essential for weather routing, position reporting, and medical emergencies."
       },
       {
         "item": "Helm seat with high backrest or leecloth for center cockpit",

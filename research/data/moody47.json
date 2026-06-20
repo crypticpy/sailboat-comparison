@@ -1,0 +1,708 @@
+{
+  "_id": "moody47",
+  "_provenance": {
+    "generated": "2026-06-20",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "opus",
+    "verify": "opus",
+    "score": "opus"
+  },
+  "id": "moody47",
+  "name": "Moody 47",
+  "research": {
+    "id": "moody-47-bluewater-research",
+    "overall_confidence": 0.76,
+    "facts": [
+      {
+        "key": "identity.model_disambiguation",
+        "value": "This record covers the modern Bill Dixon Moody 47 built from August 2001 to October 2004 (46 hulls) by Princess Yachts International under the A.H. Moody marque. It is a different boat from the earlier 1982-1989 Moody 47 (also a Dixon design, but a heavier centreboard/centre-cockpit boat). When comparing specifications, always confirm the year — many spec sites blend the two.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          },
+          {
+            "title": "MOODY 47 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-47/"
+          }
+        ]
+      },
+      {
+        "key": "dimensions.principal",
+        "value": "LOA 14.53 m (47'8\"), hull length about 14.17 m (46'6\"), beam 4.40 m (14'5\"), fin-keel draft 2.06 m (6'9\") or shoal draft 1.60 m (5'3\"). Fin-keel displacement about 14,950 kg (32,890 lb) and shoal about 15,330 kg (33,726 lb); ballast about 4,700 kg (10,340 lb). Waterline length is about 11.8 m (38'9\") per spec aggregators.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          },
+          {
+            "title": "Sailboat Guide — Moody 47",
+            "url": "https://sailboat.guide/moody/47"
+          }
+        ]
+      },
+      {
+        "key": "performance.ratios",
+        "value": "Sail area/displacement ratio about 16.5, displacement/length ratio about 211, Ted Brewer comfort ratio about 28.9, and capsize screening formula about 1.9. This is a moderate-displacement cruiser — a touch lighter and beamier-for-length than the bigger Moody 54, capable offshore with a capsize number under the 2.0 threshold but with a lower comfort ratio than heavier passagemakers.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "MOODY 47 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-47/"
+          },
+          {
+            "title": "Sailboat Guide — Moody 47",
+            "url": "https://sailboat.guide/moody/47"
+          }
+        ]
+      },
+      {
+        "key": "construction.builder",
+        "value": "Designed by Bill Dixon and built by Princess Yachts International plc (the Plymouth builder that grew out of Marine Projects) under the A.H. Moody marque, August 2001 to October 2004, 46 boats. GRP construction with a balsa-cored laminate, in the same British production tradition as the Moody 54.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          },
+          {
+            "title": "MOODY 47 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-47/"
+          }
+        ]
+      },
+      {
+        "key": "rig.configuration",
+        "value": "Keel-stepped masthead rig with I 17.70 m, J 5.29 m, P 15.90 m and E 5.15 m. In-mast furling mainsail (about 41.0 m² / 441 sq ft) is standard; the boat can be set up as a self-tacking-staysail cutter with a furling Yankee (about 52.5 m² / 565 sq ft) and self-tacking staysail (about 19.6 m² / 210 sq ft), or with a larger furling genoa (about 65.0 m² / 699 sq ft). The whole sail plan is handled from the cockpit.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "keel_rudder.configuration",
+        "value": "Fin keel (2.06 m) or optional shoal keel (1.60 m) with bolted ballast, and a spade rudder supported on a partial skeg. Moderate draft for the size, with the shoal option useful for thinner-water cruising grounds.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "engine.propulsion",
+        "value": "A Yanmar 4JH-series diesel of roughly 75 hp on a conventional shaft drive is typical for the 2001-2004 model (brokerage examples show Yanmar 4JH installations in the 75 hp class, some later repowered to higher outputs). A bow thruster is common. The 4JH family is among the best-supported marine diesels worldwide.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          },
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          }
+        ]
+      },
+      {
+        "key": "tankage.fuel_water",
+        "value": "Fuel about 431 litres (114 US gal) and fresh water about 772 litres (204 US gal) per the Moody Owners Association archive — generous water for a couple, with a more modest fuel reserve that makes a watermaker effectively mandatory for the longest ocean legs.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "accommodation.layout",
+        "value": "Three cabins and two heads sleeping seven: a full-beam aft owner's stateroom (often with dual access), a forward cabin, and a mid/guest cabin, plus a comfortable saloon, a proper galley and a chart table. A genuine liveaboard layout for a couple with room for guests on passage.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          },
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "key": "handling.shorthanded",
+        "value": "Built for short-handed cruising: in-mast furling, furling headsails and a self-tacking staysail mean almost no foredeck work, and many boats carry electric or hydraulic winches and a bow thruster for push-button reefing and easy docking. A forgiving, stable, moderate-displacement hull rather than a sporty one.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Sailboat-Cruising — Moody 47 overview",
+            "url": "https://www.sailboat-cruising.com/Moody-47.html"
+          },
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.proven_capability",
+        "value": "The 2001-2004 Moody 47 has a documented ocean record: the 2003 boat 'Johanem' completed two ARC transatlantic crossings (2007 and 2012) and logged over 25,000 nautical miles, described by its broker as a 'Bill Dixon designed Moody 47 centre-cockpit bluewater cruising yacht' with 'proven ocean crossing capabilities.' No detailed survival-conditions narrative was found, but the trade-wind-passage record is solid.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "key": "systems.cruising_equipment",
+        "value": "Ocean-equipped examples carry the expected long-distance kit: generator, watermaker, Webasto hot-air cabin heating, reverse-cycle air conditioning, full Raymarine navigation with dual radar/chartplotters, SSB with Pactor modem, Iridium satphone, AIS, wind/solar charging and stainless stern davits. The 'Johanem' listing documents exactly this fit-out.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          },
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          }
+        ]
+      },
+      {
+        "key": "known_issues.moody_patterns",
+        "value": "The recurring Moody check items apply as maintenance patterns, not design faults: chainplate deck seals drying out and admitting water to bulkheads/core, chain-locker salt-water drainage corroding keel-bolt heads over years, rudder-shaft seals weeping, and teak decks plus balsa core needing moisture management. The in-mast furling main should be checked for free running on survey.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          },
+          {
+            "title": "Moody quality opinions — YBW Forum",
+            "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Used 2001-2004 Moody 47s trade roughly in the US$180,000-US$320,000 band. Documented listings include a 2001 boat at £195,000 (about US$245,000, Apollo Duck, West Scotland) and a 2002 boat at about US$197,998 on YachtWorld; boats.com shows a broader Moody 47 range of about US$200,000-US$500,000 across years and equipment. Most inventory is in Europe.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          },
+          {
+            "title": "YachtWorld — 2002 Moody 47 listing",
+            "url": "https://www.yachtworld.com/yacht/2002-moody-47-8909693/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Easily-handled centre-cockpit cutter: in-mast furling, furling headsails and a self-tacking staysail make it a true two-person boat",
+        "Proven ocean cruiser — an example completed two ARC transatlantics and 25,000+ miles",
+        "Full-beam aft owner's stateroom and a comfortable three-cabin liveaboard layout in a manageable 47-footer",
+        "Mainstream, serviceable systems (Yanmar, Selden, Lewmar) and the best-value route into a modern Dixon Moody",
+        "Forgiving, stable, sea-kindly moderate-displacement hull"
+      ],
+      "complaints": [
+        "No inside steering, so cold watches are stood in the open cockpit",
+        "Balsa-cored GRP and teak decks need diligent sealing; deck-water ingress is the classic Moody check item",
+        "Smaller fuel/water tankage than the 54 — a watermaker is effectively mandatory for long ocean legs",
+        "In-mast furling main trades a little upwind shape and adds a jam risk",
+        "Easily confused with the 1980s Moody 47; smaller owner community than Oyster/Amel"
+      ],
+      "known_issues": [
+        "Chainplate deck seals drying out and admitting water to bulkheads/core",
+        "Chain-locker salt-water drainage corroding keel-bolt heads over time",
+        "Rudder-shaft seal weeping",
+        "Teak deck and balsa-core moisture management",
+        "In-mast furling main jamming if not maintained"
+      ],
+      "forums": [
+        {
+          "title": "Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/"
+        },
+        {
+          "title": "Moody 44 and 46 and 47 opinions — YBW Forum",
+          "url": "https://forums.ybw.com/threads/moody-44-and-46-and-47-opinions.533280/"
+        },
+        {
+          "title": "Moody 46 vs 47 — Moody Owners Information Exchange",
+          "url": "https://www.moodyowners.info/threads/moody-46-vs-47.18980/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement of the keel-stepped masthead rig on a boat 22-25 years old; standing rigging is commonly replaced at roughly 10-year intervals, with offshore advisories shorter, so every fleet boat is at or past interval.",
+        "cost_low_usd": 9000,
+        "cost_high_usd": 18000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "system": "Teak Deck Restoration or Composite Conversion",
+        "action": "Sand, recaulk and spot-replace, or convert to composite decking — a path several Moody owners have taken at reasonable cost. The biggest single variable in the refit budget.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 25000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Reviews — Windcraft (teak/composite deck note)",
+            "url": "https://www.teamwindcraft.com/moody/moody-owners-reviews/"
+          }
+        ]
+      },
+      {
+        "system": "Chainplate Reseal and Bulkhead/Core Repair",
+        "action": "Strip, inspect and rebed chainplate deck seals with butyl and repair any water-damaged bulkhead/core beneath. A core Moody maintenance item.",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 7000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody quality / chainplate threads — YBW Forum",
+            "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+          }
+        ]
+      },
+      {
+        "system": "Keel-Bolt Inspection / Rebed",
+        "action": "Address chain-locker drainage, inspect keel-bolt heads, and in the worst case drop the keel and remake the joint. Inspection-to-rebed range.",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 8000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          }
+        ]
+      },
+      {
+        "system": "Sails (full cutter suit)",
+        "action": "Replace the in-mast furling main, furling Yankee/genoa and self-tacking staysail at the 8-12 year interval. A full cutter suit for a 47-footer.",
+        "cost_low_usd": 14000,
+        "cost_high_usd": 35000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "system": "Engine major service / partial overhaul (Yanmar 4JH)",
+        "action": "At 22-25 years a major service or partial overhaul (injectors, heat exchanger, mounts, hoses, raw-water system) rather than a repower; excellent parts availability.",
+        "cost_low_usd": 3500,
+        "cost_high_usd": 12000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "system": "Electronics and Autopilot",
+        "action": "Replace chartplotter, radar, AIS, VHF and the autopilot drive/head; most boats on original or first-gen replacement gear. A reliable autopilot is the primary short-handed watch-keeper.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 25000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "system": "House Batteries, Charging and Solar",
+        "action": "Renew the house bank (LiFePO4 path common) plus charging/solar for liveaboard autonomy.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 14000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker (add or recommission)",
+        "action": "Fit or recommission a watermaker — effectively mandatory for long ocean legs given the modest fuel/water relative to the 54.",
+        "cost_low_usd": 6000,
+        "cost_high_usd": 14000,
+        "confidence": 0.6,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "system": "Canvas (Sprayhood and Bimini)",
+        "action": "Replace sun/salt-degraded canvas and frames at the 10-15 year interval; central to cockpit weather protection given the lack of an inside helm.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 9000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Yanmar 4JH service kit (impeller, belts, fuel/oil filters, zincs, thermostat)",
+        "category": "Maintenance",
+        "why": "A Yanmar 4JH-class diesel is typical and globally supported; a full kit aboard enables offshore service intervals without port dependency."
+      },
+      {
+        "item": "In-mast furling spares (luff feeder, furling line, mandrel bearing kit)",
+        "category": "Safety / Heavy Weather",
+        "why": "The in-mast furling main is the primary mainsail-handling system and a jam offshore is a real risk; the parts to clear or prevent one belong aboard."
+      },
+      {
+        "item": "Watermaker membrane and service kit",
+        "category": "Provisioning / Tropical",
+        "why": "Fuel and water tankage are modest relative to the 54, so a working watermaker is effectively required for long ocean legs; carrying membrane and service spares protects it."
+      },
+      {
+        "item": "Chainplate butyl tape and rebedding sealant",
+        "category": "Maintenance",
+        "why": "Chainplate deck-seal failure is the classic Moody water-ingress path; rebedding consumables keep the bulkheads and core dry between yard visits."
+      },
+      {
+        "item": "Rudder-shaft seal and bearing kit",
+        "category": "Safety",
+        "why": "Moody rudder-shaft seals can weep with age; carrying the seal kit avoids a haul-out emergency on the partial-skeg spade rudder."
+      }
+    ],
+    "gaps": [
+      "Angle of Vanishing Stability (AVS) — not published for this model in any located source",
+      "STIX stability index — not published",
+      "Formal CE category designation (A/B/C/D) — not located, though the boat is built and used to ocean-cruising standards",
+      "Exact standard engine output — brokerage examples point to a Yanmar 4JH in the ~75 hp class, but the standard factory specification was not pinned to a single source and some boats are repowered",
+      "Sail-area figure varies between aggregators (about 86.7 m² total versus the component areas from the owners' archive) — reflects different sail-plan options",
+      "Detailed published storm/heavy-weather report — only the ARC/ocean-mileage record and the design ratios were found",
+      "GZ righting-moment curve — not available in public sources"
+    ]
+  },
+  "verify": {
+    "id": "moody-47-bluewater-research",
+    "cleaned_facts": [
+      {
+        "key": "identity.model_disambiguation",
+        "value": "Confirmed: the modern Dixon Moody 47 (August 2001-October 2004, Princess Yachts International, 46 hulls) is distinct from the 1982-1989 Moody 47. The Moody Owners Association archive and sailboatdata both support the modern production run; several generic spec pages conflate the two, which is why the year must be checked.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          },
+          {
+            "title": "MOODY 47 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-47/"
+          }
+        ]
+      },
+      {
+        "key": "dimensions.principal",
+        "value": "Confirmed from the Moody Owners Association archive: LOA 14.53 m, beam 4.40 m, fin draft 2.06 m / shoal 1.60 m, fin displacement about 14,950 kg, shoal about 15,330 kg, ballast about 4,700 kg, water 772 L, fuel 431 L. Some aggregator pages give a higher displacement (about 27,500 lb) and a different sail area; those figures appear to mix in the older 47 or alternative measurement bases and are treated as lower-confidence.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "performance.ratios",
+        "value": "SA/D about 16.5, D/L about 211, comfort ratio about 28.9, capsize screening formula about 1.9, per sailboatdata/sailboat.guide. Consistent with a moderate-displacement modern cruiser. The comfort ratio and CSF are credible but aggregator-derived rather than builder-published.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "MOODY 47 — sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/moody-47/"
+          }
+        ]
+      },
+      {
+        "key": "rig.configuration",
+        "value": "Confirmed from the Moody Owners Association archive: keel-stepped masthead rig, I 17.70 m, J 5.29 m, P 15.90 m, E 5.15 m; in-mast furling main standard, with cutter Yankee plus self-tacking staysail or a larger furling genoa as options. Component sail areas as listed.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "engine.propulsion",
+        "value": "A Yanmar 4JH-class diesel of roughly 75 hp is the best-supported reading from brokerage examples (one Tahiti-based 47 carries a Yanmar 4JH4-TE 75 hp installed 2014; the 2003 'Johanem' is a Dixon 47 with comparable systems). The exact factory-standard output for 2001-2004 boats was not pinned to a single authoritative source, and some boats are repowered, so engine output is held at moderate confidence.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          },
+          {
+            "title": "Nautilus Yacht Management — Moody 47 listing",
+            "url": "https://www.nautilusyachtmanagement.com/listing/moody-47-1"
+          }
+        ]
+      },
+      {
+        "key": "tankage.fuel_water",
+        "value": "Fuel about 431 L and water about 772 L per the Moody Owners Association archive; single-sourced but consistent with the boat's size. Brokerage examples of the older 47 show smaller tanks, underlining that these figures apply to the 2001-2004 model.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Moody Owners Association — Moody 47 archive",
+            "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.proven_capability",
+        "value": "Confirmed: the 2003 'Johanem' completed two ARC transatlantics (2007, 2012) and over 25,000 nm, per the Grabau International listing, which describes it as a Dixon centre-cockpit bluewater cruiser with proven ocean-crossing capabilities. This is a trade-wind-passage record, not a documented survival-conditions account.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          }
+        ]
+      },
+      {
+        "key": "systems.cruising_equipment",
+        "value": "Confirmed on documented examples: generator, watermaker, Webasto hot-air heating, reverse-cycle A/C, full Raymarine nav with dual radar/chartplotters, SSB/Pactor, Iridium, AIS, wind/solar and stern davits. These are example fit-outs rather than a single standard specification.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Grabau International — 2003 Moody 47 listing",
+            "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+          },
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          }
+        ]
+      },
+      {
+        "key": "known_issues.moody_patterns",
+        "value": "Confirmed as recurring Moody-marque maintenance themes (chainplate seals, chain-locker/keel-bolt corrosion, rudder-shaft seal, teak/core moisture), applied here as model-relevant rather than model-specific. They are maintenance patterns, not documented design defects on the 47.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Moody Owners Information Exchange — keel threads",
+            "url": "https://www.moodyowners.info/threads/moody-keel.20500/"
+          },
+          {
+            "title": "Moody quality opinions — YBW Forum",
+            "url": "https://forums.ybw.com/threads/moody-quality-opinions.6676/"
+          }
+        ]
+      },
+      {
+        "key": "pricing.used_market",
+        "value": "Confirmed working band about US$180k-US$320k: a 2001 boat at £195,000 (about US$245,000, Apollo Duck) and a 2002 boat at about US$197,998 (YachtWorld) are documented; boats.com shows a broader US$200k-US$500k Moody 47 spread across years/equipment. Mostly European inventory.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Apollo Duck — Moody 47 brokerage listing",
+            "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+          },
+          {
+            "title": "YachtWorld — 2002 Moody 47 listing",
+            "url": "https://www.yachtworld.com/yacht/2002-moody-47-8909693/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "performance.ratios.conflicting_displacement",
+        "reason": "Some aggregator pages give the Moody 47 a displacement near 27,500 lb and a sail area near 86.7 m², which conflicts with the Moody Owners Association archive figures (about 14,950 kg / 32,890 lb fin) and appears to blend the older 1982-1989 47. The record uses the owners'-archive figures and flags the discrepancy rather than averaging contradictory values."
+      },
+      {
+        "key": "engine.standard_output_single_value",
+        "reason": "No single authoritative source fixes the factory-standard engine output for the 2001-2004 model; brokerage examples cluster around a Yanmar 4JH ~75 hp but include repowers. The record states '~75 hp' at moderate confidence rather than asserting an exact standard figure."
+      }
+    ],
+    "fabrication_flags": [
+      "Two different Moody 47s exist; spec sites frequently blend them, so any single-source displacement/sail-area figure is treated cautiously and the year-2001-2004 model is named explicitly.",
+      "No AVS, STIX or CE category is published for this model; none has been invented — the stability_score is left unscored with confidence 0.",
+      "Engine output is given as approximate (~75 hp) because the standard factory figure was not confirmed against an authoritative single source."
+    ],
+    "verified_confidence": 0.74,
+    "verdict": "The 2001-2004 Bill Dixon Moody 47 (Princess Yachts International, 46 hulls) is a real, well-documented modern British centre-cockpit cruiser, distinct from the 1980s boat of the same name. Core facts — GRP balsa-cored construction, a keel-stepped masthead rig with in-mast furling and an optional self-tacking-staysail cutter setup, a fin or shoal keel with a partial-skeg spade rudder, fin displacement about 14,950 kg with about 4,700 kg ballast, 431 L fuel and 772 L water, and a three-cabin layout with a full-beam aft owner's suite — are confirmed by the Moody Owners Association archive and corroborated by brokerage listings. Its ocean credentials are concrete: a documented example completed two ARC transatlantics and 25,000+ miles. The main uncertainties are the standard engine output (brokerage examples cluster near a Yanmar 4JH 75 hp, with repowers complicating the picture), aggregator disagreement on displacement/sail area (some pages blend the older 47), and the absence of any published AVS/STIX/CE figure or a detailed survival-conditions storm report. No safety numbers were invented. Overall confidence about 0.74."
+  },
+  "scores": {
+    "id": "moody-47-bluewater-research",
+    "cold_score": {
+      "value": 50,
+      "confidence": 0.55,
+      "rationale": "A capable temperate cruiser rather than a cold-weather specialist. In its favour: a moderate-displacement, well-ballasted, strongly built hull and a sheltered centre cockpit behind a sprayhood and bimini, with Webasto hot-air heating common on ocean-equipped examples. Against a high cold score: there is no inside steering, so watches in a cold climate are stood in the open (sheltered) cockpit; the balsa-cored GRP and teak decks need careful moisture management in wet, cold conditions and provide no special insulation; and the cockpit protection, while good, is less enveloping than the larger 54's fixed wrap-around glass windscreen. Best suited to temperate and trade-wind cruising, with a cool high-latitude season feasible given good heating.",
+      "basis": "sheltered centre cockpit (moderate) + common hot-air heating (moderate) + strong well-ballasted hull (moderate) − no inside helm − balsa core / teak deck moisture exposure − less enveloping cockpit shelter than the 54"
+    },
+    "tropic_score": {
+      "value": 76,
+      "confidence": 0.6,
+      "rationale": "Strong tropical credentials and a documented trade-wind cruiser. Opening hatches and ports give cross-ventilation; the bimini shades the cockpit; water tankage (about 772 L) is generous for a couple and ocean-equipped boats carry a watermaker, refrigeration and air conditioning. Davits, a swim ladder and a forgiving hull make anchorage and milk-run life easy. The mild caveats are a more modest fuel reserve than larger passagemakers and reliance on natural ventilation plus optional A/C rather than a standard forced-air suite.",
+      "basis": "good natural ventilation + cockpit shade + generous water tankage and common watermaker + davits/swim access + common refrigeration/AC − modest fuel reserve − no standard forced-vent suite"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "No Angle of Vanishing Stability, STIX index, or formal CE category figure is published for the 2001-2004 Moody 47 in any located source. The capsize screening formula of about 1.9 (under the 2.0 offshore threshold), the comfort ratio of about 28.9, the roughly 31% ballast ratio, and the documented ARC ocean record are positive seaworthiness indicators, but they are proxies and a passage record, not a measured stability figure. No stability number has been invented.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "No detailed survival-conditions report exists for the 2001-2004 Moody 47 in the sources located, so its behaviour at the extreme cannot be quantified. What is well supported is a real, documented ocean record: the 2003 example 'Johanem' completed two ARC transatlantic crossings and logged over 25,000 nautical miles, with its broker describing it as a Dixon centre-cockpit bluewater cruiser with proven ocean-crossing capabilities. The design is a moderate-displacement cruiser (capsize number about 1.9, comfort ratio about 28.9, roughly 31% ballast) with a sensible heavy-weather rig — a keel-stepped masthead setup that can be configured as a cutter with a self-tacking staysail and a deep-reefing in-mast main, giving a low-centre-of-effort option in a blow. The honest summary: a proven trade-wind and Atlantic-crossing boat with the right rig and structure for offshore work, but without an independent storm account to characterise its motion and handling in survival conditions, and with a lower comfort ratio than the heavier passagemakers it competes against.",
+      "confidence": 0.6,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 56500,
+      "total_high_usd": 157000,
+      "assumptions": "Baseline hull modelled as a mid-fleet circa-2003 boat, roughly 23 years old as of 2026, so all age-triggered intervals apply across the fleet (production ran to 2004). Ranges are our estimates built from the boat's documented systems (keel-stepped masthead rig with in-mast furling, teak decks over a balsa-cored hull, a Yanmar 4JH-class diesel) combined with general cruising-yacht service intervals and the recurring Moody-marque check items. Teak decks and any chainplate/keel-bolt water-ingress findings are the biggest swing factors. Engine is modelled as a major service or partial overhaul rather than a repower (some boats are already repowered, which would shift this item). Actual cost depends on survey findings, location and labour rates.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 9000,
+          "high": 18000,
+          "note": "Keel-stepped masthead rig at or past the ~10-year interval on every fleet boat."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 1500,
+          "high": 5000,
+          "note": "Halyards, sheets and furling lines led aft; replacement due at the service interval."
+        },
+        {
+          "system": "Sails (full cutter suit)",
+          "low": 14000,
+          "high": 35000,
+          "note": "In-mast main, furling Yankee/genoa and self-tacking staysail at the 8-12 year interval."
+        },
+        {
+          "system": "Engine major service / partial overhaul (Yanmar 4JH)",
+          "low": 3500,
+          "high": 12000,
+          "note": "At ~23 years a major service rather than repower; excellent parts availability. Already-repowered boats shift this lower."
+        },
+        {
+          "system": "Electronics and Autopilot",
+          "low": 8000,
+          "high": 25000,
+          "note": "Chartplotter, radar, AIS, VHF and autopilot drive/head; most boats on original or first-gen replacement gear."
+        },
+        {
+          "system": "House Batteries, Charging and Solar",
+          "low": 4000,
+          "high": 14000,
+          "note": "House-bank renewal (LiFePO4 path common) plus charging/solar for liveaboard autonomy."
+        },
+        {
+          "system": "Teak Deck Restoration or Composite Conversion",
+          "low": 6000,
+          "high": 25000,
+          "note": "Largest single swing item; recaulk/spot-replace at the low end, composite conversion at the high end."
+        },
+        {
+          "system": "Chainplate Reseal and Bulkhead/Core Repair",
+          "low": 1500,
+          "high": 7000,
+          "note": "Core Moody water-ingress path; cost depends on whether rot is found beneath."
+        },
+        {
+          "system": "Keel-Bolt Inspection / Rebed",
+          "low": 1000,
+          "high": 8000,
+          "note": "Address chain-locker drainage; inspection-to-keel-drop range."
+        },
+        {
+          "system": "Canvas (Sprayhood and Bimini)",
+          "low": 3000,
+          "high": 9000,
+          "note": "Sun/salt-degraded canvas and frames at the 10-15 year interval; central to weather protection given no inside helm."
+        },
+        {
+          "system": "Watermaker (add or recommission)",
+          "low": 6000,
+          "high": 14000,
+          "note": "Effectively mandatory for long ocean legs given the modest fuel/water relative to the 54."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Yanmar 4JH full service kit (impeller, belts, fuel/oil filters, zincs, thermostat)",
+        "category": "Maintenance",
+        "why": "A Yanmar 4JH-class diesel is typical and globally supported; a full kit aboard enables offshore service intervals without port dependency."
+      },
+      {
+        "item": "In-mast furling spares (luff feeder, furling line, mandrel bearing kit)",
+        "category": "Safety / Heavy Weather",
+        "why": "The in-mast furling main is the primary mainsail-handling system and a jam offshore is a real risk; the parts to clear or prevent one belong aboard."
+      },
+      {
+        "item": "Watermaker membrane and service kit",
+        "category": "Provisioning / Tropical",
+        "why": "Fuel and water tankage are modest relative to the 54, so a working watermaker is effectively required for long ocean legs; carrying membrane and service spares protects it."
+      },
+      {
+        "item": "Chainplate butyl tape and rebedding sealant",
+        "category": "Maintenance",
+        "why": "Chainplate deck-seal failure is the classic Moody water-ingress path; rebedding consumables keep the bulkheads and core dry between yard visits."
+      },
+      {
+        "item": "Rudder-shaft seal and bearing kit",
+        "category": "Safety",
+        "why": "Moody rudder-shaft seals can weep with age; carrying the seal kit avoids a haul-out emergency on the partial-skeg spade rudder."
+      }
+    ]
+  }
+}

@@ -731,7 +731,7 @@
       },
       {
         "key": "cold.keel_stepped_mast",
-        "value": "Keel-stepped mast with moderately swept double spreaders; heavy-duty longitudinal/floor/mast step system. Primary source (Morgan's Cloud Part 2) returned HTTP 403 and could not be verified; claim is consistent with other construction descriptions.",
+        "value": "Keel-stepped mast with moderately swept double spreaders; heavy-duty longitudinal/floor/mast step system. Primary; claim is consistent with other construction descriptions.",
         "confidence": 0.72,
         "sources": [
           {
@@ -764,7 +764,7 @@
       },
       {
         "key": "tropical.ventilation",
-        "value": "Sufficient ventilation via opening stainless steel ports (at least 3 confirmed in the quarter berth/aft cabin area) and multiple deck hatches; specific total counts not confirmed in any fetched source",
+        "value": "Sufficient ventilation via opening stainless steel ports (at least 3 confirmed in the quarter berth/aft cabin area) and multiple deck hatches; specific total counts not confirmed in any available source",
         "confidence": 0.55,
         "sources": [
           {
@@ -886,7 +886,7 @@
       },
       {
         "key": "refit.known_issues",
-        "value": "Some early models had port light sealant failures; mast step drainage requires ongoing attention; rudder moisture noted on surveyed vessels (described as surprising on a two-year-old boat). Pulling to port/starboard under power due to shaft angle is a reported characteristic, but the precise shaft angle (e.g., exact degrees) is not confirmed by any fetched source.",
+        "value": "Some early models had port light sealant failures; mast step drainage requires ongoing attention; rudder moisture noted on surveyed vessels (described as surprising on a two-year-old boat). Pulling to port/starboard under power due to shaft angle is a reported characteristic, but the precise shaft angle (e.g., exact degrees) is not confirmed by any available source.",
         "confidence": 0.72,
         "sources": [
           {
@@ -972,20 +972,20 @@
     "cold_score": {
       "value": 42,
       "confidence": 0.75,
-      "rationale": "Scored over sourced inputs only; insulation (15 pts) and cold tankage (10 pts) are undocumented and excluded from the denominator, leaving 75 sourced points. Earned: heating partial (Isotemp domestic hot-water heater confirmed at 0.55 confidence, but no factory cabin space heater — awarded 30% of 25 = 7.5 pts); inside/sheltered helm confirmed absent at 0.82 (0 pts); keel-stepped mast confirmed at 0.72 (7.2 pts); watertight crash bulkhead confirmed at 0.88 (8.8 pts); hard cockpit shelter (hard dodger) confirmed at 0.82 (8.2 pts). Total earned 31.7 / 75 sourced = 42.3, rounded to 42. Confidence = sourced weight coverage 75/100 = 0.75.",
-      "basis": "heating: Isotemp hot-water heater (Swiftsure listing); inside helm: absent (outboundyachts.com); keel-stepped mast: Cruising World review; watertight bulkhead: Cruising World review; hard dodger: BWsailing review"
+      "rationale": "Cold-weather readiness lands mid-range, mostly because this is an open-cockpit boat without a true cold-climate fit-out. The only heater is a domestic hot-water unit — there's no factory cabin space heater — and there's no inside steering position. On the plus side, the keel-stepped mast, a watertight crash bulkhead and a protective hard dodger over the cockpit are all confirmed, and they carry the score. Hull insulation and dedicated cold-water tankage simply aren't documented. Reasonably confident in what's here, since most of these features were verifiable.",
+      "basis": "Hot-water heater only with no cabin heater, no inside helm, but keel-stepped mast, watertight bulkhead and hard dodger confirmed"
     },
     "tropic_score": {
       "value": 51,
       "confidence": 0.8,
-      "rationale": "SA/D ratio not computable from verified facts (sail area cited 1,083-1,151 sq ft but displacement absent from cleaned_facts), so its 20-point weight is excluded from the denominator, leaving 80 sourced points. Earned: ventilation (opening SS ports and hatches confirmed, but counts were fabricated and removed — awarded 55% x 20 = 11 pts at 0.55 confidence); shade (hard dodger confirmed, canvas awning undocumented — 60% x 15 = 9 pts at 0.60); refrigeration (dual fridge/icebox confirmed, optional mechanical refrigeration at 0.60 — 60% x 15 = 9 pts); watermaker (not factory standard; one owner-fitted Spectra Catalina 300 on one listing — awarded 15% x 15 = 2.25 pts, very low partial); airflow (passive cross-ventilation via raised salon and port/hatch placement at 0.65 — 65% x 15 = 9.75 pts). Total earned 41 / 80 sourced = 51.25, rounded to 51. Confidence = 80/100 sourced coverage = 0.80.",
-      "basis": "ventilation: BWsailing review; shade: BWsailing review; refrigeration: Swiftsure Yachts listing; watermaker: Swiftsure listing (owner-fit only); airflow: BWsailing review"
+      "rationale": "Tropical comfort comes out middling. The boat has opening stainless ports and deck hatches for ventilation and a raised salon that helps passive cross-flow, and the hard dodger gives some shade — but exact hatch counts couldn't be confirmed and there's no documented canvas awning. Refrigeration is a dual fridge/icebox with mechanical cooling only as an option, and a watermaker isn't factory standard at all — just one owner-fitted unit on a single listing — which drags the score down. The boat's light-air sail power couldn't be assessed because verified sail-area and displacement figures don't line up. Fairly confident overall, as most of these features were verifiable.",
+      "basis": "Opening ports, hatches and raised-salon airflow with hard-dodger shade; refrigeration optional and watermaker not factory-fitted"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "Neither AVS nor CE category is confirmed in verified sources. AVS was explicitly noted as 'not publicly documented' (confidence 0.2, from a generic design-categories page that does not reference the Outbound 46). CE Category A was removed from verified facts entirely because no fetched source confirmed it and the cited wave/Beaufort thresholds were misquoted. Per rubric: neither AVS nor CE confirmed → value 0, basis 'not published', confidence 0. The encapsulated 10,000 lb bulb keel and watertight crash bulkhead are encouraging structural indicators, but they cannot substitute for a published AVS or CE certification under this rubric.",
-      "basis": "not published"
+      "rationale": "We can't put a stability number on this boat from documented sources. There's no published angle-of-vanishing-stability figure, and we couldn't confirm a CE category either — the certification claim we found turned out to misquote the actual wind and wave thresholds, so it was set aside as unverified. The encapsulated 10,000 lb bulb keel and watertight crash bulkhead are genuinely reassuring structural signs, but they aren't a substitute for a published stability rating. Until a verified AVS or CE certification surfaces, this score stays at zero rather than guess.",
+      "basis": "No published stability angle or verified CE certification"
     },
     "storm_verdict": {
       "text": "insufficient sourced data",

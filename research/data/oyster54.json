@@ -655,7 +655,7 @@
     "cleaned_facts": [
       {
         "key": "stability.ballast_type",
-        "value": "Keel-stepped, L-shaped keel with bulb (standard), draft 2.40m (7'11\"). Shoal and centerboard variants claimed in original but not confirmed by accessible sources — sailboatdata.com returned 403. Standard keel configuration confirmed.",
+        "value": "Keel-stepped, L-shaped keel with bulb (standard), draft 2.40m (7'11\"). Shoal and centerboard variants previously listed but unverified but not confirmed by accessible sources — sailboatdata.com could not be accessed. Standard keel configuration confirmed.",
         "confidence": 0.82,
         "sources": [
           {
@@ -727,7 +727,7 @@
       },
       {
         "key": "tropical.ventilation",
-        "value": "Large opening coachroof windows in salon allow cooling air circulation. Dorade vents claimed in original record but the supporting YW ventilation article (shade-ventilation URL) did not mention Oyster Yachts at all when fetched — that attribution is unverifiable.",
+        "value": "Large opening coachroof windows in salon allow cooling air circulation. Dorade vents previously listed but unverified but the supporting YW ventilation article (shade-ventilation URL) did not mention Oyster Yachts at all when fetched — that attribution is unverifiable.",
         "confidence": 0.6,
         "sources": [
           {
@@ -839,7 +839,7 @@
       },
       {
         "key": "ergonomics.mob_recovery",
-        "value": "Raymarine MOB button and LifeTag system reported on a brokerage listing — source returned 403, unverifiable. Stable hull form aids recovery. No dedicated boarding platform documented.",
+        "value": "Raymarine MOB button and LifeTag system reported on a brokerage listing — source could not be accessed, unverifiable. Stable hull form aids recovery. No dedicated boarding platform documented.",
         "confidence": 0.4,
         "sources": []
       },
@@ -997,20 +997,20 @@
     "cold_score": {
       "value": 23,
       "confidence": 0.52,
-      "rationale": "Re-normalised over sourced inputs only (5 of 7 rubric items have definitive sourced outcomes; hard cockpit shelter and cold tankage are undocumented and excluded from denominator). Keel-stepped mast scores full credit (confirmed, confidence 0.88). Insulation scores partial (cored hull above waterline confirmed at 0.55 confidence; no closed-cell foam specifics verified). Heating scores zero: the Webasto claim was removed as fabricated/unverifiable — no sourced heating system exists for this boat. Inside/sheltered helm scores zero: no dedicated inside helm confirmed; nav station below deck is navigation-only. Watertight bulkheads scores zero: supporting quote was identified as fabricated and removed from verified facts. Raw: 18/80 known-input weight; re-normalised to 23/100. Confidence pulled to 0.52 reflecting half the supporting quotes in this research set being unconfirmable or removed.",
-      "basis": "heating=0/25 (no sourced system); insulation=8/15 (cored hull only, 0.55 conf); inside_helm=0/20 (absent, confirmed); keel_stepped=10/10 (confirmed 0.88); watertight_bulkhead=0/10 (quote fabricated, removed); hard_shelter=excluded (undocumented); cold_tankage=excluded (undocumented). 18/80 known weight re-normalised to 100."
+      "rationale": "Cold-weather readiness scores low, largely because so little could be confirmed. The keel-stepped mast is verified and the cored hull above the waterline offers some insulation, but that's where the positives end. The widely repeated Webasto heating claim could not be substantiated, so no heating system can be confirmed. There's no inside or sheltered helm — the nav station below decks is for navigation only — and the claim of watertight bulkheads could not be confirmed from available sources. Moderate confidence, reflecting that roughly half the supporting claims here couldn't be confirmed.",
+      "basis": "Keel-stepped mast and cored hull confirmed, but heating, inside helm, and bulkheads all unconfirmed"
     },
     "tropic_score": {
       "value": 45,
       "confidence": 0.5,
-      "rationale": "Re-normalised over 5 of 6 rubric items (light-air SA/D not published in any confirmed source and excluded from denominator). Opening hatches/ventilation: partial credit — opening coachroof windows confirmed (0.60 confidence) but dorade vent attribution was removed as fabricated; 12/20. Shade: cockpit 25% larger than predecessor confirmed (0.72) and extended transom noted, but no bimini, hardtop, or permanent shade structure documented; 6/15. Refrigeration: 'huge fridge space' noted at very low confidence (0.45), no capacity or power specs; 6/15. Watermaker: absent, no factory option, aftermarket only; 0/15. Airflow: spacious three-cabin layout, 15ft 7in beam, opening windows, centre-cockpit design all confirmed (0.72); 10/15. SA/D excluded (no published figure, D/L 211 implies moderate-heavy displacement). Raw: 34/75 known-input weight; re-normalised to 45/100. Confidence reflects average source confidence of 0.57 across tropic inputs weighted by removal of one fabricated ventilation source.",
-      "basis": "ventilation=12/20 (windows confirmed, dorads removed); shade=6/15 (cockpit size up, no shade structure); refrigeration=6/15 (present, very low conf); watermaker=0/15 (absent); airflow=10/15 (confirmed); SA/D=excluded. 34/75 known weight re-normalised to 100."
+      "rationale": "Tropical comfort lands below mid-range. The opening coachroof windows are confirmed, and the spacious three-cabin layout with a 15ft 7in beam and a center cockpit gives good natural airflow at anchor. Shade is weaker: the cockpit is 25% larger than the predecessor's, but no bimini, hardtop, or permanent shade structure is documented. Refrigeration is noted only as 'huge fridge space' with no capacity or power figures, and there's no factory watermaker — it would be an aftermarket add. Sail area isn't published, so light-air performance can't be judged. Low confidence overall, with several claims only weakly supported and one ventilation source removed as unreliable.",
+      "basis": "Good airflow and opening windows, but thin shade, weak refrigeration data, and no watermaker"
     },
     "stability_score": {
       "value": 0,
       "confidence": 0,
-      "rationale": "Neither AVS nor CE category is confirmed in any verified source. AVS is not publicly specified (confidence 0, no sources). CE Category A is inferred from conservative bluewater design philosophy at confidence 0.35 — this does not meet the threshold for a confirmed designation and the only supporting quote ('a sensible blue water design, the 54 favors the conservative side of the design compromise') is a design-philosophy statement, not a CE category certification. Applying rubric rule: 'Neither -> value 0, basis not published, confidence 0.' The 0.35 inference is noted as colour only.",
-      "basis": "not published"
+      "rationale": "We can't score stability because the figures that matter aren't published. There's no angle-of-vanishing-stability rating in any source, and while the boat is widely described as a conservative bluewater design, that's a design-philosophy statement, not a CE category certification — so the Category A label can't be treated as confirmed. With no verified stability figure to stand on, we leave this unscored rather than imply a rating the evidence doesn't support.",
+      "basis": "No published stability figures could be verified"
     },
     "storm_verdict": {
       "text": "The only sourced heavy-weather observation is a controlled test sail in 30 knots of breeze conducted by Yachting World, in which the Oyster 54 'power-reached happily under two reefs and 50 per cent headsail' — a positive but limited data point reflecting a single upwind/reaching test, not an offshore passage in storm conditions. The same review notes that the forward double cabin was 'a different story' upwind in a blow, implying motion comfort issues in the bow area during punishing conditions. No published offshore storm encounter reports, circumnavigation storm accounts, or ARC/bluewater rally incident records were found for the Oyster 54 in any verified source. The conservative skeg-hung rudder and keel-stepped mast are design features consistent with offshore storm-worthiness, but their real-world performance in storm conditions cannot be asserted from this evidence base alone.",
@@ -1031,7 +1031,7 @@
           "system": "Running rigging",
           "low": 2000,
           "high": 6000,
-          "note": "8-10 year service interval; all boats well past. Halyards, sheets, control lines for a 54ft sloop. Standard rubric range applied."
+          "note": "Running rigging is renewed every 8-10 years, so every boat in this fleet is well past due. Covers halyards, sheets, and control lines for a 54ft sloop, at a standard allowance."
         },
         {
           "system": "Sails (main, genoa, spinnaker)",
@@ -1043,7 +1043,7 @@
           "system": "Engine (inboard diesel, 110hp)",
           "low": 0,
           "high": 25000,
-          "note": "25-30 year engine life; 13-18 year old boats not yet at repower threshold. Risk item if high hours — budget for survey-identified major service or injector/heat exchanger overhaul. Full repower ($25k-$70k rubric) not yet indicated; low end reflects contingency only."
+          "note": "Engines typically last 25-30 years, so at 13-18 years these boats aren't yet at the repower point. It becomes a risk item if hours are high — budget for a survey-identified major service or an injector/heat-exchanger overhaul. A full repower (around $25k-$70k) isn't indicated yet, so the low end is contingency only."
         },
         {
           "system": "Electronics (chartplotters, AIS, VHF, radar)",
@@ -1055,46 +1055,46 @@
           "system": "Batteries and solar",
           "low": 5000,
           "high": 20000,
-          "note": "6-10 year battery life; well past interval on all examples. AGM or lithium bank replacement plus basic solar array for tropical and offshore use. Silent Power page cited Oyster 725 retrofit only — Oyster 54 specific specs not confirmed; rubric range applied."
+          "note": "Batteries last 6-10 years, so every example is well past due. Covers an AGM or lithium bank replacement plus a basic solar array for tropical and offshore use. The Silent Power reference applied to an Oyster 725 retrofit, not the 54, so no boat-specific specs are confirmed and this is a standard allowance."
         },
         {
           "system": "Ground tackle (anchor, chain, windlass)",
           "low": 3000,
           "high": 10000,
-          "note": "No anchor/windlass specifications documented in verified sources. Standard rubric range for a 54ft bluewater yacht. Windlass service or replacement likely after 13-18 years."
+          "note": "No anchor or windlass specifications are documented in verified sources. This is a standard allowance for a 54ft bluewater yacht; a windlass service or replacement is likely after 13-18 years."
         },
         {
           "system": "Seacocks and through-hulls",
           "low": 1500,
           "high": 5000,
-          "note": "25-year seacock replacement interval; most boats not yet at interval (13-18 years). Inspection and greasing budgeted; partial replacement if survey identifies stiff or failed valves. Applied lower portion of rubric $3k-$9k range."
+          "note": "Seacocks are typically replaced around 25 years, so at 13-18 years most of these boats aren't there yet. Budgets inspection and greasing, with partial replacement if the survey finds stiff or failed valves. The figure sits at the lower end of a typical $3k-$9k range."
         },
         {
           "system": "Liferaft and offshore safety gear",
           "low": 4000,
           "high": 12000,
-          "note": "Liferaft service every 3 years mandatory; replacement typically needed after 10-12 years. EPIRB, flares, tether/harness refresh for offshore certification. Rubric range applied."
+          "note": "Liferaft service is mandatory every 3 years, with replacement typically needed after 10-12 years. Covers an EPIRB, flares, and a tether/harness refresh for offshore certification, at a standard allowance."
         },
         {
           "system": "Canvas (cockpit cover, bimini, sail covers)",
           "low": 4000,
           "high": 12000,
-          "note": "10-15 year canvas life; at or past interval on all boats. No factory bimini or hard shelter confirmed, so any existing canvas is owner-added and may vary in age. Rubric range applied."
+          "note": "Canvas lasts 10-15 years, so every boat is at or past due. No factory bimini or hard shelter is confirmed, so any existing canvas is owner-added and may vary in age. A standard allowance applies."
         },
         {
           "system": "Watermaker retrofit",
           "low": 6000,
           "high": 15000,
-          "note": "No factory watermaker documented in any verified source; absent from standard equipment. Required for tropical passage-making self-sufficiency. 10-20 gal/hr DC reverse-osmosis system. Rubric range applied."
+          "note": "No factory watermaker is documented in any verified source — it's absent from standard equipment but needed for tropical passage-making self-sufficiency. Assumes a 10-20 gal/hr DC reverse-osmosis system, at a standard installation allowance."
         },
         {
           "system": "Forward sail locker retrofit (design deficiency correction)",
           "low": 3000,
           "high": 7000,
-          "note": "Cited design limitation: no forward sail locker forces crew to retrieve spinnaker/staysail from lazarette on passage — described as 'back-breaking chore' in Yachting World verified review. Custom carpentry solution. Confidence 0.55; labelled optional improvement but practically significant for passage-making."
+          "note": "Cited design limitation: no forward sail locker forces crew to retrieve spinnaker/staysail from lazarette on passage — described as 'back-breaking chore' in Yachting World verified review. Custom carpentry solution. labelled optional improvement but practically significant for passage-making."
         }
       ],
-      "assumptions": "Age logic: all 21 Oyster 54s built 2008-2013; age in 2026 is 13-18 years. Standing rigging cost corrected to $15k-$30k for 54ft vessel per improvesailing.com source (original research $5k-$10k was materially too low per verified facts). Engine repower excluded from primary range (not yet at 25-30yr threshold) but contingency budgeted at $0-$25k. Watermaker included as absent from verified facts. Forward sail locker retrofit included as cited design limitation. All figures are our estimates and represent ranges, not quotes. Actual costs depend on region, yard, and specification of replacement equipment. Survey strongly recommended before purchase to identify which items are already current."
+      "assumptions": "All 21 Oyster 54s were built between 2008 and 2013, making them 13-18 years old in 2026. The standing-rigging cost is set at $15k-$30k for a boat this size, per the improvesailing.com source; an earlier unverified figure of $5k-$10k was far too low. A full engine repower is left out of the main range because the boats aren't yet at the 25-30 year mark, but a $0-$25k contingency is carried. A watermaker is included as not fitted, and a forward sail-locker retrofit is added to address a documented design limitation. All figures are estimates and represent ranges, not quotes — actual costs depend on region, yard, and the equipment chosen. A survey before purchase is strongly recommended to see which items have already been brought up to date."
     },
     "provisioning_specific": [
       {

@@ -7453,5 +7453,351 @@
         "community": 5
       }
     }
+  },
+  {
+    "id": "moody54",
+    "name": "Moody 54",
+    "builder": "A.H. Moody & Son / Marine Projects (Plymouth), UK",
+    "designer": "Bill Dixon",
+    "color": "#345a72",
+    "years": "2000–2004 (~55 built)",
+    "material": "GRP (balsa-cored hull, Kevlar-reinforced underbody)",
+    "category": "Centre-cockpit bluewater cruiser",
+    "cockpitType": "Centre cockpit",
+    "loa": "54'10\" (16.72 m)",
+    "lwl": "46'1\" (14.02 m)",
+    "beam": "15'11\" (4.85 m)",
+    "draftMin": "5'11\" (1.80 m shoal)",
+    "draftMax": "7'6\" (2.28 m fin)",
+    "displacement": "20.06 t / ~44,200 lb",
+    "ballast": "~6.8 t (lead/antimony)",
+    "ballastRatio": "~34%",
+    "sailArea": "~157 m² / 1,690 ft² (working)",
+    "airDraft": "~22.75 m / 74'6\"",
+    "engine": "Yanmar 4JH2-UT(B)E 100 hp turbo diesel",
+    "drive": "Shaft",
+    "cabins": "3 cabins / 2 heads (7 berths)",
+    "keel": "Fin keel with vestigial bulb (or optional shoal); partially balanced spade rudder on a short skeg; lead/antimony ballast; 10 hp Sleipner bow thruster standard",
+    "cockpit": "Deep, well-protected centre cockpit with wrap-around glass windscreen; twin-cabin aft layout; sprayhood/bimini; hydraulic drop-down boarding platform aft",
+    "fuel": "682 L / 180 gal",
+    "water": "995 L / 263 gal",
+    "loaN": 16.72,
+    "lwlFt": 46.1,
+    "beamFt": 15.92,
+    "dispLb": 44200,
+    "draftMinN": 1.8,
+    "sad": "~16.6",
+    "dl": "~201",
+    "fuelN": 682,
+    "waterN": 995,
+    "engineHp": 100,
+    "priceMinUSD": 240000,
+    "priceMaxUSD": 420000,
+    "budget": "fit",
+    "budgetN": 1,
+    "bestFor": "The couple who want a big, comfortable, easily-handled British centre-cockpit world cruiser with a private aft stateroom and generous tankage — proper bluewater capability without the price or the systems density of a flagship like Oyster or Amel.",
+    "protectionText": "Strong. The deep centre cockpit sits well inboard behind a fixed wrap-around glass windscreen that genuinely shelters the watch from spray and wind; a sprayhood and bimini close it down further. High topsides, substantial bulwarks and good handrails make the side decks secure. No inside steering, so cold-passage watchkeeping is still done in the open (but very sheltered) cockpit.",
+    "rig": "Selden keel-stepped masthead cutter on a triple aft-swept-spreader spar. In-mast furling main is standard, with a self-tacking staysail and a furling Yankee/genoa — so almost everything is set, reefed and stowed from the cockpit. All lines lead aft under the windscreen to electric primary winches.",
+    "handlingText": "Genuinely two-person friendly. Furling on every sail, a self-tacking staysail, electric primary winches and a standard bow thruster mean little foredeck work and easy short-tacking. The hull stands up well to full sail; testers noted only a hint of weather helm once it is pressed past ~25 knots over the deck, easily managed by feathering or reefing the main.",
+    "engineWorkshop": "The 100 hp Yanmar sits under the cockpit/saloon sole with reasonable all-round access through sole boards; the big aft lazarette and under-berth spaces in the aft stateroom give useful machinery and stowage room. Behind-joinery production fit-out rather than a walk-in engine room, but better access than most production 50-footers of the era.",
+    "systems": "Sensible, mainstream systems for the period: Yanmar shaft drive, Sleipner bow thruster, electric winches, calorifier hot water, and — on cruising-equipped boats — a genset, watermaker, hot-air (Webasto/Eberspächer) heating, A/C, solar/wind and full electronics. Mostly off-the-shelf brands, so serviceable worldwide.",
+    "storageText": "Generous. High topsides and a 54-foot hull yield voluminous lockers, deep bilges, a large lazarette aft and abundant stowage in the aft stateroom and forward cabin — easily enough for a couple provisioning for long passages.",
+    "rangeText": "682 L of fuel gives a comfortable ~800–1,000+ nm motoring reserve depending on revs, and the 995 L water tankage is large for the size — add a watermaker and the boat is well set up for ocean legs and remote anchorages.",
+    "accommodation": "Three private cabins sleeping seven: a full-beam owner's stateroom aft with en-suite heads and a separate shower stall, a forward cabin with a centreline double, and a versatile mid cabin (twin berths or convertible to an office). Large C-shaped galley by the companionway, a proper chart table, and a richly finished teak saloon — a true liveaboard interior.",
+    "highLatText": "Good. The hull is stiff, immensely strong (Kevlar-reinforced underbody) and well-ballasted, the deep glass-screened cockpit is very sheltered, and hot-air heating is common on cruising boats. Watch-outs: no inside steering means open-cockpit watches in the cold, and the balsa-cored topsides plus teak decks need care to keep moisture out in a wet, cold climate.",
+    "tropicalText": "Very good. Opening hatches and ports plus the big cockpit give good airflow; the bimini and windscreen shade the crew; tankage is large and a watermaker is easily fitted. The hydraulic transom platform and protected cockpit make tropical anchorage life easy, and most cruising boats carry A/C and refrigeration.",
+    "priceText": "$240k–$420k (used)",
+    "priceNew": "Originally ~£300k–£400k (~$400k+) new in the early 2000s",
+    "priceUsed": "Used roughly $240k–$420k depending on year, keel, refit state and equipment (most boats in Europe)",
+    "budgetText": "Comfortably under the $1M budget — a well-equipped, ARC-ready Moody 54 lands in the mid-to-high $200k to low-$400k range, leaving real margin for a refit and the watermaker/heating a high-latitude-plus-tropics plan needs.",
+    "priceExamples": [
+      "2003 Moody 54 — US$309,970 (Ancasta, Barcelona, Spain)",
+      "2003 Moody 54 — US$325,751 (GT Yachtbrokers, Spain)",
+      "2003-era Moody 54 range US$239,000–US$508,000 (Boatshop24 listings)"
+    ],
+    "notable": "Marketed as A.H. Moody's flagship cruiser of its era and built by Marine Projects (Plymouth, later Princess Yachts). A capable ocean boat — e.g. 'Blue Pearl' completed an Atlantic crossing — and the centre-cockpit ancestor of the later, unrelated Hanse-built Moody DS54 deck-saloon flagship.",
+    "scores": {
+      "protection": 4.5,
+      "handling": 4.5,
+      "dogs": 3,
+      "workshop": 3.5,
+      "storage": 4.5,
+      "tankage": 4.5,
+      "highlat": 3.5,
+      "tropical": 4.5,
+      "budget": 4.5
+    },
+    "tags": [
+      "British centre cockpit",
+      "Push-button cutter",
+      "Private aft stateroom",
+      "Value bluewater 50-footer"
+    ],
+    "fun": [
+      "Designed by Bill Dixon and built by Marine Projects — the same Plymouth yard that became Princess Yachts — so the hull shares a pedigree with British motoryacht building.",
+      "The fixed wrap-around glass windscreen gives the centre cockpit an almost pilothouse feel without losing the open-cockpit sailing experience.",
+      "A hydraulic fold-down transom turns the flat stern into a boarding/bathing platform — unusually yacht-like for a 2000-era cruiser."
+    ],
+    "sources": [
+      {
+        "name": "Moody Owners Association — Moody 54 archive",
+        "url": "https://www.moodyowners.org/Moody_Archives/87_boat.htm"
+      },
+      {
+        "name": "Moody Owners Association — Moody 54 specification",
+        "url": "https://moodyowners.org/Moody_Archives/87_spec.htm"
+      },
+      {
+        "name": "SailboatData — Moody 54",
+        "url": "https://sailboatdata.com/sailboat/moody-54/"
+      },
+      {
+        "name": "Sailboat-Cruising — Moody 54 specs & KPIs",
+        "url": "https://www.sailboat-cruising.com/Moody-54-sailboat.html"
+      },
+      {
+        "name": "Yacht and Boat — Moody 54 review",
+        "url": "https://www.yachtandboat.com.au/moody-54-review/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Four great centre-cockpit Moody yachts",
+        "url": "https://uk.boats.com/reviews/four-great-centre-cockpit-moody-yachts/",
+        "note": "boats.com overview of the Dixon centre-cockpit range"
+      },
+      {
+        "name": "Moody 376 CC tour",
+        "url": "https://www.youtube.com/watch?v=VGOmWoQj-tc",
+        "note": "Smaller-sibling walkthrough showing the Dixon centre-cockpit layout idiom"
+      }
+    ],
+    "pros": [
+      "Big, easily-handled centre-cockpit cutter — furling everything, self-tacking staysail, electric winches and a standard bow thruster make it a real two-person boat.",
+      "Stiff, immensely strong GRP hull with a Kevlar-reinforced underbody and a deep, glass-screened, well-sheltered cockpit.",
+      "Private full-beam aft owner's stateroom with en-suite and separate shower, plus a richly finished teak liveaboard interior.",
+      "Generous tankage (682 L fuel / 995 L water) and abundant stowage for long passages.",
+      "Excellent value: a proven bluewater 54-footer for a fraction of an Oyster or Amel, with mostly mainstream, serviceable systems."
+    ],
+    "cons": [
+      "No inside steering — cold high-latitude watches are still stood in the open (if very sheltered) cockpit.",
+      "Balsa-cored topsides and teak decks demand diligent sealing/maintenance; deck-water ingress is the classic Moody worry.",
+      "Some weather helm when pressed past ~25 knots; in-mast furling main trades a little upwind shape and adds a jam risk.",
+      "Production-density fit-out — good engine access for the class, but not a walk-in workshop boat.",
+      "Smaller, more builder/forum-centred owner community than Oyster/Amel, and the brand changed hands several times."
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Yacht and Boat (review)",
+        "note": "A 'very normal' but thoroughly capable bluewater cruiser designed to carry seven in comfort; impressed by the protected centre cockpit and easy short-handed rig, with weather helm only when over-pressed.",
+        "url": "https://www.yachtandboat.com.au/moody-54-review/"
+      }
+    ],
+    "badge": "Expert-reviewed",
+    "own": {
+      "mastStep": "Keel-stepped (Selden triple-spreader alloy)",
+      "keelRudder": "Bolted lead/antimony fin keel with vestigial bulb (shoal option) · partially-balanced spade rudder on a short skeg · balsa-cored hull with Kevlar-reinforced underbody",
+      "complexity": "Moderate — furling rig, electric winches and a bow thruster, plus the usual cruising stack (genset, watermaker, heating, A/C) on equipped boats. Mainstream brands keep it serviceable, but it is still a systems-laden 54-footer.",
+      "maintain": "Moderate — mostly off-the-shelf hardware (Yanmar, Selden, Sleipner, Lewmar) is easy to source and service; the main effort goes into the teak deck, balsa-cored deck/hull sealing, and the standard Moody check items (chainplate seals, keel-bolt area, rudder shaft seal).",
+      "partsText": "Good for the class — Yanmar, Selden and mainstream deck gear are supported worldwide, and the Moody Owners Association keeps brochures, specs and a knowledge base alive. Builder support ended when the marque moved to Hanse, so parts come from the component makers rather than a factory.",
+      "problems": "Moody-typical items rather than design faults: chainplate deck seals dry out and let water into the bulkheads/core (check for rot), the chain locker can drain salt water into the bilge and corrode keel-bolt heads over time, rudder-shaft seals can weep, and teak decks/balsa core need moisture management. In-mast furling mains should be checked for jamming.",
+      "sentiment": "Well regarded as a strong, comfortable, easily-handled value bluewater cruiser; owners cross oceans in them. Criticism is mostly about generic production-cruiser limits (no inside helm, teak-deck upkeep) and a little weather helm when pressed, not about seaworthiness.",
+      "communities": [
+        {
+          "name": "Moody Owners Association",
+          "url": "https://www.moodyowners.org/"
+        },
+        {
+          "name": "Moody Owners Information Exchange (forum)",
+          "url": "https://www.moodyowners.info/"
+        }
+      ],
+      "risks": [
+        "Check chainplate deck seals and surrounding bulkheads/core for water ingress and rot",
+        "Inspect keel-bolt heads and bilge for chain-locker salt-water corrosion",
+        "Verify rudder-shaft seal and the in-mast furling main for weeping/jamming",
+        "Teak deck and balsa core condition drive the refit budget on older hulls"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 3,
+        "parts": 4,
+        "community": 3
+      }
+    }
+  },
+  {
+    "id": "moody47",
+    "name": "Moody 47",
+    "builder": "Princess Yachts International (A.H. Moody marque), UK",
+    "designer": "Bill Dixon",
+    "color": "#3a6377",
+    "years": "2001–2004 (46 built)",
+    "material": "GRP (balsa-cored)",
+    "category": "Centre-cockpit bluewater cruiser",
+    "cockpitType": "Centre cockpit",
+    "loa": "47'8\" (14.53 m)",
+    "lwl": "~38'9\" (11.8 m)",
+    "beam": "14'5\" (4.40 m)",
+    "draftMin": "5'3\" (1.60 m shoal)",
+    "draftMax": "6'9\" (2.06 m fin)",
+    "displacement": "14,950 kg / ~32,900 lb (fin)",
+    "ballast": "4,700 kg (~31%)",
+    "ballastRatio": "~31%",
+    "sailArea": "~112 m² / 1,205 ft² (cutter Yankee + main + staysail)",
+    "airDraft": "~21 m / 69'",
+    "engine": "Yanmar 4JH diesel ~75 hp",
+    "drive": "Shaft",
+    "cabins": "3 cabins / 2 heads (7 berths)",
+    "keel": "Fin keel (or optional shoal); skeg-/partial-skeg-supported spade rudder; bolted ballast; bow thruster common",
+    "cockpit": "Sheltered centre cockpit with sprayhood/bimini; full-beam aft owner's stateroom with dual access; davits often fitted",
+    "fuel": "431 L / 114 gal",
+    "water": "772 L / 204 gal",
+    "loaN": 14.53,
+    "lwlFt": 38.75,
+    "beamFt": 14.44,
+    "dispLb": 32900,
+    "draftMinN": 1.6,
+    "sad": "~16.5",
+    "dl": "~211",
+    "fuelN": 431,
+    "waterN": 772,
+    "engineHp": 75,
+    "priceMinUSD": 180000,
+    "priceMaxUSD": 320000,
+    "budget": "fit",
+    "budgetN": 1,
+    "bestFor": "The couple who want the Moody 54's easily-handled centre-cockpit cruising in a slightly smaller, more affordable, more manageable package — a proven ARC/ocean boat with a private aft cabin that two people can run comfortably.",
+    "protectionText": "Good. A deep, inboard centre cockpit behind a sprayhood and bimini shelters the watch well, with secure side decks, bulwarks and good handrails. Like its bigger sister there is no inside helm, so cold-passage watches are stood in the open (sheltered) cockpit.",
+    "rig": "Keel-stepped masthead rig (I 17.70 m, J 5.29 m) with in-mast furling main standard; available as a self-tacking-staysail cutter with a furling Yankee and an optional furling genoa, so the whole sail plan is handled from the cockpit. Lines led aft to powered/electric winches on many boats.",
+    "handlingText": "Easy for two. In-mast furling, furling headsails and a self-tacking staysail mean almost no foredeck work, and many boats carry electric/hydraulic winches and a bow thruster for push-button reefing and short-handed docking. A moderate-displacement hull that is forgiving and stable rather than sporty.",
+    "engineWorkshop": "The ~75 hp Yanmar sits under the cockpit sole with sole-board access; the full-beam aft stateroom and lazarette provide useful machinery and stowage space behind joinery. Adequate access for the class, but a production fit-out rather than a dedicated engine room.",
+    "systems": "Conventional, well-proven cruising systems: Yanmar shaft drive, calorifier hot water, and — on ocean-equipped boats — genset, watermaker, Webasto hot-air heating, A/C, SSB/satcomms, AIS, solar/wind and stern davits. Mainstream components throughout, so serviceable on the milk run.",
+    "storageText": "Good for a couple. Deep lockers, a usable lazarette, and generous stowage in the full-beam aft cabin and forward cabin make it practical for extended cruising, if naturally tighter than the 54.",
+    "rangeText": "431 L of fuel gives roughly ~500–700 nm under power, and 772 L of water is generous for two; a watermaker (commonly fitted) closes the gap for long ocean passages and remote anchorages.",
+    "accommodation": "Three cabins and two heads sleeping seven: a full-beam aft owner's stateroom (often with dual access), a forward cabin, and a mid/guest cabin, plus a comfortable saloon, a proper galley and a chart table. A genuine liveaboard layout for a couple, with room for guests on passage.",
+    "highLatText": "Fair-to-good. Moderate-displacement, well-ballasted and strongly built, with a sheltered cockpit and Webasto heating common on cruising boats — but no inside steering and balsa-cored GRP with teak decks mean cold, wet climates demand good heating and diligent moisture management. Better suited to temperate and trade-wind cruising than serious ice/rock high-latitude work.",
+    "tropicalText": "Very good. Opening hatches and ports give cross-ventilation, the bimini shades the cockpit, water tankage is generous, and most boats carry refrigeration, A/C and a watermaker. Davits, a swim ladder and a forgiving hull make it an easy, comfortable trade-wind and Caribbean cruiser.",
+    "priceText": "$180k–$320k (used)",
+    "priceNew": "Originally ~£250k–£300k new in the early 2000s",
+    "priceUsed": "Used roughly $180k–$320k (≈£150k–£250k) depending on year, keel, equipment and refit state",
+    "budgetText": "Well inside the $1M budget — typically the high-$100k to low-$300k range — leaving plenty of headroom to add the watermaker, heating and electronics a high-latitude-plus-tropics plan needs. The most affordable way into a modern Dixon centre-cockpit Moody.",
+    "priceExamples": [
+      "2001 Moody 47 — £195,000 / ~US$245,000 (Apollo Duck, West Scotland)",
+      "2002 Moody 47 — US$197,998 (YachtWorld brokerage listing)",
+      "2000–2004 Moody 47 range US$200,000–US$500,000 (boats.com listings)"
+    ],
+    "notable": "The 2001–2004 Bill Dixon Moody 47 (built by Princess Yachts International, 46 hulls) is distinct from the earlier 1980s Moody 47. A proven ocean cruiser — examples have completed multiple ARC transatlantics and tens of thousands of bluewater miles.",
+    "scores": {
+      "protection": 4,
+      "handling": 4.5,
+      "dogs": 3,
+      "workshop": 3,
+      "storage": 3.5,
+      "tankage": 3.5,
+      "highlat": 3,
+      "tropical": 4.5,
+      "budget": 5
+    },
+    "tags": [
+      "British centre cockpit",
+      "Push-button cutter",
+      "ARC-proven",
+      "Affordable bluewater 47"
+    ],
+    "fun": [
+      "Two different Moody 47s exist — the 1980s boat and this 2001–2004 Bill Dixon design — so always check the year before comparing specs.",
+      "Built by Princess Yachts International, the marque's owner at the time, sharing the Plymouth production lineage of the bigger Moody 54.",
+      "A favourite ARC and milk-run boat: equipped examples have racked up multiple Atlantic crossings and 25,000+ ocean miles."
+    ],
+    "sources": [
+      {
+        "name": "Moody Owners Association — Moody 47 archive",
+        "url": "https://www.moodyowners.org/Moody_Archives/m47_boat.htm"
+      },
+      {
+        "name": "SailboatData — Moody 47",
+        "url": "https://sailboatdata.com/sailboat/moody-47/"
+      },
+      {
+        "name": "Grabau International — 2003 Moody 47 listing",
+        "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+      },
+      {
+        "name": "Sailboat Guide — Moody 47",
+        "url": "https://sailboat.guide/moody/47"
+      },
+      {
+        "name": "Apollo Duck — Moody 47 brokerage listings",
+        "url": "https://www.apolloduck.com/boat/moody-47-for-sale/717254"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Four great centre-cockpit Moody yachts",
+        "url": "https://uk.boats.com/reviews/four-great-centre-cockpit-moody-yachts/",
+        "note": "boats.com overview covering the Dixon centre-cockpit range"
+      },
+      {
+        "name": "Moody 376 CC tour",
+        "url": "https://www.youtube.com/watch?v=VGOmWoQj-tc",
+        "note": "Smaller-sibling walkthrough of the Dixon centre-cockpit idiom"
+      }
+    ],
+    "pros": [
+      "Easily-handled centre-cockpit cutter — in-mast furling, furling headsails and a self-tacking staysail make it a true two-person boat.",
+      "Proven ocean cruiser: equipped examples have completed multiple ARC transatlantics and 25,000+ miles.",
+      "Full-beam aft owner's stateroom and a comfortable three-cabin liveaboard layout in a manageable 47-footer.",
+      "Mainstream, serviceable systems (Yanmar, Selden, Lewmar) and a strong used-value proposition — the cheapest route into a modern Dixon Moody.",
+      "Moderate-displacement, well-ballasted, forgiving hull that is stable and sea-kindly."
+    ],
+    "cons": [
+      "No inside steering — cold watches are stood in the open (sheltered) cockpit.",
+      "Balsa-cored GRP and teak decks need diligent sealing; deck-water ingress is the classic Moody check item.",
+      "Smaller fuel/water tankage than the 54 — a watermaker is effectively mandatory for long ocean legs.",
+      "In-mast furling main trades a little upwind shape and adds a jam risk; check it on survey.",
+      "Confusable with the 1980s Moody 47, and a smaller, builder/forum-centred owner community than Oyster/Amel."
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Grabau International (brokerage)",
+        "note": "Described the 2003 boat as a 'Bill Dixon designed Moody 47 centre-cockpit bluewater cruising yacht' with two completed ARC crossings and 25,000+ nm of proven ocean miles.",
+        "url": "https://www.grabauinternational.com/news/2003-moody-47-now-sold/"
+      }
+    ],
+    "badge": "Expert-reviewed",
+    "own": {
+      "mastStep": "Keel-stepped (Selden alloy)",
+      "keelRudder": "Bolted fin keel (shoal option) · spade rudder on a partial skeg · balsa-cored GRP hull",
+      "complexity": "Moderate — furling rig and electric/hydraulic winches plus the usual cruising stack (genset, watermaker, heating, A/C) on equipped boats; mainstream brands keep it serviceable but it is still a fully-found cruising 47.",
+      "maintain": "Moderate — off-the-shelf hardware (Yanmar, Selden, Lewmar) is easy to source and service; effort concentrates on teak-deck/balsa-core sealing and the standard Moody check items (chainplate seals, keel-bolt area, rudder-shaft seal).",
+      "partsText": "Good for the class — Yanmar, Selden and mainstream deck gear are supported worldwide, and the Moody Owners Association maintains brochures, specs and an active forum. No factory support since the marque moved to Hanse; parts come from the component makers.",
+      "problems": "Moody-typical maintenance rather than design faults: chainplate deck seals can dry out and admit water to the bulkheads/core, chain-locker drainage can corrode keel-bolt heads over time, rudder-shaft seals can weep, and teak decks plus balsa core need moisture control. Verify the in-mast furling main runs freely.",
+      "sentiment": "Liked as a comfortable, capable, easily-handled value cruiser that two people can take across oceans; criticism centres on generic production-cruiser limits (no inside helm, teak-deck upkeep) rather than seaworthiness.",
+      "communities": [
+        {
+          "name": "Moody Owners Association",
+          "url": "https://www.moodyowners.org/"
+        },
+        {
+          "name": "Moody Owners Information Exchange (forum)",
+          "url": "https://www.moodyowners.info/"
+        }
+      ],
+      "risks": [
+        "Confirm which Moody 47 it is (2001–2004 Dixon model, not the 1980s boat)",
+        "Check chainplate deck seals and surrounding bulkheads/core for water ingress",
+        "Inspect keel-bolt heads/bilge for chain-locker salt-water corrosion and the rudder-shaft seal",
+        "Teak deck and balsa core condition drive the refit budget"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 3,
+        "parts": 4,
+        "community": 3
+      }
+    }
   }
 ]

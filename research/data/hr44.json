@@ -825,23 +825,23 @@
     "cold_score": {
       "value": 100,
       "confidence": 0.14,
-      "rationale": "Only 1 of 7 rubric inputs is verifiable from cited sources. Hard cockpit shelter (weight 10): confirmed — center cockpit with Hallberg-Rassy signature windshield and 2.29m protected cockpit (ergonomics.freeboard, confidence 0.85). Normalized over known inputs: 10/10 pts = 100. However, heating (wt 25), insulation (wt 15), inside/sheltered helm (wt 20), keel-stepped mast (wt 10), watertight bulkhead (wt 10), and cold tankage (wt 10) are ALL absent from verified facts due to source failures or fabrication removal. Confidence = 1/7 inputs covered = 0.14. Score is mathematically re-normalized but must be interpreted alongside near-zero confidence.",
-      "basis": "ergonomics.freeboard (confidence 0.85) — center cockpit design with signature windshield and weather protection cited from Hallberg-Rassy official site"
+      "rationale": "The one cold-weather feature we could verify is excellent: a deeply protected center cockpit with the signature Hallberg-Rassy windshield and a 2.29m sheltered helm. But almost everything else that matters for cold sailing is unconfirmed here — the cabin heater, hull insulation, an inside steering position, keel-stepped mast, watertight bulkhead and cold-water tankage could none of them be confirmed from available sources. The score reflects only the protected cockpit, so treat it with heavy skepticism. Very low confidence — six of the seven things we'd want to check simply couldn't be confirmed.",
+      "basis": "Deeply protected center cockpit with signature windshield (Hallberg-Rassy official site)"
     },
     "tropic_score": {
       "value": 76,
       "confidence": 0.5,
-      "rationale": "Three of six rubric inputs are verifiable. Opening hatches/ventilation (wt 20): 6 flush deck hatches + 8 opening portlights + 4 hull portlights confirmed, confidence 0.92 — full 20 pts. Refrigeration (wt 15): available as semi-custom galley option (confidence 0.65) but not standard — 8/15 pts reflecting optional not fitted status. Airflow (wt 15): good natural airflow confirmed with no mechanical fans specified (confidence 0.75) — 10/15 pts for natural-only airflow. Shade (wt 15): ABSENT — source was HR46 model, removed. Watermaker (wt 15): ABSENT — HR44-specific claim unverified. Light-air SA/D (wt 20): ABSENT — no SA/D ratio in verified facts; sentiment notes poor light-air downwind performance, suggesting below average. Normalized over known 50 pts: 38/50 = 76. Confidence = 3/6 inputs = 0.50.",
-      "basis": "tropical.ventilation (confidence 0.92), tropical.refrigeration (confidence 0.65), tropical.airflow (confidence 0.75) from Hallberg-Rassy official site"
+      "rationale": "Ventilation is a real strength: six flush deck hatches, eight opening portlights and four large hull windows give excellent natural light and airflow throughout. Refrigeration is offered but only as a semi-custom galley option rather than standard kit, and airflow relies on those hatches and ports with no mechanical fans mentioned — good, but not exceptional. Shade gear, a watermaker, and light-air sail power couldn't be confirmed for the HR44, and reviewers note the boat is sluggish downwind in light air, which holds the tropical score back from the top tier. Moderate confidence — half the tropical features we'd look for went unverified.",
+      "basis": "Abundant hatches and portlights with good natural airflow; refrigeration optional (Hallberg-Rassy official site)"
     },
     "stability_score": {
       "value": 80,
       "confidence": 0.95,
-      "rationale": "No exact AVS value is published by Hallberg-Rassy — stability.avs fact confirms 'exact numerical value not published by builder' (confidence 0.60). AVS is described only as 'enhanced compared to predecessor HR43' with no number given. Rubric fallback: CE Category A is confirmed at confidence 0.95 from boat-specs.com and Hallberg-Rassy official site (CE-A = unlimited ocean voyages, winds below force 9, waves below 10m). CE: A maps directly to 80 per rubric. STIX exceeds 32 as required for CE-A but specific value not disclosed. Confidence reflects the high certainty on CE-A classification itself.",
-      "basis": "stability.ce_category (confidence 0.95) — cited from boat-specs.com and hallberg-rassy.com/yachts/hallberg-rassy-44"
+      "rationale": "Hallberg-Rassy doesn't publish an exact angle-of-vanishing-stability figure for the HR44 — it's described only as improved over the older HR43, with no number given. What is firmly documented is the boat's CE Category A (ocean) certification, confirmed by both the builder and an independent specs source, which clears it for unlimited offshore passages in winds under Force 9 and seas under 10m. That solid, well-sourced ocean rating is what anchors the score. High confidence in the Category A classification itself, even though the precise stability number stays undisclosed.",
+      "basis": "Confirmed CE Category A (ocean) certification (Hallberg-Rassy official site and independent specs)"
     },
     "storm_verdict": {
-      "text": "Insufficient sourced data for a confirmed heavy-weather verdict. The Yachting World review (confidence 0.68) notes that twin rudders split steering load between two smaller rudders improving handling under load, and that Lewmar progressive steering remains light at the wheel even when fully powered up — both design features are relevant to heavy conditions. An optional cutter stay requires no runners (Hallberg-Rassy official, confidence 0.85), supporting headsail options in deteriorating weather. No published owner accounts of offshore storm crossings aboard the HR44 were found in any fetched source. Twin-rudder autopilot failover claims present in the original research were flagged as fabricated and are excluded. The design pedigree (Swedish bluewater builder, CE-A category, 40% ballast ratio) is consistent with offshore capability but cannot substitute for sourced heavy-weather performance data.",
+      "text": "Insufficient sourced data for a confirmed heavy-weather verdict. The Yachting World review notes that twin rudders split steering load between two smaller rudders improving handling under load, and that Lewmar progressive steering remains light at the wheel even when fully powered up — both design features are relevant to heavy conditions. An optional cutter stay requires no runners (Hallberg-Rassy official), supporting headsail options in deteriorating weather. No published owner accounts of offshore storm crossings aboard the HR44 were found in any available source. The design pedigree (Swedish bluewater builder, CE-A category, 40% ballast ratio) is consistent with offshore capability but cannot substitute for sourced heavy-weather performance data.",
       "confidence": 0.4,
       "cited": false
     },
@@ -895,13 +895,13 @@
           "system": "Teak Deck Remediation or EcoDeck",
           "low": 12000,
           "high": 25000,
-          "note": "Teak deck deterioration, rot beneath planks, and cracks are documented known issues (refit.known_issues). EcoDeck (PU composite) is now an HR-endorsed alternative (deck.ecodeck, confidence 0.88). Full re-deck with hardware re-bedding to address documented moisture ingress."
+          "note": "Teak deck deterioration, rot beneath planks, and cracks are documented known issues. EcoDeck (PU composite) is now an HR-endorsed alternative. Full re-deck with hardware re-bedding to address documented moisture ingress."
         },
         {
           "system": "Rudder Bearings",
           "low": 2000,
           "high": 5000,
-          "note": "Twin rudder bearing play under load is a documented known issue (refit.known_issues). Tightening or bearing replacement required. Source: TrueNorth Yacht Advisors."
+          "note": "Twin rudder bearing play under load is a documented known issue. Tightening or bearing replacement required. Source: TrueNorth Yacht Advisors."
         },
         {
           "system": "Cored Deck Moisture Repair",
@@ -960,7 +960,7 @@
       {
         "item": "Cutter staysail and inner forestay hardware",
         "category": "heavy-weather",
-        "why": "Optional hard wind stay is available from HR with no runners required (heavy_weather.cutter_staysail, confidence 0.85). If not already fitted, provisioning should include a dedicated staysail sized for the stay, sheets, and a furler if roller operation is desired. Essential for headsail reduction offshore."
+        "why": "Optional hard wind stay is available from HR with no runners required. If not already fitted, provisioning should include a dedicated staysail sized for the stay, sheets, and a furler if roller operation is desired. Essential for headsail reduction offshore."
       },
       {
         "item": "Chainplate inspection kit and re-bedding sealant (Sika 291 or equivalent)",
@@ -970,12 +970,12 @@
       {
         "item": "EcoDeck patch repair kit or teak seam compound",
         "category": "maintenance",
-        "why": "Teak deck cracking and seam failure is documented. If original teak is retained, carry SIKA 291 teak seam compound, a seam router, and replacement teak bungs for offshore repairs. If EcoDeck fitted, carry manufacturer patch compound (deck.ecodeck)."
+        "why": "Teak deck cracking and seam failure is documented. If original teak is retained, carry SIKA 291 teak seam compound, a seam router, and replacement teak bungs for offshore repairs. If EcoDeck fitted, carry manufacturer patch compound."
       },
       {
         "item": "Solar MPPT spare controller (GenaSun or equivalent)",
         "category": "electrical",
-        "why": "Solar system with GenaSun MPPT confirmed (self_steering.electrical_autonomy, confidence 0.68). MPPT controller failure in remote locations is hard to source. Carry one spare 30-40A MPPT controller compatible with panel array."
+        "why": "Solar system with GenaSun MPPT confirmed. MPPT controller failure in remote locations is hard to source. Carry one spare 30-40A MPPT controller compatible with panel array."
       },
       {
         "item": "Through-hull knock test hammer and zinc anodes (full set)",
@@ -985,7 +985,7 @@
       {
         "item": "Spinnaker or asymmetric cruising chute (if absent)",
         "category": "tropical",
-        "why": "Sentiment notes poor light-air downwind performance due to modest mainsail and heavy displacement. A 13,300 kg boat without a light-air downwind sail will be painfully slow in the trades. An asymmetric on a sock or furler system is the most passage-practical solution given the integral bowsprit (ergonomics.side_decks)."
+        "why": "Sentiment notes poor light-air downwind performance due to modest mainsail and heavy displacement. A 13,300 kg boat without a light-air downwind sail will be painfully slow in the trades. An asymmetric on a sock or furler system is the most passage-practical solution given the integral bowsprit."
       }
     ]
   }
