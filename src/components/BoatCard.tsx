@@ -9,6 +9,7 @@ import {
   type Weights,
 } from "../lib/metrics";
 import { budgeClass, budgeLabel, headline, isShelter } from "../lib/format";
+import { marketLinks } from "../lib/market";
 import { Ring } from "../lib/svg";
 
 interface Props {
@@ -189,6 +190,25 @@ export default function BoatCard({
           >
             {inCompare ? "✓ comparing" : "+ compare"}
           </button>
+        </div>
+
+        <div className="marketrow" onClick={(e) => e.stopPropagation()}>
+          <span className="marketlab" title="See what's currently for sale">
+            ⚓ For sale
+          </span>
+          {marketLinks(b).map((m) => (
+            <a
+              key={m.host}
+              className="marketlink"
+              href={m.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={`Search current ${b.name} listings — ${m.label}`}
+            >
+              {m.label}
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          ))}
         </div>
       </div>
     </div>

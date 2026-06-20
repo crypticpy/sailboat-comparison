@@ -673,6 +673,78 @@ input[type='range'] {
   border-color: var(--ink);
 }
 
+/* "On the market" — brokerage search links */
+.marketrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+.marketlab {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.marketlink {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--brass-deep);
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 7px;
+  background: var(--chip);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition:
+    background var(--t-fast) var(--ease),
+    border-color var(--t-fast) var(--ease),
+    color var(--t-fast) var(--ease);
+}
+.marketlink:hover {
+  background: #fff;
+  border-color: var(--brass);
+  color: var(--brass-deep);
+}
+.marketlink:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 1px;
+}
+
+/* Dossier "On the market" block */
+.market-block {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--chip);
+}
+.market-block-head {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+}
+.market-block-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 2px 0 10px;
+}
+.market-block .marketrow {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+.market-block .marketlink {
+  background: #fff;
+  font-size: 12.5px;
+  padding: 5px 11px;
+}
+
 /* Budget pill */
 .budge {
   font-size: 11px;

@@ -28,6 +28,7 @@ import {
   type PillarWeights,
 } from "../lib/metrics";
 import { isShelter } from "../lib/format";
+import { marketLinks } from "../lib/market";
 import { TierBars, Prov } from "../lib/svg";
 import {
   ConfMeter,
@@ -850,6 +851,29 @@ export default function BoatDossier({
                 ))}
               </ul>
               <div className="note">{b.budgetText}</div>
+              <div className="market-block">
+                <div className="market-block-head">
+                  ⚓ On the market right now
+                </div>
+                <div className="market-block-sub">
+                  Live broker searches for the {b.name} — opens in a new tab.
+                </div>
+                <div className="marketrow">
+                  {marketLinks(b).map((m) => (
+                    <a
+                      key={m.host}
+                      className="marketlink"
+                      href={m.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`Search current ${b.name} listings — ${m.label}`}
+                    >
+                      {m.label}
+                      <span aria-hidden="true"> ↗</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
           </>
         )}
