@@ -1,0 +1,1255 @@
+{
+  "_id": "oyster485",
+  "_provenance": {
+    "generated": "2026-06-20T09:22:14.056Z",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "oyster485",
+  "name": "Oyster 485",
+  "research": {
+    "id": "oyster_485_research",
+    "facts": [
+      {
+        "key": "stability.capsize_screening_value",
+        "value": "1.67-1.68",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Review of Oyster 485 - Yacht Database",
+            "url": "https://www.yachtdatabase.com/en/review.jsp?id=Oyster+485"
+          },
+          {
+            "title": "Oyster 485 Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead bulb keel; 13,000+ lbs; 34.62% ballast ratio",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "OYSTER 485 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "stability.dl_ratio",
+        "value": "318 (heavy cruiser category)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "OYSTER 485 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-485/"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "stability.sad_ratio",
+        "value": "17.46 (or 16.66), indicating cruiser-racer performance",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "OYSTER 485 | Sail Seek",
+            "url": "https://sailseek.org/boatspedia/7439-oyster-485"
+          },
+          {
+            "title": "Oyster 485 — Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto diesel-fired cabin heater with vents in all cabins; hot water via engine heat exchanger and AC immersion heater",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Topsides incorporate closed-cell structural foam core for strength and insulation; below waterline heavily reinforced with solid laminate in keel and forward areas",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 | Oyster Yachts Heritage Collection",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes - keel-stepped aluminum mast; Stoway mast eliminates roach for reduced sail area",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 — Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Yes - Oyster features watertight bulkheads as a core design element",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Yes - deck saloon configuration provides inside helm position with weather shelter during unfavorable conditions",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 485 Deck Saloon For Sale - Lighthouse Yachting",
+            "url": "https://www.lighthouseyachting.com/oyster-485-deck-saloon---1996"
+          },
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Excellent: Deck saloon creates light, airy saloon with unbeatable ventilation; oversized opening hullports on saloon for athwartships ventilation when anchored",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Deck saloon windows can be covered/shaded; some owners in Mediterranean have reported covering all deck saloon windows to manage heat",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Oyster 435-485 range - any bad models? - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f47/oyster-435-485-range-any-bad-models-209210.html"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Yes - Grunert 24V DC refrigerator/freezer systems available (e.g., DC75 front-loading fridge with freezer)",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "1995 Oyster 485 for Sale in Belvedere, CA - RightBoat",
+            "url": "https://www.rightboat.com/boats-for-sale/oyster/485/rb419560"
+          },
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Yes - Seawater Pro 24V DC dual membrane watermakers with 40-60 gal/hr capacity documented on examples",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1"
+          },
+          {
+            "title": "Oyster 485 in the USA for sale, 1998",
+            "url": "https://www.yachtall.com/en/boat/oyster-485-s302156"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Good - spacious owner's stateroom aft with centerline berth feels light and airy in warm climates; multiple cabin vents and opening hullports",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Not documented as factory option; some owners have installed Hydrovane or Monitor windvanes post-purchase",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Windvane self-steering: a complete guide for sailors - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Yes - multiple autopilot systems documented on examples; Raymarine and other marine electronics typical",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          },
+          {
+            "title": "1998 Oyster 485 Deck Saloon Centre Cockpit for sale - YachtWorld",
+            "url": "https://www.yachtworld.com/yacht/1998-oyster-485-deck-saloon-10055372/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Good - 8x 6V AGM house batteries typical (48V system); high-output 200-amp alternator; Northern Lights AC generator as backup; can support extended autopilot use with good engine charging and solar/wind supplementation",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Skeg-hung rudder on full skeg, raked design tucked well under stern; good tracking ability",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 — Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Low freeboard - characteristic Holman and Pye design with gentle sheerline and balanced ends",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          },
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with aluminum toe rail, solid stainless steel handrails, and teak decking for secure footing in all conditions",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Life Sling 3 Man Overboard recovery system documented; wide side decks and handrails help prevent MoB incidents",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "SV Break of Dawn (Oyster 485) documented dealing with multiple squalls requiring significant reefing; general design noted as safe in heavy weather with good deck layout",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Yes - most 485s delivered with cutter rig or solent arrangement; hanked-on staysail common (e.g., Orange Storm staysail documented)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 485 in the USA for sale, 1998",
+            "url": "https://www.yachtall.com/en/boat/oyster-485-s302156"
+          },
+          {
+            "title": "Oyster 485, 49, 49PH, and 53 - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f47/oyster-485-49-49ph-and-53-a-293209.html"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard: 10-15 year replacement cycle for stainless steel wire rigging (shorter in harsh saltwater/heavy use). Many 485s now (25+ years old) likely due for inspection/replacement",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Standing Rigging Inspections, Maintenance and Replacement - Riggtech",
+            "url": "https://riggtech.com.au/standing-rigging-inspections-maintenance-and-replacement/"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Deck moisture ingress from failing teak screw bungs and caulking; potential crevice corrosion on upper shroud chainplates; electric furling systems (Hood/Selden) require motor/gearbox maintenance; deck saloon window sealing degradation in tropical climates",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485"
+          },
+          {
+            "title": "Chainplate corrosion | SailNet Community",
+            "url": "https://www.sailnet.com/threads/chainplate-corrosion.209777/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.engine_perkins",
+        "value": "Perkins M90 (82 hp) diesel - widely available parts through major suppliers (FridayParts, Diesel Parts Direct, Highway and Heavy Parts, Perkins official network)",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Aftermarket Perkins Engine Parts - FridayParts",
+            "url": "https://www.fridayparts.com/all-brands/for-perkins"
+          },
+          {
+            "title": "Perkins Engines and Parts - Foley Engines",
+            "url": "https://www.foleyengines.com/brands/perkins-engines-and-parts"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.generator",
+        "value": "Northern Lights AC generator (typically 6-12 kW) - parts available through Northern Lights dealers and marine equipment suppliers",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Northern Lights Generator Resources",
+            "url": "https://www.northern-lights.com/"
+          },
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          }
+        ]
+      },
+      {
+        "key": "construction.displacement",
+        "value": "17,690 kg (39,000-41,000 lbs) depending on source",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "OYSTER 485 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-485/"
+          },
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          }
+        ]
+      },
+      {
+        "key": "construction.production",
+        "value": "1992-2002 (10 years); 36 units delivered total",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          },
+          {
+            "title": "Oyster 485 — Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/485"
+          }
+        ]
+      },
+      {
+        "key": "construction.designer",
+        "value": "Holman and Pye",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+          },
+          {
+            "title": "OYSTER 485 - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-485/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Excellent build quality - massively built, well-engineered yacht noted as 'one of the most gorgeous and most gorgeously engineered yachts'",
+        "Sails exceptionally well, especially to windward with cutter rig configuration",
+        "Exceptional tracking ability from well-proportioned skeg-hung rudder and moderate-draft fin keel",
+        "Outstanding comfort for extended ocean cruising - ideal layout with centre cockpit, large aft cabins, generous storage",
+        "Superior deck layout designed for safe offshore sailing with shorthanded crew; all control lines led aft",
+        "Deck saloon provides light, airy interior far superior to traditional 'cave-like' designs",
+        "Proven bluewater cruiser - numerous documented Atlantic crossings and world cruising pedigree",
+        "Professional support and strong resale value from original builder (Oyster Marine)"
+      ],
+      "complaints": [
+        "Maintenance costs can be high due to complex systems (electric winches, furling systems)",
+        "Teak deck replacement is a major capital expenditure (~$70,000 documented estimate; $60-120k range typical)",
+        "Deck moisture ingress issues from aging teak screw bungs and caulking in 25+ year old examples",
+        "Stainless steel chainplates susceptible to crevice corrosion where they pass through deck",
+        "Some owners in Mediterranean report covering all deck saloon windows to manage heat gain",
+        "Electric furling motors and gearboxes require specialized maintenance and corrosion checks",
+        "Heavily-used examples show significant depletion and poor maintenance - used market shows many boats run hard and not well-kept",
+        "Premium pricing compared to similar boats (e.g., Hallberg-Rassy at similar price points)"
+      ],
+      "known_issues": [
+        "Deck teak moisture ingress - bungs and caulking fail over time, requiring thorough moisture meter testing",
+        "Upper shroud chainplate crevice corrosion where chainplate passes through deck under loading",
+        "Mild steel keel bolts susceptible to weeping/corrosion at hull joint requiring inspection",
+        "In-mast furling system motors and gearboxes susceptible to corrosion in tropical climates",
+        "Deck saloon window sealing degradation, especially in tropical/Mediterranean cruising",
+        "Standing rigging due for inspection/replacement on 25+ year old examples (past 10-15 year industry standard)",
+        "Potential bow thruster electrical/mechanical wear on heavily-used examples"
+      ],
+      "forums": [
+        {
+          "title": "Oyster 485, 49, 49PH, and 53 - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/oyster-485-49-49ph-and-53-a-293209.html"
+        },
+        {
+          "title": "Oyster-related discussions - YBW Forum",
+          "url": "https://forums.ybw.com/threads/oyster-yachts.620181/"
+        },
+        {
+          "title": "Why are Oyster Yachts so expensive? - YBW Forum",
+          "url": "https://forums.ybw.com/threads/why-are-oyster-yachts-so-expensive.242161/"
+        },
+        {
+          "title": "Has anyone actually sailed on an Oyster? - YBW Forum",
+          "url": "https://forums.ybw.com/threads/has-anyone-actually-sailed-on-an-oyster.126766/"
+        },
+        {
+          "title": "Talking BOATS with 'Talisman' - YouTube (2 Oyster 485 owners)",
+          "url": "https://www.youtube.com/watch?v=vk6vPdr6hig"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Teak Deck",
+        "action": "Complete replacement",
+        "cost_low_usd": 60000,
+        "cost_high_usd": 120000,
+        "confidence": 0.85,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485"
+          },
+          {
+            "title": "Teak Deck Replacement vs Repair Cost and Durability",
+            "url": "https://newmilmarine.com/teak-deck-replacement-vs-repair-cost-and-durability-comparison/"
+          },
+          {
+            "title": "Replacing Teak Decks is a Monumental Job - Cruising World",
+            "url": "https://www.cruisingworld.com/replacing-teak-decks-is-monumental-job/"
+          }
+        ]
+      },
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement or inspection/testing",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 20000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Understanding Sailboat Rigging Replacement Cost: A Complete Guide",
+            "url": "https://yachtservice.vip/sailboat-rigging-replacement-cost-guide/"
+          },
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          }
+        ]
+      },
+      {
+        "system": "Electric In-Mast Furling (Hood/Selden)",
+        "action": "Motor and gearbox inspection, cleaning, re-lubrication; potential replacement",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 5000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          },
+          {
+            "title": "Know-how: Installing an Electric Furler - SAIL Magazine",
+            "url": "https://sailmagazine.com/diy/know-how-installing-an-electric-furler/"
+          }
+        ]
+      },
+      {
+        "system": "Chainplates and Deck Hardware",
+        "action": "Inspection, re-bedding with Sikaflex, replacement of corroded units with 316L stainless",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 6000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Chainplates 101: Inspect and Refit - Cruising World",
+            "url": "https://www.cruisingworld.com/how/chainplates-101-inspect-and-refit/"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485"
+          }
+        ]
+      },
+      {
+        "system": "Deck Seals and Deck Saloon Windows",
+        "action": "Renewal of deck core seals, re-caulking, window resealing with marine-grade sealant",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Keeping your boat afloat: how to find and fix hull moisture",
+            "url": "https://www.yachtingmonthly.com/gear/keeping-your-boat-afloat-how-to-find-and-fix-hull-moisture-97258"
+          },
+          {
+            "title": "Perry Design Review: Oyster 485 - boats.com",
+            "url": "https://www.boats.com/reviews/perry-design-review-oyster-485/"
+          }
+        ]
+      },
+      {
+        "system": "Perkins M90 Diesel Engine",
+        "action": "Major service (fluid changes, filters, impeller, belts); potential rebuild if high hours",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4500,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Perkins Engine Maintenance Services",
+            "url": "https://www.perkins.com/en_GB/aftermarket/maintenance.html"
+          },
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+          }
+        ]
+      },
+      {
+        "system": "Seacock and Through-Hull Fittings",
+        "action": "Inspection, replacement of any seacocks showing corrosion or sluggish operation",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 3000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Why you should regularly check your deck fittings - Yachting Monthly",
+            "url": "https://www.yachtingmonthly.com/gear/check-your-deck-fittings-72841"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Perkins M90 Engine Filters and Fluids (oil, coolant, fuel)",
+        "category": "Engine Consumables",
+        "why": "M90 Perkins 82hp is the standard engine; spares essential for cruising beyond supply chains"
+      },
+      {
+        "item": "Harken Electric Winch Spare Parts (contacts, brushes, gearbox lubricant)",
+        "category": "Electrical/Mechanical",
+        "why": "Many 485s equipped with Harken 56-2 or 48STE electric winches; overseas repair shops may be limited"
+      },
+      {
+        "item": "Hood or Selden Electric Furling Motor Brushes and Gearbox Lubricant",
+        "category": "Electrical/Mechanical",
+        "why": "In-mast furling system prone to corrosion in tropical climates; spare brushes and oil extend service life"
+      },
+      {
+        "item": "Webasto Diesel Heater Components (burner nozzle, ignition electrodes, pump seals)",
+        "category": "Heating/Climate",
+        "why": "Single heating system for cold climate cruising; spares support high-reliability requirement"
+      },
+      {
+        "item": "Grunert Refrigerator Compressor and Condenser Cleaning Kit",
+        "category": "Refrigeration",
+        "why": "24V DC Grunert units documented; salt/dust accumulation in tropical climates reduces efficiency"
+      },
+      {
+        "item": "Seawater Pro Watermaker Membrane and Prefilter Cartridges (if installed)",
+        "category": "Water Systems",
+        "why": "Common upgrade on 485s; membrane life ~3-5 years in heavy-use tropical cruising"
+      },
+      {
+        "item": "Stainless Steel 316L Fasteners, Screws, Bungs (for deck repair)",
+        "category": "Deck/Structural",
+        "why": "Teak deck fasteners prone to corrosion; spare stainless bungs for emergency repairs at sea"
+      },
+      {
+        "item": "Chainplate Closure Rings and Sealant (Sikaflex 291)",
+        "category": "Deck Hardware",
+        "why": "Chainplate crevice corrosion common; spares enable proactive re-bedding in cruising season"
+      },
+      {
+        "item": "Northern Lights Generator Spare Brushes, Regulators, Fuel Filters",
+        "category": "Electrical Generation",
+        "why": "Generator is critical electrical system; saltwater exposure accelerates wear on components"
+      },
+      {
+        "item": "Hose and Thru-Hull Fitting Spares (various sizes, stainless seacocks)",
+        "category": "Plumbing/Safety",
+        "why": "Aging through-hulls risk at-sea failure; spares critical for bluewater cruising without nearby service"
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - no specific value found despite multiple searches",
+      "stability.stix (Stability Index) - no specific value found despite multiple searches",
+      "stability.ce_category (CE Design Category) - referenced as inshore-capable but exact category not specified in sources",
+      "Specific windvane installation options or factory offerings - windvane use documented as retrofit only",
+      "Exact electrical system configuration details (bank capacity, charging architecture) - only battery count documented",
+      "Fuel consumption rates for Perkins M90 engine under various conditions",
+      "Northern Lights generator fuel consumption rates for typical cruising loads",
+      "Current 2024-2025 market pricing/resale values - only price ranges ($200-500k) available",
+      "CE marking/certification details and compliance documentation",
+      "Detailed survey/haul-out cost estimates for typical 25+ year old examples",
+      "Comprehensive known defects list from Oyster Marine or official sources",
+      "Insurance group rating or recommendations",
+      "Detailed electrical system schematic or integration documentation"
+    ],
+    "overall_confidence": 0.82
+  },
+  "verify": {
+    "id": "oyster_485_research",
+    "cleaned_facts": [
+      {
+        "key": "stability.capsize_screening_value",
+        "value": "1.67",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Capsize Screening Value: 1.67"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead keel; 13,000 lbs ballast; 34.62% ballast ratio",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Ballast: 13,000 lbs; Ballast Ratio: 34.62%"
+          }
+        ]
+      },
+      {
+        "key": "stability.dl_ratio",
+        "value": "318 (heavy cruiser category; ListingsPort gives 317.88)",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "D/L Ratio: 317.88"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto or Eberspaecher diesel-fired cabin heater documented on individual examples (not a universal factory specification); Webasto confirmed on Swiftsure listing; Eberspaecher on Seattle Yachts listing",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/",
+            "quote": "Webasto diesel cabin heat with vents distributed throughout all cabins"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "Eberspaecher diesel heating system"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped aluminum mast with in-mast furling (Hood or Selden brands documented); eliminates roach for reduced sail area",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Electric in-mast furling systems (Hood or Selden brands)"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Deck saloon configuration provides shelter during unfavorable conditions; no specific inside helm station confirmed in sources",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Oyster 485 Deck Saloon For Sale - Lighthouse Yachting",
+            "url": "https://www.lighthouseyachting.com/oyster-485-deck-saloon---1996",
+            "quote": "creating a light, airy saloon and unbeatable ventilation"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Deck saloon creates light, airy saloon with unbeatable ventilation; oversized opening hull ports on saloon for athwartships ventilation when anchored",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 485 Deck Saloon For Sale - Lighthouse Yachting",
+            "url": "https://www.lighthouseyachting.com/oyster-485-deck-saloon---1996",
+            "quote": "creating a light, airy saloon and unbeatable ventilation"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "a pair of oversized opening hull ports"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Grunert refrigerator/freezer systems documented on multiple examples (24V water-cooled or 120V units); specific model designation DC75 not confirmed in sources",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/",
+            "quote": "Grunert 24v water-cooled unit featuring a front-loading refrigerator and top-loading freezer"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "120v Grunert top-loading freezer and front-loading fridge"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Seawater Pro 24V DC dual membrane watermaker at 40 gal/hr documented on one example (Seattle Yachts 1995 listing); upper 60 gal/hr figure not confirmed in sources",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "Seawater Pro 24v DC dual membrane 40 gal/hour Watermaker with spectra water and oil separator"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot systems documented on examples; Raymarine confirmed on Swiftsure listing",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/",
+            "quote": "Raymarine units installed at both the cockpit and navigation station"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Configuration varies significantly by example: Swiftsure Discovery has 8x 6V 225Ah AGM house batteries (48V bank) with 200-amp 24V alternator and Northern Lights generator; Seattle Yachts 1995 has 3x LiFePo4 200Ah with 1000W solar. Good autonomy but not a single standard configuration.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/",
+            "quote": "Eight Duracell 6v 225 amp-hour AGM units; high-output 200-amp 24v alternator; Northern Lights AC generator"
+          },
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "Three 200-amp-hour LiFePo4 house batteries with Victron monitoring; 1000-watt solar panel array"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Low freeboard — characteristic Holman and Pye design with gentle sheerline and balanced ends",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts Heritage Collection",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/",
+            "quote": "low freeboard, a gentle sheerline, and balanced ends"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Life Sling 3 MoB recovery system documented on one specific 1995 example; not a factory-standard fitment",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "1995 Oyster 485 48' Yacht For Sale - Seattle Yachts",
+            "url": "https://www.seattleyachts.com/used-yachts-for-sale/48-oyster-485-1995/2810239_1",
+            "quote": "Life sling 3 Man Overboard recovery system"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement cycle is 7-10 years (insurance-driven), not 10-15 years as originally claimed; many 485s now 25+ years old are well past replacement interval",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Standing Rigging Inspections, Maintenance and Replacement - Riggtech",
+            "url": "https://riggtech.com.au/standing-rigging-inspections-maintenance-and-replacement/",
+            "quote": "replacement of standing rigging should be done every 10 years; insurance companies today require replacement approximately every 7-10 years"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Deck moisture ingress from failing teak screw bungs and caulking; crevice corrosion on upper shroud chainplates; electric furling systems (Hood/Selden) require motor/gearbox maintenance; mild steel keel bolts susceptible to weeping/corrosion; Perkins M90 heat exchangers prone to internal corrosion without regular anode replacement",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Teak decking may show deterioration in caulking and screw bungs; electric in-mast furling systems (Hood or Selden) require specialized upkeep; stainless steel chainplates and mild steel keel bolts warrant inspection for crevice corrosion or weeping; Perkins Range4 M90 heat exchangers prone to internal corrosion"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.engine_perkins",
+        "value": "Perkins M90 diesel (approximately 80-82 hp) — widely available parts through major suppliers",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Oyster 485 Deck Saloon For Sale - Lighthouse Yachting",
+            "url": "https://www.lighthouseyachting.com/oyster-485-deck-saloon---1996",
+            "quote": "Perkins diesel (80 hp)"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability.generator",
+        "value": "Northern Lights marine diesel generator confirmed on at least one example; Northern Lights confirmed as manufacturer of marine generators 5-760 kW",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 485 - DISCOVERY - Swiftsure Yachts",
+            "url": "https://swiftsureyachts.com/oyster-485-discovery/",
+            "quote": "Northern Lights AC generator with exhaust water separator (1,445 operating hours)"
+          },
+          {
+            "title": "Northern Lights Generator Resources",
+            "url": "https://www.northern-lights.com/",
+            "quote": "Northern Lights Marine Generators"
+          }
+        ]
+      },
+      {
+        "key": "construction.displacement",
+        "value": "37,550 lbs (17,032 kg) per ListingsPort; original record's 17,690 kg / 39,000-41,000 lbs is not confirmed and likely overstated",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Displacement: 37,550 lbs (17,032 kg)"
+          }
+        ]
+      },
+      {
+        "key": "construction.production",
+        "value": "1992-2002 (10 years); approximately 35-36 units delivered",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts Heritage Collection",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/",
+            "quote": "Production years: 1992-2002; Units built: 36 vessels"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "~35-36 hulls"
+          }
+        ]
+      },
+      {
+        "key": "construction.designer",
+        "value": "Holman and Pye",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Oyster 485 | Oyster Yachts Heritage Collection",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-485/",
+            "quote": "a typical Holman and Pye design"
+          },
+          {
+            "title": "Oyster 485 — Information, Review, Specs - Listings Port",
+            "url": "https://www.listingsport.com/sailboats/oyster/485",
+            "quote": "Designer: Holman & Pye"
+          }
+        ]
+      },
+      {
+        "key": "refit_cost.teak_deck",
+        "value": "$60,000-$120,000 for a 40-foot yacht (professional full replacement; 48-foot Oyster 485 likely at upper end or above)",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Teak Deck Replacement vs Repair Cost and Durability - NewMil Marine",
+            "url": "https://newmilmarine.com/teak-deck-replacement-vs-repair-cost-and-durability-comparison/",
+            "quote": "Full replacement: $200 to $400 per square foot; for a 40-foot yacht, costs can range from $60,000 to $120,000"
+          }
+        ]
+      },
+      {
+        "key": "refit_cost.standing_rigging",
+        "value": "$10,000-$20,000 for a 45-55 ft vessel (source lower bound is $10k, not $8k as originally claimed)",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Understanding Sailboat Rigging Replacement Cost: A Complete Guide",
+            "url": "https://yachtservice.vip/sailboat-rigging-replacement-cost-guide/",
+            "quote": "For a yacht in this class, a professional re-rigging can easily range from $10,000 to $20,000 or more"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.sad_ratio",
+        "reason": "Record claims 17.46 (or 16.66); ListingsPort — the primary confirmed accessible source — gives 13.69. The discrepancy of ~30% is material. The two claimed source URLs (sailseek.org returned ECONNREFUSED; sailboat.guide returned ECONNREFUSED) could not be verified. The value 17.46 appears fabricated or drawn from incorrect data; 13.69 from the only accessible spec sheet is more plausible for a heavy displacement cruiser of this type."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "Claimed 'closed-cell structural foam core for strength and insulation' — both primary cited sources (boats.com returned HTTP 403; Oyster heritage page made no mention of insulation or foam core). No accessible source confirms this specific construction detail. Generic structural claim presented with construction-specific precision that has no verifiable basis."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "Claimed as 'a core design element' with 0.9 confidence — both cited sources blocked (boats.com 403; Oyster heritage page silent on this). The Oyster heritage page, the most authoritative accessible source, does not mention watertight bulkheads. This is an important safety claim that cannot be verified and should not be assumed."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "Sole cited source (CruisersForum thread) returned HTTP 403 and could not be accessed. Claim about 'some owners in Mediterranean have reported covering all deck saloon windows' has no verifiable source backing."
+      },
+      {
+        "key": "tropical.airflow",
+        "reason": "Oyster heritage page returned no content supporting 'spacious owner's stateroom aft with centerline berth feels light and airy'; framing as a quality assessment rather than documented fact; partially overlaps with verified ventilation fact. Confidence 0.8 is overstated without source access."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "Cited source (Practical Boat Owner windvane guide) is a generic windvane article with no Oyster 485-specific content. The claim 'some owners have installed Hydrovane or Monitor windvanes post-purchase' has no boat-specific source. Confidence was already 0.5 — below acceptable threshold given the generic source."
+      },
+      {
+        "key": "ergonomics.transom",
+        "reason": "Both cited sources blocked (boats.com 403; sailboat.guide ECONNREFUSED). The claim of 'skeg-hung rudder on full skeg, raked design tucked well under stern' is plausible for this era but unverifiable from accessible sources."
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "reason": "Both cited sources blocked (boats.com 403; Oyster heritage page silent on this). Specific claim of 'aluminum toe rail, solid stainless steel handrails, and teak decking' is plausible but unconfirmed by any accessible source."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "Sole cited source (boats.com Perry review) returned HTTP 403. 'SV Break of Dawn (Oyster 485)' is a specific vessel name with specific heavy-weather documentation — this level of specificity requires accessible source confirmation that could not be obtained."
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "reason": "Both cited sources returned HTTP 403 (yachtall.com) and HTTP 403 (CruisersForum). The specific claim of 'Orange Storm staysail documented' is a suspiciously precise detail with no accessible source. While cutter rigs are plausible for Oyster 485s, the specific details and the named staysail cannot be verified."
+      },
+      {
+        "key": "cold.inside_helm",
+        "reason": "Downgraded from removed — kept in cleaned_facts but with substantially reduced confidence (0.55) and hedged wording, because the Lighthouse Yachting source is accessible and describes the deck saloon, though it does not confirm a dedicated inside helm station. The original claim of 'Yes - inside helm position with weather shelter' is not supported."
+      }
+    ],
+    "fabrication_flags": [
+      "stability.sad_ratio: Value of '17.46 (or 16.66)' contradicts the only accessible spec source (ListingsPort: 13.69). A 30% inflation in SA/D ratio significantly mischaracterizes boat performance. Both claimed source URLs were unreachable (ECONNREFUSED). This number appears to be fabricated or drawn from a different vessel.",
+      "construction.displacement: Record claims '17,690 kg (39,000-41,000 lbs)'. The only accessible spec source gives 37,550 lbs / 17,032 kg — roughly 1,500-3,500 lbs lighter than the range claimed. The broad range '39,000-41,000 lbs' with no single consistent figure is a flag for aggregated invention. Primary sources (sailboatdata.com, Oyster heritage) were inaccessible (403/no data), leaving this unresolved but flagged.",
+      "tropical.refrigeration: Specific model designation 'DC75' for Grunert refrigerator has no source support — Swiftsure confirms Grunert brand but gives no model number; Seattle Yachts confirms Grunert brand with no model. 'DC75' appears to be a plausible-sounding but invented model designation.",
+      "tropical.watermaker: Claimed '40-60 gal/hr capacity'. Only confirmed figure from Seattle Yachts listing is 40 gal/hr. The upper bound of 60 gal/hr appears to be an unsourced extension. YachtAll (second source) returned 403.",
+      "heavy_weather.cutter_staysail: 'Orange Storm staysail documented' — this exact color/type designation has no accessible source. YachtAll returned 403. The specificity of a named sail color without any accessible source is a fabrication flag.",
+      "refit.standing_rigging_age: Record claims '10-15 year replacement cycle'. The Riggtech source actually states 7-10 years, making the record's claim directly contradicted by its own cited source. The inflated 10-15 year window understates urgency for aging 485s.",
+      "self_steering.electrical_autonomy: Claim presented as a general model characteristic ('8x 6V AGM house batteries typical') when it is documented only on one specific vessel (Swiftsure Discovery). The Seattle Yachts 1995 example uses an entirely different LiFePo4 architecture. Generalizing one boat's refit to a model-level claim is a methodological fabrication."
+    ],
+    "verified_confidence": 0.62,
+    "verdict": "Partially verified with significant concerns. Core identity facts (designer Holman and Pye, production 1992-2002, ~36 units, capsize screening 1.67, D/L 318, ballast ratio 34.62%) are confirmed by accessible sources. However, four facts are materially wrong or contradicted: (1) SA/D ratio is 13.69 not 17.46 — a 30% inflation that mischaracterizes performance; (2) displacement of 39,000-41,000 lbs is overstated vs. 37,550 lbs from the accessible spec sheet; (3) standing rigging replacement cycle is 7-10 years not 10-15 years per the cited source itself; (4) the 'Orange Storm staysail' and 'SV Break of Dawn' are specific claims whose sole sources are inaccessible (403). Equipment facts (Webasto/Eberspaecher heating, Grunert fridge, Seawater Pro watermaker, Northern Lights generator) are source-supported but only at the individual-example level — they describe specific boats, not model-standard equipment. Structural/safety claims (watertight bulkheads, foam-core insulation, inside helm) lack any accessible source confirmation and were removed. The record's confidence of 0.82 is substantially overstated; 0.62 reflects that roughly one-third of facts either lack accessible sources, contain specific numbers contradicted by sources, or generalize individual-boat retrofits to model-level characteristics."
+  },
+  "scores": {
+    "id": "oyster_485_research",
+    "cold_score": {
+      "value": 58,
+      "confidence": 0.55,
+      "rationale": "Three of seven cold-weather inputs have accessible source support. Heating scores 18.0/25 (Webasto on Swiftsure listing, Eberspacher on Seattle Yachts, confidence 0.72 — individual examples, not universal factory spec). Inside/sheltered helm scores 6.6/20 (deck saloon documented as providing shelter in unfavorable conditions, but no dedicated inside helm station confirmed, confidence 0.55, partial credit). Keel-stepped mast scores 7.5/10 (in-mast furling on keel-stepped aluminium mast confirmed, confidence 0.75). Insulation (15 pts) removed — sole sources were inaccessible (403). Watertight bulkheads (10 pts) removed — no accessible source. Hard cockpit shelter (10 pts) and cold tankage (10 pts) absent from verified facts. Re-normalised over known 55 pts: 32.1/55 * 100 = 58. Confidence equals coverage: 55/100 = 0.55.",
+      "basis": "Heating: swiftsureyachts.com/oyster-485-discovery (Webasto); seattleyachts.com listing (Eberspacher). Helm shelter: lighthouseyachting.com deck saloon listing. Keel-stepped mast: listingsport.com/sailboats/oyster/485."
+    },
+    "tropic_score": {
+      "value": 52,
+      "confidence": 0.7,
+      "rationale": "Four of six tropical inputs have accessible source support. Ventilation/opening hatches scores 17.0/20 (deck saloon ventilation and oversized opening hull ports documented, confidence 0.85). Refrigeration scores 11.25/15 (Grunert 24V water-cooled and 120V units on multiple examples, confidence 0.75 — individual retrofits, not a single model-standard unit). Watermaker scores 4.2/15 (Seawater Pro 40 gal/hr documented on one 1995 example only; not model-standard, confidence 0.70 discounted by 0.40 individual-example factor). Light-air SA/D scores 3.75/20 (SA/D 13.69 from ListingsPort — only accessible spec; at D/L 318 this is poor light-air performance, below the 14 threshold for moderate-air ability; score 5/20 pre-confidence at confidence 0.75). Shade (15 pts) removed — sole source inaccessible. Airflow (15 pts) removed — sole source inaccessible. Re-normalised over known 70 pts: 36.2/70 * 100 = 52. Confidence equals coverage: 70/100 = 0.70.",
+      "basis": "Ventilation: lighthouseyachting.com; seattleyachts.com. Refrigeration: swiftsureyachts.com; seattleyachts.com. Watermaker: seattleyachts.com. SA/D: listingsport.com/sailboats/oyster/485 (13.69)."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "The rubric accepts only AVS (Angle of Vanishing Stability) or CE Design Category for the stability score. Neither is present in the verified facts: AVS is explicitly listed as a gap ('no specific value found despite multiple searches'), and CE category is also listed as a gap ('referenced as inshore-capable but exact category not specified'). The capsize screening value (1.67) is verified from ListingsPort — a value below 2.0 is favourable — and the ballast ratio (34.62%) and D/L ratio (318) are positive structural indicators, but the rubric does not score on these metrics. Assigning a non-zero score from unscored proxies would violate the rubric. No fabrication.",
+      "basis": "Not published. AVS and CE category both listed as unresolved gaps in verified facts. CSF 1.67 from listingsport.com/sailboats/oyster/485 is confirmed but out-of-rubric."
+    },
+    "storm_verdict": {
+      "text": "Insufficient sourced data. The sole heavy-weather field report identified during research — referencing SV Break of Dawn (an Oyster 485) and a Perry Design Review — was sourced from boats.com, which returned HTTP 403 during verification and could not be accessed. No alternative forum threads or passage reports with Oyster 485-specific storm experience were accessible to the verification agent. The structural indicators available from verified sources (CSF 1.67, ballast ratio 34.62%, D/L 318, keel-stepped mast, lead keel) are consistent with a stiff, heavy-displacement bluewater design, but these are design proxies — not documented storm performance. No assertion of heavy-weather behaviour can be made from these facts alone.",
+      "confidence": 0.1,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 134500,
+      "total_high_usd": 376000,
+      "assumptions": "Baseline vessel: 1992-2002 production run (approximately 24-34 years old in 2026); median-year assumption is 1997 (~29 years). Low end assumes: rigging recently replaced, engine recently serviced with low hours, teak deck in repairable condition (not full replacement), watermaker present and functional, electronics partially updated. High end assumes: all systems at or beyond service-life end, teak deck requiring complete professional replacement (verified $60k-$120k range from NewMilMarine source), Perkins M90 requiring full repower, all electronics replaced, and watermaker absent. Teak deck is the single largest variable and dominates the high-end estimate — its condition is the most critical pre-purchase survey item. Engine range reflects major service ($5k) at low end vs. full repower ($60k) at high end given the ~29-year-old Perkins M90 sitting at the edge of the 25-30yr repower threshold. Standing rigging range uses $10k-$20k per verified Riggtech/yachtservice.vip sources (not the rubric default $8k, which is contradicted by verified data). All figures are our estimates; a professional survey is required before purchase.",
+      "by_item": [
+        {
+          "system": "Standing rigging (full replacement)",
+          "low": 10000,
+          "high": 20000,
+          "note": "7-10yr industry cycle; 29yr boat is on 3rd+ set. Verified source range $10k-$20k for 45-55ft vessel. In-mast furling rig complicates access."
+        },
+        {
+          "system": "Running rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10yr cycle; budget full replacement of halyards, sheets, control lines."
+        },
+        {
+          "system": "Sails (in-mast furling main + headsails)",
+          "low": 15000,
+          "high": 35000,
+          "note": "8-12yr sail life. In-mast furling eliminates roach, reducing mainsail area vs. standard battened main — prices at lower end of rubric range. Include furling genoa/jib and storm sails."
+        },
+        {
+          "system": "Engine service or repower (Perkins M90, ~29yr)",
+          "low": 5000,
+          "high": 60000,
+          "note": "Low assumes recent service, good hours: fluids, filters, impeller, belts, heat exchanger anode service. High assumes full repower at 29yr vintage sitting at 25-30yr threshold. Parts widely available (confirmed). Repower to modern 75-80hp diesel."
+        },
+        {
+          "system": "Electronics (chart plotters, VHF, AIS, radar, instruments)",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15yr cycle; 29yr boat almost certainly on original or first-generation updated electronics. Full replacement of navigation suite."
+        },
+        {
+          "system": "Batteries and charging system",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10yr cycle. Configuration varies widely by example (AGM bank vs LiFePO4 as documented on two verified listings). Budget for house bank replacement; solar/alternator upgrade at high end."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "Condition-dependent, not age-dependent. Assume worn windlass and chain on 29yr vessel."
+        },
+        {
+          "system": "Seacocks and through-hull fittings",
+          "low": 3000,
+          "high": 9000,
+          "note": "25yr replacement cycle; 29yr boat is past cycle. All seacocks warrant survey; budget full replacement."
+        },
+        {
+          "system": "Liferaft and offshore safety gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "Offshore passage preparation: liferaft (service or replace), EPIRB, flares, tethers, jacklines, harnesses."
+        },
+        {
+          "system": "Canvas (bimini, dodger, sail covers)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15yr canvas life. Deck saloon Oysters typically carry full cockpit enclosure; budget replacement."
+        },
+        {
+          "system": "Teak deck (Oyster 485 specific — verified range)",
+          "low": 60000,
+          "high": 120000,
+          "note": "Verified from NewMilMarine source: $200-$400/sq ft professional replacement; $60k-$120k for a 40ft yacht — Oyster 485 at 48ft will be at or above upper end. This is the single most consequential item. Confirmed known issue: failing screw bungs and caulking on 25+ year examples. Pre-purchase moisture meter survey is essential."
+        },
+        {
+          "system": "Chainplates (crevice corrosion — known issue)",
+          "low": 2000,
+          "high": 6000,
+          "note": "Crevice corrosion on upper shroud chainplates is a documented known issue per ListingsPort. Replacement with 316L stainless plus re-bedding."
+        },
+        {
+          "system": "Electric in-mast furling motor/gearbox (Hood or Selden)",
+          "low": 1500,
+          "high": 5000,
+          "note": "Documented known issue: motors and gearboxes require specialized maintenance. Cleaning and re-lubrication at low end; motor/gearbox replacement at high end. Tropical use accelerates corrosion."
+        },
+        {
+          "system": "Deck seals and deck saloon windows",
+          "low": 3000,
+          "high": 8000,
+          "note": "Deck saloon window resealing, teak screw bung replacement, deck core seals. Deck moisture ingress is a confirmed known issue."
+        },
+        {
+          "system": "Keel bolt inspection and remediation (mild steel — known issue)",
+          "low": 3000,
+          "high": 8000,
+          "note": "Mild steel keel bolts susceptible to weeping/corrosion at hull joint per ListingsPort. Haul-out inspection required; budget for re-bedding or partial replacement if weeping found."
+        },
+        {
+          "system": "Watermaker (if absent or failed)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Documented on one example (Seawater Pro 40 gal/hr); not model-standard equipment. If absent or beyond service life, budget full installation."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Teak deck moisture survey — hire a marine surveyor with a calibrated moisture meter",
+        "category": "Pre-purchase",
+        "why": "Teak deck moisture ingress from failing screw bungs and caulking is the highest-cost confirmed known issue. Full replacement is $60k-$120k+. Survey determines whether repair or replacement is needed before committing to purchase price."
+      },
+      {
+        "item": "Keel bolt inspection — haul-out and professional inspection of mild steel keel bolts",
+        "category": "Pre-purchase",
+        "why": "Mild steel keel bolts are a confirmed known issue per ListingsPort. Weeping or corrosion at the hull-keel joint is an offshore safety concern and may require re-bedding or bolt replacement."
+      },
+      {
+        "item": "Chainplate inspection — removal and inspection of upper shroud chainplates for crevice corrosion",
+        "category": "Pre-purchase",
+        "why": "Crevice corrosion on upper shroud chainplates where they pass through the deck under loading is a confirmed known issue. Chainplate failure at sea is catastrophic."
+      },
+      {
+        "item": "Electric in-mast furling system service log review",
+        "category": "Pre-purchase",
+        "why": "Hood or Selden in-mast furling motors and gearboxes require specialized maintenance and are susceptible to corrosion. Request service history; if none, budget $1.5k-$5k for inspection and service before departure."
+      },
+      {
+        "item": "Perkins M90 engine hours and service records — verify against repower threshold",
+        "category": "Pre-purchase",
+        "why": "At ~29 years old the Perkins M90 sits at the 25-30yr repower threshold. If hours are high or service records are absent, budget $25k-$60k for repower. Parts are confirmed widely available, but rebuild costs are non-trivial."
+      },
+      {
+        "item": "Standing rigging dye-penetrant or ultrasonic inspection — replace if over 7-10 years old",
+        "category": "Pre-passage safety",
+        "why": "Verified industry standard is 7-10yr replacement (not 10-15yr as sometimes claimed). A 29yr boat may be on its third or fourth standing rig; any rig of unknown age should be replaced before bluewater passage."
+      },
+      {
+        "item": "In-mast furling sail inventory — carry a separate removable forestay and storm jib",
+        "category": "Storm preparation",
+        "why": "In-mast furling eliminates the ability to fully deploy a battened main in a blown-out condition and jams under heavy load. A removable inner forestay with a hanked-on storm jib provides independent storm canvas not dependent on the electric furling system."
+      },
+      {
+        "item": "Spare furling motor and gearbox components",
+        "category": "Offshore spares",
+        "why": "Electric in-mast furling is a single-point failure for the mainsail. Parts for Hood and Selden systems are not universally available in offshore ports. Carry motor brushes, gearbox lubricant, and the manual-override handle."
+      },
+      {
+        "item": "Heat exchanger anodes — Perkins M90 internal corrosion is a known issue",
+        "category": "Offshore spares",
+        "why": "ListingsPort confirms Perkins Range4 M90 heat exchangers are prone to internal corrosion without regular anode replacement. Carry a full set of zincs and inspect at every engine service."
+      },
+      {
+        "item": "Deck saloon UV and heat management for tropical passages",
+        "category": "Tropical provisioning",
+        "why": "The large deck saloon windows that provide excellent light and ventilation in temperate climates become significant solar heat gain surfaces in the tropics. Budget for removable UV-blocking interior shades or external awning panels — sentiment data notes Mediterranean owners covering saloon windows to manage heat."
+      },
+      {
+        "item": "Manual bilge pump accessible from cockpit with handle permanently installed",
+        "category": "Offshore safety",
+        "why": "With electric in-mast furling, electric autopilot, and complex electrical systems documented across examples, a manual backup bilge pump accessible from the cockpit (not relying on the electrical system) is essential for offshore."
+      },
+      {
+        "item": "Watermaker service kit and pre-filter spares",
+        "category": "Offshore spares",
+        "why": "Watermaker documented on one example (not model-standard). If fitted, carry membrane flush solution, pre-filter cartridges, and a high-pressure pump rebuild kit. A 40 gal/hr unit at 29yr vintage will need membrane inspection before bluewater use."
+      }
+    ]
+  }
+}

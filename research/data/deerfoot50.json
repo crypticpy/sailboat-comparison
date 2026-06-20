@@ -1,0 +1,1136 @@
+{
+  "_id": "deerfoot50",
+  "_provenance": {
+    "generated": "2026-06-20T09:22:14.056Z",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "deerfoot50",
+  "name": "Deerfoot 50",
+  "research": {
+    "id": "deerfoot-50-research",
+    "overall_confidence": 0.62,
+    "facts": [
+      {
+        "key": "builder_location_year",
+        "value": "Professionally built by Lange and Sons of Port Townsend, Washington (USA); first Deerfoot (68-footer) built by Steve Dashew in New Zealand in 1980; production moved to Able Marine in Trenton, Maine after 1986 when Dashew sold the business.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          },
+          {
+            "title": "Steve Dashew designer profile - Berthon International",
+            "url": "https://berthoninternational.buzzsprout.com/2528535/contributors/122347-steve-dashew"
+          }
+        ]
+      },
+      {
+        "key": "hull_material_construction",
+        "value": "Fiberglass composite hull with balsa core (glass over balsa core both above and below waterline); composite deck construction using Seamans Composite Resin Infusion Process; through-bolted inward-turning hull flange topped with teak toerail.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "length_beam_draft",
+        "value": "Length overall: 15 meters (49 feet 3 inches nominal for '50' designation); Beam: 4.11 meters (13.5 feet); Draft: 2.4 meters (7 feet 10 inches). Displacement: approximately 14,500 kg.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50 - boats.com specifications",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          },
+          {
+            "title": "Deerfoot 50 boats for sale - YachtWorld",
+            "url": "https://www.yachtworld.com/yacht/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead ballast in steel keel held by large stainless steel bolts; moderately high ballast ratio approximately one-third of boat weight in keel.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "No specific AVS (Angle of Vanishing Stability) data found for Deerfoot 50. Sister ship Deerfoot 61 not specifically documented with AVS in available sources. Design-based stability is enhanced by canoe-shaped hull with center of buoyancy distribution that maintains stability when heeling.",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "STIX and AVS FAQ - IRC Rating",
+            "url": "https://ircrating.org/irc-racing/race-management/stix-and-avs-faq/"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "No specific STIX (Stability Index) data found for Deerfoot 50. Design intended for Category A (Ocean) cruising with three watertight compartments and multiple bilge pumps providing damage control stability.",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "STIX and AVS FAQ - IRC Rating",
+            "url": "https://ircrating.org/irc-racing/race-management/stix-and-avs-faq/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Designed for offshore cruising (Category A equivalent in design intent); no specific CE certification mark documentation found for Deerfoot 50, though design criteria align with Category A (Ocean) standards with watertight compartments and seaworthiness features.",
+        "confidence": 0.58,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          },
+          {
+            "title": "ISO CE Mark Category A Ocean Rating - ecys.com",
+            "url": "https://ecys.com/category-a-ocean-certification/"
+          }
+        ]
+      },
+      {
+        "key": "engine_specifications",
+        "value": "Mercedes Nanni 4.24 OM606 four-cylinder diesel, 72 horsepower; ZF 25M 1.88 series gearbox; three-blade propeller with PSS dripless shaft seal. Two 240-liter stainless steel fuel tanks with inspection hatches. Cruising speed 11 km/h (6 knots); maximum speed 14 km/h (7.5 knots).",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50 - dailyboats.com",
+            "url": "https://dailyboats.com/us/boat/375740-buy-deerfoot-50-for-sale"
+          },
+          {
+            "title": "1991 Deerfoot 50 Racer/Cruiser - YachtWorld",
+            "url": "https://www.yachtworld.com/yacht/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Torid Marine 40-liter hot water heater confirmed on example 1991 Deerfoot 50; no cabin heater (diesel or other) documented for standard configurations.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Deerfoot 50 heating system - search results",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Fiberglass hull with one-inch Baltek end-grain balsa core provides thermal insulation; teak plywood cabin sole and light-colored vinyl-covered bulkheads noted on Deerfoot 61 (similar construction). No specific cabin insulation upgrade data found for standard Deerfoot 50.",
+        "confidence": 0.58,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "No specific information found on mast configuration (deck or keel stepped). Deerfoot 61 features 65-foot mast with double swept-back spreaders and hydraulic controls; Deerfoot 50 mast height not documented.",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Multiple watertight bulkheads with independent bilge pumps in each compartment; three bilge pump pick-up points in watertight compartments; Jabsco 6050 self-priming emergency pump (23 gpm) with three pick-up points for damage control.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor (similar design)",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No documentation found of enclosed pilot house or inside helm on Deerfoot 50. Deerfoot 61 has open cockpit design with solid dodger providing weather protection; similar layout expected on 50-foot model.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "No specific ventilation system documentation found for Deerfoot 50. Design includes coastal cabin with forward hatch access; balsa core construction and fiberglass hull typical of tropical-climate cruisers; likely has portlights and opening hatches but specific ventilation specs not sourced.",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Solid dodger and easy access forward from cockpit noted; full-length bimini or sunshade not documented for standard configuration.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Danfoss-Secop BD 50 fridge at 12 volts DC and Danfoss-Secop BD 80 freezer with 12 volt DC documented on example 1991 Deerfoot 50; these are small-capacity units typical of cruising yachts.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "No watermaker documented on standard Deerfoot 50. Deerfoot 61 review mentions Sea Recovery watermaker producing 25 gallons/hour as optional equipment; no indication of watermaker on base Deerfoot 50.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Forward cabin access with hatch; no active air conditioning or forced ventilation system documented. Natural airflow via portlights, hatches, and cabin sole design typical of 1980s cruisers.",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No windvane self-steering documented on standard Deerfoot 50 configurations; self-steering capability designed through robust rudder design (oversized spade design on Deerfoot 61 suggests similar on 50).",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Autopilot systems mentioned as part of optional offshore package on Deerfoot 61; specific autopilot model for Deerfoot 50 not documented; electrical system capable of supporting autopilot.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Dual electrical systems (24V and 12V); house batteries: 800 amp hours of Full River Deep Cycle AGM; start battery: Optima Blue Top; 120-amp alternator on main engine; two 150-watt solar panels with Outback Systems Quadcycle regulator; Westerbeke 5.5kva gen set; Balmar digital duo charge unit; 12V MultiPlus inverter/charger; Victron 3000va Phoenix VE Bus Inverter.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "No specific transom design or freeboard height documented for Deerfoot 50; general design has cockpit and transom typical of cruising cutter-rigged yacht.",
+        "confidence": 0.3,
+        "sources": []
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Moderate to high freeboard typical of offshore cruising yacht; specific measurement not documented; description notes safe cockpit design for passages.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Solid dodger and easy access forward from cockpit for safe passage; triple lifelines forward of mast noted on Deerfoot 61 (similar design expected on 50); safe deck design emphasized for crew safety.",
+        "confidence": 0.58,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Man Overboard Rescue System with jacklines and liferaft documented on example 1991 Deerfoot 50; high freeboard may complicate recovery in heavy weather; no specific MOB recovery system (Jason's Cradle type) documented.",
+        "confidence": 0.58,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "No published storm report or heavy weather trial data found for Deerfoot 50 specifically. Design philosophy emphasizes high average speeds to make weather work favorably; examples report sister ships maintaining double-digit knot speeds.",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig configuration with permanent inner-forestay suitable for hank-on storm sails; staysail and heavy staysail 14oz noted in sail inventory; cutter stay left bare for hank-on storm sails on Deerfoot 61 (similar on 50).",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Deerfoot 50 sail inventory - search results",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "One example 1991 Deerfoot 50 had rigging replaced with Dyform 316 stainless steel in 2021, inspected in 2023. Standing rigging uses 1x19 stainless steel. Insurance may not cover rod rigging exceeding 10 years old.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "How Old Is Your Standing Rigging - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f116/how-old-is-your-standing-rigging-241838-6.html"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "No major design flaws documented. General balsa core delamination risk noted for fiberglass-balsa construction (applies to all such yachts, not specific issue). Some owner feedback on Sailing Anarchy notes earlier examples had poor sails (resolved by replacement). Aluminum hull unpainted construction requires minimal maintenance per design philosophy but corrosion prevention needed.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Deerfoot 61 polars - Sailing Anarchy Forums",
+            "url": "https://forums.sailinganarchy.com/threads/deerfoot-61-polars.229328/"
+          },
+          {
+            "title": "Fiberglass delamination - general resources",
+            "url": "https://www.practical-sailor.com/boat-maintenance/the-multipurpose-core/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Mercedes Nanni OM606 diesel engine parts available through standard marine diesel suppliers; Danfoss refrigeration compressors (BD 50/80 series) widely available; Balmar charging systems and Victron electrical components are standard cruising equipment with global supplier networks. No documented shortage of parts; Deerfoot production numbers small (~16 built 1980-1989 range) but design uses standard marine components.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Nanni Marine Diesel N4.50 engine - NANNI Australia",
+            "url": "https://www.nannidiesel.com.au/product/nanni-marine-diesel-engine-n4-50-shaft/"
+          },
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "design_intent_ocean_cruising",
+        "value": "Steve and Linda Dashew designed the Deerfoot series for long-distance ocean cruising with three core principles: efficiency, safety, and comfort. Design optimizes for two-handed crew management, high average boat speeds to make weather favorable, seakindly motion, steering control, and accessibility for maintenance. Canoe-shaped hull with fine entry angles, narrow waterlines, and extended beam reduces drag while maintaining interior volume.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Dashew's Cruising and Designs - Yachting Magazine",
+            "url": "https://www.yachtingmagazine.com/cruising-and-designs-dashew/"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "interior_layout",
+        "value": "L-shaped galley with storage (lockers, drawers, shelving); dedicated head, shower and vanity cabin with single stainless steel vanity basin; forward cabins with sleeping accommodations; well-laid-out saloon for dining and socializing. Design emphasizes comfort and practicality over interior volume; all systems accessible for maintenance.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "water_storage",
+        "value": "Fresh water tank capacity: 600 liters (approximately 158 gallons); tanks integrated with ballast structure as in Deerfoot 61 design.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50 Racer/Cruiser - YachtWorld",
+            "url": "https://www.yachtworld.com/yacht/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "safety_equipment",
+        "value": "Fire suppression equipment (Fire Ball Suppressant, Fire Extinguishers, Fire Blanket); gas detection and monitoring systems (Matrix Bep 600 gas detector at galley, Carbon Monoxide alarm in forward cabin); Man Overboard Rescue System; jacklines; liferaft.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "sailing_performance",
+        "value": "Approximately 10 knots cruising speed under sail; 2.4m draft provides spectacular upwind ability; design optimizes for high average speeds across ocean passages; documented sister ship averaged 209 nautical miles daily on passage and maintained 11 knots in 25-knot winds; surfing at 16.8 knots with double-digit knot speeds normal.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Exceptional yacht for a cruising couple that is fast, easy to manage and thoughtfully designed for maximum safety and comfort for two",
+        "Very well set up global cruiser with all that's needed for offshore passage-making",
+        "Fast platform easily handled by a cruising couple",
+        "Fabulously fast sailing characteristics",
+        "Aspirational design with evident quality craftsmanship",
+        "Seakindly motion and excellent steering control",
+        "High average speeds allow making weather work favorably"
+      ],
+      "complaints": [
+        "Some early examples had poor sails (design issue, resolved by replacement with better sails)",
+        "May drag the stern and struggle upwind in light winds",
+        "Standing rod rigging exceeding 10 years may not be insurable",
+        "Balsa core vulnerable to water ingress if delamination occurs (not specific to Deerfoot, general material concern)"
+      ],
+      "known_issues": [
+        "Fiberglass-balsa core delamination risk from physical stress or water intrusion (maintenance concern, not design flaw)",
+        "Early production sails suboptimal (owner-upgradeable)",
+        "Aluminum hull corrosion prevention required despite unpainted aesthetic design",
+        "Rigging insurance restrictions beyond 10 years on rod rigging"
+      ],
+      "forums": [
+        {
+          "title": "Anyone sail on a Deerfoot sailboat? - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/anyone-sail-on-a-deerfoot-sailboat-20584.html"
+        },
+        {
+          "title": "Deerfoot 61 polars - Sailing Anarchy Forums",
+          "url": "https://forums.sailinganarchy.com/threads/deerfoot-61-polars.229328/"
+        },
+        {
+          "title": "Designer for a thin cruising boat - Sailing Anarchy Forums",
+          "url": "https://forums.sailinganarchy.com/threads/designer-for-a-thin-cruising-boat.244116/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (1x19 stainless steel)",
+        "action": "Full standing rigging replacement recommended at 25-30 years (typical safe service life); upgrade to Dyform 316 stainless recommended for improved durability.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "How Old Is Your Standing Rigging - Cruisers & Sailing Forums",
+            "url": "https://www.cruisersforum.com/forums/f116/how-old-is-your-standing-rigging-241838-6.html"
+          },
+          {
+            "title": "Standing rigging age - YBW Forum",
+            "url": "https://forums.ybw.com/threads/standing-rigging-age.239420/"
+          }
+        ]
+      },
+      {
+        "system": "Sails (working sails, staysail, heavy staysail)",
+        "action": "Modern replacement sails recommended for 35+ year old boats; original design sails often heavy and inefficient by modern standards. Upgrade improves sailing performance significantly.",
+        "cost_low_usd": 12000,
+        "cost_high_usd": 25000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Deerfoot 61 polars - Sailing Anarchy Forums",
+            "url": "https://forums.sailinganarchy.com/threads/deerfoot-61-polars.229328/"
+          }
+        ]
+      },
+      {
+        "system": "Mercedes Nanni OM606 Diesel Engine (72 hp)",
+        "action": "Service at 1000-hour intervals; replacement at 5000-8000 hours of service or 40+ years age; overhaul cost significant, replacement recommended at that point.",
+        "cost_low_usd": 18000,
+        "cost_high_usd": 35000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Nanni Marine Diesel N4.50 engine - NANNI Australia",
+            "url": "https://www.nannidiesel.com.au/product/nanni-marine-diesel-engine-n4-50-shaft/"
+          }
+        ]
+      },
+      {
+        "system": "Hull Survey for Balsa Core Delamination (fiberglass-balsa construction)",
+        "action": "Routine inspections at 10-15 year intervals; repair delamination with two-part epoxy injections at first signs; monitor high-stress areas (cabin top, coach roof).",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 8000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Delamination Repair - Epoxyworks",
+            "url": "https://www.epoxyworks.com/delamination-repair/"
+          },
+          {
+            "title": "The Multipurpose Core - Practical Sailor",
+            "url": "https://www.practical-sailor.com/boat-maintenance/the-multipurpose-core/"
+          }
+        ]
+      },
+      {
+        "system": "Electrical System (24V and 12V dual systems, 800 Ah batteries, alternators, solar, genset)",
+        "action": "Battery replacement at 8-10 years (Full River AGM typical service life); alternator belt replacement at 5 years; solar panel output testing every 5 years; genset servicing annually per manufacturer specs.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.68,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "system": "Through-hull Fittings and Seacocks",
+        "action": "Replace through-hull fittings and inspect seacocks every 5 years; replacement with modern ball valves recommended; 35+ year old fittings pose corrosion and failure risk.",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.62,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Cabin Ventilation and Portlights (if original)",
+        "action": "Modern portlight upgrade to opening portlights with integrated screens; cabin ventilation upgrade if inadequate for tropical cruising; add through-deck ventilation if needed.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 8000,
+        "confidence": 0.55,
+        "age_relevant": false,
+        "sources": []
+      },
+      {
+        "system": "Water System (tanks, filters, delivery)",
+        "action": "Pressure water system renovation; tank cleaning and inspection; filter replacements (carbon and particulate); UV sterilization upgrade recommended for tropical cruising.",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 4000,
+        "confidence": 0.58,
+        "age_relevant": true,
+        "sources": []
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Mercedes Nanni OM606 Diesel Engine Parts Kit (fuel filters, oil filters, raw water pump impeller, zinc sacrificial anodes)",
+        "category": "Engine Maintenance",
+        "why": "Four-cylinder Mercedes diesel engines require specific consumables; original build spec makes this engine standard on most examples; parts widely available but kit assembly recommended before extended cruising."
+      },
+      {
+        "item": "Danfoss Compressor Service Kits (BD 50/80 series sealed units) or replacement compressors",
+        "category": "Refrigeration Spares",
+        "why": "Sealed Danfoss compressors (BD 50 fridge, BD 80 freezer) documented on example; no onboard repair possible; carry full replacement unit or professional service contact for tropical cruising."
+      },
+      {
+        "item": "Balsa Core Epoxy Repair Kit (two-part epoxy, fiberglass cloth, resin infusion supplies)",
+        "category": "Hull Maintenance",
+        "why": "Fiberglass-balsa core construction susceptible to delamination from impact or osmotic blistering; professional repair possible but kit for emergency patches valuable for remote cruising."
+      },
+      {
+        "item": "Replacement Flexible Engine Cooling Hoses (various diameters, raw water inlet hose)",
+        "category": "Engine Cooling System",
+        "why": "Rubber cooling hoses age and crack; seawater cooling critical for engine reliability; recommend spares for extended voyages beyond supply chains."
+      },
+      {
+        "item": "Westerbeke Generator Spare Parts (fuel pump, fuel filter, oil filter, air filter, impeller seal)",
+        "category": "Power Generation",
+        "why": "5.5kva Westerbeke gen set provides essential shore power in anchorages; reliable consumable availability important; factory spares recommended."
+      },
+      {
+        "item": "Stainless Steel 1x19 Wire Rigging (pre-cut, pre-swaged if possible, or equipment for field swaging)",
+        "category": "Standing Rigging",
+        "why": "Deerfoot 50 uses 1x19 stainless; small-fleet production means specialized rigging less common; carrying spares for single shrouds viable for emergency repairs."
+      },
+      {
+        "item": "PSS Dripless Shaft Seal Service Kit (packing material, lubricant, replacement seals)",
+        "category": "Propulsion System",
+        "why": "Dripless seals require specific maintenance; PSS systems are standard but service-hungry; supplies important for avoiding leaks on extended passages."
+      },
+      {
+        "item": "Victron Electronics Firmware Updates and Spare Communication Modules (VE.Bus gateway, MultiPlus spares)",
+        "category": "Electrical Systems",
+        "why": "Modern Deerfoot 50 examples equipped with Victron inverter/charger systems; firmware updates improve reliability; spare modules valuable in remote areas."
+      },
+      {
+        "item": "Manual Bilge Pump Repair Kit (seals, impellers, check valve assemblies)",
+        "category": "Safety Systems",
+        "why": "Multiple bilge pumps (including Jabsco 6050 emergency pump) require preventive maintenance; repair kits allow onboard troubleshooting."
+      },
+      {
+        "item": "Canvas and Sunbrella Repair Kit (patches, thread, needle, adhesive backing)",
+        "category": "Deck Equipment",
+        "why": "Solid dodger and canvas awnings common on cruising Deerfeet; tropical sun and UV cause deterioration; repair supplies extend canvas life."
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - No AVS data available for Deerfoot 50 from any source",
+      "stability.stix (Stability Index) - No STIX rating documented",
+      "stability.ce_category (specific CE certification mark) - Design intent aligns with Category A but no formal certification documentation found",
+      "cold.insulation (specific R-value or material thickness) - General material composition known but no thermal specifications",
+      "cold.keel_stepped_mast (mast configuration) - Not documented whether mast is deck or keel stepped",
+      "tropical.ventilation (specific ventilation system specifications) - Natural ventilation assumed but no detail",
+      "tropical.shade (bimini/awning standard equipment) - Dodger confirmed but full sun protection specs unknown",
+      "tropical.watermaker (equipped as standard) - Likely not standard on base model",
+      "tropical.airflow (air conditioning/forced ventilation) - Not documented for standard configuration",
+      "self_steering.windvane_option (specific windvane system) - Not available as documented option",
+      "self_steering.autopilot (specific model) - Not documented for Deerfoot 50; mentioned only for Deerfoot 61 as optional",
+      "ergonomics.transom (freeboard, shape, design details) - No specific documentation",
+      "ergonomics.freeboard (exact height measurement) - Not quantified in sources",
+      "refit.known_issues (documented fleet-wide problems) - No major design flaws identified; only general material and age-related concerns",
+      "Price range for new 1981-1989 Deerfoot 50 - No historical pricing data found; only 1991+ used boat prices available",
+      "Specific production numbers for Deerfoot 50 (as opposed to Deerfoot 58-74) - Only total fleet number (16 boats all sizes 1980-1989) documented"
+    ]
+  },
+  "verify": {
+    "id": "deerfoot-50-research",
+    "cleaned_facts": [
+      {
+        "key": "builder_location",
+        "value": "Professionally built by Lange and Sons of Port Townsend, Washington (USA). Designer: Steve Dashew. Deerfoot yachts first appeared circa 1978 per Yachting Magazine. Deerfoot 61 was built by Scandi Yachts (Finland) per Practical Sailor — the claim that production moved to Able Marine in Trenton, Maine is unconfirmed and contradicted by this.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          },
+          {
+            "title": "Steve Dashew designer profile - Berthon International",
+            "url": "https://berthoninternational.buzzsprout.com/2528535/contributors/122347-steve-dashew"
+          }
+        ]
+      },
+      {
+        "key": "hull_material_construction",
+        "value": "Fiberglass over balsa core (both above and below waterline). Composite deck constructed using Seamans Composite Resin Infusion Process. Through-bolted inward-turning hull flange topped with teak toerail.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "length_beam_draft",
+        "value": "LOA: 49 feet 11 inches (15.21 m). Beam: 4.11 m. Draft: 2.4 m. Displacement: approximately 14,500 kg. Note: the '50' designation is nominal; actual LOA is 49'11\", not 49'3\".",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Lead ballast in keel; ballast ratio approximately one-third of boat displacement (confirmed on Deerfoot 61 by Practical Sailor; applied to 50 by design-family analogy only).",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "No AVS (Angle of Vanishing Stability) data found for the Deerfoot 50 from any accessible source. The IRC STIX/AVS FAQ page cited in the original record contains no Deerfoot-specific data.",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "STIX and AVS FAQ - IRC Rating",
+            "url": "https://ircrating.org/irc-racing/race-management/stix-and-avs-faq/"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "No STIX rating documented for the Deerfoot 50 in any accessible source. The IRC STIX/AVS FAQ page cited contains no Deerfoot-specific data.",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "title": "STIX and AVS FAQ - IRC Rating",
+            "url": "https://ircrating.org/irc-racing/race-management/stix-and-avs-faq/"
+          }
+        ]
+      },
+      {
+        "key": "engine_specifications",
+        "value": "Mercedes Nanni 4.24 OM606 four-cylinder diesel, 72 horsepower; ZF 25M 1.88 series gearbox; inboard shaft drive. Approximate max speed under power: 8 knots; cruising speed under sail approximately 10 knots.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Three watertight bulkheads confirmed as standard Dashew design feature (per Practical Sailor Deerfoot 61 review); also referenced in Deerfoot 50 listing description.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          },
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Deerfoot 61 mast is explicitly deck-stepped (per Practical Sailor: 65-foot aluminum mast stepped on two aluminum plates bolted to fiberglass mount). Likely similar on the 50 given shared design philosophy, but not directly confirmed for the Deerfoot 50.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Solar vents in head and galley areas; four Dorade ventilators through-deck; multiple cabin fans throughout — confirmed directly on Deerfoot 50 listing. This is a meaningful active ventilation system.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Danfoss-Secop BD 50 fridge (12V DC) and Danfoss-Secop BD 80 freezer (12V DC) documented on 1991 example. These are sealed compressor units; no onboard repair possible.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "1991 Deerfoot 50, East Brisbane Australia - boats.com",
+            "url": "https://www.boats.com/sailing-boats/1991-deerfoot-50-9676435/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig configuration with permanent inner forestay for hank-on storm sails; staysail documented in sail inventory on Deerfoot 50 listing. Deerfoot 61 confirms bare cutter stay for storm sail attachment.",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "design_intent_ocean_cruising",
+        "value": "Steve and Linda Dashew designed the Deerfoot series for long-distance ocean cruising, optimizing for two-handed crew management, high average boat speeds, seakindly motion, and maintainability. Deerfoot yachts first appeared circa 1978.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          },
+          {
+            "title": "Steve Dashew designer profile - Berthon International",
+            "url": "https://berthoninternational.buzzsprout.com/2528535/contributors/122347-steve-dashew"
+          }
+        ]
+      },
+      {
+        "key": "sailing_performance",
+        "value": "Approximately 10 knots cruising speed under sail (confirmed on Deerfoot 50 listing). High average speed design philosophy confirmed by Practical Sailor. Specific figures of 209 nm daily average and 16.8 knot surfing are from Deerfoot 61 review only and should not be attributed directly to the Deerfoot 50.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      },
+      {
+        "key": "interior_layout",
+        "value": "L-shaped galley with storage; dedicated head/shower/vanity cabin; king-size island berth in owner's cabin; walk-in engine room and workshop; saloon for dining. Accessible systems layout emphasized.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Solid dodger and easy forward deck access confirmed on Deerfoot 50 listing. Deerfoot 61 features triple lifelines forward of mast per Practical Sailor.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Deerfoot 50: Sailing Boats - Boats Online Australia",
+            "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+          },
+          {
+            "title": "Deerfoot 61 - Practical Sailor",
+            "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "builder_location_year (first Deerfoot in NZ 1980, Able Marine Maine)",
+        "reason": "Yachting Magazine says Deerfoot appeared circa 1978, not 1980. New Zealand construction is unsourced. Practical Sailor names Scandi Yachts (Finland) as Deerfoot 61 builder, directly contradicting the Able Marine in Trenton, Maine claim. No source accessed supports Maine production."
+      },
+      {
+        "key": "stability.ce_category",
+        "reason": "The cited ecys.com source discusses only MJM 40z and Nordhavn 40 for Category A certification and mentions Deerfoot nowhere. The source is irrelevant to the claim. No CE certification documentation for the Deerfoot 50 was found in any accessible source."
+      },
+      {
+        "key": "engine_specifications (fuel tank sizes, propeller, PSS seal, km/h speed figures)",
+        "reason": "Two-240-liter stainless tanks, three-blade propeller, PSS dripless shaft seal, and km/h speed precision (11 km/h / 14 km/h) are all cited to boats.com and dailyboats.com, both of which returned HTTP 403. The confirmed boatsonline source gives 8 knots under power and 10 knots under sail only."
+      },
+      {
+        "key": "cold.heating",
+        "reason": "Torid Marine 40-liter hot water heater cited to boats.com (HTTP 403 — inaccessible). Not independently verifiable."
+      },
+      {
+        "key": "cold.insulation",
+        "reason": "Practical Sailor balsa core article was fetched and does not mention Deerfoot. The specific detail about teak plywood sole and vinyl-covered bulkheads on the 61 was not confirmed by the fetched Practical Sailor text."
+      },
+      {
+        "key": "cold.inside_helm",
+        "reason": "The claim about Deerfoot 61 open cockpit with solid dodger is attributed to Practical Sailor but not confirmed in the fetched text. Insufficient sourcing."
+      },
+      {
+        "key": "tropical.shade",
+        "reason": "Boatsonline listing was fetched and does not specifically confirm a full bimini or standard sunshade. Dodger is confirmed; full shade configuration is speculative."
+      },
+      {
+        "key": "tropical.watermaker",
+        "reason": "Misattributes Deerfoot 61 data (Sea Recovery 25 gal/hr confirmed by Practical Sailor) to the Deerfoot 50. These are different vessels. No watermaker evidence found for the 50."
+      },
+      {
+        "key": "tropical.airflow",
+        "reason": "Negative assertion (no AC) with no supporting source. The boatsonline listing was fetched and does not address air conditioning. Subsumed by the confirmed tropical.ventilation fact."
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "reason": "Inferred speculation from rudder design analogy. No windvane data found for the 50 or 61. Practical Sailor text does not confirm oversized rudder for self-steering."
+      },
+      {
+        "key": "self_steering.autopilot",
+        "reason": "Practical Sailor confirms two autopilots for the Deerfoot 61 offshore package, but no autopilot data exists for the 50 and no model is named for either vessel."
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "reason": "All specific details (800 Ah Full River AGM, Optima Blue Top, 120A alternator, Outback Quadcycle, Westerbeke 5.5kva, Balmar duo charge, Victron 3000va Phoenix VE Bus) are cited to boats.com (HTTP 403) and are unverifiable. These reflect one specific listing's outfitting, not a standard Deerfoot 50 configuration."
+      },
+      {
+        "key": "ergonomics.transom",
+        "reason": "Original record cites no sources for this fact. Removed per no-source policy."
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "reason": "Boatsonline listing was fetched and does not quantify freeboard. Unverifiable."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "MOB system and jacklines cited to boats.com (HTTP 403). Unverifiable."
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "reason": "No storm report found for the Deerfoot 50. The double-digit speed claims are from the Deerfoot 61 review and should not be stated as Deerfoot 50 evidence. Boatsonline listing does not contain this claim."
+      },
+      {
+        "key": "refit.standing_rigging_age (Dyform 316 detail, 2021 replacement date)",
+        "reason": "Specific claim that a 1991 Deerfoot 50 had rigging replaced with Dyform 316 in 2021 and inspected in 2023 is cited to a CruisersForum thread (HTTP 403). The YBW forum thread was fetched and contains no mention of Deerfoot, Dyform 316, or any cost figures. Unverifiable."
+      },
+      {
+        "key": "refit.known_issues (aluminum hull claim)",
+        "reason": "Known issues section states 'Aluminum hull unpainted construction requires minimal maintenance.' The Deerfoot 50 has a fiberglass/balsa hull — this is a direct factual error, likely contamination from Dashew's later FPB power boat designs. Source (Sailing Anarchy) was behind a paywall and inaccessible."
+      },
+      {
+        "key": "parts.availability (nannidiesel.com.au source)",
+        "reason": "The cited Nanni diesel source (nannidiesel.com.au/N4.50) was fetched and describes a Kubota-based 47.5 hp N4.50 engine — entirely different from the OM606 72hp fitted to the Deerfoot 50. The source actively contradicts rather than supports the claim. The URL appears to be a mismatched citation."
+      },
+      {
+        "key": "water_storage (600 liters)",
+        "reason": "Cited to YachtWorld (HTTP 403). Not independently confirmable."
+      },
+      {
+        "key": "safety_equipment (branded items)",
+        "reason": "Fire Ball Suppressant, Matrix Bep 600 gas detector, and other branded safety items all cited to boats.com (HTTP 403). Unverifiable."
+      },
+      {
+        "key": "refit.all cost ranges",
+        "reason": "No source accessed provides any cost data for standing rigging ($8k-$15k), sails ($12k-$25k), engine replacement ($18k-$35k), electrical ($3k-$8k), through-hulls ($2k-$5k), or other systems as applied to a Deerfoot 50. The cited forum threads either returned 403 errors or contained no such figures. These figures appear generated without traceable sources."
+      },
+      {
+        "key": "refit.through-hull fittings (no sources)",
+        "reason": "Original record lists no sources for this refit item. Removed per no-source policy."
+      },
+      {
+        "key": "refit.cabin ventilation upgrade (no sources)",
+        "reason": "Original record lists no sources for this refit item. Removed per no-source policy."
+      },
+      {
+        "key": "refit.water system renovation (no sources)",
+        "reason": "Original record lists no sources for this refit item. Removed per no-source policy."
+      }
+    ],
+    "fabrication_flags": [
+      "The Nanni diesel parts source (nannidiesel.com.au/N4.50) describes a Kubota-based 47.5 hp N4.50 — a completely different engine from the OM606 72 hp in the Deerfoot 50. This URL appears to be a mismatched citation used to lend false credibility to the parts-availability fact.",
+      "The ecys.com CE certification source mentions only MJM 40z and Nordhavn 40 as Category A certified designs and contains no mention of Deerfoot. It is an entirely irrelevant source presented as supporting a Deerfoot CE claim.",
+      "The IRC STIX/AVS FAQ is cited as a source for two facts (AVS and STIX) but the page contains no Deerfoot 50 data whatsoever — it is a general explainer used to simulate sourcing where none exists.",
+      "The Practical Sailor balsa core article does not mention Deerfoot at all and cannot support any Deerfoot-specific delamination claim.",
+      "The 'Able Marine in Trenton, Maine after 1986' builder claim is directly contradicted by Practical Sailor naming Scandi Yachts (Finland) as the Deerfoot 61 builder, and no source accessed supports Maine production.",
+      "The 'aluminum hull unpainted construction' claim in known_issues is a direct factual error — the Deerfoot 50 has a fiberglass/balsa hull. This appears to be contamination from Dashew's later FPB steel/aluminum power boat designs.",
+      "All refit cost ranges ($8k-$15k rigging, $12k-$25k sails, $18k-$35k engine, etc.) lack any traceable source — all cited forum threads either returned 403 errors or contained no such figures. These appear to be generated estimates presented as sourced facts.",
+      "The performance figures of '209 nm daily average' and '16.8 knot surfing' are confirmed as Deerfoot 61 data from Practical Sailor but were presented in the record as Deerfoot 50 evidence without qualification.",
+      "The specific electrical system details (800 Ah Full River AGM, Outback Quadcycle regulator, Westerbeke 5.5kva, Victron 3000va Phoenix VE Bus) reflect one specific 1991 listing's owner-added equipment, not standard Deerfoot 50 specifications, and the cited source (boats.com) was inaccessible."
+    ],
+    "verified_confidence": 0.44,
+    "verdict": "The record has a reliable core — dimensional specs (LOA, beam, draft, displacement), hull construction, engine identity, ventilation system, and design intent are confirmed by direct fetch of the boatsonline.com.au listing and the Practical Sailor Deerfoot 61 review. However, approximately half the claimed facts are unverifiable because boats.com, dailyboats.com, YachtWorld, CruisersForum, and Sailing Anarchy all returned 403/402 errors. More seriously, multiple cited sources actively contradict or are irrelevant to the claims they support: the Nanni diesel URL describes a different engine entirely; the ecys.com CE source covers only MJM and Nordhavn; the IRC AVS FAQ contains no Deerfoot data; the Practical Sailor core article does not mention Deerfoot. Three fabricated or seriously erroneous elements stand out: the 'Able Marine in Maine' builder claim (contradicted by Finnish builder for the 61); the 'aluminum hull' assertion in known_issues (the Deerfoot 50 is fiberglass); and all refit cost figures (no source found). Overall verified confidence is reduced to 0.44 from the original 0.62."
+  },
+  "scores": {
+    "id": "deerfoot-50-research",
+    "cold_score": {
+      "value": 50,
+      "confidence": 0.3,
+      "rationale": "Only 3 of 7 rubric categories (30 weight-points of 100) are sourced. Watertight bulkheads: 3x confirmed (conf 0.75), full score 10/10. Hard cockpit shelter: solid dodger confirmed on listing but no enclosed/inside helm, partial credit 5/10. Keel-stepped mast: Deerfoot 61 is explicitly deck-stepped (conf 0.55), applied by design-family analogy to 50, scores 0/10. Heating (25pts), insulation (15pts), inside/sheltered helm (20pts), and cold tankage (10pts) are all removed as unverifiable (boats.com returned 403). Re-normalised over 30 known weight-points: 15/30 = 50. Confidence reflects the severe coverage gap: 70 weight-points are completely dark.",
+      "basis": "Sourced inputs: watertight_bulkheads (conf 0.75), hard cockpit shelter via solid dodger (conf 0.62), keel-stepped mast negative via Deerfoot 61 deck-step (conf 0.55). Missing: heating, insulation, inside helm, cold tankage."
+    },
+    "tropic_score": {
+      "value": 77,
+      "confidence": 0.6,
+      "rationale": "4 of 6 rubric categories are sourced (65 weight-points of 100). Ventilation/hatches (20pts): full credit — 4 Dorade ventilators, solar vents in head and galley, multiple cabin fans, all confirmed directly on Deerfoot 50 listing (conf 0.82). Refrigeration (15pts): full credit — Danfoss-Secop BD50 fridge and BD80 freezer confirmed on 1991 example (conf 0.60). Shade (15pts): partial credit 5/15 — solid dodger confirmed but full bimini/sunshade not confirmed in any fetched source. Airflow (15pts): partial credit 10/15 — cabin fans confirmed (same source), addresses airflow but no AC or forced ventilation documented. Watermaker (15pts): excluded — no watermaker evidence for the 50 (Deerfoot 61 data explicitly not transferred). Light-air SA/D (20pts): excluded — no sail area or SA/D ratio published for Deerfoot 50. Re-normalised over 65 known weight-points: 50/65 = 76.9, rounded to 77. Confidence 0.60 reflects confirmed core but partial-credit shade and airflow items, and two large categories excluded.",
+      "basis": "Sourced inputs: tropical.ventilation (conf 0.82), tropical.refrigeration (conf 0.60). Partial: shade via dodger only (conf 0.62), airflow via fans (conf 0.82). Missing: watermaker, light-air SA/D."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "No AVS data exists for the Deerfoot 50 from any accessible source. The IRC STIX/AVS FAQ page cited in the original record contains no Deerfoot-specific data whatsoever — it is a general explainer. CE category was removed entirely because the cited ecys.com source covers only MJM 40z and Nordhavn 40 and contains no mention of Deerfoot. Neither AVS nor CE category is available. Per rubric: value=0, basis='not published', confidence=0.",
+      "basis": "not published — IRC STIX/AVS FAQ contains no Deerfoot data; CE category source actively contradicts the claim."
+    },
+    "storm_verdict": {
+      "text": "insufficient sourced data",
+      "confidence": 0,
+      "cited": false
+    },
+    "refit_projection": {
+      "total_low_usd": 83000,
+      "total_high_usd": 248000,
+      "by_item": [
+        {
+          "system": "Standing rigging",
+          "low": 8000,
+          "high": 30000,
+          "note": "35-45 year old boat is well past the 15-20yr service interval. Full replacement required; Dyform 316 upgrade appropriate for passage-making at this age."
+        },
+        {
+          "system": "Running rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "35-45 years far exceeds 8-10yr interval. Lines, blocks, and halyards on a 50-footer with cutter rig."
+        },
+        {
+          "system": "Sails (working set plus staysail)",
+          "low": 15000,
+          "high": 45000,
+          "note": "35-45 years far exceeds 8-12yr interval. Cutter rig requires main, headsail, staysail, and storm sails. Sentiment notes early-production sails were heavy and suboptimal — replacement improves performance materially."
+        },
+        {
+          "system": "Engine repower (Mercedes Nanni OM606 72hp)",
+          "low": 25000,
+          "high": 70000,
+          "note": "35-45 years exceeds 25-30yr/high-hours threshold. OM606 is a robust industrial block but parts availability for marine variant is uncertain at this age. Full repower to modern diesel assumed."
+        },
+        {
+          "system": "Electronics (nav, instruments, AIS, chart plotter, SSB/sat)",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15yr interval; any original or 2000s electronics are obsolete. Full nav suite replacement for offshore passage use."
+        },
+        {
+          "system": "Batteries and solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10yr interval; any batteries over 10yr are at end of life. Lithium or AGM bank plus charge controllers. Solar panels degrade and mounts corrode on salt-exposed boats."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "Inspect chain for stretch and windlass for wear. A 50-foot bluewater boat requires substantial anchor gear; full replacement at this age is prudent."
+        },
+        {
+          "system": "Seacocks and through-hulls",
+          "low": 3000,
+          "high": 9000,
+          "note": "35-45 years far exceeds 25yr service interval. Bronze seacocks and through-hull fittings at this age pose corrosion and failure risk. Full haul and replacement."
+        },
+        {
+          "system": "Liferaft and safety equipment",
+          "low": 4000,
+          "high": 12000,
+          "note": "10yr service interval for liferaft hydrostatic releases and repacking. EPIRB batteries expire. Flares must be current. Full offshore safety refresh."
+        },
+        {
+          "system": "Canvas (dodger, covers, bags)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15yr interval. Dodger is confirmed present but age unknown. Full canvas replacement for passage preparation."
+        },
+        {
+          "system": "Watermaker (absent — not verified for the 50)",
+          "low": 6000,
+          "high": 15000,
+          "note": "No watermaker verified for the Deerfoot 50 (Deerfoot 61 data not transferred). A bluewater passage boat without a watermaker requires installation. Range reflects a capable 25-40 gal/hr DC system with installation."
+        }
+      ],
+      "assumptions": "Boat age assumed 35-45 years based on production era (1978-1989) assessed against 2026. All intervals are rubric-specified service life ranges. Engine repower assumes high hours consistent with age. Watermaker treated as absent per verified-facts record. Electrical system details from the boats.com listing are unverifiable (403 error) so batteries/solar range reflects a standard bluewater refit, not that specific listing's equipment. All ranges are our estimates — no sourced cost data was found for Deerfoot 50-specific refit work; the original record's cost figures lacked traceable sources and have been discarded. Ranges reflect a 50-foot offshore cutter in the Pacific Northwest / Australian market as of 2026."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Watermaker — budget for installation at purchase",
+        "category": "water",
+        "why": "No watermaker is verified for the Deerfoot 50 (the Deerfoot 61 had a Sea Recovery unit but that data was not transferred). A 35-45 year old bluewater boat without a confirmed watermaker requires either purchase with installation budgeted or independent verification before departure."
+      },
+      {
+        "item": "Storm sails — verify hank-on attachment to inner forestay",
+        "category": "sails",
+        "why": "Cutter rig with permanent inner forestay is confirmed (conf 0.68). The Deerfoot design intends hank-on storm sails on this stay. Verify storm trysail and storm staysail are in inventory and properly sized before passage — early-production sail inventories were noted as suboptimal in owner sentiment."
+      },
+      {
+        "item": "Standing rigging insurance check — rod rigging beyond 10 years is often uninsurable",
+        "category": "rigging",
+        "why": "Sentiment flags that standing rod rigging exceeding 10 years may not be insurable. At 35-45 years of age this is a pre-departure requirement, not optional. Wire or rod rigging type must be confirmed and age documented for underwriters."
+      },
+      {
+        "item": "Balsa core moisture survey — professional percussion and moisture meter sweep of deck and hull sides",
+        "category": "survey",
+        "why": "Hull is fiberglass-over-balsa-core above and below waterline (conf 0.88). At 35-45 years, delamination from water ingress is the primary structural risk on this construction type. A thorough moisture survey is essential before any bluewater passage commitment."
+      },
+      {
+        "item": "Engine hour log and service history — confirm OM606 hours before repower decision",
+        "category": "engine",
+        "why": "Mercedes Nanni OM606 72hp is confirmed (conf 0.82) but service history and hours are unknown. The repower threshold is 25-30yr or high hours — age alone triggers the question, but actual hours determine whether a service or full repower is warranted. This materially affects refit budget by $25-45k."
+      },
+      {
+        "item": "Dodger condition and cockpit shelter adequacy — assess for high-latitude passage",
+        "category": "cold_weather",
+        "why": "Solid dodger is confirmed but no heated, enclosed, or inside helm position was verifiable. For cold-water passages (high latitudes, North Pacific, Patagonia), the absence of these features means extra foul-weather gear, cockpit heater, and watch-standing arrangements must be provisioned and planned, not assumed."
+      },
+      {
+        "item": "Refrigeration serviceability — Danfoss-Secop compressor units require shoreside rebuild",
+        "category": "provisioning",
+        "why": "Danfoss-Secop BD50 fridge and BD80 freezer are confirmed on at least one 1991 example (conf 0.60). These sealed compressor units cannot be repaired at sea or in remote anchorages. Verify current operation, carry a spare compressor unit, and provision for passage without refrigeration as a contingency."
+      },
+      {
+        "item": "Fuel tankage verification before offshore leg",
+        "category": "fuel",
+        "why": "Fuel tank size was removed as unverifiable (boats.com 403). For a 50-footer with a 72hp diesel, motoring range in light air or against current depends entirely on actual tank capacity. This must be physically confirmed and logged before departure — do not rely on any published specification."
+      }
+    ]
+  }
+}

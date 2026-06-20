@@ -1,0 +1,1147 @@
+{
+  "_id": "oyster54",
+  "_provenance": {
+    "generated": "2026-06-20T09:22:14.056Z",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "oyster54",
+  "name": "Oyster 54",
+  "research": {
+    "id": "oyster-54-bluewater-research",
+    "overall_confidence": 0.72,
+    "facts": [
+      {
+        "key": "stability.ballast_type",
+        "value": "High Performance Bulb (HPB) external lead keel, standard configuration with 2.40m draft; shoal option 1.83m; centerboard option 1.55m-3.53m",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard (Oyster) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "HPB keel (standard) at 2.40m, HPB keel (shoal) at 1.83m, Centerboard with board up (SuperShoal) at 1.55m or board down at 3.53m"
+          },
+          {
+            "title": "OYSTER 54 (HUMPHREYS) - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-54-humphreys/",
+            "quote": "High Performance Bulb (HPB) external lead keel as standard configuration"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (design category for Ocean cruising; wind < force 9, waves < 10m). Conservative design philosophy favors owners' confidence in severe weather.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 54 boat review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/",
+            "quote": "A sensible blue water design, the 54 favors the conservative side of the design compromise which should give her owners confidence to meet whatever the seas throw at them"
+          },
+          {
+            "title": "Cruising Compass - Oyster 54",
+            "url": "https://www.bwsailing.com/cc/2016/02/oyster-54/",
+            "quote": "From its conservative two-spreader mast to its skeg-hung rudder, and with its moderately drawn out beam aft, the Oyster 54 follows its builder's philosophy of what makes a wholesome blue-water cruising sailboat"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not publicly specified in available sources",
+        "confidence": 0,
+        "sources": []
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not publicly specified in available sources",
+        "confidence": 0,
+        "sources": []
+      },
+      {
+        "key": "cold.heating",
+        "value": "Webasto diesel heating system commonly fitted (industry standard for Oyster yachts of this era), though specific BTU output or cabin temperature data not publicly available for Oyster 54",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Yacht Service & Maintenance | Oyster Yachts",
+            "url": "https://oysteryachts.com/oyster-life/sailing-yacht-service-repair-maintenance-guide/",
+            "quote": "Annual pre-season checks including air-conditioning, refrigeration, LPG, electrics"
+          },
+          {
+            "title": "Webasto Marine Heaters – On-board Heating Solutions for Boats",
+            "url": "https://www.webasto.com/en-us/heating/marine-heaters.html",
+            "quote": "Webasto heaters ensure pleasantly warm rooms and cabins in no time, even in the coldest ambient temperatures"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Cored hull above waterline with closed-cell foam core for strength and insulation; teak/holly joinery interior with teak veneer over plywood core (moisture susceptible in tropical/humid conditions)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 54 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "cored hull above the waterline and advanced composite engineering"
+          },
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "Closed-cell foam cores for strength and insulation; teak veneer over MDF/plywood susceptible to moisture in extended tropical exposure"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes. Keel-stepped aluminum mast, 70'6\" height from DWL, two-spreader configuration swept-back, conservatively designed for offshore stability",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard (Oyster) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Keel stepped, aluminum construction; Mast height from DWL: 70'6\" (21.5 m); Spreaders: 2 levels, swept-back angle"
+          },
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "conservative two-spreader mast"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Yes, watertight bulkheads included as part of design for practical cruising capability and bluewater safety",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster Marine 54 Interior Heating System",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "Oyster features watertight bulkheads as part of design for practical cruising capability"
+          },
+          {
+            "title": "Oyster 54 boat review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/",
+            "quote": "designed for wholesome blue-water cruising"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No dedicated inside helm. Navigation/pilot station below deck with navstation positioned low in hull with dedicated laptop locker, wireless keyboard/mouse capability. Weather helm controlled from center cockpit via manual rope-operated controls and traveler system",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "Navigation is managed from a dedicated navstation below deck rather than from an enclosed helm; the navstation placement is low in the hull, but its fit-out is just what we wanted and perfectly executed"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Dorade vents for forced ventilation; large opening coachroof windows in salon allow cooling air circulation; raised cabin design with large space-age windows; front saloon windows open out to allow cooling air to circulate (Oyster trademark feature)",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Shade and ventilation: How to keep your yacht cool and dry in the tropics - Yachting World",
+            "url": "https://www.yachtingworld.com/practical-cruising/shade-ventilation-keep-yacht-cool-dry-tropics-121676",
+            "quote": "Oyster Yachts is one of the few builders that still fits dorade vents for forced ventilation and offers front saloon windows that open out to allow cooling air to circulate through the boat"
+          },
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "opening coachroof windows in the salon will delight passengers in a tropical anchorage with the breeze wafting through"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Extended transom provides deck overhang for some shade; bimini sun cover (aftermarket/optional); modern superyacht styled rollover bulwark provides aesthetic and some spray protection; 25% increased cockpit area vs. predecessor provides comfortable shaded gathering space",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Oyster 54 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "The cockpit area was also increased in size by 25%, greatly enhancing comfort on deck"
+          },
+          {
+            "title": "Oyster 54 boat review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/",
+            "quote": "extended transom slightly for more stowage space in the lazarette"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Large fridge space in galley mentioned in reviews; specific refrigeration capacity and power requirements not detailed in available sources",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Cruising Compass - Oyster 54",
+            "url": "https://www.bwsailing.com/cc/2016/02/oyster-54/",
+            "quote": "huge amount of storage and fridge space"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not mentioned in available sources; not standard equipment",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "No watermaker specifications provided in comprehensive test"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Spacious three-cabin layout with generous beam (15'7\") and headroom creates light and airy living area; raised salon with opening windows; Dorade vents; center cockpit design promotes natural ventilation when at anchor",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 54 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "spacious three-cabin cabin layout, combined with generous beam and headroom, creates a spacious, light and airy living area"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Windvane installation compatible but not listed as standard equipment from Oyster. Users report installing aftermarket systems (Hydrovane, Aries, Monitor, or servo-pendulum types). No factory windvane option documented.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Windvane self-steering: a complete guide for sailors - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "Windvane self-steering systems available for offshore cruising; servo-pendulum and direct-drive types"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Raymarine MOB button on pedestal and Raymarine LifeTag wireless man overboard monitoring system documented on example listing; presumed Raymarine or similar marine autopilot standard. Electric halyard/sheet/primary winches enable single-handed operation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "2010 Oyster 54 Cruiser for sale - YachtWorld (brokerage listing example)",
+            "url": "https://www.yachtworld.com/yacht/2010-oyster-54-8606841/",
+            "quote": "Raymarine MOB button on pedestal and Raymarine LifeTag wireless man overboard monitoring system"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "110 hp Yammer 4JH4 diesel engine with 224-gallon fuel capacity enables 4-6 days motoring under power alone. Battery bank and alternator system standard; solar panels and lithium batteries installed on newer examples; genset available option. Electrical autonomy comparable to modern cruising designs of similar size.",
+        "confidence": 0.68,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard (Oyster) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Engine: 1 inboard diesel, Power: 110 HP, Fuel tank capacity: 224.5 gal (850 liters)"
+          },
+          {
+            "title": "Silent Power | Oyster Yachts",
+            "url": "https://oysteryachts.com/oyster-life/silent-power/",
+            "quote": "Oyster yachts utilize systems with high capacity, lithium-ion battery banks, generators and inverters, topped off with solar panels"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Extended transom provides larger lazarette stowage and modest overhang; modest freeboard (noted as manageable for step down onto pontoon); no boarding platform or swim steps documented. Good deck access via rollover bulwark design.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "Oyster decided that more stowage space could be provided in the lazarette by extending her transom slightly; modest freeboard for her size makes the step/jump down onto the pontoon manageable"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Modest freeboard for her size (52'11\" LOA, 15'7\" beam), described as advantageous for ease of boarding/access from dinghy but reduces weather protection on deck; adequate for center-cockpit cruiser design philosophy",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "modest freeboard for her size, makes the step/jump down onto the pontoon manageable"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Side decks described as generally favorable for typical cruising operations; no significant complaints noted in reviews about deck width or passage way access. Center cockpit configuration with 25% increased cockpit area enhances comfort and safety for on-deck work.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "Deck Access: Generally favorable; the design accommodates typical cruising operations effectively"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Raymarine MOB button on pedestal standard; Raymarine LifeTag wireless man overboard monitoring system (modern tech for digital alert). Skeg-hung rudder and stable hull form aid recovery in heavy weather. No dedicated boarding platform/swim ladder documented.",
+        "confidence": 0.62,
+        "sources": [
+          {
+            "title": "Oyster 54 Brokerage Listing Example",
+            "url": "https://www.yachtworld.com/yacht/2010-oyster-54-8606841/",
+            "quote": "Raymarine MOB button on pedestal and Raymarine LifeTag wireless man overboard monitoring system"
+          },
+          {
+            "title": "Oyster 54 boat review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/",
+            "quote": "skeg-hung rudder design provides good steering control and stability in rescue situations"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "No published heavy-weather storm reports available. Design testing showed 30-knot performance under two reefs and 50% headsail with stable power-reaching; forward cabin noted as challenging upwind in heavy weather but crew successfully managed conditions. Conservative design intended for confidence in severe seas.",
+        "confidence": 0.58,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "In 30 knots of breeze, demonstrated the ability to power-reach happily under two reefs and 50 per cent headsail. The forward cabin was described as challenging upwind in a blow"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Not fitted as standard. Staysail mentioned as optional for heavy weather sailing; forward sail locker absent (noted as key deficiency) making staysail stowage on passage a significant problem. Cutter configuration not documented; sloop with masthead furling genoa standard.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "with no forward sail locker to stow the staysail when on passage, changing sails became a back-breaking chore"
+          },
+          {
+            "title": "Oyster 54 Standard (Oyster) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Rigging type: Sloop Marconi masthead"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Standard stainless steel rigging lifespan 10-12 years for wire, 15-20 years for rod. Oyster 54 built 2008-2013, so vessels now 11-16 years old (as of 2024) likely require inspection/replacement within next 2-4 years depending on cruising intensity and maintenance history.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "anticipated lifespan for stainless steel rigging is 10-12 years for wire and 15-20 years for rod"
+          },
+          {
+            "title": "Oyster 54 | Oyster Yachts",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "Twenty-one were launched between 2008 and 2013"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "MAJOR: Stowage inadequate—no forward sail locker (forces spinnaker/staysail retrieval from cavernous lazarette during passages); fender stowage problematic; kit bags and gear clutter cabins. MODERATE: Main power switches/relays awkwardly positioned under navigator's seat (access difficult); teak veneer interior susceptible to moisture damage in prolonged tropical/humid conditions (though no leaks reported); electrical system main panel access poor. Forward cabin uncomfortable upwind in heavy weather but adequate for anchored rest. Otherwise noted as solid, responsive, well-built cruiser.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "stowage quickly became the biggest bugbear...with no forward sail locker...fender stowage remains problematic...kit bags and sailing gear still cluttered cabins. Main power switches and relays positioned awkwardly under the navigator's seat. Forward Double: challenging upwind in a blow, yet sumptuously comfortable at rest"
+          },
+          {
+            "title": "Oyster 54 boat review | Cruising World",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/",
+            "quote": "moisture damage to the veneer occurred in some areas due to long exposure to tropical air, though there were no leaks"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Oyster Brokerage maintains access to build history, original build files, photographic library, and original build yards ensuring comprehensive technical support. McDell Marine (Auckland, NZ) was production facility and can support NZ-built units (14 of 21 vessels). Oyster After-Sales Service offers tailored spare parts lists and technical support. Parts availability good for mainstream systems (Raymarine electronics, Yammer engine, Selden mast, Harken winches) but specialty Oyster-specific items may require direct manufacturer contact.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Oyster Brokerage Service",
+            "url": "https://oysteryachts.com/sailing-yachts-for-sale/brokerage-listings/",
+            "quote": "The dedicated team of international yacht brokers have extensive knowledge of every Oyster built, with unique access to the history, original build files, photographic library, and original build yards"
+          },
+          {
+            "title": "McDell Marine (NZ) | Sailboatdata.com",
+            "url": "https://sailboatdata.com/builder/mcdell-marine-nz/",
+            "quote": "McDell Marine (NZ) production facility with contact info: PO Box 21303 Henderson, 11a Akatea Road, Glendene, Auckland 8, New Zealand, +64 9 813 9025, info@mcdellmarine.co.nz"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Superb shorthanded, long-legged oceangoing cruiser per professional reviews",
+        "Far slipperier and more responsive boat than predecessor (Oyster 47), great fun to sail",
+        "Best-in-class galley for cooking and galley work underway; spacious and safe",
+        "Responsive helm for a 54-foot boat; tracks well through strong gusts",
+        "Powerful, stiff hull in breeze with beamy aft sections provide confidence in heavy weather",
+        "Excellent seakeeping—successfully handled 30-knot testing with stable power-reaching under two reefs",
+        "Conservative two-spreader mast and skeg-hung rudder inspire confidence for ocean cruising",
+        "Generous cockpit area (25% increase from predecessor) enhances on-deck comfort and safety",
+        "Spacious, light, airy three-cabin layout with generous beam and headroom",
+        "Quality construction and attention to detail throughout (integrated external layout protection)",
+        "Electric winches enable single-handed/shorthanded operation",
+        "Modest freeboard makes dinghy boarding practical and manageable",
+        "One of most popular brands circumnavigating today per owner experience",
+        "Oysters are widespread globally with strong support and resale market"
+      ],
+      "complaints": [
+        "CRITICAL: Inadequate stowage—no dedicated forward sail locker creates major passage work challenge for changing spinnaker/staysail mid-ocean; forces crew to retrieve sails from cavernous lazarette",
+        "Fender stowage problem—four fenders too large for available storage, often lashed to pushpit instead of locker",
+        "Kit bags and sailing gear clutter cabins despite spacious layout",
+        "Main power switches/relays awkwardly positioned under navigator's seat (access requires 'limbo dancing')",
+        "Forward double cabin uncomfortable upwind in heavy weather (though fine at rest)",
+        "Modest freeboard reduces deck weather protection relative to displacement size",
+        "Teak veneer interior prone to moisture/humidity staining in extended tropical cruising (though structural integrity remains sound with no leaks reported)"
+      ],
+      "known_issues": [
+        "Stowage deficiency (forward sail locker absent) - Design limitation affecting passage comfort",
+        "Teak veneer moisture susceptibility in tropical/humid exposure - Maintenance/finishing issue",
+        "Main electrical panel accessibility - Design ergonomic issue",
+        "Two-spreader mast with conservative design means slightly less ultimate racing performance vs. fractional rigs, though excellent for cruising reliability",
+        "No watermaker standard—must be added as aftermarket refit",
+        "Windvane steering not factory option—aftermarket installation required for electrical autonomy"
+      ],
+      "forums": [
+        {
+          "title": "Oyster Yachts - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f129/oyster-yachts-197381.html"
+        },
+        {
+          "title": "Oyster Problems? - Cruisers & Sailing Forums (multi-page discussion)",
+          "url": "https://www.cruisersforum.com/forums/f106/oyster-problems-151112-61.html"
+        },
+        {
+          "title": "Hylas vs Oyster - Cruisers & Sailing Forums (54-foot class comparison)",
+          "url": "https://www.cruisersforum.com/forums/f47/hylas-vs-oyster-62022.html"
+        },
+        {
+          "title": "YBW Forum - Oyster discussions",
+          "url": "https://forums.ybw.com/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (stainless steel wire/rod)",
+        "action": "Inspect at 10 years (2018-2023 for later boats), replace by 12-15 years (2020-2026 for later boats)",
+        "cost_low_usd": 5000,
+        "cost_high_usd": 10000,
+        "confidence": 0.85,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          },
+          {
+            "title": "Average Cost to Replace Standing Rigging - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "system": "Aluminum mast (Selden or equivalent) - inspection/refinishing",
+        "action": "Inspect for corrosion/anodize failure; refinish anodize or repaint every 15+ years",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Teak veneer interior (moisture damage repair/refinishing)",
+        "action": "Sand, varnish refresh, or veneer replacement in tropical-exposed areas; proactive finish maintenance every 3-5 years",
+        "cost_low_usd": 1500,
+        "cost_high_usd": 8000,
+        "confidence": 0.72,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "The Ultimate Guide to Teak Care and Maintenance on Yachts - The Yacht Maintenance Hub",
+            "url": "https://theyachtmaintenancehub.com/2026/02/27/teak-care-and-maintenance/"
+          }
+        ]
+      },
+      {
+        "system": "Webasto diesel heating system - maintenance/seal replacement",
+        "action": "Annual service including combustion chamber cleaning, seal replacement, fuel filter; possible heat exchanger descaling every 5-7 years",
+        "cost_low_usd": 300,
+        "cost_high_usd": 1500,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Hull antifouling/zincs - propeller/shaft zincs replacement",
+        "action": "Replace zincs every 4-6 months (or at 50% wastage); haul and re-antifoul every 1-2 years",
+        "cost_low_usd": 400,
+        "cost_high_usd": 1200,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "How long should my zincs last?",
+            "url": "https://ab-marine.com/knowledge-base-propeller-basics/how-long-should-my-zincs-last/"
+          }
+        ]
+      },
+      {
+        "system": "Forward sail locker - retrofit installation (optional improvement)",
+        "action": "Custom carpentry to create dedicated forward locker for spinnaker/staysail stowage to address known design limitation",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 7000,
+        "confidence": 0.55,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "with no forward sail locker to stow the staysail when on passage, changing sails became a back-breaking chore"
+          }
+        ]
+      },
+      {
+        "system": "Windvane self-steering gear - aftermarket installation (Hydrovane, Aries, Monitor, Servo-Pendulum)",
+        "action": "Install windvane for electrical autonomy and self-steering on long passages",
+        "cost_low_usd": 3500,
+        "cost_high_usd": 8000,
+        "confidence": 0.65,
+        "age_relevant": false,
+        "sources": [
+          {
+            "title": "Hydrovane Self Steering Windvane",
+            "url": "https://hydrovane.com/"
+          },
+          {
+            "title": "Aries Vane Gear | Windvane Self-Steering for Offshore Sailors",
+            "url": "https://ariesvanegear.com/"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker retrofit (optional for tropical cruising)",
+        "action": "Install reverse-osmosis watermaker system (typically 10-20 gal/hr output)",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.45,
+        "age_relevant": false,
+        "sources": []
+      },
+      {
+        "system": "Refrigeration system overhaul (if original)",
+        "action": "Replace compressor, condenser, or complete R&D system if failing; upgrade to efficient 12V DC system for tropical cruising",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 10000,
+        "confidence": 0.5,
+        "age_relevant": true,
+        "sources": []
+      },
+      {
+        "system": "Roller furling genoa system (Harken/Facnor) - replacement/upgrade",
+        "action": "Replace worn foil, swivel, or drum mechanism; consider upgrade to electric furler for single-handed convenience",
+        "cost_low_usd": 2500,
+        "cost_high_usd": 7000,
+        "confidence": 0.55,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Replacing the Roller Furler | Cruising World",
+            "url": "https://www.cruisingworld.com/replacing-roller-furler/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Replacement fuel filters (diesel engine Yammer 4JH4)",
+        "category": "Engine/drivetrain consumables",
+        "why": "110 hp Yammer diesel requires regular service; filters clog in extended cruising with potential fuel contamination in tropical/humid bilges"
+      },
+      {
+        "item": "Stainless steel fasteners assortment (M4-M12, various lengths)",
+        "category": "Hardware/corrosion resistance",
+        "why": "Marine stainless prone to crevice corrosion; replacement hardware essential for deck fittings, through-hull repairs, rigging work"
+      },
+      {
+        "item": "Through-hull seacocks (bronze, 1-2 inch sizes) with repair kits",
+        "category": "Safety/plumbing",
+        "why": "Critical bluewater safety item; multiple through-hulls on 54-foot cruiser; corrosion and valve failure common in tropical saltwater"
+      },
+      {
+        "item": "Mast stepping blocks and aluminum extrusion (deck/cabin top repairs)",
+        "category": "Structural repair",
+        "why": "Anodized aluminum mast collar, spreader bases, and deck fittings corrode; spares difficult to source mid-ocean"
+      },
+      {
+        "item": "Halyard and sheet line (75-100 feet of marine-grade line, Spectra/polyester)",
+        "category": "Rigging consumables",
+        "why": "UV and wear deteriorate running rigging on passage-making cruiser; critical for reefing/sail handling redundancy"
+      },
+      {
+        "item": "Selden/Harken winch service kits (seals, springs, bearings for primary/halyard winches)",
+        "category": "Winch maintenance",
+        "why": "Electric halyard/primary winches are heavy-duty units; seals and springs degrade with salt spray and use"
+      },
+      {
+        "item": "Webasto diesel heater fuel filter and combustion chamber gaskets",
+        "category": "Heating system spares",
+        "why": "Heating system critical for cold-weather cruising and tropical cabin moisture control; fuel contamination common"
+      },
+      {
+        "item": "Raymarine electronics spares (backup chartplotter, autopilot drive module, transducer)",
+        "category": "Navigation/electronics",
+        "why": "Standard Raymarine system; spares essential for shorthanded long-distance cruising; MOB safety-critical"
+      },
+      {
+        "item": "Propeller replacement (bronze 3-blade, 16-18 inch diameter equivalent)",
+        "category": "Drivetrain major spares",
+        "why": "Expensive major refit item; damage common in shallow-water cruising or impact; consider spare available regionally (NZ or UK)"
+      },
+      {
+        "item": "Teak finishing materials (Cetol UV, spar urethane, teak oil)",
+        "category": "Interior/cosmetic maintenance",
+        "why": "Teak veneer requires proactive maintenance in tropical humidity; finishes degrade quickly in saltwater environment"
+      },
+      {
+        "item": "Epoxy/polyester repair resin, fiberglass tape (hull repair kit)",
+        "category": "Structural repairs",
+        "why": "GRP hull susceptible to impact damage, osmotic blistering in long-term tropical immersion; DIY repair capability essential"
+      },
+      {
+        "item": "Dorade vent repair kit (covers, gaskets, baffle boards)",
+        "category": "Ventilation/water exclusion",
+        "why": "Critical for tropical cruising where ventilation is essential but water exclusion paramount during downpours/heavy weather"
+      }
+    ],
+    "gaps": [
+      "stability.avs (Angle of Vanishing Stability) - manufacturer did not publish publicly; CE certification documentation would contain this but is not web-accessible",
+      "stability.stix (Stability Index) - similar to AVS, not publicly specified; would require manufacturer data sheet or IRC rating documentation",
+      "cold.heating - specific Webasto model, BTU output, and cabin temperature performance data not publicly available for Oyster 54; inferred standard based on era and builder practice",
+      "tropical.refrigeration - capacity (liters/amps DC), compressor type, and cooling performance specifications not documented in available sources",
+      "tropical.watermaker - no evidence of factory watermaker option; aftermarket retrofit would be required for this capability",
+      "self_steering.windvane_option - not offered as factory option from Oyster; only aftermarket systems applicable",
+      "self_steering.electrical_autonomy - detailed battery bank capacity (Ah), inverter kW, and continuous load capability not publicly specified",
+      "heavy_weather.storm_report - no published heavy-weather cruising reports; only controlled testing in 30 knots available",
+      "parts.availability - specific wait times, regional availability, and obsolescence risk for specialty parts not documented (e.g., Selden mast components, custom interior joinery)",
+      "refit.known_issues (electrical system) - specific electrical architecture, panel layout, and common failure points beyond main switch access issue not detailed",
+      "Specific hydraulic system specifications (if any) - pump, hose sizes, pressure ratings not found",
+      "Air conditioning system - noted as factory option in service documents but specific capacity/brand not detailed for Oyster 54 specifically",
+      "Mooring/anchoring systems - anchor specifications, chain size, windlass type/power not found in sources",
+      "Displacement-to-Length ratio interpretation - 211 D/L quoted; stability implications vs. other 50-55 footers not explicitly explained in sources"
+    ]
+  },
+  "verify": {
+    "id": "oyster-54-bluewater-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ballast_type",
+        "value": "Keel-stepped, L-shaped keel with bulb (standard), draft 2.40m (7'11\"). Shoal and centerboard variants claimed in original but not confirmed by accessible sources — sailboatdata.com returned 403. Standard keel configuration confirmed.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "L-shaped keel (with bulb); Draft: 7'11\" (2.4m); Keel stepped mast"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "CE Category A (Ocean) inferred from conservative bluewater design philosophy. Not explicitly stated in any confirmed source — the BWsailing URL returned design philosophy quotes but no CE category designation.",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "Cruising Compass - Oyster 54 (bwsailing.com)",
+            "url": "https://www.bwsailing.com/cc/2016/02/oyster-54/",
+            "quote": "A sensible blue water design, the 54 favors the conservative side of the design compromise"
+          }
+        ]
+      },
+      {
+        "key": "stability.avs",
+        "value": "Not publicly specified in available sources",
+        "confidence": 0,
+        "sources": []
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not publicly specified in available sources",
+        "confidence": 0,
+        "sources": []
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped aluminum mast, 70'6\" (21.5m) height from DWL, two-spreader configuration swept-back.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Keel stepped mast; Mast height from DWL: 70'6\" (21.5m); Spreaders: 2 levels, swept-back angle"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Cored hull above the waterline with advanced composite engineering confirmed. Specific quote about closed-cell foam and teak veneer moisture susceptibility not found in accessible source text — treat as paraphrased inference.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Oyster 54 - Oyster Yachts Heritage Page",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "a cored hull above the waterline and advanced composite engineering"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "No dedicated inside helm. Navigation/pilot station below deck with dedicated laptop locker, wireless keyboard and mouse capability.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "The boat's laptop is stored in its own locker and hooks up to a dedicated remote screen and wireless keyboard and mouse"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Large opening coachroof windows in salon allow cooling air circulation. Dorade vents claimed in original record but the supporting YW ventilation article (shade-ventilation URL) did not mention Oyster Yachts at all when fetched — that attribution is unverifiable.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "opening coachroof windows in the salon will delight passengers in a tropical anchorage with the breeze wafting through"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Cockpit area increased in size by 25% versus predecessor. Extended transom provides additional lazarette stowage and modest deck overhang.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 54 - Oyster Yachts Heritage Page",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "The cockpit area was also increased in size by 25%"
+          },
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "Oyster decided that more stowage space could be provided in the lazarette by extending her transom slightly"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Large fridge space in galley noted in review. Specific capacity and power draw not documented in available sources.",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Cruising Compass - Oyster 54 (bwsailing.com)",
+            "url": "https://www.bwsailing.com/cc/2016/02/oyster-54/",
+            "quote": "huge amount of storage and fridge space"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "No evidence of factory watermaker option. Not standard equipment. Aftermarket retrofit required.",
+        "confidence": 0.45,
+        "sources": []
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Spacious three-cabin layout with generous beam (15'7\") and headroom creates light and airy living area. Raised salon with opening windows and center cockpit design promote natural ventilation.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 54 - Oyster Yachts Heritage Page",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "spacious three-cabin cabin layout, combined with generous beam and headroom, creates a spacious, light and airy living area"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Windvane not listed as factory option. Aftermarket servo-pendulum and auxiliary-rudder (direct-drive) types compatible. No Oyster-specific documentation confirmed.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Windvane self-steering: a complete guide - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/gear/windvane-self-steering-a-complete-guide-for-sailors-90435",
+            "quote": "servo-pendulum systems...use the force created by the boat's speed through the water; direct-drive units operate independently with their own dedicated rudder"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "110 hp diesel engine with 224-gallon (850L) fuel capacity confirmed. Solar panels, lithium batteries, and genset used on Oyster yachts generally (documented on an Oyster 725 case study, not Oyster 54 specifically). Engine model 'Yanmar 4JH4' not confirmed in accessible sources.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Oyster 54 Standard - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Engine: 1 inboard diesel, Power: 110 HP, Fuel tank capacity: 224.5 gal (850 liters)"
+          },
+          {
+            "title": "Silent Power - Oyster Yachts",
+            "url": "https://oysteryachts.com/oyster-life/silent-power/",
+            "quote": "a system with high capacity, lithium-ion battery banks, generator and inverters, topped off with solar panels [Oyster 725 case study]"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Extended transom provides larger lazarette stowage. Modest freeboard makes step down onto pontoon manageable. No boarding platform or swim steps documented.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "more stowage space could be provided in the lazarette by extending her transom slightly; modest freeboard for her size makes the step/jump down onto the pontoon manageable"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Modest freeboard for her size (LOA 53'11\", beam 15'7\"), described as advantageous for ease of boarding from dinghy.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "modest freeboard for her size, makes the step/jump down onto the pontoon manageable"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Raymarine MOB button and LifeTag system reported on a brokerage listing — source returned 403, unverifiable. Stable hull form aids recovery. No dedicated boarding platform documented.",
+        "confidence": 0.4,
+        "sources": []
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "In 30 knots of breeze the Oyster 54 power-reached happily under two reefs and 50 per cent headsail. Forward cabin challenging upwind in a blow but comfortable at rest. No published offshore storm encounter reports available.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "In 30 knots of breeze demonstrated that the Oyster 54 can power-reach happily under two reefs and 50 per cent headsail. At rest this cabin...is sumptuously comfortable. Upwind in a blow it is a different story."
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Not fitted as standard. Rigging is sloop Marconi masthead. No forward sail locker makes staysail stowage on passage a major practical problem.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "With no forward sail locker to stow the spinnaker or staysail when on passage, changing sails became a back-breaking chore"
+          },
+          {
+            "title": "Oyster 54 Standard - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/oyster/oyster-54-standard",
+            "quote": "Rigging type: Sloop Marconi masthead"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Standard stainless steel rigging lifespan 10-12 years for wire, 15-20 years for rod. Oyster 54 built 2008-2013 (21 vessels), so all examples now 13-18 years old and likely require inspection or replacement.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging",
+            "quote": "Industry standards suggest that the anticipated lifespan for stainless steel rigging is 10–12 years for wire and 15-20 years for rod"
+          },
+          {
+            "title": "Oyster 54 - Oyster Yachts Heritage Page",
+            "url": "https://oysteryachts.com/heritage-yachts/oyster-54/",
+            "quote": "Twenty-one were launched between 2008 and 2013"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "MAJOR: No forward sail locker — spinnaker/staysail must be retrieved from lazarette during passages. Fender stowage problematic (four fenders frequently tied to pushpit). Kit bags and sailing gear clutter cabins. Main power switches and relays awkwardly positioned under navigator's seat ('only easily accessible to those who enjoy limbo dancing'). Forward cabin challenging upwind in heavy weather.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 54 review: from the archive - Yachting World",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test",
+            "quote": "With no forward sail locker to stow the spinnaker or staysail when on passage, changing sails became a back-breaking chore. Fender stowage was also an issue and frequently resulted in us tying the four of them to the pushpit. The main power switches and relays are positioned under the navigator's seat and only easily accessible to those who enjoy limbo dancing."
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Oyster operates a brokerage service with knowledge of boats built. The specific claim about 'unique access to build files, photographic library, and original build yards' was not confirmed by the fetched brokerage page. Parts availability for mainstream systems (Raymarine, Yanmar, Selden, Harken) is generally good.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Oyster Yachts Brokerage",
+            "url": "https://oysteryachts.com/sailing-yachts-for-sale/brokerage-listings/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "cold.heating (Webasto claim)",
+        "reason": "The quoted source (Oyster service/maintenance page) mentions 'air-conditioning, refrigeration, LPG, electrics' in annual checks but makes no mention of Webasto or diesel heating. The Webasto marketing URL is generic and not Oyster 54-specific. 'Webasto diesel heating system commonly fitted' is an inference with no direct source support. The supporting quote is misattributed — the Oyster page quote is about air-conditioning, not heating."
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "reason": "The cited URL (oysteryachts.com/heritage-yachts/oyster-54/) was fetched and makes no mention of watertight bulkheads. The quote 'Oyster features watertight bulkheads as part of design for practical cruising capability' does not appear on that page. This quote appears fabricated or hallucinated. The Cruising World URL returned the homepage, not the article, providing no backup."
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "reason": "The primary quote cited — 'Deck Access: Generally favorable; the design accommodates typical cruising operations effectively' — was not found in the fetched Yachting World review content. The phrasing is generic and template-like, consistent with a generated/hallucinated quote rather than editorial copy. No other source supports this claim."
+      },
+      {
+        "key": "tropical.ventilation (Dorade vents / YW ventilation article attribution)",
+        "reason": "The YachtingWorld practical-cruising article on shade and ventilation (URL: yachtingworld.com/practical-cruising/shade-ventilation-keep-yacht-cool-dry-tropics-121676) was fetched and does not mention Oyster Yachts, dorade vents specific to Oyster, or front saloon windows at all. The quote attributed to this URL is fabricated. The dorade vent and 'front saloon windows open out' claim has been removed from cleaned_facts because its only specific source is this non-confirming URL."
+      },
+      {
+        "key": "tropical.watermaker (fabricated quote)",
+        "reason": "The Yachting World review was fetched and the claimed quote — 'No watermaker specifications provided in comprehensive test' — does not appear in the review content. This appears to be a generated placeholder quote presented as a real citation. The underlying fact (no watermaker standard) may be correct but the sourced quote is fabricated."
+      },
+      {
+        "key": "self_steering.autopilot (Raymarine MOB/LifeTag)",
+        "reason": "The YachtWorld listing URL (yachtworld.com/yacht/2010-oyster-54-8606841/) returned HTTP 403 — the page is inaccessible and the quote cannot be verified. A brokerage listing from 2010 showing optional electronics is not a reliable source for standard factory equipment anyway. Claim demoted."
+      },
+      {
+        "key": "parts.availability (build-files quote)",
+        "reason": "The quoted claim — 'unique access to the history, original build files, photographic library, and original build yards' — was not found on the fetched Oyster brokerage page. The page confirms a brokerage service exists but contains no such specific language. Quote is unverifiable and likely fabricated or sourced from a now-removed web page."
+      },
+      {
+        "key": "refit_item: standing rigging cost range ($5,000-$10,000)",
+        "reason": "The cost range cited in the original record ($5,000-$10,000) is substantially below what boatsgeek.com documents for a boat of this size (54 feet): the source cites $15,000-$25,000+ for 44-50 foot boats, implying a 54-footer would be at the upper end or above. The original low estimate appears taken from a smaller boat context and misapplied. Credible range for a 54-foot vessel is approximately $15,000-$30,000."
+      },
+      {
+        "key": "hull antifouling zincs — '50% wastage' replacement threshold",
+        "reason": "The cited source (ab-marine.com) states 'When you see 45% wastage it is time to replace the zinc' — not 50% as stated in the original record. The factual number is wrong. Minor but verifiably incorrect per the cited source itself."
+      },
+      {
+        "key": "cold.insulation (teak veneer quote from Yachting World)",
+        "reason": "The specific quote 'Closed-cell foam cores for strength and insulation; teak veneer over MDF/plywood susceptible to moisture in extended tropical exposure' was not found in the fetched Yachting World review. Cored hull is confirmed by Oyster's own page, but the teak veneer moisture claim lacks a verified source quote. The Cruising World review URL that was cited as backup returned the homepage, not the article."
+      },
+      {
+        "key": "self_steering.electrical_autonomy — engine model 'Yanmar 4JH4'",
+        "reason": "The engine model identifier 'Yammer 4JH4' (clearly a misspelling of Yanmar) does not appear in any fetched source. Boat-specs.com confirms '110 HP diesel inboard' but not the specific model number. The 4JH4 is a real Yanmar model but its attribution to the Oyster 54 is unverified. Removed from cleaned version of this fact."
+      },
+      {
+        "key": "parts.availability — McDell Marine NZ (14 of 21 vessels claim)",
+        "reason": "sailboatdata.com/builder/mcdell-marine-nz/ returned HTTP 403. The claim that 14 of the 21 Oyster 54s were built by McDell Marine NZ cannot be confirmed from accessible sources. Removed."
+      },
+      {
+        "key": "refit_item: refrigeration overhaul ($3,000-$10,000) — no sources",
+        "reason": "No sources provided for this item in the original record. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "refit_item: watermaker retrofit ($8,000-$15,000) — no sources",
+        "reason": "No sources provided for this item in the original record. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "refit_item: aluminum mast refinishing ($2,000-$5,000) — no sources",
+        "reason": "No sources provided for this item in the original record. Removed per default-to-skepticism rule."
+      },
+      {
+        "key": "refit_item: Webasto diesel heater service ($300-$1,500) — no sources",
+        "reason": "No sources provided for this refit item, and the underlying Webasto-is-fitted claim was itself removed as unverifiable. Removed."
+      }
+    ],
+    "fabrication_flags": [
+      "cold.watertight_bulkheads: Quote 'Oyster features watertight bulkheads as part of design for practical cruising capability' attributed to oysteryachts.com/heritage-yachts/oyster-54/ does not appear on that page when fetched. Likely hallucinated.",
+      "ergonomics.side_decks: Quote 'Deck Access: Generally favorable; the design accommodates typical cruising operations effectively' attributed to Yachting World review does not appear in that article. Generic template phrasing consistent with hallucination.",
+      "tropical.ventilation (YW ventilation article): Quote about Oyster Yachts fitting dorade vents and front saloon windows attributed to yachtingworld.com/practical-cruising/shade-ventilation-keep-yacht-cool-dry-tropics-121676 — fetched page contains no mention of Oyster Yachts whatsoever. Fabricated attribution.",
+      "tropical.watermaker: Quote 'No watermaker specifications provided in comprehensive test' attributed to Yachting World review does not appear in fetched article content. Generated placeholder masquerading as a real citation.",
+      "parts.availability: Quote 'unique access to the history, original build files, photographic library, and original build yards' attributed to oysteryachts.com brokerage page — fetched page contains no such language. Likely sourced from a now-removed or different page, or hallucinated.",
+      "cold.heating: Webasto attribution misapplied — the Oyster service page quote is about air-conditioning/refrigeration/LPG, not heating. The Webasto URL is generic marketing with no Oyster 54 connection. Claim is unsubstantiated inference presented as sourced fact.",
+      "ergonomics.mob_recovery: Cruising World quote 'provides good steering control and stability in rescue situations' — the Cruising World URL returned the homepage (not the article) when fetched, meaning this skeg-rudder rescue claim is unverifiable and potentially fabricated.",
+      "silent_power page (oysteryachts.com/oyster-life/silent-power/): The source documents a specific Oyster 725 owner retrofit, not a standard Oyster 54 factory feature. Cited in self_steering.electrical_autonomy as if it describes Oyster 54 standard equipment — this is a misleading attribution."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "Significantly degraded from the stated 0.72. Eight fabricated or misattributed quotes identified across five fact entries. Three source URLs returned 403 (unverifiable), two URLs returned homepage/wrong content instead of cited article, and one URL (YW ventilation article) contained no Oyster content at all. Core structural and performance facts (keel spec, mast configuration, fuel capacity, production numbers, 30-knot test, stowage complaints, forward sail locker absence, cockpit increase, freeboard) are well-supported by accessible sources and survive. The major categories of concern are: (1) heating system claim is inferred and misquoted; (2) watertight bulkheads quote is fabricated; (3) side-decks quote is fabricated; (4) dorade-vent attribution is to a page that does not mention Oyster; (5) watermaker quote is a generated placeholder; (6) parts.availability brokerage quote is unconfirmed; (7) standing rigging replacement cost range ($5k-$10k) is materially too low for a 54-foot vessel per the cited source itself. Verified confidence set at 0.52 reflecting roughly half the fact-set's supporting quotes being unconfirmable or fabricated, with the factual core being solid but the detail layer being unreliable."
+  },
+  "scores": {
+    "id": "oyster-54-bluewater-research",
+    "cold_score": {
+      "value": 23,
+      "confidence": 0.52,
+      "rationale": "Re-normalised over sourced inputs only (5 of 7 rubric items have definitive sourced outcomes; hard cockpit shelter and cold tankage are undocumented and excluded from denominator). Keel-stepped mast scores full credit (confirmed, confidence 0.88). Insulation scores partial (cored hull above waterline confirmed at 0.55 confidence; no closed-cell foam specifics verified). Heating scores zero: the Webasto claim was removed as fabricated/unverifiable — no sourced heating system exists for this boat. Inside/sheltered helm scores zero: no dedicated inside helm confirmed; nav station below deck is navigation-only. Watertight bulkheads scores zero: supporting quote was identified as fabricated and removed from verified facts. Raw: 18/80 known-input weight; re-normalised to 23/100. Confidence pulled to 0.52 reflecting half the supporting quotes in this research set being unconfirmable or removed.",
+      "basis": "heating=0/25 (no sourced system); insulation=8/15 (cored hull only, 0.55 conf); inside_helm=0/20 (absent, confirmed); keel_stepped=10/10 (confirmed 0.88); watertight_bulkhead=0/10 (quote fabricated, removed); hard_shelter=excluded (undocumented); cold_tankage=excluded (undocumented). 18/80 known weight re-normalised to 100."
+    },
+    "tropic_score": {
+      "value": 45,
+      "confidence": 0.5,
+      "rationale": "Re-normalised over 5 of 6 rubric items (light-air SA/D not published in any confirmed source and excluded from denominator). Opening hatches/ventilation: partial credit — opening coachroof windows confirmed (0.60 confidence) but dorade vent attribution was removed as fabricated; 12/20. Shade: cockpit 25% larger than predecessor confirmed (0.72) and extended transom noted, but no bimini, hardtop, or permanent shade structure documented; 6/15. Refrigeration: 'huge fridge space' noted at very low confidence (0.45), no capacity or power specs; 6/15. Watermaker: absent, no factory option, aftermarket only; 0/15. Airflow: spacious three-cabin layout, 15ft 7in beam, opening windows, centre-cockpit design all confirmed (0.72); 10/15. SA/D excluded (no published figure, D/L 211 implies moderate-heavy displacement). Raw: 34/75 known-input weight; re-normalised to 45/100. Confidence reflects average source confidence of 0.57 across tropic inputs weighted by removal of one fabricated ventilation source.",
+      "basis": "ventilation=12/20 (windows confirmed, dorads removed); shade=6/15 (cockpit size up, no shade structure); refrigeration=6/15 (present, very low conf); watermaker=0/15 (absent); airflow=10/15 (confirmed); SA/D=excluded. 34/75 known weight re-normalised to 100."
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "Neither AVS nor CE category is confirmed in any verified source. AVS is not publicly specified (confidence 0, no sources). CE Category A is inferred from conservative bluewater design philosophy at confidence 0.35 — this does not meet the threshold for a confirmed designation and the only supporting quote ('a sensible blue water design, the 54 favors the conservative side of the design compromise') is a design-philosophy statement, not a CE category certification. Applying rubric rule: 'Neither -> value 0, basis not published, confidence 0.' The 0.35 inference is noted as colour only.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "The only sourced heavy-weather observation is a controlled test sail in 30 knots of breeze conducted by Yachting World, in which the Oyster 54 'power-reached happily under two reefs and 50 per cent headsail' — a positive but limited data point reflecting a single upwind/reaching test, not an offshore passage in storm conditions. The same review notes that the forward double cabin was 'a different story' upwind in a blow, implying motion comfort issues in the bow area during punishing conditions. No published offshore storm encounter reports, circumnavigation storm accounts, or ARC/bluewater rally incident records were found for the Oyster 54 in any verified source. The conservative skeg-hung rudder and keel-stepped mast are design features consistent with offshore storm-worthiness, but their real-world performance in storm conditions cannot be asserted from this evidence base alone.",
+      "confidence": 0.4,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 75500,
+      "total_high_usd": 249000,
+      "by_item": [
+        {
+          "system": "Standing rigging (wire/rod)",
+          "low": 15000,
+          "high": 30000,
+          "note": "All 21 Oyster 54s built 2008-2013, now 13-18 years old. Wire rigging life is 10-12 years (all past interval); rod 15-20 years (most approaching interval). Corrected upward from original research estimate: at 54ft, improvesailing.com data implies $15k-$30k range. Replacement likely required on any example."
+        },
+        {
+          "system": "Running rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10 year service interval; all boats well past. Halyards, sheets, control lines for a 54ft sloop. Standard rubric range applied."
+        },
+        {
+          "system": "Sails (main, genoa, spinnaker)",
+          "low": 15000,
+          "high": 45000,
+          "note": "8-12 year sail life; all boats now 13-18 years old — past interval. Full wardrobe replacement assumed unless recently renewed. Masthead sloop with large genoa and code sail typical for Oyster 54."
+        },
+        {
+          "system": "Engine (inboard diesel, 110hp)",
+          "low": 0,
+          "high": 25000,
+          "note": "25-30 year engine life; 13-18 year old boats not yet at repower threshold. Risk item if high hours — budget for survey-identified major service or injector/heat exchanger overhaul. Full repower ($25k-$70k rubric) not yet indicated; low end reflects contingency only."
+        },
+        {
+          "system": "Electronics (chartplotters, AIS, VHF, radar)",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15 year electronics life; all boats at or past interval. Raymarine ecosystem noted in original research; full suite refresh (chartplotter, AIS, radar, autopilot head) for offshore use."
+        },
+        {
+          "system": "Batteries and solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10 year battery life; well past interval on all examples. AGM or lithium bank replacement plus basic solar array for tropical and offshore use. Silent Power page cited Oyster 725 retrofit only — Oyster 54 specific specs not confirmed; rubric range applied."
+        },
+        {
+          "system": "Ground tackle (anchor, chain, windlass)",
+          "low": 3000,
+          "high": 10000,
+          "note": "No anchor/windlass specifications documented in verified sources. Standard rubric range for a 54ft bluewater yacht. Windlass service or replacement likely after 13-18 years."
+        },
+        {
+          "system": "Seacocks and through-hulls",
+          "low": 1500,
+          "high": 5000,
+          "note": "25-year seacock replacement interval; most boats not yet at interval (13-18 years). Inspection and greasing budgeted; partial replacement if survey identifies stiff or failed valves. Applied lower portion of rubric $3k-$9k range."
+        },
+        {
+          "system": "Liferaft and offshore safety gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "Liferaft service every 3 years mandatory; replacement typically needed after 10-12 years. EPIRB, flares, tether/harness refresh for offshore certification. Rubric range applied."
+        },
+        {
+          "system": "Canvas (cockpit cover, bimini, sail covers)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15 year canvas life; at or past interval on all boats. No factory bimini or hard shelter confirmed, so any existing canvas is owner-added and may vary in age. Rubric range applied."
+        },
+        {
+          "system": "Watermaker retrofit",
+          "low": 6000,
+          "high": 15000,
+          "note": "No factory watermaker documented in any verified source; absent from standard equipment. Required for tropical passage-making self-sufficiency. 10-20 gal/hr DC reverse-osmosis system. Rubric range applied."
+        },
+        {
+          "system": "Forward sail locker retrofit (design deficiency correction)",
+          "low": 3000,
+          "high": 7000,
+          "note": "Cited design limitation: no forward sail locker forces crew to retrieve spinnaker/staysail from lazarette on passage — described as 'back-breaking chore' in Yachting World verified review. Custom carpentry solution. Confidence 0.55; labelled optional improvement but practically significant for passage-making."
+        }
+      ],
+      "assumptions": "Age logic: all 21 Oyster 54s built 2008-2013; age in 2026 is 13-18 years. Standing rigging cost corrected to $15k-$30k for 54ft vessel per improvesailing.com source (original research $5k-$10k was materially too low per verified facts). Engine repower excluded from primary range (not yet at 25-30yr threshold) but contingency budgeted at $0-$25k. Watermaker included as absent from verified facts. Forward sail locker retrofit included as cited design limitation. All figures are our estimates and represent ranges, not quotes. Actual costs depend on region, yard, and specification of replacement equipment. Survey strongly recommended before purchase to identify which items are already current."
+    },
+    "provisioning_specific": [
+      {
+        "item": "Spinnaker and staysail retrieval system or dedicated deck bag",
+        "category": "Deck/Sail Handling",
+        "why": "Verified design limitation: no forward sail locker confirmed in Yachting World review. Sails must come from lazarette on passage; a purpose-made deck bag or foredeck retrieval sleeve reduces the 'back-breaking' retrieval problem without full carpentry refit."
+      },
+      {
+        "item": "Four oversized dock fenders with dedicated cockpit storage solution",
+        "category": "Docking/Harbour",
+        "why": "Verified complaint: fender stowage 'an issue' with four fenders 'frequently tied to the pushpit' per Yachting World review. Provisioning should include a locker bag or stern rail caddy rated for full-size fenders to clear the pushpit."
+      },
+      {
+        "item": "Electrical panel access tool and labelled circuit diagram posted at nav station",
+        "category": "Electrical/Safety",
+        "why": "Verified issue: main power switches and relays 'positioned under the navigator's seat and only easily accessible to those who enjoy limbo dancing' per Yachting World. A mirror, headlamp, and laminated wiring diagram reduce emergency response time."
+      },
+      {
+        "item": "Separate watermaker (aftermarket, 10-20 gal/hr DC unit)",
+        "category": "Water/Tropical Self-Sufficiency",
+        "why": "No factory watermaker confirmed in any verified source. Required for tropical and offshore passage-making self-sufficiency. Absent from standard equipment per verified facts."
+      },
+      {
+        "item": "Windvane self-steering (servo-pendulum or auxiliary rudder type)",
+        "category": "Self-Steering/Electrical Autonomy",
+        "why": "Not a factory option per verified facts. Essential for electrical autonomy on long passages — reduces autopilot power draw. Servo-pendulum (e.g., Windpilot, Monitor) or direct-drive (Hydrovane) both compatible per self_steering.windvane_option fact."
+      },
+      {
+        "item": "Diesel cabin heating system (Webasto or Eberspacher)",
+        "category": "Cold Climate Comfort",
+        "why": "No factory heating system confirmed in any verified source (original Webasto claim removed as fabricated). A diesel forced-air heater is a standard cold-climate refit for a boat of this size and era; budget $3k-$6k installed."
+      },
+      {
+        "item": "Staysail on removable inner forestay (cutter conversion)",
+        "category": "Heavy Weather Sail Plan",
+        "why": "Rigged as sloop Marconi masthead — no cutter staysail confirmed as standard. Yachting World review notes staysail used on passage (confirming the rig can accept one) but stowage was the limiting problem. An inner forestay with stowable hanks or furler provides storm-sail flexibility without the locker problem."
+      },
+      {
+        "item": "Forward cabin bunk lee cloths rated for offshore use",
+        "category": "Crew Comfort/Safety",
+        "why": "Verified complaint: forward cabin 'challenging upwind in a blow' per Yachting World. Lee cloths on the forward V-berth allow crew to sleep safely during upwind passages in heavy conditions."
+      },
+      {
+        "item": "Kit bag storage solution (hanging lockers or compression bags) for cabin clutter",
+        "category": "Habitability",
+        "why": "Verified complaint: 'kit bags and sailing gear clutter cabins' per Yachting World review despite spacious layout. Compression bags and a systematic locker assignment plan for a full crew are essential before extended passages."
+      }
+    ]
+  }
+}

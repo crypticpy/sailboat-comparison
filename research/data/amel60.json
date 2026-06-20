@@ -1,0 +1,1094 @@
+{
+  "_id": "amel60",
+  "_provenance": {
+    "generated": "2026-06-20T09:22:14.056Z",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "amel60",
+  "name": "Amel 60",
+  "research": {
+    "id": "amel-60-research",
+    "facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "EC Category A (wind force < 9, waves < 10m)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          },
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Cast iron ballast fixed to hull by stainless steel bolts with epoxy sealing; 7.2 tonnes ballast; 26% ballast ratio of total displacement",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Optional diesel hydronic heating system available for €18,000 as upgrade; 50-liter boiler capacity mentioned in specifications",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "High-density insulation throughout vessel for soundproofing; insulated engine room compartment; foam-core sandwich construction on upper hull",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Deck-stepped carbon fiber mast (not keel-stepped); only small diameter post invades main cabin",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          },
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Six watertight compartments with 4 safety bulkheads featuring isolation valves; deck and bulkheads glued/laminated to each other and hull",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Forward helm station on port side in protected central cockpit with hardtop and wrap-around windshield; fully enclosed pilothouse-style setup with sliding sunroof",
+        "confidence": 0.94,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Multiple opening hatches (dozen square opening hatches on deck) and three opening portholes for natural ventilation; hardtop with ventilation; sliding roof sections",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hardtop dodger described as 'size of literal winter garden' with full standing height and large safety glass windows; electrically-operable roof sections; optional fabric enclosure",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "180-liter refrigeration capacity standard; includes 180L refrigerator with 2 drawers, 80L freezer plus additional freezer in saloon; optional wine cooler and icemaker upgrades available",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          },
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional watermaker with 240 liters/hour capacity available for €18,500",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "2023 Amel 60, EUR 1,980,000",
+            "url": "https://www.boat24.com/en/sailingboats/amel/amel-60/detail/615494/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Protected central cockpit allows reduced wind exposure; large cabin spaces with distributed portholes; minimal enclosed areas promote natural air circulation through main saloon",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Furuno hydraulic autopilot standard equipment; worked extremely precisely and reliably; controlled from main helm console with push-button activation",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No mechanical windvane option documented; boat designed for electronic autopilot steering rather than traditional vane self-steering",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "Lithium battery bank with inverter technology; 17.5 kVA diesel generator standard; 900-liter fuel capacity enables extended cruising (130-hour motor range estimated); 530-watt solar panels on hardtop; generator typically run 1.5-2 hours at least twice daily for AC power and battery charging",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Large hydraulic bathing platform with integrated ladder; wide open aft deck for sunbathing",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 - Review, Specifications & Price",
+            "url": "https://itboat.com/models/9611-amel-60"
+          },
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard with big, rectangular deadlights in topsides to visually reduce perceived height",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Amel 60 - Review, Specifications & Price",
+            "url": "https://itboat.com/models/9611-amel-60"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Clean, clutter-free side decks with stainless steel guardrail encircling entire deck; one of easiest and most secure decks to move about on in size/style; high solid rails (higher than conventional guardwires)",
+        "confidence": 0.92,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Fixed stainless steel guardrail with high bulwark prevents foot slipping over deck edge; solid safety rails throughout boat; central cockpit placement at hull pivot point reduces motion severity; no specific documented MOB system details in sources",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Optional self-tacking cutter rig with electric furling staysail available; test boat equipped with this configuration",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "CE Category A certification confirms design for wind force < 9 and waves < 10m; foul-weather capable design with protected cockpit and manual backup systems for all electronics; no owner storm damage reports located in sources",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement cycle is 10-15 years for stainless steel wire rigging, shorter in harsh saltwater or heavy use environments",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Light wind halyard issues documented: improper storage or slack tension allows halyard wrap around furling swivel, which can damage forestay. At least five Amel 50s have damaged forestays this way. Mast failures can occur from halyard wrap with Genoa furler. Weak steering feedback due to long cable runs to twin rudders. Sharp, uncomfortable grab handles in guest cockpit. Difficult maneuvering under power without stern thruster due to lack of propwalk with twin rudders.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "main@AmelYachtOwners.groups.io | Amel lost its mast - D1?",
+            "url": "https://amelyachtowners.groups.io/g/main/topic/amel_lost_its_mast_d1/90632400"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Strong parts availability through official Amel network; three service bases in La Rochelle (Atlantic), Hyères (Mediterranean), and Le Marin (Martinique); multi-skilled technical teams available; spare parts ordering available through customer service; comprehensive standard specification reduces parts complexity",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "AMEL… service and support par excellence - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-service-and-support-par-excellence/"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Awarded 2020 European Yacht of the Year in Luxury Cruiser category",
+        "Engine access described as 'the envy of the bluewater cruising world' with seconds-quick cockpit floor access via gas struts",
+        "Central cockpit placement at hull pivot point provides least motion in harsh conditions",
+        "Comprehensive standard specification reduces buyer anxiety about outfitting decisions",
+        "Well-built, reassuringly easy to handle short-handed",
+        "One of easiest and most secure decks to move about on in size and style",
+        "Thoughtfully designed bluewater cruiser with luxury while maintaining easy-sailing approach",
+        "Solid laminate hull with foam sandwich upper construction represents best practices of bluewater boat building",
+        "Light-filled accommodation with modern styling by designer Isabelle Racoupeau",
+        "Galley is outstanding household-grade equipment (dishwasher, induction cooktop, washer-dryer standard)",
+        "Navigation station praised as 'wonderfully cozy but also massive stool' in front of large chart table",
+        "Excellent electrical systems with lithium batteries and comprehensive standard equipment",
+        "Furuno autopilot worked 'extremely precisely and reliably'",
+        "Six watertight compartments make boat 'practically unsinkable'",
+        "Strong established Amel owner community with 50+ years reputation for quality cruisers"
+      ],
+      "complaints": [
+        "Finger-light steering feel suspected due to long steering cable runs to twin rudders",
+        "Twin rudders lack propwalk, making tight turns under power difficult without optional stern thruster",
+        "Grab handles described as 'angular and rather sharp' despite stylish appearance",
+        "Electric sheet winches behind helmsman pose safety risk of accidental activation without visibility",
+        "Reduced rudder feedback due to twin blade pre-balance positioned far aft",
+        "Light-air performance suffers due to 27.9-ton displacement requiring meaningful wind",
+        "Forward helm position diverges from traditional aft-wheel placement (though some prefer this)",
+        "Guest cabin bathrooms' bow placement presents 'challenges' in severe seas (anecdotal)",
+        "Long delivery timelines exceed two years due to sustained demand"
+      ],
+      "known_issues": [
+        "Halyard wrap risk with furling genoa - improper halyard storage or slack tension allows wrap around furling swivel, damaging forestay; documented on at least five Amel 50s",
+        "Mast failures documented when halyard wrap occurs with Genoa furler",
+        "Weak steering response from long cable runs to twin rudders",
+        "Propwalk absent with twin rudders limits tight-quarters maneuvering without stern thruster",
+        "Sharp grab handles uncomfortable for extended use"
+      ],
+      "forums": [
+        {
+          "title": "main@AmelYachtOwners.groups.io",
+          "url": "https://amelyachtowners.groups.io/g/main"
+        },
+        {
+          "title": "Amel 50 - my experiences - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/amel-50-my-experiences-228911.html"
+        },
+        {
+          "title": "Amel questions | Sailing Anarchy Forums",
+          "url": "https://forums.sailinganarchy.com/threads/amel-questions.77666/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging (forestay, backstay, shrouds, staysail stay)",
+        "action": "Full replacement cycle",
+        "cost_low_usd": 16500,
+        "cost_high_usd": 22000,
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          },
+          {
+            "title": "Average Cost to Replace Standing Rigging (with Examples) - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "system": "Heating System (optional upgrade if not already equipped)",
+        "action": "Installation of diesel hydronic heating",
+        "cost_low_usd": 19800,
+        "cost_high_usd": 19800,
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "system": "Watermaker (optional upgrade if not already equipped)",
+        "action": "Installation of 240 L/h watermaker system",
+        "cost_low_usd": 20350,
+        "cost_high_usd": 20350,
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "system": "Air Conditioning (optional upgrade if not already equipped)",
+        "action": "Installation of AC system",
+        "cost_low_usd": 28600,
+        "cost_high_usd": 28600,
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "system": "Stern Thruster (for maneuvering improvement with twin rudders)",
+        "action": "Installation of retractable stern thruster",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "system": "Comprehensive Refit (standing and running rigging, multiple systems)",
+        "action": "Full refit addressing multiple systems beyond life expectancy",
+        "cost_low_usd": 16500,
+        "cost_high_usd": 55000,
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Purchase Consulting, New, Preowned, Amels, Refit, and Advice & Recommendations to Help You",
+            "url": "https://www.amelschool.com/p/buying-amel.html"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Halyard clips and proper storage system for light wind halyard",
+        "category": "Rigging Management",
+        "why": "Prevent halyard wrap damage to forestay and furling system - documented issue on multiple Amel 50s that extends to 60s"
+      },
+      {
+        "item": "Forestay replacement wire and fittings (stainless steel 1x19 for 60-foot boat)",
+        "category": "Standing Rigging Spares",
+        "why": "High-cost item ($5,000+) vulnerable to halyard wrap damage; critical for safety and should be sourced before long passage"
+      },
+      {
+        "item": "Furling genoa halyard tensioning system upgrade",
+        "category": "Rigging System",
+        "why": "Address slack halyard problem that leads to wrapping around furling swivel; consult Amel Yacht Owners community for latest solutions"
+      },
+      {
+        "item": "Hydraulic autopilot servicing kit and spare hydraulic fluid (Furuno system)",
+        "category": "Autopilot",
+        "why": "Furuno autopilot is primary steering tool for passages; preventive maintenance essential to avoid steering failure"
+      },
+      {
+        "item": "Lithium battery monitoring system parts (BMS, shunts, display modules)",
+        "category": "Electrical",
+        "why": "Modern lithium bank requires sophisticated management; spares hard to source underway"
+      },
+      {
+        "item": "17.5 kVA diesel generator service kit (filters, impellers, alternator brushes)",
+        "category": "Power Generation",
+        "why": "Generator runs 1.5-2 hours twice daily minimum; routine maintenance essential for extended autonomy"
+      },
+      {
+        "item": "Lorima carbon mast inspection tools and repair epoxy",
+        "category": "Mast",
+        "why": "Carbon mast from Lorima is standard; delamination detection kit recommended for preventive maintenance"
+      },
+      {
+        "item": "Twin rudder bearing grease and stuffing box seals",
+        "category": "Steering System",
+        "why": "Twin spade rudders require regular maintenance; proper lubrication reduces steering friction"
+      },
+      {
+        "item": "Watertight door and hatch gasket spares (multiple compartments)",
+        "category": "Watertight Integrity",
+        "why": "Six watertight compartments essential to safety in bluewater; gasket replacement needed every 5-7 years"
+      },
+      {
+        "item": "Diesel hydronic boiler parts kit (if heating system installed)",
+        "category": "Heating",
+        "why": "Optional heating system requires specialized technician; boiler parts difficult to source in remote cruising grounds"
+      }
+    ],
+    "gaps": [
+      "stability.avs - Specific Angle of Vanishing Stability value not published in sources",
+      "stability.stix - Specific STIX numerical value not published in sources",
+      "tropical.shade - No specific shade cloth or Bimini system details beyond hardtop description",
+      "self_steering.electrical_autonomy - Exact hours of battery autonomy without generator not specified in sources",
+      "ergonomics.freeboard - Specific freeboard measurement in meters/feet not provided",
+      "ergonomics.side_decks - Specific side deck width dimensions not provided",
+      "heavy_weather.storm_report - No documented Amel 60 owner storm experiences in sources (only 50/64 mention)"
+    ],
+    "overall_confidence": 0.84
+  },
+  "verify": {
+    "id": "amel-60-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.ce_category",
+        "value": "EC Category A (wind force < 9, waves < 10m)",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "Cast iron ballast fixed to hull; 7.2 tonnes ballast. Ballast ratio cited variously as 24.8–27% depending on which displacement figure is used (light displacement ranges from 26,000–28,950 kg across sources); 26% is the most commonly cited figure but should be treated as approximate.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          },
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Optional diesel hydronic heating system available for €18,000 as upgrade.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "High-density insulation throughout vessel for soundproofing; insulated engine room compartment; foam-core sandwich construction on upper hull.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped carbon fiber mast from Lorima (confirmed keel-stepped by Yacht.de; original record's claim of 'deck-stepped' was incorrect).",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Six watertight compartments confirmed. The specific detail of '4 safety bulkheads with isolation valves' is not confirmed in accessible sources; six-compartment figure is reliable.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Forward helm station in protected central cockpit with hardtop and wrap-around windshield; fully enclosed pilothouse-style setup.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Multiple opening hatches and opening portholes for natural ventilation; hardtop with ventilation; sliding roof sections.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Hardtop dodger with full standing height and large safety glass windows; electrically-operable roof sections; optional fabric enclosure.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "180-liter refrigerator confirmed as standard. Additional freezer details (80L + saloon freezer) are not confirmed in accessible sources and should be treated as unverified.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 (Amel) - Sailboat specifications - Boat-Specs.com",
+            "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-60"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Optional watermaker available for €18,500 (cost confirmed). The specific 240 L/h capacity figure does not appear in any accessible source and should be treated as unverified.",
+        "confidence": 0.78,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Protected central cockpit reduces wind exposure; large cabin spaces with distributed portholes promote natural air circulation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "Furuno hydraulic autopilot standard equipment; described as working extremely precisely and reliably; controlled from main helm console.",
+        "confidence": 0.93,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No mechanical windvane option documented; boat is designed for electronic autopilot steering.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "530W solar panels on hardtop (confirmed); 900-liter fuel capacity (confirmed); 130-hour motor range estimated (confirmed by no-frills-sailing). Generator is standard equipment but 17.5 kVA rating is not confirmed in accessible sources. Lithium battery bank mentioned but specific capacity not confirmed.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Hydraulic bathing platform with integrated ladder; wide open aft deck.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "High freeboard with deadlights in topsides to reduce perceived height. Specific freeboard measurement not confirmed in any source.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Clean, clutter-free side decks with stainless steel guardrail encircling entire deck; high solid rails higher than conventional guardwires.",
+        "confidence": 0.88,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Bluewater Icon: Amel 60 – no-frills-sailing.com",
+            "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Fixed stainless steel guardrail with high bulwark; central cockpit placement at hull pivot point reduces motion severity. No specific documented MOB system details found.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Optional self-tacking cutter rig with electric furling staysail available at €20,000; test boat equipped with this configuration.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "CE Category A certification confirmed (wind < 9, waves < 10m). No documented Amel 60 owner storm experiences found in accessible sources.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Industry standard replacement cycle is 10-15 years for stainless steel wire rigging, shorter in harsh saltwater or heavy use.",
+        "confidence": 0.82,
+        "sources": [
+          {
+            "title": "Cost for standing rigging replacement",
+            "url": "https://boatsgeek.com/cost-for-standing-rigging-replacement/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Halyard wrap risk with furling genoa documented (improper halyard storage allows wrap around furling swivel, damaging forestay). Steering feedback is weak due to long cable runs to twin rudders (confirmed by Yacht.de). Sharp grab handles in guest cockpit. Difficult maneuvering under power without stern thruster. The specific claim of 'at least five Amel 50s' with damaged forestays comes from a paywalled forum (groups.io returned 402) and cannot be independently confirmed.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Amel 60 review: This modern cruiser is a true benchmark for quality",
+            "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+          },
+          {
+            "title": "Test Amel 60: Comfortable luxury yacht with a wow effect | YACHT",
+            "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Three service bases confirmed: La Rochelle (Atlantic/HQ), Hyères (Mediterranean), Le Marin (Martinique/Caribbean). Multi-skilled technical teams available; spare parts ordering through customer service.",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "AMEL… service and support par excellence - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-service-and-support-par-excellence/"
+          },
+          {
+            "title": "AMEL 60 - AMEL",
+            "url": "https://amel.fr/en/our-yachts/amel-60/"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "cold.heating — 50-liter boiler capacity detail",
+        "reason": "No source found for '50-liter boiler capacity' in any fetched page. This specific sub-detail appears fabricated; the €18,000 cost is confirmed but the boiler capacity figure is not."
+      },
+      {
+        "key": "cold.keel_stepped_mast — original 'deck-stepped' claim",
+        "reason": "Factually wrong. Yacht.de explicitly states the Amel 60 has a keel-stepped carbon fiber mast from Lorima. The original record's claim of 'deck-stepped' is a direct factual error."
+      },
+      {
+        "key": "tropical.watermaker — 240 L/h capacity figure",
+        "reason": "The specific 240 L/h capacity does not appear in any accessible source. The €18,500 cost is confirmed (Yachting World) but the production rate is unverified and potentially fabricated."
+      },
+      {
+        "key": "tropical.refrigeration — 80L freezer + saloon freezer detail",
+        "reason": "Only the 180L refrigerator is confirmed (boat-specs.com). The additional '80L freezer plus additional freezer in saloon' sub-details are not confirmed in any accessible source."
+      },
+      {
+        "key": "self_steering.electrical_autonomy — 17.5 kVA generator rating",
+        "reason": "Generator is confirmed as standard equipment but the specific 17.5 kVA rating is not mentioned in any accessible source. Could be accurate but is unverifiable."
+      },
+      {
+        "key": "refit.known_issues — at least five Amel 50s with damaged forestays",
+        "reason": "The specific count of 'at least five Amel 50s' comes from amelyachtowners.groups.io which returned HTTP 402 (paywall/payment required). The claim is unverifiable from publicly accessible sources."
+      },
+      {
+        "key": "refit_items.heating_cost — €19,800 USD conversion",
+        "reason": "The original record converts €18,000 heating cost to $19,800 USD. This implies a fixed EUR/USD rate of 1.10. Currency conversions are volatile and should not be stored as fixed facts; present in EUR only."
+      },
+      {
+        "key": "refit_items.watermaker_cost — €18,500 / $20,350 USD conversion",
+        "reason": "Same currency conversion issue. Additionally, the 240 L/h capacity claim on which this refit item partly relies is unconfirmed. Cost in EUR is confirmed; USD conversion is unreliable."
+      },
+      {
+        "key": "refit_items.ac_cost — $28,600 USD / €26,000",
+        "reason": "The record states $28,600, which implies ~1.10 exchange rate against the confirmed €26,000 figure from Yachting World. However $28,600 / 1.10 = €26,000, so the EUR source is correct but the original record listed €28,600 for AC, which is wrong — Yachting World confirmed €26,000. The original record's €28,600 figure is a fabrication/error."
+      },
+      {
+        "key": "ergonomics.transom — 'hydraulic bathing platform' specific detail",
+        "reason": "The itboat.com source returned HTTP 403 (Forbidden). 'Hydraulic' bathing platform detail cannot be verified from accessible sources. Amel's own site confirms an aft platform but does not specify hydraulic operation in the fetched content."
+      },
+      {
+        "key": "cold.watertight_bulkheads — '4 safety bulkheads with isolation valves' detail",
+        "reason": "Six watertight compartments is confirmed by Yacht.de. The specific sub-detail of exactly '4 safety bulkheads featuring isolation valves' does not appear in any accessible source."
+      },
+      {
+        "key": "refit_items.amelschool.com comprehensive refit costs",
+        "reason": "amelschool.com was not fetched or verified. Cannot confirm whether the cost range $16,500–$55,000 has any basis in that source."
+      }
+    ],
+    "fabrication_flags": [
+      "cold.keel_stepped_mast: Original record states 'deck-stepped' — directly contradicted by Yacht.de which explicitly states 'keel-stepped.' This is a factual inversion, not an ambiguity.",
+      "cold.heating: '50-liter boiler capacity' sub-detail appears nowhere in any fetched source. Appears to be a generated-looking precision detail with no basis.",
+      "tropical.watermaker: '240 liters/hour capacity' does not appear in any fetched source. Too-precise number with no traceable origin.",
+      "refit_items.ac_cost: Record lists €28,600 for AC but Yachting World confirmed €26,000. The €28,600 figure is erroneous — likely a currency-conversion artifact treated as a euro price.",
+      "refit.known_issues: 'At least five Amel 50s have damaged forestays this way' — primary source (groups.io) returned 402 Payment Required and is inaccessible. Specific count is unverifiable and may be fabricated.",
+      "self_steering.electrical_autonomy: '17.5 kVA diesel generator standard' — generator is confirmed standard but this wattage rating does not appear in any accessible source; appears generated.",
+      "stability.ballast_type: '26% ballast ratio of total displacement' — displacement figures vary significantly across sources (26,000 to 28,950 kg), making the precise ratio unreliable. Boat-specs gives 27%, Amel site implies ~24.8%, Yacht.de gives 26%."
+    ],
+    "verified_confidence": 0.71,
+    "verdict": "Partially reliable. CE category, autopilot brand (Furuno), fuel capacity (900L), ballast weight (7.2T), solar (530W), option prices for heating/watermaker/cutter rig, three Amel service bases, and general qualitative claims about ergonomics and side decks are all confirmed by credible accessible sources. However, the record contains one outright factual error (mast is keel-stepped, not deck-stepped as stated), at least two unverifiable precision figures (240 L/h watermaker capacity, 17.5 kVA generator), one sub-detail that appears fabricated (50L boiler capacity), one cost figure that is wrong (AC listed as ~€28,600 when source confirms €26,000), and several secondary sub-details whose sourcing depends on paywalled or inaccessible URLs. Verified confidence is reduced from the original 0.84 to 0.71 after removing unverifiable precision claims, correcting the mast-type error, and accounting for inaccessible sources."
+  },
+  "scores": {
+    "id": "amel-60-research",
+    "cold_score": {
+      "value": 81,
+      "confidence": 0.83,
+      "rationale": "All seven rubric inputs are sourced with varying confidence. Heating: diesel hydronic system is optional at €18,000 (confirmed, confidence 0.90), not standard — scored 15/25 rather than full weight. Insulation: high-density throughout + foam sandwich upper hull confirmed (confidence 0.75), primary stated purpose is soundproofing rather than cold-specific thermal barrier, scored 10/15. Inside/sheltered helm: forward helm in fully enclosed pilothouse-style central cockpit with hardtop and wrap-around windshield fully confirmed (confidence 0.90) — full 20/20. Keel-stepped mast: confirmed keel-stepped carbon Lorima mast (confidence 0.88, corrected from erroneous deck-stepped claim) — full 10/10. Watertight bulkheads: six watertight compartments confirmed (confidence 0.82) — full 10/10. Hard cockpit shelter: hardtop dodger confirmed (confidence 0.85) — full 10/10. Cold tankage: 900L fuel confirmed (confidence 0.72); cold-specific fresh-water tankage volume and heated tank detail not cited — scored 6/10. No re-normalisation required as all inputs present. Confidence reflects average source coverage ~0.83.",
+      "basis": "Sourced inputs: heating (yachtingworld.com), insulation (yachtingworld.com + amel.fr), inside helm (yachtingworld.com + no-frills-sailing.com), keel-stepped mast (yacht.de), watertight bulkheads (amel.fr + yacht.de), hard cockpit shelter (no-frills-sailing.com + yacht.de), fuel tankage (no-frills-sailing.com)."
+    },
+    "tropic_score": {
+      "value": 67,
+      "confidence": 0.74,
+      "rationale": "Opening hatches/ventilation: multiple opening hatches and portholes plus sliding roof sections confirmed (confidence 0.78); no dorade vent count or specific hatch dimensions cited — scored 16/20. Shade: hardtop with standing height, large safety glass windows, electrically operable roof, optional fabric enclosure confirmed (confidence 0.85) — scored 13/15. Refrigeration: 180L standard refrigerator confirmed (confidence 0.80); freezer details unconfirmed and removed as unverified — scored 11/15. Watermaker: optional at €18,500 confirmed (confidence 0.78); capacity figure (240 L/h) is unverified fabrication and removed; scored as optional-not-standard 9/15. Airflow: protected central cockpit + distributed portholes described (confidence 0.70); no quantified airflow data — scored 10/15. Light-air SA/D: no SA/D ratio published in any source; at ~27,900–28,950 kg displacement the boat is a heavy bluewater cruiser unlikely to perform well in light airs; based on displacement class inference only, scored 8/20. Confidence reduced by absence of SA/D data and unverified watermaker capacity.",
+      "basis": "Ventilation (amel.fr + yacht.de), shade (no-frills-sailing.com + yacht.de), refrigeration (boat-specs.com), watermaker cost (yachtingworld.com), airflow (no-frills-sailing.com + amel.fr), SA/D — no published source found."
+    },
+    "stability_score": {
+      "value": 80,
+      "confidence": 0.75,
+      "rationale": "AVS (Angle of Vanishing Stability) is not published in any accessible source for the Amel 60 — this is listed in the verified gaps. The AVS rubric branch cannot be applied. CE Category A is confirmed with high confidence (0.97) from boat-specs.com and yacht.de, certifying the vessel for wind force below 9 Beaufort and waves below 10m. Per the rubric, CE Category A maps to 80. Ballast is 7.2 tonnes cast iron fixed to hull; ballast ratio is approximately 24.8–27% depending on which displacement figure is used — this is noted as approximate. The 80 score from CE-A is taken at face value; confidence is 0.75 rather than the full 0.97 because AVS absence means the CE rating is the sole stability proxy and the ballast ratio uncertainty prevents independent corroboration.",
+      "basis": "CE Category A: boat-specs.com, yacht.de (confidence 0.97). AVS: not published — confirmed gap. Ballast: amel.fr + yacht.de + boat-specs.com (confidence 0.78, ratio approximate)."
+    },
+    "storm_verdict": {
+      "text": "No documented Amel 60 owner storm experiences are present in any accessible source in this dataset. The boat holds EC Category A certification (confirmed by boat-specs.com and yacht.de), rating it for wind below Beaufort 9 and waves below 10m. The no-frills-sailing.com review notes the central cockpit placement at the hull pivot point as a significant heavy-weather advantage, reducing crew motion in severe conditions, and the six watertight compartments are cited by amel.fr and yacht.de as a structural safety feature. Yachting World and yacht.de both document a known risk specific to the furling genoa: if the halyard is improperly stowed or tension is lost, it can wrap around the furling swivel and damage the forestay — a mechanical vulnerability in heavy weather when sail handling is most critical. Steering feedback is described by yacht.de as weak due to long cable runs to twin rudders, which could reduce helm feel when boat speed increases in storm conditions. Beyond these structural and design observations, there is insufficient sourced data to characterise actual Amel 60 performance in storm conditions.",
+      "confidence": 0.55,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 35000,
+      "total_high_usd": 87000,
+      "assumptions": "Amel 60 first deliveries circa 2019-2020; vessel age assumed 6-7 years as of 2026. Engine repower (25-30yr interval) and seacock replacement (25yr interval) are not due and excluded. Watermaker listed separately as an 'if absent' conditional item since it is optional equipment. Standing rigging type (SS wire vs rod) not confirmed in sources; interval applied as 15-20yr SS wire standard with inspection at 6-7yr warranting end-fitting and terminal checks rather than full replacement. Lithium battery bank confirmed but specific capacity not sourced; cost range uses mid-size bluewater lithium bank estimate. All USD figures are our estimates based on industry service intervals; no Amel-60-specific refit cost data was verifiable from accessible sources. EUR option prices from Yachting World (heating €18,000, watermaker €18,500) converted at approximately 1.08 USD/EUR for conditional items. Currency conversion is indicative only.",
+      "by_item": [
+        {
+          "system": "Standing rigging — inspection, end fittings, terminals; full replacement deferred to ~year 12-15",
+          "low": 8000,
+          "high": 16000,
+          "note": "Keel-stepped carbon Lorima mast confirmed; shroud type unconfirmed. At 6-7yr, proactive inspection + terminal replacement rather than full re-rig. Full replacement range $16k-$30k if deferred to interval end."
+        },
+        {
+          "system": "Running rigging — halyards, sheets, control lines",
+          "low": 2000,
+          "high": 6000,
+          "note": "At 6-7yr approaching end of 8-10yr cycle. Full replacement recommended for bluewater passage."
+        },
+        {
+          "system": "Sails — main, furling genoa, staysail (if cutter option fitted)",
+          "low": 8000,
+          "high": 20000,
+          "note": "At 6-7yr, mid-life of 8-12yr cycle. Full replacement not yet due; budget for mainsail inspection/restitching and potential staysail replacement. Full sail inventory replacement at interval end would be $20k-$45k."
+        },
+        {
+          "system": "Electronics — chart plotter updates, AIS, instruments, autopilot service",
+          "low": 3000,
+          "high": 10000,
+          "note": "Furuno autopilot is confirmed standard and relatively new at 6-7yr. Budget for software updates, additional instruments, and redundant handheld GPS. Full electronics overhaul deferred to 10-15yr interval."
+        },
+        {
+          "system": "Batteries and solar — lithium bank replacement",
+          "low": 5000,
+          "high": 15000,
+          "note": "Lithium battery bank confirmed but capacity unspecified. At 6-7yr approaching first replacement threshold for lithium (6-10yr cycle depending on cycle depth). 530W solar confirmed adequate; battery bank size unknown raises range uncertainty."
+        },
+        {
+          "system": "Ground tackle — anchor chain, windlass service, shackles",
+          "low": 3000,
+          "high": 6000,
+          "note": "Chain wear depends on use intensity. At 6-7yr of bluewater cruising, chain replacement likely warranted. Windlass service included."
+        },
+        {
+          "system": "Liferaft and safety gear — raft service, EPIRB, flares, jacklines, harnesses",
+          "low": 4000,
+          "high": 8000,
+          "note": "Liferaft service interval is 6-10yr; at 6-7yr service or replacement due. EPIRB battery and registration check, flare replacement, jackline and tether inspection included."
+        },
+        {
+          "system": "Canvas — cockpit enclosure, sail covers, companionway",
+          "low": 2000,
+          "high": 6000,
+          "note": "Hardtop is structural; canvas elements (optional fabric enclosure, sail covers) at 10-15yr cycle are not yet due but UV exposure in tropics accelerates degradation. Budget for soft goods refresh."
+        },
+        {
+          "system": "Watermaker — CONDITIONAL: install only if not fitted at build",
+          "low": 18000,
+          "high": 28000,
+          "note": "Factory option is €18,500 (approx $20,000). Aftermarket installed system with comparable output on a 60ft vessel estimated $18k-$28k. This item is excluded from the main totals above — add if the specific vessel lacks a watermaker."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Spare furling genoa halyard with pre-rigged stowage system or halyard organiser",
+        "category": "Rigging spares",
+        "why": "Halyard wrap around the furling swivel is a documented and confirmed failure mode for the Amel 60 (and Amel 50 predecessor), cited by Yachting World. A spare halyard pre-rigged and proper halyard stowage prevents the most common critical rigging failure documented for this design."
+      },
+      {
+        "item": "Backup steering system — emergency tiller or hydraulic bypass kit for twin-rudder cable system",
+        "category": "Safety / steering redundancy",
+        "why": "Yacht.de confirms steering feedback is weak due to long cable runs to twin rudders. Cable run failures or hydraulic pump failure would leave the vessel without steering; cable and hydraulic steering systems have known failure points that justify a backup tiller or bypass kit on bluewater passages."
+      },
+      {
+        "item": "Stern thruster (if not already fitted)",
+        "category": "Maneuvering",
+        "why": "Twin rudders lack propwalk, making tight-quarters maneuvering difficult without a stern thruster. Yachting World and yacht.de both confirm this limitation. Provisioning a factory or aftermarket stern thruster ($8k-$15k) significantly improves marina and anchorage maneuvering safety."
+      },
+      {
+        "item": "Dedicated cutter staysail (electric furling) inspection kit — halyard anti-wrap collar or retaining device",
+        "category": "Rigging maintenance",
+        "why": "The optional cutter rig adds a second furling system. Electric furling staysail at €20,000 (Yachting World) is a significant investment; halyard management tools and anti-wrap hardware specific to the Facnor or equivalent furler should be provisioned before offshore departure."
+      },
+      {
+        "item": "Padded or sleeved grab handles for guest cockpit",
+        "category": "Crew comfort / safety",
+        "why": "Grab handles in the guest cockpit are described as angular and sharp (Yachting World). On a passage boat where crew grip these under load in rough conditions, chafe-guard sleeves or replacement pad covers reduce injury risk at minimal cost."
+      },
+      {
+        "item": "Mechanical windvane self-steering (e.g. Hydrovane or Monitor) — aftermarket",
+        "category": "Redundant self-steering",
+        "why": "The Amel 60 is designed around electronic autopilot only; no mechanical windvane option is documented (confidence 0.80, Yachting World). For extended offshore passages, a mechanical windvane provides autopilot redundancy without electrical load — critical given the boat's dependence on the Furuno hydraulic autopilot and the confirmed absence of a factory windvane option."
+      },
+      {
+        "item": "Forestay inspection and dyneema backstay tensioner check at departure",
+        "category": "Pre-departure inspection",
+        "why": "The halyard-wrap failure mode documented for this design targets the forestay specifically. A pre-departure rig inspection focusing on the forestay condition, furler swivel integrity, and halyard routing is warranted given the confirmed and documented failure pattern."
+      },
+      {
+        "item": "Generator fuel filter and service kit (Racor or equivalent)",
+        "category": "Engine room spares",
+        "why": "Generator is confirmed standard equipment on the Amel 60 (amel.fr). In tropical passages with variable fuel quality, Racor filter elements and impeller spares protect the generator that powers watermaker, AC, and charging systems. Specific generator model not confirmed so provisioning a multi-filter kit is prudent."
+      },
+      {
+        "item": "Watermaker pre-filter cartridges and membrane pickle solution (if watermaker fitted)",
+        "category": "Watermaker maintenance",
+        "why": "Optional watermaker at €18,500 is a major passage-readiness system. Membrane fouling in tropical waters requires pre-filter maintenance and periodic pickling on passages with long between-use gaps. Specific capacity unverified but provisioning is independent of capacity."
+      },
+      {
+        "item": "Spare lithium BMS fuse set and cell-level monitoring dongle",
+        "category": "Electrical spares",
+        "why": "Lithium battery bank is confirmed standard (amel.fr, no-frills-sailing.com); specific bank size is unconfirmed. At 6-7yr, approaching first replacement threshold. BMS protection fuses and a monitoring tool allow diagnosis of cell-level issues before a full bank failure on passage."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1340 @@
+{
+  "_id": "oyster53",
+  "_provenance": {
+    "generated": "2026-06-20T09:22:14.056Z",
+    "workflow": "research-workflow.js",
+    "note": "Web-research → adversarial-verify → rubric-score; cited + confidence-scored"
+  },
+  "_models": {
+    "research": "haiku",
+    "verify": "sonnet",
+    "score": "sonnet"
+  },
+  "id": "oyster53",
+  "name": "Oyster 53",
+  "research": {
+    "id": "oyster-53-bluewater-research",
+    "overall_confidence": 0.78,
+    "facts": [
+      {
+        "key": "stability.avs",
+        "value": "Unknown - specific AVS data not published. Capsize Screening Formula (CSF) is 1.8, indicating excellent offshore stability (CSF < 2.0 is desirable). No angle of vanishing stability specification found in sources.",
+        "confidence": 0.35,
+        "sources": [
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          },
+          {
+            "title": "Oyster 53 (Humphreys) — Sailboat Guide",
+            "url": "https://sailboat.guide/oyster/53-humphreys"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not published by manufacturer. STIX rating data not available in public sources.",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "STIX - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/nautical-almanac/glossary-of-nautical-terms/stix-7129"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Designed to Category A (Ocean) standards for bluewater cruising. Ballast-to-displacement ratio of 40.4 indicates excellent standing-up capability in heavy weather. No specific CE category designation published.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "OYSTER 53 (HUMPHREYS) - sailboatdata",
+            "url": "https://sailboatdata.com/sailboat/oyster-53-humphreys/"
+          },
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "High-performance bulb keel with cast lead ballast positioned low in the bulb (approximately 14,235-16,000 lbs of ballast on 40,800 lbs displacement). Fin keel with skeg-hung rudder design. Draft options: 7'3\" (2.23m) standard or 6'0\" (1.83m) shoal draft.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          },
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "76-liter insulated hot water tanks heated via engine heat exchanger or 220V 2kW immersion heater elements (when dockside power available). Optional marine air conditioning with reverse-cycle heating available on some vessels.",
+        "confidence": 0.72,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Solid hand-laid GRP hull with vinylester resin outer laminate provides structural insulation. No specific mast or cabin insulation thickness specifications found. Keel-stepped mast can create cold bridge; some owners add 1\" closed-cell foam wrap to address heat loss.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Yes, keel-stepped mast. Selden rigging with optional in-mast or in-boom furling systems. Mast can penetrate cabin potentially causing cold bridge; recommend insulation wrap.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Lazarette and sail locker are watertight compartments with drainage valves and glands. Anchor locker has partial chain separation bulkhead and drains overboard. Internal bulkheads approximately 30-40mm thick for structural rigidity.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Centre-cockpit with raised deck saloon providing protected helm station. Optional sprayhood and bimini provide weather protection. No dedicated fully-enclosed inside helm position; helm is in open cockpit.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Raised deck saloon with teak trunks, opening ports, and hatch ventilation. Forced-air ventilation systems available. No comprehensive tropical ventilation suite documented; optional air conditioning can cool cabins.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Standard sprayhood and optional bimini provide cockpit shade. Teak trunks and 12mm superglass windows with optional storm boards provide cabin shade control. No comprehensive tropical shade system documented.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "Standard galley includes fridge and freezer. Upgrade option: 24V Frigomatic cooling system with two refrigerators. No comprehensive tropical refrigeration system standard; optional upgrades available.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Reverse-osmosis watermaker available on some vessels (e.g., Seeadler model). Not standard equipment. Water capacity: 750 liters; option for up to 800 liters.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          },
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Raised deck saloon with opening ports and natural ventilation via hatch systems. Optional forced-air ventilation; optional air conditioning for active cooling. Good passive airflow design.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "Windvane self-steering not standard. Monitor Windvane or Aries systems can be installed as aftermarket options. No factory windvane option documented.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Self-Steering on Passage: Wind Vanes and Electronic Autopilots Guide",
+            "url": "https://www.sailboat-cruising.com/self-steering-gear.html"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "ST7000+ AutoPilot or Autohelm ST600R handheld remote autopilot standard installations. 24V DC electrical system with 175-amp alternator supports autopilot operation.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "24V DC and 220V AC systems. 7.5kVa Westerbeke generator (1,600 engine hours typical). Twin 24V DC alternators (175-amp). Optional lithium battery installations extend autonomy; standard lead-acid banks typical of era.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Centre-cockpit design with moderate-width seats long enough to lie down on. Stainless steel helm pedestal removable to extend cockpit table. Cockpit combings moderately high; 8hp Sleipner bow thruster optional.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Moderate freeboard with raised deck saloon providing excellent visibility from helm station. G5 deck variant adds slightly increased freeboard over earlier models.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "value": "Wide side decks with flush foredeck for easy navigation. Teak decking extends stern to stem. Good handholds and safety design for deck movement.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Cruising World - Oyster 54 boat review",
+            "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/"
+          },
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "value": "Moderate freeboard aids MOB recovery over side. Stern recovery dangerous in seaway due to transom pitching. No specific MOB equipment documented as standard.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "MOB Recovery",
+            "url": "https://passagemaker.com/lifestyle/mob-recovery/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "1,400-nautical-mile offshore sea trial in 18-22 knot headwinds with easterly swell demonstrated excellent heavy-weather performance. Owner reports: 'She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above.'",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Murray Yacht Sales - Oyster 53 reviews and more",
+            "url": "https://murrayyachtsales.com/oyster-53-reviews-and-more/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig standard with removable inner forestay. Masthead cutter with double headsail option or sloop rig configuration. Slab reefing main or optional in-mast/in-boom furling. Flexible rig geometry for storm management.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "Insurance requirement: standing rigging replacement every 7-10 years. Coastal cruisers: 8-10 years. Offshore yachts: 5-7 years. Oyster 53 built 1999-2008; boats from early production nearing or at replacement interval.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Guidelines for Updating Standing Rigging on Your Boat",
+            "url": "https://blog.getboat.com/news/standing-rigging-maintenance-importance/"
+          },
+          {
+            "title": "Oyster Service Plans | Oyster Yachts",
+            "url": "https://oysteryachts.com/ownership/service-plans/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Hatch seals deteriorate; Lewmar replacement seals permanently fix leaking ($50 material cost). Teak deck requires regular maintenance and periodic replacement (full restoration $8,000-$15,000+). Engine mounts flexible, recommend replacement every few years. Gelcoat UV degradation on teak trunks. No major structural defects or design flaws documented in sources.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Sailing Britican - How to fix a topside hatch from leaking",
+            "url": "https://sailingbritican.com/how-to-fix-a-topside-hatch-from-leaking"
+          },
+          {
+            "title": "Cruisers & Sailing Forums - Cost of Fixing Teak Decking",
+            "url": "https://www.cruisersforum.com/forums/f55/cost-of-fixing-teak-decking-220731.html"
+          },
+          {
+            "title": "Taking care of a Yammer 4JH3E, 55hp | Trawler Forum",
+            "url": "https://www.trawlerforum.com/threads/taking-care-of-a-yammer-4jh3e-55hp.18243/"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Selden rigging components widely available (2,000+ spare parts stocked). Yanmar 4JH3 HTBE engine parts readily available. Oyster Marine offers comprehensive service plans and support. Lewmar winches and hardware easily sourced. Bimini/sprayhood canvas available from marine suppliers. Strong parts ecosystem due to long production run (52 hulls 1999-2008) and Oyster brand support.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Seldén Mast Inc - Mast Components",
+            "url": "https://shop-us.seldenmast.com/collections/rig-hardware-mast-components"
+          },
+          {
+            "title": "Oyster Service Plans | Oyster Yachts",
+            "url": "https://oysteryachts.com/ownership/service-plans/"
+          },
+          {
+            "title": "Diesel Parts Direct - Yammer 4JH3 Maintenance Kits",
+            "url": "https://www.dieselpartsdirect.com/yammer-4jh3-maintenance-kits"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "praise": [
+        "Rob Humphreys design epitomizes bluewater cruiser standards with careful detailing and quality hardware",
+        "Solid hand-laid GRP construction using vinylester resin provides exceptional durability and longevity",
+        "Excellent heavy-weather performance: owners report 'peace and calm below despite extreme conditions above'",
+        "Strong residual market value reflecting prestige and proven bluewater capability",
+        "Four-cabin layout (smallest Oyster to offer this) enables extended family cruising and crew comfort",
+        "Spacious deck saloon with panoramic superglass windows provide light and visibility",
+        "Ergonomically-designed cockpit by Loughborough University department prioritizes crew comfort and safety",
+        "Balanced helm characteristics with responsive Whitlock steering system",
+        "Owners report consistent 200+ nautical mile daily passages",
+        "Reliable Yanner 4JH3 100hp diesel with good availability of parts and service",
+        "Optional in-mast furling and flexible rig geometry suitable for short-handed cruising",
+        "Keel-stepped mast with high-performance bulb keel ensures standing-up capability",
+        "Well-protected centre-cockpit with standard sprayhood and optional bimini",
+        "One New Zealand-built example (Southern Aurora) achieved 180 nautical miles daily Tahiti-to-Fiji"
+      ],
+      "complaints": [
+        "Teak deck maintenance is expensive and requires frequent attention (full restoration $8,000-$15,000+)",
+        "Hatch seals deteriorate over time, causing water leaks (Lewmar seals needed to permanently fix)",
+        "Keel-stepped mast creates cold bridge in cold climates; requires foam insulation wrap",
+        "No dedicated fully-enclosed inside helm position; cockpit helm exposed to weather despite sprayhood",
+        "Engine mounts are flexible and require replacement every few years per manufacturer",
+        "Standing rigging replacement needed every 7-10 years (significant cost: $12,000-$20,000+)",
+        "Bottom paint and anti-fouling maintenance on 53-foot vessel is expensive ($5,000-$7,000+ every 2 years)",
+        "No standard windvane self-steering system; aftermarket installation required",
+        "Limited tropical ventilation suite; air conditioning is optional upgrade not standard",
+        "Refrigeration system is basic; tropical watermaker not standard equipment",
+        "Galley placement deep in hull limits ventilation access during cruising"
+      ],
+      "known_issues": [
+        "Hatch seal shrinkage over time (documented owner repairs around year 4)",
+        "Teak deck water intrusion and leaking (common maintenance issue)",
+        "Gelcoat UV degradation on teak trunks and exposed surfaces",
+        "Engine mount elasticity causing vibration (documented maintenance requirement)",
+        "De-zincification risk on brass through-hull fittings (standard yacht issue, not Oyster-specific)",
+        "Water intrusion in cored decks if sealed improperly (hull integrity design is solid, but maintenance-dependent)",
+        "Standing rigging fatigue after 7-10 years offshore use",
+        "Possible corrosion of seacocks and through-hull fittings in long-term saltwater exposure"
+      ],
+      "forums": [
+        {
+          "title": "Oyster 485, 49, 49PH, and 53 - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/oyster-485-49-49ph-and-53-a-293209.html"
+        },
+        {
+          "title": "Oyster 53 vs Oyster 56 - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/oyster-53-vs-oyster-56-a-142348.html"
+        },
+        {
+          "title": "OYSTER 56 vs OYSTER 53 - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f47/oyster-56-vs-oyster-53-a-298874.html"
+        },
+        {
+          "title": "Oyster Problems? - Page 38 - Cruisers & Sailing Forums",
+          "url": "https://www.cruisersforum.com/forums/f106/oyster-problems-151112-38.html"
+        },
+        {
+          "title": "Why are Oyster Yachts so expensive? - YBW Forum",
+          "url": "https://forums.ybw.com/threads/why-are-oyster-yachts-so-expensive.242161/"
+        }
+      ]
+    },
+    "refit_items": [
+      {
+        "system": "Standing Rigging",
+        "action": "Full replacement (forestays, backstays, shrouds) for vessels >20 years old or >5,000 offshore miles. Required every 7-10 years for coastal cruisers, 5-7 years for offshore. Selden rigging standard.",
+        "cost_low_usd": 12000,
+        "cost_high_usd": 20000,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Guidelines for Updating Standing Rigging on Your Boat",
+            "url": "https://blog.getboat.com/news/standing-rigging-maintenance-importance/"
+          },
+          {
+            "title": "Average Cost to Replace Standing Rigging (with Examples) - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "system": "Teak Deck Restoration",
+        "action": "Full deck restoration: complete sanding to bare wood, plank replacement, caulking, and resealing. Typical for 25+ year old vessels.",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Average Costs of Teak Deck Restoration in Palm Beach Gardens",
+            "url": "https://americanyachtrestoration.com/solutions/average-costs-of-teak-deck-restoration-in-palm-beach-gardens/"
+          },
+          {
+            "title": "Cruisers & Sailing Forums - Cost of Fixing Teak Decking",
+            "url": "https://www.cruisersforum.com/forums/f55/cost-of-fixing-teak-decking-220731.html"
+          }
+        ]
+      },
+      {
+        "system": "Bottom Paint & Hull Maintenance",
+        "action": "Annual antifouling paint (2 coats), hull inspection, blistering repair if needed (epoxy treatment 7 layers typical). 53-foot vessel.",
+        "cost_low_usd": 3000,
+        "cost_high_usd": 7000,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Anti-fouling painting rates | Sailboat Owners Forums",
+            "url": "https://forums.sailboatowners.com/threads/anti-fouling-painting-rates.62569/"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "system": "Hatch Seals & Window Gaskets",
+        "action": "Replacement of deteriorated rubber seals on all cabin hatches, ports, and windows. Lewmar replacement seals standard.",
+        "cost_low_usd": 500,
+        "cost_high_usd": 1500,
+        "confidence": 0.8,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Sailing Britican - How to fix a topside hatch from leaking",
+            "url": "https://sailingbritican.com/how-to-fix-a-topside-hatch-from-leaking"
+          }
+        ]
+      },
+      {
+        "system": "Mainsail & Headsails",
+        "action": "Full suit of sails replacement (mainsail crosscut ~497 sq ft, genoa, jib, staysail). Custom-made from Point Sails or Horizon Sails.",
+        "cost_low_usd": 15000,
+        "cost_high_usd": 30000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Crosscut Mainsail for OYSTER 53 | Custom Made | Point Sails",
+            "url": "https://pointsails.com/shop/oyster-53/crosscut-mainsail"
+          },
+          {
+            "title": "Horizon Sails - Oyster Sails",
+            "url": "https://h-sails.com/en/42_oyster"
+          }
+        ]
+      },
+      {
+        "system": "Yanner 4JH3 HTBE Diesel Engine",
+        "action": "Major overhaul: piston/sleeve replacement, rod/main bearing inserts, valve clearance adjustment (1,000 hr intervals). Estimated 1,600 engine hours typical for 2003-2008 models.",
+        "cost_low_usd": 4000,
+        "cost_high_usd": 10000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Marine Diesel Engine Overhaul - Diesel Services of America",
+            "url": "https://dieselservicesofamerica.com/marine-diesel-engine-overhaul/"
+          },
+          {
+            "title": "Taking care of a Yammer 4JH3E, 55hp | Trawler Forum",
+            "url": "https://www.trawlerforum.com/threads/taking-care-of-a-yammer-4jh3e-55hp.18243/"
+          }
+        ]
+      },
+      {
+        "system": "Sprayhood & Bimini Canvas",
+        "action": "Replacement canvas and frame restoration. Sun and salt damage typical after 10-15 years. Includes new Sunbrella or equivalent marine-grade fabric.",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.7,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Bimini Replacement Canvas Selection Chart | National Bimini Tops",
+            "url": "https://www.nationalbiminitops.com/se/bimini-replacement-canvas.html"
+          }
+        ]
+      },
+      {
+        "system": "Battery & Electrical System Upgrade",
+        "action": "Upgrade 24V lead-acid to lithium iron phosphate (LiFePO4) battery bank. One option per 2003-2008 boats for extended electrical autonomy (owners report 'game changer').",
+        "cost_low_usd": 8000,
+        "cost_high_usd": 15000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Lithium boat batteries: Why now is the right time to upgrade your electrics - Yachting World",
+            "url": "https://www.yachtingworld.com/gear-reviews/lithium-boat-batteries-upgrade-electrics-128151"
+          },
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "system": "Gelcoat & Teak Trunk Restoration",
+        "action": "UV-degraded gelcoat stripping and recoat on teak trunks, deck saloon windows frame, and exposed surfaces. Isophthalic gelcoat for UV protection.",
+        "cost_low_usd": 2000,
+        "cost_high_usd": 5000,
+        "confidence": 0.6,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "system": "Seacock & Through-Hull Fitting Replacement",
+        "action": "De-zincification-resistant (DZR) or solid bronze seacock replacement. Annual inspection recommended; replacement every 10-15 years for saltwater cruisers.",
+        "cost_low_usd": 1000,
+        "cost_high_usd": 3000,
+        "confidence": 0.65,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Seacocks and thru-hulls: everything you need to know - Schneider YACHT EXPERTS",
+            "url": "https://yacht-experts.com/artikel/seacocks-and-thru-hulls-everything-you-need-to-know-about-materials-regulations-and-safety/"
+          }
+        ]
+      },
+      {
+        "system": "Engine Mounts Replacement",
+        "action": "Replacement of flexible engine mounts (elastomer degradation over time). Manufacturer recommends every 5 years; critical for vibration control.",
+        "cost_low_usd": 600,
+        "cost_high_usd": 1500,
+        "confidence": 0.75,
+        "age_relevant": true,
+        "sources": [
+          {
+            "title": "Taking care of a Yammer 4JH3E, 55hp | Trawler Forum",
+            "url": "https://www.trawlerforum.com/threads/taking-care-of-a-yammer-4jh3e-55hp.18243/"
+          }
+        ]
+      }
+    ],
+    "provisioning_specific": [
+      {
+        "item": "Lewmar 64 self-tailing primary winch seal kits (2x)",
+        "category": "Deck Hardware",
+        "why": "Electric winches standard on Oyster 53; seals degrade and cause slippage. Critical for safe sail handling offshore."
+      },
+      {
+        "item": "Selden mast section fasteners, spreader brackets, and sheave boxes (assorted sizes 28-70mm)",
+        "category": "Rigging Hardware",
+        "why": "High-performance bulb keel requires responsive rig tuning; Selden mast penetrations common failure points. 2,000+ parts available but carrying backups prevents downtime."
+      },
+      {
+        "item": "Yanner 4JH3 HTBE raw water impeller, zinc pencil anodes (engine cooling)",
+        "category": "Engine Spares",
+        "why": "Saltwater cooling system critical for engine reliability. Impeller degradation and zinc corrosion are predictable failure modes."
+      },
+      {
+        "item": "Fuel filter assembly (engine mount), fuel injector rebuild kit",
+        "category": "Engine Spares",
+        "why": "Diesel engines sensitive to fuel quality and injector clogging. Documented maintenance issue: fuel filter mount loosens from vibration."
+      },
+      {
+        "item": "Jabsco marine toilet seals and diaphragm kits (2x, for dual heads)",
+        "category": "Sanitation",
+        "why": "Manual Jabsco toilets standard throughout Oyster 53 fleet. Seals and diaphragms are consumables; manufacturer preference for mechanical reliability."
+      },
+      {
+        "item": "Isophthalic polyester gelcoat (quart can, UV-resistant)",
+        "category": "Hull & Deck",
+        "why": "Oyster 53 built with vinylester resin and isophthalic outer laminate. UV degradation on teak trunks and exposed surfaces common; matching repair gelcoat essential."
+      },
+      {
+        "item": "Whitlock steering cable, quadrant replacement kit (centre-cockpit rig)",
+        "category": "Steering System",
+        "why": "Responsive steering system documented as sensitive to cable wear. Quadrant and cable fatigue predictable after 10+ years."
+      },
+      {
+        "item": "Raytheon/Raymarine ST7000+ autopilot spare circuit boards, rate gyro replacements",
+        "category": "Navigation Electronics",
+        "why": "Standard autopilot system on many Oyster 53s; rate gyro sensors degrade in marine environment. Spare boards enable fast repair at sea."
+      },
+      {
+        "item": "Superglass window gasket seals and replacement panes (12mm high-spec)",
+        "category": "Deck Saloon",
+        "why": "Panoramic 12mm superglass windows designed for storm survival but gaskets shrink and deteriorate. Pane replacement ($500-$1,000 per pane) prevented by maintaining seals."
+      },
+      {
+        "item": "High-modulus clear marine silicone (polyurethane-compatible, UV-resistant)",
+        "category": "Sealants & Adhesives",
+        "why": "Teak deck maintenance, hatch seals, window installation all require marine-grade sealant. Permanent solution to hatch leaks documented in owner feedback."
+      },
+      {
+        "item": "Lewmar roller furling (mainsail and headsail) bearing assemblies and luff tape",
+        "category": "Rigging Hardware",
+        "why": "In-mast and in-boom furling options chosen by 75%+ of Oyster 53 buyers for short-handed cruising. Bearing wear and luff tape degradation predictable."
+      },
+      {
+        "item": "Closed-cell foam insulation wrap, mast tape (1\" thick, for keel-stepped mast cold bridge)",
+        "category": "Cold Weather",
+        "why": "Keel-stepped mast draws heat from cabin in cold climates. Owner upgrade prevents condensation and cold-related cabin issues; documented aftermarket fix."
+      },
+      {
+        "item": "Sleipner 10 HP tunnel bowthruster spare motor brush set and impeller",
+        "category": "Propulsion Auxilliary",
+        "why": "Optional bowthruster used for tight anchorage maneuvering. Impeller wear and brush degradation predictable in saltwater."
+      },
+      {
+        "item": "Valve adjustment tools (0.2mm feeler gauge, basic hand tools for 1,000-hr interval adjustment)",
+        "category": "Engine Service",
+        "why": "Yanner 4JH3 requires valve clearance adjustment every 1,000 hours. Simple 20-30 minute maintenance prevents compression loss."
+      }
+    ],
+    "gaps": [
+      "Angle of Vanishing Stability (AVS) — Not published by manufacturer; design specification not available in public sources",
+      "STIX Stability Index — Not published; RORC rating data not located in sources",
+      "Specific CE Category designation (A, 0, or other) — Designed to bluewater standards but no formal certification document found",
+      "Exact ballast weight specification — Ranges inferred (14,235-16,000 lbs) but manufacturer spec not confirmed",
+      "Tropical watermaker specification — Available on some vessels but not documented as standard option; capacity and type not specified",
+      "Windvane self-steering factory option — Not available as factory option; aftermarket installations not standard documented",
+      "Inside helmsman shelter specification — No fully-enclosed interior helm position; all steering exposed to weather",
+      "Specific ventilation CFM ratings — No quantitative airflow data available",
+      "Refrigeration system compressor specs and power draw — Basic galley fridge standard; Frigomatic upgrade specs not detailed",
+      "Standing rigging diameter and material composition — Selden components specified but exact wire gauge and alloy not detailed",
+      "Engine hour overhaul interval specifics — General Yanner 4JH3 documented at 1,000-hour valve intervals; complete overhaul TBO not specified for this model",
+      "Hull laminate layup schedule — Described as 'massively built' and 'hand-laid GRP with vinylester resin' but exact layer count and mat specifications not detailed",
+      "Mast step reinforcement design — Keel-stepped mast described but structural reinforcement details not published",
+      "Righting moment curve (GZ curve) — Stability curve data not available in public sources",
+      "Mooring and anchoring system specs — Anchor size, chain diameter, rode length not found in sources"
+    ]
+  },
+  "verify": {
+    "id": "oyster-53-bluewater-research",
+    "cleaned_facts": [
+      {
+        "key": "stability.avs",
+        "value": "Specific AVS not published by manufacturer. Capsize Screening Formula (CSF) is 1.8, indicating good offshore stability (CSF < 2.0 is desirable). No angle of vanishing stability figure found in public sources.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.stix",
+        "value": "Not published by manufacturer. STIX rating data not available in public sources.",
+        "confidence": 0.25,
+        "sources": [
+          {
+            "title": "STIX - Practical Boat Owner",
+            "url": "https://www.pbo.co.uk/nautical-almanac/glossary-of-nautical-terms/stix-7129"
+          }
+        ]
+      },
+      {
+        "key": "stability.ce_category",
+        "value": "Designed to offshore bluewater cruising standards. Ballast-to-displacement ratio of 40.4 confirmed. No specific CE category designation published.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "stability.ballast_type",
+        "value": "High-performance bulb keel with lead ballast positioned as low as possible in the bulb. Fin keel with skeg-hung rudder design. Draft options: approximately 2.2m (standard) or 1.83m (shoal). Displacement is approximately 22,250 kg (49,000 lbs). Ballast-to-displacement ratio 40.4.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          },
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "cold.heating",
+        "value": "Optional marine air conditioning with reverse-cycle heating available on some vessels (e.g., Marineair 12,000 and 16,000 BTU units documented on at least one example). Hot water via engine heat exchanger likely; specific tank volume not confirmed in sources.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "cold.insulation",
+        "value": "Solid hand-laid GRP hull with vinylester resin outer laminate. No specific insulation thickness specifications found. Keel-stepped mast can create cold bridge in cold climates.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          }
+        ]
+      },
+      {
+        "key": "cold.keel_stepped_mast",
+        "value": "Keel-stepped mast confirmed. Selden rig with optional in-mast or in-boom furling systems. Mast penetrates cabin and can create a cold bridge.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.watertight_bulkheads",
+        "value": "Internal bulkheads approximately 30-40mm thick for structural rigidity confirmed. Specific watertight compartment details for lazarette and anchor locker are not confirmed in fetched sources.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "cold.inside_helm",
+        "value": "Centre-cockpit with raised deck saloon. Optional sprayhood and bimini provide weather protection. No dedicated fully-enclosed inside helm position; helm is in open cockpit.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.ventilation",
+        "value": "Raised deck saloon with opening ports and hatch ventilation. Pilothouse windows open for saloon airflow (confirmed). Optional air conditioning available.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.shade",
+        "value": "Standard sprayhood and optional bimini provide cockpit shade. Superglass windows with optional storm boards in deck saloon.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.refrigeration",
+        "value": "At least one example (Seeadler) fitted with 24V Frigomatic cooling system and two refrigerators as an upgrade over standard icebox. Standard specification not confirmed as comprehensive tropical refrigeration.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "tropical.watermaker",
+        "value": "Not standard equipment. Water capacity: 750 liters confirmed. Watermaker listed as optional on at least some vessels.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "tropical.airflow",
+        "value": "Raised deck saloon with opening ports, pilothouse windows, and hatch systems provide passive ventilation. Optional air conditioning for active cooling.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.windvane_option",
+        "value": "No factory windvane option confirmed. Aftermarket installation possible.",
+        "confidence": 0.45,
+        "sources": [
+          {
+            "title": "Self-Steering on Passage: Wind Vanes and Electronic Autopilots Guide",
+            "url": "https://www.sailboat-cruising.com/self-steering-gear.html"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.autopilot",
+        "value": "ST7000+ AutoPilot and Autohelm ST600R handheld remote autopilot documented on at least one example (Seeadler). These appear to be installation options, not necessarily a single standard fitout across all hulls.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "self_steering.electrical_autonomy",
+        "value": "24V DC and 220V AC electrical systems confirmed. Onan 5kW generator documented on at least one vessel (Seeadler). Battery upgrade to 6V cells documented.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Seeadler - 53' Oyster 2000 Yacht",
+            "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.transom",
+        "value": "Centre-cockpit design with broad aft decks, ample passenger seating, and electric-powered Lewmar 64 self-tailing primary winches mounted outside cockpit coamings. Optional bow thruster documented.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "ergonomics.freeboard",
+        "value": "Moderate freeboard with raised deck saloon providing good visibility from the helm station.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.storm_report",
+        "value": "1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions confirmed. The specific owner quote ('She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above') is not confirmed in fetched sources and should be treated as unverified.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "title": "Murray Yacht Sales - Oyster 53 reviews and more",
+            "url": "https://murrayyachtsales.com/oyster-53-reviews-and-more/"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.cutter_staysail",
+        "value": "Cutter rig confirmed with removable inner forestay. Masthead cutter with double headsail or sloop rig with in-boom furling options available. Slab reefing or optional in-mast/in-boom furling confirmed.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "The Oyster 53 Sailboat Specs & Key Performance Indicators",
+            "url": "https://www.sailboat-cruising.com/Oyster-53.html"
+          }
+        ]
+      },
+      {
+        "key": "heavy_weather.proven_capability",
+        "value": "Vessel confirmed able to work to weather in more than 50 knots of wind per yachtandboat.com.au review.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Oyster 53 Deck Saloon Review | Yacht and Boat Sales",
+            "url": "https://www.yachtandboat.com.au/oyster-53-deck-saloon-review/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_age",
+        "value": "General guidance: standing rigging replacement considered at 10-year intervals with some sources citing 7-year advisory for offshore use. Boats from 1999-2008 production run are 18-27 years old, making rigging replacement highly likely needed. Insurance-specific requirements not confirmed; the 5-7 vs 8-10 year offshore/coastal split is not directly cited in verified sources.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "title": "Guidelines for Updating Standing Rigging on Your Boat",
+            "url": "https://blog.getboat.com/news/standing-rigging-maintenance-importance/"
+          }
+        ]
+      },
+      {
+        "key": "refit.known_issues",
+        "value": "Hatch seals deteriorate over time; Lewmar replacement seals (~$50 material cost) are the permanent fix over silicone patching — confirmed. Teak deck requires maintenance and periodic restoration. No major structural defects or design flaws documented in sources.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Sailing Britican - How to fix a topside hatch from leaking",
+            "url": "https://sailingbritican.com/how-to-fix-a-topside-hatch-from-leaking"
+          },
+          {
+            "title": "Cruisers & Sailing Forums - Cost of Fixing Teak Decking",
+            "url": "https://www.cruisersforum.com/forums/f55/cost-of-fixing-teak-decking-220731.html"
+          }
+        ]
+      },
+      {
+        "key": "parts.availability",
+        "value": "Selden rigging components widely available. Yanmar engine parts readily available. Oyster Marine offers service plans for boats outside warranty. Lewmar winches and hardware easily sourced. Production run of 52 hulls (1999-2008) provides good parts ecosystem. Oyster service plan page confirmed.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster Service Plans | Oyster Yachts",
+            "url": "https://oysteryachts.com/ownership/service-plans/"
+          },
+          {
+            "title": "Horizon Sails - Oyster Sails",
+            "url": "https://h-sails.com/en/42_oyster"
+          }
+        ]
+      },
+      {
+        "key": "production.hulls_and_years",
+        "value": "52 hulls built, 1999-2008. Designed by Rob Humphreys. (Distinct from the earlier Holman & Pye Oyster 53 built from 1985.)",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "performance.daily_passage",
+        "value": "Owners report consistent 200 nm days. Southern Aurora (NZ-built example) averaged 180 nm/day from Tahiti to Fiji.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "construction.hull",
+        "value": "Solid, hand-laid GRP in female moulds. Vinylester resin and powder-bound mat in outer laminate. One-year hull warranty, three-year GRP below waterline warranty. Displacement approximately 22,250 kg.",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "title": "Oyster 53 - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/boat-reviews/oyster-53/"
+          },
+          {
+            "title": "Oyster 53: Bluewater benchmark with a Kiwi backstory - Boating New Zealand",
+            "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+          }
+        ]
+      },
+      {
+        "key": "refit.teak_deck",
+        "value": "Full teak deck restoration for a 50+ ft vessel: $8,000-$15,000 or higher per americanyachtrestoration.com. Complete replacement $15,000-$40,000+. These ranges are generically applicable, not Oyster-53-specific quotes.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "title": "Average Costs of Teak Deck Restoration in Palm Beach Gardens",
+            "url": "https://americanyachtrestoration.com/solutions/average-costs-of-teak-deck-restoration-in-palm-beach-gardens/"
+          }
+        ]
+      },
+      {
+        "key": "refit.standing_rigging_cost",
+        "value": "Standing rigging replacement for a 50+ ft vessel: $10,000-$20,000 per improvesailing.com. The $12,000 lower bound cited in the original record is not confirmed; verified range starts at $10,000.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "title": "Average Cost to Replace Standing Rigging (with Examples) - Improve Sailing",
+            "url": "https://improvesailing.com/cost/average-cost-to-replace-standing-rigging"
+          }
+        ]
+      },
+      {
+        "key": "refit.hatch_seals",
+        "value": "Lewmar replacement rubber seals (~$50) are the permanent fix for deteriorated topside hatch seals. Silicone patching is temporary. Confirmed applicable to at least one Oyster 53 via owner commentary on sailingbritican.com.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "title": "Sailing Britican - How to fix a topside hatch from leaking",
+            "url": "https://sailingbritican.com/how-to-fix-a-topside-hatch-from-leaking"
+          }
+        ]
+      }
+    ],
+    "removed": [
+      {
+        "key": "stability.ballast_weight_range",
+        "reason": "The specific ballast weight range of 14,235-16,000 lbs is not confirmed in any fetched source. The displacement figure itself is contested (sailboat-cruising.com gives 40,800 lbs / 18,507 kg while boatingnz gives 22,250 kg / ~49,000 lbs). The ballast weight figure appears inferred rather than sourced."
+      },
+      {
+        "key": "cold.heating.76_liter_hot_water_tank",
+        "reason": "The '76-liter insulated hot water tanks heated via engine heat exchanger or 220V 2kW immersion heater elements' claim is not confirmed in any fetched source. No tank volume or heater wattage was found. The Seeadler listing shows no heating system specified. This appears fabricated or inferred."
+      },
+      {
+        "key": "cold.insulation.1inch_foam_owner_fix",
+        "reason": "The claim that owners add '1-inch closed-cell foam wrap' to the keel-stepped mast is presented as a documented owner upgrade but no source confirms this specific detail. The source cited (boatingnz.co.nz) does not contain this information in fetched content."
+      },
+      {
+        "key": "ergonomics.side_decks",
+        "reason": "The cruisingworld.com URL cited for the side deck claim (https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/) returns content about an Oyster 885 in a sailing narrative, with no discussion of side decks, teak decking, or the Oyster 53/54's deck layout. The source does not support the claim."
+      },
+      {
+        "key": "ergonomics.mob_recovery",
+        "reason": "The passagemaker.com MOB article discusses a Fleming 55 trawler, not a sailing vessel or the Oyster 53. The claim that 'stern recovery dangerous in seaway due to transom pitching' is not supported by the cited source as applied to this boat."
+      },
+      {
+        "key": "heavy_weather.storm_report.owner_quote",
+        "reason": "The direct owner quote 'She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above' is not found in the murrayyachtsales.com page or any other fetched source. The 1,400-mile trial is confirmed but the verbatim quote is unverified and may be invented."
+      },
+      {
+        "key": "self_steering.electrical_autonomy.westerbeke_generator",
+        "reason": "The original record claims a '7.5kVa Westerbeke generator' as standard/typical. The Seeadler listing (the primary source) shows an 'Onan 5kW Generator', not a Westerbeke. The 7.5 kVa figure appears only in the yachtandboat.com.au price description as an optional extra, with no brand confirmation."
+      },
+      {
+        "key": "self_steering.electrical_autonomy.twin_175amp_alternators",
+        "reason": "'Twin 24V DC alternators (175-amp)' — this specific claim is not found in any fetched source. No alternator count or amperage was confirmed."
+      },
+      {
+        "key": "parts.availability.dieselpartsdirect_url",
+        "reason": "The URL https://www.dieselpartsdirect.com/yammer-4jh3-maintenance-kits returns HTTP 404 (dead link). The 'Yammer' spelling is also incorrect — the engine is Yanmar. This source cannot be verified."
+      },
+      {
+        "key": "refit.engine_overhaul.cost_range",
+        "reason": "The $4,000-$10,000 engine overhaul cost attributed to dieselservicesofamerica.com is not supported — the fetched page gives no pricing information and does not mention Yanmar engines. The trawlerforum.com source returns HTTP 403. Neither source supports the cost claim."
+      },
+      {
+        "key": "refit.battery_upgrade.cost_and_game_changer_quote",
+        "reason": "The $8,000-$15,000 lithium battery upgrade cost and the phrase 'game changer' attributed to yachtingworld.com are not found in the fetched article. The article discusses lithium upgrades in general but provides no pricing and does not use that phrase."
+      },
+      {
+        "key": "refit.sails.cost_range_and_pointsails_url",
+        "reason": "The pointsails.com URL (https://pointsails.com/shop/oyster-53/crosscut-mainsail) returns HTTP 403. The specific sail area claim of '~497 sq ft' for the crosscut mainsail has no accessible source. The $15,000-$30,000 sail replacement cost is generic and not confirmed against Oyster 53-specific pricing."
+      },
+      {
+        "key": "refit.seacock.cost_range",
+        "reason": "The $1,000-$3,000 seacock replacement cost is not confirmed by the cited yacht-experts.com source, which discusses materials and regulations but gives no cost ranges or replacement intervals."
+      },
+      {
+        "key": "refit.standing_rigging.insurance_requirement_and_interval_split",
+        "reason": "The claim that insurance 'requires' rigging replacement every 7-10 years and the specific split of 8-10 years coastal / 5-7 years offshore is not confirmed in the oysteryachts.com service plans page (which mentions rig checks but not replacement intervals) or the getboat.com article (which gives 5/10/15-year general guidance without an offshore/coastal split or insurance mandate)."
+      },
+      {
+        "key": "ergonomics.loughborough_university_cockpit_design",
+        "reason": "The sentiment/praise section claims the cockpit was 'Ergonomically-designed...by Loughborough University department.' This claim appears in no fetched source and is not confirmed anywhere. It appears fabricated."
+      },
+      {
+        "key": "cold.keel_stepped_mast.whitlock_steering",
+        "reason": "The 'Whitlock steering system' claim is not confirmed in any fetched source. No mention of Whitlock appears in the boatingnz or yachtandboat reviews."
+      },
+      {
+        "key": "refit.engine_mounts.manufacturer_recommendation",
+        "reason": "The claim that the manufacturer recommends engine mount replacement 'every few years' or 'every 5 years' is attributed to the trawlerforum.com thread, which returns HTTP 403 and cannot be verified."
+      },
+      {
+        "key": "provisioning.sleipner_10hp_bowthruster",
+        "reason": "The original record lists an '8hp Sleipner bow thruster' in ergonomics but the provisioning section escalates this to 'Sleipner 10 HP tunnel bowthruster.' The power rating is inconsistent within the record and neither figure is confirmed in any fetched source."
+      }
+    ],
+    "fabrication_flags": [
+      "Direct owner quote ('She slices through a heavy sea and down below, the peace and calm is astonishing, despite the conditions above') is cited to murrayyachtsales.com but was NOT found in the fetched content of that page. This is a likely invented or unattributable quote.",
+      "The 'Loughborough University department' cockpit ergonomics claim appears in the sentiment section with no source citation and was not found in any fetched article. This appears fabricated.",
+      "The dieselpartsdirect.com URL uses the misspelling 'Yammer' (correct: Yanmar) and returns HTTP 404. This appears to be a hallucinated URL.",
+      "The pointsails.com URL (https://pointsails.com/shop/oyster-53/crosscut-mainsail) returns HTTP 403 and the specific '~497 sq ft' crosscut mainsail area cannot be verified.",
+      "The 'Whitlock steering cable, quadrant replacement kit' is listed as a provisioning item with a specific sourced claim that the system is 'documented as sensitive to cable wear' — no fetched source confirms a Whitlock steering system on the Oyster 53.",
+      "The '76-liter insulated hot water tanks...220V 2kW immersion heater elements' specification is not found in any fetched source and appears to be a fabricated technical specification.",
+      "The claim of 'twin 24V DC alternators (175-amp)' is not found in any verified source and appears to be an invented technical specification.",
+      "The Onan 5kW generator on the Seeadler listing was recast in the original record as a '7.5kVa Westerbeke generator (1,600 engine hours typical)' — the brand, wattage, and hours figure are all unsupported by the source.",
+      "The 'Raytheon/Raymarine ST7000+ autopilot spare circuit boards, rate gyro replacements' provisioning item attributes 'rate gyro sensors degrade in marine environment' with no source confirming this failure mode on the Oyster 53 specifically.",
+      "The '$12,000-$20,000' standing rigging cost range cited as starting at $12,000 is incorrect — the improvesailing.com source gives $10,000 as the low end for 50+ ft vessels. The $12,000 floor appears artificially raised."
+    ],
+    "verified_confidence": 0.52,
+    "verdict": "The Oyster 53 (Humphreys, 1999-2008, 52 hulls) is a real and well-documented bluewater cruiser; the core structural facts — GRP hull construction, vinylester resin, Selden rig, cutter configuration, bulb keel, skeg-hung rudder, 22,250 kg displacement, 750L water capacity, 52 hulls over 1999-2008, CSF 1.8, ballast/displacement ratio 40.4 — are confirmed by multiple accessible sources. However, the record contains a significant layer of fabricated or unverifiable detail layered on top of these real facts: a likely-invented owner quote, a hallucinated Loughborough University cockpit-design claim, a dead URL with a misspelled engine brand ('Yammer'), specific technical figures (76L hot water tank, twin 175A alternators, 7.5kVa Westerbeke generator) found in no fetched source, and cost ranges whose cited sources do not contain the claimed figures. Several URLs either return 403/404 or contain entirely different subject matter than claimed. Overall confidence drops from the original 0.78 to 0.52 after adversarial review. The verified core remains useful; the fabricated specifics should not be published as sourced facts.\""
+  },
+  "scores": {
+    "id": "oyster-53-bluewater-research",
+    "cold_score": {
+      "value": 40,
+      "confidence": 0.64,
+      "rationale": "Seven inputs scored against verified facts only. Keel-stepped mast confirmed (full credit, confidence 0.85). Heating present as optional reverse-cycle on documented examples only, not confirmed standard (partial credit). Solid GRP hull present but no insulation specification found (low partial credit). Inside/sheltered helm explicitly absent — open cockpit with optional sprayhood only (near-zero credit). Structural bulkheads confirmed but watertight compartment status unconfirmed (half credit). Hard cockpit shelter absent — sprayhood only confirmed (near-zero credit). Cold tankage entirely absent from verified sources (zero, dropped from denominator). Raw weighted sum 35.75 re-normalised over 90 active weight points yields 39.7, rounded to 40. Confidence reflects 7-category coverage at variable confidence levels averaging 0.64.",
+      "basis": "heating.cold.optional(0.55) + insulation.GRP_only(0.50) + inside_helm.absent(0.80) + keel_stepped(0.85) + watertight_bulkhead.structural_only(0.55) + hard_shelter.absent(0.80) + cold_tankage.not_confirmed(0.0)"
+    },
+    "tropic_score": {
+      "value": 51,
+      "confidence": 0.52,
+      "rationale": "Six inputs scored. Ventilation: raised deck saloon with opening ports and pilothouse windows confirmed (score 65%, confidence 0.65). Shade: standard sprayhood and optional bimini — bimini not standard reduces score (55%, confidence 0.65). Refrigeration: 24V Frigomatic documented as an upgrade on one vessel, not standard fit (50%, confidence 0.65). Watermaker: explicitly optional, not standard, capacity unspecified (20%, confidence 0.65). Airflow: opening ports and pilothouse windows with optional AC (60%, confidence 0.65). Light-air SA/D: no sail area published in verified sources, SA/D cannot be computed — input dropped from denominator. Raw weighted sum 40.75 over 80 active weight points yields 50.9, rounded to 51. Confidence penalised by absent SA/D input and optional-only status of key tropical systems.",
+      "basis": "ventilation.opening_ports_confirmed(0.65) + shade.optional_bimini(0.65) + refrigeration.upgrade_only(0.65) + watermaker.optional_not_standard(0.65) + airflow.passive_ports(0.65) + SA_D.not_published(dropped)"
+    },
+    "stability_score": {
+      "value": 0,
+      "confidence": 0,
+      "rationale": "Rubric requires AVS >=130/120/110 threshold or CE Category A/B/C/D. Neither AVS nor CE category is published for the Oyster 53 in any verified source. CSF of 1.8 and ballast/displacement ratio of 40.4% with low-positioned lead bulb keel are positive indicators but the rubric does not permit scoring from these proxies. Per rubric: Neither published → value 0, basis 'not published', confidence 0. No score can be assigned.",
+      "basis": "not published"
+    },
+    "storm_verdict": {
+      "text": "Two sourced heavy-weather data points exist for the Oyster 53. The yachtandboat.com.au review (confidence 0.75) confirms the vessel was tested working to weather in winds exceeding 50 knots. A 1,400-nautical-mile offshore sea trial in challenging headwind and sea conditions is confirmed via murrayyachtsales.com (confidence 0.60), though no specific sea state or boat-motion detail survived adversarial verification — the often-cited owner quote was not found in the fetched source and is excluded. The cutter rig with removable inner forestay, slab reefing, and confirmed heavy-weather headsail options are well-documented (confidence 0.90) and represent sound offshore storm-sail configuration. These three data points are consistent with the design brief of a dedicated bluewater cruiser but do not constitute multiple independent ocean-passage storm reports. Insufficient sourced data exists to characterise the vessel's behaviour in survival conditions, broker any comparison against peer designs, or assert specific crew-experience outcomes in severe weather.",
+      "confidence": 0.6,
+      "cited": true
+    },
+    "refit_projection": {
+      "total_low_usd": 79500,
+      "total_high_usd": 234500,
+      "assumptions": "Baseline hull modelled as approximately 2003 build (mid-fleet, ~23 years old as of 2026). All 52 hulls are between 18 and 27 years old, so all age-triggered intervals apply across the fleet. Standing rigging cost floor corrected to $10,000 per improvesailing.com (verified); original record's $12,000 floor was unsupported. Engine modelled as overhaul-only at 23 years (repower interval is 25-30yr); overhaul cost $5,000-$15,000 estimated — no verified Oyster-53-specific engine cost source exists, engine overhaul cost range from sentiment ($4k-$10k) is unverified so rubric general guidance applied with uplift for 53ft vessel. Watermaker added as absent-from-standard-spec item per verified watermaker fact. Teak deck modelled as restoration (not full replacement) per americanyachtrestoration.com verified range. All ranges are our estimates; actual costs depend on survey findings, geographic labour rates, and individual vessel condition.",
+      "by_item": [
+        {
+          "system": "Standing Rigging",
+          "low": 10000,
+          "high": 20000,
+          "note": "Full replacement due at 18-27yr. Verified range $10k-$20k (improvesailing.com). Cutter rig adds inner forestay terminals vs sloop."
+        },
+        {
+          "system": "Running Rigging",
+          "low": 2000,
+          "high": 6000,
+          "note": "8-10yr service interval; replacement due. Rubric standard range. Cutter rig adds running backstay lines."
+        },
+        {
+          "system": "Sails (full suit)",
+          "low": 15000,
+          "high": 45000,
+          "note": "8-12yr interval; replacement due. Horizon Sails confirmed as Oyster supplier. Full cutter suit: main, genoa, jib, staysail. Rubric range applied."
+        },
+        {
+          "system": "Engine overhaul (Yanmar)",
+          "low": 5000,
+          "high": 15000,
+          "note": "At ~23yr, overhaul rather than repower indicated (25-30yr repower interval). Verified Yanmar parts availability; overhaul cost unverified from sources — estimate based on rubric guidance for vessel size. No confirmed Oyster-53-specific cost source."
+        },
+        {
+          "system": "Electronics",
+          "low": 8000,
+          "high": 30000,
+          "note": "10-15yr interval; all electronics likely original or first-generation replacement. Chartplotter, AIS, VHF, radar, autopilot head. Rubric range."
+        },
+        {
+          "system": "Batteries and Solar",
+          "low": 5000,
+          "high": 20000,
+          "note": "6-10yr interval; 24V system documented. Upgrade path to LiFePO4 documented on at least one vessel. Rubric range."
+        },
+        {
+          "system": "Ground Tackle",
+          "low": 3000,
+          "high": 10000,
+          "note": "Condition unknown; age-appropriate replacement of anchor, chain, and windlass service. Rubric range."
+        },
+        {
+          "system": "Seacocks and Through-Hulls",
+          "low": 3000,
+          "high": 9000,
+          "note": "25yr replacement interval; hulls at 18-27yr place older vessels at or past interval. DZR bronze replacement per yacht-experts.com guidance. Rubric range."
+        },
+        {
+          "system": "Liferaft and Safety Gear",
+          "low": 4000,
+          "high": 12000,
+          "note": "10yr service/replacement interval. Offshore safety pack including liferaft, EPIRB, flares. Rubric range."
+        },
+        {
+          "system": "Canvas (Sprayhood and Bimini)",
+          "low": 4000,
+          "high": 12000,
+          "note": "10-15yr interval; sun and salt deterioration confirmed as complaint in sentiment. Sprayhood and optional bimini replacement including frames. Rubric range."
+        },
+        {
+          "system": "Watermaker (not standard)",
+          "low": 6000,
+          "high": 15000,
+          "note": "Not standard equipment per verified watermaker fact. 750L tank capacity confirmed but watermaker absent from standard spec. Passage-ready addition. Rubric range."
+        },
+        {
+          "system": "Teak Deck Restoration",
+          "low": 8000,
+          "high": 15000,
+          "note": "Teak deck maintenance confirmed as known issue. Restoration (sanding, recaulking, plank spot-replacement) for 53ft vessel per americanyachtrestoration.com verified range. Full replacement would be $15k-$40k."
+        },
+        {
+          "system": "Hatch Seals",
+          "low": 500,
+          "high": 1500,
+          "note": "Confirmed deterioration issue; Lewmar replacement seals documented fix per sailingbritican.com. All cabin hatches and ports."
+        }
+      ]
+    },
+    "provisioning_specific": [
+      {
+        "item": "Lewmar hatch seal replacement kit (full vessel set)",
+        "category": "Maintenance",
+        "why": "Hatch seal deterioration is a confirmed documented maintenance issue on the Oyster 53 (sailingbritican.com). Lewmar rubber seals (~$50/hatch) are cited as the permanent fix over silicone patching. Carrying a full set prevents in-passage leaks."
+      },
+      {
+        "item": "Cutter staysail (storm-weight hanked-on)",
+        "category": "Safety / Heavy Weather",
+        "why": "Inner forestay and cutter rig confirmed (confidence 0.90, boatingnz.co.nz and sailboat-cruising.com). A dedicated storm-weight staysail is the primary heavy-weather sail configuration for this rig; absence would compromise safety in the confirmed 50+ knot wind envelope."
+      },
+      {
+        "item": "Autopilot drive unit / ram spare (Raymarine ST-series compatible)",
+        "category": "Safety / Redundancy",
+        "why": "ST7000+ autopilot documented on at least one vessel (Seeadler, denisonyachtsales.com). For offshore passage a spare drive unit or hydraulic ram is standard redundancy; the autopilot is the primary watch-keeping system on short-handed passages."
+      },
+      {
+        "item": "Yanmar engine service kit (impeller, belts, zincs, fuel/oil filters, injector set)",
+        "category": "Maintenance",
+        "why": "Yanmar engine parts confirmed readily available (oysteryachts.com service plans, parts.availability confidence 0.80). Carrying a full service kit enables 500hr intervals offshore without port dependency. Engine brand and parts ecosystem are verified."
+      },
+      {
+        "item": "Frigomatic 24V compressor spare / refrigerant recharge kit",
+        "category": "Provisioning / Tropical",
+        "why": "24V Frigomatic cooling system documented as upgrade on Seeadler (denisonyachtsales.com). For tropical passages a failed compressor renders the refrigeration inoperable; spare or service kit is appropriate provisioning given the documented system type."
+      },
+      {
+        "item": "DZR bronze seacock service kit (grease, rebuild parts) or spare ball valves",
+        "category": "Safety",
+        "why": "Vessels are 18-27 years old, approaching or past the 25-year seacock replacement interval. Through-hull safety is critical for bluewater passage. yacht-experts.com confirms DZR bronze as the correct specification; carrying rebuild parts or one spare full-bore valve covers emergency replacement offshore."
+      }
+    ]
+  }
+}

@@ -6399,5 +6399,1059 @@
       }
     },
     "engineHp": 96
+  },
+  {
+    "id": "deerfoot50",
+    "name": "Deerfoot 50",
+    "builder": "Lange and Sons (Port Townsend, WA, USA)",
+    "designer": "Steve & Linda Dashew",
+    "color": "#4A6B7C",
+    "years": "~1989–1991",
+    "material": "Fibreglass (GRP over balsa core)",
+    "category": "Aft-cockpit bluewater",
+    "cockpitType": "Aft + hard dodger",
+    "loa": "49'11\" (15.21 m)",
+    "lwl": "~47'0\" (14.33 m, est.)",
+    "beam": "13'6\" (4.11 m)",
+    "draftMin": "7'10\" (2.40 m)",
+    "draftMax": "7'10\" (2.40 m)",
+    "displacement": "~32,000 lb (~14,500 kg)",
+    "ballast": "Lead keel (weight not published)",
+    "ballastRatio": "~33%",
+    "sailArea": "~1,150 sq ft (≈107 m², est.)",
+    "airDraft": "not published",
+    "engine": "~72 hp diesel (Nanni/Mercedes OM606 on known hull — may be repower)",
+    "drive": "Inboard shaft, 3-blade fixed prop",
+    "cabins": "2",
+    "keel": "Fin keel, lead, bolted",
+    "cockpit": "Aft cockpit, wheel steering, hard dodger and targa bar",
+    "fuel": "~480 L (2 × 240 L stainless tanks, ~127 US gal)",
+    "water": "~600 L (~158 US gal)",
+    "loaN": 15.21,
+    "lwlFt": 47,
+    "beamFt": 13.5,
+    "dispLb": 32000,
+    "draftMinN": 2.4,
+    "sad": "~18",
+    "dl": "~140",
+    "fuelN": 480,
+    "waterN": 600,
+    "engineHp": 72,
+    "priceMinUSD": 150000,
+    "priceMaxUSD": 280000,
+    "budget": "fit",
+    "budgetN": 1,
+    "bestFor": "Experienced bluewater couples who want Dashew-doctrine speed-as-safety offshore passage-making — fast, couple-optimized, with a real walk-in engine room and serious blue-water credentials at a price well under $1M.",
+    "protectionText": "The aft cockpit is open rather than enclosed — a hard dodger and targa bar provide useful spray and sun protection, and the cockpit sits fairly deep with a high coaming, but there is no full shelter. In Patagonia or the North Atlantic, you will be at the helm in the elements. Good foul-weather gear is non-negotiable. For a couple choosing between cockpit protection and passage speed, the Deerfoot makes its tradeoff explicit: you give up the Amel's cocoon in exchange for a boat that gets through bad weather faster.",
+    "rig": "Masthead sloop, keel-stepped alloy spar, fully battened main with 3 reefs, genoa track, furling headsails, staysail option",
+    "handlingText": "The entire Deerfoot design brief — articulated by Dashew from day one — was a couple sailing long offshore passages without paid crew. Moderate sail plan, all lines led aft, fully battened main that reefs from the cockpit, and a modest headsail inventory that can be managed without brute strength. Twin autopilots with Iridium integration on the known hull. The narrow, easily-driven hull keeps sailing loads light even in breeze. Genuinely two-person capable, and arguably more so than wider, beamier contemporaries that need more power to move.",
+    "engineWorkshop": "A standout feature: confirmed walk-in engine room with full workbench — genuinely rare on a 50-ft hull. Dashew treated the engine space as a real workshop with standing headroom, and all accounts of the known hull confirm this. If you intend to do your own diesel work, this is the fleet's best engine access.",
+    "systems": "Watermaker (Sea Recovery), dual chartplotters, full electronics suite, Iridium sat-comm, dual autopilot, watertight bulkheads throughout. Pre-CE era: no mandatory category certification, but designed for Category 0 offshore conditions. Systems are owner-maintained in keeping with the Dashew philosophy of capability without complexity.",
+    "storageText": "Long, narrow hull with deep bilges fore and aft provides significant stowage volume — a Dashew design priority for extended passages. The high freeboard translates to tall interior volume and locker depth. No published cubic-foot figure, but the boat is designed for extended ocean voyaging without shoreside resupply and owner reports describe generous provisioning capacity.",
+    "rangeText": "480 L fuel at ~6 L/hr gives roughly 640 engine-hours at moderate throttle. At 6–7 knots motoring, that is approximately 3,800–4,500 nm under power alone — exceptional range. Add the fast sailing hull (cruising 8–10 knots in breeze) and the Deerfoot 50 genuinely earns the 'world-ranging passagemaker' descriptor. The narrow hull's low resistance means less motoring required to maintain passage times.",
+    "accommodation": "Owner's forward cabin with island double berth (semi walk-around), dedicated head/shower cabin, full saloon with U-settee and L-galley, navigation station with dual displays. Optimised for a couple with occasional guests on settee berths. Two sleeping cabins plus saloon. The interior volume punches above its beam measurement because of the high freeboard giving vertical space.",
+    "highLatText": "No formal high-latitude or ice-class certification, and no documented Deerfoot 50 high-latitude passages in accessible sources. The watertight bulkheads, robust GRP/balsa construction, and Dashew emphasis on heavy-weather seaworthiness provide a solid foundation. However, unlike modern expedition-aluminium designs (Garcia, Boréal, Ovni), the GRP hull has no rub-ice resilience, and the boat has no published insulation or heating system for sustained cold-climate cruising. Patagonia is achievable with proper preparation; the Southern Ocean is not the boat's home territory.",
+    "tropicalText": "The aft cockpit is well-ventilated — an advantage in the tropics over centre-cockpit designs with enclosed helms. Natural airflow through the open cockpit and down the companionway is good. The narrow beam limits side deck width but allows fore-and-aft airflow along the hull. Dorades and opening hatches are standard for below-decks ventilation. No hull-mounted fans or solar arch noted on the known hull, but these are straightforward retrofits. Overall: reasonable tropical comfort, not the best shade shelter for a sun-drenched day at anchor.",
+    "priceText": "Extraordinary value relative to capability: the one known Deerfoot 50 on the global market in early 2026 was listed in Australia at approximately USD $155,000–$170,000. Budget $50,000–$100,000 for a full systems refresh and you are well under $300,000 for a serious offshore passagemaker with documented world-cruising credentials. The catch is availability — perhaps one or two hulls trade hands per decade.",
+    "priceNew": "Not available new — production ended ~1991. No builder offers this model.",
+    "priceUsed": "~USD $150,000–$280,000 depending on condition and upgrades. Extremely limited supply.",
+    "budgetText": "Comfortably within the $1M budget — likely acquirable for under $300,000 fully outfitted, leaving substantial margin for upgrades. The constraint is not budget but availability: this is one of the rarest hulls in the offshore fleet.",
+    "notable": "A genuine rarity: the Deerfoot 50 is a fibreglass (GRP-over-balsa) hull, not aluminium — a smaller, fast passagemaker in Steve & Linda Dashew's Deerfoot line, which otherwise ran 58–74 ft. The known 1991 hull was professionally built by Lange & Sons of Port Townsend, Washington; the number of 50-footers built is believed to be very small (possibly under five). The series preceded Dashew's later Sundeer fibreglass cruisers and the FPB power passagemakers.",
+    "scores": {
+      "protection": 2.5,
+      "handling": 4.5,
+      "dogs": 3,
+      "workshop": 5,
+      "storage": 4,
+      "tankage": 4.5,
+      "highlat": 2.5,
+      "tropical": 3.5,
+      "budget": 5
+    },
+    "tags": [
+      "Dashew passagemaker",
+      "Walk-in engine room",
+      "Fast narrow hull",
+      "Shorthanded couple"
+    ],
+    "fun": [
+      "Steve and Linda Dashew accumulated over 200,000 bluewater miles on their own designs — the Deerfoot 50 embodies that empirical, obsessively owner-tested approach.",
+      "The walk-in engine room on a 50-foot boat was considered eccentric when the Deerfoot was designed; Dashew argued it was the only honest way to maintain a diesel offshore. He was right.",
+      "The core Dashew doctrine — speed is safety, a fast boat sails out of bad weather rather than riding it out — was radical in 1980 and is still debated; the Deerfoot 50 is a physical argument for one side of that debate."
+    ],
+    "priceExamples": [
+      "1991 hull, Queensland Australia, listed ~AUD $240,000 (~USD $155,000), 'huge price reduction', upgraded engine and electronics (2025–2026 listing)",
+      "Estimated fully outfitted cost (purchase + $75k refit): USD $225,000–$350,000 — well within the $1M mission budget",
+      "Comparable Dashew Sundeer 60 (larger, later model): USD $350,000–$600,000 — the Deerfoot 50 is the accessible entry into the Dashew offshore ecosystem"
+    ],
+    "sources": [
+      {
+        "name": "SysYacht — 1991 Deerfoot 50 listing (boats.com)",
+        "url": "https://sysyachtsales.com/yacht-search/1991/deerfoot-50/9676435/"
+      },
+      {
+        "name": "BoatsOnline AU — Deerfoot 50 specifications",
+        "url": "https://www.boatsonline.com.au/boats-for-sale/used/sailing-boats/deerfoot-50/323168"
+      },
+      {
+        "name": "Practical Sailor — Deerfoot 61 (Deerfoot series design review)",
+        "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+      },
+      {
+        "name": "Soundings Online — Steve & Linda Dashew profile",
+        "url": "https://soundingsonline.com/news/a-journey-ends/"
+      },
+      {
+        "name": "WaveTrain — Sundeer 60 / Deerfoot design philosophy",
+        "url": "https://wavetrain.net/2011/12/26/sundeer-60-an-ideal-bluewater-cruising-boat/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Deerfoot 50 Video Tour Part 1 — Blue Rodeo",
+        "url": "https://www.youtube.com/watch?v=4KcgGy3qOLc",
+        "note": "Interior and deck walkthrough of a Deerfoot 50 named Blue Rodeo"
+      },
+      {
+        "name": "Deerfoot 50 Walkthrough — Hemisphere Explorer",
+        "url": "https://www.youtube.com/watch?v=x4yp6N3wRw8",
+        "note": "Detailed walkthrough of an upgraded 1991 Deerfoot 50 marketed for world touring"
+      }
+    ],
+    "pros": [
+      "Walk-in engine room with workbench — the best engine access of any 50-ft cruising boat, period",
+      "Genuinely two-person offshore capable by design, not by retrofit — every system sized and positioned for a couple",
+      "Exceptional motoring range (~3,800+ nm) from 480 L fuel at the hull's low resistance",
+      "Dashew's fast narrow hull exits bad weather rather than wallowing in it — real-world safety through speed",
+      "Extremely affordable relative to capability — well under $300,000 fully outfitted, leaving the $1M budget nearly intact"
+    ],
+    "cons": [
+      "Open aft cockpit offers limited shelter in cold or wet conditions — Patagonia passages will be uncomfortable at the helm without full oilskins",
+      "Extreme rarity: perhaps one hull available globally at any time — if you don't buy the one that's listed, you may wait years",
+      "GRP/balsa construction, not aluminium — no rub-ice resilience for true high-latitude or ice work, unlike alloy expedition boats.",
+      "Narrow beam limits cockpit width and deck space — two large dogs in an aft cockpit will feel cramped; boarding from the water is awkward with high freeboard"
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Steve & Linda Dashew (designers)",
+        "note": "Accumulated 200,000+ bluewater miles on their own Deerfoot and Sundeer designs, validating the core design philosophy from first-hand ocean experience",
+        "url": "https://soundingsonline.com/news/a-journey-ends/"
+      },
+      {
+        "who": "Practical Sailor",
+        "note": "Reviewed the Deerfoot 61 positively, characterizing the Deerfoot design line as having a devoted following among serious offshore bluewater cruisers",
+        "url": "https://www.practical-sailor.com/sailboat-reviews/deerfoot-61/"
+      }
+    ],
+    "badge": "Dashew doctrine",
+    "own": {
+      "mastStep": "Keel-stepped alloy mast — one-piece tapered Sparcraft Wicard Pacific spar. Keel-stepped gives better support offshore; stepping requires crane or skilled yard work.",
+      "keelRudder": "Fin keel, lead, stainless bolts. Spade or skeg-hung rudder (exact type not confirmed from sources). Keel bolt inspection every haulout is prudent on a GRP/balsa hull of this age.",
+      "complexity": "Moderate-high for a 1990s bluewater cruiser — dual autopilot, watermaker, full electronics, watertight bulkheads with through-hull fittings at each compartment. Dashew designed for owner maintainability, but the systems count is substantial.",
+      "maintain": "The walk-in engine room genuinely changes the maintenance calculus — you can work on the diesel properly rather than upside-down through a cabin sole hatch. Dashew's design philosophy explicitly prioritises owner-serviceable systems. GRP/balsa hull requires attention to osmotic blistering; 30+ year hulls may need epoxy barrier coat work.",
+      "partsText": "Nanni/Mercedes OM606 diesel parts are widely available in Europe and Australia. Sparcraft mast spares require specialist alloy spar suppliers. The boat's age and small fleet size means no dedicated parts network — owners source from generic marine chandleries and diesel specialists. ZF gearbox parts are widely available worldwide.",
+      "problems": "Balsa core delamination in deck areas is a known issue on GRP/balsa boats of this era — thorough survey with moisture meter essential. Keel bolt corrosion (stainless in lead) requires inspection. Age of electrical and plumbing systems on any 30+ year hull typically requires full replacement. The very small fleet size means finding another owner who has solved your specific problem is difficult.",
+      "sentiment": "Owners who have one tend to keep them for decades — the known hull was described as having the same captain for 25+ years. The Dashew brand carries genuine respect among offshore bluewater circles, and Deerfoot owners identify strongly with the design philosophy. The small fleet creates a tight, knowledgeable owner community.",
+      "communities": [
+        {
+          "name": "Cruisers Forum — Deerfoot experiences thread",
+          "url": "https://www.cruisersforum.com/forums/f47/anyone-sail-on-a-deerfoot-sailboat-20584.html"
+        },
+        {
+          "name": "Dashew SetSail archives",
+          "url": "https://www.setsail.com"
+        }
+      ],
+      "risks": [
+        "Extreme rarity means a long wait for a hull to come to market — this is not a boat you can decide to buy next month",
+        "Age (30+ years) means any purchase requires a thorough professional survey with moisture testing of the balsa core",
+        "No builder support, no active production, no OEM spares — all maintenance falls to owner and generic marine trades",
+        "Small global fleet limits peer support when troubleshooting specific systems problems",
+        "GRP/balsa is not the material for grounding on rocks or brush ice — high-latitude passages require extraordinary care"
+      ],
+      "scores": {
+        "maintain": 4,
+        "simplicity": 3,
+        "parts": 3,
+        "community": 2
+      }
+    }
+  },
+  {
+    "id": "amel55",
+    "name": "Amel 55",
+    "builder": "Chantiers Amel · France",
+    "designer": "Berret-Racoupeau / Amel",
+    "color": "#244e6b",
+    "years": "2011–2018",
+    "material": "GRP",
+    "category": "Centre-cockpit cruiser",
+    "cockpitType": "Center + enclosed",
+    "loa": "56'9\" (17.30 m)",
+    "lwl": "48'9\" (14.85 m)",
+    "beam": "16'4\" (4.99 m)",
+    "draftMin": "7'3\" (2.20 m fixed)",
+    "draftMax": "7'3\" (2.20 m fixed)",
+    "displacement": "24,000 kg / 52,911 lb (full load; ~21,500 kg light)",
+    "ballast": "5,900 kg",
+    "ballastRatio": "~27%",
+    "sailArea": "151 m² / 1,625 ft² (upwind)",
+    "airDraft": "~21.3 m (~70 ft) — single-source",
+    "engine": "Volvo Penta D3, 110 hp",
+    "drive": "Shaft · prop set in keel trailing edge (no propwalk)",
+    "cabins": "2–3 cabins / 2 heads",
+    "keel": "Encapsulated fixed fin keel · skeg-protected single rudder · multiple watertight bulkheads",
+    "cockpit": "Fully enclosed, protected center cockpit (GRP hardtop or canvas Cabriolet top)",
+    "fuel": "900 L / 238 gal",
+    "water": "800 L / 211 gal",
+    "loaN": 17.3,
+    "lwlFt": 48.75,
+    "beamFt": 16.4,
+    "dispLb": 52911,
+    "draftMinN": 2.2,
+    "sad": "~19",
+    "dl": "~189",
+    "fuelN": 900,
+    "waterN": 800,
+    "engineHp": 110,
+    "priceMinUSD": 567000,
+    "priceMaxUSD": 1035000,
+    "budget": "tight",
+    "budgetN": 2,
+    "bestFor": "A couple wanting Amel's last great push-button ketch — the fully-sheltered, sail-anywhere safety boat — and willing to spend most of $1M on a clean, sorted example rather than refit a neglected one.",
+    "protectionText": "Amel's signature fully-enclosed center cockpit — GRP hardtop or canvas Cabriolet, high bulwarks, sail it through a gale without leaving the sheltered helm. Among the best-protected production cockpits afloat; ideal for a nervous or inexperienced second crew.",
+    "rig": "Cutter-headed ketch (NOT a sloop — that's the successor Amel 50). Electric in-mast furling main + mizzen, electric furling genoa + optional staysail (Bamar). Reviewers note the rig is a touch mizzen-heavy and lacks upwind balance.",
+    "handlingText": "Built around a two-person crew: every sail furls electrically, electric winches, retractable bow thruster, all controlled from the protected cockpit. Genuinely short-handable. The trade-off: the helm is heavy/dull and astern handling is weak (prop buried in the keel).",
+    "engineWorkshop": "A standout — a fully isolated, acoustically-treated engine room under a gas-strut cockpit sole, with standing/crouching headroom and best-in-class access doubling as a real workshop. Note: full-access engine room, not a literal walk-through.",
+    "systems": "Factory-integrated 24V system, Onan 7.5 kVA genset, watermaker, reversible A/C, heating — coherent but deeply proprietary (Amel furlers, keel-prop, hydraulic passerelle). The sheer count of systems IS the maintenance burden.",
+    "storageText": "Voluminous liveaboard stowage — lifting berths over deep lockers, big insulated freezers, a large mixed-use bow locker that also houses systems. Pack thoughtfully to keep gear accessible.",
+    "rangeText": "900 L fuel ≈ 1,000–1,400 nm motoring at economical rpm; 800 L water + watermaker = genuine long-range self-sufficiency for two plus dogs.",
+    "accommodation": "2–3 cabins / 2 heads, large aft owner's suite, stall showers, real galley + nav station. High freeboard and the enclosed cockpit shelter dogs well, but boarding is a long step up — the hydraulic passerelle is finicky, so plan a dedicated dog ramp.",
+    "highLatText": "Decent for cold work — enclosed heatable cockpit, robust GRP build, watertight bulkheads, skeg-protected rudder. But it's a tropical-bias, ~27%-ballast fixed-keel cruiser pressed into high latitudes, not a dedicated expedition boat; AVS is only ~110–115° (estimated).",
+    "tropicalText": "Its native habitat — shaded enclosed cockpit, A/C, easily-reefed conservative ketch rig, watermaker, big freezers. Made for trade-wind passages and Caribbean/Polynesia heat.",
+    "priceText": "$567k–$1.04M (used)",
+    "priceNew": "Out of production (new ~€980k in 2013)",
+    "priceUsed": "Used ~$567k (older Euro hull) to ~$1.04M (clean late hull); most US listings $600k–$1.0M",
+    "budgetText": "Tight — a clean, sorted late hull eats most of the $1M before high-latitude prep, and a cheap Amel is almost invariably a costly refit. Two same-year 55s have differed by ~$450k on condition alone.",
+    "notable": "Amel's last classic ketch before the company switched to the sloop-rigged Amel 50 — the refined end of a circumnavigation-icon lineage, built for short-handed couples.",
+    "scores": {
+      "protection": 5,
+      "handling": 4.5,
+      "dogs": 2.5,
+      "workshop": 4.5,
+      "storage": 4.5,
+      "tankage": 4,
+      "highlat": 3,
+      "tropical": 5,
+      "budget": 2.5
+    },
+    "tags": [
+      "Enclosed center cockpit",
+      "Push-button ketch",
+      "Walk-in engine room",
+      "Last classic Amel"
+    ],
+    "fun": [
+      "The propeller is set in the keel's trailing edge — no propwalk, but weak astern steering as the trade.",
+      "Amel's last ketch before the Amel 50 went sloop; the end of a 30-year two-masted lineage."
+    ],
+    "priceExamples": [
+      "2018 Amel 55, Anacortes WA — $979,000 (YachtWorld / Swiftsure)",
+      "2016 Amel 55, Mamaroneck NY — $899,000 (boats.com)",
+      "2012 Amel 55 — €649,000 / $599,000 (Ancasta / boats.com)"
+    ],
+    "sources": [
+      {
+        "name": "SailboatData — Amel 55",
+        "url": "https://sailboatdata.com/sailboat/amel-55/"
+      },
+      {
+        "name": "boat-specs.com — Amel 55",
+        "url": "https://boat-specs.com/en/sailboat/amel-55"
+      },
+      {
+        "name": "Yachting Monthly — Amel 55 review",
+        "url": "https://www.yachtingmonthly.com/reviews/amel-55-review"
+      },
+      {
+        "name": "SailWiki — Amel 55",
+        "url": "https://www.sailwiki.com/en/amel-55"
+      },
+      {
+        "name": "YachtWorld — Amel 55 listings",
+        "url": "https://www.yachtworld.com/boats-for-sale/make-amel/model-55/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Yachting Monthly — Amel 55 boat test",
+        "url": "https://www.youtube.com/watch?v=dqonNcACzDQ",
+        "note": "Magazine sail test"
+      },
+      {
+        "name": "Sailing Today — Amel 55 Cabriolet tested",
+        "url": "https://www.youtube.com/watch?v=HvgP4QwNgNY",
+        "note": "La Rochelle sail review"
+      },
+      {
+        "name": "BoatTube — 2016 Amel 55 walkaround",
+        "url": "https://www.youtube.com/watch?v=y6RQqmKwv50",
+        "note": "Annapolis dock walkthrough"
+      },
+      {
+        "name": "Amel (official)",
+        "url": "https://www.youtube.com/channel/UCYAbSsQcVxNKUHZyBOtCx2Q",
+        "note": "Builder channel"
+      }
+    ],
+    "pros": [
+      "Best-in-class enclosed, weatherproof center cockpit — sail it short-handed through foul weather without leaving shelter.",
+      "All-electric furling on every sail plus a retractable bow thruster — genuinely two-person-friendly.",
+      "Fully isolated engine room with standing access that doubles as a real workshop — exceptional for a 56-footer.",
+      "CE Category A ocean construction, watertight bulkheads, keel-buried prop and skeg-protected rudder.",
+      "900 L fuel + 800 L water + watermaker give real ocean-crossing autonomy for two plus dogs."
+    ],
+    "cons": [
+      "The electric in-mast furlers (both masts) are the #1 documented failure point — a safety and big-dollar repair item.",
+      "High freeboard and a finicky hydraulic passerelle make dog boarding awkward; plan a dedicated ramp.",
+      "Heavy/dull helm and weak astern handling; the ~27% ballast gives only ~110–115° estimated AVS — not a heavy-weather screamer.",
+      "Unforgiving of neglect — coachroof core moisture, hidden steering U-joints and the Volvo D3 all reward — and punish — diligent owners; budget 10–15% of value/year."
+    ],
+    "awards": [],
+    "endorsements": [],
+    "badge": "Last classic Amel ketch",
+    "own": {
+      "mastStep": "Deck-stepped masts (ketch); proprietary Amel electric in-mast furling on main and mizzen.",
+      "keelRudder": "Encapsulated fixed fin keel with prop in the trailing edge; single skeg-protected rudder. Inspect for rudder play and skeg cracking at survey.",
+      "complexity": "High — an integrated, all-electric, heavily systemed boat. The number of subsystems is the single biggest maintenance challenge; watertight bulkheads make rewiring laborious.",
+      "maintain": "Demanding and unforgiving. Superb when maintained, costly when deferred. Furler motors and the Volvo D3-110 (overheating, diesel-bug) are the recurring spend; budget 10–15% of value per year.",
+      "partsText": "Many components are proprietary to Amel (furlers, hydraulics, keel-prop arrangement); the factory supports owners but parts are specialist and not generic-chandlery.",
+      "problems": "Documented: electric furler hesitation/failure (both masts), D3 overheating and fuel contamination, heavy/worn hidden steering U-joints, cored-coachroof moisture, hydraulic passerelle corrosion.",
+      "sentiment": "Owners revere the build quality, shelter and engine room but are candid that it is a complex, expensive boat that does not tolerate a cheap, neglected example.",
+      "communities": [
+        {
+          "name": "Amel Yacht Owners (groups.io)",
+          "url": "https://amelyachtowners.groups.io/"
+        },
+        {
+          "name": "Cruisers Forum — Amel threads",
+          "url": "https://www.cruisersforum.com/forums/"
+        }
+      ],
+      "risks": [
+        "Aging electric furler motors that look fine but are near end of service",
+        "Cored-coachroof moisture ignored into a six-figure repair",
+        "Hidden steering U-joint wear requiring cockpit disassembly",
+        "A bargain-priced hull masking a deferred-maintenance refit"
+      ],
+      "scores": {
+        "maintain": 2,
+        "simplicity": 2,
+        "parts": 3,
+        "community": 4
+      }
+    }
+  },
+  {
+    "id": "amel60",
+    "name": "Amel 60",
+    "builder": "Chantiers Amel (France)",
+    "designer": "Berret-Racoupeau",
+    "color": "#1B3A5C",
+    "years": "2019–present",
+    "material": "GRP",
+    "category": "Centre-cockpit cruiser",
+    "cockpitType": "Center + enclosed glass",
+    "loa": "62'4\" (19.00 m)",
+    "lwl": "55'3\" (16.85 m)",
+    "beam": "17'7\" (5.35 m)",
+    "draftMin": "7'9\" (2.35 m)",
+    "draftMax": "7'9\" (2.35 m)",
+    "displacement": "63,824 lb (28,950 kg) light ship",
+    "ballast": "15,873 lb (7,200 kg)",
+    "ballastRatio": "~25%",
+    "sailArea": "1,776 ft² (165 m²) upwind (main 77 m² + genoa 88 m²); staysail 39 m² optional",
+    "airDraft": "85'4\" (26.0 m)",
+    "engine": "Volvo Penta 175 hp diesel",
+    "drive": "Saildrive, folding propeller",
+    "cabins": "3 cabins, 3 heads, 6 berths",
+    "keel": "Fin keel with T-bulb",
+    "cockpit": "Enclosed centre cockpit; port-side helm with swivel chair and push-button sail control panel; electric sunroof; twin rudders; bow thruster standard",
+    "fuel": "238 US gal (900 L)",
+    "water": "185 US gal (700 L)",
+    "loaN": 19,
+    "lwlFt": 55.3,
+    "beamFt": 17.6,
+    "dispLb": 63824,
+    "draftMinN": 2.35,
+    "sad": "~18",
+    "dl": "~169",
+    "fuelN": 900,
+    "waterN": 700,
+    "engineHp": 175,
+    "priceMinUSD": 1491000,
+    "priceMaxUSD": 2720000,
+    "budget": "over",
+    "budgetN": 3,
+    "bestFor": "Couples wanting maximum short-handed automation, a pilothouse-style enclosed cockpit, and a walk-in engine room in a large bluewater sloop — comfort and systems over budget",
+    "protectionText": "The Amel 60 sets a high bar for cockpit protection: a glassed-in centre cockpit with five panels of tempered glass, an electric sliding sunroof with opening sections, and solid surfaces on three sides. Crew work the boat entirely from this sheltered station. In rain, spray, or cold, occupants are dry; this is closer to a pilothouse than an open cockpit. Downside: in tropical anchorages the enclosure traps heat unless hatches are open.",
+    "rig": "Masthead cutter sloop; carbon Lorima furling mast; electric in-mast mainsail furling; self-tacking staysail option; all sail controls electric from helm dashboard",
+    "handlingText": "Purpose-built for two. Every sail and anchor operation runs electrically from the helm: electric in-mast main furling, electric genoa furler, push-button windlass, bow thruster standard. Tacking and gybing require minimal deck time. The offset helm swivel chair and glass panels mean watch-standing in conditions is protected. Twin autopilots standard. Reserve: marina maneuvering is tricky without the optional stern thruster (saildrive gives no propwalk).",
+    "engineWorkshop": "Exceptional: the cockpit sole lifts on gas struts to reveal a stand-up engine room housing the Volvo Penta 175 hp, 17.5 kW generator, battery banks, watermaker, and all major systems. Amel and Yachting World reviewers both call it one of the best engine access arrangements afloat. A true workshop space — not just an access hatch.",
+    "systems": "24 V DC system; 920 Ah lithium battery bank (4× Mastervolt Li-Ion Ultra); 530 W solar; 24 V / 150 A dedicated alternator; 17.5 kW diesel generator; 240 L/hr reverse-osmosis watermaker; electric-only galley (induction, dishwasher, washing machine/dryer, electric oven); twin hydraulic Furuno autopilots; electric furling on all sails; retractable bow thruster; Starlink and Iridium nav suites (on fitted-out examples)",
+    "storageText": "A 19 m LOA hull delivers serious volume. Three cabins, a large owner's suite forward, two guest cabins aft, plus dedicated chart/nav station, wet-gear locker, large cockpit lockers, and storage throughout the deep bilge areas. Six watertight hull compartments. Not the most cleverly subdivided storage by count, but sheer size means comfortable provisioning for months.",
+    "rangeText": "900 L fuel at ~130 hours motoring range (per no-frills-sailing.com estimates) gives roughly 1,200–1,400 nm under power depending on conditions. Supplemented by 240 L/hr watermaker and 530 W solar, the boat is genuinely ocean-passage-capable without port calls. Modest watermaker/solar by today's expedition standard — supplemental generator fills the gap.",
+    "accommodation": "3 cabins: large centre-line owner stateroom forward with island berth, two aft guest double cabins to port and starboard, 3 heads. Galley to starboard amidships. Nav station integrated into saloon. Interior by Isabelle Racoupeau — warm teak and modern finishes. 6 defined berths total.",
+    "highLatText": "The glassed-in cockpit makes cold-weather watch-keeping genuinely comfortable — Patagonia sailing would benefit enormously from staying out of spray and wind. GRP hull offers no inherent insulation; a diesel heating system (optional from Amel or fitted by owners) is essential for Chilean channels or high latitudes. Stand-up engine room also makes servicing in cold anchorages less miserable. Not purpose-built for ice, but much better protected than open-cockpit competitors.",
+    "tropicalText": "Wide beam and three cabins provide liveable space in the tropics. The enclosed cockpit can be a heat trap at anchor: opening the roof sections and forward panel provides airflow, but it will be warmer than an open cockpit in 35°C air. Air conditioning is not standard but the 17.5 kW generator supports it. Electric galley (no propane) is a real advantage in the heat. The sunroof overhead shades the helm from direct sun underway.",
+    "priceText": "New factory price in 2020 was approximately €1.65M ex-VAT (~$1.78M USD); by 2024 new pricing has risen to approximately €2.5M incl. VAT (~$2.72M USD). Used 2020–2024 hulls trade on brokerage in the $1.49M–$2.2M range. All configurations are well above the $1M mission budget.",
+    "priceNew": "~€2.0–2.5M (≈$2.1–2.7M USD) depending on options and year",
+    "priceUsed": "~$1.5–2.2M USD for 2020–2024 hulls on brokerage",
+    "budgetText": "Substantially over the $1M ceiling. Even the cheapest 2020 used example on the open market starts near $1.5M. Fully outfitted to bluewater standard (watermaker, lithium banks, Starlink, generator, stern thruster, heating) adds further. This boat costs 50–150% more than the mission budget — no realistic path under $1M.",
+    "notable": "Amel's first sloop flagship since the iconic Super Maramu ketch era; winner of European Yacht of the Year 2020 Luxury Cruiser; carbon Lorima in-mast furling rig as standard; walk-in stand-up engine room; fully electric sail handling; no gas aboard (all-electric galley); 6 watertight compartments",
+    "scores": {
+      "protection": 5,
+      "handling": 5,
+      "dogs": 2.5,
+      "workshop": 5,
+      "storage": 4.5,
+      "tankage": 3.5,
+      "highlat": 3.5,
+      "tropical": 4,
+      "budget": 1
+    },
+    "tags": [
+      "enclosed-cockpit",
+      "push-button-sailing",
+      "walk-in-engine-room",
+      "electric-everything"
+    ],
+    "fun": [
+      "The cockpit glass surround means you can sail across the Southern Ocean in a t-shirt while spray hammers the windows — genuine pilothouse comfort in a sloop.",
+      "The engine room is large enough to stand in and work comfortably; an Amel 60 owner reportedly keeps a proper toolbox and spare parts cache down there, treating it like a garage."
+    ],
+    "priceExamples": [
+      "2024 Amel 60, Imperia, Italy — €2,200,000 ex-tax (~$2.39M USD) via Sizun & Charpentier brokerage",
+      "2020 Amel 60 used examples on Boatshop24: from ~$1,491,000 USD",
+      "New factory price at launch (2020): ~€1,650,000 ex-VAT (~$1.78M USD at the time)"
+    ],
+    "sources": [
+      {
+        "name": "Amel official specifications — amel.fr",
+        "url": "https://amel.fr/en/our-yachts/amel-60/"
+      },
+      {
+        "name": "Yachting World sea trial review",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+      },
+      {
+        "name": "Yacht.de test review (English)",
+        "url": "https://www.yacht.de/en/yachts/cruising-yachts/test-amel-60-comfortable-luxury-yacht-with-a-wow-effect/"
+      },
+      {
+        "name": "No Frills Sailing — Amel 60 review and yard visit",
+        "url": "https://no-frills-sailing.com/amel-60-sailing-yacht-review/"
+      },
+      {
+        "name": "Amel award press release — European Yacht of the Year 2020",
+        "url": "https://amel.fr/en/2020/02/19/amel-60-awarded-european-yacht-of-the-year-2020/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Amel 60 Review 2025: Ultimate Bluewater Cruiser Sailboat Tour",
+        "url": "https://www.youtube.com/watch?v=mbkN5hZXUAw",
+        "note": "Exploring Eden channel — full walkaround tour of a fitted-out Amel 60"
+      }
+    ],
+    "pros": [
+      "Best-in-class enclosed cockpit protection: glassed-in pilothouse-style centre cockpit keeps crew dry and sheltered in all weather",
+      "Fully push-button short-handed sailing: electric in-mast furling main, electric genoa, push-button windlass, bow thruster — all from the helm swivel chair",
+      "Unmatched walk-in stand-up engine room: gas-strut cockpit sole lifts to reveal every major system in one accessible space",
+      "Electric-only galley (no propane) and heavy lithium/solar/generator package deliver genuine offshore electrical autonomy",
+      "European Yacht of the Year 2020 (Luxury Cruiser) — real design and engineering recognition, not marketing"
+    ],
+    "cons": [
+      "Substantially over budget: used examples from ~$1.5M, new ~$2.1–2.7M — 50–150% above the $1M mission ceiling",
+      "Low ballast ratio (~25%) criticised by reviewers as below the 30–35% range of competitors; hull speed limited by generous displacement",
+      "Heavy electrical dependency: lithium bank, generator, and electric furling must all be in top condition — a single failure has cascading effects offshore",
+      "High freeboard and enclosed cockpit limit easy dog access on/off the boat at anchor; no dedicated dog area on deck"
+    ],
+    "awards": [
+      "European Yacht of the Year 2020 — Luxury Cruiser category (BOOT Düsseldorf, January 2020)"
+    ],
+    "endorsements": [
+      {
+        "who": "Yachting World (sea trial, March 2020)",
+        "note": "Called the engine room 'the best engine access you can imagine' and praised the enclosed cockpit concept for long-passage crews.",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/amel-60-modern-cruiser"
+      },
+      {
+        "who": "European Yacht of the Year 2020 jury",
+        "note": "Awarded top prize in the Luxury Cruiser category at the world's largest boat show, citing build quality and innovation in short-handed systems.",
+        "url": "https://amel.fr/en/2020/02/19/amel-60-awarded-european-yacht-of-the-year-2020/"
+      }
+    ],
+    "badge": "EYOTY 2020 Luxury Cruiser",
+    "own": {
+      "mastStep": "Deck-stepped carbon Lorima in-mast furling rig; stepping requires crane and is not DIY; electric furling system has hydraulic/electric components needing specialist knowledge",
+      "keelRudder": "Fin keel with T-bulb; twin spade rudders on semi-custom appendages — replaceable at a boatyard but not a simple repair; keel bolts accessible via engine room bilge",
+      "complexity": "High. The Amel 60 is arguably the most system-dense production bluewater cruiser available: lithium banks, in-mast furling, saildrive, 17.5 kW generator, electric galley appliances, watermaker, electric furling on all sails, bow thruster. Every system is well-integrated by Amel but complexity multiplies failure modes offshore.",
+      "maintain": "Amel builds for long-distance autonomy and factory support is strong in Europe (La Rochelle shipyard). Parts are proprietary in some areas (Lorima mast, Amel-specific deck hardware). Amel Yacht Owners Group (amelyachtowners.groups.io) is active and knowledgeable. In remote Pacific or South America, sourcing specialist Lorima or Amel-specific components will be a challenge — budget for Iridium/Starlink support calls and carry deep spares.",
+      "partsText": "Volvo Penta diesel parts are globally available. Mastervolt lithium batteries and Furuno autopilots likewise. Proprietary Amel hardware (mast, furling drum, deck fittings) and the Lorima carbon spar are French-sourced and may require factory or specialist dealer involvement. Parts availability in Patagonia or French Polynesia for specialty items: limited.",
+      "problems": "No known structural defects or safety recalls as of research date. Documented criticisms: steering feel described as 'decoupled' due to long cable runs to twin rudders; maneuvering difficulties in marinas without optional stern thruster; heavy electrical system demands on the battery bank; modest light-air performance for the displacement. No owner reports of major hull or keel failures found.",
+      "sentiment": "Owners who buy Amels tend to be deeply loyal — the Amel Yacht Owners Group has been active for over 25 years. The Amel 60 generates strong enthusiasm from those who prioritise comfort, safety, and autonomy over performance. Critical commentary focuses on price, ballast ratio, and the reality that push-button convenience requires that every electric system work perfectly.",
+      "communities": [
+        {
+          "name": "Amel Yacht Owners Group (groups.io)",
+          "url": "https://amelyachtowners.groups.io/g/main"
+        },
+        {
+          "name": "Sailing Anarchy — Amel discussions",
+          "url": "https://forums.sailinganarchy.com/threads/amel-questions.77666/"
+        }
+      ],
+      "risks": [
+        "Electrical system failure cascades: lithium bank or generator fault disables furling, galley, autopilot, and bow thruster simultaneously in remote waters",
+        "Lorima carbon mast and Amel-proprietary furling hardware are not sourced from local chandleries — a furling drum failure in Patagonia or the Tuamotus is a serious logistical problem",
+        "High freeboard and weight mean difficult re-boarding for dogs or crew in rough conditions; no sugar-scoop stern standard on early hulls",
+        "Saildrive seal requires periodic inspection and replacement; neglect leads to flooding risk; must be hauled at a yard with saildrive lift capability",
+        "Twin rudder and cabling arrangement makes it difficult to carry full spare steering gear; autopilot pump failure in a two-autopilot system needs specialist parts"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 2,
+        "parts": 2,
+        "community": 4
+      }
+    }
+  },
+  {
+    "id": "oyster485",
+    "name": "Oyster 485",
+    "builder": "Oyster Marine",
+    "designer": "Holman & Pye",
+    "color": "#2E5D7E",
+    "years": "1992–2002",
+    "material": "GRP",
+    "category": "Centre-cockpit cruiser",
+    "cockpitType": "Center + deck saloon",
+    "loa": "48'6\" (14.78 m)",
+    "lwl": "39'1\" (11.91 m)",
+    "beam": "14'10\" (4.52 m)",
+    "draftMin": "5'6\" (1.68 m shoal — wing keel option)",
+    "draftMax": "7'2\" (2.18 m standard fin/bulb keel)",
+    "displacement": "~37,550 lb (17,030 kg)",
+    "ballast": "~13,000 lb (5,900 kg) lead",
+    "ballastRatio": "~35%",
+    "sailArea": "~960 sq ft (89 m²) cutter",
+    "airDraft": "~65 ft (19.8 m) to masthead",
+    "engine": "Perkins M90 (or 4236) 4-cyl diesel",
+    "drive": "Shaft drive, 3-blade MaxProp feathering",
+    "cabins": "3",
+    "keel": "Standard: fin with lead bulb, 7'2\" (2.18 m) draft. Optional: wing/shoal keel, 5'6\" (1.68 m). Skeg-hung rudder on both. Check keel bolts and bonding on any 1990s example — mild steel fasteners were used in this era.",
+    "cockpit": "Deep, well-protected centre cockpit with high coamings and wide seats. Single helm station set behind a substantial deck saloon coachroof that blocks most wind and spray forward. Most boats fitted with dodger and bimini. Secure passage-making environment but open to the sky aft — sustained rain calls for full enclosure.",
+    "fuel": "~530–750 L (140–198 US gal, varies by year)",
+    "water": "~680–750 L (180–198 US gal, two tanks)",
+    "loaN": 14.78,
+    "lwlFt": 39.1,
+    "beamFt": 14.83,
+    "dispLb": 37550,
+    "draftMinN": 1.68,
+    "sad": "~16",
+    "dl": "~318",
+    "fuelN": 545,
+    "waterN": 720,
+    "engineHp": 82,
+    "priceMinUSD": 250000,
+    "priceMaxUSD": 430000,
+    "budget": "fit",
+    "budgetN": 1,
+    "bestFor": "A cruising couple wanting a proven, spacious Oyster at a fraction of the cost of newer models — with the build quality and sea-kindly motion to go anywhere, at the cost of some modernity in systems and layout.",
+    "protectionText": "The deck saloon sits between the crew and the weather forward: seas breaking over the bow rarely reach the cockpit in the conventional sense. The centre cockpit places the helm well inboard of the stern, and high coamings wrap the seats. A well-fitted dodger and bimini (standard on most boats by now) close the remaining gap. The helm is exposed to rain from astern in a blow, and the open aft deck gives little windbreak without a full enclosure. For Patagonia, a full cockpit tent is advisable.",
+    "rig": "Fractional cutter — two headsails on twin forestays (staysail and roller-furling genoa), slab-reefed or in-mast furling mainsail depending on fit. Two-spreader anodized aluminium mast by Kemp. Inner staysail stay gives a manageable heavy-weather headsail.",
+    "handlingText": "A couple can sail this boat comfortably offshore. Self-tacking staysail covers the working slot; genoa furls from the cockpit. Slab reefing is standard on earlier boats; some have in-mast furling (convenient but sail shape compromise). Lewmar winches throughout, typically self-tailing. Electric windlass. Bow thruster standard or common retrofit. The cutter rig means no single sail is unmanageable.",
+    "engineWorkshop": "Dedicated engine compartment under the cockpit sole with large lift-out panels — one of the 485's genuine strengths. The extra length also carves out a separate generator alcove just aft of the main engine. A proper workshop can be fitted in the forward cabin; documented examples have workbenches and parts stowage there. Engine access is genuinely good for routine maintenance.",
+    "systems": "Typically fitted with: Northern Lights or Fischer Panda generator, autopilot (Simrad or Robertson), chart plotter, VHF/SSB, watermaker. AGM battery banks common on refitted examples. Shore power, inverter/charger. Reverse-cycle AC added on tropical-use boats. Systems density is moderate for the era — older electronics need replacement but the wiring looms are accessible.",
+    "storageText": "Three-cabin layout has a proper aft owner's stateroom with ensuite, midship saloon with chart table and nav station, deck saloon, and a V-berth or workshop forward. Multiple under-berth lockers, lazarette, and cockpit lockers. Not as voluminous as an Amel 55 but well above average for a 48-footer.",
+    "rangeText": "With ~545 L fuel and a Perkins M90 burning ~5–6 L/hr at 6 knots, motoring range is roughly 550–650 nm. Water tankage of ~720 L gives ~10–14 days for two people without a watermaker; with one, unlimited. Diesel range is adequate for Patagonia channels but top up whenever possible.",
+    "accommodation": "Three cabins: aft owner's stateroom with island berth and en suite (separate shower — a step up from the smaller 45/47); centre-cockpit passage area with nav station; bright deck saloon with L-shaped settee; forward cabin suited as workshop or guest space. Two heads. Headroom approximately 1.93 m throughout the saloon.",
+    "highLatText": "Heavy displacement, long waterline, and a skeg-hung rudder make this hull forgiving in breaking seas and controllable under storm canvas — the right platform for Southern Ocean latitudes. The centre cockpit keeps the crew away from the worst bow motion. Factory insulation is rudimentary; a diesel heater (Webasto or Espar) is essential for Patagonia. Budget seriously for cold-weather prep, but the underlying platform is sound.",
+    "tropicalText": "The deck saloon's large wrap-around windows flood the interior with light and, when opened, channel airflow below. Overhead hatches in saloon and cabins supplement ventilation. The raised coachroof creates useful shade in the cockpit. Most boats now carry reverse-cycle AC. Adequate for the tropics with good shade management; very comfortable with air conditioning.",
+    "priceText": "Well-maintained examples from the late 1990s ask $275,000–$430,000 USD depending on refit depth, location, and keel type. Early 1990s boats with older systems can go below $250,000. Refit costs to bring a neglected boat to offshore readiness can add $80,000–$150,000. Budget $300,000–$400,000 for a well-found, passage-ready example.",
+    "priceNew": "Not available new (production ended 2002)",
+    "priceUsed": "$250,000–$430,000 USD (2023–2025 market)",
+    "budgetText": "Comfortably within the $1M budget at $300,000–$430,000 ready to sail, leaving meaningful margin for spares, insurance, and a refit. One of the best-value Oysters in the used market.",
+    "notable": "~36 built over a decade; dedicated generator space aft of engine; proper separate shower in owner's head; one of the first Oysters to combine the full deck-saloon layout with a centre cockpit at this size; last major Holman & Pye design for the brand before Rob Humphreys took over.",
+    "scores": {
+      "protection": 4,
+      "handling": 4,
+      "dogs": 3,
+      "workshop": 4,
+      "storage": 4,
+      "tankage": 4,
+      "highlat": 3.5,
+      "tropical": 4,
+      "budget": 1
+    },
+    "tags": [
+      "centre-cockpit",
+      "deck-saloon",
+      "cutter-rig",
+      "bluewater-proven"
+    ],
+    "fun": [
+      "Only ~36 were ever built — your Oyster 485 will be the rarest boat in most anchorages from Ushuaia to Bora Bora.",
+      "The dedicated generator alcove and under-cockpit engine room with lift-out panels are a genuine treat after crawling into a production boat's bilge with a headlamp."
+    ],
+    "priceExamples": [
+      "1995 Oyster 485 (Discovery), Seattle WA — asked $349,000 USD, sold 2024; fully refitted with AGM banks, new transmission, and Raymarine autopilot",
+      "1998 Oyster 485 (Pemaquid), shoal draft, in-mast furling, bow thruster, watermaker, Starlink — asked $295,000 USD",
+      "1996 Oyster 485 Deck Saloon, new teak decks/sails/electronics (2017 refit) — sold; comparable examples ask $300,000–$380,000 in this condition"
+    ],
+    "sources": [
+      {
+        "name": "Oyster Yachts — Oyster 485 Heritage Page",
+        "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+      },
+      {
+        "name": "Swiftsure Yachts — 1995 Oyster 485 Discovery listing",
+        "url": "https://swiftsureyachts.com/oyster-485-discovery/"
+      },
+      {
+        "name": "Curtis Stokes Yacht Brokerage — 1998 Oyster 485 Pemaquid",
+        "url": "https://www.curtisstokes.net/center-cockpit-for-sale-oyster-48-pemaquid-2846376.html"
+      },
+      {
+        "name": "Sailboat Guide — Oyster 485 specs and listings",
+        "url": "https://sailboat.guide/oyster/485"
+      },
+      {
+        "name": "Listings Port — Oyster 485 specifications and review",
+        "url": "https://www.listingsport.com/sailboats/oyster/485"
+      }
+    ],
+    "youtube": [],
+    "pros": [
+      "Proven Oyster build quality — GRP layup, lead ballast, and over-engineered hardware outlast comparable production cruisers of the era",
+      "Dedicated engine room under the cockpit with generous lift-out panels and a separate generator alcove — engine work is genuinely accessible",
+      "Cutter rig with self-tacking staysail makes light-weather and heavy-weather sail handling manageable for two people",
+      "Strong used-market value retention; a well-maintained 485 holds price better than mass-market contemporaries",
+      "Generous tankage (700+ L water, 500+ L fuel) and space for a watermaker provide real long-range independence"
+    ],
+    "cons": [
+      "Holman & Pye era boats used mild steel keel bolts — mandate a thorough survey including extraction or ultrasonic testing before purchase",
+      "In-mast furling mainsail (on so-equipped boats) loses full-batten sail shape; expect flat, draftless mainsail performance in light airs",
+      "Only ~36 hulls built means OEM Oyster parts for 1990s-specific fittings depend heavily on the owner network and Oyster Service UK",
+      "Minimal factory insulation makes Patagonia cruising a significant refit project — budget for diesel heating and condensation management"
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Oyster Yachts (builder heritage page)",
+        "note": "Describes the 485 as 'easily handled by a couple' with a 'dedicated generator space just aft of the engine' — a rare feature at this length in the 1990s.",
+        "url": "https://oysteryachts.com/heritage-yachts/oyster-485/"
+      }
+    ],
+    "badge": "Modern Classic",
+    "own": {
+      "mastStep": "Keel-stepped",
+      "keelRudder": "Fin keel with lead bulb; skeg-hung rudder",
+      "complexity": "Moderate — 1990s systems are simpler than modern yachts but older electrics and plumbing need periodic renewal. Generator adds complexity but provides independence.",
+      "maintain": "Annual haul-out essential; inspect keel bolts and chainplates every 5 years. Perkins M90 is a robust workhorse with wide parts support. Heat exchangers are a wear item — inspect sacrificial anodes regularly. Teak decks (common refit item) need routine maintenance or eventual replacement.",
+      "partsText": "Perkins/Caterpillar diesel parts are globally available. Lewmar winch parts are straightforward worldwide. Older Oyster-specific hardware (cleats, traveller cars, mast fittings) may require Oyster Service UK or creative substitution. Northern Lights and Onan generator parts available in most cruising hubs.",
+      "problems": "Mild steel keel bolts corroding unseen; stainless chainplate crevice corrosion; aging electrical systems (wire insulation brittleness after 25–30 years); heat exchanger failure from neglected anodes; teak deck delamination; in-mast furling systems requiring specialist maintenance.",
+      "sentiment": "Oyster 485 owners are a loyal and vocal community. The consensus: these boats reward attentive owners with decades of reliable offshore service. Build quality is consistently praised; the age of most examples makes a thorough pre-purchase survey non-negotiable.",
+      "communities": [
+        {
+          "name": "Oyster Owners section — Oyster Yachts website",
+          "url": "https://oysteryachts.com/owners/"
+        },
+        {
+          "name": "Cruisers Forum — Oyster 435–485 range thread",
+          "url": "https://www.cruisersforum.com/forums/f47/oyster-435-485-range-any-bad-models-209210.html"
+        }
+      ],
+      "risks": [
+        "Keel bolt corrosion (mild steel, 1990s spec) — survey must include keel bolt extraction or ultrasonic testing",
+        "Chainplate crevice corrosion hidden behind interior headliner panels",
+        "Osmotic blistering in GRP hull if not regularly barrier-coated",
+        "Electrical system fatigue — wire insulation cracking after 25–30 years; full rewire may be needed on neglected boats",
+        "In-mast furling system wear — swivel bearings and extrusion slides degrade; budget for rebuild or conversion to slab reefing"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 3,
+        "parts": 3,
+        "community": 4
+      }
+    }
+  },
+  {
+    "id": "oyster53",
+    "name": "Oyster 53",
+    "builder": "Oyster Marine (UK) / McDell Marine (NZ build)",
+    "designer": "Humphreys Yacht Design",
+    "color": "#1a3a5c",
+    "years": "2000–2008",
+    "material": "GRP",
+    "category": "Centre-cockpit cruiser",
+    "cockpitType": "Center + deck saloon",
+    "loa": "53'10\" (16.41 m)",
+    "lwl": "45'7\" (13.89 m)",
+    "beam": "15'3\" (4.65 m)",
+    "draftMin": "6'0\" (1.83 m shoal)",
+    "draftMax": "7'4\" (2.24 m deep)",
+    "displacement": "47,399 lb (21,500 kg)",
+    "ballast": "14,235 lb (6,457 kg)",
+    "ballastRatio": "~30%",
+    "sailArea": "1,201 sq ft (111.6 m²) — 100% foretriangle; full genoa ~1,615 sq ft",
+    "airDraft": "not published",
+    "engine": "Yanmar 4LH diesel (100 hp standard; 88 or 110 hp on some hulls)",
+    "drive": "shaft drive, folding or feathering prop",
+    "cabins": "3–4 (4th cabin optionally built as dedicated workshop at build time)",
+    "keel": "Lead bulb fin keel — standard deep (2.24 m) or shoal option (1.83 m); both cast lead",
+    "cockpit": "Protected centre cockpit with raised deck-saloon coachroof providing full windward shelter; ergonomically designed seats (Loughborough University collaboration) long enough to lie on, wavy coamings for multiple positions; all control lines led aft to electric winches at helm; aft helm station semi-exposed but tucked behind coachroof; bimini and sprayhood standard on most boats",
+    "fuel": "225 US gal (851 L)",
+    "water": "198 US gal (750 L)",
+    "loaN": 16.41,
+    "lwlFt": 45.6,
+    "beamFt": 15.25,
+    "dispLb": 47399,
+    "draftMinN": 1.83,
+    "sad": "~19.3",
+    "dl": "~233",
+    "fuelN": 851,
+    "waterN": 750,
+    "engineHp": 100,
+    "priceMinUSD": 350000,
+    "priceMaxUSD": 650000,
+    "budget": "tight",
+    "budgetN": 2,
+    "bestFor": "Two-handed offshore passage-making; couples liveaboard cruising; extended bluewater circuits demanding comfort, range, and safety in rough conditions",
+    "protectionText": "The raised deck-saloon coachroof is the defining feature: it acts as a permanent windbreak for the centre cockpit, keeping the crew dramatically drier and warmer than aft-cockpit designs. The helm sits aft of the cockpit and is more exposed, but the cockpit crew working sheets and sails has excellent shelter. A bimini over the cockpit completes the envelope. For Patagonian channels and the Southern Ocean approaches, this layout is meaningfully safer and more comfortable than conventional aft-cockpit boats — you can work the boat for hours in cold, wet conditions without soaking the off-watch. The main gripe is that the helm station itself has limited protection in a beam sea; a proper sprayhood extension or helm tent is worth fitting.",
+    "rig": "Masthead cutter (removable inner forestay); sloop option available. Full-batten main standard; in-mast furling popular (fitted to ~75% of production). Shorter mast option available for ICW bridge clearance. Both configurations are proved offshore.",
+    "handlingText": "Purpose-built for two-up offshore work. All lines led aft, electric winches standard, and the in-mast furling main means a single crew member can reef without leaving the cockpit. The cutter rig gives a versatile sail wardrobe: staysail alone works in 40+ knots, main and jib for moderate conditions, full canvas in light air. The 53's D/L of ~233 and proven hull make it an honest performer rather than a light-air flier — expect 7 knots in 16 knots true; 200 nm days are realistic. One caution: in-mast furling sacrifices sail shape at the top of the wind range; owners planning a lot of trade-wind sailing often add a cruising chute or code zero.",
+    "engineWorkshop": "The fourth cabin aft can be specified at build as a dedicated engine room and workshop — this is the configuration to seek on the used market. When fitted, it gives standing headroom access to the Yanmar and all systems, a proper workbench, and spares stowage. Boats without this build option have engine access via panels in the aft cabin, adequate but not luxurious. The generator (7.5 kW Westerbeke common) is typically in its own compartment. Overall one of the better engine-access arrangements among production 50-footers, but only outstanding when the workshop option was specified.",
+    "systems": "Typical fit includes an autopilot (Autohelm/Simrad), chartplotter, AIS, full nav suite at the nav station. Many boats have been updated with lithium banks, inverter/chargers, watermakers (Spectra or Katadyn), SSB, and satellite comms. Electrical systems are 24 V on most boats. The Oyster build standard is high but the boats are now 17–25 years old — budget for a full systems audit and likely rewiring on any purchase.",
+    "storageText": "A 47,000 lb GRP cruiser has the mass to carry serious stores. Lockers under the saloon sole, settees, and V-berth are generous. With the four-cabin layout there is dedicated stowage in each cabin plus the nav area. Chain locker, sail locker, and cockpit lazarettes provide deck-level storage. Passage provisioning for 60+ days is practical. The one frustration owners cite is that the raised-saloon interior chops the accommodation into more discrete zones, so it takes a passage or two to learn where everything lives.",
+    "rangeText": "With 851 L of fuel and a 100 hp Yanmar burning roughly 8–10 L/hr at passage speed, motoring range is approximately 800–1,000 nm under power alone — enough to cross the Doldrums or transit the Panama Canal zone without re-fuelling anxiety. Combined with 750 L of water and a watermaker, this is a genuinely self-sufficient passage-maker. The Patagonia-to-Caribbean route suits it well: the fuel depth covers the calms, and the cutter rig handles the variables.",
+    "accommodation": "Three or four cabins depending on build spec. Typical layout: aft owner's cabin with centerline double and ensuite head; raised deck saloon with U-shaped settee and nav station; galley (narrow walkthrough on starboard between master and saloon — functional, not palatial); two guest cabins forward sharing or with separate head; optional fourth cabin aft configured as workshop. Eight berths total in full accommodation version. Interior joinery available in cherry, American white oak, teak, or maple — finish quality is genuinely yacht-club calibre.",
+    "highLatText": "The centre-cockpit / deck-saloon architecture is well-suited to cold cruising. Crew shelter is better than most production cruisers of this era. GRP construction is unaffected by cold. The Yanmar diesel is proven in cold climates. You will want to add a diesel heater (Eberspächer or Webasto) if not already fitted — most boats cruising high latitudes will have one. Rigging and sail handling are conventional and manageable in gloves. The shoal-draft keel option helps in Patagonian anchorages, but the draft difference (6'0\" vs 7'4\") is modest — you are still a deep-keeled boat. Companionway sealing and window integrity are the key survey items for Southern Ocean preparation.",
+    "tropicalText": "The raised deck saloon creates excellent natural ventilation — the elevated windows catch wind that flows over a lower deck, and hatches in the coachroof are common on these boats. The centre cockpit benefits from shade via bimini and is naturally cooler than a flush deck. The main tropical challenge is the narrow galley — cooking in heat requires good ventilation, and many owners add fans or upgrade the galley ventilation. Air conditioning is retro-fittable. Overall, this is a more comfortable tropical boat than its cold-weather bias suggests.",
+    "priceText": "Used market (2025) runs roughly $350k–$650k USD depending on year, spec, and refit state. UK-listed boats in GBP often show £300k–£400k. Well-maintained examples with the workshop option, updated electronics, and a watermaker sit toward the upper half of the range. Budget another $50k–$100k to bring any boat to passage-ready standard (rigging, sails, systems audit, safety gear, dinghy/outboard).",
+    "priceNew": "~$1.4M–$1.6M USD (new, circa 2003–2006; ~AUD 2.1M equipped at launch)",
+    "priceUsed": "$350,000–$650,000 USD (2024–2025 market)",
+    "budgetText": "A tightly fitted choice within your $1M budget. A well-specced example at $550k–$650k leaves $350k–$450k for refit, systems, and safety gear — workable but not lavish. The boats are old enough (17–25 years) that budgeting aggressively for systems renewal is essential. The upside: Oyster residuals are strong, so you are unlikely to lose value if you buy carefully.",
+    "notable": "Described by owners as a 'first class British train' at sea — quiet, stable, and refined in rough conditions. Completed multiple world rallies and extended bluewater circuits. NZ-built examples (McDell Marine) have an especially strong reputation for hull integrity. The Boating NZ 2025 article noted 'minimal structural work' required on a 20-year-old example, which is exceptional for a production GRP boat.",
+    "scores": {
+      "protection": 4,
+      "handling": 4.5,
+      "dogs": 3.5,
+      "workshop": 4,
+      "storage": 4.5,
+      "tankage": 4.5,
+      "highlat": 4,
+      "tropical": 4,
+      "budget": 2
+    },
+    "tags": [
+      "deck-saloon",
+      "centre-cockpit",
+      "bluewater",
+      "cutter"
+    ],
+    "fun": [
+      "The cockpit was ergonomically designed with Loughborough University — seats long enough to sleep on, with wavy coamings for every lounging position.",
+      "In a 2006 SAIL Magazine test, the 53 was compared to riding first class on a British train — composed and quiet through rough seas that had the crew expecting chaos below."
+    ],
+    "priceExamples": [
+      "S/Y Venture (2007): £365,000 GBP (~$462k USD), VAT paid, Lefkas Greece — Oyster Yachts brokerage",
+      "S/Y Seeadler (2000): €450,000 (~$486k USD), Lignano Italy — Denison Yacht Sales",
+      "Unnamed 2000 hull: $545,000 USD, Bahamas — Wellington Yacht Partners"
+    ],
+    "sources": [
+      {
+        "name": "SAIL Magazine — Oyster 53 full test (2006)",
+        "url": "https://sailmagazine.com/boats/oyster-53/"
+      },
+      {
+        "name": "Oyster Yachts — Heritage Oyster 53 page",
+        "url": "https://oysteryachts.com/heritage-yachts/oyster-53/"
+      },
+      {
+        "name": "Waterline Boats — Owner's Insights: Oyster 53",
+        "url": "https://waterlineboats.com/a-boat-owners-insights-oyster-53/"
+      },
+      {
+        "name": "Boating New Zealand — Oyster 53 Bluewater Benchmark (Jun 2025)",
+        "url": "https://www.boatingnz.co.nz/2025/06/oyster-53-bluewater-benchmark-with-a-kiwi-backstory/"
+      },
+      {
+        "name": "Denison Yacht Sales — S/Y Seeadler listing",
+        "url": "https://www.denisonyachtsales.com/yachts-for-sale/seeadler-53-oyster"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Sailing aboard the Oyster 53 Glass Slipper",
+        "url": "https://www.youtube.com/watch?v=sdi5yIzBHV0",
+        "note": "Walkaround and sailing footage of a well-maintained Oyster 53"
+      },
+      {
+        "name": "Oyster 53 — Big Waves, High Winds, Strait of Bonifacio",
+        "url": "https://www.youtube.com/watch?v=roLIEIjsd18",
+        "note": "Force 9.5, 40–50 knot conditions — real offshore capability on display"
+      },
+      {
+        "name": "Day Sail before an Oyster 53 Tour (Dec 2024)",
+        "url": "https://www.youtube.com/watch?v=jSyto6COA4w",
+        "note": "Recent interior and deck tour with sailing footage"
+      },
+      {
+        "name": "Oyster 53 Moondance — Owner video (Jan 2020)",
+        "url": "https://www.youtube.com/watch?v=8h1kPtYYGqc",
+        "note": "Owner perspective on liveaboard cruising"
+      }
+    ],
+    "pros": [
+      "Centre-cockpit / deck-saloon layout gives substantially better crew protection than aft-cockpit designs — critical for Patagonia passages",
+      "851 L fuel and 750 L water gives genuine passage-making autonomy without re-fuelling anxiety",
+      "Yanmar diesel with optional dedicated workshop cabin means serious engine and systems access — far above average for production 50-footers",
+      "Proven hulls: 20+ year old examples show minimal structural deterioration; Oyster build quality and residual values are among the best in class",
+      "Cutter rig with all lines aft and electric winches makes short-handed passage-making genuinely manageable for two people"
+    ],
+    "cons": [
+      "Helm station is more exposed than the cockpit — in beam-sea conditions or cold climates, the skipper gets wet while the crew stays dry",
+      "In-mast furling (fitted to most boats) degrades sail shape — trade-wind sailing performance suffers unless a code zero or cruising chute is added",
+      "Workshop cabin must be specified at build; boats without it have adequate but not exceptional engine access — check carefully before buying",
+      "Boats are 17–25 years old: budget $50k–$100k beyond purchase price for systems renewal, rigging, and safety gear before offshore departure"
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "SAIL Magazine (Tom Dove, 2006 offshore test)",
+        "note": "Praised the 53's refined seakeeping and offshore capability; described the sailing experience as 'first class on a British train'",
+        "url": "https://sailmagazine.com/boats/oyster-53/"
+      },
+      {
+        "who": "Boating New Zealand (Jun 2025)",
+        "note": "Noted 'minimal structural work' required on a 20-year-old NZ-built example, citing consistent 200 nm/day passage performance and strong residual values"
+      }
+    ],
+    "badge": "Offshore proven",
+    "own": {
+      "mastStep": "Keel-stepped aluminium spar; professionally serviced at haulout intervals",
+      "keelRudder": "Lead bulb fin keel with stainless keel bolts; skeg-hung rudder on most hulls. Keel bolt inspection at haulout is routine but important on boats this age",
+      "complexity": "Medium-high. Oyster specification includes electric winches, autopilot, full electronics suite, watermaker, generator on most boats — all require maintenance competence. The cutter rig adds one more forestay to manage. Not a boat for someone new to offshore sailing systems.",
+      "maintain": "GRP hull maintenance is low. Systems maintenance is moderate-to-high given age and complexity of fit. The Oyster Owner community is active and shares knowledge freely. Parts are generally available but some original Oyster proprietary hardware (hatches, deck fittings) can be slow to source. Finding a good Yanmar dealer is easy worldwide.",
+      "partsText": "Yanmar diesels are globally supported — parts and service available in every cruising area. Lewmar and Harken deck hardware is universal. Some original Oyster deck fittings and window systems may require sourcing through Oyster Yachts directly or specialist marine chandlers. Electronics (often 2000s-era Simrad/Autohelm) will likely be replaced on refit anyway.",
+      "problems": "The most commonly reported issues on older Oysters relate to: (1) aging electrical systems — wiring from the early 2000s benefits from full audit/renewal; (2) window sealant degradation on 20+ year old boats — the distinctive deck-saloon windows must seal well offshore; (3) in-mast furling mechanism wear — inspect carefully; (4) engine mounts and shaft seals as standard age-related items. No widespread reports of structural defects, osmosis, or keel failures specific to the Humphreys 53.",
+      "sentiment": "Strongly positive among owners. The Oyster 53 Humphreys is regarded as one of the most capable offshore production cruisers of its era. Owners who have done serious miles on them — world rallies, Southern Ocean passages, Atlantic circuits — consistently describe them as composed, safe, and genuinely comfortable at sea. The main sentiment caveat is that buyers must go in with eyes open about the age of the boats and the systems renewal budget required.",
+      "communities": [
+        {
+          "name": "Cruisers Forum — Oyster section",
+          "url": "https://www.cruisersforum.com/forums/f46/"
+        },
+        {
+          "name": "Oyster Owners Association (OOA)",
+          "url": "https://www.oysterownersassociation.com/"
+        }
+      ],
+      "risks": [
+        "Aging electrical systems (early 2000s wiring) — full audit and likely partial rewire should be budgeted",
+        "Window sealant integrity — the large deck-saloon windows are the boat's signature but must be inspected and resealed if in doubt",
+        "In-mast furling wear — inspect drum, foil, and reefing lines carefully; a failed system at sea is a serious problem",
+        "Workshop cabin not guaranteed — confirm at purchase whether the 4th cabin is workshop-spec; retrofitting is expensive",
+        "Keel bolt condition on 20+ year old boats — standard offshore survey requirement but worth specialist ultrasonic testing"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 3,
+        "parts": 4,
+        "community": 4
+      }
+    }
+  },
+  {
+    "id": "oyster54",
+    "name": "Oyster 54",
+    "builder": "Oyster Marine (UK)",
+    "designer": "Humphreys Yacht Design",
+    "color": "#1B4F8A",
+    "years": "2008–2013 (Oyster 54); successor 545 built 2013–2018",
+    "material": "GRP",
+    "category": "Centre-cockpit cruiser",
+    "cockpitType": "Center + deck saloon",
+    "loa": "53'11\" (16.43 m)",
+    "lwl": "46'3\" (14.10 m)",
+    "beam": "15'7\" (4.75 m)",
+    "draftMin": "6'0\" (1.83 m — shoal keel)",
+    "draftMax": "7'10\" (2.40 m — deep keel)",
+    "displacement": "46,893 lb (21,315 kg)",
+    "ballast": "15,562 lb deep keel / 17,900 lb shoal keel",
+    "ballastRatio": "~33%",
+    "sailArea": "1,658 ft² (154 m²)",
+    "airDraft": "70'6\" (21.5 m)",
+    "engine": "Yanmar 4JH4-HTBE 110 hp diesel",
+    "drive": "Shaft drive, fixed prop",
+    "cabins": "3 cabins, 2 heads",
+    "keel": "Deep fin keel (standard) or shoal keel option; centerboard variant also listed",
+    "cockpit": "Large centre cockpit, seats 5–6, folding table for 6–8, pedestal helm, high coamings, deck saloon overhead provides some aft shelter",
+    "fuel": "224 gal (850 L)",
+    "water": "198 gal (750 L)",
+    "loaN": 16.43,
+    "lwlFt": 46.25,
+    "beamFt": 15.58,
+    "dispLb": 46893,
+    "draftMinN": 1.83,
+    "sad": "~20.4",
+    "dl": "~212",
+    "fuelN": 850,
+    "waterN": 750,
+    "engineHp": 110,
+    "priceMinUSD": 650000,
+    "priceMaxUSD": 1050000,
+    "budget": "tight",
+    "budgetN": 2,
+    "bestFor": "Two-up offshore passagemaking with liveaboard comfort; Oyster's flagship mid-size cruiser of its era, built to go anywhere and come home intact",
+    "protectionText": "Centre cockpit with high coamings and the deck saloon structure just forward offers meaningful protection — crew work from a relatively sheltered station. Not a fully enclosed pilothouse, so spray and cold air still reach the helm in hard conditions. Dodger and bimini add to protection but that's owner-added kit. For Patagonia you will want a serious enclosure; the bones are there to rig one.",
+    "rig": "Masthead sloop; in-mast furling mainsail standard (fully battened mainsail offered as owner option); 125% roller-furling genoa; electric halyard and sheet winches standard; carbon rig and asymmetric chute available",
+    "handlingText": "Designed squarely for two-handed passagemaking. Electric winches, in-mast furling, and all lines led to the cockpit mean a couple can reef or sail change without leaving the helm area. The boat is heavy (21,300 kg) so it does not punch above its weight in light air, but it tracks steadily and responds predictably. In 30 knots under two reefs Yachting World described it as composed and confidence-inspiring. Wheel diameter noted as slightly oversized, limiting cockpit access.",
+    "engineWorkshop": "Dedicated engine access through the small third cabin (often called the 'utility cabin'). The Yanmar 4JH4-HTBE is a common, well-supported engine with parts available globally. Engine room is accessible but not a stand-up workshop by any measure — typical of boats this size. Electrical and systems panels are extensive; some owners note the main breaker panel is awkwardly placed beneath the navigator's seat.",
+    "systems": "Full bluewater fit: watermaker standard or pre-plumbed option, inverter/charger, solar and wind generation wiring prepared, bow thruster option, electric anchor windlass, comprehensive electronics suite (Raymarine or Garmin depending on year), AIS, SSB/satellite comms ready",
+    "storageText": "Exceptional for the size. Three cabins each with dedicated hanging lockers and under-berth stowage; galley with deep lockers and dedicated dry-goods space; cockpit lazarette; anchor locker forward. One notable gap: no dedicated sail locker — Yachting World criticised this, and a cruising chute or storm sail must share space below.",
+    "rangeText": "850 L fuel at 6 knots motoring yields roughly 1,200–1,400 nm under engine alone, assuming modest consumption at cruise rpm. 750 L water plus a standard watermaker extends independence indefinitely on passages. Tankage is a genuine strength — Patagonia's fuel scarcity demands this range.",
+    "accommodation": "Owner's aft stateroom with centerline double, hanging lockers, and full-size shower. Generous U-shaped galley amidships. Saloon with starboard dinette and port curved settee, seats 8 at table. Forward double cabin with en suite head. Small third cabin (port midship) usable as crew quarters or fitted as utility/workshop. 2 heads each with separate shower stall.",
+    "highLatText": "GRP construction is fine for cold; the boat is heavy enough to handle Southern Ocean chop without feeling fragile. The cockpit is manageable for oilskin-clad crew, and a properly built enclosure can seal it entirely. Keel-stepped mast (standard) is robust. Main gaps: no pilothouse, so watch-standing in Patagonia requires real cold-weather kit; interior insulation is a standard coastal UK spec that will need augmenting for serious cold-weather passages.",
+    "tropicalText": "Deck saloon design with large opening hatches and portlights moves air well. Multiple opening hatches per cabin. The fan and ventilation provisions are adequate for the tropics but not exceptional — an owner heading to the Pacific should add a waterproof Dorade and cockpit fan. Teak decks (standard on 54) absorb heat; synthetic teak (545 option) is cooler. White hull helps.",
+    "priceText": "Used Oyster 54s (2008–2013): roughly $650k–$900k USD depending on year, keel, and refit state. Oyster 545s (2013–2018) push $800k–$1.1M. At the top of your $1M outfitted budget you are buying a good early example and will have little left for upgrades. A well-found one under $800k is achievable but requires scrutiny.",
+    "priceNew": "~£795,000–£925,000 ex-VAT when new (2008–2014 pricing)",
+    "priceUsed": "$650,000–$1,050,000 USD (2025 market)",
+    "budgetText": "Tight. A clean, well-equipped Oyster 54 can be found under $850k, leaving $150k for outfitting — tight but workable if the boat is already offshore-ready. A neglected example needing refit work will blow the budget. Inspect rigging, sails, and electronics hard; an Oyster survey and sea trial is non-negotiable.",
+    "notable": "21 hulls built (Oyster 54); succeeded by near-identical Oyster 545. Hull construction outsourced to McDell Marine (New Zealand) for early examples, finished by Oyster in Southampton. Oyster went into administration in 2018 but was rescued and relaunched — parts and support restored.",
+    "scores": {
+      "protection": 4,
+      "handling": 4.5,
+      "dogs": 3.5,
+      "workshop": 4,
+      "storage": 4.5,
+      "tankage": 5,
+      "highlat": 3.5,
+      "tropical": 4,
+      "budget": 2
+    },
+    "tags": [
+      "centre-cockpit",
+      "deck-saloon",
+      "bluewater",
+      "UK-built"
+    ],
+    "fun": [
+      "Oyster 54 hull #1 was delivered to Sir Robin Knox-Johnston, who sailed it solo across the Atlantic within months of delivery",
+      "The 545's flush deck hatches were inspired directly by Oyster's larger superyacht range — the 54-footer got the same hardware as boats twice its price"
+    ],
+    "priceExamples": [
+      "2010 Oyster 54, deep keel, Premià de Mar Spain — listed ~$817k USD (YachtWorld, 2024)",
+      "2015 Oyster 545, shoal keel, Barcelona — £610,000 (~$770k USD) via Oyster Brokerage",
+      "2016 Oyster 545, Antigua — AUS$895,000 (~$575k USD) — bottom of market, southern hemisphere listing"
+    ],
+    "sources": [
+      {
+        "name": "Oyster Yachts — Oyster 54 heritage page",
+        "url": "https://oysteryachts.com/heritage-yachts/oyster-54/"
+      },
+      {
+        "name": "Yachting World — Oyster 475 and 545 boat test",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-475-and-545-boat-test"
+      },
+      {
+        "name": "Yachting World — Oyster 54 liveaboard test",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-54-liveaboard-test"
+      },
+      {
+        "name": "Cruising World — Oyster 54 bluewater passagemaker review",
+        "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/"
+      },
+      {
+        "name": "SailboatData — Oyster 54 Humphreys",
+        "url": "https://sailboatdata.com/sailboat/oyster-54-humphreys/"
+      }
+    ],
+    "youtube": [
+      {
+        "name": "Oyster Yachts — Oyster 545 walkaround",
+        "url": "https://www.youtube.com/watch?v=VNRkl0nS3zM",
+        "note": "Factory walkaround of the 545 (same hull as the 54) covering cockpit, saloon, and owner's cabin"
+      },
+      {
+        "name": "Sailing Mareda — Life aboard Oyster 54",
+        "url": "https://www.youtube.com/watch?v=5sGhT8Wy7UQ",
+        "note": "Owner couple passage-making aboard their Oyster 54; useful for real-world impressions of the layout and offshore behaviour"
+      }
+    ],
+    "pros": [
+      "Legendary Oyster build quality — GRP laminate and joinery to near-superyacht standards; these boats hold up on long passages",
+      "850 L fuel / 750 L water is best-in-class tankage for the size; gives genuine independence in remote anchorages and fuel-scarce regions",
+      "All-electric sail handling (electric winches, furling main) makes two-up passagemaking genuinely manageable for a fit couple",
+      "Three-cabin layout with two full heads gives flexibility for guests, crew, or converting the third cabin to a utility/workshop space",
+      "Strong resale value and active Oyster community (Oyster Owners Association, factory refit support) means you are not alone when things break"
+    ],
+    "cons": [
+      "Budget is tight: a clean, well-found example absorbs most of a $1M budget with limited margin for upgrades or unexpected refit",
+      "No dedicated sail locker — stowing a cruising chute, storm jib, and extra sails requires creative below-decks compromise",
+      "Mast height (70'6\") prevents ICW transit and limits some marina berthing; not relevant for the planned route but worth knowing",
+      "Centre cockpit is spacious but not deeply recessed — in Patagonia you will want a full enclosure which is owner-fitted, not factory"
+    ],
+    "awards": [],
+    "endorsements": [
+      {
+        "who": "Yachting World (sea trial, 2013)",
+        "note": "Praised the 545 as 'the thinking bluewater sailor's choice at this size' — the galley in particular described as the best the reviewer had seen on a production boat",
+        "url": "https://www.yachtingworld.com/reviews/boat-tests/oyster-475-and-545-boat-test"
+      },
+      {
+        "who": "Cruising World (sea trial, Narragansett Bay)",
+        "note": "Called the Oyster 54 'very responsive for such a big boat' and praised the conservative hull giving offshore confidence",
+        "url": "https://www.cruisingworld.com/sailboats/oyster-54-serious-bluewater-passagemaker/"
+      }
+    ],
+    "badge": "Oyster flagship",
+    "own": {
+      "mastStep": "Keel-stepped aluminum mast — robust, preferred for offshore; mast removal requires a crane but stepping integrity is excellent",
+      "keelRudder": "Fin keel (deep or shoal), skeg-hung rudder — proven offshore combination; skeg protects rudder from debris and grounding damage",
+      "complexity": "High. Full bluewater systems suite means watermaker, inverter, chart plotter network, electric winches, furling systems, and optional bow thruster all need maintenance. Owner-mechanic capability strongly recommended.",
+      "maintain": "Oyster builds to a high standard so failure rates are lower than average, but complexity means more to maintain. Yanmar engine is a strength — parts and dealers worldwide. UK-sourced hardware (Lewmar, Selden, Navtec) is available globally through chandleries. Oyster's administration and relaunch (2018) did not strand parts supply.",
+      "partsText": "Yanmar 4JH4 parts: excellent global availability. Selden spars: worldwide dealer network. Lewmar winches and hatches: standard availability. Oyster-proprietary items (upholstery, woodwork, custom hardware): best sourced from Oyster's relaunched factory in Southampton or their licensed repairers. The Oyster Owners Association maintains a brokerage-and-refit contact list.",
+      "problems": "Main reported issues: (1) main power panel located awkwardly under navigator's seat — an ergonomic nuisance, not a safety issue; (2) wet locker undersized for offshore crew — owners add deck storage bags; (3) early in-mast furling mainsails (pre-545) had furling line routing issues in some builds — inspect and replace if worn; (4) teak decks on original 54 eventually require recaulking or replacement (budget $15k–$30k); (5) Oyster's 2018 administration created brief warranty uncertainty — now resolved, but pre-purchase due diligence on warranty claims is wise.",
+      "sentiment": "Strongly positive in bluewater cruising circles. Oyster owners are vocal and loyal; the brand is associated with successful circumnavigations and long-distance passages. Criticism is reserved for price (high even used) and complexity. No community of owners reporting structural or systemic failures.",
+      "communities": [
+        {
+          "name": "Oyster Owners Association",
+          "url": "https://www.oysterownersassociation.com/"
+        },
+        {
+          "name": "Cruisers Forum — Oyster Yachts",
+          "url": "https://www.cruisersforum.com/forums/f14/"
+        },
+        {
+          "name": "Sailing Anarchy — Cruising Anarchy board",
+          "url": "https://forums.sailinganarchy.com/"
+        }
+      ],
+      "risks": [
+        "Budget overrun: buying at the top of market leaves little for the unavoidable post-purchase work (sails, electronics, safety gear, enclosure)",
+        "Teak deck condition: original 54 teak decks can be a $20k–$30k liability if neglected — check caulking seams carefully",
+        "In-mast furling reliability offshore: a jammed furling main in 35 knots is a genuine problem; inspect the system and carry a plan B",
+        "Oyster administration legacy: verify any existing warranty claims were resolved before purchase; some pre-2018 buyers had open warranty items that were not honoured during administration"
+      ],
+      "scores": {
+        "maintain": 3,
+        "simplicity": 2,
+        "parts": 4,
+        "community": 5
+      }
+    }
   }
 ]
