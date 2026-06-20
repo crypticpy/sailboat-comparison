@@ -4,3 +4,20 @@ Thumbs.db
 .idea/
 .vscode/
 .claude/
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Local env (Supabase keys injected at build from CI secrets)
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI local state
+supabase/.branches/
+supabase/.temp/
