@@ -3412,3 +3412,159 @@ footer a {
   font-size: 13px;
   margin-bottom: 5px;
 }
+
+/* ═══════════ Polish & delighters ═════════════════════════════════════════ */
+
+/* toasts */
+.toaster {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+.toast {
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  animation: toastIn 0.26s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* back-to-top FAB */
+.scrolltop {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 60;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  animation: toastIn 0.26s cubic-bezier(0.2, 0.8, 0.3, 1);
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+.scrolltop:hover {
+  border-color: var(--brass);
+  color: var(--brass-deep);
+  transform: translateY(-2px);
+}
+.scrolltop:active {
+  transform: translateY(0);
+}
+
+/* skeleton loader */
+.skel-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+.skel-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.skel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+.skel-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.skel-thumb {
+  height: 120px;
+  border-radius: 10px;
+}
+.skel-line {
+  height: 13px;
+  border-radius: 6px;
+}
+.skel-line.w40 {
+  width: 40%;
+}
+.skel-line.w50 {
+  width: 50%;
+}
+.skel-line.w60 {
+  width: 60%;
+}
+.skel-line.w70 {
+  width: 70%;
+}
+.skel-line.w90 {
+  width: 90%;
+}
+.skel-chips {
+  display: flex;
+  gap: 8px;
+  margin-top: 2px;
+}
+.skel-chips span {
+  width: 54px;
+  height: 20px;
+  border-radius: 999px;
+}
+.skel-thumb,
+.skel-line,
+.skel-chips span {
+  background: linear-gradient(
+    100deg,
+    var(--chip) 30%,
+    var(--paper-2) 50%,
+    var(--chip) 70%
+  );
+  background-size: 220% 100%;
+  animation: skelShimmer 1.25s ease-in-out infinite;
+}
+@keyframes skelShimmer {
+  from {
+    background-position: 180% 0;
+  }
+  to {
+    background-position: -80% 0;
+  }
+}
+
+/* a search hint chip inside the field, when present */
+.fld input#fleet-search::placeholder {
+  color: var(--muted);
+  opacity: 0.85;
+}

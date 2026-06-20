@@ -22,7 +22,9 @@ import BoatCard from "./components/BoatCard";
 import BoatTable, { type TableSortKey } from "./components/BoatTable";
 import DetailModal from "./components/DetailModal";
 import CompareModal from "./components/CompareModal";
+import ScrollTop from "./components/ScrollTop";
 import { useNoteIds } from "./lib/notes";
+import { toast, Toaster } from "./lib/toast";
 
 const PRICE_MAX = 2000000;
 const FAV_KEY = "sailfav19";
@@ -81,6 +83,31 @@ export default function App() {
       /* ignore */
     }
   }, [favs]);
+
+  // Keyboard shortcuts: "/" jumps to search, "c" opens compare when boats are
+  // picked. Ignored while typing in a field so it never eats real input.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const el = e.target as HTMLElement | null;
+      if (
+        el &&
+        (el.tagName === "INPUT" ||
+          el.tagName === "TEXTAREA" ||
+          el.tagName === "SELECT" ||
+          el.isContentEditable)
+      )
+        return;
+      if (e.key === "/") {
+        e.preventDefault();
+        document.getElementById("fleet-search")?.focus();
+      } else if (e.key.toLowerCase() === "c" && compareSet.size > 0) {
+        setCompareOpen(true);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [compareSet.size]);
 
   // Re-score whenever data or either weight blend changes.
   const scored = useMemo<ScoredBoat[]>(
@@ -194,10 +221,16 @@ export default function App() {
         return next;
       }
       if (prev.size >= 4) {
-        alert("Compare up to 4 boats at once.");
+        toast("Compare holds up to 4 boats — remove one first.");
         return prev;
       }
-      return new Set(prev).add(id);
+      const next = new Set(prev).add(id);
+      toast(
+        next.size === 1
+          ? "Added to compare — pick a few, then hit Compare."
+          : `${next.size} boats in compare.`,
+      );
+      return next;
     });
   }, []);
 
@@ -243,7 +276,7 @@ export default function App() {
   const compareBoats = scored.filter((b) => compareSet.has(b.id));
 
   if (loading) {
-    return <div className="loading">Loading the fleet…</div>;
+    return <FleetSkeleton />;
   }
 
   return (
@@ -362,7 +395,38 @@ export default function App() {
           }}
         />
       )}
+
+      <ScrollTop />
+      <Toaster />
     </>
+  );
+}
+
+// A shimmer placeholder while the fleet loads — keeps the layout from jumping
+// and reads as "working", not "broken".
+function FleetSkeleton() {
+  return (
+    <div className="skel-page" aria-busy="true" aria-label="Loading the fleet">
+      <div className="skel-hero">
+        <div className="skel-line w60" />
+        <div className="skel-line w90" />
+        <div className="skel-line w40" />
+      </div>
+      <div className="skel-grid">
+        {Array.from({ length: 9 }, (_, i) => (
+          <div className="skel-card" key={i}>
+            <div className="skel-thumb" />
+            <div className="skel-line w70" />
+            <div className="skel-line w50" />
+            <div className="skel-chips">
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

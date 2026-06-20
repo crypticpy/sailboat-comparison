@@ -110,10 +110,11 @@ export default function Controls({ state, set, onReset }: Props) {
             />
           </div>
           <div className="fld">
-            <label>Search</label>
+            <label htmlFor="fleet-search">Search</label>
             <input
+              id="fleet-search"
               type="search"
-              placeholder="name, builder, keyword…"
+              placeholder="name, builder, keyword…  ( / )"
               value={state.query}
               onChange={(e) => set("query", e.target.value)}
             />

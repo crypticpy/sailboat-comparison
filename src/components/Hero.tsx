@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import type { Boat } from "../types/boat";
 import { isShelter } from "../lib/format";
 import { csf } from "../lib/metrics";
+import { useCountUp } from "../lib/useCountUp";
 import type { ChipFilter } from "./Controls";
 
 const numberWord = (n: number): string => {
@@ -80,31 +81,21 @@ export default function Hero({
         </div>
         <div className="statbar">
           <Stat
-            n={String(boats.length)}
+            n={boats.length}
             label="boats compared"
             onPick={onPick}
             chip="all"
           />
+          <Stat n={fitN} label="fit under $1M" onPick={onPick} chip="budget" />
+          <Stat n={sh} label="steer from inside" onPick={onPick} chip="pilot" />
           <Stat
-            n={String(fitN)}
-            label="fit under $1M"
-            onPick={onPick}
-            chip="budget"
-          />
-          <Stat
-            n={String(sh)}
-            label="steer from inside"
-            onPick={onPick}
-            chip="pilot"
-          />
-          <Stat
-            n={String(shoal)}
+            n={shoal}
             label="draw under 1.3 m"
             onPick={onPick}
             chip="shoal"
           />
           <Stat
-            n={String(seaKindly)}
+            n={seaKindly}
             label="capsize screen < 1.9"
             onPick={onPick}
             chip="seakindly"
@@ -121,15 +112,16 @@ function Stat({
   onPick,
   chip,
 }: {
-  n: string;
+  n: number;
   label: string;
   onPick?: (chip: ChipFilter) => void;
   chip: ChipFilter;
 }) {
+  const shown = useCountUp(n);
   if (!onPick) {
     return (
       <div className="st">
-        <b>{n}</b>
+        <b>{shown}</b>
         <span>{label}</span>
       </div>
     );
@@ -141,7 +133,7 @@ function Stat({
       onClick={() => onPick(chip)}
       title={`Filter the fleet — ${label}`}
     >
-      <b>{n}</b>
+      <b>{shown}</b>
       <span>{label}</span>
     </button>
   );
