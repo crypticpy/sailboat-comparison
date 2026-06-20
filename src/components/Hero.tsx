@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Boat } from "../types/boat";
 import { isShelter } from "../lib/format";
 import { csf } from "../lib/metrics";
@@ -62,6 +63,11 @@ export default function Hero({
   return (
     <header className="hero">
       <div className="wrap">
+        <div className="hero-nav">
+          <Link to="/budget" className="hero-navlink">
+            🧮 Budget &amp; voyage planner →
+          </Link>
+        </div>
         <h1>⛵ Bluewater Cruiser Comparison</h1>
         <div className="sub">
           {numberWord(boats.length)} serious offshore monohulls scored against
