@@ -35,8 +35,16 @@ const MAP = {
 const cols = Object.values(MAP);
 const setClause = cols.map((c) => `${c} = excluded.${c}`).join(", ");
 
+// 2026-06: Moody DS line (enriched 54 + new 45DS/DS48/DS41) and the value Hanse cluster.
+const SYNC_IDS = process.argv.slice(2).length
+  ? process.argv.slice(2)
+  : [
+      "moodyds54", "moody45ds", "moodyds48", "moodyds41",
+      "hanse575", "hanse588", "hanse548", "hanse545",
+    ];
+
 let sql = "";
-for (const id of ["boreal55", "boreal56"]) {
+for (const id of SYNC_IDS) {
   const b = boats.find((x) => x.id === id);
   if (!b) throw new Error(`missing ${id}`);
   const snake = {};
