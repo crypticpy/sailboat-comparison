@@ -4752,16 +4752,16 @@
   {
     "id": "amel",
     "name": "Amel 50",
-    "builder": "Chantiers Amel · France",
+    "builder": "Chantiers Amel · La Rochelle, France",
     "designer": "Berret-Racoupeau",
     "color": "#1b4f72",
-    "years": "2017–~2021",
-    "material": "GRP",
+    "years": "2017–present",
+    "material": "GRP (vacuum-infused; foam-cored topsides)",
     "category": "Centre-cockpit cruiser",
-    "loa": "54'1\" (16.50 m)",
+    "loa": "54'2\" (16.50 m)",
     "loaN": 16.5,
-    "lwl": "47'6\" (14.50 m)",
-    "beam": "15'7\" (4.79 m)",
+    "lwl": "47'7\" (14.50 m)",
+    "beam": "15'9\" (4.79 m)",
     "beamFt": 15.71,
     "lwlFt": 47.57,
     "dispLb": 45000,
@@ -4769,49 +4769,50 @@
     "draftMinN": 2.15,
     "draftMax": "7'1\" (2.15 m fixed)",
     "displacement": "18,750 kg light / 22,200 kg loaded",
-    "ballast": "5,360 kg",
-    "ballastRatio": "~29%",
-    "sailArea": "126 m² / 1,356 ft²",
+    "ballast": "5,360 kg cast iron",
+    "ballastRatio": "~28.6% (light)",
+    "sailArea": "126 m² / 1,356 ft² (62 main + 64 genoa)",
     "sad": "~18–20",
-    "dl": "~171",
+    "dl": "~170",
     "airDraft": "~22.5 m / 74'",
-    "engine": "Volvo 110 hp",
+    "engine": "Volvo D3-110 (early) / D3-150 (Evolution)",
     "drive": "Shaft",
     "cabins": "3 cabins / 2 heads",
-    "keel": "Fixed fin keel with bulb; twin rudders; watertight bulkheads",
-    "cockpit": "Center cockpit with a rigid hardtop shelter, opening sunroof and wraparound glazing",
+    "keel": "Fixed fin keel with bulb (cast iron); twin spade rudders; 4–5 watertight compartments + single sea-chest",
+    "cockpit": "Center cockpit under a rigid hardtop with a pillarless wraparound windscreen, opening sunroof and electric sail controls — an enclosed, all-weather 'deckhouse' helm",
     "cockpitType": "Center + enclosed hardtop",
-    "bestFor": "The couple who prioritise effortless push-button sailing and an enclosed center cockpit above shoal-draft/aluminium expedition ability.",
-    "protectionText": "Among the best-protected production cockpits afloat — the helm and crew sit deep inside an integrated hard shelter, sealed from wind, spray, sun and cold; the boat can be managed almost entirely from the deckhouse. Superb for both Patagonian cold and tropical sun.",
-    "rig": "Masthead sloop (optional cutter/staysail); electric in-mast main furling, electric genoa (and optional staysail) furling, and powerful electric winches — set/reef/trim by button; bow thruster standard.",
-    "handlingText": "The Amel hallmark: electric in-mast main furling, electric genoa furling, and powerful electric winches — set, reef and trim everything at the push of a button from the protected cockpit. Bow thruster standard. The easiest boat here for a smaller/less-strong crew.",
-    "engineWorkshop": "Class-leading: the cockpit sole lifts to a dedicated, watertight, insulated walk-in engine room with full standing access all around the engine, genset and systems — plus room for tools and spares.",
-    "systems": "Watermaker effectively standard; generator, A/C, heating and a big house bank — a fully integrated turnkey systems boat designed to run itself for a couple.",
-    "storageText": "Very generous — deep cockpit lockers, large lazarette, cavernous bilge stowage and abundant interior lockers; designed for long-term liveaboard provisioning.",
-    "fuel": "~660 L / 175 gal",
-    "fuelN": 660,
+    "bestFor": "The cruising couple who want the most comfortable, genuinely push-button liveaboard passage-maker for temperate-to-tropical oceans — and who value an enclosed all-weather cockpit and turnkey systems over the shoal-draft, ice-capable, beach-anywhere ruggedness of an aluminium expedition boat. It wins on comfortable living and short-handed ease; it is not an expedition or high-latitude boat.",
+    "protectionText": "Among the best-protected production cockpits afloat. Helm and crew sit inside a rigid hardtop 'deckhouse' with a pillarless wraparound windscreen — sealed from wind, spray, sun and cold, the whole boat worked by button from the seat. Pip Hare (Yachting World) punched out of La Rochelle into a wet December gale \"oblivious to the weather raging outside.\" Superb tropical shade and genuine warmth in the cold — but it's a comfort-in-the-cold cockpit, not an ice-capable expedition one, and the full enclosure detaches the helmsman from the feel of the boat (a Cruising World judge disliked exactly that).",
+    "rig": "Amel's first sloop in ~20 years (the ketch was dropped to free up the wide aft hull and centre-cockpit volume). Masthead double-headsail rig on a proprietary four-compartment alloy spar: electric in-mast main furling, an electric ~64 m² outer genoa and an electric self-tacking inner staysail (~24 m²) — set, reef and trim by button. Optional Code 0/gennaker on a stemhead sprit; carbon mast optional on later (Evolution) hulls.",
+    "handlingText": "The Amel hallmark and its strongest card for a smaller/less-strong crew: electric in-mast main, electric genoa and self-tacking staysail furlers, electric winches and a standard bow thruster mean you sail, reef and dock almost entirely by button from the protected seat. The honest cost: the push-pull cable steering gives \"little feeling\" (Pip Hare), the high topsides make it windage-heavy and \"tricky\" to manoeuvre at low speed, and the bow thruster is effectively mandatory in a marina.",
+    "engineWorkshop": "Class-leading. The cockpit sole lifts on gas struts to a dedicated, sealed, insulated walk-in engine room with full stand-up access all around the Volvo, genset, watermaker, A/C and inverters — no floorboards to pull in the saloon, and a prop-shaft inspection port under the aft berth. The best machinery access in this fleet.",
+    "systems": "A fully integrated turnkey systems boat: watermaker (Dessalator), 8 kW genset, A/C, electric furling/winches, washer-dryer, big house bank and a single sea-chest feeding the raw-water services (fewer through-hulls). Later 'Evolution' hulls add solar, lithium, a 150 hp engine, an induction galley and a laminated-glass windscreen. Superb to live with — but a lot of proprietary, French-sourced systems to maintain.",
+    "storageText": "Exceptional — a Cruising World judge said he'd \"never seen a more efficient use of space on any cruising boat\": deep bilge lockers, settee and floorboard stowage, a saloon freezer and heeled-secure drawer lockers. Long-term liveaboard provisioning volume (the forward guest cabin is the one tight space).",
+    "fuel": "~675 L / 178 gal",
+    "fuelN": 675,
     "water": "600 L / 159 gal",
     "waterN": 600,
-    "rangeText": "~800–1,000+ nm motoring (owners report ~1,000 nm in calm); watermaker effectively standard for this role.",
-    "accommodation": "3 cabins / 2 heads, aft owner's suite with island berth, handrails everywhere. Big, climate-controllable interior — comfortable hot or cold. But high freeboard makes dog boarding harder; getting dogs down into the center cockpit needs a ramp/sling routine.",
-    "highLatText": "Strongly all-climate for comfort — enclosed hard cockpit, watertight bulkheads and heating make it genuinely livable in the cold. But GRP and a fixed 2.15 m keel limit gunkholing and make a rock grounding more consequential than on an aluminium centreboarder.",
-    "tropicalText": "Excellent — full glazing with shade, sunroof, good ventilation and easy push-button sailing in the trades.",
+    "rangeText": "~800–1,000+ nm motoring on ~675 L; a near-standard watermaker removes the water constraint. Owners note it \"will spend much time under power\" in light air (Ralph Naranjo), so plan fuel accordingly.",
+    "accommodation": "3 cabins / 2 heads with a luxurious aft owner's suite (island berth, en-suite), a saloon flooded with light from the deckhouse windows, and a notably small forward guest cabin. Big, climate-controllable and genuinely residential. For two dogs it's the awkward case here: high topsides and a companionway-down (not single-level) layout mean boarding and getting dogs into the centre cockpit needs a ramp/sling routine — no confirmed dog-aboard accounts found.",
+    "highLatText": "A comfort-in-the-cold boat, not an expedition one. The enclosed, heated hardtop cockpit and watertight bulkheads make cold-weather watch-keeping genuinely livable — but the GRP hull (no ice reinforcement), fixed 2.15 m keel (no beaching; a hard grounding is consequential), modest ~28% iron ballast and an unpublished AVS put true high-latitude/ice work in the domain of the aluminium centreboarders (Garcia, Boréal). Fine for a careful Norway or one Patagonia season; not the tool for sustained polar voyaging.",
+    "tropicalText": "Excellent — full hardtop shade, opening sunroof and hatches for ventilation, and effortless push-button sailing in the trades. The natural home of the Amel 50, where its comfort-first design shines (most owners cruise the Caribbean/Pacific tradewind circuit).",
     "priceText": "$900k–$1.75M (used)",
-    "priceNew": "New was ~€0.9–1.2M fully outfitted",
-    "priceUsed": "Used ~$900k–$1.0M for early 2017–2019 boats, up to ~$1.3–1.75M for newer/loaded",
+    "priceNew": "New launched ~€790k ex-VAT base (2017); ~$1.1–1.15M sailaway by 2021; current pre-50.2 builds ~$1.3–1.7M",
+    "priceUsed": "Used ~$850k–$1.1M for 2017–2021 hulls; loaded/newer to ~$1.3–1.75M. Amels hold value exceptionally — near-zero real depreciation",
     "priceMinUSD": 900000,
     "priceMaxUSD": 1750000,
     "budget": "tight",
     "budgetN": 2,
-    "budgetText": "Tight — a well-found 2017–2019 example can be found at or just under $1M, but many are above. Careful shopping required.",
+    "budgetText": "Tight — a clean 2017–2019 example can dip toward $850–950k (under $1M), but most sit above it, and the famously firm resale means few bargains. Budget hard, but you're buying an asset that holds value.",
     "priceExamples": [
-      "New was ~€0.9M–€1.2M fully outfitted",
-      "2019 examples advertised ~$950k … up to ~$1.75M for loaded boats",
-      "Brokerage spread roughly £718k–£1.3M"
+      "New ~€790,000 ex-VAT base (2017); ~$1.1M sailaway",
+      "2019 — €890,000 incl. VAT (France, Sizun & Charpentier)",
+      "2024 'one-year-old' — €1,050,000 ex-VAT, sold (Martinique, Caraibe Yachts)",
+      "2025 — ~$1.77M (France, Sizun & Charpentier)"
     ],
     "scores": {
       "protection": 5,
-      "handling": 5,
+      "handling": 4.5,
       "dogs": 2.5,
       "workshop": 4.5,
       "storage": 4.5,
@@ -4824,96 +4825,132 @@
       "Enclosed center cockpit",
       "Push-button sailing",
       "Walk-in engine room",
-      "Couple's classic"
+      "EYOTY 2018 winner"
     ],
     "fun": [
-      "Famous for letting a couple sail a 54-footer almost entirely by button.",
-      "The cockpit sole lifts up to reveal a stand-up watertight engine room.",
-      "Heir to the legendary Amel Super Maramu, an icon among circumnavigating couples."
+      "Amel's first sloop in ~20 years and the modern heir to the legendary Super Maramu — the couple's-circumnavigator icon, reimagined with a wide hull and twin rudders.",
+      "Hull #30 'Gaïa' sailed La Rochelle → the Caribbean → the Chilean fjords → French Polynesia as a floating science observatory; the 100th hull, 'Grace,' left to circumnavigate full-time.",
+      "The cockpit sole lifts on gas struts to a stand-up, watertight engine room — and a single sea-chest feeds the raw-water systems through one hull penetration.",
+      "European Yacht of the Year 2018 (Luxury Cruiser), beating the Hallberg-Rassy 44 and Ice 60."
     ],
-    "notable": "Hugely popular with two-handed circumnavigators; \"Sailing Amazing Grace\" cruise hull #100 worldwide.",
+    "notable": "European Yacht of the Year 2018 (Luxury Cruiser) and SAIL Best Boats 2020; 100+ built since 2017. The modern, push-button heir to the Super Maramu — with real ocean miles (the Courvoisiers' science voyage to Polynesia, the Nydrle family's 19-day Atlantic crossing on 'Liberty II', World-ARC circumnavigators) — superseded by the Amel 50.2 for 2026.",
     "sources": [
       {
-        "name": "Amel",
+        "name": "Amel — official",
         "url": "https://amel.fr/en/our-yachts/amel-50/"
       },
       {
-        "name": "SailboatData",
-        "url": "https://sailboatdata.com/sailboat/amel-50/"
+        "name": "Boat test — Yachting World (Pip Hare)",
+        "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
       },
       {
-        "name": "Yachting World review",
-        "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
+        "name": "Boat test (numbers) — Yachting Monthly (Pip Hare)",
+        "url": "https://www.yachtingmonthly.com/reviews/yacht-reviews/amel-50"
+      },
+      {
+        "name": "Boat review — SAIL (Tom Dove)",
+        "url": "https://sailmagazine.com/boats/boat-review-amel-50/"
+      },
+      {
+        "name": "Boat of the Year review — Cruising World",
+        "url": "https://www.cruisingworld.com/story/sailboats/boat-review-amel-50/"
+      },
+      {
+        "name": "On test — YACHT (Jochen Rieker)",
+        "url": "https://www.yacht.de/en/yachts/cruising-yachts/amel-50-on-test-modern-cruising-boat-in-the-50-foot-luxury-class/"
+      },
+      {
+        "name": "Specs — Boat-Specs",
+        "url": "https://www.boat-specs.com/sailing/sailboats/amel/amel-50"
+      },
+      {
+        "name": "Buying/owning guide — Amel School (Bill Rouse)",
+        "url": "https://www.amelschool.com/p/guide-to-acquiring-amel-yacht.html"
+      },
+      {
+        "name": "Atlantic crossing account — Family on the Boat",
+        "url": "https://www.familyontheboat.com/blog/if-you-dont-go-you-dont-know-sailing-across-the-atlantic"
       }
     ],
     "youtube": [
       {
         "name": "Sailing Amazing Grace",
         "url": "https://www.youtube.com/@SailingAmazingGrace",
-        "note": "Owners of Amel 50 hull #100"
+        "note": "Owners of Amel 50 hull #100, circumnavigating full-time"
       },
       {
-        "name": "Sailing Talia",
-        "url": "https://www.youtube.com/watch?v=TrBuYCZdSQ0",
-        "note": "Owners sailing a new Amel 50"
+        "name": "Sailing Mirage — 2-year owner review",
+        "url": "https://www.youtube.com/watch?v=KnzDI3l6rIY",
+        "note": "Candid 'five wishes for next-gen push-button sailing'"
+      },
+      {
+        "name": "Family on the Boat — 'Liberty II'",
+        "url": "https://www.youtube.com/watch?v=EwTu0-GXGBM",
+        "note": "Czech family's Amel 50 circumnavigation (Atlantic crossing documented)"
       },
       {
         "name": "Amel (official)",
-        "url": "https://www.youtube.com/channel/UCYAbSsQcVxNKUHZyBOtCx2Q",
-        "note": "Builder walkthroughs"
+        "url": "https://www.youtube.com/@AmelYachts",
+        "note": "Builder walkthroughs & owner spotlights"
       },
       {
-        "name": "20-min private tour",
-        "url": "https://www.youtube.com/watch?v=wMjCs4pDtyI",
-        "note": "Boatscopy detailed walkthrough"
-      },
-      {
-        "name": "\"Only true single-handed bluewater boat?\"",
-        "url": "https://www.youtube.com/watch?v=Lvb-9gvgiQM",
-        "note": "Review of the couple-friendly systems"
+        "name": "Sailing Unknown — critical test sail",
+        "url": "https://www.youtube.com/watch?v=Fvsg4gMNmXI",
+        "note": "'All hype or true bluewater boat?'"
       }
     ],
     "pros": [
-      "Best-in-class enclosed center cockpit — a fully sheltered helm for cold Patagonia and hot tropics alike.",
-      "All-electric furling and winches mean a smaller/less-strong crew can sail it almost button-only.",
-      "Walk-in watertight engine room with superb access and space for tools/spares.",
-      "Huge stowage and a comfortable, secure liveaboard interior; proven couple's ocean boat."
+      "Best-in-class enclosed hardtop center cockpit — a fully sheltered, all-weather helm for hot trades and cold-weather comfort alike.",
+      "The most genuinely push-button boat here: electric in-mast main, electric genoa + self-tacking staysail, electric winches and bow thruster — a couple sails and reefs it from the seat.",
+      "Class-leading walk-in watertight engine room with stand-up access to every system; a single sea-chest reduces through-hulls.",
+      "Exceptional, secure liveaboard stowage and a luxurious, light-filled, climate-controlled interior — \"never seen a more efficient use of space\" (Cruising World).",
+      "European Yacht of the Year 2018, a deep owners' network (AmelYachtOwners, the Amel school) and famously firm resale.",
+      "Real ocean record: ARC/World-ARC crossings, the Courvoisiers' La Rochelle→Polynesia science voyage, the Nydrles' 19-day Atlantic passage."
     ],
     "cons": [
-      "GRP hull + fixed 2.15 m keel: less suited to rock/ice contact and shallow gunkholing than the aluminium boats.",
-      "Fixed deep draft limits access to thin-water anchorages.",
-      "Mostly at/above budget — getting one fully outfitted under $1M is tight.",
-      "High freeboard makes dog boarding harder (needs a ramp/sling), and it leans heavily on electric systems."
+      "More motorsailer than sailboat in light air — modest sail area on a ~19-t hull means \"it will spend much time under power\" (Ralph Naranjo, Cruising World).",
+      "Push-pull cable steering gives \"little feeling\" (Pip Hare); high windage makes it tricky at low speed and effectively bow-thruster-dependent in a marina.",
+      "GRP hull + fixed 2.15 m iron-ballast keel: no beaching/shoal access, no ice capability, and a hard grounding is consequential — not an expedition/high-latitude boat (that's the Garcia).",
+      "Modest stability metrics for serious bluewater: ~28% iron (not lead) ballast and an unpublished AVS — critics rate righting moment below heavier-ballasted peers (e.g. Hallberg-Rassy 44 ~40%).",
+      "Systems-heavy and proprietary: \"the single biggest maintenance challenge is the sheer number of systems\" (Bill Rouse), with some \"only made in France\" parts slow to source when remote.",
+      "Documented teething/owner issues: early aft-cabin engine noise (since fixed), in-mast furling-motor seizures, halyard-wrap forestay/mast risk, and Atlantic-crossing gear failures (autopilot, boom traveller) — survey the iron keel on aging hulls."
     ],
     "awards": [
-      "European Yacht of the Year 2018"
+      "European Yacht of the Year 2018 — Luxury Cruiser (winner)",
+      "SAIL Best Boats 2020 — Best Monohull Cruising Boat 41–50 ft",
+      "Cruising World Boat of the Year 2020 — Full-Size Cruiser 45–55 ft (runner-up)"
     ],
     "endorsements": [
       {
-        "who": "Yachting World (Toby Hodges)",
-        "note": "\"These French bluewater cruisers are like no others on the market\" — sails well and handled comfortably shorthanded.",
+        "who": "Yachting World (Pip Hare)",
+        "note": "\"I left surprised and ever so slightly in love\" — punching upwind in a December gale \"oblivious to the weather raging outside,\" though the push-pull helm \"has little feeling.\"",
         "url": "https://www.yachtingworld.com/boat-test/amel-50-review-120818"
       },
       {
-        "who": "Sailing SV Delos",
-        "note": "Circumnavigated ~13 years on an Amel Super Maramu, crediting it as a secure shorthanded ocean boat.",
-        "url": "https://svdelos.com/sailing-travel-blog/amel-super-maramu-2000-sailing-sv-delos/"
+        "who": "Cruising World (Ralph Naranjo, BOTY judge)",
+        "note": "\"A well-built vessel that, to me, is more of a motorsailer than a traditional cruising sailboat; it will spend much time under power\" — and iron rather than lead ballast trades away righting moment.",
+        "url": "https://www.cruisingworld.com/story/sailboats/boat-review-amel-50/"
       },
       {
-        "who": "Sailing Zingaro (James Evenson)",
-        "note": "Features the Amel Super Maramu as a benchmark sub-$300K bluewater boat.",
-        "url": "https://www.youtube.com/watch?v=e-9nFISFFhU"
+        "who": "Amel School (Bill Rouse, 40,000+ Amel nm)",
+        "note": "\"The single biggest maintenance challenge on any Amel is the sheer number of systems\"; certain \"only made in France\" parts are hard to source when cruising remotely.",
+        "url": "https://www.amelschool.com/p/guide-to-acquiring-amel-yacht.html"
+      },
+      {
+        "who": "YACHT (Jochen Rieker)",
+        "note": "\"The most modern cruising boat in the 50-foot luxury class. No competitor offers the crew more protection and comfort in the cockpit\" — an absolute recommendation for long blue-water cruises.",
+        "url": "https://www.yacht.de/en/yachts/cruising-yachts/amel-50-on-test-modern-cruising-boat-in-the-50-foot-luxury-class/"
       }
     ],
     "badge": "EYOTY 2018",
     "own": {
-      "mastStep": "n/a (unverified) — robust offshore alloy rig with electric in-mast furling",
-      "keelRudder": "Bolted-on cast-iron ballast keel · twin balanced spade rudders (with an inspection port)",
-      "complexity": "High — electric in-mast main + twin electric headsail furlers, powered winches, retractable bow thruster, genset, watermaker, A/C, washer/dryer, dishwasher, 24V system, single-through-hull 'sea chest.'",
-      "maintain": "Mixed — an outstanding stand-up engine room (lift the cockpit-table floor) and the sea-chest make leak isolation simple; but the many integrated, proprietary systems are the burden — deep work wants Amel-trained techs/factory parts. Day-to-day operation is genuinely easy.",
-      "partsText": "Active — Amel (La Rochelle), owned by Groupe Beneteau since 2017 (strong backing). Mainstream Volvo engine + conventional shaft. Amel-specific furling/sea-chest/joinery are proprietary via the yard. Moderate parts risk.",
-      "problems": "Limited long-term data (since 2017). Watch: in-mast furling drum-bearing flushing and foil drive-bolt wear with frequent furling; furling-motor issues in owner threads; the iron keel is a deliberate righting-moment/corrosion trade-off; motorsailer-like, so engine hours accrue.",
-      "sentiment": "Rated a superbly built, genuinely ocean-ready 'complete package' run from a sheltered enclosed helm. Downsides: expensive, heavy in light air, and the enclosed helm isolates the helmsman from conditions (some dislike this).",
+      "mastStep": "Keel-stepped (not confirmed from a primary source) — proprietary four-compartment extruded-alloy spar with electric in-mast furling; carbon mast optional on later (Evolution) hulls",
+      "keelRudder": "Bolted cast-iron (not lead) fin keel with bulb on a keel-sump stub · TWIN spade rudders driven by push-pull cables · vacuum-infused GRP hull (solid glass below the waterline, foam-cored topsides) with 4–5 watertight compartments and a single raw-water sea-chest",
+      "complexity": "High — electric in-mast main + electric genoa + self-tacking staysail furlers, powered winches, retractable bow thruster, genset, watermaker, A/C, washer-dryer, a 24V system and a single 'sea-chest' through-hull. Day-to-day operation is genuinely easy; the depth of integrated systems is the burden.",
+      "maintain": "Mixed. The stand-up engine room and single sea-chest make access and leak-isolation outstanding, and day-to-day use is easy — but the many proprietary, integrated systems (in-mast furling, push-pull steering, electric furlers) want Amel-trained techs and factory parts for deep work, and 'only made in France' spares can be slow to reach remote cruising grounds.",
+      "partsText": "Amel remains an active La Rochelle builder (now part of Groupe Beneteau) with first-class factory support and a strong owners' network; mainstream Volvo engine and a conventional shaft (the 50 dropped the old Aquadrive). The proprietary furling/steering/sea-chest systems route through the yard — moderate parts risk, lower than the niche aluminium builders.",
+      "problems": "Limited but accumulating field data (since 2017). Documented: early hulls measured a loud 83 dB in the aft cabin under power (Amel fixed it with added insulation + a new prop, to ~70 dB); in-mast furling-motor gearbox seizure from missing grease (a recurring owners' thread); at least one Amel 50 dismasted when a halyard wrapped the genoa furler in light air, with several forestay-damage cases traced to slack light-air halyards; an Atlantic-crossing owner ('Liberty II') lost the primary autopilot and tore the boom traveller from the deck in a squall; an 'A50 mast/boom corrosion' owners' thread exists (carbon mast offered as an alternative). Iron keel = survey the bolts/stub on aging hulls; Bill Rouse warns the used market hides total-loss rebuilds and grounding damage — survey hard.",
+      "sentiment": "Rated a superbly built, genuinely ocean-ready 'complete package' you run from a sheltered enclosed helm, with the easiest short-handing in its class and famously firm resale. The honest minority view: expensive, heavy in light air ('motorsailer'), the enclosed helm detaches you from the boat's feel, and a couple of testers/owners found the finish less plush than the price implies.",
       "communities": [
         {
           "name": "Amel Owners Group (Groups.io)",
@@ -4929,9 +4966,11 @@
         }
       ],
       "risks": [
-        "High systems complexity — many proprietary, integrated systems to learn and repair",
-        "Some maintenance needs Amel-trained service / factory spares (costly/slow when remote)",
-        "High purchase & running costs (offset by a strong owners' community + the Amel owners' school)"
+        "Light-air performance is modest — it motors a lot; not for those who want engaged sailing",
+        "High, proprietary systems complexity — Amel-trained service & French factory spares for deep work",
+        "GRP + fixed deep iron keel — no beaching/ice; a hard grounding is consequential; survey the keel on older hulls",
+        "Modest published stability data (unpublished AVS, ~28% iron ballast) — solid within its temperate/tropical envelope, less margin than heavier-ballasted peers",
+        "High purchase & running costs — offset by exceptional resale and an outstanding owners' community/school"
       ],
       "scores": {
         "maintain": 3,
