@@ -159,7 +159,7 @@ b.endorsements = [
 
 // ---- own (mutate fields in place) ----
 b.own.mastStep =
-  "Keel-stepped (not confirmed from a primary source) — proprietary four-compartment extruded-alloy spar with electric in-mast furling; carbon mast optional on later (Evolution) hulls";
+  "Deck-stepped (per Boat-Specs.com) — the proprietary four-compartment extruded-alloy spar sits on deck over an internal compression structure that carries rig loads into the hull; electric in-mast furling; carbon mast optional on later (Evolution) hulls";
 b.own.keelRudder =
   "Bolted cast-iron (not lead) fin keel with bulb on a keel-sump stub · TWIN spade rudders driven by push-pull cables · vacuum-infused GRP hull (solid glass below the waterline, foam-cored topsides) with 4–5 watertight compartments and a single raw-water sea-chest";
 b.own.complexity =
