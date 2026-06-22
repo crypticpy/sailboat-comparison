@@ -1,0 +1,61 @@
+{
+  "id": "boreal52",
+  "name": "Boréal 52",
+  "_provenance": "Field-report compilation (2026-06) from web sources verified by hand: magazine sea-trials, owner blogs and vlogs, and builder press. Not the full research pipeline — climate, stability, storm and refit scoring are intentionally omitted rather than estimated.",
+  "research": {
+    "id": "boreal52",
+    "overall_confidence": 0.4,
+    "facts": [],
+    "sentiment": {
+      "praise": [
+        "Surprisingly nimble in light airs for an ~18-tonne aluminium expedition boat (Yachting World test)",
+        "Go-anywhere brushed-aluminium build that can take the ground and dry out upright",
+        "Easy short-handed handling with well thought-out control-line runs"
+      ],
+      "complaints": [
+        "Shallow centreboard and rudders trade some ultimate upwind crispness for go-anywhere draft",
+        "Dedicated Boréal 52 owner trip-reports/vlogs are still sparse (newer, low-volume model)"
+      ],
+      "known_issues": [],
+      "forums": [
+        {
+          "title": "Boréal 52 boat test — Yachting World",
+          "url": "https://www.yachtingworld.com/yachts-and-gear/boreal-52-boat-test-62368"
+        }
+      ]
+    },
+    "refit_items": [],
+    "provisioning_specific": [],
+    "gaps": [
+      "Builder publishes no AVS/STIX stability curve.",
+      "Dedicated Boréal 52 passage logs remain thin — the Boréal 47.2 logbook on this site holds the line's broader high-latitude record (Antarctica, Cape Horn, NW-bound owners).",
+      "Climate, stability and refit scoring not yet run through the research pipeline."
+    ]
+  },
+  "verify": {
+    "id": "boreal52",
+    "cleaned_facts": [],
+    "removed": [],
+    "fabrication_flags": [],
+    "verified_confidence": 0.4,
+    "verdict": "Field-report compilation from verified web sources; full fact-verification and climate/refit scoring deferred to the research pipeline."
+  },
+  "scores": {
+    "id": "boreal52",
+    "provisioning_specific": [],
+    "field_reports": [
+      {
+        "title": "Surprisingly nimble at 18 tonnes (Yachting World sea-trial)",
+        "theme": "handling",
+        "region": "Sea trial — light airs",
+        "account": "Yachting World's test of the Boréal 52 found that at roughly 18 tonnes the boat was \"surprisingly nimble, even in the light airs of our test\" and \"a very easy boat to handle with well thought-out control line runs.\" The aft daggerboards are canted (14°, with 4.5° incidence) to balance the helm and reduce autopilot load, and the centreboard can be lifted downwind to cut drag while the daggerboards hold directional stability. The review frames the 52 as the line's biggest 'sailor's off-roader' — built to go anywhere and head-butt the conditions rather than to be quick.",
+        "conditions": "Light airs",
+        "source": {
+          "title": "Boréal 52 boat test: 'the sailor's off-roader' — Yachting World",
+          "url": "https://www.yachtingworld.com/yachts-and-gear/boreal-52-boat-test-62368"
+        },
+        "confidence": 0.7
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "garcia52",
+  "name": "Garcia Exploration 52",
+  "_provenance": "Field-report compilation (2026-06) from web sources verified by hand: magazine sea-trials, owner blogs and vlogs, and builder press. Not the full research pipeline — climate, stability, storm and refit scoring are intentionally omitted rather than estimated.",
+  "research": {
+    "id": "garcia52",
+    "overall_confidence": 0.4,
+    "facts": [],
+    "sentiment": {
+      "praise": [
+        "Comfortable, sea-kindly motion in a seaway",
+        "Proven high-latitude record — owner 'Lifexplorer' ran a decade from Svalbard (80°N) to Antarctica (62°S)",
+        "Respectable ~9 kn reaching under an asymmetric (Yachting World test)"
+      ],
+      "complaints": [
+        "Soft and 'wallowing' in light air — ~8 kn true dropped it to ~4.5 kn (Yachting World)",
+        "Can lose grip on the deliberately-shallow twin rudders if over-pressed (Yachting World)",
+        "Conservative sail plan (SA/D ~17) — capability and beaching draft over outright speed"
+      ],
+      "known_issues": [],
+      "forums": [
+        {
+          "title": "Garcia Exploration 52 test — Yachting World",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/garcia-exploration-52-jimmy-cornell"
+        },
+        {
+          "title": "Lifexplorer — Garcia Exploration 52 owner blog",
+          "url": "https://lifexplorer.navy/"
+        }
+      ]
+    },
+    "refit_items": [],
+    "provisioning_specific": [],
+    "gaps": [
+      "Refit/cost projection not yet itemised for this hull.",
+      "Climate scores (cold/tropic) not yet run through the rubric — see the field reports below for real high-latitude evidence.",
+      "Builder publishes no AVS/STIX stability curve."
+    ]
+  },
+  "verify": {
+    "id": "garcia52",
+    "cleaned_facts": [],
+    "removed": [],
+    "fabrication_flags": [],
+    "verified_confidence": 0.4,
+    "verdict": "Field-report compilation from verified web sources; full fact-verification and climate/refit scoring deferred to the research pipeline."
+  },
+  "scores": {
+    "id": "garcia52",
+    "provisioning_specific": [],
+    "field_reports": [
+      {
+        "title": "9 kn reaching, but 'lose grip on the rudders' if over-pressed (Yachting World)",
+        "theme": "handling",
+        "region": "Sea trial — Force 3–4",
+        "account": "Yachting World's test recorded 6–6.5 kn at 45–50° apparent in Force 3–4; under an asymmetric on a reach (100° AWA, 12–15 kn) it averaged \"a respectable 9 knots,\" max 9.5. In just 8 kn of breeze it fell to 4.5 kn, described as \"wallowing.\" The helm felt \"more neutral and purposeful than particularly rewarding,\" and the tester warned that if you \"heat the Garcia Exploration 52 up too much … you can lose grip on the rudders\" — the twin rudders are deliberately shallow (1.15 m) for beaching, and the sail-area/displacement ratio is a conservative 17.1. Capability over speed.",
+        "conditions": "Force 3–4; 8–15 kn true",
+        "source": {
+          "title": "Garcia Exploration 52 test: 'the sailing equivalent of a 4x4 off-roader' — Yachting World",
+          "url": "https://www.yachtingworld.com/reviews/boat-tests/garcia-exploration-52-jimmy-cornell"
+        },
+        "confidence": 0.75
+      },
+      {
+        "title": "A decade in the ice: 80°N to 62°S aboard 'Lifexplorer'",
+        "theme": "region",
+        "region": "Svalbard / Arctic to the Antarctic Peninsula",
+        "account": "Italian owner Alberto's Exploration 52 'Lifexplorer' (delivered April 2017) ran a decade-long high-latitude programme from Svalbard at 80°N to the Antarctic Peninsula at 62°S, documented on the owner blog at lifexplorer.navy. Garcia's own write-up of the boat notes a 5,000-nautical-mile Arctic voyage where \"performance and comfort matched expectations,\" and praises the aluminium hull, insulation and range for polar work.",
+        "conditions": "High latitudes, both poles",
+        "source": {
+          "title": "Lifexplorer — 10 years in extreme latitudes aboard a Garcia Exploration 52 (Garcia Yachts)",
+          "url": "https://www.garciayachts.com/en/garcia-magazine/lifexplorer-10-years-of-sailing-in-extreme-latitudes-aboard-a-garcia-exploration-52"
+        },
+        "confidence": 0.7
+      },
+      {
+        "title": "Pete Goss: how the 52 'shrinks the world' for a couple",
+        "theme": "passage",
+        "region": "Short-handed ocean cruising",
+        "account": "British ocean veteran Pete Goss (250,000+ nautical miles) recorded sailing sessions aboard the Garcia Exploration 52, focusing on how a boat like this 'shrinks the world' and makes serious ocean cruising manageable for a short-handed couple. Useful as an experienced-sailor's on-the-water impression rather than a numbers-led boat test.",
+        "conditions": "",
+        "source": {
+          "title": "Garcia Exploration 52 with Pete Goss (YouTube)",
+          "url": "https://www.youtube.com/watch?v=DZbvQ84eQ2g"
+        },
+        "confidence": 0.6
+      },
+      {
+        "title": "A 'true ship' — Reisberg's walkthrough (design, not a sail test)",
+        "theme": "liveaboard",
+        "region": "Walkthrough / liveaboard",
+        "account": "Lars Reisberg's no-frills-sailing walkthrough is an in-depth tour of the Exploration 52's construction and interior rather than a sea-trial. It celebrates the robust aluminium build, the navigation station and heating, and frames the boat as a 'true ship' that deliberately trades outright speed for seaworthiness and durability — a good liveaboard/layout reference to pair with the sailing accounts above.",
+        "conditions": "",
+        "source": {
+          "title": "Garcia Exploration 52 review & walkthrough — no-frills-sailing (Lars Reisberg)",
+          "url": "https://no-frills-sailing.com/garcia-exploration-52-review-walkthrough/"
+        },
+        "confidence": 0.55
+      }
+    ]
+  }
+}

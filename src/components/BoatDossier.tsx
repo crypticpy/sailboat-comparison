@@ -532,7 +532,7 @@ export default function BoatDossier({
               </div>
             </div>
 
-            {research ? (
+            {research && research.scores.cold_score ? (
               <>
                 <div className="msec">
                   <SecHead>
@@ -591,6 +591,7 @@ export default function BoatDossier({
               <ResearchEmpty
                 pending={researchPending}
                 researched={researched}
+                partial={!!research}
                 what="climate scores & storm verdict"
               />
             )}
@@ -712,7 +713,11 @@ export default function BoatDossier({
         {tab === "ownership" && (
           <>
             <OwnershipBlock boat={b} />
-            {research ? (
+            {research &&
+            research.research.sentiment.praise.length +
+              research.research.sentiment.complaints.length +
+              research.research.sentiment.known_issues.length >
+              0 ? (
               <div className="msec">
                 <SecHead>💬 Owner sentiment — from the field</SecHead>
                 <SentimentSplit
@@ -758,6 +763,7 @@ export default function BoatDossier({
               <ResearchEmpty
                 pending={researchPending}
                 researched={researched}
+                partial={!!research}
                 what="owner sentiment"
               />
             )}
@@ -780,7 +786,7 @@ export default function BoatDossier({
 
         {tab === "costs" && (
           <>
-            {research ? (
+            {research && research.scores.refit_projection?.by_item?.length ? (
               <div className="msec">
                 <SecHead>
                   💸 Buy-today → passage-ready refit (our estimate)
@@ -814,6 +820,7 @@ export default function BoatDossier({
               <ResearchEmpty
                 pending={researchPending}
                 researched={researched}
+                partial={!!research}
                 what="the refit projection"
               />
             )}
@@ -889,7 +896,7 @@ export default function BoatDossier({
 
         {tab === "evidence" && (
           <>
-            {research ? (
+            {research && research.verify.cleaned_facts.length > 0 ? (
               <div className="msec">
                 <SecHead>
                   🔬 Cited evidence — {research.verify.cleaned_facts.length}{" "}
@@ -915,6 +922,7 @@ export default function BoatDossier({
               <ResearchEmpty
                 pending={researchPending}
                 researched={researched}
+                partial={!!research}
                 what="cited evidence"
               />
             )}
@@ -1019,18 +1027,24 @@ function ResearchEmpty({
   pending,
   researched,
   what,
+  partial = false,
 }: {
   pending: boolean;
   researched: boolean;
   what: string;
+  /** True when the boat IS researched but this particular section wasn't compiled
+   *  (e.g. a field-reports-only record) — an honest "not yet" rather than an error. */
+  partial?: boolean;
 }) {
   return (
     <div className="research-empty">
       {pending
         ? `Loading ${what}…`
-        : researched
-          ? `Could not load ${what}.`
-          : `Deep research for ${what} covers our top 15 boats — this one isn't in that set yet.`}
+        : partial
+          ? `${what} isn't part of this boat's research yet — see the logbook accounts in the Ownership tab.`
+          : researched
+            ? `Could not load ${what}.`
+            : `Deep research for ${what} covers our top 15 boats — this one isn't in that set yet.`}
     </div>
   );
 }
