@@ -65,6 +65,9 @@ export default function Hero({
     <header className="hero">
       <div className="wrap">
         <div className="hero-nav">
+          <Link to="/scenarios" className="hero-navlink">
+            🧭 Decision scenarios by budget →
+          </Link>
           <Link to="/budget" className="hero-navlink">
             🧮 Budget &amp; voyage planner →
           </Link>

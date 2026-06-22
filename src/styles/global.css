@@ -2581,6 +2581,8 @@ footer a {
 .hero-nav {
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
   margin-bottom: 6px;
 }
 .hero-navlink {
@@ -3639,4 +3641,238 @@ footer a {
 .fld input#fleet-search::placeholder {
   color: var(--muted);
   opacity: 0.85;
+}
+
+/* ── Decision scenarios (/scenarios) ───────────────────────────────────────── */
+.scn-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.scn-tier {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+  padding: 22px 22px 18px;
+  box-shadow: 0 1px 0 rgba(11, 32, 48, 0.04);
+}
+.scn-tier-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+}
+.scn-tier-headl {
+  flex: 1 1 360px;
+  min-width: 0;
+}
+.scn-scenario {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: var(--brass-deep);
+}
+.scn-tier h2 {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.6vw, 27px);
+  line-height: 1.1;
+  margin: 5px 0 9px;
+  color: var(--ink);
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.scn-ceiling {
+  font-family: var(--font-body, inherit);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--ink), var(--ink-2));
+  border-radius: 20px;
+  padding: 4px 13px;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+.scn-thesis {
+  max-width: 72ch;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0;
+}
+.scn-tier-acts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+.scn-span {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.scn-board-btn {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brass-deep), var(--brass));
+  border: none;
+  border-radius: 9px;
+  padding: 9px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: filter var(--t-fast) var(--ease);
+}
+.scn-board-btn:hover {
+  filter: brightness(1.08);
+}
+.scn-roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.scn-card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: linear-gradient(180deg, var(--paper), var(--paper-2));
+  padding: 14px 14px 12px;
+}
+.scn-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.scn-card-name {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.15;
+}
+.scn-card-name:hover {
+  color: var(--brass-deep);
+}
+.scn-pill {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brass-deep);
+  background: rgba(184, 137, 59, 0.14);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+.scn-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.scn-price {
+  font-weight: 700;
+  color: var(--ink);
+}
+.scn-card-scores {
+  display: flex;
+  gap: 8px;
+}
+.scn-score {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+  background: rgba(11, 32, 48, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 10px 5px;
+  flex: 1 1 0;
+}
+.scn-score i {
+  font-family: var(--font-body, inherit);
+  font-size: 9.5px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.scn-score.scn-g {
+  color: var(--good);
+}
+.scn-score.scn-y {
+  color: var(--brass-deep);
+}
+.scn-score.scn-o {
+  color: #b06a2c;
+}
+.scn-score.scn-r {
+  color: #a23b34;
+}
+.scn-why {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+  margin: 1px 0 0;
+}
+.scn-card-link {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--brass-deep);
+  text-decoration: none;
+  margin-top: auto;
+  padding-top: 2px;
+}
+.scn-card-link:hover {
+  color: var(--brass);
+}
+.scn-caveat {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted);
+  background: rgba(184, 137, 59, 0.07);
+  border-left: 3px solid var(--brass);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 14px;
+  margin: 16px 0 0;
+}
+.scn-caveat b {
+  color: var(--brass-deep);
+}
+.scn-inline-link {
+  color: var(--brass-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+.scn-inline-link:hover {
+  color: var(--brass);
+}
+@media (max-width: 640px) {
+  .scn-tier-acts {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
